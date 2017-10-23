@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/project/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["Project Server"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-ProjectServer"
