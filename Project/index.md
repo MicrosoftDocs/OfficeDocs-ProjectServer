@@ -1,1 +1,1 @@
-# Welcome to OfficeDocs-ProjectServer!
+# Welcome!
