@@ -14,7 +14,7 @@ description: "Summary: Use the Daily Schedule Backup settings page in SharePoint
 ---
 
 # Daily Schedule Backup (Project Server 2013)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use the Daily Schedule Backup settings page in SharePoint Central Administration to schedule daily backups of Project Server 2013 objects.
   
 This article describes how to use the Daily Schedule Backup settings page to select the Project Server 2013 objects that you would like to schedule for back up on a daily basis. This procedure does not back up the physical files of a database (.mdb), but creates backups of specific items in the database. These items are backed up from the Published section to the Archive section in the Project Web App database. 

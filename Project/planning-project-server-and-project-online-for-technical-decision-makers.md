@@ -16,7 +16,7 @@ description: "Summary: Learn about the technical planning decisions you have to 
 ---
 
 # Planning Project Server and Project Online for technical decision makers
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn about the technical planning decisions you have to make when deploying Project Server or Project Online.
   
 Project Web App in Project Server 2016 and Project Web App in Project Online are very similar, but there are some key differences that you should think about when deciding whether to use Project Server or Project Online.

@@ -14,7 +14,7 @@ description: "Summary: After you upgrade to Project Server 2013, you must addres
 ---
 
 # Post-upgrade tasks (Project Server 2013)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** After you upgrade to Project Server 2013, you must address additional tasks.
   
 After upgrading to Project Server 2010, you must address two post-upgrade tasks:

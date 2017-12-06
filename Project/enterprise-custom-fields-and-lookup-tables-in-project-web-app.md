@@ -13,7 +13,7 @@ description: "Summary: Use enterprise custom fields and lookup tables in Project
 ---
 
 # Enterprise custom fields and lookup tables in Project Web App
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use enterprise custom fields and lookup tables in Project Web App to customize Project Server data.
   
 In Project Web App, you can use Enterprise Custom Fields to help establish consistency across all the organization's projects. That way that you can ensure that fields and associated lookup tables are used in the same manner for all projects, tasks, resources, and assignments in a given instance of Project Web App.

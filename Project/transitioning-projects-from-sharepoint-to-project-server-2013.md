@@ -13,7 +13,7 @@ description: "Summary: Learn how to increase the Project Web App functionality l
 ---
 
 # Transitioning projects from SharePoint to Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn how to increase the Project Web App functionality level for a project as project management needs become more complex.
   
 SharePoint Server and Project Server 2013 provide the ability to incrementally increase the project management capabilities and features for a project as the project grows and becomes more complex. Projects can start as a simple SharePoint task list and gradually grow into a full enterprise project using all the features available in Project Server.

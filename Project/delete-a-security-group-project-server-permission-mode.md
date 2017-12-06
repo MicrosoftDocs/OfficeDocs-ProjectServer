@@ -14,7 +14,7 @@ description: "Summary: Delete custom security groups by using the Manage Groups 
 ---
 
 # Delete a security group (Project Server permission mode)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Delete custom security groups by using the Manage Groups page in Project Web App Settings.
   
 In Project Server permission mode, if you no longer need a security group in Project Web App, you can delete it. Before you delete a group, ensure that no other users or groups are dependent on it for required permissions. 

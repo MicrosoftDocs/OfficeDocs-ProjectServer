@@ -14,7 +14,7 @@ description: "Summary: Performance and capacity planning strategy is a vital par
 ---
 
 # Capacity planning strategy for Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Performance and capacity planning strategy is a vital part of planning a Project Server deployment.
   
 This article and related articles contain information and recommendations for how to determine the hardware requirements for a Project Server farm.

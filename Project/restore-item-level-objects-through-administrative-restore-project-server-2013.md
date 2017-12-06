@@ -14,7 +14,7 @@ description: "Summary: Use the Administrative Restore page in Central Administra
 ---
 
 # Restore item-level objects through Administrative Restore (Project Server 2013)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use the Administrative Restore page in Central Administration to restore Project Server 2013 objects.
   
 This article describes how to restore specific project items in Project Web App. This procedure does not restore the physical files of a database (.mdb), but restores backups of specific items in the database. These items were backed up to the Archive section of the Project Web App database through the Administrative Backup page in SharePoint Central Administration. For more information about item level-backup in Project Server 2013, see [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md). 

@@ -14,7 +14,7 @@ description: "Summary: This article describes the Active Directory topologies th
 ---
 
 # Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** This article describes the Active Directory topologies that are supported for synchronization with the Enterprise Resource Pool in Project Server 2013.
   
 When planning to synchronize your users from Active Directory groups to resources in your Project Web App Enterprise Resource Pool in Project Server 2013, it is important to understand that only certain Active Directory topologies are supported. This article describes the following topologies:

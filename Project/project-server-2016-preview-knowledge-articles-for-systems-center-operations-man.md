@@ -14,7 +14,7 @@ description: "Summary: Learn how to resolve alerts about Project Server in the S
 ---
 
 # Project Server 2016 Preview knowledge articles for Systems Center Operations Manager
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn how to resolve alerts about Project Server in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
   
 The articles in this section are knowledge articles for Project Server 2013 that appear in the SharePoint Server 2016 management pack (MP). Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Project Server 2013.

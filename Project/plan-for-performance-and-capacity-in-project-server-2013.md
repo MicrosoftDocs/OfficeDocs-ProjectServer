@@ -14,7 +14,7 @@ description: "Summary: Read articles about how to plan for performance and capac
 ---
 
 # Plan for performance and capacity in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Read articles about how to plan for performance and capacity in Project Server 2013.
   
 This section covers capacity planning for Project Server 2013

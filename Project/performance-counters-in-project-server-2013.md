@@ -14,7 +14,7 @@ description: "Summary: Use performance counters to monitor the health of a Proje
 ---
 
 # Performance counters in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use performance counters to monitor the health of a Project Server 2013 farm.
   
 To help you determine when you have to scale up or scale out your Project Server 2013 farm, use performance counters cited in this article to monitor the health of the system. The information in the following tables can be used to determine which performance counters to monitor, and to which process the performance counters should be applied:

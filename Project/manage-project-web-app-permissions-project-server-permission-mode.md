@@ -14,7 +14,7 @@ description: "Summary: Project Web App global and category permissions can be di
 ---
 
 # Manage Project Web App permissions (Project Server permission mode)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done.
   
 In Project Server permission mode, you can use the Project Web App Permissions page to control which global and category permissions are enabled on a given Project Web App instance. An administrator can use the Project Web App Permissions page to deny access to all Project Web App users for a particular feature in Project Professional or a Project Web App instance. If a Project Web App permission is disabled on this page, the equivalent global or category permission is disabled for users throughout Project Web App. All permissions on this page are enabled by default.

@@ -13,7 +13,7 @@ description: "Summary: Create custom security groups by using the Manage Groups 
 ---
 
 # Create security groups in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Create custom security groups by using the Manage Groups page in Project Web App Settings.
   
 Seven default security groups are available in Project Web App in Project Server permission mode. To better meet the security requirements of your own organization, you can also create custom groups by using the Manage Groups page on the Project Web App Server Settings page. See [To create a security group](#CreateAGroup).

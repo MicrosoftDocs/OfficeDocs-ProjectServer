@@ -14,7 +14,7 @@ description: "Summary: Add a new SharePoint Server 2013 application server with 
 ---
 
 # Add an application server to a farm in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Add a new SharePoint Server 2013 application server with Project Server 2013 to an existing farm.
   
 To add a Project Server 2013 application server to an existing farm, you must do the following:

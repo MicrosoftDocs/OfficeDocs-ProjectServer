@@ -14,7 +14,7 @@ description: "Summary: The Additional Server Settings page is part of operation 
 ---
 
 # Additional Server Settings (Project Server 2013 settings)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** The Additional Server Settings page is part of operation policies for Project Server 2013 Server Settings.
   
 The Additional Server Settings page is available in the **Operational Policies** section of the Project Server 2013 Server Settings page. The Additional Server Settings are in SharePoint Central Administration and can only be accessed if you are a farm administrator. For more information about related administrative settings, see[Operational Policies settings in Project Web App](http://technet.microsoft.com/library/4176c89e-c8ed-4ac3-b4d8-f611a3586f06.aspx).

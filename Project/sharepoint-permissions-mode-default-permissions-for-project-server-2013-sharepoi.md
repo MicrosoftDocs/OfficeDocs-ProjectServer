@@ -14,7 +14,7 @@ description: "Summary: Learn about the corresponding Project Server permissions 
 ---
 
 # SharePoint Permissions Mode default permissions for Project Server 2013 SharePoint groups
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn about the corresponding Project Server permissions that SharePoint groups receive in SharePoint Permission Mode in Project Server 2013.
   
 SharePoint Permission Mode creates SharePoint groups that directly correspond to the default security groups found in Project Permission Mode. These default security groups include the following: 

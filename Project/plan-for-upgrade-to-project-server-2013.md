@@ -15,7 +15,7 @@ description: "Summary: When you upgrade to Project Server 2013, primary things t
 ---
 
 # Plan for upgrade to Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** When you upgrade to Project Server 2013, primary things to consider include system requirements and your current environment.
   
 When you plan to upgrade to Project Server 2013 from a previous version of Project Server, it is important to consider the following planning areas that are key in ensuring a successful upgrade of your environment:

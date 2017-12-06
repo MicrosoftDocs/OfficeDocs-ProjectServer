@@ -16,7 +16,7 @@ description: "Summary: Learn how to plan projects, resources, and custom fields 
 ---
 
 # Plan the project life cycle in Project Web App
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn how to plan projects, resources, and custom fields for new projects, and how to archive completed projects in Project Web App.
   
 There are many methodologies and systems that effectively manage a project life cycle. This article does not advocate for any one of these over another. This article is written for Project Server administrators, and it provides a list of project creation, maintenance, and archival activities. These tasks are general and will be the same, or at least similar, regardless of the methodology being used by your organization. Planning these activities can help ensure that projects are being managed in a way that is consistent with the purpose of your organization and can foster a satisfactory experience for the end user. This article alerts those who are responsible for planning the deployment and configuration of Project Server that some choices will have to be made that relate to these features.

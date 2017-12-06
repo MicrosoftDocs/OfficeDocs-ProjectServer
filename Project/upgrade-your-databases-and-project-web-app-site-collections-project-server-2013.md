@@ -15,7 +15,7 @@ description: "Summary: How to upgrade your required Project Server 2010 database
 ---
 
 # Upgrade your databases and Project Web App site collections (Project Server 2013)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** How to upgrade your required Project Server 2010 databases and your Project Web App site collection to Project Server 2013.
   
 This article is one is a series of articles for upgrade to Project Server 2013. We recommend that you read the following articles before you try any procedures in this article:

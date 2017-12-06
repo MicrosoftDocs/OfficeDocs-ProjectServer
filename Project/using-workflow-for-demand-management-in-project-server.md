@@ -13,7 +13,7 @@ description: "Summary: Learn about phases, stages, enterprise project types, and
 ---
 
 # Using workflow for demand management in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management.
   
 This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](http://technet.microsoft.com/library/4a3a3fb3-89bc-4dc7-8f27-6da7dabfa0de.aspx).

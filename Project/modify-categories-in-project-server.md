@@ -14,7 +14,7 @@ description: "Summary: Edit security categories by using the Manage Categories p
 ---
 
 # Modify categories in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Edit security categories by using the Manage Categories page in Project Web App Settings.
   
 In Project Web App, you can modify an existing category from the Manage Categories page on the Project Web App Server Settings page. You might want to do this, for example, if an existing category has to be updated for new projects and resources.

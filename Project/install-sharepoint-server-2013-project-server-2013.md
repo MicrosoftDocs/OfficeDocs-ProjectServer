@@ -14,7 +14,7 @@ description: "Summary: Install SharePoint Server 2013 and create a server farm p
 ---
 
 # Install SharePoint Server 2013 (Project Server 2013)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Install SharePoint Server 2013 and create a server farm prior to installing Project Server 2013.
   
 Before you can install Project Server 2013, you must install SharePoint Server 2013 and create a SharePoint Server 2013 farm. You must also start the State Service on the SharePoint farm.
