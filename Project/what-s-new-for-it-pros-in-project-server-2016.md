@@ -209,5 +209,5 @@ In Project Server 2016, you can easily create a new project through the Get Star
 
 #### 
 
-[New and improved features in SharePoint Server 2016 Beta 2](http://technet.microsoft.com/library/e81557fb-5046-4a67-8ec8-fdfda648af68.aspx)
+[New and improved features in SharePoint Server 2016](http://technet.microsoft.com/library/e81557fb-5046-4a67-8ec8-fdfda648af68.aspx)
 
