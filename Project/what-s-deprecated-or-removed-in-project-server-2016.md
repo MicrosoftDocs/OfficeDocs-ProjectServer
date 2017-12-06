@@ -16,7 +16,6 @@ description: "Learn what has been deprecated or removed in Project Server 2016."
 ---
 
 # What's deprecated or removed in Project Server 2016
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
 Learn what has been deprecated or removed in Project Server 2016.
   
 This article describes features and functionality that have been removed in Project Server 2016 that had been previously available in Project Server 2013.
@@ -51,7 +50,6 @@ The My Tasks and associated Exchange Task Sync features have been removed in Sha
 
 The Project class in the PSI is not supported in Project Server 2016. For all new development, use the [Project Client Side Object Model (CSOM)](http://go.microsoft.com/fwlink/p/?LinkId=798162&amp;clcid=0x409).
   
-||
 |:-----|
 |**WebSvcProject** <br/> |
 | *Type*  <br/> | *Removed members*  <br/> |
