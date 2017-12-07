@@ -14,7 +14,7 @@ description: "Summary: This article describes the prescribed method to configure
 ---
 
 # Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** This article describes the prescribed method to configure your Active Directory groups for synchronization with Project Server 2013 to add resources to the Enterprise Resource Pool.
   
 When configuring synchronization between the Enterprise Resource Pool (ERP) and Active directory groups in Project Server 2013, a key consideration is that after being added as a resource to Project Server, you still need to add the resource as a user in order for the resource to use Project Web App. Unlike the previous version, in Project Server 2013 users accounts are not automatically created for resources that are added to the Enterprise Resource Pool through Active Directory synchronization. This article describes a best practice in which you can configure your Active Directory groups for security group synchronization as well as ERP synchronization in order to add user accounts for your resources.

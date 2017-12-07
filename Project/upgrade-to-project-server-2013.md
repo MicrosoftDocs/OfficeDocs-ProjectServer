@@ -14,7 +14,7 @@ description: "Summary: Learn about how to upgrade to Project Server 2013."
 ---
 
 # Upgrade to Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn about how to upgrade to Project Server 2013.
   
 This series of articles describes the steps necessary upgrade to Project Server 2013. This includes planning and preparing for upgrade, moving copies of your databases to your Project Server 2013 destination environment, and upgrading your Project Server 2010 data and PWA site data.

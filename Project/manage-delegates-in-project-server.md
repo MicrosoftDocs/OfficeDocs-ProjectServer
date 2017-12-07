@@ -14,7 +14,7 @@ description: "Summary: Learn about how to manage delegates in Project Server."
 ---
 
 # Manage delegates in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn about how to manage delegates in Project Server.
   
 Project Server enables user delegation throughout all of Project Web App. This means that one user can act as another user in every part of Project Web App, regardless of the permission level difference of one user compared to the other.

@@ -14,7 +14,7 @@ description: "Summary: The user delegation feature in Project Web App can be ena
 ---
 
 # Turn delegation on or off in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** The user delegation feature in Project Web App can be enabled or disabled globally, for all users and groups.
   
 When user delegation is turned on, you can set permissions to control the specific behavior of the feature in Project Web App.

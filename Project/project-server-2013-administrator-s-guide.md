@@ -13,7 +13,7 @@ description: "Summary: Download and use the Microsoft Project Server 2013 Admini
 ---
 
 # Project Server 2013 Administrator's Guide
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Download and use the Microsoft Project Server 2013 Administrator's Guide to manage and administer Project Server 2013 in your organization.
   
 Project Server 2013 administrators must manage many tasks in the Project Web App (PWA) Server Settings page for users to access and interact effectively with data. Farm administrators must also understand the tasks in the PWA Server Settings that they might be responsible for, such as OLAP database management, queue settings management, or project site provisioning settings. The  *Microsoft Project Server 2013 Administrator's Guide*  helps your organization understand these tasks that are involved with administering Project Server 2013. It includes many step-by-step procedures and accompanying user-interface screen shots of Project Web App.

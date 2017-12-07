@@ -14,7 +14,7 @@ description: "Summary: How to set up who can have delegates assigned to them in 
 ---
 
 # Set up which users and groups can have delegates in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** How to set up who can have delegates assigned to them in Project Server.
   
 Categories are used in Project Web App to determine which users or groups can have delegates do work on their behalf. In order for a delegation to work correctly, the user requesting the delegation must have the correct category permissions, and the user who will act as the delegate must have the correct individual user or group permissions.

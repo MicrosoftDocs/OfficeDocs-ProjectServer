@@ -14,7 +14,7 @@ description: "Summary: In Project Server 2013, you can synchronize Project Resou
 ---
 
 # Exchange Server calendar OOF integration with Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** In Project Server 2013, you can synchronize Project Resource Calendars to Exchange Server calendars to retrieve and synchronize users' out-of-office time. Then, when users update this information in Exchange, Project is aware of it.
   
 This is an on-premises feature for Project Server 2013. It is not supported on Office 365. 

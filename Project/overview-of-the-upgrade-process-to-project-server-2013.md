@@ -14,7 +14,7 @@ description: "Summary: Upgrade from Project Server 2010 to Project Server 2013."
 ---
 
 # Overview of the upgrade process to Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Upgrade from Project Server 2010 to Project Server 2013.
   
 This article contains an overview of the procedures required to upgrade to Project Server 2013 from Project Server 2010.

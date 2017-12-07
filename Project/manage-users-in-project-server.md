@@ -12,7 +12,7 @@ description: "Summary: Use the Manage Users page to add, modify, deactivate, and
 ---
 
 # Manage users in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use the Manage Users page to add, modify, deactivate, and reactivate user accounts.
   
 In Project Server permission mode, you can use the Manage Users page that is available in Project Web App Settings to add new individual users, modify existing users, deactivate user accounts, and reactivate inactive user accounts. You can also assign permissions to users by adding them to one of the built-in groups or by adding them to a custom group that you created, and assigning specific permissions to the custom group.

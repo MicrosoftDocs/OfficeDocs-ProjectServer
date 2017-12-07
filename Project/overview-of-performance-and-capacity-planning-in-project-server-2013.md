@@ -13,7 +13,7 @@ description: "Summary: Performance and capacity planning concepts are a vital pa
 ---
 
 # Overview of performance and capacity planning in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Performance and capacity planning concepts are a vital part of planning a Project Server deployment.
   
 This document and related content contain information and recommendations for how to determine the hardware requirements for a Project Server 2013 farm.

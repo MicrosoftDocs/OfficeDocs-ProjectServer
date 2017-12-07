@@ -13,7 +13,7 @@ description: "Summary: You can force the check-in of enterprise projects, resour
 ---
 
 # Force check-in enterprise objects in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.
   
 If an enterprise object is checked out and the user who checked it out is unavailable or unable to check it back in, you can force a check-in.

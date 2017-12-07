@@ -13,7 +13,7 @@ description: "Summary: Use the New Custom Field page in Project Web App settings
 ---
 
 # Add or edit enterprise custom fields in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom field.
   
 Use the following procedure to create a new enterprise custom field or edit an existing one.

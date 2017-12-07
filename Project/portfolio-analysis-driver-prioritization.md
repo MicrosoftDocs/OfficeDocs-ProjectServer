@@ -13,7 +13,7 @@ description: "Summary: Learn how to prioritize your business drivers inProject W
 ---
 
 # Portfolio analysis driver prioritization
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn how to prioritize your business drivers inProject Web App portfolio analysis.
   
 Prioritizing business drivers is the process of ranking the importance of each driver compared to each other driver. Doing this allows Project Web App to rank the importance of your projects with respect to your business goals.

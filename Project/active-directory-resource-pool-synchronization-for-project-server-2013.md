@@ -14,7 +14,7 @@ description: "Summary: This article set describes how to manage and plan for syn
 ---
 
 # Active Directory Resource Pool Synchronization for Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** This article set describes how to manage and plan for synchronization between Active Directory groups with the Enterprise Resource Pool in Project Server 2013.
   
 ## TechNet articles about Active Directory synchronization with the Project Server 2013 Resource Pool

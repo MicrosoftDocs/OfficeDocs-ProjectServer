@@ -14,7 +14,7 @@ description: "Summary: Install Project Server 2013 on a SharePoint Server 2013 f
 ---
 
 # Install and configure Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Install Project Server 2013 on a SharePoint Server 2013 farm and create a Project Server service application.
   
 Project Server 2013 runs as a service application under SharePoint Server 2013. This article describes installing and configuring Project Server 2013, including provisioning the Project Server Service Application.

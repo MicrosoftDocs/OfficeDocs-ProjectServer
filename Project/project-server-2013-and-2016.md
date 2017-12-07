@@ -15,7 +15,7 @@ description: "Summary: Project Server 2016 provides project management, work man
 ---
 
 # Project Server 2013 and 2016
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Project Server 2016 provides project management, work management, and portfolio management capabilities for the enterprise.
   
 With Project Server 2016, organizations can effectively initiate, select, plan, and deliver projects while tracking time and budget. Project Server 2016 also provides extensive reporting capabilities through Excel Online in Office Online Server for reporting on all aspects of the project lifecycle. Project Server 2016 is built on SharePoint Server 2016.

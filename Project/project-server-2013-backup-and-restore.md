@@ -15,7 +15,7 @@ description: "Summary: This section covers Project Server 2013 backup and restor
 ---
 
 # Project Server 2013 backup and restore
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** This section covers Project Server 2013 backup and restore information, specific to the Project Server components of a SharePoint Server 2013 farm.
   
 These are useful articles for planning and maintenance, emergency recovery scenarios, or disaster-recovery situations.

@@ -16,7 +16,7 @@ description: "Summary: Plan reporting on Project Web App data by using business 
 ---
 
 # Plan reporting and business intelligence in Project Web App
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Plan reporting on Project Web App data by using business intelligence tools in SharePoint Server 2013.
   
 In Project Server 2013 project information is stored in the SharePoint content database where the Project Web App site resides. This information can be queried by any reporting tool that can connect to a SQL Server database, provided you have no more than one instance of Project Web App for each content database. The data is also available through an OData feed. (OData is the recommended reporting method.)

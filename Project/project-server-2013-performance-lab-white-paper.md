@@ -14,7 +14,7 @@ description: "Learn about Project Server 2013 performance using various common w
 ---
 
 # Project Server 2013 Performance Lab (white paper)
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
 Learn about Project Server 2013 performance using various common workloads in a lab environment.
   
 This performance lab white paper created by the Microsoft Project Server engineering team explores the behavior of a "large" synthetic dataset in response to several common workloads in Project Server 2013. You can use this information to provide a rough baseline for Project Server 2013 performance in this defined lab environment. It is important to note that your actual performance may differ due to numerous variables in your own environment.

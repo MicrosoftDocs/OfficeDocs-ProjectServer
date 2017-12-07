@@ -14,7 +14,7 @@ description: "Summary: Configure SQL Server and SQL Server Analysis Services (SS
 ---
 
 # Configure SQL Server and Analysis Services in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013.
   
 Before you install SharePoint Server 2013 and Project Server 2013, you must first configure SQL Server and, if you're planning to use Project Server OLAP cubes, SQL Server Analysis Services. SQL Server Analysis Services must be deployed in Multidimensional mode.

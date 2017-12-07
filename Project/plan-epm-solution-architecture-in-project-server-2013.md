@@ -14,7 +14,7 @@ description: "Summary: Plan for the client, application, and database tiers in a
 ---
 
 # Plan EPM Solution architecture in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Plan for the client, application, and database tiers in a Project Server solution.
   
 This chapter describes the components of a Project Server 2013 deployment. This material is written for executives, managers, and system administrators who are responsible for planning the deployment of Project Server.

@@ -14,7 +14,7 @@ description: "Summary: Administrators can organize a system of categories to man
 ---
 
 # Manage categories in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Administrators can organize a system of categories to manage user and group access to projects, resources, and views in Project Web App.
   
 In Project Server permission mode, Categories are the collections of projects, resources, and views to which users and groups in Project Server are granted access. Categories define which collections of specific data (projects, resources, and views) that these users and groups have access to. Categories also allow the administrator to filter data using security rules, like Resource Breakdown Structure (RBS), that can help organize and display data in specific ways.

@@ -14,7 +14,7 @@ description: "Summary: As you plan performance and capacity of a Project Server 
 ---
 
 # How datasets affect performance and capacity in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** As you plan performance and capacity of a Project Server 2013 deployment, consider the set of variables that affect your plans.
   
 ## Typical datasets in Project Server 2013

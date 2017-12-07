@@ -13,7 +13,7 @@ description: "Summary: Learn how to set the stage status in a Project Web App wo
 ---
 
 # Set the stage status in a Project Web App workflow
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Learn how to set the stage status in a Project Web App workflow to leave a message for your users.
   
 You can use the Project Stage Status feature in a Project Web App workflow to leave a message for your Project Web App users while the workflow is running. This can be useful if you want to tell your users about actions that they must complete in order to advance the workflow.

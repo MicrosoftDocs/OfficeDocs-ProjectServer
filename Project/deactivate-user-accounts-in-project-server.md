@@ -12,7 +12,7 @@ description: "Summary: Deactivate user accounts by using the Manage Users page i
 ---
 
 # Deactivate user accounts in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Deactivate user accounts by using the Manage Users page in Project Web App Settings.
   
 At times, you may have to make Project Web App user accounts unavailable. In Project Server permission mode, when you deactivate a user account, that user's information and data remains in the database, but the user is unavailable for new assignments. The user account is inactive until it is reactivated.

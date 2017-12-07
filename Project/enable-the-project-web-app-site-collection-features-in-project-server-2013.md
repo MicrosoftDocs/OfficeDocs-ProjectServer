@@ -14,7 +14,7 @@ description: "Summary: Enable the Project Web App site collection features to al
 ---
 
 # Enable the Project Web App site collection features in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App.
   
 Enabling the Project Web App site collection features adds additional functionality to the site collection that allows you to import SharePoint list projects into Project Web App.

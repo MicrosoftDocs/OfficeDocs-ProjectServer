@@ -13,7 +13,7 @@ description: "Summary: The Connected SharePoint Sites page in Project Web App Se
 ---
 
 # Manage connected SharePoint sites in Project Server 2013
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** The Connected SharePoint Sites page in Project Web App Settings lets you manage project sites in Project Server 2013.
   
 The **Connected SharePoint Sites** setting is available through the Project Web App Server Settings page in the **Operational Policies** section. For more information about related administrative settings, see[Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md).

@@ -16,7 +16,7 @@ description: "Summary: Plan users and groups for Project Server in SharePoint pe
 ---
 
 # Plan SharePoint groups in Project Server
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ 
  **Summary:** Plan users and groups for Project Server in SharePoint permission mode.
   
 SharePoint permissions mode creates SharePoint groups that directly correspond to the default security groups found in Project Server permission mode.
