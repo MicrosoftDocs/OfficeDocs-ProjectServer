@@ -50,8 +50,9 @@ The My Tasks and associated Exchange Task Sync features have been removed in Sha
 
 The Project class in the PSI is not supported in Project Server 2016. For all new development, use the [Project Client Side Object Model (CSOM)](http://go.microsoft.com/fwlink/p/?LinkId=798162&amp;clcid=0x409).
   
-|:-----|
-|**WebSvcProject** <br/> |
+|||
+|:-----|:-----|
+|**WebSvcProject** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |Project  <br/> |All  <br/> |
 |ProjectContextDataSet  <br/> |All  <br/> |
