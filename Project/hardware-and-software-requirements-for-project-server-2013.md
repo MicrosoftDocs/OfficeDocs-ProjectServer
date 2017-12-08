@@ -126,7 +126,6 @@ The minimum recommended hardware topology for a medium dataset scenario is a thr
     
 - Server 3: SQL Server 
     
-- 
     
 For a three-tier deployment supporting a medium dataset, the following are the hardware minimum requirements:
   
@@ -164,7 +163,7 @@ As a general prescription, you should prepare to handle additional user load and
 |:-----|:-----|
 |Processor  <br/> |64-bit, eight-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)  <br/> |
 |RAM  <br/> |32 GB  <br/> |
-|Hard disk  <br/> |160 GB  <br/> > [!NOTE]> Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.           > [!NOTE]> RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk  <br/> |160 GB  <br/> [!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> [!Note] RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 Additionally, if the SharePoint Server 2013 instance on which Project Server 2013 is coexisting with also experiences heavy usage (for example, you are not using the instance specifically for Project Server 2013 functionality), we recommend a separation of the ProjectService database and the SharePoint Server 2013SharePoint Server 2016 content databases. This requires you to place them on two dedicated computers that are running SQL Server.
   
@@ -186,7 +185,7 @@ The following are the minimum and recommended specifications for the SQL Server 
 |:-----|:-----|
 |Processor |64-bit, four-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)|
 |RAM|32 GB |
-|Hard disk|250 GB> [!NOTE]> Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.           > [!NOTE]> RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk|250 GB <br/> [!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> [!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 #### Recommended hardware for Project Server 2013 for a large dataset
 
@@ -196,7 +195,7 @@ The following are the minimum and recommended specifications for the SQL Server 
 |:-----|:-----|
 |Processor |64-bit, eight-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)|
 |RAM|64 GB |
-|Hard disk|300 GB or more> [!NOTE]> Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.           > [!NOTE]> RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk|300 GB or more> <br/>[!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/>[!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 ## Software requirements for Project Server 2013
 <a name="section8"> </a>
@@ -221,18 +220,14 @@ Project Server 2013 runs on the following server operating systems:
     
 **Supported Windows Server 2012 editions**
 
-||
-|:-----|
-|Windows Server 2012, Standard Edition (64-bit)  <br/> |
-|Windows Server 2012, Datacenter Edition (64-bit)  <br/> |
-   
+- Windows Server 2012, Standard Edition (64-bit)  
+- Windows Server 2012, Datacenter Edition (64-bit) 
+
 **Supported Windows Server 2008 R2 editions**
 
-||
-|:-----|
-|Windows Server 2008 R2 SP1, Standard Edition (64-bit)  <br/> |
-|Windows Server 2008 R2 SP1, Enterprise Edition (64-bit)  <br/> |
-|Windows Server 2008 R2 SP1, Datacenter Edition (64-bit)  <br/> |
+- Windows Server 2008 R2 SP1, Standard Edition (64-bit)
+- Windows Server 2008 R2 SP1, Enterprise Edition (64-bit)
+- Windows Server 2008 R2 SP1, Datacenter Edition (64-bit)
    
 > [!NOTE]
 > Server Core installations of Windows Server 2008 R2 are not supported. 
@@ -246,10 +241,8 @@ Project Server 2013 requires the following Windows Server server roles on each A
   
 **Required server roles for Application servers**
 
-||
-|:-----|
-|Application server role  <br/> |
-|Web Server role with Internet Information Services (IIS) 6 Management Compatibility enabled  <br/> |
+- Application server role
+- Web Server role with Internet Information Services (IIS) 6 Management Compatibility enabled
    
 In addition to these server roles, Project Server 2013 also requires that Microsoft PowerShell be enabled.
   
@@ -272,11 +265,9 @@ For database servers, Project Server 2013 (and SharePoint Server 2013) supports 
   
 **SQL Server versions supported for Project Server 2013**
 
-||
-|:-----|
-|SQL Server 2012 (64-bit)  <br/> |
-|SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  <br/> |
-|SQL Server 2014 (64-bit)  <br/> > [!NOTE]> SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           |
+- SQL Server 2012 (64-bit)
+- SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  - SQL Server 2014 (64-bit)  <br/> 
+> [!NOTE]> SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           |
    
 The following components of SQL Server are required:
   
