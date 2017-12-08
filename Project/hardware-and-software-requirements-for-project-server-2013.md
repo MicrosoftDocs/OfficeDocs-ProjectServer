@@ -195,7 +195,7 @@ The following are the minimum and recommended specifications for the SQL Server 
 |:-----|:-----|
 |Processor |64-bit, eight-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)|
 |RAM|64 GB |
-|Hard disk|300 GB or more> <br/>[!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/>[!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk|300 GB or more <br/>[!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/>[!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 ## Software requirements for Project Server 2013
 <a name="section8"> </a>
@@ -215,7 +215,6 @@ This section describes the software requirements for Project Server 2013. This i
 Project Server 2013 runs on the following server operating systems:
   
 - Windows Server 2012(64-bit)
-    
 - Windows Server 2008 R2(64-bit) with a minimum service-pack level of Service pack 1. 
     
 **Supported Windows Server 2012 editions**
@@ -266,8 +265,9 @@ For database servers, Project Server 2013 (and SharePoint Server 2013) supports 
 **SQL Server versions supported for Project Server 2013**
 
 - SQL Server 2012 (64-bit)
-- SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  - SQL Server 2014 (64-bit)  <br/> 
-> [!NOTE]> SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           |
+- SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  
+- SQL Server 2014 (64-bit)   
+> [!NOTE] SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           
    
 The following components of SQL Server are required:
   
@@ -352,15 +352,13 @@ For Project Web App in Project Server 2013, you can use any of the following sup
   
 **Supported web browsers for Project Web App**
 
-||
-|:-----|
-|Internet Explorer 11  <br/> |
-|Internet Explorer 10  <br/> |
-|Internet Explorer 9  <br/> |
-|Internet Explorer 8  <br/> |
-|Mozilla Firefox (latest released version)  <br/> |
-|Apple Safari (latest released version)  <br/> |
-|Google Chrome (latest released version)  <br/> |
+- Internet Explorer 11 
+- Internet Explorer 10
+- Internet Explorer 9
+- Internet Explorer 8
+- Mozilla Firefox (latest released version)
+- Apple Safari (latest released version)
+- Google Chrome (latest released version)
    
 > [!IMPORTANT]
 > Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](http://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx). 
