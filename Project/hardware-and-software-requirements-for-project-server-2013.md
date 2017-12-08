@@ -163,7 +163,7 @@ As a general prescription, you should prepare to handle additional user load and
 |:-----|:-----|
 |Processor  <br/> |64-bit, eight-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)  <br/> |
 |RAM  <br/> |32 GB  <br/> |
-|Hard disk  <br/> |160 GB  <br/> [!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> [!Note] RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk  <br/> |160 GB  <br/> NOTE - Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> NOTE - RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 Additionally, if the SharePoint Server 2013 instance on which Project Server 2013 is coexisting with also experiences heavy usage (for example, you are not using the instance specifically for Project Server 2013 functionality), we recommend a separation of the ProjectService database and the SharePoint Server 2013SharePoint Server 2016 content databases. This requires you to place them on two dedicated computers that are running SQL Server.
   
@@ -185,7 +185,7 @@ The following are the minimum and recommended specifications for the SQL Server 
 |:-----|:-----|
 |Processor |64-bit, four-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)|
 |RAM|32 GB |
-|Hard disk|250 GB <br/> [!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> [!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk|250 GB <br/> NOTE - Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> NOTE - RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 #### Recommended hardware for Project Server 2013 for a large dataset
 
@@ -195,7 +195,7 @@ The following are the minimum and recommended specifications for the SQL Server 
 |:-----|:-----|
 |Processor |64-bit, eight-core, 2.5 GHz minimum per core (If your dataset size is significantly larger than the medium dataset, we recommend 8 cores.)|
 |RAM|64 GB |
-|Hard disk|300 GB or more <br/>[!NOTE] Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/>[!NOTE] RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk|300 GB or more <br/>NOTE - Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/>NOTE - RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 ## Software requirements for Project Server 2013
 <a name="section8"> </a>
@@ -267,7 +267,7 @@ For database servers, Project Server 2013 (and SharePoint Server 2013) supports 
 - SQL Server 2012 (64-bit)
 - SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  
 - SQL Server 2014 (64-bit)   
-> [!NOTE] SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           
+> NOTE - SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           
    
 The following components of SQL Server are required:
   
@@ -292,10 +292,10 @@ The following table describes software requirements for use of specific Project 
   
 |**Feature**|**Required software**|**Configuration notes**|
 |:-----|:-----|:-----|
-|My Tasks (task synchronization with Exchange Server 2013, Project Server 2013, and SharePoint Server 2013)  <br/> | Server requirements: Exchange Server 2013 <br/>  Desktop requirements (supported Outlook versions): <br/>  Outlook 2013 <br/>  Outlook 2010 <br/>  Microsoft Office Outlook 2007 <br/>  Microsoft Office Outlook 2003 <br/>  Mobile requirements (supported mobile operating system versions): <br/>  Windows Phone 7.5 or newer <br/>  iApple: OS 5 or newer <br/>  Android 2.3 or newer <br/> |The Work Management Application service must be enabled.  <br/> Exchange Server 2013 and SharePoint Server 2013 have to be on the same domain together with the Auto Discover server configured and functional.  <br/> > [!IMPORTANT]> For Exchange Server 2013 integration with Project Server 2013, hybrid deployment is not supported. Exchange Server 2013 must be integrated either in an on-premises environment or online. An on-premises integration of Exchange Server 2013 will not support Project Online users.           |
+|My Tasks (task synchronization with Exchange Server 2013, Project Server 2013, and SharePoint Server 2013)  <br/> | Server requirements: Exchange Server 2013 <br/>  Desktop requirements (supported Outlook versions): <br/>  Outlook 2013 <br/>  Outlook 2010 <br/>  Microsoft Office Outlook 2007 <br/>  Microsoft Office Outlook 2003 <br/>  Mobile requirements (supported mobile operating system versions): <br/>  Windows Phone 7.5 or newer <br/>  iApple: OS 5 or newer <br/>  Android 2.3 or newer <br/> |The Work Management Application service must be enabled.  <br/> Exchange Server 2013 and SharePoint Server 2013 have to be on the same domain together with the Auto Discover server configured and functional.  <br/> IMPORTANT - For Exchange Server 2013 integration with Project Server 2013, hybrid deployment is not supported. Exchange Server 2013 must be integrated either in an on-premises environment or online. An on-premises integration of Exchange Server 2013 will not support Project Online users.           |
 |Active Directory Synchronization (Resources and security groups)  <br/> | The domain controller must be one of the following operating systems: <br/>  Windows Server 2012 R2 <br/>  Windows Server 2012 <br/>  Windows Server 2008 R2 <br/>  Windows Server 2008 <br/>  Windows Server 2003 <br/> ||
 |Reporting  <br/> | On premises (supported versions): <br/>  Excel 2013 <br/>  Excel 2010 <br/>  Project Online: <br/>  Excel 2013 only <br/> |Reporting through the OData service (for both Project Server 2013 on-premises and Project Online) requires Excel 2013.  <br/> For more information about Reporting in Project Server 2013, see [Plan reporting and business intelligence in Project Web App](plan-reporting-and-business-intelligence-in-project-web-app.md).  <br/> For more information about software requirements for using business intelligence for your reports, see [Software Requirements for business intelligence](http://technet.microsoft.com/library/6824b3bf-9046-4d43-b266-de463d0007e5.aspx).  <br/> |
-|Lync presence in Project Web App or Project Professional  <br/> | One of the following: <br/>  Lync 2013 with Internet Explorer 10, Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), or Google Chrome (latest released version). <br/>  Lync 2010 with Internet Explorer 10, Internet Explorer 9 or Internet Explorer 8. <br/>  Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), and Google Chrome (latest released version) with any Office 2013 application will provide the user a contact card, but no Skype for Business presence. <br/> > [!NOTE]>  Skype for Business presence and contact card do not work in the new Internet Explorer interface in Windows 8.x, but do work on the traditional Desktop Internet Explorer 10.          ||
+|Lync presence in Project Web App or Project Professional  <br/> | One of the following: <br/>  Lync 2013 with Internet Explorer 10, Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), or Google Chrome (latest released version). <br/>  Lync 2010 with Internet Explorer 10, Internet Explorer 9 or Internet Explorer 8. <br/>  Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), and Google Chrome (latest released version) with any Office 2013 application will provide the user a contact card, but no Skype for Business presence. <br/> NOTE - Skype for Business presence and contact card do not work in the new Internet Explorer interface in Windows 8.x, but do work on the traditional Desktop Internet Explorer 10.          ||
 |Workflow editing  <br/> | Requires both of the following: <br/>  SharePoint Designer 2013 <br/>  Microsoft Visio 2013 <br/> ||
    
 ## Client requirements for Project Server 2013
@@ -334,7 +334,7 @@ Project Professional 2013 has the following installation requirements:
 |Computer and Processor  <br/> |1 GHz or faster x86/x64 processor with SSE2 instruction set  <br/> |
 |Memory  <br/> | 1 GB RAM (32-bit) <br/>  2 GB RAM (64-bit) <br/> |
 |Hard disk  <br/> |2 GB available  <br/> |
-|Operating system  <br/> | Supported versions: <br/>  Windows 7 <br/>  Windows 8 <br/>  Windows 8.1 <br/>  Windows 10 <br/>  Windows Server 2008 Release 2 <br/> > [!NOTE]>  With .NET Framework version 3.5 or 4.0          |
+|Operating system  <br/> | Supported versions: <br/>  Windows 7 <br/>  Windows 8 <br/>  Windows 8.1 <br/>  Windows 10 <br/>  Windows Server 2008 Release 2 <br/> NOTE -  With .NET Framework version 3.5 or 4.0          |
 |Graphics  <br/> |Graphics hardware acceleration requires DirectX10 graphics card  <br/> 1024×576 resolution  <br/> |
 |Browser requirements  <br/> | Supported versions: <br/>  Internet Explorer 11 <br/>  Internet Explorer 10 <br/>  Internet Explorer 9 <br/>  Internet Explorer 8 <br/>  Mozilla Firefox (latest released version) <br/>  Apple Safari (latest released version) <br/>  Google Chrome (latest released version) <br/> |
 |Visual Reports requirements  <br/> | Office Excel 2007, Excel 2010, or Excel 2013 <br/>  Office Visio 2007, Visio 2010, or Visio 2013 <br/> |
