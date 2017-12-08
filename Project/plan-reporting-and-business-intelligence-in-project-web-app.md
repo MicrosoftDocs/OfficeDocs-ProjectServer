@@ -68,5 +68,5 @@ In Project Online, Project Web App data for reporting is only available through 
 
 #### 
 
-[Office Online Server Preview overview](http://technet.microsoft.com/library/4b199a88-387f-4121-820d-7af580e2a3e8.aspx)
+
 
