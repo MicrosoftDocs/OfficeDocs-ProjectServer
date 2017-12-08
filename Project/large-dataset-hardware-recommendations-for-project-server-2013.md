@@ -33,7 +33,7 @@ The tables that follow give the minimum and recommended specifications for the S
 |:-----|:-----|
 |Processor  <br/> |64-bit, four-core, 2.5 GHz minimum per core  <br/> If your dataset size is considerably larger than the medium dataset, 8 cores are recommended.  <br/> |
 |RAM  <br/> |32 GB  <br/> |
-|Hard disk  <br/> |250 GB  <br/> > [!NOTE]> Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.           > [!NOTE]> RAID 5 should provide a good compromise between reliability, and throughput.           |
+|Hard disk  <br/> |250 GB  <br/> NOTE - Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.<br/> NOTE - RAID 5 should provide a good compromise between reliability, and throughput.           |
    
 ## Recommended hardware for Project Server 2013
 
@@ -43,7 +43,7 @@ The tables that follow give the minimum and recommended specifications for the S
 |:-----|:-----|
 |Processor |64-bit, eight-core, 2.5 GHz minimum per coreIf your dataset size is considerably larger than the medium dataset, 8 cores are recommended.|
 |RAM|64 GB |
-|Hard disk|300 GB or more> [!NOTE]> Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks.           > [!NOTE]> RAID 5 should provide a good compromise between reliability and throughput.           |
+|Hard disk|300 GB or more <br/> NOTE - Ideally, you should separate and prioritize data among disks. Place your data files and your SQL Server transaction logs on separate physical hard disks. <br/> NOTE - RAID 5 should provide a good compromise between reliability and throughput.           |
    
 ## See also
 
