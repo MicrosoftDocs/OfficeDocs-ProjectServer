@@ -34,12 +34,8 @@ Given that Project Server 2013 is a data intensive application, optimizing your 
 - Separate the TempDB onto its own partition. Split the database into several physical files—ideally, splitting it into as many files as you have processors on your database server.
             
 Consider utilizing a RAID subsystem for your data needs.
-    
-    > [!NOTE]
-    > RAID 5 is acceptable for medium and large dataset sizes, but RAID 10 is ideal. 
-  
-    > [!NOTE]
-    > Move indexes onto their own partition. 
+> [!NOTE] RAID 5 is acceptable for medium and large dataset sizes, but RAID 10 is ideal.   
+> [!NOTE] Move indexes onto their own partition. 
   
 ### Optimizing master projects
 
@@ -124,14 +120,10 @@ Certain aspects of how you operate and maintain your Project Sever deployment ca
 ### Workflow optimizations
 
 When you are using the Workflows functionality, be aware of the following actions that will take a toll on the performance of your deployment:
-
-    - It can take a long time to load the "Change or Restart Workflows" page in Server Settings when you have a large number of projects stored in the database.
-    
-    - Restarting or changing the EPT for a large number of projects from Change or Restart Workflows page in Server Settings.
-    
-    - Having an approval process with a very large number of users.
-    
-    - Having projects submitted at the same time from a workflow stage without check-in required.
+- It can take a long time to load the "Change or Restart Workflows" page in Server Settings when you have a large number of projects stored in the database.
+- Restarting or changing the EPT for a large number of projects from Change or Restart Workflows page in Server Settings.
+- Having an approval process with a very large number of users.
+- Having projects submitted at the same time from a workflow stage without check-in required.
     
 Generally, we recommend minimizing these actions, or executing them at low-traffic periods to optimize perceived performance.
     
