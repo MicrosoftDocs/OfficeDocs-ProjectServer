@@ -95,7 +95,7 @@ One of the most important factors in determining a given page's load time is the
     
 ### Queue optimizations
 
-> Project Server 2013 utilizes a queuing system to handle how it services requests, enabling it to serve a greater number of requests overall. Certain settings related to how the queue operates can be altered through the Queue Settings page. This section gives a brief explanation of the settings you can modify, and how to optimize them for your needs.
+Project Server 2013 utilizes a queuing system to handle how it services requests, enabling it to serve a greater number of requests overall. Certain settings related to how the queue operates can be altered through the Queue Settings page. This section gives a brief explanation of the settings you can modify, and how to optimize them for your needs.
 Max Number of Threads (1-20, default 4): This determines how many jobs the queue can process in parallel at any given time. Note that this applies to all machines in the farm—if you have three Application servers, and you set this value to 4 for the project queue, you can process up to 12 independent project jobs at a time.
 
 Max Number of Threads (1-20, default 4): This determines how many jobs the queue can process in parallel at any given time. Note that this applies to all machines in the farm—if you have three Application servers, and you set this value to 4 for the project queue, you can process up to 12 independent project jobs at a time.
