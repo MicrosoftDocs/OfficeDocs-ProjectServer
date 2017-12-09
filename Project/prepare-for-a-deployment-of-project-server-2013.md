@@ -20,7 +20,7 @@ To successfully complete a deployment of Project Server 2013, the following perm
   
 - **Domain Administrator** Required to set up two domain groups for report authors and report viewers.
     
-- **SQL Server Administrator** Required for various SQL Server and SQL Server Analysis Services (SSAS) configuration tasks as denoted in[Configure SQL Server and Analysis Services in Project Server 2013](configure-sql-server-and-analysis-services-in-project-server-2013-0.md).
+- **SQL Server Administrator** Required for various SQL Server and SQL Server Analysis Services (SSAS) configuration tasks as denoted in [Configure SQL Server and Analysis Services in Project Server 2013](configure-sql-server-and-analysis-services-in-project-server-2013-0.md).
     
 - **Setup User Account** Required to install Project Server 2013. This account is created when you install SharePoint Server 2013.
     
@@ -31,7 +31,7 @@ To successfully complete a deployment of Project Server 2013, the following perm
   
 ## Creating users and groups in the Active Directory directory service
 
-Deploying Project Server 2013 requires that you have certain Active Directory users and groups available. The deployment instructions assume that the necessary groups already exist. If you have not yet created the necessary users and groups, do so now before deploying Project Server. For detailed information about the users and groups required for Project Server deployment, see [Plan for administrative and service accounts in Project Server 2013 Beta 2](plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md).
+Deploying Project Server 2013 requires that you have certain Active Directory users and groups available. The deployment instructions assume that the necessary groups already exist. If you have not yet created the necessary users and groups, do so now before deploying Project Server. For detailed information about the users and groups required for Project Server deployment, see [Plan for administrative and service accounts in Project Server 2013](plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md).
   
 ## Configuring SQL Server and Analysis Services
 
