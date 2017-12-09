@@ -1,5 +1,5 @@
 ---
-title: "Plan for administrative and service accounts in Project Server 2013 Beta 2"
+title: "Plan for administrative and service accounts in Project Server 2013"
 ms.author: efrene
 author: efrene
 ms.date: 11/29/2017
@@ -13,7 +13,7 @@ ms.assetid: a2388ad0-a39b-486c-9cc9-2a352935a6b6
 description: "Summary: Learn about the accounts that you must plan for and the deployment scenarios that affect account requirements in Project Server 2013."
 ---
 
-# Plan for administrative and service accounts in Project Server 2013 Beta 2
+# Plan for administrative and service accounts in Project Server 2013
  
  **Summary:** Learn about the accounts that you must plan for and the deployment scenarios that affect account requirements in Project Server 2013.
   
