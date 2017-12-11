@@ -12,16 +12,16 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 91c0c38a-51e1-4aaa-a675-a8d56cd5f08a
-description: "Summary: The following articles help you operate and maintain a Project Server 2016 deployment."
+description: "Summary: The following articles help you operate and maintain a Project Server deployment."
 ---
 
-# Operations for Project Server 2016
+# Operations for Project Server 
  
- **Summary:** The following articles help you operate and maintain a Project Server 2016 deployment.
+ **Summary:** The following articles help you operate and maintain a Project Server deployment.
   
 ## TechNet articles about operations for Project Server
 
-The following articles about operating and maintaining Project Server 2016 are available to view online:
+The following articles about operating and maintaining Project Server  are available to view online:
   
 - [OLAP database management in Project Web App](olap-database-management-in-project-web-app.md)
     

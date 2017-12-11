@@ -12,7 +12,7 @@ ms.assetid: 8f290faa-8b71-4b98-9621-72e14551b784
 description: "Summary: Manage users, groups, and categories in Project Server permission mode."
 ---
 
-# Manage users, groups, and categories in Project Server 2013
+# Manage users, groups, and categories in Project Server
  
  **Summary:** Manage users, groups, and categories in Project Server permission mode.
   

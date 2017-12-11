@@ -44,7 +44,7 @@ To manage users in Project Web App, you can perform the following procedures:
 
 [Determine the number and types of users that require access to Project Server 2016](determine-the-number-and-types-of-users-that-require-access-to-project-server-20.md)
   
-[Manage users, groups, and categories in Project Server 2013](manage-users-groups-and-categories-in-project-server-2013.md)
+[Manage users, groups, and categories in Project Server](manage-users-groups-and-categories-in-project-server-2013.md)
   
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
   

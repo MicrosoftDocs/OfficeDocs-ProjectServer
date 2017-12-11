@@ -24,7 +24,7 @@ In Project Web App, you can create multiple analyses for a given set of projects
 
 You create a portfolio analysis in Project Web App. You'll need to be an administrator or a member of the Portfolio Managers group to do it.
   
-Before you start, be sure you've [created your business drivers](portfolio-analysis-business-drivers.md) and[prioritized them](portfolio-analysis-driver-prioritization.md).
+Before you start, be sure you've [created your business drivers](portfolio-analysis-business-drivers.md) and [prioritized them](portfolio-analysis-driver-prioritization.md).
   
 ### To create a portfolio analysis
 

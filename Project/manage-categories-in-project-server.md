@@ -60,7 +60,7 @@ To manage categories in Project Web App, you can perform the following procedure
 
 [Plan user access in Project Server](plan-user-access-in-project-server.md)
   
-[Manage users, groups, and categories in Project Server 2013](manage-users-groups-and-categories-in-project-server-2013.md)
+[Manage users, groups, and categories in Project Server](manage-users-groups-and-categories-in-project-server-2013.md)
   
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
   

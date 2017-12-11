@@ -59,10 +59,11 @@ The Microsoft Project Server 2013 Administrator's Guide contains the following c
     - Chapter 7, "Workflow and Project Detail Pages"
     
     - Chapter 8, "Security"
+
     
 > Part 2: Project Web App Settings in SharePoint Central Administration
     
-    - Chapter 9, "Queue and Database Administration"
+    - - Chapter 9, "Queue and Database Administration"
     
     - Chapter 10, "Operational Policies"
     
@@ -71,7 +72,7 @@ The Microsoft Project Server 2013 Administrator's Guide contains the following c
     - Chapter 12, "Manage Queue Settings"
     
 > Appendices
-    
+
     - Appendix A, "Project Server 2013 Category Permissions"
     
     - Appendix B, "Project Server 2013 Global Permissions"
@@ -82,6 +83,6 @@ The Microsoft Project Server 2013 Administrator's Guide contains the following c
     
     - Appendix E, "SharePoint Permission Mode Default Permissions for Project Server 2013 SharePoint groups"
     
-    - Appendix F, "Project Server 2013 Windows PowerShell Cmdlets"
+ 
     
 

@@ -29,7 +29,7 @@ description: "Summary: Learn to use the Enterprise Settings options in SharePoin
     
 ### To configure the Enterprise Settings
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

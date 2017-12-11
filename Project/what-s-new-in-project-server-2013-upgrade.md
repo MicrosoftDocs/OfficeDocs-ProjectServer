@@ -60,7 +60,7 @@ When you upgrade to Project Server 2013, you are required to use the following d
 Project Server 2013 architecture has been improved to reduce total cost of ownership (TCO) for database maintenance. In Project Server 2010 and Office Project Server 2007, each PWA instance hosted a majority of its project data on the four Project Server databases (Draft, Publish, Reporting, and Archive). When you upgrade to Project Server 2013, your four Project Server 2010 databases are merged into a single Project Web App database (default name: ProjectWebApp). The reduction in the number of databases required to run Project Server 2013 equates to a reduction in the costs to maintain, update, back up, and plan for disaster recovery for your Project Server 2013 data. 
   
 > [!NOTE]
-> For information about recommended hardware requirements for your database tier in Project Server 2013, see [Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md). 
+> For information about recommended hardware requirements for your database tier in Project Server 2013, see [Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md). 
   
 ## Upgrade from Office Project Server 2007 to Project Server 2013 involves two major steps
 <a name="section3"> </a>

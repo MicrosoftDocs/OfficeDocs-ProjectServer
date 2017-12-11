@@ -125,10 +125,9 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md)
+[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   
-[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md)
-#### 
+[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 
 [What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
   

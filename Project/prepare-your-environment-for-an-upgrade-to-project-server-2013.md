@@ -34,7 +34,7 @@ Prior to upgrading your Project Server 2010 data to Project Server 2013, you mus
 
 Because in-place upgrade is not supported for upgrading to Project Server 2013, the database-attach upgrade method requires you to install Project Server 2013 so that you have an environment to which you can migrate your Project Server 2010 data.
   
-For a Project Server 2013 installation, the minimum operating system supported is the 64-bit version of Windows Server 2008 R2 Service Pack 1 (SP1). The minimum SQL Server version supported is the 64-bit version of SQL Server 2008 R2 with Service Pack 1 (SP1). For additional Project Server 2013 system requirements for installation, see [Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md). For information about installing Project Server 2013, see [Deploy Project Server 2016](deploy-project-server-2016.md).
+For a Project Server 2013 installation, the minimum operating system supported is the 64-bit version of Windows Server 2008 R2 Service Pack 1 (SP1). The minimum SQL Server version supported is the 64-bit version of SQL Server 2008 R2 with Service Pack 1 (SP1). For additional Project Server 2013 system requirements for installation, see [Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md). For information about installing Project Server 2013, see [Deploy Project Server 2013](deploy-project-server-2013.md).
   
 > [!NOTE]
 > We recommend that you first upgrade the Project Server 2010 data to a Project Server 2013 test environment before you attempt to upgrade to your production environment. 
@@ -48,9 +48,9 @@ You use Microsoft PowerShell commands to execute many of the procedures required
 
 1. Click **Start**, click **All Programs**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Management Shell**. 
     
-    This opens the SharePoint 2016 Management Shell.
+    This opens the SharePoint 2013 Management Shell.
     
-2. In the SharePoint 2016 Management Shell, enter the following at the PS> prompt, and then press Enter:
+2. In the SharePoint 2013 Management Shell, enter the following at the PS> prompt, and then press Enter:
     
   ```
   Get-Command *SPProject*

@@ -141,7 +141,7 @@ The results of the Test-SPContentDatabase cmdlet will note inconsistencies it wi
 This message notes that the Excel Services Web Part that is referenced in the upgraded content database is not found on the SharePoint Server 2016 farm. You might need to install Office Online Server on your SharePoint Server 2016 farm for you to use it.
   
 > [!NOTE]
-> Office Online Server Preview is supported for use with Project Server 2016. 
+> Office Online Server is supported for use with Project Server 2016. 
   
 ### Attach and upgrade your Project Server 2013 database
 <a name="attach"> </a>

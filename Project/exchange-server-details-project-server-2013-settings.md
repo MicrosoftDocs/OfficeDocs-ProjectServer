@@ -31,7 +31,7 @@ Disabling the setting will disable Microsoft Exchange integration with Project S
   
 ### To configure the Exchange Server Details setting
 
-1. In SharePoint Central Administration, click ** General Application Settings**.
+1. In SharePoint Central Administration, click **General Application Settings**.
     
 2. On the General Application Settings page, in the Project Web App settings section, click **Manage**.
     

@@ -21,13 +21,12 @@ This series of articles describes the steps necessary upgrade to Project Server 
   
 ## TechNet articles about upgrading to Project Server 2013
 
-The following articles about upgrading to Project Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx) <br/> |Learn about key changes and considerations when you upgrade to Project Server 2013.  <br/> |
-||[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md) <br/> |Before you plan to upgrade to Project Server 2013, you must have an understanding of the general steps required to upgrade.  <br/> |
-||[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md) <br/> |When you upgrade to Project Server 2013, things to consider include system requirements and your current environment.  <br/> |
+||[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2013-upgrade-process.md) <br/> |Before you plan to upgrade to Project Server 2013, you must have an understanding of the general steps required to upgrade.  <br/> |
+||[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md) <br/> |When you upgrade to Project Server 2013, things to consider include system requirements and your current environment.  <br/> |
 ||[Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx) <br/> |After you create a plan to upgrade your environment to Project Server 2013, you must prepare you environment before you can start the actual upgrade process.  <br/> |
 ||[Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx) <br/> |Describes how to create backup copies of your Project Server 2010 farm database in order to upgrade to Project Server 2013.  <br/> |
 ||[Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx) <br/> |Describes how to restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data.  <br/> |
