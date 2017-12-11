@@ -38,26 +38,26 @@ If a top-level web site does not exist for the web application where you want to
   
 ### To create a top-level Web site
 
-1. Start SharePoint 2016 Central Administration.
+1. Start SharePoint 2013 Central Administration.
     
   - For Windows Server 2008 R2:
     
-  - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+  - Click **Start**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Central Administration**.
     
   - For Windows Server 2012:
     
-  - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+  - On the **Start** screen, click **SharePoint 2013 Central Administration**.
     
-    If **SharePoint 2016 Central Administration** is not on the **Start** screen:
+    If **SharePoint 2013 Central Administration** is not on the **Start** screen:
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2013 Central Administration**.
     
 2. In Central Administration, in the **Application Management** section, click **Create site collections**.
     
 3. Choose a Web application from the **Web Application** drop-down menu.
     
     > [!NOTE]
-    > If no Web application is available, you must create one. For more information, see [Create a Web application (SharePoint Server 2010)](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df.aspx). 
+    > If no Web application is available, you must create one. For more information, see [Create a Web application (SharePoint Server 2013)](https://technet.microsoft.com/library/cc261875.aspx). 
   
 4. Type a title for the site collection in the **Title** box.
     
@@ -82,7 +82,7 @@ After you have created the top-level web site, you must grant users access to th
     
 4. From the Select a group or permission level, choose **<site> Visitors [Read]**.
     
-5. In the **Enter names or email addresses** text box, typeEveryone.
+5. In the **Enter names or email addresses** text box, type **Everyone**.
     
 6. Click **Share**.
     
@@ -211,9 +211,9 @@ After the Project Web App site is in the desired content database, you must lock
     
 3. In the **Database Capacity Settings** section:
     
-1. In the **Number of sites before a Warning event is generated** box, type0.
+1. In the **Number of sites before a Warning event is generated** box, type **0**.
     
-2. In the **Maximum number of sites that can be created in this database** box, type1.
+2. In the **Maximum number of sites that can be created in this database** box, type **1**.
     
 4. Click **OK**.
     

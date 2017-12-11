@@ -21,8 +21,6 @@ description: "Summary: Set up OLAP cubes for Project Web App."
 > This scenario applies only to Project Server 2013. 
   
 In this article:
-  
-- [](configure-olap-cubes-for-project-web-app.md#overview)
     
 - [Before you begin](configure-olap-cubes-for-project-web-app.md#begin)
     

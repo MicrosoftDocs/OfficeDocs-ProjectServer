@@ -44,7 +44,7 @@ Use the following procedures to configure the application server and add it to t
 > [!NOTE]
 > For these procedures, we recommend that you use the Farm Install account that you originally created to install SharePoint Server 2013. 
   
-### To install prerequisites for SharePoint Server 2013 Preview
+### To install prerequisites for SharePoint Server 2013
 
 1. On the SharePoint Server DVD, run default.hta.
     
@@ -64,7 +64,7 @@ Use the following procedures to configure the application server and add it to t
   
 Once the prerequisites have been installed, the next step is to install SharePoint Server 2013.
   
-### To install SharePoint Server 2013 Preview
+### To install SharePoint Server 2013 
 
 1. On the SharePoint Server DVD, run default.hta.
     
@@ -86,7 +86,7 @@ Once the prerequisites have been installed, the next step is to install SharePoi
     
 Once SharePoint Server 2013 has been installed, the next step is to install Project Server 2013.
   
-### To install Project Server 2013 Preview
+### To install Project Server 2013 
 
 1. On the Project Server DVD, run default.hta.
     

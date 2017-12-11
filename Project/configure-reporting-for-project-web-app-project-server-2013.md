@@ -64,7 +64,7 @@ For information about deploying Excel Services, see the following articles:
   
 For information about deploying Secure Store, see the following articles:
   
-- [Plan the Secure Store Service (SharePoint Server 2010)](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
+- [Plan the Secure Store Service (SharePoint Server 2013)](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
     
 - [Configure the Secure Store Service (SharePoint 2013)](http://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125.aspx)
     
@@ -79,9 +79,9 @@ The following table describes the accounts and security groups that you will nee
 
 |**Account**|**Description**|
 |:-----|:-----|
-|Report Authors group  <br/> |Active Directory security group to which you add users who will create reports, or any other users who need to access reports in Excel. This group is given read permissions to the Project Web App database via the PSDataAccess database role. Have your domain administrator create this group before proceeding with the procedures below.  <br/> > [!NOTE]> If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Authors group for each instance of Project Web App.           |
-|Report Viewers group  <br/> |Active Directory security group to which you add users who will view reports. Have your domain administrator create this group before proceeding with the procedures below.  <br/> > [!NOTE]> If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Viewers group for each instance of Project Web App.           |
-|Secure Store Target Application account  <br/> |This account provides the credentials necessary for report viewers to view reports generated from data in the Project Web App database. This account must have read permissions on the Project Web App database via the PSDataAccess database role.  <br/> > [!TIP]> We recommend that you add this account to the Report Authors Active Directory group described above to give it the necessary permissions.           |
+|Report Authors group  <br/> |Active Directory security group to which you add users who will create reports, or any other users who need to access reports in Excel. This group is given read permissions to the Project Web App database via the PSDataAccess database role. Have your domain administrator create this group before proceeding with the procedures below.  <br/> NOTE - If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Authors group for each instance of Project Web App.           |
+|Report Viewers group  <br/> |Active Directory security group to which you add users who will view reports. Have your domain administrator create this group before proceeding with the procedures below.  <br/> NOTE - If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Viewers group for each instance of Project Web App.           |
+|Secure Store Target Application account  <br/> |This account provides the credentials necessary for report viewers to view reports generated from data in the Project Web App database. This account must have read permissions on the Project Web App database via the PSDataAccess database role.  <br/>TIP - We recommend that you add this account to the Report Authors Active Directory group described above to give it the necessary permissions.           |
    
 ## Add a login for the report authors group
 <a name="section1"> </a>

@@ -19,7 +19,7 @@ description: "Summary: Add a Project Web App site to an existing site collection
   
 You can add a Project Web App site to an existing site collection. Doing so will allow you to take full advantage of Project Server 2013 and Project Web App functionality for the projects in that site collection.
   
-In order for a Project Web App site to function properly, the site collection must have a Project Web App database associated with it and the Project Web App site collection features must be enabled. If you have not already done so, create a Project Web App database and enable the Project Web App site collection features on the site collection where you want to deploy the Project Web App site. For more information, see [Enable the Project Web App site collection features in Project Server 2016](enable-the-project-web-app-site-collection-features-in-project-server-2016.md).
+In order for a Project Web App site to function properly, the site collection must have a Project Web App database associated with it and the Project Web App site collection features must be enabled. If you have not already done so, create a Project Web App database and enable the Project Web App site collection features on the site collection where you want to deploy the Project Web App site. For more information, see [Enable the Project Web App site collection features in Project Server 2013](enable-the-project-web-app-site-collection-features-in-project-server-2013.md).
   
 To create a Project Web App site in an existing site collection, you run the New-SPWeb Microsoft PowerShell cmdlet to create the site and then run the **Upgrade-SPProjectWebInstance** to perform post-provisioning actions, including creating a Business Intelligence Center.
   

@@ -36,7 +36,7 @@ Additionally, depending on the needs of your organization, you may want to do th
     
 We also recommend that you start the SQLSERVERAGENT service on the instance of SQL Server where your SharePoint Server databases are located. SharePoint Server and Project Server 2013 use the SQL Server Agent service to perform various database cleanup activities.
   
-When you have finished configuring SQL Server and Analysis Services, go to the next article, [Install SharePoint Server 2016 (Project Server 2016)](install-sharepoint-server-2016-project-server-2016.md).
+When you have finished configuring SQL Server and Analysis Services, go to the next article, [Install SharePoint Server 2013 (Project Server 2013)](install-sharepoint-server-2013-project-server-2013.md).
   
 ## Configure SQL Server network settings
 <a name="section1"> </a>

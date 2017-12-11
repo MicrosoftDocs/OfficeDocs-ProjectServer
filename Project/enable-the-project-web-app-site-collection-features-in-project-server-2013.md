@@ -21,9 +21,9 @@ Enabling the Project Web App site collection features adds additional functional
   
 Enabling the Project Web App site collection features consists of two steps:
   
-- [](enable-the-project-web-app-site-collection-features-in-project-server-2016.md#CreateAProjectWebAppDatabase)
+- Create a Project Web App database
     
-- [Enable the Project Web App site collection features](enable-the-project-web-app-site-collection-features-in-project-server-2016.md#EnableTheProjectWebAppSiteCollectionFeatures)
+- Enable the Project Web App site collection features
     
 ## Video demonstration
 
