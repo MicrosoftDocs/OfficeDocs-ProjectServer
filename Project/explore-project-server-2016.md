@@ -17,7 +17,7 @@ description: "Summary: Use these articles to learn more about new features avail
 
 # Explore Project Server
  
- **Summary:** Use these articles to learn more about new features available in Project Server.
+ **Summary:** Use these articles to learn more about new features available in Project Server.<br/>
 **Applies to:** Project Server 2016, Project Server 2013
   
 ## Evaluation articles about Project Server

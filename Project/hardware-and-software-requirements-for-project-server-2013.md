@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: bde05c8a-0312-4f46-ace9-ade6ba1edd3c
@@ -16,7 +16,8 @@ description: "Summary: Verify that your computer meets the hardware and software
 
 # Hardware and software requirements for Project Server 2013
  
- **Summary:** Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.
+ **Summary:** Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 This article describes the following requirements:
   

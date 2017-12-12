@@ -14,7 +14,7 @@ description: "Summary: Learn about new features and capabilities in Project Serv
 ---
 
 # What's new for IT pros in Project Server 2013
- **Summary:** Learn about new features and capabilities in Project Server 2013.
+ **Summary:** Learn about new features and capabilities in Project Server 2013.<br/>
 **Applies to:** Project Server 2013
   
 This article provides a brief overview of new and significantly updated functionality in Project Server 2013, with a particular emphasis on the areas of interest to IT pros. These areas include the following:

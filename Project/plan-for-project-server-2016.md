@@ -17,7 +17,7 @@ description: "Summary: IT pros use planning and architecture content to develop 
 
 # Plan for Project Server
  
- **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Server 2016 features, servers, and topologies.
+ **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Server 2016 features, servers, and topologies.<br/>
 **Applies to:** Project Server 2016, Project Server 2013
   
 ## TechNet articles about Project Server planning

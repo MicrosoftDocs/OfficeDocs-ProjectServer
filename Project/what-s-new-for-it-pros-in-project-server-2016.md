@@ -16,7 +16,7 @@ description: "Summary: Learn about Project Server 2016. Find information on the 
 ---
 
 # What's new for IT pros in Project Server 2016
-  **Summary:** Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
+  **Summary:** Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality.<br/>
 **Applies to:** Project Server 2016
   
 This article provides a brief overview of new and significantly updated functionality in Project Server 2016, with a particular emphasis on the areas of interest to IT professionals. These include the following:

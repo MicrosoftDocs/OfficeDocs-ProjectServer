@@ -17,7 +17,7 @@ description: "Summary: Learn about installation requirements for Project Server 
 
 # Software requirements for Project Server 2016
  
- **Summary:** Learn about installation requirements for Project Server 2016.
+ **Summary:** Learn about installation requirements for Project Server 2016.<br/>
 **Applies to:** Project Server 2016
   
 ## Key Requirements

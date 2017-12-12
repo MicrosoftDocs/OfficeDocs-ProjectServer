@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about the technical planning decisions you have to 
 
 # Planning Project Server and Project Online for technical decision makers
  
- **Summary:** Learn about the technical planning decisions you have to make when deploying Project Server or Project Online.
+ **Summary:** Learn about the technical planning decisions you have to make when deploying Project Server or Project Online.<br/>
+**Applies to:** Project Server 2016
   
 Project Web App in Project Server 2016 and Project Web App in Project Online are very similar, but there are some key differences that you should think about when deciding whether to use Project Server or Project Online.
   

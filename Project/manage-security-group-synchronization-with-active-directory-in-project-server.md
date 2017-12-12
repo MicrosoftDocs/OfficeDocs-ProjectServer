@@ -14,8 +14,7 @@ description: "Summary: You can configure Project Server security groups in Proje
 ---
 
 # Manage security group synchronization with Active Directory in Project Server
- 
- **Summary:** You can configure Project Server security groups in Project Web App to synchronize with security or distribution groups in Active Directory.
+  **Summary:** You can configure Project Server security groups in Project Web App to synchronize with security or distribution groups in Active Directory.
   
 > [!NOTE]
 > To configure Active Directory synchronization to Project Web App security groups, your Project Server instance must be in Project Server Permission Mode. The settings are not available in SharePoint Permission Mode. For more information about Project Server Permission Mode, see [Plan user access in Project Server](plan-user-access-in-project-server.md). 
