@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: ab894aca-5ae4-48af-8109-2cedb3f96df0
@@ -15,7 +15,8 @@ description: "Summary: Add a new SharePoint Server 2013 application server with 
 
 # Add an application server to a farm in Project Server 2013
  
- **Summary:** Add a new SharePoint Server 2013 application server with Project Server 2013 to an existing farm.
+ **Summary:** Add a new SharePoint Server 2013 application server with Project Server 2013 to an existing farm.<br/>
+**Applies to:** Project Server 2013
   
 To add a Project Server 2013 application server to an existing farm, you must do the following:
   

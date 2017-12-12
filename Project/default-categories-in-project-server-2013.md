@@ -2,11 +2,11 @@
 title: "Default categories in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 85b4f0f9-b310-4169-87aa-3da6312c8dd9
 description: "Summary: Project Server 2013 default security categories are associated to default security groups, providing a different set of category permissions to each group."

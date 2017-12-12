@@ -5,7 +5,7 @@ author: efrene
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -16,7 +16,8 @@ description: "Summary: Learn about the user access permission modes available in
 
 # Plan user access in Project Server
  
- **Summary:** Learn about the user access permission modes available in Project Web App.
+ **Summary:** Learn about the user access permission modes available in Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Project Server offers two security modes for controlling the kind of access that users have to sites and projects:
   

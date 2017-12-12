@@ -2,11 +2,11 @@
 title: "Modify security templates in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: eaf98652-2205-4261-9b0e-82b1173a3bd7
@@ -15,7 +15,8 @@ description: "Summary: Edit Project Web App security templates by using the Mana
 
 # Modify security templates in Project Server
  
- **Summary:** Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings.
+ **Summary:** Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 See [To modify a template](modify-security-templates-in-project-server.md#proc) later in this article.
   

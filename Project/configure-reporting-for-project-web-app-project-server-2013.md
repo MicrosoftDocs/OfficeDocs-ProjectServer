@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 400e26f1-b21d-489a-8c6e-a1bc30e6e0c7
@@ -16,7 +16,8 @@ description: "Summary: Configure reporting for Project Web App and configure Sec
 
 # Configure reporting for Project Web App (Project Server 2013)
  
- **Summary:** Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports.
+ **Summary:** Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports.<br/>
+**Applies to:** Project Server 2013
   
 Project Server 2013 integrates the SharePoint Server 2013 Business Intelligence Center site template into each instance of Project Web App, which provides a central point for hosting the reports, dashboards, and report connections that can be auto-created or manually authored to provide access to reporting data in a given instance of Project Web App. The Business Intelligence Center can be used to host content created with Excel Services in SharePoint Server 2013, Visio Services in SharePoint, PerformancePoint Services in SharePoint, Power Pivot and SQL Server Reporting Services (SSRS).
   

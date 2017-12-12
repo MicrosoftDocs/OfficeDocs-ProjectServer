@@ -2,11 +2,11 @@
 title: "Manage security templates in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 27f4504f-954f-4e41-bb33-f0bb395926a5
@@ -15,7 +15,8 @@ description: "Summary: Administrators can use security templates in Project Web 
 
 # Manage security templates in Project Server
  
- **Summary:** Administrators can use security templates in Project Web App to standardize the granting of user permissions by role.
+ **Summary:** Administrators can use security templates in Project Web App to standardize the granting of user permissions by role.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Security templates provide a means for you to quickly apply or reset predefined permission profiles to new or existing users, groups, and categories. By applying security templates, you can easily standardize the permissions that you assign according to user's role in the organization. A number of predefined security templates are available in each Project Web App instance. These align with the predefined groups. You can customize these security templates or create new security templates according to your needs.
   
@@ -42,7 +43,7 @@ Security templates are available in Project Server permission mode. There are ei
 Each security template is given a set of default category and global permissions, based on the functions that each group typically does in an organization. As mentioned previously, when you create new security templates, you are allowed to copy the permissions for a default security template and then customize it to suit your needs.
   
 > [!NOTE]
-> For information about the permissions assigned to default security templates, see [Default group permissions in Project Server 2013](default-group-permissions-in-project-server-2013.md). 
+> For information about the permissions assigned to default security templates in Project Server 2013, see [Default group permissions in Project Server 2013](default-group-permissions-in-project-server-2013.md). 
   
 ## Task requirements
 

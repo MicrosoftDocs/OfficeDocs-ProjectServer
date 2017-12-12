@@ -2,11 +2,11 @@
 title: "Currency Settings (Project Server 2013 settings)"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a00072bd-2cb1-4156-a674-8966ad1c2adf

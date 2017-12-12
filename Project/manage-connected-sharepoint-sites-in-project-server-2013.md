@@ -2,11 +2,11 @@
 title: "Manage connected SharePoint sites in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 6a50a06d-1fd3-49be-9940-f98c6601dd20
 description: "Summary: The Connected SharePoint Sites page in Project Web App Settings lets you manage project sites in Project Server 2013."
@@ -14,9 +14,10 @@ description: "Summary: The Connected SharePoint Sites page in Project Web App Se
 
 # Manage connected SharePoint sites in Project Server 2013
  
- **Summary:** The Connected SharePoint Sites page in Project Web App Settings lets you manage project sites in Project Server 2013.
+ **Summary:** The Connected SharePoint Sites page in Project Web App Settings lets you manage project sites in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
-The **Connected SharePoint Sites** setting is available through the Project Web App Server Settings page in the **Operational Policies** section. For more information about related administrative settings, see[Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md).
+The **Connected SharePoint Sites** setting is available through the Project Web App Server Settings page in the **Operational Policies** section. For more information about related administrative settings, see [Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md).
   
 ## Configure the Project Sites settings
 
@@ -98,7 +99,7 @@ You can do the following through the Connected Project Sites page:
   
  **Synchronize** lets you manually synchronize the project site's users, permissions, and other Project Server-related information between Project Server 2013 and the Web server that is running SharePoint Server 2013.
   
-If you want to automatically run synchronization for your project sites, see the **Automatic Provisioning** option that is available in[Project Site Provisioning Settings (Project Server 2013 settings)](project-site-provisioning-settings-project-server-2013-settings.md).
+If you want to automatically run synchronization for your project sites, see the **Automatic Provisioning** option that is available in [Project Site Provisioning Settings (Project Server 2013 settings)](project-site-provisioning-settings-project-server-2013-settings.md).
   
 ### To synchronize your project site information between Project Server and SharePoint Foundation
 

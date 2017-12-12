@@ -2,11 +2,11 @@
 title: "Delete a security template (Project Server permission mode)"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cb63b6ca-2af4-4c80-bb61-17e3a9d76d34
@@ -15,7 +15,8 @@ description: "Summary: Learn how to delete Project Web App security templates by
 
 # Delete a security template (Project Server permission mode)
  
- **Summary:** Learn how to delete Project Web App security templates by using the Manage Templates page in Project Web App Settings.
+ **Summary:** Learn how to delete Project Web App security templates by using the Manage Templates page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2013
   
 In Project Server security mode, you can delete any existing security templates from the Manage Templates page in Project Web App Settings. See [To delete a template](delete-a-security-template-project-server-permission-mode.md#proc) later in this article.
   

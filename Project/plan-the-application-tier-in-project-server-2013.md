@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f736c231-33a0-43b2-9091-ff947edbd704
@@ -15,7 +15,8 @@ description: "Summary: Learn what components of the application tier that you sh
 
 # Plan the application tier in Project Server 2013
  
- **Summary:** Learn what components of the application tier that you should plan for in a Project Server 2013 deployment.
+ **Summary:** Learn what components of the application tier that you should plan for in a Project Server 2013 deployment.<br/>
+**Applies to:** Project Server 2013
   
 The application tier in Project Server 2013 includes the following components:
   

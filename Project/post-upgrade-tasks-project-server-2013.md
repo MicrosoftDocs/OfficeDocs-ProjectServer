@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: b51169b0-3e7e-42e1-845e-db0b5bdaf331
@@ -15,7 +15,8 @@ description: "Summary: After you upgrade to Project Server 2013, you must addres
 
 # Post-upgrade tasks (Project Server 2013)
  
- **Summary:** After you upgrade to Project Server 2013, you must address additional tasks.
+ **Summary:** After you upgrade to Project Server 2013, you must address additional tasks.<br/>
+**Applies to:** Project Server 2013
   
 After upgrading to Project Server 2010, you must address two post-upgrade tasks:
   
@@ -98,5 +99,5 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Upgrade to Project Server 2016](upgrade-to-project-server-2016.md)
+[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 

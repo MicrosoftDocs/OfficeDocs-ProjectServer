@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Add a Project Web App site to an existing site collection
 
 # Create a PWA site in an existing site collection
  
- **Summary:** Add a Project Web App site to an existing site collection.
+ **Summary:** Add a Project Web App site to an existing site collection.<br/>
+**Applies to:** Project Server 2016
   
 You can add a Project Web App site to an existing site collection. Doing so will allow you to take full advantage of Project Server 2016 and Project Web App functionality for the projects in that site collection.
   

@@ -2,11 +2,11 @@
 title: "Plan for upgrade to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about considerations you need to make in upgrading 
 
 # Plan for upgrade to Project Server 2016
  
- **Summary:** Learn about considerations you need to make in upgrading to Project Server 2016.
+ **Summary:** Learn about considerations you need to make in upgrading to Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 In this article:
   

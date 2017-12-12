@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5c2227b8-6cf0-4397-9348-bb876a59e89c
@@ -15,7 +15,8 @@ description: "Summary: Learn about the two ways to deploy a Project Web App site
 
 # Deploy Project Web App
  
- **Summary:** Learn about the two ways to deploy a Project Web App site.
+ **Summary:** Learn about the two ways to deploy a Project Web App site.<br/>
+**Applies to:** Project Server 2013
   
 ## Project Web App deployment options
 

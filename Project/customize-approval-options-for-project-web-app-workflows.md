@@ -2,11 +2,11 @@
 title: "Customize approval options for Project Web App workflows"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 0cf2625c-858d-4f98-a77a-3e566cb63a22
 description: "Summary: Learn how to add additional approval options to a Project Web App workflow approval task."

@@ -2,11 +2,11 @@
 title: "Plan for Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/31/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,7 @@ description: "Summary: IT pros use planning and architecture content to develop 
 
 # Plan for Project Server
  
- **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Server 2016 features, servers, and topologies.
+ **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Server 2016 features, servers, and topologies.<br/>
 **Applies to:** Project Server 2016, Project Server 2013
   
 ## TechNet articles about Project Server planning

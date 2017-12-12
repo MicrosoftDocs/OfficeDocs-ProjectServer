@@ -5,7 +5,7 @@ author: efrene
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a2388ad0-a39b-486c-9cc9-2a352935a6b6
@@ -15,7 +15,8 @@ description: "Summary: Learn about the accounts that you must plan for and the d
 
 # Plan for administrative and service accounts in Project Server 2013
  
- **Summary:** Learn about the accounts that you must plan for and the deployment scenarios that affect account requirements in Project Server 2013.
+ **Summary:** Learn about the accounts that you must plan for and the deployment scenarios that affect account requirements in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 Use this article to plan for the account requirements and recommendations for accounts that are required to install, configure, and use Project Server 2013.
   

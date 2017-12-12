@@ -2,11 +2,11 @@
 title: "Software requirements for Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/7/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,7 @@ description: "Summary: Learn about installation requirements for Project Server 
 
 # Software requirements for Project Server 2016
  
- **Summary:** Learn about installation requirements for Project Server 2016.
+ **Summary:** Learn about installation requirements for Project Server 2016.<br/>
 **Applies to:** Project Server 2016
   
 ## Key Requirements

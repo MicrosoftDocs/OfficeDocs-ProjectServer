@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 19ad76d0-3d4f-41a3-a726-869c371e66ff
 description: "Summary: Use the New Custom Field page in Project Web App settings to specify the options for a custom field."
@@ -14,7 +14,8 @@ description: "Summary: Use the New Custom Field page in Project Web App settings
 
 # Add or edit enterprise custom fields in Project Server
  
- **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom field.
+ **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom field.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Use the following procedure to create a new enterprise custom field or edit an existing one.
   

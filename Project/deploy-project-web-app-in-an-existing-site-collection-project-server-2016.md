@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Deploy an instance of Project Web App to an existing site
 
 # Deploy Project Web App in an existing site collection (Project Server 2016)
  
- **Summary:** Deploy an instance of Project Web App to an existing site collection and create a Project Web App site.
+ **Summary:** Deploy an instance of Project Web App to an existing site collection and create a Project Web App site.<br/>
+**Applies to:** Project Server 2016
   
 Deploying an instance of Project Web App to an existing site collection consists of the following:
   

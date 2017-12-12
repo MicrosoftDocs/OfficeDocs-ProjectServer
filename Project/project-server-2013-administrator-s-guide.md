@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 409b5511-24a2-482e-a62c-896256be58fd
 description: "Summary: Download and use the Microsoft Project Server 2013 Administrator's Guide to manage and administer Project Server 2013 in your organization."
@@ -14,7 +14,8 @@ description: "Summary: Download and use the Microsoft Project Server 2013 Admini
 
 # Project Server 2013 Administrator's Guide
  
- **Summary:** Download and use the Microsoft Project Server 2013 Administrator's Guide to manage and administer Project Server 2013 in your organization.
+ **Summary:** Download and use the Microsoft Project Server 2013 Administrator's Guide to manage and administer Project Server 2013 in your organization.<br/>
+**Applies to:** Project Server 2013
   
 Project Server 2013 administrators must manage many tasks in the Project Web App (PWA) Server Settings page for users to access and interact effectively with data. Farm administrators must also understand the tasks in the PWA Server Settings that they might be responsible for, such as OLAP database management, queue settings management, or project site provisioning settings. The  *Microsoft Project Server 2013 Administrator's Guide*  helps your organization understand these tasks that are involved with administering Project Server 2013. It includes many step-by-step procedures and accompanying user-interface screen shots of Project Web App.
   
@@ -63,7 +64,7 @@ The Microsoft Project Server 2013 Administrator's Guide contains the following c
     
 > Part 2: Project Web App Settings in SharePoint Central Administration
     
-    - - Chapter 9, "Queue and Database Administration"
+    - Chapter 9, "Queue and Database Administration"
     
     - Chapter 10, "Operational Policies"
     

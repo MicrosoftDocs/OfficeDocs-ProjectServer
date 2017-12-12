@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Determine whether to deploy Project Web App to a new site
 
 # Deploy Project Web App
  
- **Summary:** Determine whether to deploy Project Web App to a new site collection or add it to an existing site collection.
+ **Summary:** Determine whether to deploy Project Web App to a new site collection or add it to an existing site collection.<br/>
+**Applies to:** Project Server 2016
   
 Before we get started configuring Project Web App, here are two important things if you've used earlier versions of Project Server:
   

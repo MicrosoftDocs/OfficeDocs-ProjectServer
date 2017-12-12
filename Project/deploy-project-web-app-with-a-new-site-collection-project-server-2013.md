@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f7b97b0f-d7f9-42ef-bbee-e220daedd06e
@@ -15,7 +15,8 @@ description: "Summary: Learn how to deploy an instance of Project Web App along 
 
 # Deploy Project Web App with a new site collection (Project Server 2013)
  
- **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.
+ **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
+**Applies to:** Project Server 2013
   
 Creating a Project Web App site with a new site collection creates a Project Web App database on the specified instance of SQL Server.
   

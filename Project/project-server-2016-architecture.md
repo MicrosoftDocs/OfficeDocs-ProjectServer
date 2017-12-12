@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 8/31/2016
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: de7b6655-27e2-4f95-be81-e339bfa2bd6c
@@ -15,7 +15,8 @@ description: "Summary: Learn about the general architecture of Project Server 20
 
 # Project Server 2016 architecture
  
- **Summary:** Learn about the general architecture of Project Server 2016.
+ **Summary:** Learn about the general architecture of Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 Project Server 2016 architecture includes association of the Project Application Service with SharePoint site collections, the client-side object model (CSOM) for remote access, an OData interface for reporting, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM and OData interfaces.
   

@@ -2,11 +2,11 @@
 title: "Plan for performance and capacity in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5f5110f0-2a72-4509-97a4-6896838bed1e
@@ -15,11 +15,12 @@ description: "Summary: Read articles about how to plan for performance and capac
 
 # Plan for performance and capacity in Project Server 2013
  
- **Summary:** Read articles about how to plan for performance and capacity in Project Server 2013.
+ **Summary:** Read articles about how to plan for performance and capacity in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 This section covers capacity planning for Project Server 2013
   
-## TechNet articles about planning for performance and capacity for Project Server 2013 deployments
+## Articles about planning for performance and capacity for Project Server 2013 deployments
 
 The following articles about planning for performance and capacity for Project Server 2013 deployments are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   

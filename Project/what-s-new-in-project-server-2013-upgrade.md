@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1722bfce-85a3-477a-8d13-680f22284671
@@ -15,7 +15,8 @@ description: "Summary: Learn about key changes and considerations when you upgra
 
 # What's new in Project Server 2013 upgrade
  
- **Summary:** Learn about key changes and considerations when you upgrade to Project Server 2013.
+ **Summary:** Learn about key changes and considerations when you upgrade to Project Server 2013.<br/>
+ **Applies to:** Project Server 2013
   
 Upgrading to Project Server 2013 differs in many ways from upgrading to previous versions of Project Server. When you upgrade to Project Server 2013, it is important to consider the following:
   
@@ -148,10 +149,11 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md)
+[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   
-[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md)
-#### 
+[Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
 
-[Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade for an upgrade to Project Server 2013]
+(prepare-your-environment-for-an-upgrade-to-project-server-2013.md)
+
 

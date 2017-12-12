@@ -2,11 +2,11 @@
 title: "Assign an approval task in a workflow"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 4735a010-84c3-44af-a2c7-c83bd0013cd9
 description: "Summary: Learn how to add an approval task to a Project Web App workflow."

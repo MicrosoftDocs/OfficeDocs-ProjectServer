@@ -2,11 +2,11 @@
 title: "Performance troubleshooting in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1223bffd-7e67-48cb-aee7-b6c5027ace16
@@ -15,7 +15,8 @@ description: "Summary: Read troubleshooting information for common bottlenecks a
 
 # Performance troubleshooting in Project Server 2013
  
- **Summary:** Read troubleshooting information for common bottlenecks and their causes in Project Server 2013.
+ **Summary:** Read troubleshooting information for common bottlenecks and their causes in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 During performance testing, several different common bottlenecks can be revealed. A bottleneck is a condition in which the capacity of a particular constituent of a farm is reached. This causes a plateau or decrease in farm throughput.
   

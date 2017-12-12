@@ -2,11 +2,11 @@
 title: "Upgrade to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 3/11/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about how to upgrade to Project Server 2016."
 
 # Upgrade to Project Server 2016
  
- **Summary:** Learn about how to upgrade to Project Server 2016.
+ **Summary:** Learn about how to upgrade to Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 This series of articles describes how to plan and upgrade to Project Server 2016. 
   
