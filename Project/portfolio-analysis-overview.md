@@ -19,7 +19,7 @@ description: "Summary: Learn what a portfolio analysis is and how to get started
   
 Project Web App can help you analyze your projects to determine which of them will give you the best return on your investment of both budget and resources. This process is known as portfolio analysis.
   
-A portfolio is just a collection of projects or project ideas that you define. For example, next quarter's IT projects, or next year's new products. Aportfolio analysis is an interactive way of choosing the projects that offer you the best business value that can be accomplished with the people and the budget that you have available.
+A portfolio is just a collection of projects or project ideas that you define. For example, next quarter's IT projects, or next year's new products. A portfolio analysis is an interactive way of choosing the projects that offer you the best business value that can be accomplished with the people and the budget that you have available.
   
 You might have a lot of project ideas that you want to sort through to determine what's going to give you the best business value. Or you might have a well-defined list of projects to do but not enough budget to do all of them. In either case, creating a portfolio analysis in Project Web App can help you determine which projects will give you the best business value for the budget and resources that you have available.
   
