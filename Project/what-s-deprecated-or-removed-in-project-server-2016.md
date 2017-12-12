@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: overview
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -14,6 +14,7 @@ ms.collection:
 ms.assetid: 04fee973-5623-4768-a3ba-c109e45dd7eb
 description: "Learn what has been deprecated or removed in Project Server 2016."
 ---
+**Applies to:** Project Server 2016
 
 # What's deprecated or removed in Project Server 2016
 Learn what has been deprecated or removed in Project Server 2016.

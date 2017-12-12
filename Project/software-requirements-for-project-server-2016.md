@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/7/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -18,6 +18,7 @@ description: "Summary: Learn about installation requirements for Project Server 
 # Software requirements for Project Server 2016
  
  **Summary:** Learn about installation requirements for Project Server 2016.
+**Applies to:** Project Server 2016
   
 ## Key Requirements
 
