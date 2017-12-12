@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 27a47c38-12b8-45f1-9e2a-a12e5e76a5af
@@ -15,6 +15,7 @@ description: "Summary: Learn about new features and capabilities in Project Serv
 
 # What's new for IT pros in Project Server 2013
  **Summary:** Learn about new features and capabilities in Project Server 2013.
+**Applies to:** Project Server 2013
   
 This article provides a brief overview of new and significantly updated functionality in Project Server 2013, with a particular emphasis on the areas of interest to IT pros. These areas include the following:
   
