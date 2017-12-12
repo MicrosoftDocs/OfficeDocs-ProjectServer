@@ -3,7 +3,7 @@ title: Project Server Documentation
 description: Project Server provides project management, work management, and portfolio management capabilities for the enterprise. With it, organizations can effectively initiate, select, plan, and deliver projects while tracking time and budget, while also providing extensive reporting capabilities. Learn how to deploy, configure, and manage Project Server with this content set.
 services: project-server-2013-2016
 author: efrene
-manager: efrene
+manager: samanro
 layout: LandingPage
 ms.assetid: 
 ms.service: project-server-2013-2016
