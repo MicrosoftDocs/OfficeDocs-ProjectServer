@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 0e896c78-7e9e-4e24-a398-0319873b15ef
@@ -15,7 +15,8 @@ description: "Summary: Upgrade from Project Server 2010 to Project Server 2013."
 
 # Overview of the upgrade process to Project Server 2013
  
- **Summary:** Upgrade from Project Server 2010 to Project Server 2013.
+ **Summary:** Upgrade from Project Server 2010 to Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 This article contains an overview of the procedures required to upgrade to Project Server 2013 from Project Server 2010.
   
@@ -88,7 +89,7 @@ The farm administrator restores the Project Server 2010 databases to the compute
 2. The farm administrator enables PWA features for the site. 
     
 > [!NOTE]
-> For detailed procedures about upgrading your databases and the PWA site collection, see [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md). 
+> For detailed procedures about upgrading your databases and the PWA site collection, see [Upgrade your databases and Project Web App site collections to Project Server 2016](upgrade-your-databases-and-project-web-app-site-collections-project-server-2013.md). 
   
 ## Project Server forums and documentation feedback
 

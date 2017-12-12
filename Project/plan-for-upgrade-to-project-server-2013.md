@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: cc10a269-8dde-4d1c-b879-5c4cccf0a5bd
@@ -16,7 +16,8 @@ description: "Summary: When you upgrade to Project Server 2013, primary things t
 
 # Plan for upgrade to Project Server 2013
  
- **Summary:** When you upgrade to Project Server 2013, primary things to consider include system requirements and your current environment.
+ **Summary:** When you upgrade to Project Server 2013, primary things to consider include system requirements and your current environment.<br/>
+**Applies to:** Project Server 2013
   
 When you plan to upgrade to Project Server 2013 from a previous version of Project Server, it is important to consider the following planning areas that are key in ensuring a successful upgrade of your environment:
   
@@ -36,7 +37,7 @@ When you plan for upgrade, it is important to plan for the following system requ
   
 - **Upgrading to Project Server 2013 does not support an in-place upgrade option (where the Project Server files are upgraded on the same hardware)** Project Server 2013 will need to be installed in its own environment, to which your Project Server 2010 databases and the SharePoint content database containing your Project Web App site data will be upgraded. You will need to plan for additional hardware and software for the Project Server 2013 "destination environment."
     
-- **Review your Project Server 2013 hardware and software requirements** As noted above, upgrading to Project Server 2013 is only through the database attach method, which requires to you install a Project Server 2013 "destination environment." You should review the Project Server 2013 hardware and software requirements to plan for deploying your Project Server 2013 environment. For more information about Project Server 2013 hardware and software requirements, see[Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md).
+- **Review your Project Server 2013 hardware and software requirements** As noted above, upgrading to Project Server 2013 is only through the database attach method, which requires to you install a Project Server 2013 "destination environment." You should review the Project Server 2013 hardware and software requirements to plan for deploying your Project Server 2013 environment. For more information about Project Server 2013 hardware and software requirements, see[Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md).
     
     > [!NOTE]
     > Verify that you are installing SharePoint Server 2013 and Project Server 2013 on a clean server farm instance that has not previously hosted SharePoint Server 2010. Uninstalling SharePoint Server 2010 does not completely remove all installed files, folders, registry entries and other components. Installing SharePoint Server 2013 and Project Server 2013 on such a server will likely cause issues. It is recommended that you reformat the hard drive and reinstall Windows Server if you do chose to use such a server. 
@@ -218,7 +219,7 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md)
+[Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
 #### 
 
 [Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)

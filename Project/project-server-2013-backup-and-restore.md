@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0bd0ef33-e1f1-4b46-94c2-4469f0554c7c
@@ -16,13 +16,14 @@ description: "Summary: This section covers Project Server 2013 backup and restor
 
 # Project Server 2013 backup and restore
  
- **Summary:** This section covers Project Server 2013 backup and restore information, specific to the Project Server components of a SharePoint Server 2013 farm.
+ **Summary:** This section covers Project Server 2013 backup and restore information, specific to the Project Server components of a SharePoint Server 2013 farm.<br/>
+**Applies to:** Project Server 2013
   
 These are useful articles for planning and maintenance, emergency recovery scenarios, or disaster-recovery situations.
   
-The following articles on TechNet provide information about backing up and restoring Project Server 2013.
+The following articles provide information about backing up and restoring Project Server 2013.
   
-## TechNet articles about backing up and restoring Project Server 2013
+## Articles about backing up and restoring Project Server 2013
 
 The following articles about backing up and restoring Project Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   

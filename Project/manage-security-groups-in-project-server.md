@@ -5,7 +5,7 @@ author: efrene
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 0f38d5c3-b604-41b0-a1c8-7b1112672265
 description: "Summary: Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings."
@@ -13,7 +13,8 @@ description: "Summary: Administrators can manage security permissions for groups
 
 # Manage security groups in Project Server
  
- **Summary:** Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings.
+ **Summary:** Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 A group is a container for users that can be assigned permissions in Project Web App. Users automatically inherit the permissions of any group to which they belong. By adding users to groups, you can significantly reduce the amount of time spent managing user permissions. In Project Server permission mode, you can manage groups from the Project Web App Server Settings page.
   
@@ -64,7 +65,7 @@ To manage groups in Project Web App, you can perform the following procedures:
 
 #### 
 
-[Manage users, groups, and categories in Project Server 2013](manage-users-groups-and-categories-in-project-server-2013.md)
+[Manage users, groups, and categories in Project Server](manage-users-groups-and-categories-in-project-server-2013.md)
   
 [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md)
   

@@ -2,11 +2,11 @@
 title: "Best practices for creating phases and stages"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: d144b49e-12f0-4e18-96c5-de59d9fafc04
 description: "Summary: Use these naming conventions for work management phases and stages to make administration easier."

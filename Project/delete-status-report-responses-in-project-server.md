@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: b19544e4-0a6a-42f3-85f2-422597aef3fa
 description: "Summary: When a status report response is no longer needed, you can delete it from Project Web App."
@@ -14,7 +14,8 @@ description: "Summary: When a status report response is no longer needed, you ca
 
 # Delete status report responses in Project Server
  
- **Summary:** When a status report response is no longer needed, you can delete it from Project Web App.
+ **Summary:** When a status report response is no longer needed, you can delete it from Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Use the following procedure to delete status report responses from Project Web App.
   

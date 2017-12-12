@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: c6f6d098-0400-446e-9e15-bf5557b4a77c
@@ -15,7 +15,8 @@ description: "Summary: You can do specific restores of Project Server 2013 in mu
 
 # Restore Project Server 2013 by using built-in tools
  
- **Summary:** You can do specific restores of Project Server 2013 in multiple ways, whether through a planned event, or as a result of Project Server having real issues that can only be addressed by a restore of a previously known good backup.
+ **Summary:** You can do specific restores of Project Server 2013 in multiple ways, whether through a planned event, or as a result of Project Server having real issues that can only be addressed by a restore of a previously known good backup.<br/>
+**Applies to:** Project Server 2013
   
 Sometimes you must do a restore of your Project Server 2013 components, either into a new SharePoint Server 2013 environment or your existing SharePoint Server 2013 environment. If this is the case, your options depend on the SQL Server or SharePoint backups available to you. This article describes scenarios for the restore process for the built-in restore options recommended by Microsoft.
   

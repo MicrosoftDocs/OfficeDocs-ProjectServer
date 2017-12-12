@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 5/16/2017
 ms.audience: Admin
 ms.topic: get-started-article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6f4a1de6-878d-49cf-b759-352b717ddde2
@@ -16,6 +16,9 @@ description: "This article describes periodic checks Project Server admins shoul
 
 # Periodic tasks for Project Server administrators
  
+
+**Applies to:** Project Server 2016, Project Server 2013 <br/>
+
 This article describes periodic checks Project Server admins should perform to maintain their environments. It was contributed by Microsoft Senior Premier Field Engineer [Brooks White](https://go.microsoft.com/fwlink/p/?linkid=848903).
   
 ## 
@@ -34,7 +37,7 @@ Project Server administrators should perform the following periodic checks to th
 |Review application and event logs on web front end (WFE) servers, APP servers and the SQL Server.  <br/> |
 |Use the Unified Logging Service (ULS logs) as needed, based on the finding in the application and system event logs. Use the [Merge-SPLogFile](https://go.microsoft.com/fwlink/?linkid=848897) PowerShell cmdlet to filter output from all servers. <br/> |
 |Check Active Directory synchronization jobs to ensure they were successful.  <br/> |
-|Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/> > [!NOTE]> This may be the job of the PMO.           |
+|Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/>NOTE - This may be the job of the PMO.           |
 |Clear any overly long delegation sessions in Server Settings | Delete Enterprise Objects | User Delegation.  <br/> |
 |Maintain a valid enterprise resource pool by checking for users who haven't logged in for 60 days and find out why. For example, they may have left the company, are unaware of PWA, or could have been added mistakenly when someone else needed access.  <br/> |
 |Check the ADMINISTRATORS group for admins that should be removed.  <br/> |

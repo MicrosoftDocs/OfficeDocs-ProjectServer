@@ -2,11 +2,11 @@
 title: "Medium dataset hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: d25851d2-708a-4ba9-961a-21d8231a4f30
@@ -16,7 +16,8 @@ description: "Summary: Learn the system requirements such as RAM, disk space, pr
 
 # Medium dataset hardware recommendations for Project Server 2013
  
- **Summary:** Learn the system requirements such as RAM, disk space, processor speed for server hardware for Project Server 2013.
+ **Summary:** Learn the system requirements such as RAM, disk space, processor speed for server hardware for Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 ## Minimum requirements for hardware for Project Server 2013
 

@@ -2,11 +2,11 @@
 title: "Determine the number and types of users that require access to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -15,9 +15,10 @@ ms.assetid: a46efff3-0ed9-4d0c-bf6d-c3860f5ef4c7
 description: "Summary: Learn about the different types of users that require access to Project Server and Project Web App."
 ---
 
-# Determine the number and types of users that require access to Project Server 2016
+# Determine the number and types of users that require access to Project Server
  
- **Summary:** Learn about the different types of users that require access to Project Server and Project Web App.
+ **Summary:** Learn about the different types of users that require access to Project Server and Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 The number and types of users in your organization who use Project Server features have a direct effect on the scalability and performance needs of your organization.
   

@@ -2,11 +2,11 @@
 title: "Scenarios and solutions for Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: f5829613-e2c5-45fd-b44f-9b89f7723a61
 description: "Summary Learn about using Project Server to create solutions for project management."

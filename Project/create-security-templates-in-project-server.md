@@ -2,11 +2,11 @@
 title: "Create security templates in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: d10da3ff-4b2b-499a-8c2c-b990cc1fd167
@@ -15,7 +15,8 @@ description: "Summary: Create Project Web App security templates by using the Ma
 
 # Create security templates in Project Server
  
- **Summary:** Create Project Web App security templates by using the Manage Templates page in Project Web App Settings.
+ **Summary:** Create Project Web App security templates by using the Manage Templates page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 See [To create a template](#proc) later in this article.
   
@@ -57,11 +58,11 @@ Perform the following procedure to create a template in Project Web App.
     
 5. In the **Category Permissions** section, select the permissions in the **Allow** or **Deny** column that you want to apply towards projects and resources whenever this template is used to set permissions.
     
-    For more information about specific category permissions, see [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md).
+    For more information about specific category permissions in Project Server 2013, see [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md).
     
 6. In the **Global Permissions** section, select the permissions in the **Allow** or **Deny** columns that you want to apply across this instance of Project Web App whenever this template is used to set permissions.
     
-    For more information about specific global permissions, see [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
+    For more information about specific global permissions in Project Server 2013, see [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
     
 7. Click **Save**.
     

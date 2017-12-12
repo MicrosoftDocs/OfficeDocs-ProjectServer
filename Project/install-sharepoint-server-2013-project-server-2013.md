@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0864c3aa-ec40-45e0-af24-7f7a8057e661
@@ -15,7 +15,8 @@ description: "Summary: Install SharePoint Server 2013 and create a server farm p
 
 # Install SharePoint Server 2013 (Project Server 2013)
  
- **Summary:** Install SharePoint Server 2013 and create a server farm prior to installing Project Server 2013.
+ **Summary:** Install SharePoint Server 2013 and create a server farm prior to installing Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 Before you can install Project Server 2013, you must install SharePoint Server 2013 and create a SharePoint Server 2013 farm. You must also start the State Service on the SharePoint farm.
   

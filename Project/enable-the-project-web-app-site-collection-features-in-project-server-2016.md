@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Enable the Project Web App site collection features to al
 
 # Enable the Project Web App site collection features in Project Server 2016
  
- **Summary:** Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App.
+ **Summary:** Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App.<br/>
+**Applies to:** Project Server 2016
   
 Enabling the Project Web App site collection features adds additional functionality to the site collection that allows you to import SharePoint list projects into Project Web App.
   

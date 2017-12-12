@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Plan reporting on Project Web App data by using business 
 
 # Plan reporting and business intelligence in Project Web App
  
- **Summary:** Plan reporting on Project Web App data by using business intelligence tools in SharePoint Server 2013.
+ **Summary:** Plan reporting on Project Web App data by using business intelligence tools in SharePoint Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 In Project Server 2013 project information is stored in the SharePoint content database where the Project Web App site resides. This information can be queried by any reporting tool that can connect to a SQL Server database, provided you have no more than one instance of Project Web App for each content database. The data is also available through an OData feed. (OData is the recommended reporting method.)
   
@@ -26,7 +27,7 @@ In Project Server 2013 project information is stored in the SharePoint content d
   
 The data available for reporting includes timesheet custom fields, project properties, and portfolio planner and optimizer data. Project Server can also generate online analytical processing (OLAP) cubes containing this information.
   
-Each instance of Project Web App includes a set of sample reports that use the OData feed. These reports are contained within Excel 2016 workbooks and can be rendered in a browser window if you have [Office Online Server configured to work with your SharePoint farm](http://technet.microsoft.com/library/a5276781-133b-413c-beca-b851e17c2081%28Office.14%29.aspx).
+Each instance of Project Web App includes a set of sample reports that use the OData feed. These reports are contained within Excel 2013 workbooks and can be rendered in a browser window if you have [Office Online Server configured to work with your SharePoint farm](http://technet.microsoft.com/library/a5276781-133b-413c-beca-b851e17c2081%28Office.14%29.aspx).
   
 ## Reports in Project Web App that use Excel
 

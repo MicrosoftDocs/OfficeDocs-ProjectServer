@@ -2,11 +2,11 @@
 title: "Determine project management requirements in Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -15,9 +15,10 @@ ms.assetid: bbfa709c-11c3-435e-8b2e-f6ae332e3b09
 description: "Summary: Learn about Project Server feature usage for Enterprise Project Management, timesheet, and demand management scenarios."
 ---
 
-# Determine project management requirements in Project Server 2016
+# Determine project management requirements in Project Server
  
- **Summary:** Learn about Project Server feature usage for Enterprise Project Management, timesheet, and demand management scenarios.
+ **Summary:** Learn about Project Server feature usage for Enterprise Project Management, timesheet, and demand management scenarios.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 It is important to determine the project management needs and requirements for your organization. Your configuration will vary according to the kind of work that your organization performs and whether you use Project Server for time tracking, collaboration, or portfolio management. After you characterize the typical projects for your organization, determine which Project Server scenarios that you have to support.
   

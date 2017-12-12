@@ -2,11 +2,11 @@
 title: "Create delegations in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: cb1b1fa3-213a-4bf6-9b7a-bf0b578ddc12
@@ -15,7 +15,8 @@ description: "Summary: How to enable one user to work on behalf of another in Pr
 
 # Create delegations in Project Server
  
- **Summary:** How to enable one user to work on behalf of another in Project Server.
+ **Summary:** How to enable one user to work on behalf of another in Project Server.<br/>
+**Applies to:** Project Server 2013
   
 Creating a new delegation in Project Web App enables one user to work on behalf of another user, such as submitting a second user's timesheet.
   

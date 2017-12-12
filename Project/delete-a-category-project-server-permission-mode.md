@@ -2,11 +2,11 @@
 title: "Delete a category (Project Server permission mode)"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: ba624d09-892e-459b-abe6-50718e6520c9
@@ -15,7 +15,8 @@ description: "Summary: Delete custom security categories by using the Manage Cat
 
 # Delete a category (Project Server permission mode)
  
- **Summary:** Delete custom security categories by using the Manage Categories page in Project Web App Settings.
+ **Summary:** Delete custom security categories by using the Manage Categories page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 In Project Web App, you can delete any existing custom category from the Manage Categories page in Project Web App.
   

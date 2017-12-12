@@ -2,11 +2,11 @@
 title: "Portfolio analysis driver prioritization"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: ee070bc8-33b8-4465-9adb-2618cf1a8c7a
 description: "Summary: Learn how to prioritize your business drivers inProject Web App portfolio analysis."

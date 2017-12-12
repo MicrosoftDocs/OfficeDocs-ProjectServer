@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: c14ac2d2-64d6-4fb9-93a0-dc7e1f9717ec
 description: "Summary: You can force the check-in an enterprise resource plan by using Project Web App Settings."
@@ -14,7 +14,8 @@ description: "Summary: You can force the check-in an enterprise resource plan by
 
 # Check-in resource plans in Project Server
  
- **Summary:** You can force the check-in an enterprise resource plan by using Project Web App Settings.
+ **Summary:** You can force the check-in an enterprise resource plan by using Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 You can force the check-in of an enterprise resource plan that is checked out. Note that forcing a check-in of a resource plan that is being modified by a user may result in the loss of those changes.
   

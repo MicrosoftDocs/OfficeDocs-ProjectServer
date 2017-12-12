@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 17d20869-e765-411b-ba56-9198b5b4f086
@@ -15,11 +15,12 @@ description: "Summary: The queue and database administrative settings are part o
 
 # Queue and Database Administration (Project Server 2013)
  
- **Summary:** The queue and database administrative settings are part of the Project Server 2013 Server Settings.
+ **Summary:** The queue and database administrative settings are part of the Project Server 2013 Server Settings.<br/>
+**Applies to:** Project Server 2013
   
 The following articles on TechNet provide information about queue and database administration in Project Server 2013.
   
-## TechNet articles about queue and database administration in Project Server 2013
+## Articles about queue and database administration in Project Server 2013
 
 The following articles about queue and database administration in Project Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   

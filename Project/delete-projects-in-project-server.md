@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: fa652c02-f1d0-4d4e-90e1-5f5e79dd44d4
 description: "Summary: When a project is no longer needed, you can delete it from Project Web App using the Delete Enterprise Objects option."
@@ -14,7 +14,8 @@ description: "Summary: When a project is no longer needed, you can delete it fro
 
 # Delete projects in Project Server
  
- **Summary:** When a project is no longer needed, you can delete it from Project Web App using the Delete Enterprise Objects option.
+ **Summary:** When a project is no longer needed, you can delete it from Project Web App using the Delete Enterprise Objects option.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Use the following procedure to delete a project from Project Web App.
   

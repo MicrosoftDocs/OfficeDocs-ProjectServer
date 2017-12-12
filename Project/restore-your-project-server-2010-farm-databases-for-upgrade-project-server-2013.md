@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: e79d3ca4-7f2d-4c94-be68-a408fd3de65d
@@ -15,7 +15,8 @@ description: "Summary: Restore your Project Server 2010 databases to the SQL Ser
 
 # Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)
  
- **Summary:** Restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data.
+ **Summary:** Restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data.<br/>
+**Applies to:** Project Server 2013
   
 This is one of the required steps when you upgrade from Project Server 2010 to Project Server 2013 through the database-attach upgrade method.
   

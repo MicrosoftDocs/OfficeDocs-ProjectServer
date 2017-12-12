@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a2570ae9-dfb4-43be-8ef4-940b2f9a072a
@@ -15,7 +15,8 @@ description: "Summary: Learn how to back up Project Server 2010 databases by usi
 
 # Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013
  
- **Summary:** Learn how to back up Project Server 2010 databases by using SQL Server 2005, SQL Server 2008 or SQL Server 2008 R2, or SQL Server 2012.
+ **Summary:** Learn how to back up Project Server 2010 databases by using SQL Server 2005, SQL Server 2008 or SQL Server 2008 R2, or SQL Server 2012.<br/>
+**Applies to:** Project Server 2013
   
 Upgrading to Project Server 2013 requires you to use the database-attach upgrade method. This method upgrades your Project Server 2010 databases and merges them in a single Project Web App database. It also restores the Project Web App content database to your Project Server 2013 farm. One of the first steps in upgrading from Project Server 2010 to Project Server 2013 is to create backup copies of your databases that you will need to upgrade from your Project Server 2010 farm deployment. These databases include the following:
   

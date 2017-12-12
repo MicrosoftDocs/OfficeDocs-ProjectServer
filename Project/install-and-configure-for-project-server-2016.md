@@ -2,11 +2,11 @@
 title: "Install and configure for Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 1/19/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

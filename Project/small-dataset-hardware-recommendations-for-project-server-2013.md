@@ -2,11 +2,11 @@
 title: "Small dataset hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: aadb7d9f-ddfd-4a80-8658-ed92891903c6
@@ -15,7 +15,8 @@ description: "Summary Here are the hardware recommendations for a small deployme
 
 # Small dataset hardware recommendations for Project Server 2013
  
- **Summary** Here are the hardware recommendations for a small deployment of Project Server 2013.
+ **Summary** Here are the hardware recommendations for a small deployment of Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 ## Minimum requirements for hardware for Project Server 2013
 

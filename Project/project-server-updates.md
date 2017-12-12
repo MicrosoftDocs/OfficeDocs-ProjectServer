@@ -5,7 +5,7 @@ author: efrene
 ms.date: 11/14/2017
 ms.audience: ITPro
 ms.topic: overview
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Priority
 ms.collection:
 - IT_ProjectAdmin

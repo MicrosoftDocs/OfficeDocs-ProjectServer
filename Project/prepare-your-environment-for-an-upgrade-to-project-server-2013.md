@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 31299399-5d52-4e1b-81cf-fd85de478095
@@ -15,7 +15,8 @@ description: "Summary: After you create a plan to upgrade your environment to Pr
 
 # Prepare your environment for an upgrade to Project Server 2013
  
- **Summary:** After you create a plan to upgrade your environment to Project Server 2013, you must prepare you environment before you can start the actual upgrade process.
+ **Summary:** After you create a plan to upgrade your environment to Project Server 2013, you must prepare you environment before you can start the actual upgrade process.<br/>
+**Applies to:** Project Server 2013
   
 This article describes these tasks that must be done prior to upgrading from your current Project Server environment.
   
@@ -44,7 +45,7 @@ For a Project Server 2013 installation, the minimum operating system supported i
 
 You use Microsoft PowerShell commands to execute many of the procedures required to upgrade to Project Server 2013. On the computer on which you installed Project Server 2013, it is important to verify that you have the ability to open the SharePoint 2016 Management Shell, and that you are able to access the PowerShell cmdlets for Project Server 2013.
   
-### To open the SharePoint 2016 Management Shell and verify that you can access the Project Server 2013 cmdlets
+### To open the SharePoint 2013 Management Shell and verify that you can access the Project Server 2013 cmdlets
 
 1. Click **Start**, click **All Programs**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Management Shell**. 
     
@@ -125,9 +126,9 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md)
+[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   
-[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md)
+[Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
 #### 
 
 [Plan for upgrade (SharePoint 2013 Products)](http://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6.aspx)

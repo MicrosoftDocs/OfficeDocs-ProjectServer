@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn how to deploy an instance of Project Web App along 
 
 # Deploy Project Web App with a new site collection (Project Server 2016)
  
- **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.
+ **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
+**Applies to:** Project Server 2016
   
 ## Create a top-level web site
 

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

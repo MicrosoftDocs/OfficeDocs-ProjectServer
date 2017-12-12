@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Manage OLAP cubes by using the OLAP Database Management p
 
 # Create OLAP cubes in Project Server 2016
  
- **Summary:** Manage OLAP cubes by using the OLAP Database Management page in Central Administration.
+ **Summary:** Manage OLAP cubes by using the OLAP Database Management page in Central Administration.<br/>
+**Applies to:** Project Server 2016
   
 To create an OLAP cube, you must be a Project Server service application administrator. Perform the following procedure to create a new OLAP cube.
   

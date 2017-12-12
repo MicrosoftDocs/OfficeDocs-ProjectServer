@@ -2,11 +2,11 @@
 title: "Large dataset hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: af00720c-08ba-458c-a45b-706ad1c71a87
 
@@ -15,7 +15,8 @@ description: "Summary Here are the hardware recommendations for a large deployme
 
 # Large dataset hardware recommendations for Project Server 2013
  
- **Summary** Here are the hardware recommendations for a large deployment of Project Server 2013.
+ **Summary** Here are the hardware recommendations for a large deployment of Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 For large datasets, the data load will be the most substantial performance bottleneck. Generally, at a minimum for large datasets you will want a 4×2×1 topology. The hardware characteristics of the front-end Web and Application servers can generally remain the same as those recommended for the small and medium datasets. However, given that the SQL Server tier will be the bottleneck, you may find that this constrains your ability to scale out to additional front-end Web and Application servers. If data load is your bottleneck, you may find that additional front-end Web and Application servers do not produce an improvement in throughput. 
   

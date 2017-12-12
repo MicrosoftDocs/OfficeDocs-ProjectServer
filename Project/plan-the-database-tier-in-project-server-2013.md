@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 77a2f176-c824-4159-8e13-cf64d57c0dfc
@@ -15,7 +15,8 @@ description: "Summary: Learn how data is partitioned within a Project Web App da
 
 # Plan the database tier in Project Server 2013
  
- **Summary:** Learn how data is partitioned within a Project Web App database and which tables are available for use externally.
+ **Summary:** Learn how data is partitioned within a Project Web App database and which tables are available for use externally.<br/>
+**Applies to:** Project Server 2013
   
 This article identifies the key components of the database tier.
   

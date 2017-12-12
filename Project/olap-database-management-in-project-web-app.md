@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: overview
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Use Project Web App to create OLAP databases containing t
 
 # OLAP database management in Project Web App
  
- **Summary:** Use Project Web App to create OLAP databases containing the specific resources, projects, and custom fields that you need for reporting.
+ **Summary:** Use Project Web App to create OLAP databases containing the specific resources, projects, and custom fields that you need for reporting.<br/>
+**Applies to:** Project Server 2016
   
 Through Project Web App, multiple OLAP databases can be delivered that contain the specific resources, projects, and custom fields that each group within your organization requires for its particular group reporting needs.
   

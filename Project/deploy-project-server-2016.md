@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 4/13/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn how to deploy Project Server 2016."
 
 # Deploy Project Server 2016
  
- **Summary:** Learn how to deploy Project Server 2016.
+ **Summary:** Learn how to deploy Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 This series of articles describes the steps necessary to install Project Server 2016. Be sure you've [planned your deployment](plan-for-project-server-2016.md) and reviewed the[software requirements](software-requirements-for-project-server-2016.md) before you begin.
   

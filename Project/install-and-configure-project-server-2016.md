@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Configure Project Server 2016 on a SharePoint Server 2016
 
 # Install and configure Project Server 2016
  
- **Summary:** Configure Project Server 2016 on a SharePoint Server 2016 farm.
+ **Summary:** Configure Project Server 2016 on a SharePoint Server 2016 farm.<br/>
+**Applies to:** Project Server 2016
   
 Project Server 2016 runs as a service application under SharePoint Server 2016. It is included as part of the SharePoint Server 2016 Enterprise installation, though it is licensed separately. This article describes configuring Project Server 2016, including provisioning the Project Server Service Application. Project Server 2016 is only available on SharePoint Server 2016 Enterprise.
   

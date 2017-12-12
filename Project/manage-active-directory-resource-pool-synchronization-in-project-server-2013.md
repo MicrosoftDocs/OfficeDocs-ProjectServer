@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 8f7ef435-af46-4575-baef-4f36d7debf24
@@ -16,9 +16,10 @@ description: "Summary: Use the Active Directory Resource Pool Synchronization se
 
 # Manage Active Directory Resource Pool synchronization in Project Server 2013
  
- **Summary:** Use the Active Directory Resource Pool Synchronization settings in Project Server 2013 to quickly add Active Directory users as enterprise resources.
+ **Summary:** Use the Active Directory Resource Pool Synchronization settings in Project Server 2013 to quickly add Active Directory users as enterprise resources.<br/>
+**Applies to:** Project Server 2013
   
-The **Active Directory Resource Pool Synchronization** settings are available through the Project Server 2013 Server Settings page in the **Operational Policies** section. For more information about related administrative settings, see[Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md).
+The **Active Directory Resource Pool Synchronization** settings are available through the Project Server 2013 Server Settings page in the **Operational Policies** section. For more information about related administrative settings, see [Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md).
   
 In this article:
   
@@ -66,7 +67,7 @@ The following table describes all Active Directory to Project Server 2013 Enterp
   
 |**Scenario**|**Action**|
 |:-----|:-----|
-|User exists in Active Directory and is a member of the Active Directory group mapped to the Enterprise Resource Pool. The user does not exist in Project Server  <br/> |A new Project Server resource is created for this user.  <br/> > [!NOTE]> A Project Server User Account is not created based on this synchronization. The Active Directory user needs to be added to a Project Server security group to create a user account. For more information, see [Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md).           |
+|User exists in Active Directory and is a member of the Active Directory group mapped to the Enterprise Resource Pool. The user does not exist in Project Server  <br/> |A new Project Server resource is created for this user.  <br/> NOTE - A Project Server User Account is not created based on this synchronization. The Active Directory user needs to be added to a Project Server security group to create a user account. For more information, see [Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md).           |
 |User exists in Active Directory and is a member of the Active Directory group mapped to the Enterprise Resource Pool. The user exists in Project Server as a user, but not as a resource.  <br/> |A new Project Server resource is created for this user, and is linked to the existing Project Server user account.  <br/> |
 |User exists in Active Directory and is a member of the Active Directory group mapped to the Enterprise Resource Pool. The corresponding resource already exists in Project Server.  <br/> |The corresponding Project Server enterprise resource and user information is updated, if any updates were made to the user properties in Active Directory.  <br/> |
 |User exists in Active Directory, but is removed from the Active Directory group mapped to the Enterprise Resource Pool.  <br/> |The resource is not inactivated in Enterprise Resource Pool.  <br/> |
@@ -186,7 +187,6 @@ For example, the Contoso.com domain has a two-way trust with Litware.com and Fab
 [Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization](supported-active-directory-topologies-for-project-server-2013-enterprise-resourc.md)
   
 [Manage security group synchronization with Active Directory in Project Server](manage-security-group-synchronization-with-active-directory-in-project-server.md)
-#### 
 
 [People Picker and claims providers overview (SharePoint 2013)](http://technet.microsoft.com/library/bf8717c2-463d-4e8d-acaf-f186b5907df1.aspx)
   

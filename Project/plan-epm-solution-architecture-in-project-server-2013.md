@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 2865b7c4-099f-4f68-afcb-a95467a32dc9
@@ -15,7 +15,8 @@ description: "Summary: Plan for the client, application, and database tiers in a
 
 # Plan EPM Solution architecture in Project Server 2013
  
- **Summary:** Plan for the client, application, and database tiers in a Project Server solution.
+ **Summary:** Plan for the client, application, and database tiers in a Project Server solution.<br/>
+**Applies to:** Project Server 2013
   
 This chapter describes the components of a Project Server 2013 deployment. This material is written for executives, managers, and system administrators who are responsible for planning the deployment of Project Server.
   

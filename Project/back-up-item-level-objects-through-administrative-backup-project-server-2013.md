@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 98a1fbd1-b630-4d45-8bd3-93bcfad9d27c
@@ -15,7 +15,8 @@ description: "Summary: Use the Administrative Backup page in SharePoint Central 
 
 # Back up item-level objects through Administrative Backup (Project Server 2013)
  
- **Summary:** Use the Administrative Backup page in SharePoint Central Administration to back up Project Server 2013 objects.
+ **Summary:** Use the Administrative Backup page in SharePoint Central Administration to back up Project Server 2013 objects.<br/>
+**Applies to:** Project Server 2013
   
 This article describes how to back up specific project items in Project Web App. This procedure does not back up the physical files of a database (.mdb), but creates backups of specific items in the database. These items are backed up from the Published section to the Archive section in the Project Web App database. 
   

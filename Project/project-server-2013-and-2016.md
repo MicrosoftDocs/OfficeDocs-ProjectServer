@@ -5,7 +5,7 @@ author: efrene
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

@@ -2,11 +2,11 @@
 title: "Overview of the Project Server 2016 upgrade process"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: View a high-level overview of the steps required to upgra
 
 # Overview of the Project Server 2016 upgrade process
  
- **Summary:** View a high-level overview of the steps required to upgrade to Project Server 2016 from Project Server 2013.
+ **Summary:** View a high-level overview of the steps required to upgrade to Project Server 2016 from Project Server 2013.<br/>
+**Applies to:** Project Server 2016
   
 > [!NOTE]
 > For information about planning consideration when upgrading to Project Server 2016, see [Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md). 

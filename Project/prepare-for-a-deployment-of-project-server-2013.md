@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: ba9b8053-1658-42eb-a767-cf84b80539e9
 description: "Summary: Ensure that you have access to the necessary accounts and permissions to install Project Server 2013."
@@ -14,7 +14,8 @@ description: "Summary: Ensure that you have access to the necessary accounts and
 
 # Prepare for a deployment of Project Server 2013
  
- **Summary:** Ensure that you have access to the necessary accounts and permissions to install Project Server 2013.
+ **Summary:** Ensure that you have access to the necessary accounts and permissions to install Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 To successfully complete a deployment of Project Server 2013, the following permissions are required:
   
@@ -43,8 +44,7 @@ To configure SQL Server and Analysis Services, follow the procedures in [Configu
 
 #### 
 
-[IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
-#### 
+[IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

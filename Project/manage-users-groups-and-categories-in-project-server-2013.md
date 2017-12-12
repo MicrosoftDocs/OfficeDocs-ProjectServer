@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 8f290faa-8b71-4b98-9621-72e14551b784
 description: "Summary: Manage users, groups, and categories in Project Server permission mode."
@@ -14,7 +14,8 @@ description: "Summary: Manage users, groups, and categories in Project Server pe
 
 # Manage users, groups, and categories in Project Server
  
- **Summary:** Manage users, groups, and categories in Project Server permission mode.
+ **Summary:** Manage users, groups, and categories in Project Server permission mode.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 In Project Server permission mode, Project Web App security is based on users, groups, and categories. Groups contain sets of users who need to access the same set of data in the same way. Categories provide access to projects and resources based on parameters that you define. For complete information about planning groups and categories, see [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md).
   
@@ -26,9 +27,9 @@ Users can belong to multiple groups according to their role in the organization 
   
 Administrators usually assign permissions by adding a user account to one of the built-in groups or by creating a new group and assigning specific permissions to that group.
   
-For complete lists of Project Web App permissions, see [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md) and[Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
+For complete lists of Project Web App permissions in Project Server 2013, see [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md) and [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
   
-## TechNet articles about Security settings for Project Server permission mode
+## Articles about Security settings for Project Server permission mode
 
 The following are the tasks for managing security in Project Server permission mode:
   

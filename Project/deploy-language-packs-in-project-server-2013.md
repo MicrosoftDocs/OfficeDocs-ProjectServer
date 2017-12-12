@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: c2964c5e-a2a4-4113-b72a-0f2abc1871cf
@@ -15,7 +15,8 @@ description: "Summary: Install and configure Project Server 2013 language packs 
 
 # Deploy language packs in Project Server 2013
  
- **Summary:** Install and configure Project Server 2013 language packs so that users can select their preferred language for their PWA user interface.
+ **Summary:** Install and configure Project Server 2013 language packs so that users can select their preferred language for their PWA user interface.<br/>
+**Applies to:** Project Server 2013
   
 Project Server 2013 language packs enable Project Server 2013 users to view Project Web App sites in multiple languages without requiring separate installations of Project Server 2013. You can add language support for additional languages to Project Server 2013 by installing the language pack for the language that you want to add. Language packs are typically used in multinational deployments where one server farm supports people in different locations and users want to see the Project Web App user interface displayed in their preferred language.
   

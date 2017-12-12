@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: d016e0f7-3c61-4862-9fac-37696cfdefbe
@@ -15,7 +15,8 @@ description: "Summary: Learn how to implement a backup strategy for Project Serv
 
 # Back up Project Server 2013 by using built-in tools
  
- **Summary:** Learn how to implement a backup strategy for Project Server farm components by using SharePoint Server 2013 and SQL Server tools.
+ **Summary:** Learn how to implement a backup strategy for Project Server farm components by using SharePoint Server 2013 and SQL Server tools.<br/>
+**Applies to:** Project Server 2013
   
 There are three ways to back up Project Server 2013 components located in a SharePoint Server 2013 farm.
   

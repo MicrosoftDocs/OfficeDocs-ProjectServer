@@ -2,11 +2,11 @@
 title: "Create security groups in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: f3aa46e3-c36e-4ea2-be2f-2269896d914c
 description: "Summary: Create custom security groups by using the Manage Groups page in Project Web App Settings."
@@ -14,7 +14,8 @@ description: "Summary: Create custom security groups by using the Manage Groups 
 
 # Create security groups in Project Server
  
- **Summary:** Create custom security groups by using the Manage Groups page in Project Web App Settings.
+ **Summary:** Create custom security groups by using the Manage Groups page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Seven default security groups are available in Project Web App in Project Server permission mode. To better meet the security requirements of your own organization, you can also create custom groups by using the Manage Groups page on the Project Web App Server Settings page. See [To create a security group](#CreateAGroup).
   
@@ -104,7 +105,7 @@ To deny a permission for the group, select the **Deny** check box for that permi
   
 To set the global permissions from a template, select the template from the **Set permissions with Template** dropdown list, and then click **Apply**.
   
-For a complete list of global permissions, see [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
+For a complete list of global permissions in Project Server 2013, see [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md).
   
 > [!NOTE]
 > If neither check box is selected for a permission, the user is not allowed the permission unless it is allowed in another group that the user is a member of, or it is allowed at the user level. If the **Deny** check box is selected for a permission, that permission is denied for all users in the group and cannot be enabled through other group or user settings.

@@ -2,11 +2,11 @@
 title: "Set up which users and groups can act as delegates in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6de83367-4ff3-4def-aac7-8fa7ecff9fab
@@ -15,7 +15,8 @@ description: "Summary: How to enable users or groups to act as delegates for oth
 
 # Set up which users and groups can act as delegates in Project Server
  
- **Summary:** How to enable users or groups to act as delegates for other people in Project Server.
+ **Summary:** How to enable users or groups to act as delegates for other people in Project Server.<br/>
+**Applies to:** Project Server 2013
   
 In Project Web App, there are user- or group-level permissions that enable you to determine which users or groups can act as delegates for other people. By default, the only group that has these permissions turned on is the administrators group. Therefore, if you want users in your organization to be able to act as delegates, you have to set the appropriate permissions.
   

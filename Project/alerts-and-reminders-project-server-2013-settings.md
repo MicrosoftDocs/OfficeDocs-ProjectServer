@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: ff633803-7a5e-42d7-9e93-6e51eb9f5604
@@ -15,7 +15,8 @@ description: "Summary: Use the Alerts and Reminders page in SharePoint Central A
 
 # Alerts and Reminders (Project Server 2013 settings)
  
- **Summary:** Use the Alerts and Reminders page in SharePoint Central Administration to configure notification email settings for Project Server 2013.
+ **Summary:** Use the Alerts and Reminders page in SharePoint Central Administration to configure notification email settings for Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 The Alerts and Reminders Project Server settings page in SharePoint Central Administration is used to configure notification email settings in your Project Server 2013 environment. There settings on the Alerts and Reminders page are for the two types of notification emails that Project Server sends: 
   

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: dee8ae00-1de3-456b-8148-fe07d59e2871
@@ -15,7 +15,8 @@ description: "Summary: Plan for Project Professional, task synchronization, and 
 
 # Plan the client tier in Project Server 2013
  
- **Summary:** Plan for Project Professional, task synchronization, and browser support in Project Server 2013.
+ **Summary:** Plan for Project Professional, task synchronization, and browser support in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
   
 This article identifies the key components of the client tier in a Project Server 2013 deployment.
   
