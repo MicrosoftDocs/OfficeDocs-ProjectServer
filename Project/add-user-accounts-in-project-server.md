@@ -5,7 +5,7 @@ author: efrene
 ms.date: 9/8/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 1fc96ddf-f44c-4b90-be39-ae4cdaa91af9
 description: "Summary: Add user accounts by using the Manage Users page in Project Web App Settings."

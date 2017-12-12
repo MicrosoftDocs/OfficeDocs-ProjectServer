@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: d24d3ade-4970-4407-a7d8-fb3931cd5651
 description: "Summary: Learn how to increase the Project Web App functionality level for a project as project management needs become more complex."

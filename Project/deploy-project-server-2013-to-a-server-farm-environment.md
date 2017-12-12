@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/17/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: a3f73fd3-80ff-4eda-b334-4fea1db30034
 description: "Summary: A list of articles about how to install Project Server 2013 in a server farm environment."

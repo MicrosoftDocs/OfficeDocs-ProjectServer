@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 1/19/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

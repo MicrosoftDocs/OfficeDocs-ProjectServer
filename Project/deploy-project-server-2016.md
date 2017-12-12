@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 4/13/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

@@ -5,7 +5,7 @@ author: efrene
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a2388ad0-a39b-486c-9cc9-2a352935a6b6

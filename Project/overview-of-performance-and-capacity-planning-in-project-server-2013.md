@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 97cfb11d-5ba3-469c-a52b-f8b4d014b8e8
 description: "Summary: Performance and capacity planning concepts are a vital part of planning a Project Server deployment."

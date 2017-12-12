@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 6d98e955-2b80-46c4-8d8a-552e521062ed
 description: "Summary: You can force the check-in of a lookup table for enterprise custom fields by using Project Web App Settings."

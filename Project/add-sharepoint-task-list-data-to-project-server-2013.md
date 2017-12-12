@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: d6109d43-8ede-465c-bb18-31a01fbfd039
 description: "Summary: You must ensure that all SharePoint Tasks list data is added to Project Server after importing it to Project Web App."

@@ -5,7 +5,7 @@ author: efrene
 ms.date: 10/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: c869cc96-a6c8-4131-8415-74b27dfa5efd
 description: "Summary: Reactivate deactivated user accounts by using the Manage Users page in Project Web App Settings."

@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 8f290faa-8b71-4b98-9621-72e14551b784
 description: "Summary: Manage users, groups, and categories in Project Server permission mode."

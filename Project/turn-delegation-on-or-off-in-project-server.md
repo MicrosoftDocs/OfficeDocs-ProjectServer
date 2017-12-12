@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: eafbf21a-a6eb-4855-afbc-255ecb870142

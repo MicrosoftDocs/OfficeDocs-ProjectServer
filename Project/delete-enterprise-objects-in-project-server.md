@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 2ab4a2f8-4f7f-4b03-9c73-01f1aa167a0d
 description: "Summary: You can delete enterprise objects from Project Web App when they are no longer needed."

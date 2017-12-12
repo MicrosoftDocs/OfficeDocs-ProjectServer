@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 0d4ef855-60fb-4d9f-942a-7c2d0abad19b
 description: "Summary: You can force check-in of an enterprise calendar by using Project Web App Settings."

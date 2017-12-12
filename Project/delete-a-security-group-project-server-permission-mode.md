@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 1ff8d75f-637e-4474-acdc-f57b6390f59d

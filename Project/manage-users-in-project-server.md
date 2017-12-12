@@ -5,7 +5,7 @@ author: efrene
 ms.date: 10/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 40ebc380-456a-44ac-ab24-1388cb1673ab
 description: "Summary: Use the Manage Users page to add, modify, deactivate, and reactivate user accounts."

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 41b89e0b-5fad-4172-956c-dbc7c30b241f
 description: "Summary: Learn how to use business drivers for portfolio analysis in Project Web App."

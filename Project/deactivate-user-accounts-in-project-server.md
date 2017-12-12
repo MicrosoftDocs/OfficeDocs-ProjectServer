@@ -5,7 +5,7 @@ author: efrene
 ms.date: 10/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server
 localization_priority: Normal
 ms.assetid: 02858e0a-08ab-4216-b0b7-395bd19f12b2
 description: "Summary: Deactivate user accounts by using the Manage Users page in Project Web App Settings."
