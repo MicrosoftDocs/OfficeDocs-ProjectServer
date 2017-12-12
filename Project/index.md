@@ -53,7 +53,7 @@ description: Project
                                 </a>
                             </li>
                             <li>
-                                <a href="https://technet.microsoft.com/en-us/library/ee890097(v=office.16).aspx">
+                                <a href="/Project/windows-powershell-for-project-server-2016-cmdlet-reference">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -63,7 +63,7 @@ description: Project
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>PowerShell Reference for Skype for Project</h3>
+                                                    <h3>PowerShell Reference for Project</h3>
                                                     <p>Learn about the PowerShell cmdlets you need to manage Project Server or Project Online.</p>
                                                 </div>
                                             </div>
