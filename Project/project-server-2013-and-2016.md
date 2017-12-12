@@ -12,17 +12,6 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/11/2017
 ms.author: efrene
-=======
-ms.date: 12/20/2016
-ms.audience: ITPro
-ms.topic: hub-page
-ms.prod: project-server
-localization_priority: Normal
-ms.collection:
-- IT_ProjectAdmin
-- IT_ProjectAdmin_Top
-ms.assetid: 65b96c9d-67e1-4e5b-9119-62f7ff6b8386
-description: "Summary: Project Server provides project management, work management, and portfolio management capabilities for the enterprise."
 ---
 # Project Server Documentation
 
