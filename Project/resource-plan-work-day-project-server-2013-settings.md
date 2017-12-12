@@ -15,7 +15,9 @@ description: "Summary: Use the Resource Plan Work Day settings in Central Admini
 
 # Resource Plan Work Day (Project Server 2013 settings)
  
- **Summary:** Use the Resource Plan Work Day settings in Central Administration to set full-time equivalency for resources in Project Server 2013.
+ **Summary:** Use the Resource Plan Work Day settings in Central Administration to set full-time equivalency for resources in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Resource Plan Work Day** is a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

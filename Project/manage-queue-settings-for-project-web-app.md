@@ -15,7 +15,9 @@ description: "Use the Manage Queue Settings for Project Web App page to configur
 
 # Manage Queue Settings for Project Web App
  
-Use the Manage Queue Settings for Project Web App page to configure Project Queue settings in Project Server 2013.
+Use the Manage Queue Settings for Project Web App page to configure Project Queue settings in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
 In Project Server 2013, Queue settings are no longer applicable to individual Project Web App instances, but now apply to all Project Web App instances that are created in the Project Service Application. Additionally, because the Queue is now located at the Project Service level, the Manage Queue Settings page can be accessed in the SharePoint Central Administration website instead of Project Web App.
   

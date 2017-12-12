@@ -25,7 +25,9 @@ The following articles about operational policies settings in Project Server are
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md) <br/> |The Active Directory Resource Pool Synchronization settings in Project Server provide a method to quickly add Active Directory users as enterprise resources.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|
+|[Alerts and reminders in Project Server 2013](alerts-and-reminders-project-server-2013-settings.md) <br/> |Use the Alerts and Reminders page in SharePoint Central Administration to configure notification email settings for Project Server 2013.  <br/> |[Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md) <br/> |The Active Directory Resource Pool Synchronization settings in Project Server provide a method to quickly add Active Directory users as enterprise resources.  <br/> |
 ||[Manage connected SharePoint sites in Project Server 2013](manage-connected-sharepoint-sites-in-project-server-2013.md) <br/> |You can use the Connected SharePoint Sites Project Web App settings page to manage project sites.  <br/> |
+
    
 

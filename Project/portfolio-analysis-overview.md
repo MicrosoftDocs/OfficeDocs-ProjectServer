@@ -14,7 +14,8 @@ description: "Summary: Learn what a portfolio analysis is and how to get started
 
 # Portfolio analysis overview
  
- **Summary:** Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App.
+ **Summary:** Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Project Web App can help you analyze your projects to determine which of them will give you the best return on your investment of both budget and resources. This process is known as portfolio analysis.
   

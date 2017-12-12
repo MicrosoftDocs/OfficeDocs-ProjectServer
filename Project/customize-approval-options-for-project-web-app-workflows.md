@@ -14,7 +14,8 @@ description: "Summary: Learn how to add additional approval options to a Project
 
 # Customize approval options for Project Web App workflows
  
- **Summary:** Learn how to add additional approval options to a Project Web App workflow approval task.
+ **Summary:** Learn how to add additional approval options to a Project Web App workflow approval task.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 When using approval tasks in your workflows, it is often desirable to have additional options beyond Approved and Rejected. For example, you may want those submitting the proposal to do some additional groundwork on the project and then resubmit before you make the final Approved or Rejected decision.
   

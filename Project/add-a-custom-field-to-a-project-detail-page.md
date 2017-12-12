@@ -13,7 +13,8 @@ description: "Summary: Learn how to add a custom field to a project detail page.
 ---
 
 # Add a custom field to a project detail page
- **Summary:** Learn how to add a custom field to a project detail page.
+ **Summary:** Learn how to add a custom field to a project detail page.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 By adding a custom field to a project detail page, you can collect customized project information as part of a Project Web App workflow. In this article we'll look at an example of collecting a cost estimate in the first stage of the workflow.
   

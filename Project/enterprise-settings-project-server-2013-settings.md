@@ -15,7 +15,9 @@ description: "Summary: Learn to use the Enterprise Settings options in SharePoin
 
 # Enterprise Settings (Project Server 2013 settings)
  
- **Summary:** Learn to use the Enterprise Settings options in SharePoint Central Administration to provide additional flexibility for your Project Server 2013 projects.
+ **Summary:** Learn to use the Enterprise Settings options in SharePoint Central Administration to provide additional flexibility for your Project Server 2013 projects.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Enterprise Settings** options are a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

@@ -15,7 +15,9 @@ description: "Summary: Use the Currency Settings in Project Server 2013 to set t
 
 # Currency Settings (Project Server 2013 settings)
  
- **Summary:** Use the Currency Settings in Project Server 2013 to set the default currency for projects.
+ **Summary:** Use the Currency Settings in Project Server 2013 to set the default currency for projects.<br/>
+**Applies to:** Project Server 2013
+  
   
 The **Currency Settings** are part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   
