@@ -55,7 +55,7 @@ Learn how to plan, deploy, manage users in Project Server.
         </a>
     </li>
     <li>
-        <a href="/rojPect/plan-user-access-in-project-server">
+        <a href="/Project/plan-user-access-in-project-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
