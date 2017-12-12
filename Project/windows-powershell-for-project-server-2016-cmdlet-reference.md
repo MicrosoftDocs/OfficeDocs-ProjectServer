@@ -2,11 +2,11 @@
 title: "Windows PowerShell for Project Server 2016 cmdlet reference"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 2/16/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -16,7 +16,7 @@ description: "Summary: A list of Windows PowerShell cmdlets for Project Server 2
 ---
 
 # Windows PowerShell for Project Server 2016 cmdlet reference
- **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**
+ **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**<br/>
  **Summary:** A list of Windows PowerShell cmdlets for Project Server 2016.
   
 The following table describes the Microsoft PowerShell cmdlets available in Project Server 2016.
