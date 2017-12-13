@@ -1,8 +1,8 @@
 ---
-title: "Project Server 2016 Preview knowledge articles for Systems Center Operations Manager"
-ms.author: stevhord
-author: stevhord
-manager: pamgreen
+title: "Project Server 2016 knowledge articles for Systems Center Operations Manager"
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
@@ -13,7 +13,7 @@ ms.assetid: 1362d492-f27c-4891-bc0d-1a494026c1b3
 description: "Summary: Learn how to resolve alerts about Project Server in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
 ---
 
-# Project Server 2016 Preview knowledge articles for Systems Center Operations Manager
+# Project Server 2016 knowledge articles for Systems Center Operations Manager
  
  **Summary:** Learn how to resolve alerts about Project Server in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
   

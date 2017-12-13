@@ -29,9 +29,7 @@ Creating a Project Web App site with a new site collection creates a Project Web
 This video shows the steps involved in creating a Project Web App site with a new site collection in a Project Server 2013 farm, as described in this article.
   
 **Video: Deploy Project Web App with a new site collection**
-
-![Video (play button) icon](images/mod_icon_video_M.png)
-  
+ 
 ## Create a top-level web site
 <a name="VideoDemo"> </a>
 

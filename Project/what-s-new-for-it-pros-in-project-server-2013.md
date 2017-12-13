@@ -27,7 +27,7 @@ This article provides a brief overview of new and significantly updated function
     
 - [Database consolidation](#section4)
     
-- [Project site availability in SharePoint Server 2016](#section5)
+- [Project site availability in SharePoint Server 2013](#section5)
     
 - [Project mobile availability](#section6)
     
@@ -72,7 +72,7 @@ The Project Online offering provides the following benefits:
 - **Guaranteed uptimes** Microsoft offers guaranteed, financially-backed up times and phone support 24 hours a day, seven days a week.
     
 > [!NOTE]
-> For more information about how to use Project Online, see [Getting started with Project Online](https://go.microsoft.com/fwlink/p/?LinkId=255322). 
+> For more information about how to use Project Online, see [Getting started with Project Online](https://support.office.com/article/Get-started-with-Project-Online-E3E5F64F-ADA5-4F9D-A578-130B2D4E5F11). 
   
 ## Project Server 2013 architecture changes
 <a name="section2"> </a>
@@ -81,7 +81,7 @@ Project Server 2013 is a multi-tiered system that extends the architecture intro
   
 At a high-level, some key architecture changes for Project Server 2013 include the following:
   
-- **Database consolidation**: Driven by an effort to reduce total cost of ownership (TCO), Project Server 2013 data is consolidated into a single Project Web App database. The benefits of a single database are described in the[Database consolidation](#section4) section of this document.
+- **Database consolidation**: Driven by an effort to reduce total cost of ownership (TCO), Project Server 2013 data is consolidated into a single Project Web App database. The benefits of a single database are described in the [Database consolidation](#section4) section of this document.
     
 - **Azure Workflow**: Declarative workflows (workflows that are defined in SharePoint Designer 2013) are offloaded to Azure Workflow for processing. Azure Workflow can run on a separate server in the SharePoint farm, on Azure in the cloud, or on a single Project Server computer for testing or demonstrations. Coded workflows that are developed with Visual Studio 11 Beta are processed in the workflow runtime within SharePoint Server, as in Project Server 2010.
     
@@ -92,7 +92,7 @@ At a high-level, some key architecture changes for Project Server 2013 include t
 - **Azure cloud services for Project Online**: For Project Online users in Office 365, data is stored in the Azure cloud services operating system.
     
     > [!NOTE]
-    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](http://technet.microsoft.com/library/af1e762c-cc28-406b-b955-cb49d8cee9b2.aspx). 
+    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](https://msdn.microsoft.com/en-us/library/office/ee767687.aspx). 
   
 ## Multi-tenancy support
 <a name="section3"> </a>
@@ -108,7 +108,7 @@ In Project Server 2010, each Project Server 2010 instance was supported by a set
   
 These changes are driven by the need to reduce total cost of ownership (TCO) for using Project Server 2013, especially when you are implementing an environment in which you may have multiple PWA instances in your environment. A reduction in the number of databases required to use Project Server 2013 reduces the costs associated to maintain the data (update, backup, disaster recovery, and so on). 
   
-## Project site availability in SharePoint Server 2016
+## Project site availability in SharePoint Server 2013
 <a name="section5"> </a>
 
 The project site feature provides basic project management functionality in all SharePoint Server 2013 versions. The project site feature provides SharePoint Server 2013 users a team collaboration site in order to manage projects.

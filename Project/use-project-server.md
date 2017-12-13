@@ -22,10 +22,10 @@ The following articles about how admins can use the Project Server server settin
 
 - [Enterprise custom fields and lookup tables in Project Web App](enterprise-custom-fields-and-lookup-tables-in-project-web-app.md)
   
-- [Database administration in Project Server](Database administration in Project Server.md)
+- [Database administration in Project Server](database-administration-in-project-server.md)
 
 - [Operational Policies in Project Server 2013](operational-policies-in-project-server-2013.md)
 
 - [Add SharePoint task list data to Project Server 2013](add-sharepoint-task-list-data-to-project-server-2013.md)
 
-- [Project Server 2013 Administrator's Guide](Project Server 2013 Administrator's Guide.md)
+- [Project Server 2013 Administrator's Guide](project-server-2013-administrator-s-guide.md)
