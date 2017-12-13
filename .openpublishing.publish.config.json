@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "docsets_to_publish": [
     {
@@ -43,7 +42,6 @@
   "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
   "need_generate_intellisense": false
-=======
 {
   "docsets_to_publish": [
     {
@@ -88,5 +86,4 @@
   "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
   "need_generate_intellisense": false
->>>>>>> master
 }
