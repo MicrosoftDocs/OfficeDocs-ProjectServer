@@ -1,12 +1,12 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: Skype for Business
-description: Skype for Business
+title: Project
+description: Project
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype for Business</h1>
+        <h1>Project</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -21,7 +21,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_server.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/project/project_server.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -34,18 +34,18 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/SkypeForBusiness/skype-for-business-online">
+                                <a href="https://support.office.com/article/d7e9281d-6350-445e-9c5f-077792e6ab42">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_online.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/project/project_online.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype for Business Online</h3>
-                                                    <p>Find resources for managing Skype for Business Online in your Office 365 environment.</p>
+                                                    <h3>Project Online</h3>
+                                                    <p>Find resources for managing Project Online in your Office 365 environment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,62 +53,24 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/powershell/skype/intro">
+                                <a href="/Project/windows-powershell-for-project-server-2016-cmdlet-reference">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/powershell_reference.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/skypeforbusiness/powershell_reference.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>PowerShell Reference for Skype for Business</h3>
-                                                    <p>Learn about the PowerShell cmdlets you need to manage Skype for Business and Skype for Business Online.</p>
+                                                    <h3>PowerShell Reference for Project</h3>
+                                                    <p>Learn about the PowerShell cmdlets you need to manage Project Server or Project Online.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/Microsoft-Teams">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/Microsoft_teams.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Teams</h3>
-                                                    <p>Get the planning, how to, and practical guidance you need to successfully roll out Microsoft Teams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/journey_skype_business_teams.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Journey from Skype for Business to Microsoft Teams</h3>
-                                                    <p>Find guidance and tools to explore your optimal path to Teams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
+                            </li>                                                     
                         </ul>
                     </li>
                 </ul>
