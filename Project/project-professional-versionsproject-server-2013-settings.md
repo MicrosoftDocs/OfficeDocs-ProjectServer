@@ -3,7 +3,7 @@ title: "Project Professional Versions (Project Server 2013 settings)"
 ms.author: efrene
 author: efrene
 ms.prod: scotv
-ms.date: 12/1/2017
+ms.date: 12/01/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: project-server-2016

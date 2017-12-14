@@ -16,10 +16,8 @@ description: "Summary: Edit Project Web App security templates by using the Mana
 # Modify security templates in Project Server
  
  **Summary:** Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
-  
-See [To modify a template](modify-security-templates-in-project-server.md#proc) later in this article.
-  
+**Applies to:** Project Server 2016, Project Server 2013  
+ 
 In Project Server permission mode, you can modify the permissions for any existing template in the Manage Templates page in Project Web App Settings.
   
 > [!IMPORTANT]

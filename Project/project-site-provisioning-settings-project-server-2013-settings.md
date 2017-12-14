@@ -110,7 +110,6 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
 7. Click **Save**.
     
-8. 
     
 ## See also
 
