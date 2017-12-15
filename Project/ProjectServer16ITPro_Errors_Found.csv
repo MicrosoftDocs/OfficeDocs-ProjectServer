@@ -1,0 +1,48 @@
+Error Type,Topic Guid,Message
+
+Warning,1362d492-f27c-4891-bc0d-1a494026c1b3,Topic title:project-server-2016-preview-knowledge-articles-for-systems-center-operations-manager bigger then max length:80 new topic title name:project-server-2016-preview-knowledge-articles-for-systems-center-operations-man
+Warning,4ceccb50-f36d-4d1c-8a32-42c7e5b62b91,Topic title:best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool-synchronization-in-project-server-2013 bigger then max length:80 new topic title name:best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool
+Warning,3d90a60f-b4a4-4119-acd1-5925e54ce856,Topic title:configure-sql-server-and-analysis-services-in-project-server-2013 duplicated. New topic title name:configure-sql-server-and-analysis-services-in-project-server-2013-0
+Warning,4916dd91-cc55-4a08-a882-83ea0a166d66,Topic title:disable-permissions-in-project-web-app-project-server-permission-modeproject-server-2013 bigger then max length:80 new topic title name:disable-permissions-in-project-web-app-project-server-permission-modeproject-ser
+Warning,a267cbc9-16ad-4102-979d-8cb5291ec3a3,Topic title:sharepoint-permissions-mode-default-permissions-for-project-server-2013-sharepoint-groups bigger then max length:80 new topic title name:sharepoint-permissions-mode-default-permissions-for-project-server-2013-sharepoi
+Warning,a2570ae9-dfb4-43be-8ef4-940b2f9a072a,Topic title:create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-project-server-2013 bigger then max length:80 new topic title name:create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-p
+Warning,1ffaf65e-2d12-4059-8ded-b7d3d96375d9,Topic title:supported-active-directory-topologies-for-project-server-2013-enterprise-resource-pool-synchronization bigger then max length:80 new topic title name:supported-active-directory-topologies-for-project-server-2013-enterprise-resourc
+Warning,5c2227b8-6cf0-4397-9348-bb876a59e89c,Topic title:deploy-project-web-app duplicated. New topic title name:deploy-project-web-app-0
+Warning,a46efff3-0ed9-4d0c-bf6d-c3860f5ef4c7,Topic title:determine-the-number-and-types-of-users-that-require-access-to-project-server-2016 bigger then max length:80 new topic title name:determine-the-number-and-types-of-users-that-require-access-to-project-server-20
+Warning,e0f8249e-5eae-4dee-ba36-d6d57f1080ae,Topic title:create-a-pwa-site-in-an-existing-site-collection duplicated. New topic title name:create-a-pwa-site-in-an-existing-site-collection-0
+Warning,f64d7cd6-8795-4c79-baec-eefdb5be1a61,Topic title:configure-olap-cubes-for-project-web-app duplicated. New topic title name:configure-olap-cubes-for-project-web-app-0
+Warning,N/A,Sql Query:use [DDCMS_MOD_O16ITPRO] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
+                                        FROM [TopicKeywordsF] tkw join [dbo].[KeywordsF] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
+                                        INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                                        ON tkw.[topicGuid] = RS.[Topic ID]                               
+                                        INNER JOIN Projects pro
+                                        ON pro.[projectname]= RS.[Project Name]
+                                        where RS.[Project Name] = 'ProjectServer16ItPro' retuned no rows for project:ProjectServer16ItPro server:ocpubcms for database:DDCMS_MOD_O16ITPRO
+Warning,N/A,Sql Query:use [DDCMS_MOD_O16ITPRO] SELECT RA.[Item ID] as topicGuid,RA.[Attribute Value] as attValue
+                              FROM [dbo].[Reporting_Topic_All_Attributes] RA
+                              INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                              ON RA.[Item ID] = RS.[Topic ID]
+                              INNER JOIN Projects pro
+                              ON pro.[projectname] = RS.[Project Name]                              
+                              where RA.[Attribute Name] = 'MtpsAlias' and RS.[Project Name] = 'ProjectServer16ItPro'  retuned no rows for project:ProjectServer16ItPro server:ocpubcms for database:DDCMS_MOD_O16ITPRO
+Warning,N/A,Sql Query:use [DDCMS_MOD_O16ITPRO] SELECT RA.[Item ID] as topicGuid,RA.[Attribute Value] as attValue
+                              FROM [dbo].[Reporting_Topic_All_Attributes] RA
+                              INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                              ON RA.[Item ID] = RS.[Topic ID]
+                              INNER JOIN Projects pro
+                              ON pro.[projectname] = RS.[Project Name]                              
+                              where RA.[Attribute Name] = 'Context Sensitive ID' and RS.[Project Name] = 'ProjectServer16ItPro'  retuned no rows for project:ProjectServer16ItPro server:ocpubcms for database:DDCMS_MOD_O16ITPRO
+Warning,N/A,Sql Query:use [DDCMS_MOD_O16ITPRO] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
+                                        FROM [dbo].[TopicKeywordsK] tkw join [dbo].[KeywordsK] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
+                                        INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                                        ON tkw.[topicGuid] = RS.[Topic ID]   
+                                        INNER JOIN Projects pro
+                                        ON pro.[projectname] = RS.[Project Name]
+                                        where RS.[Project Name] = 'ProjectServer16ItPro' or pro.[projectName]='PowerShell_ProjectSrv' retuned no rows for project:ProjectServer16ItPro server:ocpubcms for database:DDCMS_MOD_O16ITPRO
+Warning,N/A,Sql Query:use [DDCMS_MOD_O16ITPRO] SELECT RA.[Item ID] as topicGuid,RA.[Attribute Value] as attValue
+                              FROM [dbo].[Reporting_Topic_All_Attributes] RA
+                              INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                              ON RA.[Item ID] = RS.[Topic ID]
+                              INNER JOIN Projects pro
+                              ON pro.[projectname] = RS.[Project Name]                              
+                              where (RA.[Attribute Name] = 'Set_Free_Tag' or RA.[Attribute Name] = 'Set_Single_Select') and RS.[Project Name] = 'ProjectServer16ItPro'  retuned no rows for project:ProjectServer16ItPro server:ocpubcms for database:DDCMS_MOD_O16ITPRO
