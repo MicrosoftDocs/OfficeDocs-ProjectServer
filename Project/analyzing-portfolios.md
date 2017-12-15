@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: d6a96159-f63d-4d58-bf80-d80fae62654b
-description: "Summary: Learn how to create a portfolio analysis using Project Web App."
+description: "Summary: Learn how to create a portfolio analysis using Project Web App.."
 ---
 
 # Analyzing portfolios
