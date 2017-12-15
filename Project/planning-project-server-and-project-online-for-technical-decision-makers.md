@@ -137,5 +137,5 @@ Similarly, lookup tables with large numbers of values can have a noticeable perf
 
 #### 
 
-[IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
+[IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 

@@ -103,8 +103,7 @@ If you don't need more than seven instances of Project Web App, consider using P
 
 #### 
 
-[IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
-#### 
+[IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 
 [Project Online Service Description](https://go.microsoft.com/fwlink/p/?LinkId=321214)
 
