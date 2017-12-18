@@ -151,7 +151,6 @@ Check standard connectivity on the faulty computers:
 #### 
 
 [Operations for Project Server 2016](operations-for-project-server-2016.md)
-#### 
 
 [Plan for monitoring in SharePoint 2013](http://technet.microsoft.com/library/a0c9aaa9-5b6d-449c-a69b-f058ac4cf9f1.aspx)
   

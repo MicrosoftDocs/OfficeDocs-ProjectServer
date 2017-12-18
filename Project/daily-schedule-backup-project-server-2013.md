@@ -40,7 +40,7 @@ You can enable daily backup on the Daily Schedule Backup page for the following 
   
 ### To back up data automatically by using a daily schedule
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

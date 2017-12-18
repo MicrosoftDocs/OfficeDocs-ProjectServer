@@ -34,7 +34,7 @@ In Project Server 2013, the Manage Queue Job settings are now accessible through
   
 ### To access the Manage Queue Job settings
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

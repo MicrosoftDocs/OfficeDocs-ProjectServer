@@ -42,7 +42,7 @@ The following procedure allows you to select the Project Server 2013 items you w
   
 ### To back up items manually
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

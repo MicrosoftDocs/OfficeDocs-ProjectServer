@@ -42,7 +42,7 @@ Use the procedure to restore the following project items:
   
 ### To restore project items by using Project Web App
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     
