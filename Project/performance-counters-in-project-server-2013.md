@@ -99,7 +99,6 @@ The following table shows performance counters and processes to monitor for your
 [Performance counters in Project Server 2013](performance-counters-in-project-server-2013.md)
   
 [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md)
-#### 
 
 [Typical Datasets (Project Server 2013)](http://technet.microsoft.com/library/e2a0a4b6-0bda-468e-aeca-00f2807bf644.aspx)
 
