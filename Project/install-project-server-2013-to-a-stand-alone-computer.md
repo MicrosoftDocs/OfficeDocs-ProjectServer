@@ -30,18 +30,15 @@ To install Project Server 2013 in stand-alone mode, you must first install Share
 ## To install SharePoint Server 2013 prerequisites
 
 1. On the SharePoint Server 2013 DVD, run **default.hta**.
-2. ON the SharePoint Server 2013 first page, click **Install software prerequisites**.
-3. Follow the wizard to complete the installation.
- 
-> [!NOTE]
-> Depending on your configuration, you may have to restart your computer during this process.
-  
+2. On the SharePoint Server 2013 first page, click **Install software prerequisites**.
+3. Follow the wizard to complete the installation.</br>
+   NOTE - Depending on your configuration, you may have to restart your computer during this process.
 4. When the wizard has finished, click **Finish**.
 5. After you complete the Microsoft SharePoint Products Preparation Tool, you must also install the following hotfixes:
-- [KB 2554876](https://go.microsoft.com/fwlink/p/?LinkId=254221)
-- [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
-- [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
-- [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+    - [KB 2554876](https://go.microsoft.com/fwlink/p/?LinkId=254221)
+    - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
+    - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+    - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
 
 Once the software prerequisites have been installed, restart the computer before installing SharePoint Server 2013.
 
@@ -61,7 +58,7 @@ After you have restarted the computer, use the following procedure to install Sh
 10. On the **Configuration Successful** page, click **Finish**.
 11. On the **Template Selection** page, select one of the following options, and then click **OK**:
     - In the **Template Selection** section, click a predefined template.
-    - •In the **Solutions Gallery** section, click **Solutions Gallery**, and customize your own site template.
+    - In the **Solutions Gallery** section, click **Solutions Gallery**, and customize your own site template.
 12. On the **Set Up Groups for this Site** page, specify who should have access to your site, and then either create a new group or use an existing group for these users by doing one of the following: 
     - To create a new group, click **Create a new group**, and then type the name of the group and the members that you want to be part of this group.
     - To use an existing group, click **Use an existing group**, and then select the user group in the **Item** list.
