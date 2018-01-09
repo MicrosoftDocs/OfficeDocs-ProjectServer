@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 68ed6251-1254-4447-9473-ba20fe50a56c
 description: "Summary: When a timesheet is no longer needed, you can delete it from Project Web App."
@@ -14,7 +14,8 @@ description: "Summary: When a timesheet is no longer needed, you can delete it f
 
 # Delete timesheets in Project Server
  
- **Summary:** When a timesheet is no longer needed, you can delete it from Project Web App.
+ **Summary:** When a timesheet is no longer needed, you can delete it from Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Use the following procedure to delete timesheets from Project Web App.
   

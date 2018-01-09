@@ -2,11 +2,11 @@
 title: "How datasets affect performance and capacity in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5dbcb4c9-9837-4508-907a-78e4b07eef81
@@ -15,7 +15,8 @@ description: "Summary: As you plan performance and capacity of a Project Server 
 
 # How datasets affect performance and capacity in Project Server 2013
  
- **Summary:** As you plan performance and capacity of a Project Server 2013 deployment, consider the set of variables that affect your plans.
+ **Summary:** As you plan performance and capacity of a Project Server 2013 deployment, consider the set of variables that affect your plans.<br/>
+**Applies to:** Project Server 2013
   
 ## Typical datasets in Project Server 2013
 

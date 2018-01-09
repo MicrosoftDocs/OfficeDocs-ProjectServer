@@ -2,11 +2,11 @@
 title: "Upgrade to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 3/11/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about how to upgrade to Project Server 2016."
 
 # Upgrade to Project Server 2016
  
- **Summary:** Learn about how to upgrade to Project Server 2016.
+ **Summary:** Learn about how to upgrade to Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 This series of articles describes how to plan and upgrade to Project Server 2016. 
   
@@ -32,6 +33,6 @@ The following articles about upgrading to Project Server 2016 are available to v
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> |Learn how to upgrade to Project Server 2016.  <br/> |
    
 > [!NOTE]
-> For information about upgrading to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016 Beta 2](http://technet.microsoft.com/library/40d265d9-dd16-405f-8c85-390975024bad.aspx). 
+> For information about upgrading to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](http://technet.microsoft.com/library/40d265d9-dd16-405f-8c85-390975024bad.aspx). 
   
 

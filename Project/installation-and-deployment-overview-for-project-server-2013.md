@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: d3b7e9d6-85fa-4886-bcd9-db43363d7e36
@@ -15,7 +15,8 @@ description: "Summary: Learn about the steps involved in installing Project Serv
 
 # Installation and deployment overview for Project Server 2013
  
- **Summary:** Learn about the steps involved in installing Project Server 2013 in a server farm environment.
+ **Summary:** Learn about the steps involved in installing Project Server 2013 in a server farm environment.<br/>
+**Applies to:** Project Server 2013
   
 This series of articles describes the steps necessary to install Project Server 2013 in a server farm environment. These steps include the following:
   

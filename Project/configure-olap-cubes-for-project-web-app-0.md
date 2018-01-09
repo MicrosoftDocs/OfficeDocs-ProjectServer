@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f64d7cd6-8795-4c79-baec-eefdb5be1a61
@@ -15,22 +15,18 @@ description: "Summary: Set up OLAP cubes for Project Web App."
 
 # Configure OLAP cubes for Project Web App
  
- **Summary:** Set up OLAP cubes for Project Web App.
+ **Summary:** Set up OLAP cubes for Project Web App.<br/>
+**Applies to:** Project Server 2013
   
 > [!IMPORTANT]
 > This scenario applies only to Project Server 2013. 
   
 In this article:
-  
-- [](configure-olap-cubes-for-project-web-app.md#overview)
     
-- [Before you begin](configure-olap-cubes-for-project-web-app.md#begin)
-    
-- [Configure the Analysis Services service account](configure-olap-cubes-for-project-web-app.md#proc1)
-    
-- [Build an OLAP cube in Project Web App](configure-olap-cubes-for-project-web-app.md#proc2)
-    
-- [Grant access to the Project Web App OLAP cube](configure-olap-cubes-for-project-web-app.md#proc3)
+- Before you begin
+- Configure the Analysis Services service account    
+- Build an OLAP cube in Project Web App    
+- Grant access to the Project Web App OLAP cube
     
 ## Overview
 <a name="overview"> </a>

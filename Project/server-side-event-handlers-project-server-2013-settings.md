@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5bba1a62-424d-4369-bade-d9b042e84d62
@@ -15,7 +15,9 @@ description: "Summary: Use the Server Side Event Handler page in SharePoint Cent
 
 # Server Side Event Handlers (Project Server 2013 settings)
  
- **Summary:** Use the Server Side Event Handler page in SharePoint Central Administration to associate event handlers with Project Server 2013 server side events.
+ **Summary:** Use the Server Side Event Handler page in SharePoint Central Administration to associate event handlers with Project Server 2013 server side events.<br/>
+**Applies to:** Project Server 2013
+  
   
 The **Server Side Event Handler** settings are available through the Project Server 2013 Server Settings page in the **Operational Policies** section. In Project Server 2013, these settings are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

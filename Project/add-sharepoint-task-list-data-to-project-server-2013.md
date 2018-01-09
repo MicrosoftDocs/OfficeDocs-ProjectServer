@@ -2,11 +2,11 @@
 title: "Add SharePoint task list data to Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: d6109d43-8ede-465c-bb18-31a01fbfd039
 description: "Summary: You must ensure that all SharePoint Tasks list data is added to Project Server after importing it to Project Web App."
@@ -14,7 +14,9 @@ description: "Summary: You must ensure that all SharePoint Tasks list data is ad
 
 # Add SharePoint task list data to Project Server 2013
  
- **Summary:** You must ensure that all SharePoint Tasks list data is added to Project Server after importing it to Project Web App.
+ **Summary:** You must ensure that all SharePoint Tasks list data is added to Project Server after importing it to Project Web App.<br/>
+**Applies to:** Project Server 2013
+  
   
 In SharePoint Server 2013, when a SharePoint Tasks list on a project site has been added to Project Web App, the task data is imported to Project Server 2013. If the SharePoint task list had been opened and saved in Project Professional 2013, a Project Professional MPP file will be associated with this task list, and it will be stored in the site's asset library. The MPP file contains additional data not stored in the task list that must be saved to Project Server 2013 manually. This includes data such as baselines, custom fields, and views.
   

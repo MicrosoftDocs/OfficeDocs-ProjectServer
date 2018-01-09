@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6a279309-9a6f-4b46-b56f-076b59403345
@@ -15,14 +15,13 @@ description: "Summary: Install Project Server 2013 on a SharePoint Server 2013 f
 
 # Install and configure Project Server 2013
  
- **Summary:** Install Project Server 2013 on a SharePoint Server 2013 farm and create a Project Server service application.
+ **Summary:** Install Project Server 2013 on a SharePoint Server 2013 farm and create a Project Server service application.<br/>
+**Applies to:** Project Server 2013
   
 Project Server 2013 runs as a service application under SharePoint Server 2013. This article describes installing and configuring Project Server 2013, including provisioning the Project Server Service Application.
   
 Use the procedures that follow to install Project Server 2013. The Project Server 2013 software must be installed on each application server in the farm before you can run the SharePoint Products Configuration Wizard to integrate Project Server with SharePoint Server 2013. 
-  
-Before you install Project Server 2013, make sure that you have reviewed the articles under [IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md), have the necessary service accounts created as described in [Plan for administrative and service accounts in Project Server 2013 Beta 2](plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md), and have at least one [web application](install-and-configure-project-server-2016.md) on the farm.
-  
+    
 > [!IMPORTANT]
 > If you plan to use workflows with Project Server, you must install and configure the SharePoint 2013 Workflow platform in SharePoint Server 2013. For more information, see [Installing and configuring workflow for SharePoint Server 2013](http://technet.microsoft.com/library/b37c1d36-5bfe-4f76-bb03-2c5436c043a2.aspx) and the[Workflow in SharePoint 2013 resource center](https://technet.microsoft.com/en-us/sharepoint/jj556245.aspx). 
   

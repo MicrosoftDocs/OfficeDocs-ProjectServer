@@ -2,11 +2,11 @@
 title: "Scaled-up and scaled-out topologies in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f26b7a86-d834-4c45-a079-df4f71bf8580
@@ -15,7 +15,8 @@ description: "Summary: Learn how to increase the capacity of existing servers or
 
 # Scaled-up and scaled-out topologies in Project Server 2013
  
- **Summary:** Learn how to increase the capacity of existing servers or add more servers to the topology of your Project Server 2013 installation.
+ **Summary:** Learn how to increase the capacity of existing servers or add more servers to the topology of your Project Server 2013 installation.<br/>
+**Applies to:** Project Server 2013
   
 This article covers performance and capacity planning scaled-up and scaled-out topologies for a Project Server deployment. This document and related content contains information and recommendations for how to scale-up or scale-out a Project Server 2013 farm.
   

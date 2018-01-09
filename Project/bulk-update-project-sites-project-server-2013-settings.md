@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f7887c71-2339-4584-987e-23db26cd5b04
@@ -15,7 +15,9 @@ description: "Summary: Use the Bulk Update Project Sites settings in SharePoint 
 
 # Bulk Update Project Sites (Project Server 2013 settings)
  
- **Summary:** Use the Bulk Update Project Sites settings in SharePoint Central Administration to change site path information for project sites in Project Server 2013.
+ **Summary:** Use the Bulk Update Project Sites settings in SharePoint Central Administration to change site path information for project sites in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Bulk Update Project Sites** are part of the Operational Policies section of Project Server 2016 Server Settings. In Project Server 2016, these settings are available in SharePoint Central Administration. To access this setting, you must be a farm administrator.
   

@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about the business planning decisions you have to m
 
 # Planning Project Server and Project Online for business decision makers
  
- **Summary:** Learn about the business planning decisions you have to make when you deploy Project Server or Project Online.
+ **Summary:** Learn about the business planning decisions you have to make when you deploy Project Server or Project Online.<br/>
+**Applies to:** Project Server 2016
   
 Project Web App is the primary interface you use to manage projects and resources in Project Online and Project Server. Project Web App in Project Server 2016 and Project Web App in Project Online are very similar, but there are some key differences that you should be aware of when you decide whether to use Project Server or Project Online.
   
@@ -102,8 +103,7 @@ If you don't need more than seven instances of Project Web App, consider using P
 
 #### 
 
-[IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
-#### 
+[IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 
 [Project Online Service Description](https://go.microsoft.com/fwlink/p/?LinkId=321214)
 

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 72e5adfd-2d41-4589-a3c0-1e2855b6db50
@@ -15,7 +15,8 @@ description: "Summary: Learn how to manage jobs submitted in Project Server 2013
 
 # Manage Queue Jobs (Project Server 2013)
  
- **Summary:** Learn how to manage jobs submitted in Project Server 2013 through the Manage Queue Jobs settings.
+ **Summary:** Learn how to manage jobs submitted in Project Server 2013 through the Manage Queue Jobs settings.<br/>
+**Applies to:** Project Server 2013
   
 The Manage Queue Jobs page lets you view Project Server 2013 operations ("jobs") that have been processed by the queue system. You can use the configuration options to filter jobs and only see the jobs that you are interested in viewing. You can also retry or cancel jobs through this page. 
   
@@ -33,7 +34,7 @@ In Project Server 2013, the Manage Queue Job settings are now accessible through
   
 ### To access the Manage Queue Job settings
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

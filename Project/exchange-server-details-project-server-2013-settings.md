@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a42377f2-5f83-41b7-a05b-df1db3b49411
@@ -15,7 +15,9 @@ description: "Summary: Use the Exchange Server Details setting in SharePoint Cen
 
 # Exchange Server Details (Project Server 2013 settings)
  
- **Summary:** Use the Exchange Server Details setting in SharePoint Central Administration to enable or disable Microsoft Exchange Server integration with Project Server 2013.
+ **Summary:** Use the Exchange Server Details setting in SharePoint Central Administration to enable or disable Microsoft Exchange Server integration with Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Exchange Server Details** is a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration.
   
@@ -31,7 +33,7 @@ Disabling the setting will disable Microsoft Exchange integration with Project S
   
 ### To configure the Exchange Server Details setting
 
-1. In SharePoint Central Administration, click ** General Application Settings**.
+1. In SharePoint Central Administration, click **General Application Settings**.
     
 2. On the General Application Settings page, in the Project Web App settings section, click **Manage**.
     

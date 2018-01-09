@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6fdff6fe-13d9-44ce-823f-8767cf0c164e
@@ -15,7 +15,9 @@ description: "Summary: Use the Resource Capacity Settings in Central Administrat
 
 # Resource Capacity Settings (Project Server 2013 settings)
  
- **Summary:** Use the Resource Capacity Settings in Central Administration to help you calculate resource availability in Project Server 2013.
+ **Summary:** Use the Resource Capacity Settings in Central Administration to help you calculate resource availability in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
 The **Resource Capacity Settings** are a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

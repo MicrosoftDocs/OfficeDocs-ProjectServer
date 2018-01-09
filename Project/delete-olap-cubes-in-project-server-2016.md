@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Delete an OLAP cube by using the OLAP Database Management
 
 # Delete OLAP cubes in Project Server 2016
  
- **Summary:** Delete an OLAP cube by using the OLAP Database Management page in Central Administration.
+ **Summary:** Delete an OLAP cube by using the OLAP Database Management page in Central Administration.<br/>
+**Applies to:** Project Server 2016
   
 To delete an OLAP cube, you must be a Project Server service application administrator. Perform the following procedure to delete an OLAP Cube.
   

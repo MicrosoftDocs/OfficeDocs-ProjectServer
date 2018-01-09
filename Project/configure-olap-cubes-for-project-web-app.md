@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Set up OLAP cubes for Project Web App in Project Server 2
 
 # Configure OLAP cubes for Project Web App
  
- **Summary:** Set up OLAP cubes for Project Web App in Project Server 2016.
+ **Summary:** Set up OLAP cubes for Project Web App in Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 This article describes how to configure a SQL Server Analysis Services cube for Project Web App. You must follow the procedures in this article for each instance of Project Web App that you create.
   

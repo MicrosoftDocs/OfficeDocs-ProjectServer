@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 0d4ef855-60fb-4d9f-942a-7c2d0abad19b
 description: "Summary: You can force check-in of an enterprise calendar by using Project Web App Settings."
@@ -14,7 +14,8 @@ description: "Summary: You can force check-in of an enterprise calendar by using
 
 # Check-in enterprise calendars in Project Server
  
- **Summary:** You can force check-in of an enterprise calendar by using Project Web App Settings.
+ **Summary:** You can force check-in of an enterprise calendar by using Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 You can force the check-in of an enterprise calendar that is checked out. Note that forcing a check-in of an enterprise calendar that is being modified by a user may result in the loss of those changes.
   

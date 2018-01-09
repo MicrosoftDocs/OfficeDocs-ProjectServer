@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f7b97b0f-d7f9-42ef-bbee-e220daedd06e
@@ -15,7 +15,8 @@ description: "Summary: Learn how to deploy an instance of Project Web App along 
 
 # Deploy Project Web App with a new site collection (Project Server 2013)
  
- **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.
+ **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
+**Applies to:** Project Server 2013
   
 Creating a Project Web App site with a new site collection creates a Project Web App database on the specified instance of SQL Server.
   
@@ -23,14 +24,12 @@ Creating a Project Web App site with a new site collection creates a Project Web
 > If your organization requires databases to be created manually by a database administrator, have your database administrator see [New-SPProjectDatabase](http://technet.microsoft.com/library/6eca666c-cbe8-41aa-94c5-4a8a3419fc96.aspx) and create the Project Web App database before you proceed with the procedures in this article.
   
 ## Video demonstration
-<a name="VideoDemo"> </a>
+<iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=e37c691c-1696-40b6-a6c9-30b51b3588eb&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>
 
 This video shows the steps involved in creating a Project Web App site with a new site collection in a Project Server 2013 farm, as described in this article.
   
 **Video: Deploy Project Web App with a new site collection**
-
-![Video (play button) icon](images/mod_icon_video_M.png)
-  
+ 
 ## Create a top-level web site
 <a name="VideoDemo"> </a>
 
@@ -38,26 +37,26 @@ If a top-level web site does not exist for the web application where you want to
   
 ### To create a top-level Web site
 
-1. Start SharePoint 2016 Central Administration.
+1. Start SharePoint 2013 Central Administration.
     
   - For Windows Server 2008 R2:
     
-  - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+  - Click **Start**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Central Administration**.
     
   - For Windows Server 2012:
     
-  - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+  - On the **Start** screen, click **SharePoint 2013 Central Administration**.
     
-    If **SharePoint 2016 Central Administration** is not on the **Start** screen:
+    If **SharePoint 2013 Central Administration** is not on the **Start** screen:
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2013 Central Administration**.
     
 2. In Central Administration, in the **Application Management** section, click **Create site collections**.
     
 3. Choose a Web application from the **Web Application** drop-down menu.
     
     > [!NOTE]
-    > If no Web application is available, you must create one. For more information, see [Create a Web application (SharePoint Server 2010)](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df.aspx). 
+    > If no Web application is available, you must create one. For more information, see [Create a Web application (SharePoint Server 2013)](https://technet.microsoft.com/library/cc261875.aspx). 
   
 4. Type a title for the site collection in the **Title** box.
     
@@ -82,7 +81,7 @@ After you have created the top-level web site, you must grant users access to th
     
 4. From the Select a group or permission level, choose **<site> Visitors [Read]**.
     
-5. In the **Enter names or email addresses** text box, typeEveryone.
+5. In the **Enter names or email addresses** text box, type **Everyone**.
     
 6. Click **Share**.
     
@@ -181,7 +180,7 @@ After the Project Web App site has been provisioned, verify that it was created 
   
 ### To verify the Project Web App site location
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](add-spshelladmin.md).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. On the **Start** menu, click **All Programs**.
     
@@ -211,9 +210,9 @@ After the Project Web App site is in the desired content database, you must lock
     
 3. In the **Database Capacity Settings** section:
     
-1. In the **Number of sites before a Warning event is generated** box, type0.
+1. In the **Number of sites before a Warning event is generated** box, type **0**.
     
-2. In the **Maximum number of sites that can be created in this database** box, type1.
+2. In the **Maximum number of sites that can be created in this database** box, type **1**.
     
 4. Click **OK**.
     

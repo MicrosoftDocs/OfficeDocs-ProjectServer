@@ -2,11 +2,11 @@
 title: "Using workflow for demand management in Project Server"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 4abc4e3a-5fc9-4419-8cce-c6a233eef503
 description: "Summary: Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management."
@@ -14,7 +14,8 @@ description: "Summary: Learn about phases, stages, enterprise project types, and
 
 # Using workflow for demand management in Project Server
  
- **Summary:** Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management.
+ **Summary:** Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](http://technet.microsoft.com/library/4a3a3fb3-89bc-4dc7-8f27-6da7dabfa0de.aspx).
   

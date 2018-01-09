@@ -2,11 +2,11 @@
 title: "Plan for upgrade to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about considerations you need to make in upgrading 
 
 # Plan for upgrade to Project Server 2016
  
- **Summary:** Learn about considerations you need to make in upgrading to Project Server 2016.
+ **Summary:** Learn about considerations you need to make in upgrading to Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 In this article:
   
@@ -51,12 +52,18 @@ If you are planning to upgrade to Project Server 2016, it is important to know t
 
 Since upgrading to Project Server 2016 from Project Server 2013 is the only supported upgrade path, you will have to upgrade to Project Server 2013 first if you are upgrading from an earlier version of Project Server.
   
-|**Upgrading from**|**Upgrade path**|**For more information**|
-|:-----|:-----|:-----|
+|||
+|**Upgrading from**|**Upgrade path**|
+|:-----|:-----|
 |Project Server 2010  <br/> |
-Upgrade to Project Server 2013 Upgrade to Project Server 2016 |[Upgrade to Project Server 2010](https://go.microsoft.com/fwlink/?LinkId=747042) <br/> [Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/?LinkId=747043) <br/> [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> |
+1.Upgrade to Project Server 2013 <br/> 2.Upgrade to Project Server 2016 |
 |Project Server 2007  <br/> |
-Upgrade to Project Server 2010 Upgrade to Project Server 2013 Upgrade to Project Server 2016 |
+1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 |
+
+For more informations:
+[Upgrade to Project Server 2010](https://go.microsoft.com/fwlink/?LinkId=747042) <br/> 
+[Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/?LinkId=747043) <br/> 
+[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> 
    
 ## Upgrading multiple Project Web App sites
 <a name="MultPWA"> </a>
@@ -68,7 +75,7 @@ In the following example, Contoso is using Project Server 2013 and has three PWA
 |**PWA site**|**Project database**|**Content database**|
 |:-----|:-----|:-----|
 |https://contoso/sites/PWA_A  <br/> |ProjectDB-A  <br/> |ContentDB-A  <br/> |
-|https://contoso/sites/PWA_B  <br/> |ProjectDB-B  <br/> |
-|https://contoso/sites/PWA_C  <br/> |ProjectDB-C  <br/> |
+|https://contoso/sites/PWA_B  <br/> |ProjectDB-B  <br/> |ContentDB-A  <br/> |
+|https://contoso/sites/PWA_C  <br/> |ProjectDB-C  <br/> |ContentDB-A  <br/> |
    
 

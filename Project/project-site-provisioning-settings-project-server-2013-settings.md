@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0bac34fa-d058-413c-a8ad-e0cec58d8946
@@ -15,7 +15,9 @@ description: "Summary: Use the Project Site Provisioning Settings in Central Adm
 
 # Project Site Provisioning Settings (Project Server 2013 settings)
  
- **Summary:** Use the Project Site Provisioning Settings in Central Administration to configure the automatic creation of project sites for projects in Project Server 2013.
+ **Summary:** Use the Project Site Provisioning Settings in Central Administration to configure the automatic creation of project sites for projects in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Project Site Provisioning Settings** are part of the Operational Policies section of Project Server 2013 Server Settings. In Project Server 2013, these settings are available in SharePoint Central Administration. To access this setting, you must be a farm administrator.
   
@@ -108,7 +110,6 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
 7. Click **Save**.
     
-8. 
     
 ## See also
 

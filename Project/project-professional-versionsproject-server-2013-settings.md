@@ -2,11 +2,11 @@
 title: "Project Professional Versions (Project Server 2013 settings)"
 ms.author: efrene
 author: efrene
-manager: laurawi
-ms.date: 12/1/2017
+ms.prod: scotv
+ms.date: 12/01/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4b04ada0-efbd-4fb2-a690-0ced8dd2a32d
@@ -15,7 +15,9 @@ description: "Summary: Use the Project Professional Versions setting to define w
 
 # Project Professional Versions (Project Server 2013 settings)
  
- **Summary:** Use the Project Professional Versions setting to define which builds of Project Professional 2013 can connect to Project Server 2013.
+ **Summary:** Use the Project Professional Versions setting to define which builds of Project Professional 2013 can connect to Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Project Professional Versions** is a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

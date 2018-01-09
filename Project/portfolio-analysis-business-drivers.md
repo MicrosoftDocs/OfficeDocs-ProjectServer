@@ -2,11 +2,11 @@
 title: "Portfolio analysis business drivers"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 41b89e0b-5fad-4172-956c-dbc7c30b241f
 description: "Summary: Learn how to use business drivers for portfolio analysis in Project Web App."
@@ -14,7 +14,8 @@ description: "Summary: Learn how to use business drivers for portfolio analysis 
 
 # Portfolio analysis business drivers
  
- **Summary:** Learn how to use business drivers for portfolio analysis in Project Web App.
+ **Summary:** Learn how to use business drivers for portfolio analysis in Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 A business driver is a goal that your company wants to accomplish. Examples include improving customer satisfaction, expanding market share, or reducing IT costs.
   

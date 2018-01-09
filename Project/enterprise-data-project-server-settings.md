@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 04006887-79f8-4977-acd7-b0c3b3364e22
 description: "This section covers Project Server Enterprise Data administration."

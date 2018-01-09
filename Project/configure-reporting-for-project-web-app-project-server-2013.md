@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 400e26f1-b21d-489a-8c6e-a1bc30e6e0c7
@@ -16,7 +16,8 @@ description: "Summary: Configure reporting for Project Web App and configure Sec
 
 # Configure reporting for Project Web App (Project Server 2013)
  
- **Summary:** Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports.
+ **Summary:** Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports.<br/>
+**Applies to:** Project Server 2013
   
 Project Server 2013 integrates the SharePoint Server 2013 Business Intelligence Center site template into each instance of Project Web App, which provides a central point for hosting the reports, dashboards, and report connections that can be auto-created or manually authored to provide access to reporting data in a given instance of Project Web App. The Business Intelligence Center can be used to host content created with Excel Services in SharePoint Server 2013, Visio Services in SharePoint, PerformancePoint Services in SharePoint, Power Pivot and SQL Server Reporting Services (SSRS).
   
@@ -64,7 +65,7 @@ For information about deploying Excel Services, see the following articles:
   
 For information about deploying Secure Store, see the following articles:
   
-- [Plan the Secure Store Service (SharePoint Server 2010)](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
+- [Plan the Secure Store Service (SharePoint Server 2013)](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
     
 - [Configure the Secure Store Service (SharePoint 2013)](http://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125.aspx)
     
@@ -79,9 +80,9 @@ The following table describes the accounts and security groups that you will nee
 
 |**Account**|**Description**|
 |:-----|:-----|
-|Report Authors group  <br/> |Active Directory security group to which you add users who will create reports, or any other users who need to access reports in Excel. This group is given read permissions to the Project Web App database via the PSDataAccess database role. Have your domain administrator create this group before proceeding with the procedures below.  <br/> > [!NOTE]> If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Authors group for each instance of Project Web App.           |
-|Report Viewers group  <br/> |Active Directory security group to which you add users who will view reports. Have your domain administrator create this group before proceeding with the procedures below.  <br/> > [!NOTE]> If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Viewers group for each instance of Project Web App.           |
-|Secure Store Target Application account  <br/> |This account provides the credentials necessary for report viewers to view reports generated from data in the Project Web App database. This account must have read permissions on the Project Web App database via the PSDataAccess database role.  <br/> > [!TIP]> We recommend that you add this account to the Report Authors Active Directory group described above to give it the necessary permissions.           |
+|Report Authors group  <br/> |Active Directory security group to which you add users who will create reports, or any other users who need to access reports in Excel. This group is given read permissions to the Project Web App database via the PSDataAccess database role. Have your domain administrator create this group before proceeding with the procedures below.  <br/> NOTE - If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Authors group for each instance of Project Web App.           |
+|Report Viewers group  <br/> |Active Directory security group to which you add users who will view reports. Have your domain administrator create this group before proceeding with the procedures below.  <br/> NOTE - If you have multiple instances of Project Web App and you want to isolate reporting access for each, you will need a Report Viewers group for each instance of Project Web App.           |
+|Secure Store Target Application account  <br/> |This account provides the credentials necessary for report viewers to view reports generated from data in the Project Web App database. This account must have read permissions on the Project Web App database via the PSDataAccess database role.  <br/>TIP - We recommend that you add this account to the Report Authors Active Directory group described above to give it the necessary permissions.           |
    
 ## Add a login for the report authors group
 <a name="section1"> </a>

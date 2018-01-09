@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: 8930d996-849b-443b-a14c-a32742abaca0
 description: "Summary: Manage your enterprise objects in the Database Administration section of Project Server Settings."
@@ -14,7 +14,8 @@ description: "Summary: Manage your enterprise objects in the Database Administra
 
 # Database administration in Project Server
  
- **Summary:** Manage your enterprise objects in the Database Administration section of Project Server Settings.
+ **Summary:** Manage your enterprise objects in the Database Administration section of Project Server Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

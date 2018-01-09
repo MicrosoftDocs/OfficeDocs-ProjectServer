@@ -2,11 +2,11 @@
 title: "Software requirements for Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 12/7/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn about installation requirements for Project Server 
 
 # Software requirements for Project Server 2016
  
- **Summary:** Learn about installation requirements for Project Server 2016.
+ **Summary:** Learn about installation requirements for Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 ## Key Requirements
 
@@ -71,9 +72,8 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 #### 
 
 [Deploy Project Server 2016](deploy-project-server-2016.md)
-#### 
 
-[Hardware and software requirements for SharePoint Server 2016 Beta 2](http://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx)
+[Hardware and software requirements for SharePoint Server 2016](http://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx)
   
-[Plan browser support in SharePoint Server 2016 Beta 2](http://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx)
+[Plan browser support in SharePoint Server 2016](http://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx)
 

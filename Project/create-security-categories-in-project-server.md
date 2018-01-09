@@ -2,11 +2,11 @@
 title: "Create security categories in Project Server"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cf1a1f91-83c7-4166-8e69-52e07a9ffeb5
@@ -15,9 +15,10 @@ description: "Summary: Add custom security categories by using the Manage Catego
 
 # Create security categories in Project Server
  
- **Summary:** Add custom security categories by using the Manage Categories page in Project Web App Settings.
+ **Summary:** Add custom security categories by using the Manage Categories page in Project Web App Settings.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
-In Project Web App, you can add custom security categories as necessary to create a security model that meets the specific needs of users and groups in your organization. See [To create a category](#CreateACategory).
+In Project Web App, you can add custom security categories as necessary to create a security model that meets the specific needs of users and groups in your organization. 
   
 > [!NOTE]
 > Categories are only available in Project Server permission mode. If you are using SharePoint permission mode, see [Plan SharePoint groups in Project Server](plan-sharepoint-groups-in-project-server.md) for information about managing users in Project Web App.

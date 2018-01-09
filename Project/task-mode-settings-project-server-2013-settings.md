@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5bfb8b64-dcbf-4ba4-b5cf-30042dcc301c
@@ -15,7 +15,9 @@ description: "Summary: Use the Task Mode Setting in SharePoint Central Administr
 
 # Task Mode Settings (Project Server 2013 settings)
  
- **Summary:** Use the Task Mode Setting in SharePoint Central Administration to define the default task mode used to schedule tasks in Project Server 2013.
+ **Summary:** Use the Task Mode Setting in SharePoint Central Administration to define the default task mode used to schedule tasks in Project Server 2013.<br/>
+**Applies to:** Project Server 2013
+  
   
  **Task Mode Settings** is a part of the Additional Server Settings in the **Operational Policies** section of Project Server 2013 Server Settings. In Project Server 2013, these setting are available in SharePoint Central Administration. To access and configure this setting, you must be a farm administrator.
   

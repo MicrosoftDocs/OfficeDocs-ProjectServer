@@ -2,11 +2,11 @@
 title: "Portfolio analysis overview"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: ea26852e-db82-416e-bfab-0cf094826f4f
 description: "Summary: Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App."
@@ -14,11 +14,12 @@ description: "Summary: Learn what a portfolio analysis is and how to get started
 
 # Portfolio analysis overview
  
- **Summary:** Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App.
+ **Summary:** Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 Project Web App can help you analyze your projects to determine which of them will give you the best return on your investment of both budget and resources. This process is known as portfolio analysis.
   
-A portfolio is just a collection of projects or project ideas that you define. For example, next quarter's IT projects, or next year's new products. Aportfolio analysis is an interactive way of choosing the projects that offer you the best business value that can be accomplished with the people and the budget that you have available.
+A portfolio is just a collection of projects or project ideas that you define. For example, next quarter's IT projects, or next year's new products. A portfolio analysis is an interactive way of choosing the projects that offer you the best business value that can be accomplished with the people and the budget that you have available.
   
 You might have a lot of project ideas that you want to sort through to determine what's going to give you the best business value. Or you might have a well-defined list of projects to do but not enough budget to do all of them. In either case, creating a portfolio analysis in Project Web App can help you determine which projects will give you the best business value for the budget and resources that you have available.
   

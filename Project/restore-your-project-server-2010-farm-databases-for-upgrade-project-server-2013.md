@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: e79d3ca4-7f2d-4c94-be68-a408fd3de65d
@@ -15,7 +15,8 @@ description: "Summary: Restore your Project Server 2010 databases to the SQL Ser
 
 # Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)
  
- **Summary:** Restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data.
+ **Summary:** Restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data.<br/>
+**Applies to:** Project Server 2013
   
 This is one of the required steps when you upgrade from Project Server 2010 to Project Server 2013 through the database-attach upgrade method.
   
@@ -39,7 +40,7 @@ The following sections describe how to restore the backup copies of these databa
     
 - SQL Server 2012
     
-After you have restored the backup copies of the Project Server 2010 databases, you can upgrade the databases and the Project Web App site collection. For more information, see [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md).
+After you have restored the backup copies of the Project Server 2010 databases, you can upgrade the databases and the Project Web App site collection. For more information, see [Upgrade to Project Server 2013](upgrade-to-project-server-2013.md).
   
 ## Restore your Project Server 2010 databases in SQL Server 2008 or SQL Server 2008 Release 2
 
@@ -107,10 +108,9 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 #### 
 
-[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md)
+[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   
-[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md)
-#### 
+[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 
 [What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
   

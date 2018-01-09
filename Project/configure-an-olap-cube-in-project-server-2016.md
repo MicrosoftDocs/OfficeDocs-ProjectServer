@@ -6,7 +6,7 @@ manager: gailmc
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -18,7 +18,8 @@ description: "Summary: Configure OLAP cube settings by using the OLAP Database M
 
 # Configure an OLAP cube in Project Server 2016
  
- **Summary:** Configure OLAP cube settings by using the OLAP Database Management page in Central Administration.
+ **Summary:** Configure OLAP cube settings by using the OLAP Database Management page in Central Administration.<br/>
+**Applies to:** Project Server 2016
   
 You can configure OLAP cube dimensions and measures, or you can configure the build settings of a cube.
   

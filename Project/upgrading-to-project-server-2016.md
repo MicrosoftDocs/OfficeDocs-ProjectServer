@@ -2,11 +2,11 @@
 title: "Upgrading to Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -17,7 +17,8 @@ description: "Summary: Learn how to upgrade to Project Server 2016."
 
 # Upgrading to Project Server 2016
  
- **Summary:** Learn how to upgrade to Project Server 2016.
+ **Summary:** Learn how to upgrade to Project Server 2016.<br/>
+**Applies to:** Project Server 2016
   
 This article describes the steps required to upgrade to Project Server 2016. 
   
@@ -141,7 +142,7 @@ The results of the Test-SPContentDatabase cmdlet will note inconsistencies it wi
 This message notes that the Excel Services Web Part that is referenced in the upgraded content database is not found on the SharePoint Server 2016 farm. You might need to install Office Online Server on your SharePoint Server 2016 farm for you to use it.
   
 > [!NOTE]
-> Office Online Server Preview is supported for use with Project Server 2016. 
+> Office Online Server is supported for use with Project Server 2016. 
   
 ### Attach and upgrade your Project Server 2013 database
 <a name="attach"> </a>

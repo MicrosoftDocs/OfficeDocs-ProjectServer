@@ -2,11 +2,11 @@
 title: "Best practices for creating phases and stages"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.assetid: d144b49e-12f0-4e18-96c5-de59d9fafc04
 description: "Summary: Use these naming conventions for work management phases and stages to make administration easier."
@@ -14,7 +14,8 @@ description: "Summary: Use these naming conventions for work management phases a
 
 # Best practices for creating phases and stages
  
- **Summary:** Use these naming conventions for work management phases and stages to make administration easier.
+ **Summary:** Use these naming conventions for work management phases and stages to make administration easier.<br/>
+**Applies to:** Project Server 2016, Project Server 2013
   
 You can name your demand management phases and stages any way you'd like, but using the following guidelines can save you time as an administrator and make things easier to find.
   

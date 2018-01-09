@@ -2,11 +2,11 @@
 title: "Optimize performance in Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 67cb4e6b-6140-438c-bb0e-f5100a1e6902
@@ -15,7 +15,8 @@ description: "Summary: Read guidelines for optimizing performance for a Project 
 
 # Optimize performance in Project Server 2013
  
- **Summary:** Read guidelines for optimizing performance for a Project Server 2013 deployment.
+ **Summary:** Read guidelines for optimizing performance for a Project Server 2013 deployment.<br/>
+**Applies to:** Project Server 2013
   
 ## Optimizations
 
@@ -34,8 +35,8 @@ Given that Project Server 2013 is a data intensive application, optimizing your 
 - Separate the TempDB onto its own partition. Split the database into several physical files—ideally, splitting it into as many files as you have processors on your database server.
             
 Consider utilizing a RAID subsystem for your data needs.
-> [!NOTE] RAID 5 is acceptable for medium and large dataset sizes, but RAID 10 is ideal.   
-> [!NOTE] Move indexes onto their own partition. 
+Note - RAID 5 is acceptable for medium and large dataset sizes, but RAID 10 is ideal.   
+Note - Move indexes onto their own partition. 
   
 ### Optimizing master projects
 
@@ -43,7 +44,7 @@ When you use the Master Projects functionality in Project Server, note that chan
     
 ### Security setting optimizations
 
-> [!NOTE] Optimizations are unnecessary if you are using SharePoint Permission Mode. 
+Note - Optimizations are unnecessary if you are using SharePoint Permission Mode. 
 
 In Project Permissions Mode, the security settings you select for your users can have a significant effect on performance characteristics. This is because they determine both the amount of data that users load when they view projects, and also the complexity of the security checks that are performed to determine which sets of data users have permissions on. 
    
@@ -160,7 +161,6 @@ When you develop custom solutions that interact with the Project Server Programm
 [Performance counters in Project Server 2013](performance-counters-in-project-server-2013.md)
   
 [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md)
-#### 
 
 [Typical Datasets (Project Server 2013)](http://technet.microsoft.com/library/e2a0a4b6-0bda-468e-aeca-00f2807bf644.aspx)
 

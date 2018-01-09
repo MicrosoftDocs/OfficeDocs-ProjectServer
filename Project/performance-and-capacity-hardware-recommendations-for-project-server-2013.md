@@ -2,11 +2,11 @@
 title: "Performance and capacity hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-manager: laurawi
+ms.prod: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: project-server-2016
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 207dc8bd-b5d9-42db-a340-40dce88eb180
@@ -15,7 +15,8 @@ description: "Summary: Use these hardware recommendations regarding performance 
 
 # Performance and capacity hardware recommendations for Project Server 2013
  
- **Summary:** Use these hardware recommendations regarding performance and capacity for Project Server 2013 to identify a suitable starting topology for your requirements.
+ **Summary:** Use these hardware recommendations regarding performance and capacity for Project Server 2013 to identify a suitable starting topology for your requirements.<br/>
+**Applies to:** Project Server 2013
   
 They will also help you decide whether you have to scale out or scale up the starting topology.
   
