@@ -94,4 +94,4 @@ Once SharePoint Server 2013 is installed, the next step is to install Project Se
   
 [Deploy Project Server 2013 to a server farm environment](deploy-project-server-2013-to-a-server-farm-environment.md)
 
-[Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013)
+[Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md)
