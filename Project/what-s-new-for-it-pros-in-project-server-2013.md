@@ -26,7 +26,8 @@ This article provides a brief overview of new and significantly updated function
 - [Multi-tenancy support](#section3)
     
 - [Database consolidation](#section4)
-    
+
+
 - [Project site availability in SharePoint Server 2013](#section5)
     
 - [Project mobile availability](#section6)
@@ -60,6 +61,8 @@ This article provides a brief overview of new and significantly updated function
 <a name="section1"> </a>
 
 The release of Project Server 2013 is paired with the release of a new service in Office 365 for enterprises, Project Online. With Project Online, all operational maintenance is handled through an online service that is hosted in Microsoft datacenters, which allows you to focus on core project management tasks. Project Online in Office 365 delivers full Project Portfolio Management (PPM) capabilities (Demand Management, Portfolio Management, Resource Management, Reporting, and so on). Portfolio managers, project managers, and team members can access Project Online from anywhere with an Internet connection. 
+
+add a line
   
 The Project Online offering provides the following benefits:
   
