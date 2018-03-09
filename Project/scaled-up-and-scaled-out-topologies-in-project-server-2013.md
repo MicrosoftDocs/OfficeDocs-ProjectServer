@@ -2,11 +2,11 @@
 title: "Scaled-up and scaled-out topologies in Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: f26b7a86-d834-4c45-a079-df4f71bf8580

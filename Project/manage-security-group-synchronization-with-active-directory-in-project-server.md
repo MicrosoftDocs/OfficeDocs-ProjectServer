@@ -2,11 +2,11 @@
 title: "Manage security group synchronization with Active Directory in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4d9fd5f9-669b-4b60-bc6f-1696ca4c15fe

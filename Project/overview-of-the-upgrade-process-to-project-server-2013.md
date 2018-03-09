@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 0e896c78-7e9e-4e24-a398-0319873b15ef

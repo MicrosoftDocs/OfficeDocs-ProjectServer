@@ -2,11 +2,11 @@
 title: "Performance and capacity hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 207dc8bd-b5d9-42db-a340-40dce88eb180

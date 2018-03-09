@@ -2,11 +2,11 @@
 title: "Large dataset hardware recommendations for Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: af00720c-08ba-458c-a45b-706ad1c71a87
 

@@ -2,11 +2,11 @@
 title: "Deploy Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 4/13/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
