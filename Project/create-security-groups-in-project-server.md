@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: f3aa46e3-c36e-4ea2-be2f-2269896d914c
 description: "Summary: Create custom security groups by using the Manage Groups page in Project Web App Settings."

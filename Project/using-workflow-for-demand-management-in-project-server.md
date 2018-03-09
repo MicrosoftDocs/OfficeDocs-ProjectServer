@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 4abc4e3a-5fc9-4419-8cce-c6a233eef503
 description: "Summary: Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management."

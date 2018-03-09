@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 6a50a06d-1fd3-49be-9940-f98c6601dd20
 description: "Summary: The Connected SharePoint Sites page in Project Web App Settings lets you manage project sites in Project Server 2013."

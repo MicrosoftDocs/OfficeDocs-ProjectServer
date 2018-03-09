@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 4f3844e1-36c6-47b2-9617-080b5b5083be
 description: "Summary: Learn how to set the stage status in a Project Web App workflow to leave a message for your users."

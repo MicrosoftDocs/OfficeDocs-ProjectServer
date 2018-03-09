@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 8ff93279-08fc-4b1c-af3f-52d06973a78e
 description: "Summary: Learn how to add a custom field to a project detail page."
