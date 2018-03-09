@@ -2,6 +2,7 @@
 title: "Manage security groups in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article

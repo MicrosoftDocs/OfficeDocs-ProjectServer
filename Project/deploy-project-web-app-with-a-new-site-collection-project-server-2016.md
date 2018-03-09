@@ -2,7 +2,7 @@
 title: "Deploy Project Web App with a new site collection (Project Server 2016)"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article

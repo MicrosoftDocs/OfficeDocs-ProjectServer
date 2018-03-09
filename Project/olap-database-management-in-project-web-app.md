@@ -2,7 +2,7 @@
 title: "OLAP database management in Project Web App"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: overview

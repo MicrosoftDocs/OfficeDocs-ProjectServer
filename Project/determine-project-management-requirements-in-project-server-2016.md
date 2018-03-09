@@ -2,7 +2,7 @@
 title: "Determine project management requirements in Project Server 2016"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: concetpual

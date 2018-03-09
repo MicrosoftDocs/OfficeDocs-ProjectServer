@@ -2,7 +2,7 @@
 title: "What's new for IT pros in Project Server 2016"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: overview

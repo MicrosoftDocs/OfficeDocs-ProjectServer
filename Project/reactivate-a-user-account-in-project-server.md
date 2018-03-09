@@ -2,6 +2,7 @@
 title: "Reactivate a user account in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 10/10/2017
 ms.audience: ITPro
 ms.topic: article

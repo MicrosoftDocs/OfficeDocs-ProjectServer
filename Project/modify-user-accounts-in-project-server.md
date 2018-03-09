@@ -2,6 +2,7 @@
 title: "Modify user accounts in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 9/8/2017
 ms.audience: ITPro
 ms.topic: article

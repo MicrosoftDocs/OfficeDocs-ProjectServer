@@ -1,8 +1,8 @@
 ---
 title: "Create a sample Project Web App workflow"
-ms.author: kenwith
-author: kenwith
-ms.prod: scotv
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article

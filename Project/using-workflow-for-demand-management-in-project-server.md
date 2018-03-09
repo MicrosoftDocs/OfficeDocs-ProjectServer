@@ -1,8 +1,8 @@
 ---
 title: "Using workflow for demand management in Project Server"
-ms.author: kenwith
-author: kenwith
-ms.prod: scotv
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article

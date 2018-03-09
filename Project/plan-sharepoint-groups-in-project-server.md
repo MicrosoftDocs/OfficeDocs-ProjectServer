@@ -2,7 +2,7 @@
 title: "Plan SharePoint groups in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 7/31/2017
 ms.audience: ITPro
 ms.topic: concetpual

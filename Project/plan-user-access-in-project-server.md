@@ -2,6 +2,7 @@
 title: "Plan user access in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: concetpual

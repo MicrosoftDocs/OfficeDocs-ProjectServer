@@ -2,7 +2,7 @@
 title: "Currency Settings (Project Server 2013 settings)"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article

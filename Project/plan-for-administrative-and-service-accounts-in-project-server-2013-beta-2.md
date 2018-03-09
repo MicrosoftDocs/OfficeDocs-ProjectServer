@@ -2,6 +2,7 @@
 title: "Plan for administrative and service accounts in Project Server 2013"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article

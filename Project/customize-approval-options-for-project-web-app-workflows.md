@@ -1,8 +1,8 @@
 ---
 title: "Customize approval options for Project Web App workflows"
-ms.author: kenwith
-author: kenwith
-ms.prod: scotv
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article

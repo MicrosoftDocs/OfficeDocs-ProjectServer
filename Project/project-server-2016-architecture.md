@@ -2,7 +2,7 @@
 title: "Project Server 2016 architecture"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 8/31/2016
 ms.audience: ITPro
 ms.topic: concetpual

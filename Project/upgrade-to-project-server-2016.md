@@ -2,7 +2,7 @@
 title: "Upgrade to Project Server 2016"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 3/11/2016
 ms.audience: ITPro
 ms.topic: hub-page

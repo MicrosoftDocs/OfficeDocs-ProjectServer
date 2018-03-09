@@ -2,7 +2,7 @@
 title: "Plan for Project Server 2016"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 8/31/2016
 ms.audience: ITPro
 ms.topic: hub-page

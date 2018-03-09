@@ -2,7 +2,7 @@
 title: "Install and configure for Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 1/19/2016
 ms.audience: ITPro
 ms.topic: hub-page

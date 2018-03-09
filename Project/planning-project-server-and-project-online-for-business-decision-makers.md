@@ -2,7 +2,7 @@
 title: "Planning Project Server and Project Online for business decision makers"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article

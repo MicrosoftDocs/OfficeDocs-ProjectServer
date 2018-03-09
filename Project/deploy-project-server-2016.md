@@ -2,7 +2,7 @@
 title: "Deploy Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 4/13/2016
 ms.audience: ITPro
 ms.topic: article

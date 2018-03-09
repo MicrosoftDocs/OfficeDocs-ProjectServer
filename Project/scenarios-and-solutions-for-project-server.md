@@ -2,7 +2,7 @@
 title: "Scenarios and solutions for Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
