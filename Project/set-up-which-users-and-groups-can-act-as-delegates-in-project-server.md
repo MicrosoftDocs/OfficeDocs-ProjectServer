@@ -2,11 +2,11 @@
 title: "Set up which users and groups can act as delegates in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6de83367-4ff3-4def-aac7-8fa7ecff9fab

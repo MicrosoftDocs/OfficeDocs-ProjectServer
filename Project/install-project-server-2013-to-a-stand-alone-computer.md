@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 1/1/1900
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: f5e0717d-e473-4371-9e94-994eb84f7913
 description: "Summary: Set up a simple Project Server 2013 installation for demonstration purposes."

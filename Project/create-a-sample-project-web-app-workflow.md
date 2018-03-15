@@ -1,12 +1,12 @@
 ---
 title: "Create a sample Project Web App workflow"
-ms.author: kenwith
-author: kenwith
-ms.prod: scotv
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: b857e56c-9964-4fc4-9da6-125736e8f7a4
 description: "Summary: Create sample workflow components to use in learning about Project Web App workflows."

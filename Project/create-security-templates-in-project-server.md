@@ -2,11 +2,11 @@
 title: "Create security templates in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: d10da3ff-4b2b-499a-8c2c-b990cc1fd167

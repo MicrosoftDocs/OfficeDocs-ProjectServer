@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 68ed6251-1254-4447-9473-ba20fe50a56c
 description: "Summary: When a timesheet is no longer needed, you can delete it from Project Web App."
