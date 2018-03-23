@@ -14,7 +14,7 @@ description: "Summary: Learn how to plan for implementing a project management s
 
 # The Project Online Implementation Cookbook
  
- **Summary:** This article attempts to lay out a plan for step-by-step guidance for admins and organizations implementing a project management system, such as Project Online. 
+**Summary:** This article provides admins and organizations step-by-step guidance about considerations you need to address when implementing a project management system, such as Project Online. 
 **Applies to:** Project Online
   
  
@@ -150,26 +150,22 @@ Try to divide your implementation into easily deliverable work packages, and del
 This will not only allow you to score quick wins, but also allow the team to test and provide feedback before the implementation goes too far off the tracks. This will feed the appetite for the users, and will also validate the design assumptions and give a chance to correct them.
 
 ### Do not design for exceptions
-A common trap most of the project management system implementations will fall into is to spend a lot of time designing for scenarios that are more of an exception than a standard one. This not only wastes time and resources, but also skews the implementation into something that fails to satisfy the core audience.
+A common trap that most project management system implementations fall into is to spend a lot of time designing for scenarios that are more of an exception than a standard one. This not only wastes time and resources, but also skews the implementation into something that fails to satisfy the core audience.
 
-It is important to acknowledge that no tool can satisfy 100% of the scenarios, and then pick solutions that solve the ones that are most critical.
+It is important to acknowledge that no tool can satisfy 100% of the scenarios, and the better choice is to pick solutions that solve the ones that are most critical.
 
-Another perspective to this would be the paralysis of analysis. Indecisiveness kills the momentum of a project. It is important to have a strong team and Sponsor who can make fast decisions with enough data. 
+Another perspective to this would be the "paralysis of analysis". Indecisiveness kills the momentum of a project. It is important to have a strong team and sponsor who can make fast decisions with enough data. 
 
 ### Keep it simple
-As mentioned before, it is tempting to open up the doors to the brand new spanking project management system, and turn on every single functionality and feature on and impress the users.
- 
-However, this approach does not impress the users, but overwhelms them. People cannot handle too much change in one go. 
-
-In this context, Keep things simple to begin with. You can always add additional functionality later once users get used to the system.
+As mentioned before, it is tempting to open up the doors to a brand spanking new project management system, and turn every single functionality and feature on and impress the users. However, this approach does not impress the users, but overwhelms them. People cannot handle too much change in one go. In this context, keep things simple to begin with. You can always add additional functionality later once users get used to the system.
 
 ### Measurable data
-One the key reasons a project management system is implemented is the ability to report and the associated visibility. However, to generate meaningful reports and dashboards that can result in insight-driven decision-making, it is important to put thought into reporting while the project management system is being built. Many a times the reports are an afterthought and this not only undermines the impact of a project management system, but also takes away the wow factor.
+One the key reasons a project management system is implemented is the ability to report and the associated visibility. However, to generate meaningful reports and dashboards that can result in insight-driven decision-making, it is important to put thought into reporting while the project management system is being built. In many instances the reports are an afterthought, and this not only undermines the impact of a project management system, but also takes away the "wow factor".
 
 ### Plan for training
-Enough cannot be said about the time that is to be invested in developing a solid training plan for users. It is important to realize that people learn in different ways, so develop a training plan that includes, written material, video, audio and face to face interaction. 
+Enough cannot be said about the time needed to develope a solid training plan for users. It is important to realize that people learn in different ways, so develop a training plan that includes written material, video, audio and face-to-face interaction. 
 
-In addition, many of the training manuals focus only on the technical how-to do things in the tool, and ignore to explain why a certain approval is needed, or why a team member needs to update the tasks. It is of utmost importance that the training material not only covers the how-to but also puts the usage of 
+In addition, many of the training manuals focus only on the technical "how-to do things" in the tool, and ignores things such as explaining why a certain approval is needed, or why a team member needs to update his or her tasks. It is of utmost importance that the training material not only covers the how-to but also puts the time in explaining the benefits of doing things a certain way.
 
 
 
