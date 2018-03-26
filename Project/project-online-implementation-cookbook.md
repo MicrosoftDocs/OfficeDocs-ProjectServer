@@ -26,7 +26,7 @@ However, to drive efficiency, organizations need quick access to a centralized i
   
 ## The Challenge
 
-While the need for a project management system is easily justified, the implementation of one may not be quite simple. Many fail to realize that implementing a project management system is essentially a fundamental behavioral change for the people involved, which is a significant undertaking. There are several factors that influence the success of such an implementation, such as a robust system, change management, or training, among other things.
+While the need for a project management system is easily justified, the implementation of one may not be quite that simple. Many fail to realize that implementing a project management system is essentially a fundamental behavioral change for the people involved, which is a significant undertaking. There are several factors that influence the success of such an implementation, such as a robust system, change management, or training, among other things.
 
 As anybody who has implemented a large system change realizes, it is not about the tools themselves but the people who use those tools and systems that need to be managed as part of the project. So how does one go about implementing a project management system? How does one ensure the success of the implementation?
 
