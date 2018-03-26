@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: bde05c8a-0312-4f46-ace9-ade6ba1edd3c
@@ -250,7 +250,7 @@ In addition to these server roles, Project Server 2013 also requires that Micros
 > Both the server roles and Microsoft PowerShell are configured automatically by the SharePoint Server 2013 prerequisite installation tool if they are not already enabled. 
   
 > [!NOTE]
-> For more information about Windows Server 2008 R2, see the [Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=780779) on Microsoft TechNet.
+> For more information about Windows Server 2008 R2, see the [Windows Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx) on Microsoft TechNet.
   
 ### SharePoint Server 2013
 
@@ -285,7 +285,9 @@ The SQL Server Agent service must be running.
 If you plan to upgrade from a Project Server 2010 environment, be aware that Project Server 2013 does not support SQL Server 2005.
   
 > [!NOTE]
->  For more information about SQL Server, see the following Microsoft TechNet Home pages:> [SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=780780)> [SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=780781)
+>  For more information about SQL Server, see the following Microsoft TechNet Home pages:
+- [SQL Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx)
+- [SQL Server 2012](https://technet.microsoft.com/library/hh231622(v=sql.110).aspx)
   
 ### Software requirements for Project Server 2013 feature usage
 

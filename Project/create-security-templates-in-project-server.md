@@ -2,11 +2,11 @@
 title: "Create security templates in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: d10da3ff-4b2b-499a-8c2c-b990cc1fd167
@@ -16,10 +16,8 @@ description: "Summary: Create Project Web App security templates by using the Ma
 # Create security templates in Project Server
  
  **Summary:** Create Project Web App security templates by using the Manage Templates page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
-  
-See [To create a template](#proc) later in this article.
-  
+**Applies to:** Project Server 2016, Project Server 2013  
+ 
 In Project Server permission mode, you can group commonly used permissions into a security template and then use it to assign permissions to users, groups, and categories.
   
 ## Before you begin

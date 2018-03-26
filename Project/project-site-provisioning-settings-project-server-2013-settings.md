@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0bac34fa-d058-413c-a8ad-e0cec58d8946
@@ -110,7 +110,6 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
 7. Click **Save**.
     
-8. 
     
 ## See also
 

@@ -21,7 +21,8 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/*.gif"
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -34,7 +35,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/project/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "searchScope": ["Project Server"]
+      "searchScope": ["Project Server"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
+      "feedback_product_url": "https://microsoftproject.uservoice.com" 
     },
     "fileMetadata": {},
     "template": [],

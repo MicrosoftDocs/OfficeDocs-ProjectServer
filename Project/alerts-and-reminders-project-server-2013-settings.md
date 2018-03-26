@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: ff633803-7a5e-42d7-9e93-6e51eb9f5604

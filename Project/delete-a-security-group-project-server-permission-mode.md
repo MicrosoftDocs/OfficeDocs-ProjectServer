@@ -2,11 +2,11 @@
 title: "Delete a security group (Project Server permission mode)"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 1ff8d75f-637e-4474-acdc-f57b6390f59d

@@ -2,10 +2,11 @@
 title: "Plan user access in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -57,7 +58,7 @@ New Project Web App instances use the SharePoint permission mode by default. If 
   
 ## Changing Project Web App permission modes
 
-In an on-premises installation of Project Server, the permission mode can be changed for a given instance of Project Web App by using the **Set-SPProjectPermissionMode** Microsoft PowerShell cmdlet. For more information, see[Set-SPProjectPermissionMode](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spprojectpermissionmode?view=sharepoint-ps).
+In an on-premises installation of Project Server, the permission mode can be changed for a given instance of Project Web App by using the **Set-SPProjectPermissionMode** Microsoft PowerShell cmdlet. For more information, see [Set-SPProjectPermissionMode](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spprojectpermissionmode?view=sharepoint-ps).
   
 In Project Online, the mode can be changed in the Microsoft Office 365 portal site. For more information, see [Change permission management in Project Online](https://go.microsoft.com/fwlink/p/?LinkId=264708).
   

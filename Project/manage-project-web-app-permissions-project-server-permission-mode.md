@@ -2,11 +2,11 @@
 title: "Manage Project Web App permissions (Project Server permission mode)"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 81ead545-11ef-4a45-b15c-c9835a6c05b0
@@ -51,7 +51,6 @@ To manage Project Web App organizational permissions in Project Web App, you can
 [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md)
   
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
-#### 
 
 [Permissions in Project Web App](plan-groups-categories-and-rbs-in-project-server.md#section2)
 

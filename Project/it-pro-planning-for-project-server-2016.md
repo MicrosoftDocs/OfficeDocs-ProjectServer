@@ -2,11 +2,11 @@
 title: "IT Pro Planning for Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -32,5 +32,5 @@ The following articles provide information about planning for Project Server dep
 
 #### 
 
-[Plan for SharePoint Server 2016 Beta 2](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx)
+[Plan for SharePoint Server 2016](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx)
 

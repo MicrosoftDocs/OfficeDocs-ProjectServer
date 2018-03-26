@@ -3,10 +3,10 @@ title: "Active Directory Resource Pool Synchronization for Project Server 2013"
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 12/1/2017
+ms.date: 12/01/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: fc9662be-d2ea-4cbf-b528-cc4349bdee01

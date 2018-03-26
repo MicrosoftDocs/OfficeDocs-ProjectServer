@@ -1,12 +1,12 @@
 ---
 title: "Have a workflow wait for a Project Web App event"
-ms.author: kenwith
-author: kenwith
-ms.prod: scotv
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 4e65ffd6-a27e-41ab-a336-f7667281b610
 description: "Summary: Learn how to have a workflow wait for a Project Web App event."

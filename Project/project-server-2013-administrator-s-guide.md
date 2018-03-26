@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 409b5511-24a2-482e-a62c-896256be58fd
 description: "Summary: Download and use the Microsoft Project Server 2013 Administrator's Guide to manage and administer Project Server 2013 in your organization."

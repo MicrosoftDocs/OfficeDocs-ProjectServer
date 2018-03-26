@@ -2,11 +2,11 @@
 title: "Analyzing portfolios"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: d6a96159-f63d-4d58-bf80-d80fae62654b
 description: "Summary: Learn how to create a portfolio analysis using Project Web App."

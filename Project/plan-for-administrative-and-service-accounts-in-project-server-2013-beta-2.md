@@ -2,10 +2,11 @@
 title: "Plan for administrative and service accounts in Project Server 2013"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: a2388ad0-a39b-486c-9cc9-2a352935a6b6

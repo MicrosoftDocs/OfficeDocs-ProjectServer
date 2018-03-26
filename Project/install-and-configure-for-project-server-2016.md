@@ -2,11 +2,11 @@
 title: "Install and configure for Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 1/19/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -29,8 +29,8 @@ The following articles about installing and configuring Project Server 2016 are 
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2016](deploy-project-server-2013.md) <br/> |A list of articles about how to install Project Server 2013 in a server farm environment.  <br/> |
-||[Upgrade to Project Server 2013](upgrade-to-project-server-2016.md) <br/> |A list of articles about how to upgrade to Project Server 2016.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2016](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2013 in a server farm environment.  <br/> |
+||[Upgrade to Project Server 2016](upgrade-to-project-server-2016.md) <br/> |A list of articles about how to upgrade to Project Server 2016.  <br/> |
    
 ## Articles about installing and configuring Project Server 2013
 
@@ -38,6 +38,6 @@ The following articles about installing and configuring Project Server 2016 are 
 
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2013](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2013 in a server farm environment.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2013](deploy-project-server-2013.md) <br/> |A list of articles about how to install Project Server 2013 in a server farm environment.  <br/> |
 ||[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md) <br/> |A list of articles about how to upgrade to Project Server 2013.  <br/> |
 

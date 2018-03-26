@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1362d492-f27c-4891-bc0d-1a494026c1b3
@@ -151,7 +151,6 @@ Check standard connectivity on the faulty computers:
 #### 
 
 [Operations for Project Server 2016](operations-for-project-server-2016.md)
-#### 
 
 [Plan for monitoring in SharePoint 2013](http://technet.microsoft.com/library/a0c9aaa9-5b6d-449c-a69b-f058ac4cf9f1.aspx)
   

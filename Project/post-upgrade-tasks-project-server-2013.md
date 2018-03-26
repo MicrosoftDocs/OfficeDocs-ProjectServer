@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: b51169b0-3e7e-42e1-845e-db0b5bdaf331
@@ -18,7 +18,7 @@ description: "Summary: After you upgrade to Project Server 2013, you must addres
  **Summary:** After you upgrade to Project Server 2013, you must address additional tasks.<br/>
 **Applies to:** Project Server 2013
   
-After upgrading to Project Server 2010, you must address two post-upgrade tasks:
+After upgrading to Project Server 2013, you must address two post-upgrade tasks:
   
 - Enable Issues and Risks links.
     
@@ -28,12 +28,12 @@ After upgrading to Project Server 2010, you must address two post-upgrade tasks:
 
 After upgrading to Project Server 2013, Issues and Risk links in your upgraded project plans will not function and require the following in order for them to work properly: 
   
-- **Bulk update of all project sites** - You will need to change the site path information for your upgraded project sites since they have been moved from one Web application to another. You can do this through the Bulk Update Project Sites page in the Project Web App settings located in SharePoint Central Administration. For more information about the Bulk Update Project Sites page, see[Bulk Update Project Sites (Project Server 2013 settings)](bulk-update-project-sites-project-server-2013-settings.md).
+- **Bulk update of all project sites** - You will need to change the site path information for your upgraded project sites since they have been moved from one Web application to another. You can do this through the Bulk Update Project Sites page in the Project Web App settings located in SharePoint Central Administration. For more information about the Bulk Update Project Sites page, see [Bulk Update Project Sites (Project Server 2013 settings)](bulk-update-project-sites-project-server-2013-settings.md).
     
 - **Publish all projects with associated project sites** - After updating your site path information for your project sites through the Bulk Update Project Sites page, you will need to publish each project that contains an associated project site. This is required so that the Project Server 2010 links for Issues and Risks are moved to Project Server 2013, which occurs when the project is published. If the project is not published, the link items will not display.
     
 > [!IMPORTANT]
-> Document library links to tasks in Project Server 2010 are not migrated to Project Server 2010 during the upgrade process. Although your Document library links may function in Project Server 2010, when they are upgraded to Project Server 2013, they will no longer display since they are not upgraded. However, new Document library links can be added in Project Server 2013. 
+> Document library links to tasks in Project Server 2010 are not migrated to Project Server 2013 during the upgrade process. Although your Document library links may function in Project Server 2010, when they are upgraded to Project Server 2013, they will no longer display since they are not upgraded. However, new Document library links can be added in Project Server 2013. 
   
 ## Add the Project Server 2013 Enterprise Project Types
 

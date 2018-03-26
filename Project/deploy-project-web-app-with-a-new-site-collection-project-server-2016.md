@@ -2,11 +2,11 @@
 title: "Deploy Project Web App with a new site collection (Project Server 2016)"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin

@@ -2,10 +2,11 @@
 title: "Manage security groups in Project Server"
 ms.author: efrene
 author: efrene
+manager: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 0f38d5c3-b604-41b0-a1c8-7b1112672265
 description: "Summary: Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings."

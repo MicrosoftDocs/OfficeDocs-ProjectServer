@@ -2,11 +2,11 @@
 title: "Turn delegation on or off in Project Server"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: eafbf21a-a6eb-4855-afbc-255ecb870142

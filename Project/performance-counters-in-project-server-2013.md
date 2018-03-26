@@ -2,11 +2,11 @@
 title: "Performance counters in Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: c28280ca-a2d6-4474-a267-3ffeb73f1e69
@@ -99,7 +99,6 @@ The following table shows performance counters and processes to monitor for your
 [Performance counters in Project Server 2013](performance-counters-in-project-server-2013.md)
   
 [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md)
-#### 
 
 [Typical Datasets (Project Server 2013)](http://technet.microsoft.com/library/e2a0a4b6-0bda-468e-aeca-00f2807bf644.aspx)
 

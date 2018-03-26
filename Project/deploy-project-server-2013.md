@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: cf2301a3-6046-4dc7-b1ac-fa6ceaafbb58
 description: "Summary: A list of articles about how to install Project Server 2013 in a server farm environment."
@@ -19,7 +19,7 @@ description: "Summary: A list of articles about how to install Project Server 20
   
 This series of articles describes the steps necessary to install Project Server 2013 in a server farm environment. This includes installing and configuring Project Server, deploying Project Web App, and configuring reporting.
   
-Before you deploy Project Server 2013, we highly recommend that you review the articles in the section named [IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md).
+Before you deploy Project Server 2013, we highly recommend that you review the articles in the section named [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md).
   
 ## TechNet articles about deploying Project Server 2013 to a server farm environment
 

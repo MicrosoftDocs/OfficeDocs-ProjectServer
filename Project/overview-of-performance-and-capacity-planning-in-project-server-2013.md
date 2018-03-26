@@ -2,11 +2,11 @@
 title: "Overview of performance and capacity planning in Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 11/29/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.assetid: 97cfb11d-5ba3-469c-a52b-f8b4d014b8e8
 description: "Summary: Performance and capacity planning concepts are a vital part of planning a Project Server deployment."

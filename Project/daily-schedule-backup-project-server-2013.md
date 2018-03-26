@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection: IT_ProjectAdmin
 ms.assetid: db7da70b-5d6d-4e94-b15e-0922eecf93d0
@@ -40,7 +40,7 @@ You can enable daily backup on the Daily Schedule Backup page for the following 
   
 ### To back up data automatically by using a daily schedule
 
-1. In SharePoint Central Administration, click ** Application Management**.
+1. In SharePoint Central Administration, click **Application Management**.
     
 2. On the Application Management page, in the Service Application section, click **Manage Service Applications**.
     

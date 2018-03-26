@@ -2,11 +2,11 @@
 title: "Deploy Project Server 2016"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 4/13/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -24,7 +24,7 @@ This series of articles describes the steps necessary to install Project Server 
   
 Deploying Project Server 2016 consists of the following steps:
   
-1. **[Install SharePoint Server 2016](http://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc%28Office.14%29.aspx)** - Project Server 2016 is part of SharePoint Server 2016 Enterprise Edition. Before you can configure Project Server 2016, you must install SharePoint Server 2016.
+1. **[Install SharePoint Server 2016](https://technet.microsoft.com/library/cc303424(v=office.16).aspx)** - Project Server 2016 is part of SharePoint Server 2016 Enterprise Edition. Before you can configure Project Server 2016, you must install SharePoint Server 2016.
     
 2. **[Configure Project Server 2016](install-and-configure-project-server-2016.md)** - Unlike prior versions of Project Server, Project Server 2016 does not require a separate install from SharePoint Server 2016. Once you have installed SharePoint Server 2016, you can configure Project Server 2016.
     

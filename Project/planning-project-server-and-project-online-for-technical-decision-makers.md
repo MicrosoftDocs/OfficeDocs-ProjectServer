@@ -2,11 +2,11 @@
 title: "Planning Project Server and Project Online for technical decision makers"
 ms.author: efrene
 author: efrene
-manager: gailmc
+manager: scotv
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: project-server-2016
+ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
@@ -137,5 +137,5 @@ Similarly, lookup tables with large numbers of values can have a noticeable perf
 
 #### 
 
-[IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
+[IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 
