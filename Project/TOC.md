@@ -225,4 +225,5 @@
 #### [Portfolio analysis business drivers](portfolio-analysis-business-drivers.md)
 #### [Portfolio analysis driver prioritization](portfolio-analysis-driver-prioritization.md)
 #### [Analyzing portfolios](analyzing-portfolios.md)
+#### [The Project Online Implementation Cookbook: Principles for Success](project-online-implementation-cookbook.md)
 
