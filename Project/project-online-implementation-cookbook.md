@@ -15,7 +15,7 @@ description: "Summary: Learn how to plan for implementing a project management s
 # The Project Online Implementation Cookbook: Principles for Success
  
 **Summary:** This article provides admins and organizations, the key considerations to focus on when implementing a project management system, such as Project Online.
- 
+
 **Applies to:** Project Online
   
  
