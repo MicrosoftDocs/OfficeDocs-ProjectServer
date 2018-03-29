@@ -14,7 +14,8 @@ description: "Summary: Learn how to plan for implementing a project management s
 
 # The Project Online Implementation Cookbook: Principles for Success
  
-**Summary:** This article provides admins and organizations, the key considerations to focus on when implementing a project management system, such as Project Online. 
+**Summary:** This article provides admins and organizations, the key considerations to focus on when implementing a project management system, such as Project Online.
+ 
 **Applies to:** Project Online
   
  
@@ -172,4 +173,5 @@ Please refer to the following articles for more tips on how to manage your proje
 
 ### Related Articles
 [7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation: white paper](https://support.office.com/article/7-ways-to-sustain-adoption-of-your-ppm-solution-post-implementation-white-paper-81dfcb5f-b5b9-43af-bd0c-fca4e3ea8976?ui=en-US&rs=en-US&ad=US)
+
 [Beat the Half-life (t ½) - Governing Your PPM Solution: Post-Implementation](https://support.office.com/article/beat-the-half-life-t-1-2-governing-your-ppm-solution-post-implementation-white-paper-d9101852-a724-42e7-bea3-c7ff2c700c06?ui=en-US&rs=en-US&ad=US)
