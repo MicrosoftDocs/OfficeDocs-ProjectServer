@@ -86,7 +86,7 @@ In those scenarios it is very important to define the process first without rega
 
 Define what the success of the project management system will look like and clearly outline the ideal result.  Without a baseline for measurement, you will have no way to evaluate your project.
 
-### 5: Detremine the ownership of the project management system
+### 5: Determine the ownership of the project management system
 
 A common mistake that is made during a project management system implementation is that it is not defined clearly who will own the tool. It is important to understand that a project management system is not an IT tool only.  It is strongly suggested that some part of the business owns the processes and standards implemented into the project management system. In organizations where a formal Project Management Office(PMO) exists, this is generally assumed to be the responsibility of a PMO.
  

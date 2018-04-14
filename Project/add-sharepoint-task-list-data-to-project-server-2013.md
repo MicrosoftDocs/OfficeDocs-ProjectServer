@@ -2,7 +2,6 @@
 title: "Add SharePoint task list data to Project Server 2013"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
 ms.date: 12/1/2017
 ms.audience: ITPro
 ms.topic: article
