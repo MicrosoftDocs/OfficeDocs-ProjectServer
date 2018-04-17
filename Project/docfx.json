@@ -3,67 +3,46 @@
   "build": {
     "content": [
       {
-        "group": "office-project",
-        "src": ".",
-        "dest": "",
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      }      
+      }
     ],
     "resource": [
       {
-        "group": "office-project",
-        "src": ".",
-        "dest": "",
         "files": [
-													 "**/*.png",
-                                                     "**/*.jpg",
-                                                     "**/*.gif",
-                                                     "**/*.bmp",
-                                                     "**/*.jpeg",
-                                                     "**/images/**"
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
+          "**/includes/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-	    "uhfHeaderId": "MSDocsHeader-Dev_Office",
-      "searchScope": ["Project XML Data Interchange"],
-      "breadcrumb_path": "/office-project/xml-data-interchange/breadcrumb/toc.json",
-	"ms.suite": "office",
-        "ms.prod": "project",
-        "ms.author": "o365devx",
-        "author": "o365devx",
-        "ms.topic": "reference",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/project/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["Project Server"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
+      "feedback_product_url": "https://microsoftproject.uservoice.com" 
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "officedocs-dev-project-xml-data-interchange",
-    "groups": {
-      "office-project": {
-        "dest": "",
-        "moniker_range": ">= project-client-2007 || project-client-odc"
-      }
-    }
+    "dest": "OfficeDocs-ProjectServer"
   }
 }
