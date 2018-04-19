@@ -2,7 +2,7 @@
 title: "Best practices for creating phases and stages"
 ms.author: efrene
 author: efrene
-ms.prod: scotv
+manager: scotv
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
