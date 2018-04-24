@@ -52,13 +52,13 @@ If you are planning to upgrade to Project Server 2016, it is important to know t
 
 Since upgrading to Project Server 2016 from Project Server 2013 is the only supported upgrade path, you will have to upgrade to Project Server 2013 first if you are upgrading from an earlier version of Project Server.
   
-|||
+
 |**Upgrading from**|**Upgrade path**|
 |:-----|:-----|
 |Project Server 2010  <br/> |
-1.Upgrade to Project Server 2013 <br/> 2.Upgrade to Project Server 2016 |
+1.Upgrade to Project Server 2013 <br/> 2.Upgrade to Project Server  2016 <br/>|
 |Project Server 2007  <br/> |
-1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 |
+1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 <br/>|
 
 For more informations:
 [Upgrade to Project Server 2010](https://go.microsoft.com/fwlink/?LinkId=747042) <br/> 

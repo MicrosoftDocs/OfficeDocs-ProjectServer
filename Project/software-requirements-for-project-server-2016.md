@@ -49,7 +49,7 @@ Also note that you will be able to use Project Professional 2016 and the Project
 |||
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
-|Project Server 2016  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
+|Project Server 2016  <br/> | Project Professional 2019 Preview <br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 |Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 |Project Server 2010  <br/> | Project Professional 2010 <br/>  Project Professional 2007 with Service Pack 2 <br/>  Project Professional 2007 with Service Pack 2 can only connect if Backwards Compatibility is enabled on Project Server 2010 <br/> |
    
