@@ -316,7 +316,9 @@ If you plan to upgrade from an earlier version of Project Server, you must consi
   
 |**Project Server version**|**Supported Project Professional version**|**Note**|
 |:-----|:-----|:-----|
-|Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Professional 2013 <br/>  Project Online Desktop Client <br/> |Note that the same clients are supported to connect to Project Server 2016. For more information, see [Software requirements for Project Server 2016](https://go.microsoft.com/fwlink/p/?LinkId=722930).  <br/> |
+|Project Server 2016 <br/> | Project Professional 2019 Preview <br/> Project Professional 2016 <br/> Project Professional 2013 <br/> Project Online Desktop Client <br/> |
+|
+|Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Professional 2013 <br/>  Project Online Desktop Client <br/> ||
 |Project Server 2010  <br/> | Project Professional 2010 <br/>  Office Project Professional 2007 with Service Pack 2 <br/> |Project Professional 2007 with Service Pack 2 can only connect to Project Server 2010 when backward compatibility mode is enabled on the server.  <br/> |
 |Project Server 2007  <br/> |Office Project Professional 2007  <br/> ||
    

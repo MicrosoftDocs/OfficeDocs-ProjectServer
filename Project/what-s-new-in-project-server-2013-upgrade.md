@@ -79,24 +79,26 @@ For information about how to upgrade from Office Project Server 2007 to Project 
 
 Note the following in regards to Project Professional and Project Web App client compatibility to Project Server 2013:
   
-- Project Server 2013 will only accept connections from Project Professional 2013.
+- Project Server 2013 will only accept connections from Project Professional 2013, Project Professional 2016, and the Project Online Desktop Client.
     
 - Project Web App users in Project Server 2013 will be able to use the all browsers that are supported for use with SharePoint Server 2013. These include the following:
     
+  - Internet Explorer 11
+
   - Internet Explorer 10
     
   - Internet Explorer 9
     
   - Internet Explorer 8
     
-  - FireFox 10
+  - FireFox (latest released version)
     
-  - Mac Safari 5
+  - Mac Safari (latest released version)
     
-  - Google Chrome 17
+  - Google Chrome (latest released version)
     
 > [!NOTE]
-> For more information about client connectivity, see [Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md). 
+> For more information about client connectivity, see [Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2013.md). 
   
 ## Upgrade from Project Server 2010 to Project Online
 <a name="Online"> </a>
