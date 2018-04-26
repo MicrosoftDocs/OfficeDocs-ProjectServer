@@ -248,7 +248,7 @@ Run RedactUser2016.sql using the following parameters:
 |@siteID  <br/> |The site ID of the PWA instance  <br/> |Required  <br/> |
 |@resUID  <br/> |The resource ID of the user for which you want to delete personal data  <br/> |Either resUID or res_claims_account is required.  <br/> |
 |@res_claims_account  <br/> |The claims account for the user for which you want to delete personal data  <br/> |Either resUID or res_claims_account is required.  <br/> |
-|@res_new_name  <br/> |When provided, the username of the resource will be updated with this string.  <br/> > [!IMPORTANT]> This value should be NULL unless you are doing Scenario 2 or 3 above.           |Optional  <br/> |
+|@res_new_name  <br/> |When provided, the username of the resource will be updated with this string.  <br/> Important: This value should be NULL unless you are doing Scenario 2 or 3 above.           |Optional  <br/> |
 |@update_timesheet_names  <br/> |When enabled (value of "1"), username in timesheet records will be replaced with the @res_new_name string provided  <br/> When not enabled (value of "0"), username will remain in timesheet records, but the username will be assigned a new resource ID in timesheets to make the username untrackable.  <br/> |Enabled by default.  <br/> |
    
 #### Example script configuration of Scenario 1: Delete user's information from a Project Web App instance, but leave the display name
