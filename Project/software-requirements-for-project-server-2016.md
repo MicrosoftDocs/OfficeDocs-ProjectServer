@@ -60,8 +60,7 @@ Also note that you will be able to use Project Professional 2016 and the Project
 
 SQL Server 2014 Analysis Services must also be installed on your SQL Server 2014 database server for your SharePoint Server 2016 Enterprise deployment if you plan to use the Cube Building Service in Project Server 2016.
   
-> [!NOTE]
-> SQL Server 2014 is the supported database server for SharePoint Server 2016 Enterprise. 
+
   
 ## Portfolio Analysis Requirements
 
