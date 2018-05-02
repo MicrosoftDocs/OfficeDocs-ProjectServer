@@ -43,7 +43,7 @@ This article describes the following requirements:
     
   - Project Professional client compatibility
     
-  - Project Professional 2013installation requirements
+  - Project Professional 2013 installation requirements
     
   - Project Professional 2013 through Office 365 ProPlus
     
@@ -313,14 +313,15 @@ When you are planning system requirements for Project Server 2013, you must also
 ### Project Professional client compatibility with Project Server 2013
 
 If you plan to upgrade from an earlier version of Project Server, you must consider whether your current Project Professional clients will be compatible with Project Server 2013.
+#test
   
 |**Project Server version**|**Supported Project Professional version**|**Note**|
 |:-----|:-----|:-----|
-|Project Server 2016 <br/> | Project Professional 2019 Preview <br/> Project Professional 2016 <br/> Project Professional 2013 <br/> Project Online Desktop Client <br/> |
-|
-|Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Professional 2013 <br/>  Project Online Desktop Client <br/> ||
-|Project Server 2010  <br/> | Project Professional 2010 <br/>  Office Project Professional 2007 with Service Pack 2 <br/> |Project Professional 2007 with Service Pack 2 can only connect to Project Server 2010 when backward compatibility mode is enabled on the server.  <br/> |
-|Project Server 2007  <br/> |Office Project Professional 2007  <br/> ||
+|Project Server 2016 <br/> | Project Professional 2019 Preview <br/> Project Professional 2016 <br/> Project Professional 2013 <br/> Project Online Desktop Client <br/> ||
+|Project Server 2013 <br/> | Project Professional 2016 <br/> Project Professional 2013 <br/> Project Online Desktop Client <br/> |Project Online Desktop Client connectivity to Project Server 2013 will expire and no longer be supported after September 15, 2018. <br/>|
+|Project Server 2010 <br/>  | Project Professional 2010 <br/>  Office Project Professional 2007 with Service Pack 2 <br/>  |Project Professional 2007 with Service Pack 2 can only connect to Project Server 2010 when backward compatibility mode is enabled on the server.  <br/>|
+|Project Server 2007  <br/> | Office Project Professional 2007 <br/> | |
+
    
 Plan for these two considerations when planning for Project Professional client connectivity:
   
