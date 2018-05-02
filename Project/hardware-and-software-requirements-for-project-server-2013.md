@@ -313,7 +313,7 @@ When you are planning system requirements for Project Server 2013, you must also
 ### Project Professional client compatibility with Project Server 2013
 
 If you plan to upgrade from an earlier version of Project Server, you must consider whether your current Project Professional clients will be compatible with Project Server 2013.
-#test
+
   
 |**Project Server version**|**Supported Project Professional version**|**Note**|
 |:-----|:-----|:-----|
