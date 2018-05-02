@@ -138,6 +138,9 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 |Project Server 2010  <br/> | Project Server 2010 <br/>  Project Professional 2007 with Service Pack 2 <br/>  Project Professional 2007 with Service Pack 2 can only connect if Backwards Compatibility is enabled on Project Server 2010 <br/> |
    
 > [!NOTE]
+> Project Online Desktop Client connectivity to Project Server 2013 will expire and no longer be supported after September 15, 2018. 
+
+> [!NOTE]
 > If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
