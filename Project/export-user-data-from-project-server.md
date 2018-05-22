@@ -42,7 +42,11 @@ The following is an overview of the process to export a specific user's informat
     
  **Using scripts for different versions of Project Server**
   
-This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the sections below.
+This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the sections below. Be sure you have deployed the latest updates to your farm and Project Professional clients.
+
+> [!NOTE]
+> Project Author is not exported as part of the procedures in this article. 
+
   
 ## Step 1 - Download the export script files
 <a name="DownloadScripts"> </a>
@@ -234,6 +238,8 @@ If you need additional user information, see Step 5 for scripts to retrieve info
 <a name="RunQueries"> </a>
 
 Run these additional queries to find additional information about resources, timesheets, statusing, etc.
+
+See [Running the PowerShell scripts](export-user-data-from-project-server.md#RunScripts) below for information about how to run the PowerShell scripts.
   
 ### Export data from Project Server 2010
 
@@ -296,5 +302,35 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 <a name="FindViews"> </a>
 
 To find attachments and views, we recommend that you export a given project to XML. To do this, open it in Project Professional, and then save it as an XML file. Once you have XML files for the Projects that you want to review, see [Find customized user items in Project Online and Project Server user export data](https://support.office.com/article/d40ede2b-22e5-4fa4-b789-007c9a36d5f1).
-  
+
+## Running the PowerShell scripts
+<a name="RunScripts"> </a>
+
+
+The table below shows the parameters required for a given script.
+
+|Script|Parameters|
+|:-----|:-----|
+|ResourcePlanTimephasedData201x.ps1 <br>SavedTaskStatusUpdates201x.ps1 <br> TaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
+|Sync-ProjectWorkspacexxxx.ps1|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
+|UserViewSettings|ProjectServerURL<br>ResId<br>OutputPath|
+
+
+These parameters are described in the following table.
+
+|Parameter|Description|
+|:-----|:-----|
+|ProjectServerURL|URL of the PWA site|
+|ResId|Resource Id of the user|
+|OutputPath|Location to store the export files.|
+|ProjectId|Project workspace to synchronize|
+
+Also include one of the following authorization parameters each time you run a script:
+
+|Auth Parameter|Description|
+|:-----|:-----|
+|[nothing passed in]|Authenticate using NTLM and the Kerberos protocol as the current user.|
+|PromptForCredential|Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
+|UseWebLogin|Authenticate using Forms and ADFS/SAML protocol.|
+
 

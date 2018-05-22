@@ -35,7 +35,9 @@ Learn how an Farm admin can delete a specific user's data from a Project Server 
 > [Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
     
 > [!NOTE]
-> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to delete the user's SharePoint Server information first, followed by deleting their Project Server information. 
+> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
+
+Be sure you have deployed the latest updates to your farm and Project Professional clients before you run the scripts in this article.
   
 ## What user information is deleted?
 <a name="Whatdata"> </a>
@@ -50,7 +52,10 @@ In Project Server, admins can use the steps detailed in this article to delete a
     
 - **User Permissions** - For example, if user ﻿is ﻿associated with project server categories, groups/ has been granted individual global permissions, we will go ahead and remove ﻿all the associations. The user will also be set as inactive. 
     
-User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to delete this data directly from SharePoint Server.
+> [!NOTE]
+> Project Author is not deleted as part of the procedures in this article. 
+
+User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to [delete this data directly from SharePoint Server](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server).
   
 > [!IMPORTANT]
 > We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist. 
