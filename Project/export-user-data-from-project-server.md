@@ -256,10 +256,10 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
 |Portfolio  <br/> |ExportPortfolios2010.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Security  <br/> |ExportSecurity2010.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Status reports  <br/> |ExportStatusReports2010.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusReports) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2010.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
+|Resource plans  <br/> |ExportResourcePlanTimephasedData2010.ps1  <br/> ExportResourcePlans2010.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2010.sql  <br/> ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties2010.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
    
 ### Export data from Project Server 2013
 
@@ -274,10 +274,10 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
 |Portfolio  <br/> |ExportPortfolios2013.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Security  <br/> |ExportSecurity2013.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Status reports  <br/> |ExportStatusReports2013.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2013.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
+|Resource plans  <br/> |ExportResourcePlanTimephasedData2013.ps1  <br/> ExportResourcePlans2013.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2013.sql  <br/> ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties2013.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
    
 ### Export data from Project Server 2016
 
@@ -293,10 +293,10 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
 |Engagements  <br/> |ExportEngagementScripts2016.sql  <br/> |[Engagements](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#engagements) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2016.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourcePlan) <br/> |
+|Resource plans  <br/> | ExportResourcePlans2016.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourcePlan) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2016.sql  <br/> ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
    
 ## Step 6 - Find and save attachments, views, and VBA files
 <a name="FindViews"> </a>
