@@ -292,7 +292,7 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2016.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|TaskStatus  <br/> |ExportSavedAssignments2016.sql  <br/> ExportSubmittedAssignments2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|TaskStatus  <br/> |ExportSavedAssignments2016.sql  <br/> ExportSubmittedAssignments2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -333,7 +333,7 @@ Also include one of the following authorization parameters each time you run a s
 |PromptForCredential|Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
 |UseWebLogin|Authenticate using Forms and ADFS/SAML protocol.|
 
-### Running Export-SavedTaskStatusUpdates201x.ps1 
+### Running Export-SavedTaskStatusUpdates201x.ps1 (2010 and 2013 only)
 <a name="RunStatusScripts"> </a>
 
 To run the Export-SavedTaskStatusUpdates201x.ps1 script, you must run as a delegate of the user being exported in order to view the saved assignment. Use the following procedure:
