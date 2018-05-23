@@ -307,7 +307,7 @@ To find attachments and views, we recommend that you export a given project to X
 <a name="RunScripts"> </a>
 
 
-The table below shows the parameters required for a given script.
+The table below shows the parameters required for a given script. Run each script in a SharePoint Management Shell as a farm administrator.
 
 |Script|Parameters|
 |:-----|:-----|
@@ -333,4 +333,17 @@ Also include one of the following authorization parameters each time you run a s
 |PromptForCredential|Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
 |UseWebLogin|Authenticate using Forms and ADFS/SAML protocol.|
 
+### Running Export-SavedTaskStatusUpdates201x.ps1 
+<a name="RunStatusScripts"> </a>
 
+To run the Export-SavedTaskStatusUpdates201x.ps1 script, you must run as a delegate of the user being exported in order to view the saved assignment. Use the following procedure:
+
+1.	[Turn delegation on in Project Server](turn-delegation-on-or-off-in-project-server.md)
+2.	[Enable delegation permissions on the user being exported](set-up-which-users-and-groups-can-act-as-delegates-in-project-server.md) 
+3.	Enable delegation permissions on yourself to delegate as that user. (As an admin you may already have permissions.)
+4.	[Configure yourself as a delegate of the user being exported](create-delegations-in-project-server.md)
+5.	Log in to Project Web App.
+6.	Click the gear icon, and then click **Act as a delegate**.
+8.	Start a delegate session.
+9.	Run the Export-SavedTaskStatusUpdates201x.ps1 PowerShell script.
+10.	Stop the delegate session.
