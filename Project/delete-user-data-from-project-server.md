@@ -556,4 +556,6 @@ To clear the cache in Project Professional:
     
 3. In the **Cache** section, select **Clean Up Cache**.
     
+## See also
 
+[Export user data from Project Server](export-user-data-from-project-server.md)

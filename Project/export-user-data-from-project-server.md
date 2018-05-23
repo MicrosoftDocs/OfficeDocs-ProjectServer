@@ -347,3 +347,7 @@ To run the Export-SavedTaskStatusUpdates201x.ps1 script, you must run as a deleg
 8.	Start a delegate session.
 9.	Run the Export-SavedTaskStatusUpdates201x.ps1 PowerShell script.
 10.	Stop the delegate session.
+
+## See also
+
+[Delete user data from Project Server](delete-user-data-from-project-server.md)
