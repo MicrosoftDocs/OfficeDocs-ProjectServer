@@ -312,8 +312,8 @@ The table below shows the parameters required for a given script. Run each scrip
 |Script|Parameters|
 |:-----|:-----|
 |ResourcePlanTimephasedData201x.ps1 <br>SavedTaskStatusUpdates201x.ps1 <br> TaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
-|Sync-ProjectWorkspacexxxx.ps1|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
-|UserViewSettings|ProjectServerURL<br>ResId<br>OutputPath|
+|Sync-ProjectWorkspace201x.ps1|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
+|Export-UserViewSettings|ProjectServerURL<br>ResId<br>OutputPath|
 
 
 These parameters are described in the following table.
@@ -332,6 +332,12 @@ Also include one of the following authorization parameters each time you run a s
 |[nothing passed in]|Authenticate using NTLM and the Kerberos protocol as the current user.|
 |PromptForCredential|Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
 |UseWebLogin|Authenticate using Forms and ADFS/SAML protocol.|
+
+For example:
+
+```powershell
+.\Export-UserViewSettings2016.ps1 -ProjectServerURL "https://pwa" -resId "55efd6ff-853c-4fec-8abd-6df2c90b94e5" -OutputPath "C:\"
+```
 
 ### Running Export-SavedTaskStatusUpdates201x.ps1 (2010 and 2013 only)
 <a name="RunStatusScripts"> </a>
