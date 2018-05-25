@@ -338,6 +338,7 @@ For example:
 ```powershell
 .\Export-UserViewSettings2016.ps1 -ProjectServerURL "https://pwa" -resId "55efd6ff-853c-4fec-8abd-6df2c90b94e5" -OutputPath "C:\"
 ```
+See each PowerShell script file for further examples and information about the parameters.
 
 ### Running Export-SavedTaskStatusUpdates201x.ps1 (2010 and 2013 only)
 <a name="RunStatusScripts"> </a>
