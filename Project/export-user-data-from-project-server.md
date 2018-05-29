@@ -18,14 +18,16 @@ Your organization can export a specific user's content from your Project Server 
 [Step 1 - Download the export script files](export-user-data-from-project-server.md#DownloadScripts)
   
 [Step 2- Find the Project Web App instances in your SharePoint Server farm](export-user-data-from-project-server.md#FindPWA)
+
+[Step 3- Export workspace items for the user](export-user-data-from-project-server.md#FindWSItem)
   
-[Step 3 - Find the user's Resource ID or Claims Account on each PWA site](export-user-data-from-project-server.md#FindResID)
+[Step 4 - Find the user's Resource ID or Claims Account on each PWA site](export-user-data-from-project-server.md#FindResID)
   
-[Step 4 - Find projects that contain the user you're looking for](export-user-data-from-project-server.md#FindProjects)
+[Step 5 - Find projects that contain the user you're looking for](export-user-data-from-project-server.md#FindProjects)
   
-[Step 5 - Additional queries to export data](export-user-data-from-project-server.md#RunQueries)
+[Step 6 - Additional queries to export data](export-user-data-from-project-server.md#RunQueries)
   
-[Step 6 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
+[Step 7 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
   
 ## Process Overview
 <a name="Overview"> </a>
@@ -53,21 +55,22 @@ This article applies to Project Server 2016, Project Server 2013 and Project Ser
 
 Download the export scripts from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=871966).
   
-The download contains a ZIP file with separate folders for each version of Project Server. Use the scripts for your version or Project Server as described in Step 4, below.
+The download contains a ZIP file with separate folders for each version of Project Server. Use the scripts for your version or Project Server as described in Step 5, below.
   
 Important notes about running the export scripts:
   
 - The script folder contains several .wsdl files. These are required by the PowerShell scripts. Be sure they are in the same directory as the PowerShell scripts when you run them.
     
-- The SetupReportingProcedures< *version*  >.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts: 
+- The SetupReportingProcedures<*version* >.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts:
     
-> ExportReportingProject< *version*  >.sql 
+    - ExportReportingProject<*version*>.sql 
     
-> ExportReportingResource< *version*  >.sql 
+    - ExportReportingResource<*version*>.sql 
     
-> ExportTimesheetReporting< *version*  >.sql 
+    - ExportTimesheetReporting<*version*>.sql 
     
-    Run SetupReportingProcedures< *version*  >.sql before running any of these scripts. 
+> [!NOTE]
+> Run SetupReportingProcedures<*version*>.sql before running any of these scripts. 
     
 - Each script has one or more variables that must be defined - such as UserID or database name - before you run it. Check the description section in the script itself for any needed parameters.
     
@@ -126,16 +129,32 @@ You need to be able to reference the database names for each database.
   
 > [!NOTE]
 > The Project Server 2010 Reporting database can be located on a different instance of SQL Server than the other three databases. 
+
+## Step 3 - Export workspace items for the user
+<a name="FindWSItem"> </a>
+
+Run the ExportWorkspaceItemsByDisplayName<*version*>.sql script and search for data using possible display names of the user (partial name searches).
+
+Run the script on the Reporting database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
-## Step 3 - Find the user's Resource ID or Claims Account on each PWA site
+Provide values for the following parameters in the script:
+  
+|**Parameter**|**Description**|
+|:-----|:-----|
+|@siteID (Project Server 2016 only)  <br/> |The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1.  <br/> |
+|@resDisplayName  <br/> |The display name, or partial display name, of the Project Server user.  <br/> |
+   
+
+  
+## Step 4 - Find the user's Resource ID or Claims Account on each PWA site
 <a name="FindResID"> </a>
 
 After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
   
-Run the FindUser< *version*  >.sql SQL script to find the user's Resource ID or claims account. 
+Run the FindUser<*version*>.sql SQL script to find the user's Resource ID or claims account. 
   
 > [!NOTE]
-> You need to run the FindUser< *version*  >.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
+> You need to run the FindUser<*version*>.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
   
 Run the script on the Published database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
@@ -155,14 +174,10 @@ DECLARE @searchName nvarchar(255) = 'Adam Barr'
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
   
-### Users with no PWA account
-
-If FindUser< *version*  >.sql doesn't return a user account, it may be a user who doesn't have a PWA account, but who could be connected to a project by issues, risks, deliverables, or related items. You can export data for these users by running ExportWorkspaceItemsByClaimsAccount<  *version*  >.sql and ExportWorkspaceItemsByDisplayName<  *version*  >.sql. Since these user have no PWA account, there's no need to run the other scripts discussed in this article. 
-  
-## Step 4 - Find projects that contain the user you're looking for
+## Step 5 - Find projects that contain the user you're looking for
 <a name="FindProjects"> </a>
 
-You can use the Resource ID that you found in Step 3 to locate the projects that the user was involved with. This is done by using SQL scripts to query the Project data stored for a list of projects.
+You can use the Resource ID that you found in Step 4 to locate the projects that the user was involved with. This is done by using SQL scripts to query the Project data stored for a list of projects.
   
 There are separate scripts for each of the data stores in Project Server. Results from the scripts are likely to be similar, though you may see some differences if you have draft projects that haven't been published.
   
@@ -232,9 +247,9 @@ When you have determined which projects you want to search for user information,
     
 For information about the output values of these queries, see [Project-specific user data from the reporting data](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#projectspec).
   
-If you need additional user information, see Step 5 for scripts to retrieve information about resources, timesheets, statusing, etc.
+If you need additional user information, see Step 6 for scripts to retrieve information about resources, timesheets, statusing, etc.
   
-## Step 5 - Additional queries to export data
+## Step 6 - Additional queries to export data
 <a name="RunQueries"> </a>
 
 Run these additional queries to find additional information about resources, timesheets, statusing, etc.
@@ -259,7 +274,7 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
 |Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties2010.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2010.sql  <br/> ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
 ### Export data from Project Server 2013
 
@@ -277,7 +292,7 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
 |Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties2013.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2013.sql  <br/> ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
 ### Export data from Project Server 2016
 
@@ -296,9 +311,9 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2016.sql  <br/> ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
-## Step 6 - Find and save attachments, views, and VBA files
+## Step 7 - Find and save attachments, views, and VBA files
 <a name="FindViews"> </a>
 
 To find attachments and views, we recommend that you export a given project to XML. To do this, open it in Project Professional, and then save it as an XML file. Once you have XML files for the Projects that you want to review, see [Find customized user items in Project Online and Project Server user export data](https://support.office.com/article/d40ede2b-22e5-4fa4-b789-007c9a36d5f1).

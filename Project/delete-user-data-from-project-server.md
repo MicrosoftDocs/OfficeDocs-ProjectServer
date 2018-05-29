@@ -16,23 +16,23 @@ description: "Learn how an Farm admin can delete a specific user's data from a P
 
 Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010.
   
-> [Step 1 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-from-project-server.md#FindPWA)
+- [Step 1 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-from-project-server.md#FindPWA)
     
-> [Step 2 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-from-project-server.md#FindResID)
+- [Step 2 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-from-project-server.md#FindResID)
     
-> [Step 3 - Close all the user's projects](delete-user-data-from-project-server.md#Step4)
+- [Step 3 - Close all the user's projects](delete-user-data-from-project-server.md#Step4)
     
-> [Step 4 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
+- [Step 4 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
     
-> [Step 5 - Export the users data](delete-user-data-from-project-server.md#Step3)
+- [Step 5 - Delete user personal data for Issues and Risks](delete-user-data-from-project-server.md#DeletePersonalData)
     
-> [Step 6 - Delete user personal data for Issues and Risks](delete-user-data-from-project-server.md#DeletePersonalData)
+- [Step 6 - Export the users data](delete-user-data-from-project-server.md#Step3)
     
-> [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
+- [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
     
-> [Step 8 - Delete the user's personal information from the Resource and Project Resources tables](delete-user-data-from-project-server.md#step5)
+- [Step 8 - Delete the user's personal information from the Resource and Project Resources tables](delete-user-data-from-project-server.md#step5)
     
-> [Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
+- [Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
     
 > [!NOTE]
 > Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
@@ -104,7 +104,10 @@ The following is an overview of the process to delete a specific user's informat
     
 7. **Delete the cache for Project Professional users**: After the script has completed successfully, you must delete the cache on each device in which Project Professional was used to open the project while connected to the Project Web App instance. Clearing the cache prevents the user info from being re-added to the project if it is cached on the device.
     
- **Using scripts for different versions of Project Server**
+ > [!IMPORTANT]
+> We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist. 
+  
+### Using scripts for different versions of Project Server
   
 This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the directions.
   
@@ -192,24 +195,24 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 ## Step 4 - Sync workspace items into Project Server
 <a name="SyncWorkspaceItems"> </a>
 
-The Sync-ProjectWorkspace< *version*  >.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<  *version*  >.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
+The Sync-ProjectWorkspace<*version*>.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<*version*>.sql script to retrieve this. This script is also needed for Step 6.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
   
-## Step 5 - Export the users data
-<a name="Step3"> </a>
-
-Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
-  
-## Step 6 - Delete user personal data for Issues and Risks
+## Step 5 - Delete user personal data for Issues and Risks
 <a name="DeletePersonalData"> </a>
 
 Issues and Risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
   
 If you delete user information from a Project Site after they have already been deleted from Project Server (or for users who never had a Project Server account), you must use their claims account because Resource ID isn't available once they've been deleted from Project Server.
   
-You can use the FindUserClaims< *version*  >.sql script to find claims accounts for all issues risks in the reporting database. 
+You can use the FindUserClaims<*version*>.sql script to find claims accounts for all issues risks in the reporting database. 
   
 > [!NOTE]
 > Project Server 2010 does not have claims accounts in the database. Issues and risks in Project Server 2010 have name only, so can only redact based on name. 
+
+## Step 6 - Export the users data
+<a name="Step3"> </a>
+
+Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
   
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
