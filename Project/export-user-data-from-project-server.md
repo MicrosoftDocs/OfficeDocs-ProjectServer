@@ -183,7 +183,7 @@ There are separate scripts for each of the data stores in Project Server. Result
   
 Before you run the scripts, update them with the Resource ID that you're looking for.
   
- **For Project Server 2010**, run these scripts:
+**For Project Server 2010**, run these scripts:
   
 (Be sure to read the description at the top of each script. Some scripts require you to add the database name or update other parameters.)
   
@@ -193,7 +193,7 @@ Before you run the scripts, update them with the Resource ID that you're looking
     
 - ExportReportingProjectList2010.sql
     
- **For Project Server 2013**, run these scripts:
+**For Project Server 2013**, run these scripts:
   
 - ExportDraftProjectList2013.sql
     
@@ -201,7 +201,7 @@ Before you run the scripts, update them with the Resource ID that you're looking
     
 - ExportReportingProjectList2013.sql
     
- **For Project Server 2016**, run these scripts:
+**For Project Server 2016**, run these scripts:
   
 - ExportDraftProjectList2016.sql
     
@@ -213,7 +213,7 @@ Examine the output of the queries and determine the projects where you want to f
   
 When you have determined which projects you want to search for user information, run the following scripts for each project, using the ProjectUID returned by the scripts above:
   
- **For Project Server 2010**, run these scripts:
+**For Project Server 2010**, run these scripts:
   
 (Be sure to read the description at the top of each script. Some scripts require you to add the database name or update other parameters.)
   
@@ -225,7 +225,7 @@ When you have determined which projects you want to search for user information,
     
 - ExportReportingProjectsTimephasedData2010.sql
     
- **For Project Server 2013**, run these scripts:
+**For Project Server 2013**, run these scripts:
   
 - ExportDraftProjects2013.sql
     
@@ -235,7 +235,7 @@ When you have determined which projects you want to search for user information,
     
 - ExportReportingProjectsTimephasedData2013.sql
     
- **For Project Server 2016**, run these scripts:
+**For Project Server 2016**, run these scripts:
   
 - ExportDraftProjects2016.sql
     
