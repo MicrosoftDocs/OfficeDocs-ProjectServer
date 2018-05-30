@@ -22,11 +22,11 @@ Learn how an Farm admin can delete a specific user's data from a Project Server 
     
 - [Step 3 - Close all the user's projects](delete-user-data-from-project-server.md#Step4)
     
-- [Step 4 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
+- [Step 4 - Export the users data](delete-user-data-from-project-server.md#Step3)
     
-- [Step 5 - Delete user personal data for Issues and Risks](delete-user-data-from-project-server.md#DeletePersonalData)
+- [Step 5 - Delete workspace items](delete-user-data-from-project-server.md#DeletePersonalData)
     
-- [Step 6 - Export the users data](delete-user-data-from-project-server.md#Step3)
+- [Step 6 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
     
 - [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
     
@@ -192,27 +192,26 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
     
 3. ﻿A message will display asking if you are sure you want to force-checkin. Click **OK.**
     
+## Step 4 - Export the users data
+<a name="Step3"> </a>
+
+Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
+  
+## Step 5 - Delete workspace items
+<a name="DeletePersonalData"> </a>
+
+Workspace items are stored in Project Sites, which are part of SharePoint Server. You must delete a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in workspace items from being updated by corresponding SharePoint Server data, should they still exist.
+
+Workspace items include:
+- Issues
+- Risks
+- Deliverables
+- Linked documents
+
 ## Step 4 - Sync workspace items into Project Server
 <a name="SyncWorkspaceItems"> </a>
 
 The Sync-ProjectWorkspace<*version*>.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<*version*>.sql script to retrieve this. This script is also needed for Step 6.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
-  
-## Step 5 - Delete user personal data for Issues and Risks
-<a name="DeletePersonalData"> </a>
-
-Issues and Risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
-  
-If you delete user information from a Project Site after they have already been deleted from Project Server (or for users who never had a Project Server account), you must use their claims account because Resource ID isn't available once they've been deleted from Project Server.
-  
-You can use the FindUserClaims<*version*>.sql script to find claims accounts for all issues risks in the reporting database. 
-  
-> [!NOTE]
-> Project Server 2010 does not have claims accounts in the database. Issues and risks in Project Server 2010 have name only, so can only redact based on name. 
-
-## Step 6 - Export the users data
-<a name="Step3"> </a>
-
-Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
   
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
