@@ -195,7 +195,7 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 ## Step 4 - Export the users data
 <a name="Step3"> </a>
 
-Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
+Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md). Note that you will need the ExportWorkspaceItemsByDisplayName<*version*>.sql script for Step 6, below.
   
 ## Step 5 - Delete workspace items
 <a name="DeletePersonalData"> </a>
@@ -208,10 +208,10 @@ Workspace items include:
 - Deliverables
 - Linked documents
 
-## Step 4 - Sync workspace items into Project Server
+## Step 6 - Sync workspace items into Project Server
 <a name="SyncWorkspaceItems"> </a>
 
-The Sync-ProjectWorkspace<*version*>.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<*version*>.sql script to retrieve this. This script is also needed for Step 6.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
+The Sync-ProjectWorkspace<*version*>.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<*version*>.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
   
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
