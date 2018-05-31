@@ -217,29 +217,29 @@ When you have determined which projects you want to search for user information,
   
 (Be sure to read the description at the top of each script. Some scripts require you to add the database name or update other parameters.)
   
-- ExportDraftProjects2010.sql
+- ExportDraftProject2010.sql
     
-- ExportPublishedProjects2010.sql
+- ExportPublishedProject2010.sql
     
 - ExportReportingProjects2010.sql
     
-- ExportReportingProjectsTimephasedData2010.sql
+- ExportReportingProjectTimephasedData2010.sql
     
 **For Project Server 2013**, run these scripts:
   
-- ExportDraftProjects2013.sql
+- ExportDraftProject2013.sql
     
-- ExportPublishedProjects2013.sql
+- ExportPublishedProject2013.sql
     
 - ExportReportingProjects2013.sql
     
-- ExportReportingProjectsTimephasedData2013.sql
+- ExportReportingProjectTimephasedData2013.sql
     
 **For Project Server 2016**, run these scripts:
   
-- ExportDraftProjects2016.sql
+- ExportDraftProject2016.sql
     
-- ExportPublishedProjects2016.sql
+- ExportPublishedProject2016.sql
     
 - ExportReportingProjects2016.sql
     
@@ -264,13 +264,13 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
   
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
-|Portfolio  <br/> |ExportPortfolios2010.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData2010.ps1  <br/> ExportResourcePlans2010.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
+|Portfolio  <br/> |ExportPortfolioModels2010.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Resource plans  <br/> |Export-ResourcePlanTimephasedData2010.ps1  <br/> ExportResourcePlans2010.sql  <br/> ExportReportingResourcePlans2010.sql |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Resources  <br/> |ExportResource2010.sql  <br/> ExportReportingResource2010.sql  <br/> |[Resources](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
 |Security  <br/> |ExportSecurity2010.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2010.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2010.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusReports) <br/> |
-|TaskStatus  <br/> |ExportSavedAssignments2010.sql  <br/> ExportSubmittedAssignments2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2010.sql  <br/> ExportSubmittedTaskStatusUpdates2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties2010.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -282,13 +282,13 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
   
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
-|Portfolio  <br/> |ExportPortfolios2013.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Portfolio  <br/> |ExportPortfolioModels2013.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Resource plans  <br/> |ExportResourcePlanTimephasedData2013.ps1  <br/> ExportResourcePlans2013.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Resources  <br/> |ExportResource2013.sql  <br/> ExportReportingResource2013.sql  <br/> |[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
 |Security  <br/> |ExportSecurity2013.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2013.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2013.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|TaskStatus  <br/> |ExportSavedAssignments2013.sql  <br/> ExportSubmittedAssignments2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2013.sql  <br/> ExportSubmittedTaskStatusUpdates2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties2013.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -301,13 +301,13 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
 |Engagements  <br/> |ExportEngagementScripts2016.sql  <br/> |[Engagements](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#engagements) <br/> |
-|Portfolio  <br/> |ExportPortfolios2016.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Portfolio  <br/> |ExportPortfolioModels2016.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Resource plans  <br/> | ExportResourcePlans2016.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourcePlan) <br/> |
 |Resources  <br/> |ExportResource2016.sql  <br/> ExportReportingResource.sql  <br/> |[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
 |Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2016.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|TaskStatus  <br/> |ExportSavedAssignments2016.sql  <br/> ExportSubmittedAssignments2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2016.sql  <br/> ExportSubmittedTaskStatusUpdates2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -326,9 +326,9 @@ The table below shows the parameters required for a given script. Run each scrip
 
 |Script|Parameters|
 |:-----|:-----|
-|ResourcePlanTimephasedData201x.ps1 <br>SavedTaskStatusUpdates201x.ps1 <br> TaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
+|ResourcePlanTimephasedData201x.ps1 <br>Export-SavedTaskStatusUpdates201x.ps1 <br> ExportTaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
 |Sync-ProjectWorkspace201x.ps1|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
-|Export-UserViewSettings|ProjectServerURL<br>ResId<br>OutputPath|
+|Export-UserViewSettings201x.ps1|ProjectServerURL<br>ResId<br>OutputPath|
 
 
 These parameters are described in the following table.
