@@ -274,9 +274,9 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
 |Status reports  <br/> |ExportStatusReports2010.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusReports) <br/> |
 |TaskStatus  <br/> |ExportAssignmentsSavedData2010.sql  <br/> ExportSubmittedTaskStatusUpdates2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>ExportSavedTaskStatusUpdates2010.sql<br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties2010.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2010.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#UserView2010) <br/> |
    
 ### Export data from Project Server 2013
 
@@ -292,7 +292,7 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
 |Status reports  <br/> |ExportStatusReports2013.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
 |TaskStatus  <br/> |ExportAssignmentsSavedData2013.sql  <br/> ExportSubmittedTaskStatusUpdates2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>ExportSavedTaskStatusUpdates2013.sql<br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties2013.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2013.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
@@ -311,7 +311,7 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
 |TaskStatus  <br/> |ExportAssignmentsSavedData2016.sql  <br/> ExportSubmittedTaskStatusUpdates2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> ExportSavedTaskStatusUpdates2016.sql<br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2016.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
