@@ -27,7 +27,9 @@ Your organization can export a specific user's content from your Project Server 
   
 [Step 6 - Additional queries to export data](export-user-data-from-project-server.md#RunQueries)
   
-[Step 7 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
+[Step 7 - Archived items](export-user-data-from-project-server.md#ArchivedItems)
+
+[Step 8 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
   
 ## Process Overview
 <a name="Overview"> </a>
@@ -270,7 +272,7 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
 |Security  <br/> |ExportSecurity2010.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2010.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2010.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusReports) <br/> |
-|TaskStatus  <br/> |ExportAssignmentsSavedData2010.sql  <br/> ExportSubmittedTaskStatusUpdates2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2010.sql  <br/> ExportSubmittedTaskStatusUpdates2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>ExportSavedTaskStatusUpdates2010.sql<br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties2010.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -288,7 +290,7 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
 |Security  <br/> |ExportSecurity2013.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2013.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2013.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|TaskStatus  <br/> |ExportAssignmentsSavedData2013.sql  <br/> ExportSubmittedTaskStatusUpdates2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2013.sql  <br/> ExportSubmittedTaskStatusUpdates2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>ExportSavedTaskStatusUpdates2013.sql<br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties2013.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
@@ -307,13 +309,41 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 |Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
 |Service Settings  <br/> |ExportServerSettings2016.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|TaskStatus  <br/> |ExportAssignmentsSavedData2016.sql  <br/> ExportSubmittedTaskStatusUpdates2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2016.sql  <br/> ExportSubmittedTaskStatusUpdates2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> ExportSavedTaskStatusUpdates2016.sql<br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
 |Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
 |User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties2016.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
 |Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
-## Step 7 - Find and save attachments, views, and VBA files
+## Step 7 - Archived items
+<a name="ArchivedItems"> </a>
+
+ExportArchievdData201X.sql will return the following data that is stored in the archived database that is related to the resource.
+
+|SQL table|Column definitions|
+|:-----|:-----|
+|Calendars checked out by the resource|Same as Calendars|
+|Custom fields checked out by the resource|Same as Custom Fields|
+|Global Projects checked out by the resource|ProjectId<br>ProjectName|
+|Lookup tables checked out by the resource|Same as lookup table definition|
+|Projects related to the user (owned, assigned to, status manager, assignment owner)|Same as the project list, plus:<br>ProjectVersionId  (Archive version Id)<br>ProjectVersionDescription (Date and time the backup was taken)<br>ProjectVersionDate  (The date the backup was taken)|
+|Resource Custom Fields|Resource Data -  Custom fields section|
+|Resources checked out by the resource|Contains 4 fields which are listed as part of the Resource Data section:<br>ResourecId<br>ResourceName<br>CheckedOutBy<br>DefaultAssignmentOwner|
+
+If you want to export the archived projects, repeat this process for each project:
+1.	Archive the current project (or do a database backup).
+2.	Restore the archived version (using the version information provided in the above script).
+3.	Export the project as XML and run relevant scripts.
+4.	Restore the backup project in step 1.
+
+If you want to export other data (like the resource’s calendar, etc): 
+1.	Backup the current farm (using SharePoint backup functionality).
+2.	Restore it on a new farm (using SharePoint restore functionality).
+3.	Restore the desired archived entities.
+4.	Export using the provided Save as XML, sql and powershell scripts.
+
+
+## Step 8 - Find and save attachments, views, and VBA files
 <a name="FindViews"> </a>
 
 To find attachments and views, we recommend that you export a given project to XML. To do this, open it in Project Professional, and then save it as an XML file. Once you have XML files for the Projects that you want to review, see [Find customized user items in Project Online and Project Server user export data](https://support.office.com/article/d40ede2b-22e5-4fa4-b789-007c9a36d5f1).

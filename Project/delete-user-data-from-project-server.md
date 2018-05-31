@@ -31,8 +31,10 @@ Learn how an Farm admin can delete a specific user's data from a Project Server 
 - [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
     
 - [Step 8 - Delete the user's personal information from the Resource and Project Resources tables](delete-user-data-from-project-server.md#step5)
+
+- [Step 9 - Redact resource information from archived objects](delete-user-data-from-project-server.md#RedactArchive)
     
-- [Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
+- [Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
     
 > [!NOTE]
 > Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
@@ -170,7 +172,7 @@ Provide values for the following parameters in the script:
    
 For example, if you want to find the userID for Adam Barr on the Contoso PWA1 site you found in the example in Step 1, you would edit the values for the parameters in the script like this:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @searchName nvarchar(255) = 'Adam Barr'
 ```
@@ -266,7 +268,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -280,7 +282,7 @@ The script removes all Adam Barr's personal data except for his display name fro
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site ID we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -303,7 +305,7 @@ You can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -317,7 +319,7 @@ The script removes all Adam Barr's personal data and changes his display name to
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -339,7 +341,7 @@ Note that you can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -355,7 +357,7 @@ Because the account is deleted, it is not possible to rerun the script using the
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -387,7 +389,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = NULL
@@ -402,7 +404,7 @@ Because the account is deleted, it is not possible to rerun the script using the
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) = NULL
@@ -424,7 +426,7 @@ You can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = 'Deleted User'
@@ -437,7 +439,7 @@ The script removes all Adam Barr's personal data and changes his display name to
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
@@ -458,7 +460,7 @@ Note that you can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = 'Deleted User'
@@ -471,7 +473,7 @@ The script removes all Adam Barr's personal data from the https://contoso.sharep
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
@@ -500,7 +502,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) = NULL
 DECLARE @update_timesheet_names bit = 1
@@ -518,7 +520,7 @@ After successfully running the script, you can re-run the FindUser201x.sql scrip
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
 DECLARE @update_timesheet_names bit = 1
@@ -535,7 +537,7 @@ After running the script, you can re-run the FindUser script you used in Step 2 
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
 DECLARE @update_timesheet_names bit = 0
@@ -545,7 +547,21 @@ DECLARE @timesheet_new_res_uid uniqueidentifier = 'delete-user-data-from-project
 
 The script removes all Adam Barr's personal data from the https://contoso.sharepoint.com/sites/pwa site and changes his display name to "Deleted User" except in timesheet records. The new Resource ID is added to the timesheet records to unlink them from the records associated with "Deleted Uer."
   
-## Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.
+## Step 9 - Redact resource information from archived objects
+<a name="RedactArchive"> </a>
+
+For projects where the resource was redacted:
+1. In Project Web App settings, choose **Delete enterprise objects**.
+2. Choose **Delete archived projects**.
+3. Delete the required archived projects.
+
+[Back up](back-up-item-level-objects-through-administrative-backup-project-server-2013.md) the following objects. (The new backup will overwrite the existing version and any resource related data that was redacted.)
+- Enterprise Resource Pool and Calendars
+- Enterprise Custom Fields
+- Enterprise Global
+
+
+## Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance
 <a name="step6"> </a>
 
 On all devices on which Project Professional or the Project Online Desktop Client connected to Project Web App, you need to clear the cache. Clearing the cache will prevent projects in which user information was deleted from being updated from cached data that remains on the system.
