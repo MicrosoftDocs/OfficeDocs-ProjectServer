@@ -317,7 +317,7 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 ## Step 7 - Archived items
 <a name="ArchivedItems"> </a>
 
-ExportArchievdData201X.sql will return the following data that is stored in the archived database that is related to the resource.
+ExportArchievdData201x.sql will return the following data that is stored in the archived database that is related to the resource.
 
 |Export option|Output definitions|
 |:-----|:-----|
