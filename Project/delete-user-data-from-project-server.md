@@ -559,7 +559,7 @@ For projects where the resource was redacted:
 
 **Archived non-project data**
 
-Proejct Server only keeps a single version of the following archived items:
+Project Server only keeps a single version of the following archived items:
 - Enterprise Resource Pool and Calendars
 - Enterprise Custom Fields
 - Enterprise Global
