@@ -10,9 +10,6 @@ localization_priority: Normal
 ms.assetid: c85c548f-4406-4663-8487-192ee065a803
 description: "Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:"
 ---
-
-This is a [link to step 3 in a numbered list](export-user-data-from-project-server.md#LinkToStep3)
-
 # Export user data from Project Server
 
 Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:
@@ -325,24 +322,22 @@ ExportArchievdData201X.sql will return the following data that is stored in the 
 |Export option|Output definitions|
 |:-----|:-----|
 |Archived items - Calendar|[Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars)|
-|||
-|||
-|||
-|||
-|||
+|Archived items - Custom fields|[CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields)|
+|Archived items - Lookup tables|[Lookup Table](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables)|
+|Archived items - Projects|[Project List](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#projlist)<br>ProjectVersionId (Archive version ID)<br>ProjectVersionDescription (Date and time of the backup)<br>ProjectVersionDate (The date of the backup)|
+|Archived items - Resource|[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource)|
+|Archived items - Resource custom fields|[Resource - custom fields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#)|
 
-If you want to export the archived projects, repeat this process for each project:
-1.	Archive the current project (or do a database backup).
-2.	Restore the archived version (using the version information provided in the above script).
-<a name="LinkToStep3"></a>
-3.	Export the project as XML and run relevant scripts.
-4.	Restore the backup project in step 1.
+Archived Project Data: To export archived projects:
+1.	[Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14)))
+2.	[Restore the archived version](https://docs.microsoft.com/en-us/project/restore-item-level-objects-through-administrative-restore-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207306(v%3doffice.14)))
+3.	Export the user related data.
+4.	Restore the project from archive.
 
-If you want to export other data (like the resource’s calendar, etc): 
-1.	Backup the current farm (using SharePoint backup functionality).
-2.	Restore it on a new farm (using SharePoint restore functionality).
-3.	Restore the desired archived entities.
-4.	Export using the provided Save as XML, sql and powershell scripts.
+Archived Non-Project Data: 
+1.	Use [SharePoint backup and recovery](https://docs.microsoft.com/en-us/sharepoint/administration/backup-and-recovery-overview) ([2010](https://technet.microsoft.com/EN-US/library/ee662536(v=office.14).aspx)) to create a clone of the current farm.
+2.	Restore the archived items from Administrative backup and restore (see previous procedure).
+3.	Export the user related data.
 
 
 ## Step 8 - Find and save attachments, views, and VBA files
