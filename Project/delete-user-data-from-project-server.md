@@ -197,7 +197,7 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 ## Step 4 - Export the users data
 <a name="Step3"> </a>
 
-Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md). Note that you will need the ExportWorkspaceItemsByDisplayName<*version*>.sql script for Step 6, below.
+Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md). Note that you will need the ExportWorkspaceItemsByDisplayName201x.sql script for Step 6, below.
   
 ## Step 5 - Delete workspace items
 <a name="DeletePersonalData"> </a>
@@ -213,7 +213,7 @@ Workspace items include:
 ## Step 6 - Sync workspace items into Project Server
 <a name="SyncWorkspaceItems"> </a>
 
-The Sync-ProjectWorkspace<*version*>.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<*version*>.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
+The Sync-ProjectWorkspace201x.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName201x.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
   
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
@@ -494,7 +494,7 @@ Run both of these scripts for each user, using the following parameters:
 |@resUID|The resource ID of the user for which you want to delete personal data|Either resUID or res_claims_account is required.|
 |@res_new_name|When provided, the username of the resource will be updated with this string.> [!IMPORTANT]> This value should be NULL unless you are doing Scenario 2 or 3 above.           |Optional|
 |@update_timesheet_names|When enabled (value of "1"), username in timesheet records will be replaced with the @res_new_name string providedWhen not enabled (value of "0"), username will remain in timesheet records, but the username will be assigned a new resource ID in timesheets to make the username untrackable.|Enabled by default.|
-|@timesheet_new_res_uid|Use when @update_timesheet_names=0. Use the value from FindUser<*version*>.sql. Be sure to use the same value for both the primary and reporting scripts.||
+|@timesheet_new_res_uid|Use when @update_timesheet_names=0. Use the value from FindUser201x.sql. Be sure to use the same value for both the primary and reporting scripts.||
    
 #### Example script configuration of Scenario 1: Delete user's information from a Project Web App instance, but leave the display name
 
@@ -550,16 +550,21 @@ The script removes all Adam Barr's personal data from the https://contoso.sharep
 ## Step 9 - Redact resource information from archived objects
 <a name="RedactArchive"> </a>
 
+**Archived project data**
+
 For projects where the resource was redacted:
 1. In Project Web App settings, choose **Delete enterprise objects**.
 2. Choose **Delete archived projects**.
 3. Delete the required archived projects.
 
-[Back up](back-up-item-level-objects-through-administrative-backup-project-server-2013.md) the following objects. (The new backup will overwrite the existing version and any resource related data that was redacted.)
+**Archived non-project data**
+
+Proejct Server only keeps a single version of the following archived items:
 - Enterprise Resource Pool and Calendars
 - Enterprise Custom Fields
 - Enterprise Global
 
+Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
 ## Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance
 <a name="step6"> </a>

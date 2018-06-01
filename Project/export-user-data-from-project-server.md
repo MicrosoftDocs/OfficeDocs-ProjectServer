@@ -62,16 +62,16 @@ Important notes about running the export scripts:
   
 - The script folder contains several .wsdl files. These are required by the PowerShell scripts. Be sure they are in the same directory as the PowerShell scripts when you run them.
     
-- The SetupReportingProcedures<*version* >.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts:
+- The SetupReportingProcedures201x.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts:
     
-    - ExportReportingProject<*version*>.sql 
+    - ExportReportingProject201x.sql 
     
-    - ExportReportingResource<*version*>.sql 
+    - ExportReportingResource201x.sql 
     
-    - ExportTimesheetReporting<*version*>.sql 
+    - ExportTimesheetReporting201x.sql 
     
 > [!NOTE]
-> Run SetupReportingProcedures<*version*>.sql before running any of these scripts. 
+> Run SetupReportingProcedures201x.sql before running any of these scripts. 
     
 - Each script has one or more variables that must be defined - such as UserID or database name - before you run it. Check the description section in the script itself for any needed parameters.
     
@@ -134,7 +134,7 @@ You need to be able to reference the database names for each database.
 ## Step 3 - Export workspace items for the user
 <a name="FindWSItem"> </a>
 
-Run the ExportWorkspaceItemsByDisplayName<*version*>.sql script and search for data using possible display names of the user (partial name searches).
+Run the ExportWorkspaceItemsByDisplayName201x.sql script and search for data using possible display names of the user (partial name searches).
 
 Run the script on the Reporting database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
@@ -152,10 +152,10 @@ Provide values for the following parameters in the script:
 
 After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
   
-Run the FindUser<*version*>.sql SQL script to find the user's Resource ID or claims account. 
+Run the FindUser201x.sql SQL script to find the user's Resource ID or claims account. 
   
 > [!NOTE]
-> You need to run the FindUser<*version*>.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
+> You need to run the FindUser201x.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
   
 Run the script on the Published database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
