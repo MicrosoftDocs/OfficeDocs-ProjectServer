@@ -11,6 +11,8 @@ ms.assetid: c85c548f-4406-4663-8487-192ee065a803
 description: "Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:"
 ---
 
+This is a [link to step 3 in a numbered list](export-user-data-from-project-server.md#LinkToStep3)
+
 # Export user data from Project Server
 
 Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:
@@ -320,19 +322,19 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
 
 ExportArchievdData201X.sql will return the following data that is stored in the archived database that is related to the resource.
 
-|SQL table|Column definitions|
+|Export option|Output definitions|
 |:-----|:-----|
-|Calendars checked out by the resource|Same as Calendars|
-|Custom fields checked out by the resource|Same as Custom Fields|
-|Global Projects checked out by the resource|ProjectId<br>ProjectName|
-|Lookup tables checked out by the resource|Same as lookup table definition|
-|Projects related to the user (owned, assigned to, status manager, assignment owner)|Same as the project list, plus:<br>ProjectVersionId  (Archive version Id)<br>ProjectVersionDescription (Date and time the backup was taken)<br>ProjectVersionDate  (The date the backup was taken)|
-|Resource Custom Fields|Resource Data -  Custom fields section|
-|Resources checked out by the resource|Contains 4 fields which are listed as part of the Resource Data section:<br>ResourecId<br>ResourceName<br>CheckedOutBy<br>DefaultAssignmentOwner|
+|Archived items - Calendar|[Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars)|
+|||
+|||
+|||
+|||
+|||
 
 If you want to export the archived projects, repeat this process for each project:
 1.	Archive the current project (or do a database backup).
 2.	Restore the archived version (using the version information provided in the above script).
+<a name="LinkToStep3"></a>
 3.	Export the project as XML and run relevant scripts.
 4.	Restore the backup project in step 1.
 
