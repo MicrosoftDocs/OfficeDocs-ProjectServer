@@ -118,7 +118,7 @@ This article applies to Project Server 2016, Project Server 2013 and Project Ser
 
 Use the Get-SPProjectWebInstance cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
   
-```
+```powershell
  Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer
 ```
 
@@ -136,13 +136,13 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 For Project Server 2010, you also need to find the Service Application ID of the  *Project Server PSI Service Application*  . Run the **Get-ServiceApplication** PowerShell cmdlet with the following parameters to do this: 
   
-```
+```powershell
 Get-SPServiceApplication | ? { $_.TypeName -eq "Project Server PSI Service Application" } | ft -a
 ```
 
 This will also return the name of the Project Server service application. You can then use the Get-SPProjectWebInstance cmdlet to return the names of the four Project Server databases by specifying the service application name with the -ServiceApplication parameter:
   
-```
+```powershell
 Get-SPProjectWebInstance -ServiceApplication "Project Server"  | ft -a Url,PrimaryServer,PublishedDatabase,DraftDatabase,ArchiveDatabase,ReportingServer,ReportingDatabase
 ```
 
