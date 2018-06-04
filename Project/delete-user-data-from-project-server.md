@@ -16,26 +16,30 @@ description: "Learn how an Farm admin can delete a specific user's data from a P
 
 Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010.
   
-> [Step 1 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-from-project-server.md#FindPWA)
+- [Step 1 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-from-project-server.md#FindPWA)
     
-> [Step 2 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-from-project-server.md#FindResID)
+- [Step 2 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-from-project-server.md#FindResID)
     
-> [Step 3 - Close all the user's projects](delete-user-data-from-project-server.md#Step4)
+- [Step 3 - Close all the user's projects](delete-user-data-from-project-server.md#Step4)
     
-> [Step 4 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
+- [Step 4 - Export the users data](delete-user-data-from-project-server.md#Step3)
     
-> [Step 5 - Export the users data](delete-user-data-from-project-server.md#Step3)
+- [Step 5 - Delete workspace items](delete-user-data-from-project-server.md#DeletePersonalData)
     
-> [Step 6 - Delete user personal data for Issues and Risks](delete-user-data-from-project-server.md#DeletePersonalData)
+- [Step 6 - Sync workspace items into Project Server](delete-user-data-from-project-server.md#SyncWorkspaceItems)
     
-> [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
+- [Step 7 - Open the resources calendar and clear out the exception reason for the user](delete-user-data-from-project-server.md#Calendar)
     
-> [Step 8 - Delete the user's personal information from the Resource and Project Resources tables](delete-user-data-from-project-server.md#step5)
+- [Step 8 - Delete the user's personal information from the Resource and Project Resources tables](delete-user-data-from-project-server.md#step5)
+
+- [Step 9 - Redact resource information from archived objects](delete-user-data-from-project-server.md#RedactArchive)
     
-> [Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
+- [Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
     
 > [!NOTE]
-> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to delete the user's SharePoint Server information first, followed by deleting their Project Server information. 
+> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
+
+Be sure you have deployed the latest updates to your farm and Project Professional clients before you run the scripts in this article.
   
 ## What user information is deleted?
 <a name="Whatdata"> </a>
@@ -50,7 +54,10 @@ In Project Server, admins can use the steps detailed in this article to delete a
     
 - **User Permissions** - For example, if user ﻿is ﻿associated with project server categories, groups/ has been granted individual global permissions, we will go ahead and remove ﻿all the associations. The user will also be set as inactive. 
     
-User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to delete this data directly from SharePoint Server.
+> [!NOTE]
+> Project Author is not deleted as part of the procedures in this article. 
+
+User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to [delete this data directly from SharePoint Server](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server).
   
 > [!IMPORTANT]
 > We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist. 
@@ -99,7 +106,10 @@ The following is an overview of the process to delete a specific user's informat
     
 7. **Delete the cache for Project Professional users**: After the script has completed successfully, you must delete the cache on each device in which Project Professional was used to open the project while connected to the Project Web App instance. Clearing the cache prevents the user info from being re-added to the project if it is cached on the device.
     
- **Using scripts for different versions of Project Server**
+ > [!IMPORTANT]
+> We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist. 
+  
+### Using scripts for different versions of Project Server
   
 This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the directions.
   
@@ -162,7 +172,7 @@ Provide values for the following parameters in the script:
    
 For example, if you want to find the userID for Adam Barr on the Contoso PWA1 site you found in the example in Step 1, you would edit the values for the parameters in the script like this:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @searchName nvarchar(255) = 'Adam Barr'
 ```
@@ -184,27 +194,26 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
     
 3. ﻿A message will display asking if you are sure you want to force-checkin. Click **OK.**
     
-## Step 4 - Sync workspace items into Project Server
-<a name="SyncWorkspaceItems"> </a>
-
-The Sync-ProjectWorkspace< *version*  >.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName<  *version*  >.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
-  
-## Step 5 - Export the users data
+## Step 4 - Export the users data
 <a name="Step3"> </a>
 
-Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md).
+Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server](export-user-data-from-project-server.md). Note that you will need the ExportWorkspaceItemsByDisplayName201x.sql script for Step 6, below.
   
-## Step 6 - Delete user personal data for Issues and Risks
+## Step 5 - Delete workspace items
 <a name="DeletePersonalData"> </a>
 
-Issues and Risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
-  
-If you delete user information from a Project Site after they have already been deleted from Project Server (or for users who never had a Project Server account), you must use their claims account because Resource ID isn't available once they've been deleted from Project Server.
-  
-You can use the FindUserClaims< *version*  >.sql script to find claims accounts for all issues risks in the reporting database. 
-  
-> [!NOTE]
-> Project Server 2010 does not have claims accounts in the database. Issues and risks in Project Server 2010 have name only, so can only redact based on name. 
+Workspace items are stored in Project Sites, which are part of SharePoint Server. You must delete a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in workspace items from being updated by corresponding SharePoint Server data, should they still exist.
+
+Workspace items include:
+- Issues
+- Risks
+- Deliverables
+- Linked documents
+
+## Step 6 - Sync workspace items into Project Server
+<a name="SyncWorkspaceItems"> </a>
+
+The Sync-ProjectWorkspace201x.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName201x.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
   
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
@@ -259,7 +268,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -273,7 +282,7 @@ The script removes all Adam Barr's personal data except for his display name fro
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site ID we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -296,7 +305,7 @@ You can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -310,7 +319,7 @@ The script removes all Adam Barr's personal data and changes his display name to
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -332,7 +341,7 @@ Note that you can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
@@ -348,7 +357,7 @@ Because the account is deleted, it is not possible to rerun the script using the
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2, as well as the PWA site IDs we retrieved in Step 1, and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
@@ -380,7 +389,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = NULL
@@ -395,7 +404,7 @@ Because the account is deleted, it is not possible to rerun the script using the
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) = NULL
@@ -417,7 +426,7 @@ You can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = 'Deleted User'
@@ -430,7 +439,7 @@ The script removes all Adam Barr's personal data and changes his display name to
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
@@ -451,7 +460,7 @@ Note that you can specify the user either by claims account or Resource ID.
   
 In this example, we use Adam Barr's claims account we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = NULL
 DECLARE @res_claims_account nvarchar(255) = 'i:0#.w|contoso\adamb'
 DECLARE @res_new_name nvarchar(255) = 'Deleted User'
@@ -464,7 +473,7 @@ The script removes all Adam Barr's personal data from the https://contoso.sharep
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_claims_account nvarchar(255) = NULL
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
@@ -485,7 +494,7 @@ Run both of these scripts for each user, using the following parameters:
 |@resUID|The resource ID of the user for which you want to delete personal data|Either resUID or res_claims_account is required.|
 |@res_new_name|When provided, the username of the resource will be updated with this string.> [!IMPORTANT]> This value should be NULL unless you are doing Scenario 2 or 3 above.           |Optional|
 |@update_timesheet_names|When enabled (value of "1"), username in timesheet records will be replaced with the @res_new_name string providedWhen not enabled (value of "0"), username will remain in timesheet records, but the username will be assigned a new resource ID in timesheets to make the username untrackable.|Enabled by default.|
-|@timesheet_new_res_uid|Use when @update_timesheet_names=0. Use the value from FindUser<*version*>.sql. Be sure to use the same value for both the primary and reporting scripts.||
+|@timesheet_new_res_uid|Use when @update_timesheet_names=0. Use the value from FindUser201x.sql. Be sure to use the same value for both the primary and reporting scripts.||
    
 #### Example script configuration of Scenario 1: Delete user's information from a Project Web App instance, but leave the display name
 
@@ -493,7 +502,7 @@ This scenario removes the personal data of a user from the Project Web App insta
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) = NULL
 DECLARE @update_timesheet_names bit = 1
@@ -511,7 +520,7 @@ After successfully running the script, you can re-run the FindUser201x.sql scrip
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
 DECLARE @update_timesheet_names bit = 1
@@ -528,7 +537,7 @@ After running the script, you can re-run the FindUser script you used in Step 2 
   
 In this example, we use Adam Barr's Resource ID we retrieved in Step 2 and configure the parameters in the script as follows:
   
-```
+```sql
 DECLARE @res_uid uniqueidentifier = '19004637-C518-E811-80E0-001DD8C187B9'
 DECLARE @res_new_name nvarchar(255) =  'Deleted User'
 DECLARE @update_timesheet_names bit = 0
@@ -538,7 +547,26 @@ DECLARE @timesheet_new_res_uid uniqueidentifier = 'delete-user-data-from-project
 
 The script removes all Adam Barr's personal data from the https://contoso.sharepoint.com/sites/pwa site and changes his display name to "Deleted User" except in timesheet records. The new Resource ID is added to the timesheet records to unlink them from the records associated with "Deleted Uer."
   
-## Step 9 - Clear the cache for Project Professional users connecting to the Project Online instance.
+## Step 9 - Redact resource information from archived objects
+<a name="RedactArchive"> </a>
+
+**Archived project data**
+
+For projects where the resource was redacted:
+1. In Project Web App settings, choose **Delete enterprise objects**.
+2. Choose **Delete archived projects**.
+3. Delete the required archived projects.
+
+**Archived non-project data**
+
+Project Server only keeps a single version of the following archived items:
+- Enterprise Resource Pool and Calendars
+- Enterprise Custom Fields
+- Enterprise Global
+
+Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
+
+## Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance
 <a name="step6"> </a>
 
 On all devices on which Project Professional or the Project Online Desktop Client connected to Project Web App, you need to clear the cache. Clearing the cache will prevent projects in which user information was deleted from being updated from cached data that remains on the system.
@@ -551,4 +579,6 @@ To clear the cache in Project Professional:
     
 3. In the **Cache** section, select **Clean Up Cache**.
     
+## See also
 
+[Export user data from Project Server](export-user-data-from-project-server.md)

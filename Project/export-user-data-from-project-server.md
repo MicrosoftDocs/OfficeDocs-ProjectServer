@@ -10,22 +10,28 @@ localization_priority: Normal
 ms.assetid: c85c548f-4406-4663-8487-192ee065a803
 description: "Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:"
 ---
-
 # Export user data from Project Server
 
 Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:
+
+[Link to table](export-user-data-from-project-server.md#Table)
+
   
 [Step 1 - Download the export script files](export-user-data-from-project-server.md#DownloadScripts)
   
 [Step 2- Find the Project Web App instances in your SharePoint Server farm](export-user-data-from-project-server.md#FindPWA)
+
+[Step 3- Export workspace items for the user](export-user-data-from-project-server.md#FindWSItem)
   
-[Step 3 - Find the user's Resource ID or Claims Account on each PWA site](export-user-data-from-project-server.md#FindResID)
+[Step 4 - Find the user's Resource ID or Claims Account on each PWA site](export-user-data-from-project-server.md#FindResID)
   
-[Step 4 - Find projects that contain the user you're looking for](export-user-data-from-project-server.md#FindProjects)
+[Step 5 - Find projects that contain the user you're looking for](export-user-data-from-project-server.md#FindProjects)
   
-[Step 5 - Additional queries to export data](export-user-data-from-project-server.md#RunQueries)
+[Step 6 - Additional queries to export data](export-user-data-from-project-server.md#RunQueries)
   
-[Step 6 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
+[Step 7 - Archived items](export-user-data-from-project-server.md#ArchivedItems)
+
+[Step 8 - Find and save attachments, views, and VBA files](export-user-data-from-project-server.md#FindViews)
   
 ## Process Overview
 <a name="Overview"> </a>
@@ -42,28 +48,33 @@ The following is an overview of the process to export a specific user's informat
     
  **Using scripts for different versions of Project Server**
   
-This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the sections below.
+This article applies to Project Server 2016, Project Server 2013 and Project Server 2010. While the general process applies to all three versions, there are specifics that may apply to the different versions, especially when running the SQL scripts. These are noted in the sections below. Be sure you have deployed the latest updates to your farm and Project Professional clients.
+
+> [!NOTE]
+> Project Author is not exported as part of the procedures in this article. 
+
   
 ## Step 1 - Download the export script files
 <a name="DownloadScripts"> </a>
 
 Download the export scripts from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=871966).
   
-The download contains a ZIP file with separate folders for each version of Project Server. Use the scripts for your version or Project Server as described in Step 4, below.
+The download contains a ZIP file with separate folders for each version of Project Server. Use the scripts for your version or Project Server as described in Step 5, below.
   
 Important notes about running the export scripts:
   
 - The script folder contains several .wsdl files. These are required by the PowerShell scripts. Be sure they are in the same directory as the PowerShell scripts when you run them.
     
-- The SetupReportingProcedures< *version*  >.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts: 
+- The SetupReportingProcedures201x.sql script temporarily creates some global stored procedures in memory that are available within the sql session. These stored procedures are required by the following scripts:
     
-> ExportReportingProject< *version*  >.sql 
+    - ExportReportingProject201x.sql 
     
-> ExportReportingResource< *version*  >.sql 
+    - ExportReportingResource201x.sql 
     
-> ExportTimesheetReporting< *version*  >.sql 
+    - ExportTimesheetReporting201x.sql 
     
-    Run SetupReportingProcedures< *version*  >.sql before running any of these scripts. 
+> [!NOTE]
+> Run SetupReportingProcedures201x.sql before running any of these scripts. 
     
 - Each script has one or more variables that must be defined - such as UserID or database name - before you run it. Check the description section in the script itself for any needed parameters.
     
@@ -122,16 +133,32 @@ You need to be able to reference the database names for each database.
   
 > [!NOTE]
 > The Project Server 2010 Reporting database can be located on a different instance of SQL Server than the other three databases. 
+
+## Step 3 - Export workspace items for the user
+<a name="FindWSItem"> </a>
+
+Run the ExportWorkspaceItemsByDisplayName201x.sql script and search for data using possible display names of the user (partial name searches).
+
+Run the script on the Reporting database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
-## Step 3 - Find the user's Resource ID or Claims Account on each PWA site
+Provide values for the following parameters in the script:
+  
+|**Parameter**|**Description**|
+|:-----|:-----|
+|@siteID (Project Server 2016 only)  <br/> |The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1.  <br/> |
+|@resDisplayName  <br/> |The display name, or partial display name, of the Project Server user.  <br/> |
+   
+
+  
+## Step 4 - Find the user's Resource ID or Claims Account on each PWA site
 <a name="FindResID"> </a>
 
 After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
   
-Run the FindUser< *version*  >.sql SQL script to find the user's Resource ID or claims account. 
+Run the FindUser201x.sql SQL script to find the user's Resource ID or claims account. 
   
 > [!NOTE]
-> You need to run the FindUser< *version*  >.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
+> You need to run the FindUser201x.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database. 
   
 Run the script on the Published database for Project Server 2010, or on the database for the related PWA site for later versions. In the example results provided in Step 1, the database for all three Project Web App instances is  *WSS_Content*  . 
   
@@ -151,20 +178,16 @@ DECLARE @searchName nvarchar(255) = 'Adam Barr'
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
   
-### Users with no PWA account
-
-If FindUser< *version*  >.sql doesn't return a user account, it may be a user who doesn't have a PWA account, but who could be connected to a project by issues, risks, deliverables, or related items. You can export data for these users by running ExportWorkspaceItemsByClaimsAccount<  *version*  >.sql and ExportWorkspaceItemsByDisplayName<  *version*  >.sql. Since these user have no PWA account, there's no need to run the other scripts discussed in this article. 
-  
-## Step 4 - Find projects that contain the user you're looking for
+## Step 5 - Find projects that contain the user you're looking for
 <a name="FindProjects"> </a>
 
-You can use the Resource ID that you found in Step 3 to locate the projects that the user was involved with. This is done by using SQL scripts to query the Project data stored for a list of projects.
+You can use the Resource ID that you found in Step 4 to locate the projects that the user was involved with. This is done by using SQL scripts to query the Project data stored for a list of projects.
   
 There are separate scripts for each of the data stores in Project Server. Results from the scripts are likely to be similar, though you may see some differences if you have draft projects that haven't been published.
   
 Before you run the scripts, update them with the Resource ID that you're looking for.
   
- **For Project Server 2010**, run these scripts:
+**For Project Server 2010**, run these scripts:
   
 (Be sure to read the description at the top of each script. Some scripts require you to add the database name or update other parameters.)
   
@@ -174,7 +197,7 @@ Before you run the scripts, update them with the Resource ID that you're looking
     
 - ExportReportingProjectList2010.sql
     
- **For Project Server 2013**, run these scripts:
+**For Project Server 2013**, run these scripts:
   
 - ExportDraftProjectList2013.sql
     
@@ -182,7 +205,7 @@ Before you run the scripts, update them with the Resource ID that you're looking
     
 - ExportReportingProjectList2013.sql
     
- **For Project Server 2016**, run these scripts:
+**For Project Server 2016**, run these scripts:
   
 - ExportDraftProjectList2016.sql
     
@@ -194,33 +217,33 @@ Examine the output of the queries and determine the projects where you want to f
   
 When you have determined which projects you want to search for user information, run the following scripts for each project, using the ProjectUID returned by the scripts above:
   
- **For Project Server 2010**, run these scripts:
+**For Project Server 2010**, run these scripts:
   
 (Be sure to read the description at the top of each script. Some scripts require you to add the database name or update other parameters.)
   
-- ExportDraftProjects2010.sql
+- ExportDraftProject2010.sql
     
-- ExportPublishedProjects2010.sql
+- ExportPublishedProject2010.sql
     
 - ExportReportingProjects2010.sql
     
-- ExportReportingProjectsTimephasedData2010.sql
+- ExportReportingProjectTimephasedData2010.sql
     
- **For Project Server 2013**, run these scripts:
+**For Project Server 2013**, run these scripts:
   
-- ExportDraftProjects2013.sql
+- ExportDraftProject2013.sql
     
-- ExportPublishedProjects2013.sql
+- ExportPublishedProject2013.sql
     
 - ExportReportingProjects2013.sql
     
-- ExportReportingProjectsTimephasedData2013.sql
+- ExportReportingProjectTimephasedData2013.sql
     
- **For Project Server 2016**, run these scripts:
+**For Project Server 2016**, run these scripts:
   
-- ExportDraftProjects2016.sql
+- ExportDraftProject2016.sql
     
-- ExportPublishedProjects2016.sql
+- ExportPublishedProject2016.sql
     
 - ExportReportingProjects2016.sql
     
@@ -228,12 +251,14 @@ When you have determined which projects you want to search for user information,
     
 For information about the output values of these queries, see [Project-specific user data from the reporting data](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#projectspec).
   
-If you need additional user information, see Step 5 for scripts to retrieve information about resources, timesheets, statusing, etc.
+If you need additional user information, see Step 6 for scripts to retrieve information about resources, timesheets, statusing, etc.
   
-## Step 5 - Additional queries to export data
+## Step 6 - Additional queries to export data
 <a name="RunQueries"> </a>
 
 Run these additional queries to find additional information about resources, timesheets, statusing, etc.
+
+See [Running the PowerShell scripts](export-user-data-from-project-server.md#RunScripts) below for information about how to run the PowerShell scripts.
   
 ### Export data from Project Server 2010
 
@@ -243,17 +268,17 @@ To export data from Project Server 2010, use the .sql scripts and Microsoft Powe
   
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
+|Portfolio  <br/> |ExportPortfolioModels2010.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Resource plans  <br/> |Export-ResourcePlanTimephasedData2010.ps1  <br/> ExportResourcePlans2010.sql  <br/> ExportReportingResourcePlans2010.sql |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Resources  <br/> |ExportResource2010.sql  <br/> ExportReportingResource2010.sql  <br/> |[Resources](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
-|Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|TaskStatus  <br/> |ExportSavedAssignments2010.sql  <br/> ExportSubmittedAssignments2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
-|Service Settings  <br/> |ExportServerSettings2010.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
-|Portfolio  <br/> |ExportPortfolios2010.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Security  <br/> |ExportSecurity2010.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
+|Service Settings  <br/> |ExportServerSettings2010.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2010.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusReports) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2010.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2010.sql  <br/> ExportSubmittedTaskStatusUpdates2010.sql  <br/> ExportAssignmentTransactionHistory2010.sql  <br/> ExportAssignmentHistoryData2010.ps1  <br/>ExportSavedTaskStatusUpdates2010.sql<br/>Export-SavedTaskStatusUpdates2010.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts)) |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignSaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignHis) <br/> |
+|Timesheets  <br/> |ExportTimesheets2010.sql  <br/> ExportReportingTimesheets2010.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2010.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2010.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2010.sql  <br/> ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2010.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2010.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#UserView2010) <br/> |
    
 ### Export data from Project Server 2013
 
@@ -261,17 +286,17 @@ To export data from Project Server 2013, use the .sql scripts and Microsoft Powe
   
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
+|Portfolio  <br/> |ExportPortfolioModels2013.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Resource plans  <br/> |ExportResourcePlanTimephasedData2013.ps1  <br/> ExportResourcePlans2013.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
 |Resources  <br/> |ExportResource2013.sql  <br/> ExportReportingResource2013.sql  <br/> |[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
-|Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|Statusing  <br/> |ExportSavedAssignments2013.sql  <br/> ExportSubmittedAssignments2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
-|Service Settings  <br/> |ExportServerSettings2013.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
-|Portfolio  <br/> |ExportPortfolios2013.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
 |Security  <br/> |ExportSecurity2013.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
+|Service Settings  <br/> |ExportServerSettings2013.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
 |Status reports  <br/> |ExportStatusReports2013.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2013.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2013.sql  <br/> ExportSubmittedTaskStatusUpdates2013.sql  <br/> ExportAssignmentTransactionHistory2013.sql  <br/> ExportAssignmentHistoryData2013.ps1  <br/>ExportSavedTaskStatusUpdates2013.sql<br/>Export-SavedTaskStatusUpdates2013.ps1 ([Note](export-user-data-from-project-server.md#RunStatusScripts))|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusAssignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/statusingassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|Timesheets  <br/> |ExportTimesheets2013.sql  <br/> ExportReportingTimesheets2013.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2013.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2013.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2013.sql  <br/> ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2013.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2013.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
 ### Export data from Project Server 2016
 
@@ -279,22 +304,102 @@ To export data from Project Server 2016, use the .sql scripts and Microsoft Powe
   
 |**Export option**|**Run these scripts:**|**Output definitions**|
 |:-----|:-----|:-----|
-|Resources  <br/> |ExportResource2016.sql  <br/> ExportReportingResource.sql  <br/> |[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
-|Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
-|Statusing  <br/> |ExportSavedAssignments2016.sql  <br/> ExportSubmittedAssignments2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> |[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
-|Service Settings  <br/> |ExportServerSettings2016.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
-|Portfolio  <br/> |ExportPortfolios2016.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
-|Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
-|Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
 |Engagements  <br/> |ExportEngagementScripts2016.sql  <br/> |[Engagements](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#engagements) <br/> |
-|Resource plans  <br/> |ExportResourcePlanTimephasedData.ps1  <br/> ExportResourcePlans2016.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourcePlan) <br/> |
+|Portfolio  <br/> |ExportPortfolioModels2016.sql  <br/> |[Drivers](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers) <br/> [Prioritizations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations) <br/> [Analyses](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses) <br/> |
+|Resource plans  <br/> | ExportResourcePlans2016.sql  <br/> |[ResourcePlan](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resourcePlan) <br/> |
+|Resources  <br/> |ExportResource2016.sql  <br/> ExportReportingResource.sql  <br/> |[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource) <br/> [ReportingResource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource) <br/> |
+|Security  <br/> |ExportSecurity2016.sql  <br/> |[Security](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#security) <br/> |
+|Service Settings  <br/> |ExportServerSettings2016.sql  <br/> |[QueueJobs](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs) <br/> [CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields) <br/> [LookupTables](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables) <br/> [Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars) <br/> [UnsubscribedAlerts](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts) <br/> [SubscribedReminders](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders) <br/> [ReminderEmails](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails) <br/> [Delegations](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations) <br/> |
+|Status reports  <br/> |ExportStatusReports2016.sql  <br/> |[StatusReports](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports) <br/> |
+|TaskStatus  <br/> |ExportAssignmentsSavedData2016.sql  <br/> ExportSubmittedTaskStatusUpdates2016.sql  <br/> ExportAssignmentTransactionHistory2016.sql  <br/> ExportAssignmentHistoryData.ps1  <br/> ExportSavedTaskStatusUpdates2016.sql<br/> Export-SavedTaskStatusUpdates2016.ps1|[StatusAssignSaved](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved) <br/> [StatusAssignHistory](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis) <br/> |
+|Timesheets  <br/> |ExportTimesheets2016.sql  <br/> ExportReportingTimesheets2016.sql  <br/> |[Timesheets](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets) <br/> [Timesheets_Reporting](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting) <br/> |
+|User view settings  <br/> |Export-UserViewSettings2016.ps1  <br/> |[UserViewSettings](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
 |Workflow  <br/> |ExportWorkflow2016.sql  <br/> |[Workflow](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow) <br/> |
-|Workspace items  <br/> |ExportWorkspaceItemsByClaimsAccount2016.sql  <br/> ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
-|User properties  <br/> |ExportUserProperties2016.sql  <br/> UserProperties.ps1  <br/> |[UserProperties](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop) <br/> |
+|Workspace items  <br/> |ExportWorkspaceItemsByDisplayName2016.sql  <br/> |[WorkspaceItems](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#wss) <br/> |
    
-## Step 6 - Find and save attachments, views, and VBA files
+## Step 7 - Archived items
+<a name="ArchivedItems"> </a>
+
+ExportArchievdData201x.sql will return the following data that is stored in the archived database that is related to the resource.
+
+|Export option|Output definitions|
+|:-----|:-----|
+|Archived items - Calendar|[Calendars](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars)|
+|Archived items - Custom fields|[CustomFields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#customFields)|
+|Archived items - Lookup tables|[Lookup Table](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables)|
+|Archived items - Projects|[Project List](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#projlist)<br>ProjectVersionId (Archive version ID)<br>ProjectVersionDescription (Date and time of the backup)<br>ProjectVersionDate (The date of the backup)|
+|Archived items - Resource|[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource)|
+|Archived items - Resource custom fields|[Resource - custom fields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#)|
+
+Archived Project Data: To export archived projects:
+1.	[Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14)))
+2.	[Restore the archived version](https://docs.microsoft.com/en-us/project/restore-item-level-objects-through-administrative-restore-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207306(v%3doffice.14)))
+3.	Export the user related data.
+4.	Restore the project from archive.
+
+Archived Non-Project Data: 
+1.	Use [SharePoint backup and recovery](https://docs.microsoft.com/en-us/sharepoint/administration/backup-and-recovery-overview) ([2010](https://technet.microsoft.com/EN-US/library/ee662536(v=office.14).aspx)) to create a clone of the current farm.
+2.	Restore the archived items from Administrative backup and restore (see previous procedure).
+3.	Export the user related data.
+
+
+## Step 8 - Find and save attachments, views, and VBA files
 <a name="FindViews"> </a>
 
 To find attachments and views, we recommend that you export a given project to XML. To do this, open it in Project Professional, and then save it as an XML file. Once you have XML files for the Projects that you want to review, see [Find customized user items in Project Online and Project Server user export data](https://support.office.com/article/d40ede2b-22e5-4fa4-b789-007c9a36d5f1).
-  
 
+## Running the PowerShell scripts
+<a name="RunScripts"> </a>
+
+
+The table below shows the parameters required for a given script. Run each script in a SharePoint Management Shell as a farm administrator.
+
+|Script|Parameters|
+|:-----|:-----|
+|ResourcePlanTimephasedData201x.ps1 <br>Export-SavedTaskStatusUpdates201x.ps1 <br> ExportTaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
+|Sync-ProjectWorkspace201x.ps1<a name="Table"></a>|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
+|Export-UserViewSettings201x.ps1|ProjectServerURL<br>ResId<br>OutputPath|
+
+
+These parameters are described in the following table.
+
+|Parameter|Description|
+|:-----|:-----|
+|ProjectServerURL|URL of the PWA site|
+|ResId|Resource Id of the user|
+|OutputPath|Location to store the export files.|
+|ProjectId|Project workspace to synchronize|
+
+Also include one of the following authorization parameters each time you run a script:
+
+|Auth Parameter|Description|
+|:-----|:-----|
+|[nothing passed in]|Authenticate using NTLM and the Kerberos protocol as the current user.|
+|PromptForCredential|Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
+|UseWebLogin|Authenticate using Forms and ADFS/SAML protocol.|
+
+For example:
+
+```powershell
+.\Export-UserViewSettings2016.ps1 -ProjectServerURL "https://pwa" -resId "55efd6ff-853c-4fec-8abd-6df2c90b94e5" -OutputPath "C:\"
+```
+See each PowerShell script file for further examples and information about the parameters.
+
+### Running Export-SavedTaskStatusUpdates201x.ps1 (2010 and 2013 only)
+<a name="RunStatusScripts"> </a>
+
+To run the Export-SavedTaskStatusUpdates201x.ps1 script, you must run as a delegate of the user being exported in order to view the saved assignment. Use the following procedure:
+
+1.	[Turn delegation on in Project Server](turn-delegation-on-or-off-in-project-server.md)
+2.	[Enable delegation permissions on the user being exported](set-up-which-users-and-groups-can-act-as-delegates-in-project-server.md) 
+3.	Enable delegation permissions on yourself to delegate as that user. (As an admin you may already have permissions.)
+4.	[Configure yourself as a delegate of the user being exported](create-delegations-in-project-server.md)
+5.	Log in to Project Web App.
+6.	Click the gear icon, and then click **Act as a delegate**.
+8.	Start a delegate session.
+9.	Run the Export-SavedTaskStatusUpdates201x.ps1 PowerShell script.
+10.	Stop the delegate session.
+
+## See also
+
+[Delete user data from Project Server](delete-user-data-from-project-server.md)
