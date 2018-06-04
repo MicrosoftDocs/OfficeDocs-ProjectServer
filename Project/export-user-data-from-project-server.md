@@ -329,7 +329,7 @@ ExportArchievdData201x.sql will return the following data that is stored in the 
 |Archived items - Lookup tables|[Lookup Table](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables)|
 |Archived items - Projects|[Project List](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#projlist)<br>ProjectVersionId (Archive version ID)<br>ProjectVersionDescription (Date and time of the backup)<br>ProjectVersionDate (The date of the backup)|
 |Archived items - Resource|[Resource](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#resource)|
-|Archived items - Resource custom fields|[Resource - custom fields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#ResCustFields)|
+|Archived items - Resource custom fields|[Resource - custom fields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#rescustfields)|
 
 Archived Project Data: To export archived projects:
 1.	[Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14)))
