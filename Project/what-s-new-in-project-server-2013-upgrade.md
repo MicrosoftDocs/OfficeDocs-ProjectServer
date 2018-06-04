@@ -80,6 +80,8 @@ For information about how to upgrade from Office Project Server 2007 to Project 
 Note the following in regards to Project Professional and Project Web App client compatibility to Project Server 2013:
   
 - Project Server 2013 will only accept connections from Project Professional 2013, Project Professional 2016, and the Project Online Desktop Client.
+> [!NOTE]
+> Project Online Desktop Client connectivity to Project Server 2013 will expire and no longer be supported after September 15, 2018. 
     
 - Project Web App users in Project Server 2013 will be able to use the all browsers that are supported for use with SharePoint Server 2013. These include the following:
     
