@@ -14,9 +14,6 @@ description: "Your organization can export a specific user's content from your P
 
 Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:
 
-[Link to table](export-user-data-from-project-server.md#Table)
-
-  
 [Step 1 - Download the export script files](export-user-data-from-project-server.md#DownloadScripts)
   
 [Step 2- Find the Project Web App instances in your SharePoint Server farm](export-user-data-from-project-server.md#FindPWA)
@@ -357,7 +354,7 @@ The table below shows the parameters required for a given script. Run each scrip
 |Script|Parameters|
 |:-----|:-----|
 |ResourcePlanTimephasedData201x.ps1 <br>Export-SavedTaskStatusUpdates201x.ps1 <br> ExportTaskStatusUpdateHistory201x.ps1|ProjectServerURL<br>ResId<br>OutputPath<br>PromptForCredential<br>UseWebLogin|
-|Sync-ProjectWorkspace201x.ps1<a name="Table"></a>|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
+|Sync-ProjectWorkspace201x.ps1|ProjectServerURL<br>ProjectId<br>PromptForCredential<br>UseWebLogin|
 |Export-UserViewSettings201x.ps1|ProjectServerURL<br>ResId<br>OutputPath|
 
 
