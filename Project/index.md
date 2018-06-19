@@ -21,7 +21,7 @@ description: Project
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/project/project_server.svg" alt="Project Server" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Project-Server-400x140.svg" alt="Project Server" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -40,7 +40,7 @@ description: Project
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/project/project_online.svg" alt="Project Online" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Project-Online-400x140.svg" alt="Project Online" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -59,7 +59,7 @@ description: Project
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/skypeforbusiness/powershell_reference.svg" alt="PowerShell reference" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Project-Powershell-400x140.svg" alt="PowerShell reference" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -78,7 +78,7 @@ description: Project
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/Office/media/Office-help-support-training.svg" alt="support" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Project-EndUsers-400x140.svg" alt="support" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
