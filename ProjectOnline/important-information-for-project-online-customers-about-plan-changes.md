@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 search.appverid:
 - PJO150

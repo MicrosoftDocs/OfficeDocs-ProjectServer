@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/30/2016
 ms.audience: ITPro
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
 search.appverid:

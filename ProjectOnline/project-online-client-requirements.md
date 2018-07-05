@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/17/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Priority
 ms.custom:
 - Adm_O365

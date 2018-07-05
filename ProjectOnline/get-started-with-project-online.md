@@ -10,7 +10,7 @@ f1_keywords:
 - 'O365P_GSProj'
 - 'O365M_GSProj'
 - 'O365E_GSProj'
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 search.appverid:
 - MET150

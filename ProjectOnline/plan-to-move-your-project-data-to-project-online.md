@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 ms.assetid: caca123e-0273-4b53-946c-4ca8f1222b51
 description: "If you are planning to move to Project Online, it might be likely that one of the reasons you are moving to it is you want to improve on your current system of managing projects. One thing Project admins or your Project Management Office (PMO) needs to think about is how to transition from your current project management system to Project Online. This can include how to handle change, training, or implementing process among other things, but one key item to think about is how to move any existing project data to Project Online. For example, your company can have project and resource information in Microsoft Excel spread sheets, and wants to know if there is a way to import this information into Project Online, or will they have to manually create it all this data. This article describes factors you need to consider that will help you to decide whether to try to import your data if possible, or whether it is easier tostart freshin Project Online."

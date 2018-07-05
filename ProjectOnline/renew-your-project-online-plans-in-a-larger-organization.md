@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid:

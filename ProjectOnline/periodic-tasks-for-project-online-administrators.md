@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/8/2017
 ms.audience: Admin
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
 search.appverid: PJO150

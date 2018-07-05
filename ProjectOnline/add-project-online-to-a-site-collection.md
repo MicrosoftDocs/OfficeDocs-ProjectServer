@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/16/2018
 ms.audience: End User
 ms.topic: article
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 search.appverid:
 - MET150

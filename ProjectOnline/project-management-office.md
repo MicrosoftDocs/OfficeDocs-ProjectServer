@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 4/25/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 ms.assetid: bc22bee5-f114-4623-ba62-55823f7ede7b
 description: "PMO landing page"

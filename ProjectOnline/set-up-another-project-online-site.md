@@ -10,7 +10,7 @@ f1_keywords:
 - 'O365P_ProjWA'
 - 'O365M_ProjWA'
 - 'O365E_ProjWA'
-ms.prod: office-online-server
+ms.service: project-online
 localization_priority: Normal
 search.appverid:
 - MET150
