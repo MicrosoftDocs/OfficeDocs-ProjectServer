@@ -1,0 +1,106 @@
+Error Type,Topic Guid,Message
+Error,,Checking for list in tables in file: message:System.Collections.ArrayList
+Error,,CHecking Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content in md file: message:System.Collections.ArrayList
+Error,,Checking for missing tables headers in file: message:System.Collections.ArrayList
+Error,,Running transform:ConceptualTransform.xslt on file: message:System.Collections.ArrayList
+Error,,Running github process on file: message:System.Collections.ArrayList
+Warning,002eaac1-35ef-4bab-b977-a02b39715ec3,Could not Add new line after images in md file:002eaac1-35ef-4bab-b977-a02b39715ec3.md
+Warning,12ba0ebd-c616-42e5-b9b6-cad570e8409c,Missing tables headers in file:12ba0ebd-c616-42e5-b9b6-cad570e8409c.md
+Warning,15703ad4-08a9-40f3-9487-063a369e8f2b,Missing tables headers in file:15703ad4-08a9-40f3-9487-063a369e8f2b.md
+Warning,15703ad4-08a9-40f3-9487-063a369e8f2b,Found nested table in md file:15703ad4-08a9-40f3-9487-063a369e8f2b.md
+Warning,15703ad4-08a9-40f3-9487-063a369e8f2b,Fixing missing end table tag in file:15703ad4-08a9-40f3-9487-063a369e8f2b.md
+Warning,15703ad4-08a9-40f3-9487-063a369e8f2b,Fixing missing end table tag in file:15703ad4-08a9-40f3-9487-063a369e8f2b.md
+Warning,15703ad4-08a9-40f3-9487-063a369e8f2b,Found invalid tables saving file:15703ad4-08a9-40f3-9487-063a369e8f2b.md
+Warning,252fa593-9c25-47ed-b861-643fe8bf1cb7,Found a an ul list inside a table in html file:252fa593-9c25-47ed-b861-643fe8bf1cb7.xml
+Warning,27f3838d-3dbe-4b98-80dc-df55f851154d,Found a an ul list inside a table in html file:27f3838d-3dbe-4b98-80dc-df55f851154d.xml
+Warning,27f3838d-3dbe-4b98-80dc-df55f851154d,Missing tables headers in file:27f3838d-3dbe-4b98-80dc-df55f851154d.md
+Warning,3e20822d-de27-494e-8821-c25b1174586e,Missing tables headers in file:3e20822d-de27-494e-8821-c25b1174586e.md
+Warning,3e20822d-de27-494e-8821-c25b1174586e,Could not Add new line after images in md file:3e20822d-de27-494e-8821-c25b1174586e.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Found herf tag with an image in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md total found:3
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Found a an ol list inside a table in html file:3fda2b6f-3145-46fa-af02-e39a00450ec1.xml
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Missing tables headers in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Found nested table in md file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Fixing missing end table tag in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Fixing missing end table tag in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Fixing missing end table tag in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Fixing missing end table tag in file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,3fda2b6f-3145-46fa-af02-e39a00450ec1,Found invalid tables saving file:3fda2b6f-3145-46fa-af02-e39a00450ec1.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Found herf tag with an image in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md total found:4
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Found a an ul list inside a table in html file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.xml
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Missing tables headers in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Found nested table in md file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Fixing missing end table tag in file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,463db028-1ec6-4d19-9f7b-4ecbf9122cca,Found invalid tables saving file:463db028-1ec6-4d19-9f7b-4ecbf9122cca.md
+Warning,496aafdd-9f62-4daf-8d2e-0e700925c6b2,Found a an ul list inside a table in html file:496aafdd-9f62-4daf-8d2e-0e700925c6b2.xml
+Warning,4f125cf5-a752-4ce6-b9e9-5a2eb6ace9e2,Could not Add new line after images in md file:4f125cf5-a752-4ce6-b9e9-5a2eb6ace9e2.md
+Warning,55825b21-1a20-4d40-9f26-0ec91bf920d3,Could not Add new line after images in md file:55825b21-1a20-4d40-9f26-0ec91bf920d3.md
+Warning,567b2415-5973-4e38-b796-dd20ebcb00c8,Found a an ul list inside a table in html file:567b2415-5973-4e38-b796-dd20ebcb00c8.xml
+Warning,567b2415-5973-4e38-b796-dd20ebcb00c8,Missing tables headers in file:567b2415-5973-4e38-b796-dd20ebcb00c8.md
+Warning,62fb71b4-a815-49ff-8554-4ce4010a2771,Found a an ul list inside a table in html file:62fb71b4-a815-49ff-8554-4ce4010a2771.xml
+Warning,67bdd3e9-9887-45ee-948d-7f3c02a1e5eb,Could not Add new line after images in md file:67bdd3e9-9887-45ee-948d-7f3c02a1e5eb.md
+Warning,7e70ec99-927c-4fe0-a94d-c66f6451e497,Could not Add new line after images in md file:7e70ec99-927c-4fe0-a94d-c66f6451e497.md
+Warning,8accac79-9dc8-4167-8e0c-2c20fabcebdd,Could not Add new line after images in md file:8accac79-9dc8-4167-8e0c-2c20fabcebdd.md
+Warning,8ae37a09-5dc3-4377-98eb-dbb941c726a1,Missing tables headers in file:8ae37a09-5dc3-4377-98eb-dbb941c726a1.md
+Warning,ac06db07-b8c3-4f58-be63-af68fa974a27,Missing tables headers in file:ac06db07-b8c3-4f58-be63-af68fa974a27.md
+Warning,ac06db07-b8c3-4f58-be63-af68fa974a27,Could not Add new line after images in md file:ac06db07-b8c3-4f58-be63-af68fa974a27.md
+Warning,c1da8a04-d5d7-4965-bb43-48f1c50bef1b,Found a an ul list inside a table in html file:c1da8a04-d5d7-4965-bb43-48f1c50bef1b.xml
+Warning,c1da8a04-d5d7-4965-bb43-48f1c50bef1b,Could not Add new line after images in md file:c1da8a04-d5d7-4965-bb43-48f1c50bef1b.md
+Warning,ce5faeae-9af4-4696-b847-a1f4f20327c7,Found a an ul list inside a table in html file:ce5faeae-9af4-4696-b847-a1f4f20327c7.xml
+Warning,ce5faeae-9af4-4696-b847-a1f4f20327c7,Missing tables headers in file:ce5faeae-9af4-4696-b847-a1f4f20327c7.md
+Warning,d44b5a70-3df3-417e-bad8-3021e3a4c896,Could not Add new line after images in md file:d44b5a70-3df3-417e-bad8-3021e3a4c896.md
+Warning,da8487fe-899e-4510-a264-e2ebc948928c,Found a an ul list inside a table in html file:da8487fe-899e-4510-a264-e2ebc948928c.xml
+Warning,da8487fe-899e-4510-a264-e2ebc948928c,Found nested table in md file:da8487fe-899e-4510-a264-e2ebc948928c.md
+Warning,da8487fe-899e-4510-a264-e2ebc948928c,Fixing missing end table tag in file:da8487fe-899e-4510-a264-e2ebc948928c.md
+Warning,da8487fe-899e-4510-a264-e2ebc948928c,Found invalid tables saving file:da8487fe-899e-4510-a264-e2ebc948928c.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Found herf tag with an image in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md total found:4
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Found a an ul list inside a table in html file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.xml
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Missing tables headers in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Found nested table in md file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Fixing missing end table tag in file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e3e5f64f-ada5-4f9d-a578-130b2d4e5f11,Found invalid tables saving file:e3e5f64f-ada5-4f9d-a578-130b2d4e5f11.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Found herf tag with an image in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md total found:4
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Found a an ul list inside a table in html file:e65c6c3b-68af-4d13-9504-5626b73e54ce.xml
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Missing tables headers in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Found nested table in md file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Fixing missing end table tag in file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,e65c6c3b-68af-4d13-9504-5626b73e54ce,Found invalid tables saving file:e65c6c3b-68af-4d13-9504-5626b73e54ce.md
+Warning,f3955791-d452-4e1f-a5c4-efa1ddb88ecf,Missing tables headers in file:f3955791-d452-4e1f-a5c4-efa1ddb88ecf.md
+Warning,f3955791-d452-4e1f-a5c4-efa1ddb88ecf,Could not Add new line after images in md file:f3955791-d452-4e1f-a5c4-efa1ddb88ecf.md
+Warning,f5ed1080-1cc6-4ab7-b00e-25cbfbea03f5,Could not Add new line after images in md file:f5ed1080-1cc6-4ab7-b00e-25cbfbea03f5.md
+Warning,f787d680-223b-4aa7-92e0-5fc32ed3c962,Could not Add new line after images in md file:f787d680-223b-4aa7-92e0-5fc32ed3c962.md
+Warning,f7de04cc-9850-466c-920a-dd1ab593154e,Found nested table in md file:f7de04cc-9850-466c-920a-dd1ab593154e.md
+Warning,f7de04cc-9850-466c-920a-dd1ab593154e,Fixing missing end table tag in file:f7de04cc-9850-466c-920a-dd1ab593154e.md
+Warning,f7de04cc-9850-466c-920a-dd1ab593154e,Found invalid tables saving file:f7de04cc-9850-466c-920a-dd1ab593154e.md
+Warning,fd893a1f-26c3-48c0-a854-4aa12fd808b1,Found nested table in md file:fd893a1f-26c3-48c0-a854-4aa12fd808b1.md
+Warning,fd893a1f-26c3-48c0-a854-4aa12fd808b1,Fixing missing end table tag in file:fd893a1f-26c3-48c0-a854-4aa12fd808b1.md
+Warning,fd893a1f-26c3-48c0-a854-4aa12fd808b1,Found invalid tables saving file:fd893a1f-26c3-48c0-a854-4aa12fd808b1.md
+
