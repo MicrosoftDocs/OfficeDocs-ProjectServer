@@ -38,7 +38,7 @@ If you are planning to upgrade to Project Server 2019, it is important to know t
   
 - **You can only upgrade to Project Server 2019 through Project Server 2016** If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019. 
 
-**There is no direct upgrade path from Project Server 2013 to Project Server 2019.**
+**There is no direct upgrade path from Project Server 2013 to Project Server 2019.**  For additional information about how to upgrade from Project Server 2013 to 2019, see [High Level Overview to upgrade SharePoint 2013 to SharePoint Server 2019](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019)
 
     
 - **No in-place upgrade** You must first create a Project Server 2019 installation, and then attach and upgrade your Project Server 2016 databases to the new farm. In-place upgrade is not supported.
