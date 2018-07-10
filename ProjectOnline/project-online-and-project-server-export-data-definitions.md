@@ -33,7 +33,7 @@ We can group the user data output your receive from both Project Online and Proj
 - [Project-specific Metadata files](project-online-and-project-server-export-data-definitions.md#ProjSpecMeta): Project metadata about a user's project in the PWA site.
     
 ## Project lists
-<a name="projlist"> </a>
+
 
 You will receive three lists of projects contained in the Project Draft, Published, and Reporting schemas. All the projects in the lists were projects the user was a part of. This means the user was involved in the project as at least one of the following:
   
@@ -47,7 +47,7 @@ You will receive three lists of projects contained in the Project Draft, Publish
     
 This data includes:
   
-||
+
 |:-----|
 |**Description** <br/> |
 |List of projects from the Draft schema that corresponds to the conditions above.  <br/> |
@@ -78,7 +78,7 @@ The feature areas for both Project Online and Project Server include the followi
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[AdminAudit](project-online-and-project-server-export-data-definitions.md#AdminAudit) <br/> |Project Web App server settings change data.  <br/> |
+|[AdminAudit](#adminaudit) <br/> |Project Web App server settings change data.  <br/> |
 |[BusinessDrivers](project-online-and-project-server-export-data-definitions.md#Drivers) <br/> |Portfolio analysis business drivers data.  <br/> |
 |[PortfolioAnalysis](project-online-and-project-server-export-data-definitions.md#Analyses) <br/> |Portfolio analyses data.  <br/> |
 |[Calendars](project-online-and-project-server-export-data-definitions.md#Calendars) <br/> |Enterprise calendar data.  <br/> |

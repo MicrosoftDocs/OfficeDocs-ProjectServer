@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 4e091977-8f5d-4769-9587-0bf8da45a09f
-description: "This white paper is part of ourFrom the trenchescollection. It discusses using strategic drivers in Portfolio Management to effectively create a standard approach for making important project decisions."
+description: "This article is part of our From the Trenches collection. It discusses using strategic drivers in Portfolio Management to effectively create a standard approach for making important project decisions."
 ---
 
-# Aligning projects with strategic drivers: white paper
+# Aligning projects with strategic drivers
 
-This white paper is part of our "From the trenches" collection. It discusses using strategic drivers in Portfolio Management to effectively create a standard approach for making important project decisions.
+This article is part of our "From the Trenches" collection. It discusses using strategic drivers in Portfolio Management to effectively create a standard approach for making important project decisions.
   
-To download the PDF version of this white paper, see [Aligning projects with strategic drivers](https://go.microsoft.com/fwlink/?LinkId=259663).
+To download the PDF version of this article, see [Aligning projects with strategic drivers](https://go.microsoft.com/fwlink/?LinkId=259663).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Aligning projects with strategic drivers
 

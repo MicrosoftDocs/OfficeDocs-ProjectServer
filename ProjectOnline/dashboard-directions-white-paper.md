@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -16,16 +16,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 0ceb444d-dc80-4835-aae6-b383faf282ed
-description: "This white paper is part of ourFrom the trenchescollection. It describes some of the common challenges you may face when deciding to use dashboards in your EPM environment. It describes how the prettiness of a professional-looking dashboard might sometimes hide the need for users to look into the quality of the data —pedigreeand updated data, for example. It mentions how data for dashboards should go through an approval process to ensure high data quality and completeness. It includes a few techniques to prevent people from skewing data under their control to misrepresent the data that is displayed in the dashboard. And finally, it states some basic rules you should take into consideration when you create dashboards for EPM."
+description: "This article is part of our From the Trenches collection. It describes some of the common challenges you may face when deciding to use dashboards in your EPM environment. It describes how the prettiness of a professional-looking dashboard might sometimes hide the need for users to look into the quality of the data —pedigreeand updated data, for example. It mentions how data for dashboards should go through an approval process to ensure high data quality and completeness. It includes a few techniques to prevent people from skewing data under their control to misrepresent the data that is displayed in the dashboard. And finally, it states some basic rules you should take into consideration when you create dashboards for EPM."
 ---
 
-# Dashboard directions: white paper
+# Dashboard directions
 
-This white paper is part of our "From the trenches" collection. It describes some of the common challenges you may face when deciding to use dashboards in your EPM environment. It describes how the prettiness of a professional-looking dashboard might sometimes hide the need for users to look into the quality of the data — "pedigree" and updated data, for example. It mentions how data for dashboards should go through an approval process to ensure high data quality and completeness. It includes a few techniques to prevent people from skewing data under their control to misrepresent the data that is displayed in the dashboard. And finally, it states some basic rules you should take into consideration when you create dashboards for EPM.
+This article is part of our "From the Trenches" collection. It describes some of the common challenges you may face when deciding to use dashboards in your EPM environment. It describes how the prettiness of a professional-looking dashboard might sometimes hide the need for users to look into the quality of the data — "pedigree" and updated data, for example. It mentions how data for dashboards should go through an approval process to ensure high data quality and completeness. It includes a few techniques to prevent people from skewing data under their control to misrepresent the data that is displayed in the dashboard. And finally, it states some basic rules you should take into consideration when you create dashboards for EPM.
   
-To download the Word version of this white paper, see [Dashboard directions](https://go.microsoft.com/fwlink/?LinkId=220320).
+To download the Word version of this article, see [Dashboard directions](https://go.microsoft.com/fwlink/?LinkId=220320).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Dashboard directions
 

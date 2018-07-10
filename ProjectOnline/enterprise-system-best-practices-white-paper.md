@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -16,16 +16,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: cf300560-ed31-4db8-9e53-b5a1003ea26e
-description: "This white paper is part of ourFrom the trenchescollection. It describes operational best practices for enterprise systems generally (including Microsoft Project Server). It notes how, although enterprise systems strive to provide an easy-to-use interface at the user level, the technology and infrastructure required to provide it is often very complex. This white paper then describes how this complexity requires you to use some basic best practices that give you the best chance of maintaining a high degree of reliability in your enterprise system."
+description: "This article is part of our From the Trenches collection. It describes operational best practices for enterprise systems in general (including Microsoft Project Server). It notes how, although enterprise systems strive to provide an easy-to-use interface at the user level, the technology and infrastructure required to provide it is often very complex. This white paper then describes how this complexity requires you to use some basic best practices that give you the best chance of maintaining a high degree of reliability in your enterprise system."
 ---
 
-# Enterprise system best practices: white paper
+# Enterprise system best practices
 
-This white paper is part of our "From the trenches" collection. It describes operational best practices for enterprise systems generally (including Microsoft Project Server). It notes how, although enterprise systems strive to provide an easy-to-use interface at the user level, the technology and infrastructure required to provide it is often very complex. This white paper then describes how this complexity requires you to use some basic best practices that give you the best chance of maintaining a high degree of reliability in your enterprise system.
+This article is part of our "From the Trenches" collection. It describes operational best practices for enterprise systems in general (including Microsoft Project Server). It notes how, although enterprise systems strive to provide an easy-to-use interface at the user level, the technology and infrastructure required to provide it is often very complex. This white paper then describes how this complexity requires you to use some basic best practices that give you the best chance of maintaining a high degree of reliability in your enterprise system.
   
-To download the Word version of this white paper, see [Enterprise Management Best Practices](https://go.microsoft.com/fwlink/?LinkId=218145).
+To download the Word version of this article, see [Enterprise Management Best Practices](https://go.microsoft.com/fwlink/?LinkId=218145).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Enterprise Management Best Practices
 

@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 7/11/2017
-ms.audience: End User
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -22,7 +22,7 @@ description: "There are several ways you can set up time and task progress for y
 
 There are several ways you can set up time and task progress for your organization in Project Web App.
   
-1. **First, decide [how task progress should be captured](set-up-how-time-and-task-progress-are-captured.md) in your organization. ** Do you want it reported in a timesheet, along with the hours a team member has completed, or do you want it split out? 
+1. **First, decide [how task progress should be captured](set-up-how-time-and-task-progress-are-captured.md) in your organization.** Do you want it reported in a timesheet, along with the hours a team member has completed, or do you want it split out? 
     
 2. **Next, consider different ways you might [customize timesheets and task progress](customize-timesheets-and-task-progress-for-your-organization.md).** Every organization does things differently, and there are several settings that let you control what gets reported. 
     
@@ -30,9 +30,6 @@ There are several ways you can set up time and task progress for your organizati
     
 4. **Refine your settings by [enforcing other policies](set-up-policies-for-capturing-time-and-task-progress.md).** Generally it's good to keep things simple, but sometimes you just can't avoid complexity (especially when timesheets are involved!). 
     
-||
-|:-----|
-||
    
 ## Still stuck?
 <a name="__Top"> </a>

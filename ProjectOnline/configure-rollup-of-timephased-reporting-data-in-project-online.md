@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 5/16/2018
-ms.audience: Admin
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -71,7 +71,7 @@ Tip: If you don't use any of the timephased Odata feeds, we highly recommend set
   
 This table summarizing the considerations and recommended options:
     
-- 
+
     
 |||
 |:-----|:-----|

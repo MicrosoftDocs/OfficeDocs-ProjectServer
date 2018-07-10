@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 5dd958b1-2b38-4482-899f-96cd0ee5f474
-description: "This white paper is part of ourFrom the trenchescollection. It describes how organizations need to understand the problems they are trying to solve when deciding on implementing a project management system. Sometimes deploying a centralized project management system may not be the best answer."
+description: "This article is part of our From the Trenches collection. It describes how organizations need to understand the problems they are trying to solve when deciding on implementing a project management system. Sometimes deploying a centralized project management system may not be the best answer."
 ---
 
-# EPM: Centralized or decentralized?: white paper
+# EPM: Centralized or decentralized?
 
-This white paper is part of our "From the trenches" collection. It describes how organizations need to understand the problems they are trying to solve when deciding on implementing a project management system. Sometimes deploying a centralized project management system may not be the best answer. 
+This article is part of our "From the Trenches" collection. It describes how organizations need to understand the problems they are trying to solve when deciding on implementing a project management system. Sometimes deploying a centralized project management system may not be the best answer. 
   
-To download the Word version of this white paper, see [EPM-Centralized or Decentralized?](https://go.microsoft.com/fwlink/?LinkId=207890).
+To download the Word version of this article, see [EPM-Centralized or Decentralized?](https://go.microsoft.com/fwlink/?LinkId=207890).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## EPM - Centralized or Decentralized?
 

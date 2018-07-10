@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: ITPro
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -16,18 +16,17 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 81dfcb5f-b5b9-43af-bd0c-fca4e3ea8976
-description: "This white paper is part of ourFrom the trenchescollection."
+description: "This article is part of our From the Trenches collection."
 ---
 
-# 7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation: white paper
+# 7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation
 
-This white paper is part of our "From the trenches" collection.
   
 Project and Portfolio Management (PPM) tools almost always cause a drastic shift in how projects are managed, tracked and reported across the organization. However, it is lost upon organizations that there needs to be as much focus on continued adoption as there is on the implementation of the tools. In this white paper, we will look at some of the key areas you can focus on to sustain adoption—post implementation—until usage of the new PPM tools becomes part of organizational culture. 
   
-To download the Word version of this white paper, see [7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation: white paper](https://go.microsoft.com/fwlink/?LinkID=402450).
+To download the Word version of this article, see [7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation: white paper](https://go.microsoft.com/fwlink/?LinkID=402450).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## 7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation
 

@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 3/9/2018
-ms.audience: End User
+audience: admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
