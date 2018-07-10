@@ -74,7 +74,7 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
   Connect-SPOService -URL <AdminSiteURL> 
   ```
 
-    For example:
+  For example:
     
   ```
   Connect-SPOService -URL http://contoso-admin.sharepoint.com 
@@ -86,7 +86,7 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
   Get-SPOSite | ?{$_.PWAEnabled -eq "Enabled"} | ft -a Url,Owner
   ```
 
-    After successfully running, a list of all PWA sites and site owners in your Office 365 environment will display.
+   After successfully running, a list of all PWA sites and site owners in your Office 365 environment will display.
     
 ## Step 3 - Find the user's Resource ID in each PWA site (optional)
 <a name="BKMK_LookuptheusersresourceID"> </a>
