@@ -4,11 +4,13 @@
       {
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -26,22 +28,25 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/project/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
-      "searchScope": ["Project Server"],
-      "feedback_system": "GitHub",
+      "breadcrumb_path": "/ProjectOnline/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "searchScope": ["Project Online"],
+       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
-      "feedback_product_url": "https://microsoftproject.uservoice.com" 
+      "feedback_product_url": "https://microsoftproject.uservoice.com/" 
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-ProjectServer"
+    "dest": "ProjectOnline",
+    "markdownEngineName": "markdig"
   }
 }

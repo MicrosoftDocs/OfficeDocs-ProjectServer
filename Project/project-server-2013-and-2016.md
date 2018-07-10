@@ -26,7 +26,7 @@ Learn how to plan, deploy, manage users in Project Server.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +44,7 @@ Learn how to plan, deploy, manage users in Project Server.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_deploy.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,7 +62,7 @@ Learn how to plan, deploy, manage users in Project Server.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user-accounts.svg" alt="User accounts" />
                         </div>
                     </div>
                     <div class="cardText">

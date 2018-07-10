@@ -37,7 +37,7 @@ This paper attempts to lay out step-by-step guidelines for implementing a projec
 
 There are a number of considerations the organization needs to consider prior to actual implementation on a project management system like Project Online.  
 
-### 1: Establish the why...no, the real "WHY?"
+### 1: Establish the real "WHY?"
 
 One of the most critical aspects of a project management system implementation is the pre-implementation part of the project. 
 Similar to any other project, before embarking on the journey of implementing a project management system, it makes sense to evaluate the basic needs and establish the 'WHY' for an initiative like this.
@@ -51,7 +51,7 @@ Some examples of the common themes for implementing Project Online are:
 - Cross-organization resource management.
 - Budget and portfolio management 
 
-### 2: Identify the requirements of all the stakeholders
+### 2: Identify the requirements of ALL the stakeholders
 
 After the core reason to implement a project management system has been identified, you next need to learn the needs of various stakeholders.
 
