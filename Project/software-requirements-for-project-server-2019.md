@@ -50,11 +50,9 @@ You can connect to Project Server 2019 Public Preview with not only Project Prof
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2019 Public Preview <br/> |<br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/> <br/> |
 
- |
+
    
-> [!NOTE]
-> If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 to use the Resource Plan view. 
-  
+
 ## Cube Building Service requirements
 
 SQL Server 2014 Analysis Services must also be installed on your SQL Server 2014 database server for your SharePoint Server 2019 Enterprise deployment if you plan to use the Cube Building Service in Project Server 2019.
