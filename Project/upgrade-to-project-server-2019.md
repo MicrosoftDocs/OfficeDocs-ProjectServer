@@ -22,7 +22,7 @@ description: "Summary: Learn about how to upgrade to Project Server 2019."
   
 This series of articles describes how to plan and upgrade to Project Server 2019. 
   
-## TechNet articles about upgrading to Project Server 2019
+## Articles about upgrading to Project Server 2019
 
 The following articles about upgrading to Project Server 2019 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
