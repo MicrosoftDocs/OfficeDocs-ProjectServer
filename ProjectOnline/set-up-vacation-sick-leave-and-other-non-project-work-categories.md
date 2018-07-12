@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 6/1/2017
-ms.audience: End User
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -50,19 +50,19 @@ To set up Project Web App to capture different categories of non-project hours, 
     
     ![Administrative time categories](media/1e832472-4865-4ddb-be29-5befe21699b6.png)
   
-  - ** **Categories**** Type a name for the new category. 
+  - **Categories** Type a name for the new category. 
     
-  - ** **Status**** Choose whether the category is currently **Open** for use on timesheets, or **Closed**.
+  - **Status** Choose whether the category is currently **Open** for use on timesheets, or **Closed**.
     
-  - ** **Work Type**** Choose whether the category captures Working time, like training or travel, or Non Work time, like vacation or sick leave. 
+  - **Work Type** Choose whether the category captures Working time, like training or travel, or Non Work time, like vacation or sick leave. 
     
-  - ** **Approve**** Choose whether you want time reported in this category to require approval from a manager. 
+  - **Approve** Choose whether you want time reported in this category to require approval from a manager. 
     
-  - ** **Always Display**** Choose whether you want this category to be included as a row on every timesheet for every user, by default. This can help team members remember to report work on things that might be easy to forget, like sick leave or recurring non-project meetings. 
+  - **Always Display** Choose whether you want this category to be included as a row on every timesheet for every user, by default. This can help team members remember to report work on things that might be easy to forget, like sick leave or recurring non-project meetings. 
     
-  - ** **Allow Multiple Lines**** Choose whether you want team members to be able to include more than one row on a single timesheet for this category. For example you may want team members to be able to add a "Travel" category multiple times on a single timesheet, so that each "Travel" line can have a different description of where the team member went. 
+  - **Allow Multiple Lines** Choose whether you want team members to be able to include more than one row on a single timesheet for this category. For example you may want team members to be able to add a "Travel" category multiple times on a single timesheet, so that each "Travel" line can have a different description of where the team member went. 
     
-  - ** **Department**** If your organization has departments set up in Project Web App, you can choose which departments this category applies to. If you aren't using departments, don't worry about filling out this column. 
+  - **Department** If your organization has departments set up in Project Web App, you can choose which departments this category applies to. If you aren't using departments, don't worry about filling out this column. 
     
 5. Choose **Save**.
     

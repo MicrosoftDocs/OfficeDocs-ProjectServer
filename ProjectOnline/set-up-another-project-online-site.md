@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 2/16/2018
-ms.audience: End User
+audience: admin
 ms.topic: article
 f1_keywords:
 - 'O365P_ProjWA'

@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 834e8d8f-8768-4dcb-8af7-8fac4eb61af7
-description: "This white paper is part of ourFrom the trenchescollection. It discusses project management, portfolio management, and task management, and it compares the top-down and bottom-up management practices related to them."
+description: "This article is part of our From the Trenches collection. It discusses project management, portfolio management, and task management, and it compares the top-down and bottom-up management practices related to them."
 ---
 
-# Top-down or bottom-up: white paper
+# Top-down or bottom-up
 
-This white paper is part of our "From the trenches" collection. It discusses project management, portfolio management, and task management, and it compares the top-down and bottom-up management practices related to them.
+This article is part of our "From the Trenches" collection. It discusses project management, portfolio management, and task management, and it compares the top-down and bottom-up management practices related to them.
   
-To download the Word version of this white paper, see [Top-down or bottom-up: white paper (Project Server 2010) ](https://go.microsoft.com/fwlink/?LinkId=246608).
+To download the Word version of this article, see [Top-down or bottom-up: white paper (Project Server 2010) ](https://go.microsoft.com/fwlink/?LinkId=246608).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Top-down or bottom-up?
 

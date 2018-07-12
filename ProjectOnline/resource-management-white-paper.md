@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 11/19/2015
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,14 +15,14 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 662c2c43-a1d8-4a00-b6b7-efef101bae92
-description: "This white paper is part of ourFrom the trenchescollection. It describes challenges in different aspects of resource management and provides suggestions on creating a resource management system."
+description: "This article is part of our From the Trenches collection. It describes challenges in different aspects of resource management and provides suggestions on creating a resource management system."
 ---
 
 # Resource management: white paper
 
-This white paper is part of our "From the trenches" collection. It describes challenges in different aspects of resource management and provides suggestions on creating a resource management system.
+This article is part of our "From the Trenches" collection. It describes challenges in different aspects of resource management and provides suggestions on creating a resource management system.
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Resource Management
 

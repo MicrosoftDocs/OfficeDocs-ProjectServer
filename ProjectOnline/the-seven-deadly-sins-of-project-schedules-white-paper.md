@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 7/18/2014
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: cff60c15-ddce-4b19-b452-710c6b6756ed
-description: "This white paper is part of ourFrom the trenchescollection."
+description: "This article is part of our From the Trenches collection."
 ---
 
-# The Seven Deadly Sins of Project Schedules: white paper
+# The Seven Deadly Sins of Project Schedules
 
-This white paper is part of our "From the trenches" collection.
+This article is part of our "From the Trenches" collection.
   
-This white paper discusses common mistakes that are made in project schedules and offers practical advice. It provides practical advice and recommendations that are relevant to any version of Microsoft Project.
+This article discusses common mistakes that are made in project schedules and offers practical advice. It provides practical advice and recommendations that are relevant to any version of Microsoft Project.
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## The Seven Deadly Sins of Project Schedules
 

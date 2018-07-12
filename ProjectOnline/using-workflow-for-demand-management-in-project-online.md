@@ -4,7 +4,7 @@ ms.author: kenwith
 author: kenwith
 manager: pamgreen
 ms.date: 2/17/2016
-ms.audience: ITPro
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal

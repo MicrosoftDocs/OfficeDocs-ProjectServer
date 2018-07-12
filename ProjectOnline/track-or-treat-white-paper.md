@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 11/6/2014
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,14 +15,14 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 4d4526a9-0fc9-48ed-b2a1-a11c93f257d1
-description: "This white paper is part of ourFrom the trenchescollection. It describes the advantages to tracking project work, discusses tracking methods, and explains the difference between tracking time and tracking progress."
+description: "This article is part of our From the Trenches collection. It describes the advantages to tracking project work, discusses tracking methods, and explains the difference between tracking time and tracking progress."
 ---
 
-# Track or Treat: white paper
+# Track or Treat
 
-This white paper is part of our "From the trenches" collection. It describes the advantages to tracking project work, discusses tracking methods, and explains the difference between tracking time and tracking progress.
+This article is part of our "From the Trenches" collection. It describes the advantages to tracking project work, discusses tracking methods, and explains the difference between tracking time and tracking progress.
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Track or treat
 

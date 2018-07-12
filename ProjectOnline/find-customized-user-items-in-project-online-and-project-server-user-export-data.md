@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 6/25/2018
-ms.audience: Admin
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -128,7 +128,7 @@ You can repeat this procedure on each project in which you want to search for yo
     
 5. Click the **Tasks** menu, and open the task associated with the attachment (for example, task #18). 
     
-6. In the ** Task Information ** screen, select the **Notes** tab. You should see the attachment item listed. 
+6. In the **Task Information** screen, select the **Notes** tab. You should see the attachment item listed. 
     
     ![Attachments to tasks](media/bad29b8e-889d-46df-9cdb-09911b2b783f.png)
   

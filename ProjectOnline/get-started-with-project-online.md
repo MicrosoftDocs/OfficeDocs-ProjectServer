@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 7/22/2017
-ms.audience: ITPro
+audience: admin
 ms.topic: overview
 f1_keywords:
 - 'O365P_GSProj'
@@ -28,7 +28,7 @@ description: "This article is the first in a series that will help you get start
   
 |||
 |:-----|:-----|
-|![Project Online](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)           <br/> |**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for: ** <br/>  Managing multiple projects.  <br/>  Tracking work on timesheets.  <br/>  Balancing broad resource needs.  <br/>  *(If you're looking for a hosted version of Project Server, this is it!)*  <br/> |
+|![Project Online](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)           <br/> |**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for:** <br/>  Managing multiple projects.  <br/>  Tracking work on timesheets.  <br/>  Balancing broad resource needs.  <br/>  *(If you're looking for a hosted version of Project Server, this is it!)*  <br/> |
    
  **To be clear, Project Online is NOT a web-based version of Project Professional.** Project Online is an entirely separate service that offers full portfolio and project management tools on the web. It includes Project Web App, and can, depending on your subscription, also include Project Online Desktop Client, which is a subscription version of Project Professional. 
   

@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+maudience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,18 +15,18 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 29cdf69f-55d5-464d-ae10-42a3f6eae0c7
-description: "The title of this white paper refers to Commissioner Gordon's liberal use of the Batphone whenever the City of Gotham was in dire straits (from the 1970sBatmanTV series)."
+description: "The title of this article refers to Commissioner Gordon's liberal use of the Batphone whenever the City of Gotham was in dire straits (from the 1970sBatmanTV series)."
 ---
 
-# The Bat phone: white paper
+# The Bat phone
 
-The title of this white paper refers to Commissioner Gordon's liberal use of the Batphone whenever the City of Gotham was in dire straits (from the 1970s "Batman" TV series). 
+The title of this article refers to Commissioner Gordon's liberal use of the Batphone whenever the City of Gotham was in dire straits (from the 1970s "Batman" TV series). 
   
-This white paper is part of our "From the trenches" collection. It relates the fictional "Batman" story to how, during an EPM implementation, we at some time might wish we had access to a Batphone when we are in trouble. It also discusses many ways to avoid getting into trouble during the implementation. 
+This article is part of our "From the Trenches" collection. It relates the fictional "Batman" story to how, during an EPM implementation, we at some time might wish we had access to a Batphone when we are in trouble. It also discusses many ways to avoid getting into trouble during the implementation. 
   
-To download the Word version of this white paper, see [The Batphone](https://go.microsoft.com/fwlink/?LinkId=198411).
+To download the Word version of this article, see [The Batphone](https://go.microsoft.com/fwlink/?LinkId=198411).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## The Batphone
 

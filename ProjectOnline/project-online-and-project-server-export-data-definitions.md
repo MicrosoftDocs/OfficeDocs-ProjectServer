@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 7/3/2018
-ms.audience: Admin
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -262,8 +262,7 @@ Engagements contains data about resource engagements that the user created or mo
 |LastModifiedByResourceUID  <br/> |Unique identifier of the resource that last modified the engagement request.  <br/> |
 |LastModifiedByResourceName  <br/> |Display name of the resource that last modified the engagement request.  <br/> |
 |EngagementStatus  <br/> | Status of the engagement request:  <br/>  0- Committed  <br/>  1- Proposed  <br/>  2- Draft  <br/>  3- Rejected  <br/> |
-|ProposedCustomContour  <br/> ||
-|CommittedCustomContour  <br/> ||
+
    
 Each **Engagements** object can contain multiple **EngagementSegments**, which may have the following properties:
   
@@ -522,7 +521,7 @@ ReportingResource contains data about reporting resources. Each **ReportingResou
 |ResourceCreatedDate  <br/> |The date and time that a resource was created in the project.  <br/> |
 |ResourceModifiedDate  <br/> |The date that information about a resource was last modified.  <br/> |
    
-Each ** Customfields ** object may have the following properties: 
+Each **Customfields** object may have the following properties: 
   
 |**Property**|**Description**|
 |:-----|:-----|
@@ -974,7 +973,7 @@ Each **StatusReportDistribution** object may have the following properties:
 |CreatedDate  <br/> |Date the distribution was created.  <br/> |
 |ModifiedDate  <br/> |Date the distribution was last updated.  <br/> |
    
-Each ** WorkDetails ** object may have the following properties: 
+Each **WorkDetails** object may have the following properties: 
   
 |****Properties****|****Description****|
 |:-----|:-----|
@@ -2050,7 +2049,7 @@ The custom view objects include the following:
 |teamtasksjsgridcontrol  <br/> |Team Assignments  <br/> |
 |timesheetpartjsgridcontrol  <br/> |Timesheets  <br/> |
    
-    In the export data for Project Server 2010, WebControlSettings data will display the name of the web control after the actual property for the control. For example, the following is a **Date** property for the **MyTasksJSGridControl**, which has a value of **1**. 
+   In the export data for Project Server 2010, WebControlSettings data will display the name of the web control after the actual property for the control. For example, the following is a **Date** property for the **MyTasksJSGridControl**, which has a value of **1**. 
     
   ```
    	{

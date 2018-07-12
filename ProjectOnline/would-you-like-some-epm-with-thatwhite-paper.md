@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 0d4032e2-e971-4e94-84a2-3f093ae860a6
-description: "This white paper is part of ourFrom the trenchescollection. It discusses the evolution of project management systems, the use of Enterprise Project Management, and the importance of understanding which project management solution is best for you."
+description: "This article is part of our From the Trenches collection. It discusses the evolution of project management systems, the use of Enterprise Project Management, and the importance of understanding which project management solution is best for you."
 ---
 
-# Would you like some EPM with that?: white paper
+# Would you like some EPM with that?
 
-This white paper is part of our "From the trenches" collection. It discusses the evolution of project management systems, the use of Enterprise Project Management, and the importance of understanding which project management solution is best for you. 
+This article is part of our "From the Trenches" collection. It discusses the evolution of project management systems, the use of Enterprise Project Management, and the importance of understanding which project management solution is best for you. 
   
-To download the Word version of this white paper, see [Would you like some EPM with that?: white paper](https://go.microsoft.com/fwlink/?LinkId=263938).
+To download the Word version of this article, see [Would you like some EPM with that?: white paper](https://go.microsoft.com/fwlink/?LinkId=263938).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## Would you like some EPM with that?
 

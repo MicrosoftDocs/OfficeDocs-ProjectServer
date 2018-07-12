@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: End User
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: e067d8f6-1697-45a2-8b2a-9087026e78b6
-description: "This white paper is part of ourFrom the trenchescollection. It describes some common challenges you may face when scheduling projects. It describes coming up with the best approach when you try to determine how long tasks should be and how many tasks there should be to optimize a project schedule. It discusses how different industries typically require different types of schedules (for example, software development, EPM (engineering, procurement, and construction), and plant shutdown). It also discusses several factors in choosing project resolution (for example, length of project, resources involved, management or division of resources, speed and effort required in collecting data, and data update schedule)."
+description: "This article is part of our From the Trenches collection. It describes some common challenges you may face when scheduling projects. It describes coming up with the best approach when you try to determine how long tasks should be and how many tasks there should be to optimize a project schedule. It discusses how different industries typically require different types of schedules (for example, software development, EPM (engineering, procurement, and construction), and plant shutdown). It also discusses several factors in choosing project resolution (for example, length of project, resources involved, management or division of resources, speed and effort required in collecting data, and data update schedule)."
 ---
 
-# They say they want a resolution: white paper
+# They say they want a resolution
 
-This white paper is part of our "From the trenches" collection. It describes some common challenges you may face when scheduling projects. It describes coming up with the best approach when you try to determine how long tasks should be and how many tasks there should be to optimize a project schedule. It discusses how different industries typically require different types of schedules (for example, software development, EPM (engineering, procurement, and construction), and plant shutdown). It also discusses several factors in choosing project resolution (for example, length of project, resources involved, management or division of resources, speed and effort required in collecting data, and data update schedule). 
+This article is part of our "From the Trenches" collection. It describes some common challenges you may face when scheduling projects. It describes coming up with the best approach when you try to determine how long tasks should be and how many tasks there should be to optimize a project schedule. It discusses how different industries typically require different types of schedules (for example, software development, EPM (engineering, procurement, and construction), and plant shutdown). It also discusses several factors in choosing project resolution (for example, length of project, resources involved, management or division of resources, speed and effort required in collecting data, and data update schedule). 
   
-To download the Word version of this white paper, see [They say they want a resolution: white paper (Project Server 2010)](https://go.microsoft.com/fwlink/?LinkId=236030).
+To download the Word version of this article, see [They say they want a resolution: white paper (Project Server 2010)](https://go.microsoft.com/fwlink/?LinkId=236030).
   
-To see more white papers, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
+To see more articles, see ["From the Trenches" white papers](https://support.office.com/article/faec6b1a-c217-4c79-b8c4-0514f402106b).
   
 ## They say they want a resolution
 

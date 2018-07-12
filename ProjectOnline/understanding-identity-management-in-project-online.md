@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 5/29/2015
-ms.audience: Admin
+audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal

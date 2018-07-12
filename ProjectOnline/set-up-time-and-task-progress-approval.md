@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 7/11/2017
-ms.audience: End User
+audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
@@ -41,7 +41,7 @@ Sometimes, more than one person needs to approve a timesheet. An example of this
   
 ||||
 |:-----|:-----|:-----|
-|![Team Member](media/d7c268ca-1a2f-49b1-8ea0-bd35c44d3e06.png) ** Bob ** <br/> Bob is a team member, and Jill is his timesheet manager.  <br/> Bob fills out his timesheet and submits it to Jill.  <br/> |![Project Manager](media/e3f6031e-015a-40e6-bcb2-b0123225bb27.png) **Jill** <br/> Jill is a team lead, and Frank is her timesheet manager.  <br/> Jill approves Bob's timesheet, and it is automatically submitted to Frank for approval.  <br/> |![Payroll Specialist](media/07def6e4-4072-4716-862f-14fcea78f191.png) **Frank** <br/> Frank is in payroll, and is his own timesheet manager.  <br/> When Frank approves Bob's timesheet, the hours Bob entered are applied to the corresponding project plan.  <br/> |
+|![Team Member](media/d7c268ca-1a2f-49b1-8ea0-bd35c44d3e06.png) **Bob** <br/> Bob is a team member, and Jill is his timesheet manager.  <br/> Bob fills out his timesheet and submits it to Jill.  <br/> |![Project Manager](media/e3f6031e-015a-40e6-bcb2-b0123225bb27.png) **Jill** <br/> Jill is a team lead, and Frank is her timesheet manager.  <br/> Jill approves Bob's timesheet, and it is automatically submitted to Frank for approval.  <br/> |![Payroll Specialist](media/07def6e4-4072-4716-862f-14fcea78f191.png) **Frank** <br/> Frank is in payroll, and is his own timesheet manager.  <br/> When Frank approves Bob's timesheet, the hours Bob entered are applied to the corresponding project plan.  <br/> |
    
 Only those people listed on the **Timesheet Managers** page can approve timesheets. 
   
