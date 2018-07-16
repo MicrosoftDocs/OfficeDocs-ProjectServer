@@ -27,7 +27,7 @@ In previous versions of Project Server, Project Server was installed separately 
 > [!IMPORTANT]
 > Project Server 2019 Public Preview can only be enabled on the Enterprise version of SharePoint Server 2019 Public Preview. You will not be able to enable Project Server 2019 Public Preview on SharePoint Server 2019 Public Preview with a Standard license. 
   
-Since Project Server 2019 Public Previewis part of the SharePoint Server 2019 Public Preview installation, requirements for Project Server 2019 Public Preview (including supported browsers, operating systems, and database servers) will be the ones specified for SharePoint Server 2019 Public Preview. 
+Since Project Server 2019 Public Preview is part of the SharePoint Server 2019 Public Preview installation, requirements for Project Server 2019 Public Preview (including supported browsers, operating systems, and database servers) will be the ones specified for SharePoint Server 2019 Public Preview. 
   
 Some of the key software requirements for SharePoint Server 2019 Public Preview are:
   
