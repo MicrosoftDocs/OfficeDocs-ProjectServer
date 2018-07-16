@@ -55,19 +55,19 @@ You can connect to Project Server 2019 Public Preview with not only Project Prof
 
 ## Cube Building Service requirements
 
-SQL Server 2014 Analysis Services must also be installed on your SQL Server 2014 database server for your SharePoint Server 2019 Enterprise deployment if you plan to use the Cube Building Service in Project Server 2019.
+SQL Server 2016 Analysis Services must also be installed on your SQL Server 2016 database server for your SharePoint Server 2019 Enterprise deployment if you plan to use the Cube Building Service in Project Server 2019 Public Preview.
   
 
   
 ## Portfolio Analysis Requirements
 
-For charts to render correctly in your browser when using Portfolio Analysis in Project Server 2019, the State Service needs to be running in your SharePoint farm. 
+For charts to render correctly in your browser when using Portfolio Analysis in Project Server 2019 Public Preview, the State Service needs to be running in your SharePoint farm. 
   
 ## See also
 
 #### 
 
-[Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md)
+[Deploy Project Servers 2016 or 2019 Public Preview](deploy-project-server-2016.md)
 
 [Hardware and software requirements for SharePoint Server 2019 Preview](https://docs.microsoft.com/en-us/sharepoint/install/system-requirements-for-sharepoint-server-2016)
   
