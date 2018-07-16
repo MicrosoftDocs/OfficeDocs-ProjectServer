@@ -1,5 +1,5 @@
 ---
-title: "What's deprecated or removed in Project Servers 2016 or 2019"
+title: "What's deprecated or removed in Project Servers 2016 or 2019 Public Preview"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 04fee973-5623-4768-a3ba-c109e45dd7eb
-description: "Learn what has been deprecated or removed in Project Servers 2016 or 2019."
+description: "Learn what has been deprecated or removed in Project Servers 2016 or 2019 Public Preview."
 ---
 **Applies to:** Project Server 2016, Project Server 2019 Public Preview
 
