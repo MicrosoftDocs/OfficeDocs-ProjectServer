@@ -38,13 +38,11 @@ To enable the license key is only available by using a Microsoft Powershell cmdl
 
 2. Verify that you have the following memberships:
 
-    •securityadmin fixed server role on the SQL Server instance. 
+•securityadmin fixed server role on the SQL Server instance.
 
+•db_owner fixed database role on all databases that are to be updated.
 
-    •db_owner fixed database role on all databases that are to be updated. 
-
-
-    •local Administrators group on the server on which you are running the PowerShell cmdlets.
+•local Administrators group on the server on which you are running the PowerShell cmdlets.
 
 An administrator can use the [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use Project Server cmdlets. 
 
