@@ -22,14 +22,14 @@ description: "Summary: Learn about installation requirements for Project Server 
   
 ## Key Requirements
 
-In previous versions of Project Server, Project Server was installed separately after you installed SharePoint Server, as SharePoint Server was a requirement. Project Server 2019 Public Preview installation is now a part of the SharePoint Server 2019 Enterprise installation process. The installation files for Project Server 2019 Public Preview are included in the SharePoint Server 2019 Enterprise MSI file, and it is installed along with it. 
+In previous versions of Project Server, Project Server was installed separately after you installed SharePoint Server, as SharePoint Server was a requirement. Project Server 2019 Public Preview installation is now a part of the SharePoint Server 2019 Public Preview Enterprise installation process. The installation files for Project Server 2019 Public Preview are included in the SharePoint Server 2019 PUblic Preview Enterprise MSI file, and it is installed along with it. 
   
 > [!IMPORTANT]
-> Project Server 2019 Public Preview can only be enabled on the Enterprise version of SharePoint Server 2019. You will not be able to enable Project Server 2019 Public Preview on SharePoint Server 2019 with a Standard license. 
+> Project Server 2019 Public Preview can only be enabled on the Enterprise version of SharePoint Server 2019 Public Preview. You will not be able to enable Project Server 2019 Public Preview on SharePoint Server 2019 Public Preview with a Standard license. 
   
-Since Project Server 2019 Public Previewis part of the SharePoint Server 2019 installation, requirements for Project Server 2019 Public Preview(including supported browsers, operating systems, and database servers) will be the ones specified for SharePoint Server 2019. 
+Since Project Server 2019 Public Previewis part of the SharePoint Server 2019 Public Preview installation, requirements for Project Server 2019 Public Preview (including supported browsers, operating systems, and database servers) will be the ones specified for SharePoint Server 2019 Public Preview. 
   
-Some of the key software requirements for SharePoint Server 2019 are:
+Some of the key software requirements for SharePoint Server 2019 Public Preview are:
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Some of the key software requirements for SharePoint Server 2019 are:
   
 ## Client Compatibility
 
-You can connect to Project Server 2019 Public Preview with not only Project Professional 2019 and the Project Online Desktop Client, but also with Project Professional 2016.
+You can connect to Project Server 2019 Public Preview with not only Project Professional 2019 Public Preview and the Project Online Desktop Client, but also with Project Professional 2016.
   
  
 |||
