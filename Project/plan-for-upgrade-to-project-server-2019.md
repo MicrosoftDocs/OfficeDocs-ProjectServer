@@ -22,14 +22,14 @@ description: "Summary: Learn about considerations you need to make in upgrading 
   
 In this article:
   
-- [Things you need to know about upgrading to Project Server 2019 Public Preview](plan-for-upgrade-to-project-server-2016.md#thingknow)
+- [Things you need to know about upgrading to Project Server 2019 Public Preview](plan-for-upgrade-to-project-server-2019.md#thingknow)
     
-- [ Upgrading from an earlier version of Project Server](plan-for-upgrade-to-project-server-2016.md#Upg)
+- [ Upgrading from an earlier version of Project Server](plan-for-upgrade-to-project-server-2019.md#Upg)
     
-- [ Upgrading multiple Project Web App sites](plan-for-upgrade-to-project-server-2016.md#MultPWA)
+- [ Upgrading multiple Project Web App sites](plan-for-upgrade-to-project-server-2019.md#MultPWA)
     
 > [!NOTE]
-<br/>For an overview of the steps in the upgrade process, see [Overview of the Project Server 2019 Public Preview upgrade process](overview-of-the-project-server-2016-upgrade-process.md).<br/> <br/>For details information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2016.md). 
+<br/>For an overview of the steps in the upgrade process, see [Overview of the Project Server 2019 Public Preview upgrade process](overview-of-the-project-server-2019-upgrade-process.md).<br/> <br/>For details information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md). 
   
 ## Things you need to know about upgrading to Project Server 2019 Public Preview
 <a name="thingknow"> </a>
