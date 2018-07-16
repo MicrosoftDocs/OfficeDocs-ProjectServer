@@ -40,18 +40,18 @@ This article provides a brief overview of new and significantly updated function
 ## Resource Engagements
 <a name="RE"> </a>
 
-The Resource Engagements capabilities in Project Server 2019 helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements are an evolution of the old Resource Plan feature in Project Web App and all of your existing Resource Plan data can be converted to Resource Engagements as an optional part of the upgrade process. 
+The Resource Engagements capabilities in Project Server 2019 Public Preview helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements are an evolution of the old Resource Plan feature in Project Web App and all of your existing Resource Plan data can be converted to Resource Engagements as an optional part of the upgrade process. 
   
 Resource Engagements provides you with the following:
   
-- Project Managers can use the new Resource Plan view in Project Professional 2019 to create requests for resources.
+- Project Managers can use the new Resource Plan view in Project Professional 2019 Public Preview to create requests for resources.
     
 - Resource Managers can view all requests for resource through the new Resource Requests page and can use the capacity planning heat map to provide them with availability information on their resources.
     
-IT-Pros will need to know how to migrate their Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019. This will be done as part of the upgrade process by running a PowerShell cmdlet. 
+IT-Pros will need to know how to migrate their Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019 Public Preview. This will be done as part of the upgrade process by running a PowerShell cmdlet. 
   
 > [!NOTE]
-> For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements, see [Upgrading to Project Server 2019](upgrading-to-project-server-2019.md). 
+> For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md). 
   
 > [!NOTE]
 > For more information about Resource Engagements, see [Overview: Resource Engagements](https://go.microsoft.com/fwlink/p/?linkid=832111) .
@@ -144,7 +144,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 > If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0). 
+> For more information about the hardware and software requirements for SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019 Public Preview, see [Plan browser support in SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0). 
   
 ## Upgrading to Project Server 2019 Public Preview
 <a name="Upgra"> </a>
