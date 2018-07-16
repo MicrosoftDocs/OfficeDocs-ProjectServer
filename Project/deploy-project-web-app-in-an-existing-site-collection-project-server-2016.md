@@ -15,7 +15,7 @@ ms.assetid: a78908cc-25bc-4591-a897-21e276eb954c
 description: "Summary: Deploy an instance of Project Web App to an existing site collection and create a Project Web App site."
 ---
 
-# Deploy Project Web App in an existing site collection (Project Server 2016, 2019)
+# Deploy Project Web App in an existing site collection (Project Servers 2016 or 2019 Public Preview)
  
  **Summary:** Deploy an instance of Project Web App to an existing site collection and create a Project Web App site.<br/>
 **Applies to:** Project Server 2016, Prpject Server 2019 Public Preview

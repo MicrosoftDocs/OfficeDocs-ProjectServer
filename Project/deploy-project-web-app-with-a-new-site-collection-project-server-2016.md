@@ -14,7 +14,7 @@ ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
 description: "Summary: Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
 ---
 
-# Deploy Project Web App with a new site collection (Project Server 2016)
+# Deploy Project Web App with a new site collection (Project Server 2016 or Project Server 2019 Public Preview)
  
  **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
 **Applies to:** Project Server 2016, Project Server 2019 Public Preview
