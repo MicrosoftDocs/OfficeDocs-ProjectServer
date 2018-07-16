@@ -59,7 +59,7 @@ An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to
   
 ## Project Server 2019 Public Preview upgrade steps
 
-Upgrading to Project Server 2019 public Preview can be broken up into six steps. These include:
+Upgrading to Project Server 2019 public Preview can be broken up into 4 steps. These include:
   
 1. Create a Project Server 2019 Public Preview farm 
     
@@ -69,12 +69,7 @@ Upgrading to Project Server 2019 public Preview can be broken up into six steps.
     
 4. Test your SharePoint Content database
     
-5. Attach and upgrade your Project Server 2016 databases
-    
-6. Disable database quota limits for your PWA site
-    
-7. Migrate your Project Server 2016 resource plans (optional) 
-    
+  
 The following provides more detail about the upgrade steps mentioned in the upgrade overview.
   
 ### Create your Project Server 2019 Public Preview farm
@@ -108,7 +103,7 @@ You can use SQL Server Management Studio to copy and the restore of the database
 ### Attach and upgrade your SharePoint Server 2016 content database
 <a name="attachSP"> </a>
 
-The second step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 Public Preview farm. 
+The third step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 Public Preview farm. 
   
 You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
   
@@ -125,7 +120,7 @@ You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/e
 ### Test your content database
 <a name="test"> </a>
 
-The next step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 Public Preview environment. This cmdlet will not update your data in anyway.
+The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 Public Preview environment. This cmdlet will not update your data in anyway.
   
 1. Open the SharePoint 2019 Management Shell as an Administrator.
     
@@ -141,68 +136,7 @@ The next step in the upgrade is to test your newly attached and upgraded content
     
 The results of the Test-SPContentDatabase cmdlet will note inconsistencies it will find in your upgraded SharePoint Web application in its new SharePoint Server 2019 Public Preview environment. The results do not imply that the upgrade of the SharePoint 2016 content database has failed, but will only note things you need to look into in your new environment. 
   
-### Attach and upgrade your Project Server 2016 database
-<a name="attach"> </a>
-
-After attaching, upgrading, and testing your SharePoint Server 2016 content database, the next step is to attach and upgrade your Project Server 2016 database to the Project Server 2019 Public Preview farm. You will need to run the [Migrate -SPProjectDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/migrate-spprojectdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019  Management Shell in order to do this.
-  
-1. Open the SharePoint 2019 Management Shell as an Administrator.
-    
-2. At the PowerShell command prompt, type:
-    
-     `Migrate-SPProjectDatabase -DatabaseName <database name> -SiteCollection <PWA site URL>`
-    
-    For example:
-    
-     `Migrate-SPProjectDatabase -DatabaseName ProjectDB1 -SiteCollection "http://contoso1/sites/PWA"`
-    
-    When the cmdlet completes successfully, verify that you can open the Project site you specified in Project Server 2019 Public Preview.
-    
-> [!NOTE]
-> If you have multiple PWA sites that you want to upgrade, all the sites in the content DB and all the PWA sites must be upgraded at the same time. This means that the content database containing the project site data as well as any associated Project databases for each PWA site must be upgraded. 
-  
-### Disable database quota limits for your PWA site
-<a name="quota"> </a>
-
-You will need to run the following PowerShell cmdlet to disable a database quota limit restriction that is set by default in Project Server 2019 Public Preview:
-  
- `Set-SPProjectDatabaseQuota -URL <http://servername/sites/pwa> -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
-  
-For example: 
-  
- `Set-SPProjectDatabaseQuota -URL http://contoso/sites/pwa -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
-  
-> [!NOTE]
->  If the database quota limit restriction is not disabled, you will run into the following issues:>  If you are upgrading to Project Server 2019 Public Preview and your Project database you are upgrading is larger than 10 Gigs, your PWA site will immediately be set to Read-Only.>  If you deploy Project Server 2019 Public Preview, configure a PWA site, and through daily product use, the data for the site eventually goes over the 10 Gig limit, your PWA site will be set to Read-Only.>  If you are using multiple PWA sites, the cmdlet must be run for each PWA site.
-  
-> [!NOTE]
-> For more information about this issue, see [Project Support Blog: If your PWA site goes read-only](https://go.microsoft.com/fwlink/p/?linkid=847696)
-  
-### Upgrade your Resource Plans to Resource Engagements
-<a name="rp"> </a>
-
-If you want to use the Resource Engagements feature in Project Server 2019 Public Preview, you can choose to upgrade your existing Project Server 2016 Resource Plans for use as Resource Engagements. To do this, after upgrading your Project Server 2016 database to Project Server 2019 Public Preview, you will also need to run the [Migrate-SPProjectResourcePlans](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/migrate-spprojectresourceplans?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell.
-  
-1. Open the SharePoint 2019 Management Shell as an Administrator.
-    
-2. At the PowerShell command prompt, type:
-    
-     `Migrate-SPProjectResourcePlans -URL <PWA site URL>`
-    
-    For example:
-    
-     `Migrate-SPProjectResourcePlans -URL "http://contoso1/sites/PWA"`
-    
-After running the cmdlet, you should receive one of the following confirmation messages:
-  
-|**Message**|**What this means**|
-|:-----|:-----|
-|All Project Resource Plans successfully migrated  <br/> |All resource plans were found and all were migrated  <br/> |
-|Migrated {0} of {1} Project Resource Plans. Check the logs for more details.  <br/> |Resource plans were found but some fail to migrate.  <br/> |
-|There are no more project resource plans to migrate. Either all resource plans were migrated or exceeded the maximum retry count. Please check table MSP_RESOURCE_PLANS in the published store and verify RESPLAN_IS_MIGRATED is set for all projects  <br/> |No resource plans were found to migrate or the maximum number of attempts have passed.  <br/> |
-   
-If your resource plans did not migrate successfully (you received either of the last two messages), you can use the following troubleshooting steps to find more information.
-  
+ 
 #### Check your SharePoint Server 2016 content database for resource plan migration information
 
 Check the MSP_RESOURCE_PLANS table for the following columns:
