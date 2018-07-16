@@ -40,15 +40,15 @@ This article provides a brief overview of new and significantly updated function
 ## Resource Engagements
 <a name="RE"> </a>
 
-The new Resource Engagements capabilities in Project Server 2016 helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements are an evolution of the old Resource Plan feature in Project Web App and all of your existing Resource Plan data can be converted to Resource Engagements as an optional part of the upgrade process. 
+The Resource Engagements capabilities in Project Server 2019 helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements are an evolution of the old Resource Plan feature in Project Web App and all of your existing Resource Plan data can be converted to Resource Engagements as an optional part of the upgrade process. 
   
 Resource Engagements provides you with the following:
   
-- Project Managers can use the new Resource Plan view in Project Professional 2016 to create requests for resources.
+- Project Managers can use the new Resource Plan view in Project Professional 2019 to create requests for resources.
     
 - Resource Managers can view all requests for resource through the new Resource Requests page and can use the capacity planning heat map to provide them with availability information on their resources.
     
-IT-Pros will need to know how to migrate their Project Server 2013 Resource Plans to use as Resource Engagements in Project Server 2016. This will be done as part of the upgrade process by running a SharePoint PowerShell cmdlet. 
+IT-Pros will need to know how to migrate their Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019. This will be done as part of the upgrade process by running a PowerShell cmdlet. 
   
 > [!NOTE]
 > For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements, see [Upgrading to Project Server 2019](upgrading-to-project-server-2019.md). 
@@ -59,7 +59,7 @@ IT-Pros will need to know how to migrate their Project Server 2013 Resource Plan
 ## One installation - Project Server and SharePoint Server
 <a name="OneInstall"> </a>
 
-Project Server 2019 runs as a service application in SharePoint Server 2019 Enterprise. The SharePoint Server 2019 Public Preview Enterprise MSI file will contain the installation files for Project Server 2016 as well, so a separate installation is no longer required as it was in previous versions of Project Server. Activating Project Server 2019 will require an activation key.
+Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview Enterprise. The SharePoint Server 2019 Public Preview Enterprise MSI file will contain the installation files for Project Server 2016 as well, so a separate installation is no longer required as it was in previous versions of Project Server. Activating Project Server 2019 Public Preview will require an activation key.
   
 > [!IMPORTANT]
 > The Enterprise version of SharePoint Server 2019 Public Preview is required to enable Project Server 2019 Public Preview. Project Server 2019 Public Preview cannot be enabled on SharePoint Server 2019 Public Preview with a Standard license. 
@@ -67,7 +67,7 @@ Project Server 2019 runs as a service application in SharePoint Server 2019 Ente
 For more detailed information about deploying Project Server 2016, see [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md).
   
 > [!NOTE]
-> Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2019 Public Preview, see [New and improved features in SharePoint Server 2016](http://technet.microsoft.com/library/e81557fb-5046-4a67-8ec8-fdfda648af68.aspx). 
+> Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2019 Public Preview, see [New and improved features in SharePoint Server 2019](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019). 
   
 ## Base installation languages and language packs
 <a name="Lang"> </a>
@@ -133,7 +133,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 |||
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
-|Project Server 2016  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
+|Project Server 2016  <br/> | Project Professional 2019 <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 |Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 | |
    
@@ -176,7 +176,7 @@ Having your Project data contained within a single database makes for easier dat
 ## Custom field limits
 <a name="Cust"> </a>
 
-To help provide the best performance in Project Server 2016 reporting, there are limits to how many single-value custom fields, or each type, that get stored in the reporting schema:
+To help provide the best performance in Project Server 2019 Public Preview reporting, there are limits to how many single-value custom fields, or each type, that get stored in the reporting schema:
   
 ||||
 |:-----|:-----|:-----|
