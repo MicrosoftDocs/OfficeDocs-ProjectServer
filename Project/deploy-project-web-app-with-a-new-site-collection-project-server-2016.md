@@ -17,7 +17,7 @@ description: "Summary: Learn how to deploy an instance of Project Web App along 
 # Deploy Project Web App with a new site collection (Project Server 2016)
  
  **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 ## Create a top-level web site
 
@@ -34,7 +34,7 @@ If a top-level web site does not exist for the web application where you want to
 4. In the **Template Selection** section, choose a template for the site.
     
     > [!NOTE]
-    > Project Servers 2016 or 2019 does not require a specific template. You can choose one appropriate for your organization. 
+    > Project Servers 2016 or 2019 Public Preview does not require a specific template. You can choose one appropriate for your organization. 
   
 5. In the **Primary Site Collection Administrator** section, type the name of the account that you want to use for the site administrator.
     
@@ -59,7 +59,7 @@ After you have created the top-level web site, you must grant users access to th
 ## Create a Project Web App site
 
 > [!IMPORTANT]
-> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server 2016 or 2019 content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
+> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server 2016 or 2019 Public Preview content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
   
 By putting Project Web App and its associated project workspaces in a separate content database, you greatly simplify site migration and backup and restore procedures.
   

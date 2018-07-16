@@ -17,17 +17,17 @@ description: "Summary: Determine whether to deploy Project Web App to a new site
 # Deploy Project Web App
  
  **Summary:** Determine whether to deploy Project Web App to a new site collection or add it to an existing site collection.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 Before we get started configuring Project Web App, here are two important things if you've used earlier versions of Project Server:
   
 - If you are upgrading from a previous version of Project Server, you will deploy Project Web App as part of the upgrade process. Read [Upgrade to Project Server 2016](upgrade-to-project-server-2016.md) instead of this article.
     
-- In Project Server 2016 or 2019, a Project Web App site is created by using Microsoft PowerShell. There's no longer a **Create Project Web App Instance** button in the SharePoint Central Administration website. We'll give you the details in the topics below.
+- In Project Server 2016 or 2019 Public Preview, a Project Web App site is created by using Microsoft PowerShell. There's no longer a **Create Project Web App Instance** button in the SharePoint Central Administration website. We'll give you the details in the topics below.
     
 There are two options for deploying Project Web App. You can either create a Project Web App site as the top level of a new site collection, or you can add a Project Web App site to an existing site collection.
   
-If you are looking for a clean environment to begin managing projects in Project Web App, consider creating your Project Web App site as the top level site in a new site collection. For step-by-step instructions on how to create a Project Web App site as the top level site in a new site collection, see [Deploy Project Web App with a new site collection (Project Servers 2016 or 2019)](deploy-project-web-app-with-a-new-site-collection-project-server-2016.md).
+If you are looking for a clean environment to begin managing projects in Project Web App, consider creating your Project Web App site as the top level site in a new site collection. For step-by-step instructions on how to create a Project Web App site as the top level site in a new site collection, see [Deploy Project Web App with a new site collection (Project Servers 2016 or 2019 Public Preview)](deploy-project-web-app-with-a-new-site-collection-project-server-2016.md).
   
 If you have existing sites where you have SharePoint task list projects and you want to add Project Server functionality to them, you can add a Project Web App site to that site collection. For step-by-step instructions on how to add a Project Web App site to an existing site collection, see [Deploy Project Web App in an existing site collection (Project Servers 2016 or 2019)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
   

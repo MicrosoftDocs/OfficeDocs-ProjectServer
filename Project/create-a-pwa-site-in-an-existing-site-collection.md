@@ -18,7 +18,7 @@ description: "Summary: Add a Project Web App site to an existing site collection
 # Create a PWA site in an existing site collection
  
  **Summary:** Add a Project Web App site to an existing site collection.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 You can add a Project Web App site to an existing site collection. Doing so will allow you to take full advantage of Project Server and Project Web App functionality for the projects in that site collection.
   

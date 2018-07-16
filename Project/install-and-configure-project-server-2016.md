@@ -11,28 +11,28 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 54bd9a14-ede6-445e-9b44-a03798b6d1b0
-description: "Summary: Configure Project Servers 2016 or 2019 on a SharePoint Server farm."
+description: "Summary: Configure Project Servers 2016 or 2019 Public Preview on a SharePoint Server farm."
 ---
 
-# Install and configure Project Servers 2016 or 2019
+# Install and configure Project Servers 2016 or 2019 Public Preview
  
- **Summary:** Configure Project Servers 2016 or 2019 on a SharePoint Server 2016 or SharePoint Server 2019 farm.<br/>
-**Applies to:** Project Server 2016
+ **Summary:** Configure Project Servers 2016 or 2019 Public Preview on a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm.<br/>
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
-Project Server runs as a service application under SharePoint Server. It is included as part of the SharePoint Server 2016 or SharePoint Server 2019 Enterprise installation, though it is licensed separately. This article describes configuring Project Servers 2016 or 2019, including provisioning the Project Server Service Application. Project Servers 2016 or 2019 are only available on SharePoint Servers 2016 or 2019 Enterprise.
+Project Server runs as a service application under SharePoint Server. It is included as part of the SharePoint Server 2016 or SharePoint Server 2019 Public Preview Enterprise installation, though it is licensed separately. This article describes configuring Project Servers 2016 or 2019 Public Preview, including provisioning the Project Server Service Application. Project Servers 2016 or 2019 Public Preview are only available on SharePoint Servers 2016 or 2019 Public Preview Enterprise.
   
-Be sure you have [installed SharePoint Server 2016 or 2019](https://docs.microsoft.com/en-us/sharepoint/install/install-for-sharepoint-server-2016) before starting the procedures in this article. Also, be sure that the State Service is running on your SharePoint farm.
+Be sure you have [installed SharePoint Server 2016 or 2019 Public Preview](https://docs.microsoft.com/en-us/sharepoint/install/install-for-sharepoint-server-2016) before starting the procedures in this article. Also, be sure that the State Service is running on your SharePoint farm.
   
-## Configure Project Servers 2016 or 2019
+## Configure Project Servers 2016 or 2019 Public Preview
 
-Project Servers 2016 and 2019 requires a license in order to operate, and you must enable Project Servers 2016 or 2019 by using your license key before you can create a Project Web App site. 
+Project Servers 2016 and 2019 Public Preview requires a license in order to operate, and you must enable Project Servers 2016 or 2019 Public Preview by using your license key before you can create a Project Web App site. 
 
 [!NOTE]
 To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
-(If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.)
+(If you're not sure if Project Server 2016 or 2019 Public Preview has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.)
   
-### To activate Project Servers 2016 or 2019
+### To activate Project Servers 2016 or 2019 Public Preview 
 
 1. Open the SharePoint Management Shell as Administrator.
 
