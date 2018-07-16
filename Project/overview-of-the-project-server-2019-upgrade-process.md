@@ -27,7 +27,7 @@ description: "Summary: View a high-level overview of the steps required to upgra
 
 ![Project Server 2019 Public Preview upgrade steps](images/Update-for---Create-a-SharePoint-Server.png)
   
-Upgrading to Project Server 2019 Public Preview can be broken up into six steps. These include:
+Upgrading to Project Server 2019 Public Preview can be broken up into four steps. These include:
   
 1. Create the SharePoint Server 2019 Public Preview farm installation and enable Project Server 2019 Public Preview. Project Server 2019 Public Preview installs with SharePoint Server 2019 Public Preview and the Project Server service application needs to be started.
     
@@ -44,11 +44,4 @@ Upgrading to Project Server 2019 Public Preview can be broken up into six steps.
     
 4. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to check your upgraded SharePoint content databases.
     
-5. Use the [Migrate-SPProjectDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/migrate-spprojectdatabase?view=sharepoint-ps) PowerShell cmdlet to attach and upgrade the Project Server 2016 database to the Project Server 2019 Public Preview farm.
-    
-6. Use the [Migrate-SPProjectResourcePlans](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/migrate-spprojectresourceplans?view=sharepoint-ps) to migrate your Project Server 2016 resource plans to resource engagements. If you don't plan to use your Project Server 2016 resource plans in Project Server 2019 Public Preview, this step is not required.
-    
-> [!NOTE]
-> For detailed information about the steps required to upgrade to Project Server 2016 from Project Server 2013, see [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md). 
-  
-
+   
