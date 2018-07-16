@@ -1,5 +1,5 @@
 ---
-title: "What's new for IT pros in Project Server 2019"
+title: "What's new for IT pros in Project Server 2019 Public Preview"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -12,16 +12,16 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: c400e683-d9a0-4865-8859-0f566292af17
-description: "Summary: Learn about Project Server 2019. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: "Summary: Learn about Project Server 2019 Public Preview. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
 ---
 
-# What's new for IT pros in Project Server 2019
-  **Summary:** Learn about Project Server 2019. Find information on the latest features and capabilities and get an overview of its new and updated functionality.<br/>
-**Applies to:** Project Server 2019
+# What's new for IT pros in Project Server 2019 Public Preview
+  **Summary:** Learn about Project Server 2019 Public Preview. Find information on the latest features and capabilities and get an overview of its new and updated functionality.<br/>
+**Applies to:** Project Server 2019 Public Preview
   
-This article provides a brief overview of new and significantly updated functionality in Project Server 2019, with a particular emphasis on the areas of interest to IT professionals. These include the following:
+This article provides a brief overview of new and significantly updated functionality in Project Server 2019 Public Preview, with a particular emphasis on the areas of interest to IT professionals. These include the following:
   
-- [Resource Engagements](what-s-new-for-it-pros-in-project-server-2016.md#RE)
+- [Resource Engagements](what-s-new-for-it-pros-in-project-server-2019.md#RE)
     
 - [One installation - Project Server and SharePoint Server](what-s-new-for-it-pros-in-project-server-2019.md#OneInstall)
     
