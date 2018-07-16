@@ -9,7 +9,7 @@
 ### [What's deprecated or removed in Project Server 2019](what-s-deprecated-or-removed-in-project-server-2019.md)
 ### [What's deprecated or removed in Project Server 2016](what-s-deprecated-or-removed-in-project-server-2016.md)
 ## [Plan](plan-for-project-server-2016.md)
-### [Software requirements for Project Server 2019](software-requirements-for-project-server-2019.md)
+### [Software requirements for Project Server 2019 Public Preview](software-requirements-for-project-server-2019.md)
 ### [Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md)
 ### [Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md)
 ### [BDM guidance for Project Server and Project Online](planning-project-server-and-project-online-for-business-decision-makers.md)
