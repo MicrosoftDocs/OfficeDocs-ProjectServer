@@ -38,7 +38,7 @@ Some of the key software requirements for SharePoint Server 2019 are:
 |**Supported browsers** **:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
 > [!NOTE]
-> For information about the hardware, software, and browser requirement for SharePoint Server 2019, see [System requirements for SharePoint Server 2019 Preview](https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements-2019). 
+> For information about the hardware, software, and browser requirement for SharePoint Server 2019 Public Preview, see [System requirements for SharePoint Server 2019 Preview](https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements-2019). 
   
 ## Client Compatibility
 
