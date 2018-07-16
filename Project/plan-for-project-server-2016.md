@@ -20,7 +20,7 @@ description: "Summary: IT pros use planning and architecture content to develop 
  **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Servers 2016 or 2019 Public Preview features, servers, and topologies.<br/>
 **Applies to:** Project Server 2019 Public Preview, Project Server 2016, Project Server 2013
   
-## TechNet articles about Project Server planning
+##  Articles about Project Server planning
 
 The following articles about Project Server planning are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
