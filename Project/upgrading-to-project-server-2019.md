@@ -35,13 +35,13 @@ Note the following requirements for upgrading to Project Server 2019 Public Prev
   
 -  The upgrade process requires you to run Microsoft PowerShell cmdlets in the SharePoint Server 2019 Public Preview Management Shell. Verify that you have the following minimum permissions to run them:
 
-•securityadmin fixed server role on the SQL Server instance. 
+    - securityadmin fixed server role on the SQL Server instance. 
 
 
-•db_owner fixed database role on all databases that are to be updated. 
+    - db_owner fixed database role on all databases that are to be updated. 
 
 
-•Administrators group on the server on which you are running the PowerShell cmdlets.
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
 
 An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
 
