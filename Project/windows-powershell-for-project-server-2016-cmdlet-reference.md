@@ -71,5 +71,5 @@ The following table describes the PowerShell cmdlets available in Project Server
 
 #### 
 
-[Windows PowerShell for SharePoint 2013 reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Microsoft PowerShell for SharePoint 2013 reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
 
