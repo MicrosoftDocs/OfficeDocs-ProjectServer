@@ -41,8 +41,6 @@
 #### [Plan the database tier](plan-the-database-tier-in-project-server-2013.md)
 ### [Plan for administrative and service accounts](plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md)
 ### [Project Server 2016 architecture](project-server-2016-architecture.md)
-
-
 ## [Install and configure](install-and-configure-for-project-server-2016.md)
 ### [Deploy Project Servers 2016 or 2019 Public Preview](deploy-project-server-2016.md)
 #### [Install and configure Project Servers 2016 or 2019 Public Preview](install-and-configure-project-server-2016.md)
@@ -50,8 +48,6 @@
 ##### [Deploy Project Web App with a new site collection (Project Server 2016 or 2019 Public Preview)](deploy-project-web-app-with-a-new-site-collection-project-server-2016.md)
 ##### [Deploy Project Web App in an existing site collection (Project Server 2016 or 2019 Public Preview)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
 ###### [Enable the Project Web App site collection features in Project Server 2016 or 2019 Public Preview](enable-the-project-web-app-site-collection-features-in-project-server-2016.md)
-
-
 ###### [Create a PWA site in an existing site collection](create-a-pwa-site-in-an-existing-site-collection.md)
 #### [Configure OLAP cubes for Project Web App](configure-olap-cubes-for-project-web-app.md)
 ### [Deploy Project Server 2013](deploy-project-server-2013.md)
@@ -172,7 +168,7 @@
 #### [Manage Queue Settings for Project Web App](manage-queue-settings-for-project-web-app.md)
 ### [Add SharePoint task list data to Project Server 2013](add-sharepoint-task-list-data-to-project-server-2013.md)
 ## [Technical reference](technical-reference-for-project-server-2016.md)
-### [Project Server 2016 cmdlets](windows-powershell-for-project-server-2016-cmdlet-reference.md)
+### [Project Server cmdlets](windows-powershell-for-project-server-2016-cmdlet-reference.md)
 #### [Disable-ProjectServerLicense](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-projectserverlicense?view=sharepoint-ps)
 #### [Disable-SPProjectActiveDirectoryEnterpriseResourcePoolSync](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-spprojectactivedirectoryenterpriseresourcepoolsync?view=sharepoint-ps)
 #### [Disable-SPProjectEmailNotification](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-spprojectemailnotification?view=sharepoint-ps)
