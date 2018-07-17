@@ -16,7 +16,7 @@ description: "Summary: Learn how to deploy Project Servers 2016 or 2019 Public P
 
 # Deploy Project Servers 2016 or 2019 Public Preview
  
- **Summary:** Learn how to deploy Project Servers 2016 or 2019.<br/>
+ **Summary:** Learn how to deploy Project Servers 2016 or 2019 Public Preview.<br/>
 **Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 This series of articles describes the steps necessary to install Project Server 2016. Be sure you've [planned your deployment](plan-for-project-server-2016.md) and reviewed the [software requirements for Project Server 2016](software-requirements-for-project-server-2016.md) or [software requirments for Project Server 2019 Public Preview](software-requirements-for-project-server-2019.md) before you begin.
