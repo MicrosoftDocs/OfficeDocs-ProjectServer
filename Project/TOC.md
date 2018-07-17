@@ -6,7 +6,7 @@
 ### [What's new for IT pros in Project Server 2019 Public Preview](what-s-new-for-it-pros-in-project-server-2019.md)
 ### [What's new for IT pros in Project Server 2016](what-s-new-for-it-pros-in-project-server-2016.md)
 ### [What's new for IT pros in Project Server 2013](what-s-new-for-it-pros-in-project-server-2013.md)
-### [What's deprecated or removed in Project Server 2019 Public Preview](what-s-deprecated-or-removed-in-project-server-2019.md)
+### [What's deprecated or removed in Project Server 2019 Public Preview](what-s-deprecated-or-removed-in-project-server-2016.md)
 ### [What's deprecated or removed in Project Server 2016](what-s-deprecated-or-removed-in-project-server-2016.md)
 ## [Plan](plan-for-project-server-2016.md)
 ### [Software requirements for Project Server 2019 Public Preview](software-requirements-for-project-server-2019.md)
