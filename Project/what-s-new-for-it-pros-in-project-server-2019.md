@@ -123,7 +123,7 @@ Since Project Server 2019 Public Preview is now a service application in SharePo
 |||
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
-|**Supported Database Server** **:** <br/> | Microsoft SQL Server 2016 Service Pack 1 (SP1) <br/>  Microsoft SQL Server 2017 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019. <br/> |
+|**Supported Database Server** **:** <br/> | Microsoft SQL Server 2016 Service Pack 1 (SP1) <br/>  Microsoft SQL Server 2017 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019 Public Preview. <br/> |
 |**Supported browser** **s:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/>Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
  **Project client compatibility**
@@ -133,7 +133,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 |||
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
-|Project Server 2016  <br/> | Project Professional 2019 <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
+|Project Server 2016  <br/> | Project Professional 2019 Public Preview <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 |Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 | |
    
