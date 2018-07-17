@@ -21,7 +21,7 @@ description: "Summary: Deployment articles for Project Servers 2013, 2016, and 2
   
 Articles include information about deployment scenarios, step-by-step installation instructions, post-installation configuration steps, and upgrade information.
   
- This "install and configure" section includes information about deployment scenarios, step-by-step installation instructions, and post-installation configuration steps. This section also covers information about upgrading to Project Server 2016.
+ This "install and configure" section includes information about deployment scenarios, step-by-step installation instructions, and post-installation configuration steps. This section also covers information about upgrading to Project Server 2016 or 2019 Public Preview.
 
 ## Articles about installing and configuring Project Server 2019 Public Preview
 
