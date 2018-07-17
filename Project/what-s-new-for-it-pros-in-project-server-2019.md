@@ -64,10 +64,10 @@ Project Server 2019 Public Preview runs as a service application in SharePoint S
 > [!IMPORTANT]
 > The Enterprise version of SharePoint Server 2019 Public Preview is required to enable Project Server 2019 Public Preview. Project Server 2019 Public Preview cannot be enabled on SharePoint Server 2019 Public Preview with a Standard license. 
   
-For more detailed information about deploying Project Server 2016, see [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md).
+For more detailed information about deploying Project Server 2016, see [Deploy Project Servers 2016 or 2019 Public Preview](deploy-project-server-2016.md).
   
 > [!NOTE]
-> Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2019 Public Preview, see [New and improved features in SharePoint Server 2019](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019). 
+> Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2019 Public Preview, see [New and improved features in SharePoint Server 2019 Public Preview](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019). 
   
 ## Base installation languages and language packs
 <a name="Lang"> </a>
