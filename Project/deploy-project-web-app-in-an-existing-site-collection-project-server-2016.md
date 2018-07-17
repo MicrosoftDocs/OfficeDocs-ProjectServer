@@ -18,7 +18,7 @@ description: "Summary: Deploy an instance of Project Web App to an existing site
 # Deploy Project Web App in an existing site collection (Project Servers 2016 or 2019 Public Preview)
  
  **Summary:** Deploy an instance of Project Web App to an existing site collection and create a Project Web App site.<br/>
-**Applies to:** Project Server 2016, Prpject Server 2019 Public Preview
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 Deploying an instance of Project Web App to an existing site collection consists of the following:
   

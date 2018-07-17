@@ -42,11 +42,7 @@ New-SPweb -URL http://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
 
 The Project Web App site is now available at the URL that you specified.
   
-## See also
-
 #### 
-
-
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 
