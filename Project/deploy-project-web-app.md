@@ -31,8 +31,6 @@ If you are looking for a clean environment to begin managing projects in Project
   
 If you have existing sites where you have SharePoint task list projects and you want to add Project Server functionality to them, you can add a Project Web App site to that site collection. For step-by-step instructions on how to add a Project Web App site to an existing site collection, see [Deploy Project Web App in an existing site collection (Project Servers 2016 or 2019 Public Preview)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
   
-## See also
-
 #### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
