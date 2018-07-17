@@ -20,11 +20,11 @@ description: "Summary: Learn about how to upgrade to Project Server 2019 Public 
  **Summary:** Learn about how to upgrade to Project Server 2019 Public Preview.<br/>
 **Applies to:** Project Server 2019 Public Preview
   
-This series of articles describes how to plan and upgrade to Project Server 2019. 
+This series of articles describes how to plan and upgrade to Project Server 2019 Public Preview. 
   
 ## Articles about upgrading to Project Server 2019 Public Preview
 
-The following articles about upgrading to Project Server 2019 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
+The following articles about upgrading to Project Server 2019 Public Preview are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
