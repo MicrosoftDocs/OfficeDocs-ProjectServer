@@ -47,7 +47,6 @@ To change between permission modes:
     
 5. Select **OK**.
     
-> [!NOTE]
-> You need to be a Site Collection Admin for the PWA site in order to view the PWA site usage settings on the Additional Server Settings page. 
+
   
 
