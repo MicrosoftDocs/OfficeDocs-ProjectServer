@@ -43,7 +43,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
