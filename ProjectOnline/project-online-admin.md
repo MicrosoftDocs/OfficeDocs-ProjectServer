@@ -81,7 +81,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://github.com/MicrosoftDocs/OfficeDocs-pr/blob/master/Office/media/icons/task-list-planning-blue.svg " alt="" />
+                            <img src="https://github.com/MicrosoftDocs/OfficeDocs-pr/blob/master/Office/media/icons/task-list-planning-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -129,7 +129,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
         </a>
     </li>   
 </ul>
----
+
 
 <h2>Featured articles</h2>
 <ul class="panelContent cardsW">
