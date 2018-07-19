@@ -81,7 +81,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="" />
+                            <img src="https://github.com/MicrosoftDocs/OfficeDocs-pr/blob/master/Office/media/icons/task-list-planning-blue.svg " alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,13 +135,13 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="/ProjectOnline/project-online-client-requirements">Project Online client requirements</a></p><p><a href="/ProjectOnline/best-practices-to-improve-resource-engagements-performance">Best practices to improve Resource Engagements performance</a></p><p><a href="/ProjectOnline/change-permission-management-in-project-online">Change permission management in Project Online</a></p><p><a href="/ProjectOnline/understanding-identity-management-in-project-online">Understanding identity management in Project Online</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <p><a href="/ProjectOnline/project-online-client-requirements">Project Online client requirements</a></p><p><a href="/ProjectOnline/best-practices-to-improve-resource-engagements-performance">Best practices to improve Resource Engagements performance</a></p><p><a href="/ProjectOnline/change-permission-management-in-project-online">Change permission management in Project Online</a></p><p><a href="/ProjectOnline/understanding-identity-management-in-project-online">Understanding identity management in Project Online</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>

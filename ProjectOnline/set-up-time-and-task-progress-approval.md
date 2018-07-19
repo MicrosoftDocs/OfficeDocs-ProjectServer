@@ -65,7 +65,7 @@ Only those people listed on the **Timesheet Managers** page can approve timeshee
 
 Remember that [Step 3: Update progress](https://support.office.com/article/ca5c3826-85bf-4a31-9351-3b83fd7c8fe0), even if both are tracked on a team member's timesheet. Sometimes, different people are responsible for approving task progress than those who are responsible for approving time. For example, you may need someone from payroll to approve the number of hours worked (time), but you may not need that person to approve the percent of work that has been completed (task progress). On the flip side, you may need a team lead to approve updates to how much work is left to do on a task before it's completed (task progress), but you may not need that lead to approve the actual hours worked (time). In Project Web App, the project manager always needs to approve task progress, before it is applied to the project plan.
   
- **How do I set someone's task progress approver in Project Web App?** Much like approving time, you can set up a chain of approvers for task progress, too. All you need to do is set each person's **Default Assignment Owner**[Add a resource to Project Web App](https://support.office.com/article/71c6aa5c-2a97-4cbb-9814-26289c62c471).
+ **How do I set someone's task progress approver in Project Web App?** Much like approving time, there is also an approver for task progress too - and this is set to be the project manager making the assignments and is referred to as the **Status Manager**.
   
 ## What other options are there?
 
