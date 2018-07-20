@@ -5,7 +5,7 @@ author: efrene
 manager: samanro
 layout: LandingPage
 ms.assetid: 
-ms.service: project-online-admin
+ms.service: project-online
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
