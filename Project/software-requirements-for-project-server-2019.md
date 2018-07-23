@@ -33,9 +33,9 @@ Some of the key software requirements for SharePoint Server 2019 Public Preview 
   
 |||
 |:-----|:-----|
-|**Supported Server Operating Systems** **:** <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
-|**Supported Database Server** **:** <br/> | Microsoft SQL Server 2017 RTM for Windows <br/> Microsoft SQL Server 2016 Service Pack 1 (SP1) <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019 Public Preview. <br/> |
-|**Supported browsers** **:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
+|**Supported Server Operating Systems:**  <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
+|**Supported Database Server:**  <br/> | Microsoft SQL Server 2017 RTM for Windows <br/> Microsoft SQL Server 2016 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019 Public Preview. <br/> |
+|**Supported browsers:**  <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
 > [!NOTE]
 > For information about the hardware, software, and browser requirement for SharePoint Server 2019 Public Preview, see [System requirements for SharePoint Server 2019 Preview](https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements-2019). 
