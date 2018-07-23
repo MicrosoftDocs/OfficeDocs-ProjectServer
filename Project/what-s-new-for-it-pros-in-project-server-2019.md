@@ -198,6 +198,13 @@ In Project Server 2019 Public Preview, note that there are several changes to th
 |:-----|:-----|
 |**Multiple timelines** - You have the ability to have multiple timelines. You can add an additional timeline through the Project Center or Schedule page. <br/> | Project Center -[Add projects and tasks to the Project Center timeline](https://go.microsoft.com/fwlink/p/?LinkId=746887) <br/>  Schedule page -[Add tasks to a project timeline](https://go.microsoft.com/fwlink/p/?LinkId=746889) <br/> |
 |**Adjust the timeline date range** - You are now able to adjust the start and end date of a timeline. <br/> |[Change the appearance of a timeline in Project Web App](http://go.microsoft.com/fwlink/p/?LinkID=746892&amp;clcid=0x409) <br/> |
+|**Team task enhancements** - New way of working with task assignments <br/> |[New ways to work with Team Assignments](https://blogs.technet.microsoft.com/projectsupport/2016/12/02/project-online-new-ways-to-work-with-team-assignments/) <br/> |
+|**Timephased reporting data** - Project admins can configure to roll up timephased reporting data to different levels of granularity. <br/> |[Configure rollup of timephased reporting data ](https://support.office.com/en-us/article/Configure-rollup-of-timephased-reporting-data-in-Project-Online-da8487fe-899e-4510-a264-e2ebc948928c?ui=en-US&rs=en-US&ad=US) <br/> |
+|**Email notifications** - Project admins have more options on how they want to receive email. <br/> |[Email notifications ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
+|**Project IDs** - Creates unique Project IDs on project creation. <br/> |[Project IDs ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
+|**Increasing custom field limits for reporting** - Creates unique Project IDs on project creation. <br/> |[Increasing custom field limits for reporting ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
+|**Resource Engagement API’s** - Able to take advantage of the API for Resource Engagment <br/> |[Resource Engagement API’s](https://blogs.msdn.microsoft.com/brismith/2016/07/13/resource-engagement-apis-coming-to-a-project-online-near-you/) <br/> |
+|**Performance improvments**  <br/> | |
    
  **Easier way to create a project**
   
