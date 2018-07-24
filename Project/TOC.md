@@ -1,6 +1,5 @@
 ﻿
   
-
 # [Project Servers 2013, 2016 and 2019 Public Preview](project-server-2013-and-2016.md)
 ## [Explore](explore-project-server-2016.md)
 ### [What's new for IT pros in Project Server 2019 Public Preview](what-s-new-for-it-pros-in-project-server-2019.md)
