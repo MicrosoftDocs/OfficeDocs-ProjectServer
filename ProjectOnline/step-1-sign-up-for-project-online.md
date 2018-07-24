@@ -25,14 +25,11 @@ description: "The first step in getting started with Project Online is to get si
 ## First, subscribe to Project Online
 <a name="__top"> </a>
 
-|||
-|:-----|:-----|
-|![Sign up](media/094f4fe5-6b9c-41b7-8b5b-431c09684d05.png)           <br/> |
-|||
-|:-----|:-----|
-|**Start from scratch** <br/> New to Office 365? Start here!  <br/> [![Sign up for Project Online](media/3c86592e-8704-4428-8b62-bf52c1dcfa03.png)](https://products.office.com/Project/project-online-portfolio-management)|**Add Project Online to Office 365** <br/> If you already have an Office 365 account, you may be able to add Project Online to that account by choosing **Activate offers** from the left menu on the Office 365 admin center under **Billing**. [Learn more](add-project-online-to-your-office-365-account.md) <br/> |
+||||
+|:-----|:-----|:----|
+|![Sign up](media/094f4fe5-6b9c-41b7-8b5b-431c09684d05.png)           <br/> |**Start from scratch** <br/> New to Office 365? Start here!  <br/> [![Sign up for Project Online](media/3c86592e-8704-4428-8b62-bf52c1dcfa03.png)](https://products.office.com/Project/project-online-portfolio-management)|**Add Project Online to Office 365** <br/> If you already have an Office 365 account, you may be able to add Project Online to that account by choosing **Activate offers** from the left menu on the Office 365 admin center under **Billing**. [Learn more](add-project-online-to-your-office-365-account.md) <br/> |
    
-|
+
    
 ## Next, make sure you can get in!
 <a name="__top"> </a>
