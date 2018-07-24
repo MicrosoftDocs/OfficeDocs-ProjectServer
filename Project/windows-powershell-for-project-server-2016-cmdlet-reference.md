@@ -1,8 +1,8 @@
 ---
-title: "Microsoft PowerShell for Project Server cmdlet reference"
+title: "Windows PowerShell for Project Server 2016 cmdlet reference"
 ms.author: efrene
 author: efrene
-manager: pamgreen
+manager: scotv
 ms.date: 2/16/2016
 ms.audience: ITPro
 ms.topic: hub-page
@@ -12,14 +12,14 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 4d9b6f33-5c78-496b-a25c-753ce45f58f5
-description: "Summary: A list of Windows PowerShell cmdlets for Project Server."
+description: "Summary: A list of Windows PowerShell cmdlets for Project Server 2016."
 ---
 
-# Microsoft PowerShell for Project Server cmdlet reference
-
- **Summary:** A list of Microsoft PowerShell cmdlets for Project Server 2016.
+# Windows PowerShell for Project Server 2016 cmdlet reference
+ **We are in the process of combining the Project Server 2013 and Project Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of Project Server an article applies to.**<br/>
+ **Summary:** A list of Windows PowerShell cmdlets for Project Server 2016.
   
-The following table describes the PowerShell cmdlets available in Project Server.
+The following table describes the Microsoft PowerShell cmdlets available in Project Server 2016.
   
 |**Cmdlet name**|**Description**|
 |:-----|:-----|
@@ -71,5 +71,5 @@ The following table describes the PowerShell cmdlets available in Project Server
 
 #### 
 
-[Microsoft PowerShell for SharePoint 2013 reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Windows PowerShell for SharePoint 2013 reference](http://technet.microsoft.com/library/24f40b8f-58e2-4ed8-948c-51c08073997d.aspx)
 
