@@ -28,7 +28,7 @@ The following articles about Project Server planning are available to view onlin
 
 [Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md)
 
-[Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013)
+[Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md)
   
 [Planning Project Server and Project Online for business decision makers](planning-project-server-and-project-online-for-business-decision-makers.md)
   
