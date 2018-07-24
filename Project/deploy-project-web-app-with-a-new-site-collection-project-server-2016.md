@@ -1,9 +1,8 @@
 ---
-title: "Deploy Project Web App with a new site collection (Project Server 2016)"
+title: "Deploy Project Web App with a new site collection"
 ms.author: efrene
 author: efrene
-manager: scotv
-ms.date: 12/20/2016
+manager: pamgreen
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: project-server-itpro
@@ -15,10 +14,10 @@ ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
 description: "Summary: Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
 ---
 
-# Deploy Project Web App with a new site collection (Project Server 2016)
+# Deploy Project Web App with a new site collection (Project Server 2016 or Project Server 2019 Public Preview)
  
  **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
-**Applies to:** Project Server 2016
+**Applies to:** Project Server 2016, Project Server 2019 Public Preview
   
 ## Create a top-level web site
 
@@ -35,7 +34,7 @@ If a top-level web site does not exist for the web application where you want to
 4. In the **Template Selection** section, choose a template for the site.
     
     > [!NOTE]
-    > Project Server 2016 does not require a specific template. You can choose one appropriate for your organization. 
+    > Project Servers 2016 or 2019 Public Preview does not require a specific template. You can choose one appropriate for your organization. 
   
 5. In the **Primary Site Collection Administrator** section, type the name of the account that you want to use for the site administrator.
     
@@ -60,7 +59,7 @@ After you have created the top-level web site, you must grant users access to th
 ## Create a Project Web App site
 
 > [!IMPORTANT]
-> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server 2016 content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
+> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server 2016 or 2019 Public Preview content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
   
 By putting Project Web App and its associated project workspaces in a separate content database, you greatly simplify site migration and backup and restore procedures.
   
@@ -89,7 +88,19 @@ Creating a Project Web App site takes five basic steps:
     
 After the content database has been created and configured, the next step is to create the Project Web App site itself.
   
-To create a Project Web App site in a new site collection, you run the New-SPSite Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features. Run the following script to create the Project Web App site.
+To create a Project Web App site in a new site collection, you run the [New-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spsite?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features. 
+
+Verify that you have the following memberships:
+
+    •securityadmin fixed server role on the SQL Server instance. 
+
+
+    •db_owner fixed database role on all databases that are to be updated. 
+
+
+    •local Administrators group on the server on which you are running the PowerShell cmdlets.
+
+From the PowerShell command prompt, run the following commands to create the Project Web App site.
   
 ```
 New-SPSite -ContentDatabase ContentDBName -URL SiteCollectionURL/PWASiteName -Template pwa#0
@@ -104,11 +115,11 @@ Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/PWA
 
 ```
 
-After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the **Get-SPSite** Microsoft PowerShell command, passing the new content database as a parameter:
+After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps) cmdlet, passing the new content database as a parameter:
   
 ### To verify the Project Web App site location
 
-- From the Microsoft PowerShell command prompt , type the following command and then press ENTER:
+- From the PowerShell command prompt , type the following command and then press ENTER:
     
     **Get-SPSite -ContentDatabase** _<ContentDatabaseName>_
     
@@ -117,7 +128,7 @@ After the Project Web App site has been provisioned, verify that it was created 
     > [!NOTE]
     > If additional URLs beyond that of the Project Web App site are listed in the content database, delete the Project Web App site and restart the procedure with a new content database. 
   
-After the Project Web App site is in the desired content database, you must lock down the database to prevent SharePoint Server 2016 from adding additional site collections to the database. This is performed by configuring the maximum number of sites for the content database to one. 
+After the Project Web App site is in the desired content database, you must lock down the database to prevent SharePoint Server from adding additional site collections to the database. This is performed by configuring the maximum number of sites for the content database to one. 
   
 > [!NOTE]
 > Configuring this setting does not prevent new project workspace sites from being created. 
