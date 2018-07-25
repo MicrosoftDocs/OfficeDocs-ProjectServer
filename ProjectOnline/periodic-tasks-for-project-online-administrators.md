@@ -30,7 +30,7 @@ Project Online administrators should perform the following periodic checks to th
 |**Weekly**|
 |:-----|
 |Check Active Directory synchronization jobs to ensure they were successful.  <br/> |
-|Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/> > [!NOTE]> This may be the job of the PMO.           |
+|Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/> > NOTE: This may be the job of the PMO.           |
 |Clear any overly long delegation sessions in Server Settings | Delete Enterprise Objects | User Delegation.  <br/> |
 |Maintain a valid enterprise resource pool by checking for users who haven't logged in for 60 days and find out why. For example, they may have left the company, are unaware of PWA, or could have been added mistakenly when someone else needed access.  <br/> |
 |Check the ADMINISTRATORS group for admins that should be removed.  <br/> |
