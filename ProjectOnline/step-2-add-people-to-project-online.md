@@ -27,14 +27,13 @@ description: "The second step in getting started with Project Online is adding t
 
 |||
 |:-----|:-----|
-|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Office 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step. | <br/> 
- > [!IMPORTANT]> **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!**      
+|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Office 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step.<br/>**IMPORTANT!** **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!**  |      
    
 |||
 |:-----|:-----|
 |![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**When you're ready to add someone to Project Online, start by adding users:** <br/> 1. Choose **Users \> Active Users** from the left menu on the Office 365 Admin Center.<br/> 2. At the top of the list of users, choose **+ Add a user**.<br/>3.  Fill out the account information.<br/> 4. Under Product licenses, make sure a Project Online license is assigned, and then choose **Add**. <br/> 5. Choose whether to send the new user's password in email, and then add another user. <br/>For more information, see [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec) <br/> |
    
-|
+
    
 ## 2. Next, group people by what they'll be doing with Project Online
 <a name="__top"> </a>
@@ -44,7 +43,7 @@ description: "The second step in getting started with Project Online is adding t
 |![Share](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to divide them into groups by how they'll be using it.  <br/>
   <br/> **Not everyone needs access to everything** available in Project Online. Usually, your organization can be sorted into the following roles:  <br/> |||
 |||
-|Role  <br/> |Description  <br/> |Permission name  <br/> |
+|**Role**  <br/> |**Description**  <br/> |**Permission name**  <br/> |
 |Admins  <br/> |People who need full control over your Project Online subscription. Admins manage your user list, who gets what level of access, and also manage all the main project settings.  <br/> |**Administrators for Project Web App [Full Control]** <br/> |
 |Project managers  <br/> |People who will create and manage project files. Project managers will create projects and tasks, assign resources, manage timesheets, and otherwise be in charge of projects and project files.  <br/> |**Project Managers for Project Web App [Design, Manage Subsites]** <br/> |
 |Team members:  <br/> |People who perform project tasks. Team members receive assignments and fill out progress and timesheets.  <br/> |**Team Members for Project Web App [Read]** <br/> |
