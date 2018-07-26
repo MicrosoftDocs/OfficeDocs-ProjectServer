@@ -20,7 +20,6 @@ description: "If your organization uses Active Directory, the first time you vie
 
 # Configure the Resource Center
 
- *[\< More Project help](project-help.md)* 
   
 If your organization uses Active Directory synchronization, the first time you access the Resource Center in Project Web App, you need to choose which Active Directory group contains the users that you want to make resources in Project Web App.
   

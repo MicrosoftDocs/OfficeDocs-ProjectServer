@@ -27,7 +27,6 @@ description: "After you have subscribed to Project Online, you can create a seco
 
 # Set up another Project Online site
 
- *[\< More Project help](project-help.md)* 
   
 You may decide that you want to set up an additional Project Online site, to manage projects in a separate environment from your first Project Online site. You can do this by creating another site collection with Project Web App.
   

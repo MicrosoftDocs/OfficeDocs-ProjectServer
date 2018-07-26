@@ -20,7 +20,6 @@ description: "Instructions on how to set up vacation, sick leave, and other non-
 
 # Set up vacation, sick leave, and other non-project work categories
 
- *[\< More Project help](project-help.md)* 
   
 Timesheets can be used to capture all of a team member's hours during the week. In some cases, you may only be interested in capturing the hours spent on specific project tasks. In other cases, you may also want to include hours spent on other, non-project activities, like training, sick leave, or vacation.
   

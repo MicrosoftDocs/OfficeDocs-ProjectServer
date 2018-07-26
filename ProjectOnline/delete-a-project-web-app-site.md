@@ -18,13 +18,12 @@ description: "This article covers how to delete a Project Web App site in Projec
 
 # Delete a Project Web App site
 
- *[\< More Project help](project-help.md)* 
   
 After you subscribed to Project Online, you may have created a couple of different Project Web App sites to try things out before rolling it out to the rest of your team. When you're ready, you can delete an unused Project Web App site.
   
-1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+1. Sign in to Office 365 with your work or school account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Point to the Project Web App site that you are deleting, and then select the check box to the left of the URL.
     
@@ -46,9 +45,9 @@ If you would rather not wait 30 days to free up a Project Web App site, you can 
   
  **Disabling Project Web App is not reversible,** so be sure that you will never need to restore the Project Web App site that you are disabling. Once Project Web App is disabled, the database with all of your project information is permanently deleted. 
   
-1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+1. Sign in to Office 365 with your work or school account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Point to the Project Web App site that you are deleting, and then select the check box to the left of the URL.
     

@@ -18,7 +18,6 @@ description: "Configure Project Online so that unique Project IDs are created fo
 
 # Create unique Project IDs for my projects in Project Online
 
- *[\< More Project help](project-help.md)* 
   
 When creating new projects in Project Online, some companies may want to create a unique Project ID to associate with each project. This allows users to reference each project by a unique Project ID instead of a project name, since project names can be changed.
   

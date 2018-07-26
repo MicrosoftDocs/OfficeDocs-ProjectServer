@@ -17,8 +17,7 @@ description: "Project Web App for Project Online offers two security management 
 
 # Change permission management in Project Online
 
- *[\< More Project help](project-help.md)* 
-  
+ 
 Project Online offers two security management options for controlling the kind of access that users have to sites and projects:
   
 - **SharePointPermission Mode** With this option selected, a special set of SharePoint security groups are created in sites associated with Project Online. These groups are used to grant users varying levels of access to projects and Project Online functionality. 
