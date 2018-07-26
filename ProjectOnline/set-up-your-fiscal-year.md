@@ -20,7 +20,6 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
 
 # Set up your fiscal year
 
- *[\< More Project help](project-help.md)* 
   
 |||
 |:-----|:-----|

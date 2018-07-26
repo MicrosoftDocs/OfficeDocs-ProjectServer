@@ -18,7 +18,6 @@ description: "\< More Project help"
 
 # Supporting your Project Online adoption with a Project Management Office (PMO)
 
- *[\< More Project help](project-help.md)* 
   
 ## What is a PMO?
 

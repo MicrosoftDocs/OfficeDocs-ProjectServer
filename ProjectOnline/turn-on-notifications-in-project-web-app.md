@@ -18,7 +18,6 @@ description: "A topic that shows you how to set up the ability to send notificat
 
 # Turn on notifications in Project Web App
 
- *[\< More Project help](project-help.md)* 
   
 Project Web App can be set up to send email notifications, helping people stay on top of what's going on in a project. When notifications are turned on, users can decide which notifications they'd like Project Web App to send.
   

@@ -18,7 +18,6 @@ description: "\< More Project help"
 
 # Add Project Online to your Office 365 account
 
- *[\< More Project help](project-help.md)* 
   
 If you already subscribe to another Microsoft service, such as Exchange Online or SharePoint Online, then you already have an Office 365 account. If you are using Office 365 Enterprise, Government, or Academic, you may be able to simply add Project Online to that account.
   
