@@ -38,7 +38,8 @@ description: "Resourses and instructions on how to get started in Project Online
 |:-----|:-----|
 |![Time Reporting Period](media/d99055d1-f683-45c1-a532-4f8d8f2cc29e.png)           <br/> |**Want your team members to turn in timesheets for the work they're doing?** Before your team members can start filling out timesheets, you need to [set up a few things](set-up-timesheets.md).  <br/> |||
 |||
-|**Basic** <br/> [Set up timesheets](set-up-timesheets.md)          [Set up your fiscal year](set-up-your-fiscal-year.md)          [Set up categories for timesheet rows](set-up-categories-for-timesheet-rows.md)          [Set up vacation and sick leave time](set-up-vacation-sick-leave-and-other-non-project-work-categories.md) <br/> |**Advanced** <br/> [Set up how time and task progress are captured](set-up-how-time-and-task-progress-are-captured.md)          [Customize timesheets and task progress for your organization](customize-timesheets-and-task-progress-for-your-organization.md)          [Set up time and task progress approval](set-up-time-and-task-progress-approval.md) <br/> |
+|**Basic** <br/> [Set up timesheets](set-up-timesheets.md)<br/>          [Set up your fiscal year](set-up-your-fiscal-year.md)  <br/>        [Set up categories for timesheet rows](set-up-categories-for-timesheet-rows.md)  <br/>        [Set up vacation and sick leave time](set-up-vacation-sick-leave-and-other-non-project-work-categories.md) <br/> |**Advanced** <br/> [Set up how time and task progress are captured](set-up-how-time-and-task-progress-are-captured.md) <br/>         [Customize timesheets and task progress for your organization](customize-timesheets-and-task-progress-for-your-organization.md)  <br/>        [Set up time and task progress approval](set-up-time-and-task-progress-approval.md) <br/>
+
    
 
    
