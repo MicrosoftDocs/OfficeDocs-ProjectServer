@@ -34,7 +34,7 @@ There are several ways you can set up time and task progress for your organizati
 ## Still stuck?
 <a name="__Top"> </a>
 
-If you're still not finding the answers you need, try searching for content on [support.office.com](https://support.office.com), or browsing through the list of topics on the [Project Help Center](project-help.md).
+If you're still not finding the answers you need, try searching for content on [support.office.com](https://support.office.com).
   
 You may also find it helpful to post your questions and issues on a discussion forum. The [Project discussion forums](https://social.technet.microsoft.com/forums/en-us/category/project) tend to be very active, which make them a great resource for finding others who may have worked through similar issues, or encountered the same situation. 
   

@@ -13,13 +13,12 @@ search.appverid:
 - PJO150
 - PJO160
 ms.assetid: 8accac79-9dc8-4167-8e0c-2c20fabcebdd
-description: "After you have subscribed to Project Online, you can add it to an existing site collection."
+description: After you have subscribed to Project Online, you can add it to an existing site collection.
 ---
 
 # Add Project Online to a site collection
 
- *[\< More Project help](project-help.md)* 
-  
+   
 Adding Project Online to an existing site collection helps you use the permissions and users that you have already set up. It also lets you bring SharePoint tasks into Project Online, and share your enterprise projects on your team or project site.
   
 > [!TIP]

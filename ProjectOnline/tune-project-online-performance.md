@@ -13,12 +13,11 @@ search.appverid:
 - PJO150
 - PJO160
 ms.assetid: 12ba0ebd-c616-42e5-b9b6-cad570e8409c
-description: "\< More Project help"
+description: 
 ---
 
 # Tune Project Online performance
 
- *[\< More Project help](project-help.md)* 
   
 With the launch of Project Online a few years ago, organizations of all sizes have been able to use Microsoft's rich set of Project Portfolio Management (PPM) capabilities within the convenience of our Office 365 cloud infrastructure.
   

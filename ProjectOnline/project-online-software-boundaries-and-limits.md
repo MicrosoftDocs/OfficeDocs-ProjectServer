@@ -18,7 +18,6 @@ description: "There are some important limitations that you should know if you a
 
 # Project Online: software boundaries and limits
 
- *[\< More Project help](project-help.md)* 
   
 There are some important limitations that you should know if you are using Project Online. These limitations apply regardless of whether you are using Project Online by itself, or with other Office 365 plans.
   

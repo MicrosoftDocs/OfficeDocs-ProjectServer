@@ -18,7 +18,6 @@ description: "Find out what tools you can use to create reports using data in Pr
 
 # What reporting tools can I use with project data?
 
- *[\< More Project help](project-help.md)* 
   
 If you're using Project Web App, you might be wondering what tools you can use to create reports. Whether you're using Project Web App for Project Server 2013 or Project Web App for Project Online, you have several options available for viewing and creating reports. You can:
   

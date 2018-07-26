@@ -15,12 +15,11 @@ search.appverid:
 - PJO160
 - PJU160
 ms.assetid: 7e70ec99-927c-4fe0-a94d-c66f6451e497
-description: "Instructions on how to set up categories for timesheets (such as "Travel" and "Vacation") using Project Web App."
+description: Instructions on how to set up categories for timesheets (such as Travel and Vacation) using Project Web App.
 ---
 
 # Set up categories for timesheet rows
 
- *[\< More Project help](project-help.md)* 
   
 The rows on a team member's timesheet are used to capture hours spent on specific project tasks, or on other, non-project activities, like training or vacation. Sometimes, it can be helpful to categorize the task-related hours in other ways too. [Need an example?](set-up-categories-for-timesheet-rows.md#BKMK_Example)
   

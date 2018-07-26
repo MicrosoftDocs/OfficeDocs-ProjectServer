@@ -17,7 +17,6 @@ description: "If your Project Online reports connect to the OData feed, you'll n
 
 # Grant reporting access in Project Online
 
- *[\< More Project help](project-help.md)* 
   
 Before you can use Project Online reports in Excel Online, the tenant administrator needs to activate this feature for the Project Online site collection.
   

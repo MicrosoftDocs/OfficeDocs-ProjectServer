@@ -17,7 +17,6 @@ description: "Plan users and groups for Project Online in SharePoint Permission 
 
 # Plan SharePoint groups in Project Online
 
- *[\< More Project help](project-help.md)* 
   
 In Project Online, SharePoint Permission Mode creates SharePoint groups that directly correspond to the default security groups found in Project Permission Mode.
   
