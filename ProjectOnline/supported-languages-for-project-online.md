@@ -17,7 +17,6 @@ description: "Learn about languages that are supported by Project Online."
 
 # Supported languages for Project Online
 
- *[\< More Project help](project-help.md)* 
   
 When you [set up a Project Online site](set-up-another-project-online-site.md), you need to select a language in which the site will display. If you are in an environment in which you need to set up Project Online sites for multiple languages, you need to know:
   
