@@ -27,7 +27,7 @@ If you already subscribe to another Microsoft service, such as Exchange Online o
 |||
 |![Purchase Services](media/6a43626d-916a-4bb7-816f-633770ded933.jpg)           <br/> |**If you see Project Online listed,** this means you can add it! Keep reading to learn more.  <br/> **If you don't see Project Online listed,** this could be because your account isn't Office 365 Enterprise, Government, or Academic. These are the only subscription levels that currently support Project Online.  <br/> |
    
-|
+
    
  **To add Project Online to your existing Office 365 account:**
   
