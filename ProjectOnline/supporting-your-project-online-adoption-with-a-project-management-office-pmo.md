@@ -13,7 +13,7 @@ search.appverid:
 - PJO150
 - PJO160
 ms.assetid: 567b2415-5973-4e38-b796-dd20ebcb00c8
-description: "\< More Project help"
+description: 
 ---
 
 # Supporting your Project Online adoption with a Project Management Office (PMO)

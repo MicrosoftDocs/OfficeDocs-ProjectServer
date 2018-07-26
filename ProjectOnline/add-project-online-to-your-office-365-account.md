@@ -13,7 +13,7 @@ search.appverid:
 - PJO160
 ms.assetid: 15703ad4-08a9-40f3-9487-063a369e8f2b
 
-description: "\< More Project help"
+description: 
 ---
 
 # Add Project Online to your Office 365 account
@@ -24,7 +24,7 @@ If you already subscribe to another Microsoft service, such as Exchange Online o
 ||
 |:-----|
 |**How do I know if I have the right kind of Office 365 account?** <br/> To check, go to the [Purchase Services page](https://go.microsoft.com/fwlink/p/?LinkID=402340) in the Office 365 admin center.  <br/> |||
-|:-----|:-----|
+|||
 |![Purchase Services](media/6a43626d-916a-4bb7-816f-633770ded933.jpg)           <br/> |**If you see Project Online listed,** this means you can add it! Keep reading to learn more.  <br/> **If you don't see Project Online listed,** this could be because your account isn't Office 365 Enterprise, Government, or Academic. These are the only subscription levels that currently support Project Online.  <br/> |
    
 |
