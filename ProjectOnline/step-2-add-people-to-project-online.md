@@ -56,9 +56,9 @@ For the full list of permissions available with Project Online, see [Plan ShareP
    
 |||
 |:-----|:-----|
-|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |Then, add users to groups.  <br/> To add users to groups:  <br/> 1. Choose **Users \> Active users**.<br/>2. Select the check box for each user you want to add to your first security group, and choose **+ Add to group** in the **Bulk actions** pane.<br/>3. Choose a group from the **Group memberships** list, and then choose **Save \> Close**. |
+|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**Then, add users to groups.**  <br/> To add users to groups:  <br/> 1. Choose **Users \> Active users**.<br/>2. Select the check box for each user you want to add to your first security group, and choose **+ Add to group** in the **Bulk actions** pane.<br/>3. Choose a group from the **Group memberships** list, and then choose **Save \> Close**. |
    
-|
+
    
 ## 3. Then, add people as resources
 <a name="__top"> </a>
@@ -70,7 +70,7 @@ For the full list of permissions available with Project Online, see [Plan ShareP
    
 |||
 |:-----|:-----|
-|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**If you know a person will work on projects and tasks, make that user a resource:**
+|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**If you know a person will work on projects and tasks, make that user a resource:** <br/>
 1. On the Office 365 app launcher , choose **Project**.
 2. Choose **Resources** on the left menu. You can either: 
     * Add many resources at a time: If you haven't added any resources yet, you can synchronize with an existing group.   
@@ -78,7 +78,7 @@ For the full list of permissions available with Project Online, see [Plan ShareP
         b. On the **Active Directory Enterprise Resource Pool Synchronization** page, type the name of a security group in the **Active Directory Group** box.  
         c. Choose **Save**.  
         d. Repeat for any other security groups you want to create resources for. When you've added all the security groups you want, choose **Save and Synchronize Now**. 
-     * Add resources one at a time:
+     * Add resources one at a time:<br/>
            a. On the Resource Center page, choose **Resources \> New**.  
            b. There are a lot of things you can fill out here, but only two things are really important right now:   
             - Under **Identification Information**, choose **Associate resource with a user account**.   

@@ -52,9 +52,9 @@ description: "Resourses and instructions on how to get started in Project Online
 
 |||
 |:-----|:-----|
-|![Maintenance](media/e8b5823d-9ce3-4e63-9870-e1923d5d9f21.png)           <br/> |**There are lots of ways to map Project Online to the way you run your business.** Here are a handful of other things you can start looking through, when you're ready to dive deeper. Some of these resources are written with Project Server in mind, but the steps are relatively similar.  <br/> ||
-||
-|**This is complicated stuff.** If you're not ready for complicated, ignore this section and move on to [Create a project in Project Web App](https://support.office.com/article/072e676d-d798-457d-a4d1-66baaaf6c552). You don't need to know this advanced level of setup to be able to use Project Online. (It's okay if you let out a sigh of relief now!)  <br/> |
+|![Maintenance](media/e8b5823d-9ce3-4e63-9870-e1923d5d9f21.png)           <br/> |**There are lots of ways to map Project Online to the way you run your business.** Here are a handful of other things you can start looking through, when you're ready to dive deeper. Some of these resources are written with Project Server in mind, but the steps are relatively similar.  <br/> |
+
+**This is complicated stuff.** If you're not ready for complicated, ignore this section and move on to [Create a project in Project Web App](https://support.office.com/article/072e676d-d798-457d-a4d1-66baaaf6c552). You don't need to know this advanced level of setup to be able to use Project Online. (It's okay if you let out a sigh of relief now!)  <br/> 
    
  **If you're ready for complicated, here are some places to start:** <br/> [Enterprise custom fields and lookup tables in Project Web App](https://technet.microsoft.com/library/gg709725.aspx) <br/> [Using workflow for demand management in Project Online](using-workflow-for-demand-management-in-project-online.md) <br/> [Portfolio analysis overview](https://technet.microsoft.com/library/dn641991.aspx) <br/> **If you get overwhelmed or confused,** the [discussion forums on TechNet](https://social.technet.microsoft.com/forums/en-us/category/project) are a great place to get your questions answered.  <br/> 
    

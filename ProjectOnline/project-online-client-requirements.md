@@ -41,13 +41,14 @@ When connecting to Project Online with Project Professional, there will always b
   
  **To check the minimum supported build for Project Professional connectivity**
   
-1. In the Project Online quick launch, select ** Server Settings **.
+1. In the Project Online quick launch, select **Server Settings**.
     
 2. On the PWA Settings page, in the Operational Policies section, select **Additional Server Settings**.
     
 3. On the Additional Server Settings page, in the Project Professional Versions section, under **Minimum Versions** you can see the minimum supported build numbers for Project Professional clients that can connect to Project Online. These include: 
     
   - Project Professional 2016
+  - Project Professional 2019 Preview
   - Project Online Desktop Client (subscription version of Project Professional)
     
     All builds that are at or higher than the current minimum build number posted on this page are supported to connect to Project Online. 

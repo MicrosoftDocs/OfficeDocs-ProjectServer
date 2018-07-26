@@ -26,7 +26,7 @@ description: "This article is the first in a series that will help you get start
 
 |||
 |:-----|:-----|
-|![Get set up](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)         [![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
+|![Get set up](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)         [![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
 
 ## [Overview](#tab/)
   
