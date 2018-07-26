@@ -1,7 +1,4 @@
-﻿
-  
-
-# [Project Online](project-online.md)
+﻿# [Project Online](project-online.md)
 ## [Get started with Project Online](get-started-with-project-online.md)
 ### [Step 1: Sign up for Project Online](step-1-sign-up-for-project-online.md)
 ### [Step 2: Add people to Project Online](step-2-add-people-to-project-online.md)
