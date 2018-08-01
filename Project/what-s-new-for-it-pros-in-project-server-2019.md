@@ -21,9 +21,7 @@ description: "Summary: Learn about Project Server 2019 Public Preview. Find info
   
 This article provides a brief overview of new and significantly updated functionality in Project Server 2019 Public Preview, with a particular emphasis on the areas of interest to IT professionals. These include the following:
   
-- [Resource Engagements](what-s-new-for-it-pros-in-project-server-2019.md#RE)
-    
-- [One installation - Project Server and SharePoint Server](what-s-new-for-it-pros-in-project-server-2019.md#OneInstall)
+
     
 - [Base installation languages and language packs](what-s-new-for-it-pros-in-project-server-2019.md#Lang)
     
@@ -31,44 +29,12 @@ This article provides a brief overview of new and significantly updated function
     
 - [Upgrading to Project Server 2019 Public Prevew ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
     
-- [A single database for multiple instances](what-s-new-for-it-pros-in-project-server-2019.md#SingleDB)
-    
+   
 - [Custom field limits](what-s-new-for-it-pros-in-project-server-2019.md#Cust)
     
 - [Project Web App changes](what-s-new-for-it-pros-in-project-server-2019.md#PWAChanges)
     
-## Resource Engagements
-<a name="RE"> </a>
-
-The Resource Engagements capabilities in Project Server 2019 Public Preview helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements are an evolution of the old Resource Plan feature in Project Web App and all of your existing Resource Plan data can be converted to Resource Engagements as an optional part of the upgrade process. 
-  
-Resource Engagements provides you with the following:
-  
-- Project Managers can use the new Resource Plan view in Project Professional 2019 Public Preview to create requests for resources.
-    
-- Resource Managers can view all requests for resource through the new Resource Requests page and can use the capacity planning heat map to provide them with availability information on their resources.
-    
-IT-Pros will need to know how to migrate their Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019 Public Preview. This will be done as part of the upgrade process by running a PowerShell cmdlet. 
-  
-> [!NOTE]
-> For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md). 
-  
-> [!NOTE]
-> For more information about Resource Engagements, see [Overview: Resource Engagements](https://go.microsoft.com/fwlink/p/?linkid=832111) .
-  
-## One installation - Project Server and SharePoint Server
-<a name="OneInstall"> </a>
-
-Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview Enterprise. The SharePoint Server 2019 Public Preview Enterprise MSI file will contain the installation files for Project Server 2016 as well, so a separate installation is no longer required as it was in previous versions of Project Server. Activating Project Server 2019 Public Preview will require an activation key.
-  
-> [!IMPORTANT]
-> The Enterprise version of SharePoint Server 2019 Public Preview is required to enable Project Server 2019 Public Preview. Project Server 2019 Public Preview cannot be enabled on SharePoint Server 2019 Public Preview with a Standard license. 
-  
-For more detailed information about deploying Project Server 2016, see [Deploy Project Servers 2016 or 2019 Public Preview](deploy-project-server-2016.md).
-  
-> [!NOTE]
-> Project Server 2019 Public Preview runs as a service application in SharePoint Server 2019 Public Preview, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2019 Public Preview, see [New and improved features in SharePoint Server 2019 Public Preview](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019). 
-  
+   
 ## Base installation languages and language packs
 <a name="Lang"> </a>
 
@@ -163,15 +129,6 @@ When planning to upgrade to Project Server 2019 Public Preview take note of the 
     
 For more detailed information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md).
   
-## A single database for multiple instances
-<a name="SingleDB"> </a>
-
-In Project Server 2013, a separate Project database is created for each Project Web App instance. In Project Server 2019 Public Preview, a single database (the SharePoint content database) will be used for all instances of PWA. Even though all data is saved to the single database, data from each individual instance is still isolated from other instances. 
-  
-Having your Project data contained within a single database makes for easier database operations, such as backup and restore, migration, etc..
-  
-> [!NOTE]
-> Direct access to the reporting schema is supported only if there is a single instance of Project Web App that uses the database. 
   
 ## Custom field limits
 <a name="Cust"> </a>
@@ -196,8 +153,6 @@ In Project Server 2019 Public Preview, note that there are several changes to th
   
 |**What's new**|**How do I do this?**|
 |:-----|:-----|
-|**Multiple timelines** - You have the ability to have multiple timelines. You can add an additional timeline through the Project Center or Schedule page. <br/> | Project Center -[Add projects and tasks to the Project Center timeline](https://go.microsoft.com/fwlink/p/?LinkId=746887) <br/>  Schedule page -[Add tasks to a project timeline](https://go.microsoft.com/fwlink/p/?LinkId=746889) <br/> |
-|**Adjust the timeline date range** - You are now able to adjust the start and end date of a timeline. <br/> |[Change the appearance of a timeline in Project Web App](http://go.microsoft.com/fwlink/p/?LinkID=746892&amp;clcid=0x409) <br/> |
 |**Team task enhancements** - New way of working with task assignments <br/> |[New ways to work with Team Assignments](https://blogs.technet.microsoft.com/projectsupport/2016/12/02/project-online-new-ways-to-work-with-team-assignments/) <br/> |
 |**Timephased reporting data** - Project admins can configure to roll up timephased reporting data to different levels of granularity. <br/> |[Configure rollup of timephased reporting data ](https://support.office.com/en-us/article/Configure-rollup-of-timephased-reporting-data-in-Project-Online-da8487fe-899e-4510-a264-e2ebc948928c?ui=en-US&rs=en-US&ad=US) <br/> |
 |**Email notifications** - Project admins have more options on how they want to receive email. <br/> |[Email notifications ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
@@ -206,14 +161,6 @@ In Project Server 2019 Public Preview, note that there are several changes to th
 |**Resource Engagement API’s** - Able to take advantage of the API for Resource Engagment <br/> |[Resource Engagement API’s](https://blogs.msdn.microsoft.com/brismith/2016/07/13/resource-engagement-apis-coming-to-a-project-online-near-you/) <br/> |
 |**Performance improvments**  <br/> | |
    
- **Easier way to create a project**
-  
-In Project Server 2019 Public Preview, you can easily create a new project through the Get Started with Project Web App window that displays on the Project Web App home page. Selecting **Create or Import project** will start the Create a new project wizard that will help guide your user through the required steps.
-  
-![Create or import projects wizard](images/c55966f3-893a-484a-ada9-548019d651df.png)
-  
-> [!NOTE]
-> For more information, see [Create a project in Project Web App](https://go.microsoft.com/fwlink/p/?LinkId=746895). 
   
 ## See also
 <a name="PWAChanges"> </a>
