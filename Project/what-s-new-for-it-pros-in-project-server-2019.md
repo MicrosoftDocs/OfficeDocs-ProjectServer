@@ -106,8 +106,6 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 > [!NOTE]
 > Project Online Desktop Client connectivity to Project Server 2013 will expire and no longer be supported after September 15, 2018. 
 
-> [!NOTE]
-> If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
 > For more information about the hardware and software requirements for SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019 Public Preview, see [Plan browser support in SharePoint Server 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0). 
@@ -125,22 +123,11 @@ When planning to upgrade to Project Server 2019 Public Preview take note of the 
     
 - **Upgrade through Microsoft PowerShell** - Similar to the Project Server 2016 upgrade experience, upgrading to Project Server 2019 Public Preview will be through the use of PowerShell cmdlets.
     
-- **Migrate your Project Server 2013 Resource Plans** - You can migrate your Project Server 2013 Resource Plans to use as Resource Engagements in Project Server 2016 as an optional part of the upgrade process. Resource Plans are not supported in Project Server 2016.
+- **Migrate your Project Server 2013 Resource Plans** -  You can migrate your Project Server 2013 Resource Plans to Resource Engagements in Project Server 2019 Public Preview as part of the upgrade process. Resource Plans are not supported in Project Server 2019 Public Preview.
     
 For more detailed information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md).
   
   
-## Custom field limits
-<a name="Cust"> </a>
-
-To help provide the best performance in Project Server 2019 Public Preview reporting, there are limits to how many single-value custom fields, or each type, that get stored in the reporting schema:
-  
-||||
-|:-----|:-----|:-----|
-|**Project custom fields** <br/> |**Timesheet custom fields** <br/> |**Task and Resource custom fields, combined** <br/> |
-|450 text fields  <br/> |450 text fields  <br/> |450 text fields  <br/> |
-|450 lookup tables  <br/> |450 lookup tables  <br/> |450 lookup tables  <br/> |
-|450 of all other custom field types (cost, date, duration, number, flag)  <br/> |450 of all other custom field types (cost, date, duration, number, flag)  <br/> |450 of all other custom field types (cost, date, duration, number, flag)  <br/> |
    
 ## Project Web App changes
 <a name="PWAChanges"> </a>
@@ -149,7 +136,7 @@ Administrators should know of a couple of big changes in Project Web App that af
   
  **New Timeline options**
   
-In Project Server 2019 Public Preview, note that there are several changes to the way timelines are used in Project Web App. These include:
+In Project Server 2019 Public Preview, in addition to performance improvements as well as accessibility improvements, note that there are several changes to the different features used in Project Web App. These include:
   
 |**What's new**|**How do I do this?**|
 |:-----|:-----|
@@ -159,7 +146,7 @@ In Project Server 2019 Public Preview, note that there are several changes to th
 |**Project IDs** - Creates unique Project IDs on project creation. <br/> |[Project IDs ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
 |**Increasing custom field limits for reporting** - Creates unique Project IDs on project creation. <br/> |[Increasing custom field limits for reporting ](https://www.microsoft.com/en-us/microsoft-365/blog/2015/12/03/3-new-enhancements-to-project-online/?eu=true) <br/> |
 |**Resource Engagement API’s** - Able to take advantage of the API for Resource Engagment <br/> |[Resource Engagement API’s](https://blogs.msdn.microsoft.com/brismith/2016/07/13/resource-engagement-apis-coming-to-a-project-online-near-you/) <br/> |
-|**Performance improvments**  <br/> | |
+
    
   
 ## See also
