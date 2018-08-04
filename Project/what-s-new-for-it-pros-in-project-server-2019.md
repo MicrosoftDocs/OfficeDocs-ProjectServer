@@ -93,12 +93,12 @@ Since Project Server 2019 Public Preview is now a service application in SharePo
 |**Supported browser** **s:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/>Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
  **Project client compatibility**
-  
-You can connect to Project Server 2016 with not only Project Professional 2016 and the Project Online Desktop Client, but also with Project Professional 2013.
+You can connect to Project Server 2019 Public Preview with not only Project Professional 2019 Public Preview and the Project Online Desktop Client, but also with Project Professional 2016. 
   
 |||
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
+|Project Server 2019 Public Preview  <br/> | Project Professional 2019 Public Preview <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/> |
 |Project Server 2016  <br/> | Project Professional 2019 Public Preview <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 |Project Server 2013  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
 | |
