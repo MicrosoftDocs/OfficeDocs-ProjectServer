@@ -39,7 +39,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
         </a>
     </li>
     <li>
-        <a href="/ProjectOnline/supporting-your-project-online-adoption-with-a-project-management-office">
+        <a href="/ProjectOnline/supporting-your-project-online-adoption-with-a-project-management-office-pmo">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
