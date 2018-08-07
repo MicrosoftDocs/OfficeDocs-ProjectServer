@@ -82,8 +82,8 @@ For the full list of permissions available with Project Online, see [Plan ShareP
            a. On the Resource Center page, choose **Resources \> New**.  
            b. There are a lot of things you can fill out here, but only two things are really important right now:   
             - Under **Identification Information**, choose **Associate resource with a user account**.   
-            - Under **User Authentication**, in the **User logon account** box, type the name of the user you want working on projects and tasks.
-           c. Choose **Save** when you're done.  |
+            - Under **User Authentication**, in the **User logon account** box, type the name of the user you want working on projects and tasks.<br/>
+           c. Choose **Save** when you're done.  
    
 
    
@@ -92,7 +92,8 @@ For the full list of permissions available with Project Online, see [Plan ShareP
 
 |||
 |:-----|:-----|
-|![Share](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to share the site with them so they can actually get in!  <br/> **When you share the Project Online site with a user, you also decide what they can do in Project Online:** <br/> In Project Online, choose Share, just below your name in the top-right portion of the page. You can share with individuals or security groups. Share by security group if you've created security groups for each permission level you want to use. Type either the name of the security group or the name of the individual user in the top box, and then choose Show Options. Under Select a group or permission level, choose the permission level that matches what the security group or person's role is in your organization. For example, for the Contoso admins security group, choose Administrators for Project Web App [Full Control]. Choose Share. Repeat this process for all additional groups or individuals you want to use Project Online. |
+|![Share](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to share the site with them so they can actually get in!  <br/> 
+**When you share the Project Online site with a user, you also decide what they can do in Project Online:** <br/> In Project Online, choose Share, just below your name in the top-right portion of the page. You can share with individuals or security groups. Share by security group if you've created security groups for each permission level you want to use. Type either the name of the security group or the name of the individual user in the top box, and then choose Show Options. Under Select a group or permission level, choose the permission level that matches what the security group or person's role is in your organization. For example, for the Contoso admins security group, choose Administrators for Project Web App [Full Control]. Choose Share. Repeat this process for all additional groups or individuals you want to use Project Online. |
    
 ## NEXT STEP...
 <a name="__top"> </a>
