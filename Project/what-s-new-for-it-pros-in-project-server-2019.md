@@ -117,13 +117,13 @@ When planning to upgrade to Project Server 2019 Public Preview take note of the 
   
 - **Upgrade only through Project Server 2016** - If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019 Public Preview. There is no direct upgrade path from Project Server 2013 to Project Server 2019 Public Preview.
     
-- **Project Web App site collection upgrade** - The SharePoint 2013 content database that contains your PWA site collection needs to be upgraded as well during the upgrade process.
+- **Project Web App site collection upgrade** - The SharePoint 2016 content database that contains your PWA site collection needs to be upgraded as well during the upgrade process.
     
 - **No in-place upgrade** - You must first create a Project Server 2019 Public Preview, and then attach and upgrade your Project Server 2016 databases to the new farm. In-place upgrade is not supported.
     
 - **Upgrade through Microsoft PowerShell** - Similar to the Project Server 2016 upgrade experience, upgrading to Project Server 2019 Public Preview will be through the use of PowerShell cmdlets.
     
-- **Migrate your Project Server 2013 Resource Plans** -  You can migrate your Project Server 2013 Resource Plans to Resource Engagements in Project Server 2019 Public Preview as part of the upgrade process. Resource Plans are not supported in Project Server 2019 Public Preview.
+- **Migrate your Project Server 2016 Resource Plans** -  You can migrate your Project Server 2016 Resource Plans to Resource Engagements in Project Server 2019 Public Preview. 
     
 For more detailed information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md).
   
