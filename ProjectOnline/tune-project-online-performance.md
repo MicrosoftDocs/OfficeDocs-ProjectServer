@@ -313,7 +313,7 @@ If the developer confirms the add-in is ready for the change, you then need to e
 
 1. On your **PWA Settings** page, in the **Operational Policies** section, select **Additional Server Settings**.
 
-2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.
+2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.<br/>
 ![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
 
 3. Select **Save**.
