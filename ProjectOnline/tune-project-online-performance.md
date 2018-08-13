@@ -319,7 +319,7 @@ If the developer confirms the add-in is ready for the change, you then need to e
 3. Select **Save**.
 
 > [!NOTE]
-> This feature is being introduced gradually to organizations.  This means that you may not currently have this setting available.
+> This feature is being introduced gradually to Office 365.  This means that you may not currently have this setting available.
 
 
 
