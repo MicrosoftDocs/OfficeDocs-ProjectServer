@@ -53,6 +53,8 @@ We will cover:
 - UI customization and look-and-feel
     
 - Project Detail Pages (PDP) and workflows
+
+- Event Handling
     
 - OData and reporting
     
@@ -299,6 +301,28 @@ Each project can have its own dedicated SharePoint site where team members can c
   
 You can use the [CreateProjectSite('') method](https://go.microsoft.com/fwlink/p/?LinkId=544812) to decide when to create their project sites. This is particularly useful for organizations who want to create their sites only after a project proposal reaches a specific stage in a predefined workflow, rather than on first publish. This significantly improves the performance of project creation by postponing the creation of Project sites. 
   
+## Event Handling
+
+Add-ins can respond to events being raised in Project Online. For example, an add-in can perform some additional activity after a project has been created. Users may have to wait for these add-ins to complete handling the events before they can continue working with Project Online. 
+
+ **Recommendation:**
+  
+Project Online should be configured to handle certain events asynchronously to minimize the amount of time users will need to wait. To do this, ask the developer of any add-ins you use to make sure their code is able to handle After events asynchronously. They can go to [this article](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/gg749858(v=office.14)) to learn more about practices they can follow for handling these events.  
+
+If the developer confirms the add-in is ready for the change, you then need to enable the **Turn on asynchronous After event processing** setting.go to the **Additional Server Settings** page in the admin portal of your Project Online instance. In there, ensure that the **Turn on asynchronous After event processing** checkbox is selected. You'll then need to test your instances to verify that everything works correctly.  
+
+1. On your **PWA Settings** page, in the **Operational Policies** section, select **Additional Server Settings**.
+
+2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.<br/>
+![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
+
+3. Select **Save**.
+
+> [!NOTE]
+> This feature is being introduced gradually to organizations.  This means that you may not currently have this setting available.
+
+
+
 ## OData and Reporting
 
 ### Reporting
