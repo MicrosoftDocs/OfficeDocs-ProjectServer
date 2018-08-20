@@ -34,7 +34,7 @@ description: Project
                                 </a>
                             </li>
                             <li>
-                                <a href="https://support.office.com/article/d7e9281d-6350-445e-9c5f-077792e6ab42">
+                                <a href="https://docs.microsoft.com/projectonline/project-online">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
