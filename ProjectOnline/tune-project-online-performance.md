@@ -309,7 +309,7 @@ Add-ins can respond to events being raised in Project Online. For example, an ad
   
 Project Online should be configured to handle certain events asynchronously to minimize the amount of time users will need to wait. To do this, ask the developer of any add-ins you use to make sure their code is able to handle After events asynchronously. They can go to [this article](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/gg749858(v=office.14)) to learn more about practices they can follow for handling these events.  
 
-If the developer confirms the add-in is ready for the change, you then need to enable the **Turn on asynchronous After event processing** setting.go to the **Additional Server Settings** page in the admin portal of your Project Online instance. In there, ensure that the **Turn on asynchronous After event processing** checkbox is selected. You'll then need to test your instances to verify that everything works correctly.  
+If the developer confirms the add-in is ready for the change, you then need to enable the **Turn on asynchronous After event processing** setting on your **PWA Settings** page.
 
 1. On your **PWA Settings** page, in the **Operational Policies** section, select **Additional Server Settings**.
 
@@ -317,6 +317,9 @@ If the developer confirms the add-in is ready for the change, you then need to e
 ![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
 
 3. Select **Save**.
+
+You'll then need to test your instances to verify that everything works correctly.
+
 
 > [!NOTE]
 > This feature is being introduced gradually to Office 365.  This means that you may not currently have this setting available.
