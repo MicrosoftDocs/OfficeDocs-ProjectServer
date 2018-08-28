@@ -88,6 +88,18 @@ For Project Server 2013, there are two core components for backing up, unique to
     
 8. Repeat this process for each database in the list.
     
+### To schedule the backup
+
+1.	Go to Start -> All Programs -> Microsoft SQL Server 2008/2012 -> SQL Server Management Studio.
+
+2.	Connect to the server hosting the SQL instance you want to work with by clicking the **Connect** button.
+
+3.	Expand the server where you want to create your management plan.
+
+4.	Right-click Maintenance Plans and then click Maintenance Plan Wizard.
+
+5.	The wizard builds the maintenance plans that will run per your instructions set via the wizard.
+
 ## Use Central Administration to take Project Server component backups
 
 If you are using this method, discuss it with your database administrator before implementation. SharePoint Server 2013 backups involve using SQL backup methods, and this may be disruptive to a SQL backup schedule.
