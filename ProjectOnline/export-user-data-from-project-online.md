@@ -29,6 +29,8 @@ Your organization can export a specific user's content from your Project Online 
 - [Step 6 - Find and save custom views, custom filters, attachments, and macros](export-user-data-from-project-online.md#FindViews)
     
 - [Considerations for master and inserted projects](export-user-data-from-project-online.md#ConsiderationsForMaster)
+
+- [Considerations for Project Home favorite and recently viewed projects](export-user-data-from-project-online.md#ProjectHomeProjects)
     
  **Work with your Project Admins**
   
@@ -384,7 +386,17 @@ After receiving the exported user content, you can use your data to find the use
 As noted earlier, the export script will only export projects that the user was a part of as an owner, has an assigned task, is an assignment owner of a task, or is the status manager of a task. When the user is part of an inserted project, but not the master project, only the inserted project will be exported. Similarly, if the user is only part of a master project and not any of the inserted projects, only the master project will be exported.
   
 When saving a master project that a user was a part of, you will not need to save any associated inserted projects if you are prompted.
+
+## Considerations for Project Home favorite and recently viewed projects
+<a name="ProjectHomeProjects"> </a>
+
+Data for a user's favorite and recently viewed projects in Project Home can only be accessed directly in-app. You will need to log in with the user's account in order to access their Project Home page.
+
+1. Log in to Office 365 with the user's account.
+2. In the App Launcher, click the Project icon to open the user's Project Home page.
+3. On the user's Project Home page, take a screenshot of the projects listed in the Favorites and Recent sections.
   
+    ![Unblocking the file](media/PJOProjHome.png)
 ## See Also
 <a name="ConsiderationsForMaster"> </a>
 
