@@ -390,13 +390,13 @@ When saving a master project that a user was a part of, you will not need to sav
 ## Considerations for Project Home favorite and recently viewed projects
 <a name="ProjectHomeProjects"> </a>
 
-Data for a user's favorite and recently viewed projects in Project Home can only be accessed directly in-app. You will need to log in with the user's account in order to access their Project Home page.
+Data for a user's favorite and recently viewed projects in Project Home can only be accessed directly in-app. The user needs to log in with their Office 365 account credentials to access their Project Home page and see the projects that are listed.
 
-1. Log in to Office 365 with the user's account.
-2. In the App Launcher, click the Project icon to open the user's Project Home page.
-3. On the user's Project Home page, take a screenshot of the projects listed in the Favorites and Recent sections.
+1. Log in to Office 365.
+2. In your browser, navigate to the URL **project.microsoft.com** to open your Project Home page.
+3. On the Project Home page, take a screenshot of the projects listed in the Favorites and Recent sections.
   
-    ![Unblocking the file](media/PJOProjHome.png)
+    ![ProjectHome](media/PJOProjHome.png)
 ## See Also
 <a name="ConsiderationsForMaster"> </a>
 
