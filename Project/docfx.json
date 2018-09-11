@@ -42,6 +42,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-ProjectServer"
+    "dest": "OfficeDocs-ProjectServer",
+    "markdownEngineName": "markdig"
   }
 }
