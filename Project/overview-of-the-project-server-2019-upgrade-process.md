@@ -36,9 +36,9 @@ Upgrading to Project Server 2019 Public Preview can be broken up into four steps
   
 2. Copy and move your databases from your Project Server 2016 database server to the database server that hosts your Project Server 2019 Public Preview installation. These databases are:
     
-  - Project Server 2016 databases
+   - Project Server 2016 databases
     
-  - SharePoint 2016 content database that contains your project site collections
+   - SharePoint 2016 content database that contains your project site collections
     
 3. Use the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to attach and upgrade the SharePoint 2016 content database containing your Project site data to the Project Server 2019 Public Preview.
     

@@ -72,10 +72,10 @@ If you have multiple Project Web App sites using the same content database, and 
   
 In the following example, Contoso is using Project Server 2013 and has three PWA sites that all use the same content database to store their data (ContentDB-A). When upgrading to Project Server 2016, the content database and all three associated Project databases need to be copied to the Project Server 2016 database server, and then attached and upgraded in the upgrade process.
   
-|**PWA site**|**Project database**|**Content database**|
-|:-----|:-----|:-----|
-|https://contoso/sites/PWA_A  <br/> |ProjectDB-A  <br/> |ContentDB-A  <br/> |
-|https://contoso/sites/PWA_B  <br/> |ProjectDB-B  <br/> |ContentDB-A  <br/> |
-|https://contoso/sites/PWA_C  <br/> |ProjectDB-C  <br/> |ContentDB-A  <br/> |
-   
+
+| **PWA site**                         | **Project database** | **Content database** |
+|:-------------------------------------|:---------------------|:---------------------|
+| <https://contoso/sites/PWA_A>  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
+| <https://contoso/sites/PWA_B>  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
+| <https://contoso/sites/PWA_C>  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |
 

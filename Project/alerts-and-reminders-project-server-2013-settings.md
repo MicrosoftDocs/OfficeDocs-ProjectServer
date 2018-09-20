@@ -48,15 +48,15 @@ In order to access and use the Alerts and Reminders Project Server settings page
     
 6. On the Alerts and Reminders page:
     
-  - Select **Turn on notification with the following settings** to maintain all of your notification email settings. You must select this option for your settings on this page to apply. Deselecting this option allows you to keep your configuration settings on the page, but have them be non-applicable.
+   - Select **Turn on notification with the following settings** to maintain all of your notification email settings. You must select this option for your settings on this page to apply. Deselecting this option allows you to keep your configuration settings on the page, but have them be non-applicable.
     
-  - For the **SMTP mail server** box, enter the server name. Verify the port used in the **Port** box (default value of 25). Change the Port value if your SMTP server uses a port other than the default port for SMTP (Port 25).
+   - For the **SMTP mail server** box, enter the server name. Verify the port used in the **Port** box (default value of 25). Change the Port value if your SMTP server uses a port other than the default port for SMTP (Port 25).
     
-  - In the **From address** box, enter the default email address from which the email will be sent. This address is the reply-to address for all notification and reminder emails.
+   - In the **From address** box, enter the default email address from which the email will be sent. This address is the reply-to address for all notification and reminder emails.
     
-  - In the **Company domain** box, type the domain name of your company (for example, Contoso.com).
+   - In the **Company domain** box, type the domain name of your company (for example, Contoso.com).
     
-  - In the E-mail footer box, type the default message that you want appended to all notification emails. For example: This email message may contain confidential information and is intended for the recipients named above.
+   - In the E-mail footer box, type the default message that you want appended to all notification emails. For example: This email message may contain confidential information and is intended for the recipients named above.
     
 7. Click **Save**.
     

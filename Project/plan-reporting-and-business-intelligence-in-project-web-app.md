@@ -29,7 +29,7 @@ Each instance of Project Web App includes a set of sample reports and templates.
 
 Excel reports are data-connected spreadsheets that you use to visualize the data retrieved from the Project Web App database or the associated OLAP databases. In Excel 2013, you can present data in Pivot Tables, or Pivot Charts, and have access to additional visualization features. The sample reports included with Project Web App use Office Data Connections to access and retrieve data from the Project Web App database and OLAP databases.
 
-##Dashboards in the Project Web App Business Intelligence Center
+## Dashboards in the Project Web App Business Intelligence Center
 
 You can build dashboard pages in the Project Web App Business Intelligence Center by using Web Parts to display Project Web App data. Using Web Parts, you can present Project Web App data by using several different options:
 - Excel Services

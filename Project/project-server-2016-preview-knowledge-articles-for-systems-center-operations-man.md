@@ -94,7 +94,7 @@ Alerts for Project Server 2013 and Project Server 2010:
 ## Project WFE to application server connection failed (SharePoint 2013 monitoring rule)
 <a name="ProjectApp"> </a>
 
- **Alert Name:**Project WFE to application server connection failed
+ <strong>Alert Name:</strong>Project WFE to application server connection failed
   
  **Summary:** This alert occurs when a Project Server front-end server cannot connect to a back-end server. Requests are no longer transferred from the front-end to the back-end.
   
@@ -121,7 +121,7 @@ Check standard connectivity on the faulty computers:
 ## Project WFE to application server connection failed
 <a name="ProjectApp2"> </a>
 
- **Alert Name:**Project WFE to application server connection failed
+ <strong>Alert Name:</strong>Project WFE to application server connection failed
   
  **Summary:** This alert occurs when a Project Server front-end server cannot connect to a back-end server. Requests are no longer transferred from the front-end to the back-end.
   

@@ -72,8 +72,7 @@ Learn how to plan, deploy, manage users in Project Server.
             </div>
         </div>
         </a>
-    </li>   
-</ul>
+    </li><br/></ul>
 
 ---
 
@@ -81,13 +80,13 @@ Learn how to plan, deploy, manage users in Project Server.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="/Project/software-requirements-for-project-server-2016">Software requirements</a></p><p><a href="/Project/project-server-2016-architecture">Project server architecture</a></p><p><a href="/Project/deploy-project-web-app-0">Deploy Project Web App</a></p><p><a href="/Project/windows-powershell-for-project-server-2016-cmdlet-reference">Project Server 2016 cmdlets</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <p><a href="/Project/software-requirements-for-project-server-2016">Software requirements</a></p><p><a href="/Project/project-server-2016-architecture">Project server architecture</a></p><p><a href="/Project/deploy-project-web-app-0">Deploy Project Web App</a></p><p><a href="/Project/windows-powershell-for-project-server-2016-cmdlet-reference">Project Server 2016 cmdlets</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>

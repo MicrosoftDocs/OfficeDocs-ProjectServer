@@ -56,7 +56,7 @@ In a single-machine deployment, one physical server plays all three of these rol
     > [!NOTE]
     > Project Server 2013 does not support scaling out the Database component through SQL replication. While it is possible to perform SQL mirroring on a Project SQL Server for the purposes of backing up data, Project Server 2013 is unable to take advantage of SQL replication to reduce read loads on the SQL Server. 
   
- **Recommended server role ratio:**
+  **Recommended server role ratio:**
   
 - As a general rule, a recommended ratio for maintaining a manageable load on the SQL Server is:
     
@@ -68,13 +68,13 @@ In a single-machine deployment, one physical server plays all three of these rol
     > [!NOTE]
     > The recommended ratio also varies based on the data set size, and the usage patterns. For example, larger data sets would constrain the ability to fan-out, requiring a smaller ratio of Web Front Ends and Application Server to the SQL Server. 
   
- **Isolate the Project Server database from SharePoint Server:**
+  **Isolate the Project Server database from SharePoint Server:**
   
 - As previously mentioned, it is possible to separate the Project Server database from the SharePoint databases, by placing it on its own dedicated database server.
     
 - We also recommend that you separate at the application tier level. While Project Server is a SharePoint service, we recommend that you have that application instance run on a dedicated server.
     
- **How to spend money on scaling up and out:**
+  **How to spend money on scaling up and out:**
   
 - As a general rule, in the early stages of scaling your Project Server deployment, you will want to invest primarily in purchasing additional memory. Most often, the subsequent areas you would want to invest in are disk spindles, and then network resources.
     
