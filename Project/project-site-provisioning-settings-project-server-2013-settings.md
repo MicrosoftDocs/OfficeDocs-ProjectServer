@@ -102,11 +102,11 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
 6. On the Project Site Provisioning Settings page, in the **Site creation settings** section, select one of the three **Provisioning mode** options:
     
-  - **Automatically create a project site on first publish**
+   - **Automatically create a project site on first publish**
     
-  - **Allow users to choose**
+   - **Allow users to choose**
     
-  - **Do not create a site**
+   - **Do not create a site**
     
 7. Click **Save**.
     

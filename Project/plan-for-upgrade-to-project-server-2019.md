@@ -29,7 +29,7 @@ In this article:
 - [ Upgrading multiple Project Web App sites](plan-for-upgrade-to-project-server-2019.md#MultPWA)
     
 > [!NOTE]
-<br/>For an overview of the steps in the upgrade process, see [Overview of the Project Server 2019 Public Preview upgrade process](overview-of-the-project-server-2019-upgrade-process.md).<br/> <br/>For details information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md). 
+> <br/>For an overview of the steps in the upgrade process, see [Overview of the Project Server 2019 Public Preview upgrade process](overview-of-the-project-server-2019-upgrade-process.md).<br/> <br/>For details information about the upgrade process, see [Upgrading to Project Server 2019 Public Preview](upgrading-to-project-server-2019.md). 
   
 ## Things you need to know about upgrading to Project Server 2019 Public Preview
 <a name="thingknow"> </a>
@@ -69,10 +69,10 @@ If you have multiple Project Web App sites using the same content database, and 
   
 In the following example, Contoso is using Project Server 2016 and has three PWA sites that all use the same content database to store their data (ContentDB-A). When upgrading to Project Server 2019, attached to the content database and then begin the upgrade process.
   
-|**PWA site**|**Project database**|**Content database**|
-|:-----|:-----|:-----|
-|https://contoso/sites/PWA_A  <br/> |ProjectDB-A  <br/> |ContentDB-A  <br/> |
-|https://contoso/sites/PWA_B  <br/> |ProjectDB-B  <br/> |ContentDB-A  <br/> |
-|https://contoso/sites/PWA_C  <br/> |ProjectDB-C  <br/> |ContentDB-A  <br/> |
-   
+
+| **PWA site**                         | **Project database** | **Content database** |
+|:-------------------------------------|:---------------------|:---------------------|
+| <https://contoso/sites/PWA_A>  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
+| <https://contoso/sites/PWA_B>  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
+| <https://contoso/sites/PWA_C>  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |
 

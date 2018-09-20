@@ -54,15 +54,15 @@ The first stage in upgrading to Project Server 2013 is to create the new Project
     
 2. With the PWA site collection set to read-only mode on the Project Server 2010 farm, the database administrator creates backup copies of the databases required for upgrade. These include the following:
     
-  - Project Server 2010 Archive
+   - Project Server 2010 Archive
     
-  - Project Server 2010 Draft
+   - Project Server 2010 Draft
     
-  - Project Server 2010 Published
+   - Project Server 2010 Published
     
-  - Project Server 2010 Reporting
+   - Project Server 2010 Reporting
     
-  - SharePoint content database that contains the Project Web App site data
+   - SharePoint content database that contains the Project Web App site data
     
 > [!NOTE]
 > For more information about copying your Project Server 2010 farm databases for upgrade, see [Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013](http://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx). 

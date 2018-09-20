@@ -42,7 +42,7 @@ Note that all of the chapters in the "Project Web App Settings in SharePoint Cen
 The Microsoft Project Server 2013 Administrator's Guide contains the following chapters and appendices:
   
 > Introduction
-    
+> 
 > Part 1: Project Web App Settings in Project Server 2013
     
     - Chapter 1, "Personal Settings"

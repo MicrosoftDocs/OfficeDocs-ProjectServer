@@ -268,7 +268,7 @@ For database servers, Project Server 2013 (and SharePoint Server 2013) supports 
 - SQL Server 2012 (64-bit)
 - SQL Server 2008 R2 with Service Pack 1 (SP1) (64-bit)  
 - SQL Server 2014 (64-bit)   
-> NOTE - SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           
+  > NOTE - SQL Server 2014 support requires Project Server 2013 with Service Pack 1.           
    
 The following components of SQL Server are required:
   
@@ -286,8 +286,8 @@ If you plan to upgrade from a Project Server 2010 environment, be aware that Pro
   
 > [!NOTE]
 >  For more information about SQL Server, see the following Microsoft TechNet Home pages:
-- [SQL Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx)
-- [SQL Server 2012](https://technet.microsoft.com/library/hh231622(v=sql.110).aspx)
+> - [SQL Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx)
+> - [SQL Server 2012](https://technet.microsoft.com/library/hh231622(v=sql.110).aspx)
   
 ### Software requirements for Project Server 2013 feature usage
 

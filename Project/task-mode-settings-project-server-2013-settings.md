@@ -41,17 +41,17 @@ Manually scheduled tasks (also known as "User-Controlled Scheduling") were intro
     
 6. In the Task Mode Settings section:
     
-1. Select **Manually Scheduled tasks can be published to team members** (which is enabled by default) if you want to allows project managers to publish their manually scheduled task to team members.
+7. Select **Manually Scheduled tasks can be published to team members** (which is enabled by default) if you want to allows project managers to publish their manually scheduled task to team members.
     
-2. For **Default task mode in new projects**, select one of the two following settings:
+8. For **Default task mode in new projects**, select one of the two following settings:
     
-  - **Manually Scheduled** You have to enter duration, start, and finish dates for your tasks. By default, this option is selected.
+   - **Manually Scheduled** You have to enter duration, start, and finish dates for your tasks. By default, this option is selected.
     
-  - **Automatically Scheduled** The scheduling engine automatically calculates durations and start dates and finish dates for your tasks.
+   - **Automatically Scheduled** The scheduling engine automatically calculates durations and start dates and finish dates for your tasks.
     
-3. Select **Users can override default in Project Professional** (which is enabled by default) if you want to enable your Project Professional 2013 users to override the default task mode settings that you selected.
+9. Select **Users can override default in Project Professional** (which is enabled by default) if you want to enable your Project Professional 2013 users to override the default task mode settings that you selected.
     
-7. Click **Save**.
+10. Click **Save**.
     
 ## See also
 

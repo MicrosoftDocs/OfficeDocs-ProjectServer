@@ -39,9 +39,9 @@ description: "Summary: Use the Resource Plan Work Day settings in Central Admini
     
 6. On the Additional Server Settings page, in the Resource Plan Work Day section, for **Calculate resource full-time equivalent from**, select one of the two options:
     
-  - **Resource base calendars** Use this option if you want the full-time equivalents to be calculated from each resources base calendar. This is the default option.
+   - **Resource base calendars** Use this option if you want the full-time equivalents to be calculated from each resources base calendar. This is the default option.
     
-  - **Hours per day** Use this option if you want to specify the full-time equivalents for your resources in the resource plan. After selecting this option, enter the value (in hours) of the standard work day for your organization. Note that this value is used for all resources in the resource plan.
+   - **Hours per day** Use this option if you want to specify the full-time equivalents for your resources in the resource plan. After selecting this option, enter the value (in hours) of the standard work day for your organization. Note that this value is used for all resources in the resource plan.
     
 7. Click **Save**.
     
