@@ -45,11 +45,11 @@ You can also select the currency settings for publishing:
     
 6. On the Additional Server Settings page, in the **Currency Settings** section, select one of the following currency options:
     
-  - **Allow projects to be published in various currencies** (Selected by default).
+   - **Allow projects to be published in various currencies** (Selected by default).
     
-  - **Enforce that projects are published in the server currency**
+   - **Enforce that projects are published in the server currency**
     
-    If you select **Enforce that projects are published in the server currency**, you see a message. This message box warns you that the change is only be enforced on all successive projects that are published to the server. All projects that are not using the default server currency must be changed to the default currency and republished. 
+     If you select **Enforce that projects are published in the server currency**, you see a message. This message box warns you that the change is only be enforced on all successive projects that are published to the server. All projects that are not using the default server currency must be changed to the default currency and republished. 
     
 7. Click **OK**.
     

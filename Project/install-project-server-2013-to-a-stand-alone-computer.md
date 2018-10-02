@@ -69,8 +69,8 @@ Once SharePoint Server 2013 is installed, the next step is to install Project Se
 ## To install Project Server 2013
 
 1. On the SharePoint Server 2013 DVD, run **default.hta**.  The Setup menu opens.
-> [!NOTE]
-> default.hta may run automatically when you insert the disk.
+   > [!NOTE]
+   > default.hta may run automatically when you insert the disk.
 2. On the Start page, click **Install Project Server**.
 3. On the **Enter your Product Key** page, type your product key, and then click **Continue**.
 4. In the **End User License Agreement** page, review the terms of the agreement. To accept the agreement, select the **I accept the terms of this agreement** check box.
@@ -81,7 +81,7 @@ Once SharePoint Server 2013 is installed, the next step is to install Project Se
 9. On the warning dialog box, click **Yes**.
 10. On the **Configuration Successful** page, click **Finish**.
  
- When the SharePoint Products Configuration Wizard finishes, the system will automatically create a PWA site. This may take several minutes. When the site has been created, it can be accessed at http://<servername>/pwa.
+    When the SharePoint Products Configuration Wizard finishes, the system will automatically create a PWA site. This may take several minutes. When the site has been created, it can be accessed at http://<servername>/pwa.
 
 > [!NOTE]
 > The account that you used to install Project Server is automatically added to the Project Server Administrators group.

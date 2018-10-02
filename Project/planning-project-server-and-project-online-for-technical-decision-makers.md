@@ -124,7 +124,7 @@ Consider the following when you plan your enterprise custom fields:
     
 - While local custom fields are specific to a project, it's important to realize that enterprise custom fields are available in all projects in Project Web App. So when you create a custom field, consider how many projects you'll use it in to determine if you should make it a local or enterprise custom field.
     
- **Custom fields and system performance**
+  **Custom fields and system performance**
   
 There are some circumstances where using custom fields can cause a noticeable reduction in performance, both in Project Server and in Project Online. Keep these in mind when you plan your custom fields.
   

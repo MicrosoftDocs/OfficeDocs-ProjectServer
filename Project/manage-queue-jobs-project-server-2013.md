@@ -94,9 +94,9 @@ You can use the **Maximum Number of Jobs** field to limit the number of jobs tha
 
 1. On the Manage Queue Jobs page, in the **Job History** section, specify the following values:
     
-  - In the **From** field, specify the start date for which you want jobs to appear in the Jobs Grid. You can also click the calendar icon to select a start date.
+   - In the **From** field, specify the start date for which you want jobs to appear in the Jobs Grid. You can also click the calendar icon to select a start date.
     
-  - In the **To** field, specify the end date for which you want jobs to appear in the Jobs Grid. You can also click the calendar icon to select an end date.
+   - In the **To** field, specify the end date for which you want jobs to appear in the Jobs Grid. You can also click the calendar icon to select an end date.
     
 2. In the **Maximum number of jobs per queue** box, you can specify the maximum number of jobs that you want to display. The default value is 500.
     
@@ -111,9 +111,9 @@ The **Job Types** configuration option lets you select the type of job (for exam
 
 1. On the Manage Queue Jobs page, in the **Job Types** section:
     
-  - If you want to keep certain job types from appearing in the Jobs Grid, from the **Selected Jobs** list, select the job types that you do not want to appear in the Jobs Grid, and then click **Remove**. (This action moves the selected job types to the **Available Jobs** list.) Click **Remove All** if you want to remove all job types from the **Selected Jobs** list.
+   - If you want to keep certain job types from appearing in the Jobs Grid, from the **Selected Jobs** list, select the job types that you do not want to appear in the Jobs Grid, and then click **Remove**. (This action moves the selected job types to the **Available Jobs** list.) Click **Remove All** if you want to remove all job types from the **Selected Jobs** list.
     
-  - If you want to add jobs types to the Jobs Grid, from the **Available Jobs** list, select the job types that you want to appear in the Jobs Grid, and then click **Add**. This action moves the selected job types to the **Selected Jobs** list. Click **Add All** if you want to add all job types to the **Selected Jobs** list.
+   - If you want to add jobs types to the Jobs Grid, from the **Available Jobs** list, select the job types that you want to appear in the Jobs Grid, and then click **Add**. This action moves the selected job types to the **Selected Jobs** list. Click **Add All** if you want to add all job types to the **Selected Jobs** list.
     
 2. In the Jobs Grid, click **Refresh Status**.
     
@@ -156,9 +156,9 @@ The **Job Completion** states that you can select for this setting are as follow
 
 1. On the Manage Queue Jobs page, in the **Job Completion States** section, add all job states that you want to display in the Jobs Grid to the **Selected Job States** list. Job states that are shown in the **Available Job States** list will not appear in the Job Grid.
     
-  - To move an available job state in the **Available Job States** list to the **Selected Job States** list, select the job and then click **Add**.
+   - To move an available job state in the **Available Job States** list to the **Selected Job States** list, select the job and then click **Add**.
     
-  - To remove a job state from the **Selected Job States** list, select the job and then click **Remove**. To select multiple job states press the Ctrl key while making your selections.
+   - To remove a job state from the **Selected Job States** list, select the job and then click **Remove**. To select multiple job states press the Ctrl key while making your selections.
     
 2. In the Jobs Grid, click **Refresh Status**.
     
@@ -211,9 +211,9 @@ The column options available to you are as follows:
 
 1. On the Manage Queue Jobs page, in the **Columns** section, add all columns that you want to display in the Jobs Grid to the **Selected Columns** list. Columns that are shown in the **Available Columns** list will not appear in the Job Grid.
     
-  - To move a column in the **Available Columns** list to the **Selected Columns** list, select the column name and then click the **Add** button (">").
+   - To move a column in the **Available Columns** list to the **Selected Columns** list, select the column name and then click the **Add** button (">").
     
-  - To remove a column from the **Selected Columns** list, select the column and then click the **Remove** button ("<"). To select multiple columns, press the Ctrl key while making your selections. You can also move all columns from one list to another by using the **Add All** (">>") or the **Remove All** ("<<") buttons.
+   - To remove a column from the **Selected Columns** list, select the column and then click the **Remove** button ("<"). To select multiple columns, press the Ctrl key while making your selections. You can also move all columns from one list to another by using the **Add All** (">>") or the **Remove All** ("<<") buttons.
     
 2. In the Jobs Grid, click **Refresh Status**.
     

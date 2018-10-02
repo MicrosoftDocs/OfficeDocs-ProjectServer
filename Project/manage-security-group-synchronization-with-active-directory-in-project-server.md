@@ -100,19 +100,19 @@ You can schedule the frequency that Active Directory synchronization to PWA secu
     
 4. On the Edit Timer Job page for the job, in the **Recurring Schedule** section, you can configure when the synchronization will run on a recurring basis. In the **This timer job is scheduled to run** section, you can select one of the following options, based on your organization's requirements:
     
-  - **Minutes**: Allows you to specify a frequency in which the job will run — **Every x minutes**. 
+   - **Minutes**: Allows you to specify a frequency in which the job will run — **Every x minutes**. 
     
-  - **Hourly**: Allows you to specify an interval in which the job will randomly run — **Starting every hour between x minutes past the hour and no later than y minutes past the hour**.
+   - **Hourly**: Allows you to specify an interval in which the job will randomly run — **Starting every hour between x minutes past the hour and no later than y minutes past the hour**.
     
-  - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between <time of day> and no later than <time of day>**.
+   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between <time of day> and no later than <time of day>**.
     
-  - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between <day of week and time of day> and no later than <day of week and time of day>**.
+   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between <day of week and time of day> and no later than <day of week and time of day>**.
     
-  - **Monthly**: Provides two options:
+   - **Monthly**: Provides two options:
     
-  - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between <time of day and day of month> and no later than <time of day and day of month>**.
+   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between <time of day and day of month> and no later than <time of day and day of month>**.
     
-  - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month**. For example, **12:00AM on the first Sunday**.
+   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month**. For example, **12:00AM on the first Sunday**.
     
 5. Click **OK** to save your configuration changes.
     

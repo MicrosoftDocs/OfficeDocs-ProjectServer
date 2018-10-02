@@ -32,11 +32,11 @@ Use the following procedure to delete a project from Project Web App.
     
 4. Select one of the following options:
     
-  - **Delete draft and published projects** to display a list of both Draft and Published projects.
+   - **Delete draft and published projects** to display a list of both Draft and Published projects.
     
-  - **Delete only published projects** to display a list of Published projects.
+   - **Delete only published projects** to display a list of Published projects.
     
-  - **Delete archived projects** to display a list of Archived projects.
+   - **Delete archived projects** to display a list of Archived projects.
     
 5. To delete the associated SharePoint site, select the **Delete the connected SharePoint sites** check box.
     

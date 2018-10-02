@@ -61,17 +61,17 @@ After you complete the procedures, the Enterprise Project Types page displays th
     
 4. On the Add Enterprise Project Type page, enter the information needed for the SharePoint Tasks List enterprise project type:
     
-  - For the **Name** field, typeSharePoint Tasks List.
+   - For the **Name** field, typeSharePoint Tasks List.
     
-  - For the **Description** field, typeUse this type to create a SharePoint Tasks List Project with some basic information (like name, start date, end date) and a schedule.
+   - For the **Description** field, typeUse this type to create a SharePoint Tasks List Project with some basic information (like name, start date, end date) and a schedule.
     
-  - In the **SharePoint Tasks List Project** section, select **Create new projects as SharePoint Tasks List Projects**.
+   - In the **SharePoint Tasks List Project** section, select **Create new projects as SharePoint Tasks List Projects**.
     
-  - In the **New Project Page/Project Details Pages** section, in the **New Project Page** list, select **Project Details**. In the **Available Project Details Pages** list, move **Project Details** and **Schedule** to the box on the right. Use the Up/Down buttons to ensure that Project Details is listed first and Schedule is listed second.
+   - In the **New Project Page/Project Details Pages** section, in the **New Project Page** list, select **Project Details**. In the **Available Project Details Pages** list, move **Project Details** and **Schedule** to the box on the right. Use the Up/Down buttons to ensure that Project Details is listed first and Schedule is listed second.
     
-  - In the **Defaults** section, select **Use this as the default Enterprise Project Type during Project Creation**.
+   - In the **Defaults** section, select **Use this as the default Enterprise Project Type during Project Creation**.
     
-  - In the **Image** section, in the **Type the URL** field, type/_layouts/15/inc/pwa/images/CenterNormalProject.png. This specifies the location of the default image for the SharePoint Tasks List EPT. Click **Click here to test** to verify that the image is found in the default location.
+   - In the **Image** section, in the **Type the URL** field, type/_layouts/15/inc/pwa/images/CenterNormalProject.png. This specifies the location of the default image for the SharePoint Tasks List EPT. Click **Click here to test** to verify that the image is found in the default location.
     
 5. Leave each of the other options with the default value, and then click **Save**.
     

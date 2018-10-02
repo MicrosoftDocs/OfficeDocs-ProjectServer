@@ -30,11 +30,11 @@ When user delegation is turned on, you can set permissions to control the specif
     
 4. Choose any additional delegation permissions that meet your organization's needs:
     
-  - **Manage My Resource Delegations** Select this check box to enable users to set up delegations for other users.
+   - **Manage My Resource Delegations** Select this check box to enable users to set up delegations for other users.
     
-  - **Manage My Delegations** Select this check box to enable users to create delegations for themselves.
+   - **Manage My Delegations** Select this check box to enable users to create delegations for themselves.
     
-  - **Can be Delegate** Select this check box to enable a user to become a delegate for another user, after a delegation has been created.
+   - **Can be Delegate** Select this check box to enable a user to become a delegate for another user, after a delegation has been created.
     
 5. Click **Save** to save the permissions on the server.
     

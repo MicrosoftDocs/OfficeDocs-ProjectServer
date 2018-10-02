@@ -32,11 +32,11 @@ In Project Web App, there are user- or group-level permissions that enable you t
     
 5. In the **Global Permissions** section, under **Resource**, choose the appropriate permissions for this user.
     
-  - **Can be Delegate** Select the **Allow** check box for this permission to enable this user to become a delegate for another user.
+   - **Can be Delegate** Select the **Allow** check box for this permission to enable this user to become a delegate for another user.
     
-  - **Manage My Delegations** Select the **Allow** check box for this permission to enable this user to create his or her own delegations.
+   - **Manage My Delegations** Select the **Allow** check box for this permission to enable this user to create his or her own delegations.
     
-  - **Manage My Resource Delegations** Select the **Allow** check box for this permission to enable this user to set up delegations for other users.
+   - **Manage My Resource Delegations** Select the **Allow** check box for this permission to enable this user to set up delegations for other users.
     
 6. Click **Save** to save the permissions on the server.
     
@@ -52,11 +52,11 @@ In Project Web App, there are user- or group-level permissions that enable you t
     
 5. In the **Global Permissions** section, under **Resource**, choose the appropriate permissions for this group.
     
-  - **Can be Delegate** Select the **Allow** check box for this permission to enable members of this group to become delegates for other users.
+   - **Can be Delegate** Select the **Allow** check box for this permission to enable members of this group to become delegates for other users.
     
-  - **Manage My Delegations** Select the **Allow** check box for this permission to enable members of this group to create their own delegations.
+   - **Manage My Delegations** Select the **Allow** check box for this permission to enable members of this group to create their own delegations.
     
-  - **Manage My Resource Delegations** Select the **Allow** check box for this permission to enable members of this group to set up delegations for other users.
+   - **Manage My Resource Delegations** Select the **Allow** check box for this permission to enable members of this group to set up delegations for other users.
     
 6. Click **Save** to save the permissions on the server.
     

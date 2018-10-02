@@ -34,31 +34,31 @@ Because of the rich functionality set that Project Server provides, deployments 
   
 1. Projects:
     
-  - Number of projects
+   - Number of projects
     
-  - Typical project sizes in terms of tasks
+   - Typical project sizes in terms of tasks
     
-  - Number of project level custom fields
+   - Number of project level custom fields
     
-  - Level of linking (dependencies) between tasks
+   - Level of linking (dependencies) between tasks
     
 2. Users:
     
-  - Concurrency of users. How many users will be hitting the system at the same time? What is the average load, what are the spikes in traffic?
+   - Concurrency of users. How many users will be hitting the system at the same time? What is the average load, what are the spikes in traffic?
     
-  - What security permissions do users have? This affects both the amount of data the server needs to present to the user at a given time, along with the complexity of the security checks the server has to do.
+   - What security permissions do users have? This affects both the amount of data the server needs to present to the user at a given time, along with the complexity of the security checks the server has to do.
     
-  - Geographic distribution of users. When users are spread over large geographical areas there can be detrimental performance effects due to network latency. This also impacts usage patterns insofar as users are likely to hit servers at different times during the day, making it harder to find low-traffic periods in which to run maintenance tasks such as backups, reporting, or Active Directory sync.
+   - Geographic distribution of users. When users are spread over large geographical areas there can be detrimental performance effects due to network latency. This also impacts usage patterns insofar as users are likely to hit servers at different times during the day, making it harder to find low-traffic periods in which to run maintenance tasks such as backups, reporting, or Active Directory sync.
     
 3. Usage patterns:
     
-  - Workload conditions. Which set of features are being commonly utilized? For example, a deployment that uses time-sheeting heavily will have different characteristics than one that does not use time-sheeting.Number of projects
+   - Workload conditions. Which set of features are being commonly utilized? For example, a deployment that uses time-sheeting heavily will have different characteristics than one that does not use time-sheeting.Number of projects
     
-  - Average time between page requests.
+   - Average time between page requests.
     
-  - Average session time.
+   - Average session time.
     
-  - Payload of Pages (How many Web Parts do you have on a given page? How much data do they contain?)
+   - Payload of Pages (How many Web Parts do you have on a given page? How much data do they contain?)
     
 To help you in your capacity planning, we define three data sets, which we have found to characterize small, medium, and large Project Server deployments. For each of these data sets, we then recommend one of three "rule-of-thumb" hardware topologies that should approximately satisfy the needs of similar datasets. With these starting point topologies in mind, we highlight factors that may require you to adjust these hardware topologies, outlining how you should evaluate if you need to decrease or increase the allocated resources to scale to your particular needs. 
   
@@ -77,9 +77,9 @@ The approach you should take in your capacity planning is as follows:
     
 5. Depending on your chosen topology, your dataset, your usage patterns, and the performance metrics you observe, follow the recommendations on scaling given in the following articles:
     
-  - [Scaled-up and scaled-out topologies in Project Server 2013](scaled-up-and-scaled-out-topologies-in-project-server-2013.md) : This article gives advice regarding the type of strategy you should pursue when scaling depending on your current needs. Should you purchase additional servers, or should you purchase additional resource capacity (memory, CPU, disk) for the servers you already have?
+   - [Scaled-up and scaled-out topologies in Project Server 2013](scaled-up-and-scaled-out-topologies-in-project-server-2013.md) : This article gives advice regarding the type of strategy you should pursue when scaling depending on your current needs. Should you purchase additional servers, or should you purchase additional resource capacity (memory, CPU, disk) for the servers you already have?
     
-  - Common Project Server 2013 Bottlenecks and their Causes: This section in the [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md) topic describes the likely source of bottlenecks in your system, how you might spot them through monitoring, and how issues related to these bottlenecks can commonly be resolved.
+   - Common Project Server 2013 Bottlenecks and their Causes: This section in the [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md) topic describes the likely source of bottlenecks in your system, how you might spot them through monitoring, and how issues related to these bottlenecks can commonly be resolved.
     
 ## See also
 
