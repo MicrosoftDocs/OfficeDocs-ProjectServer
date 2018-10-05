@@ -217,7 +217,7 @@
 ### [Default group permissions in Project Server 2013](default-group-permissions-in-project-server-2013.md)
 ### [SharePoint Permissions Mode default permissions for Project Server 2013 SharePoint groups](sharepoint-permissions-mode-default-permissions-for-project-server-2013-sharepoi.md)
 ### [Project Server knowledge articles](project-server-2016-preview-knowledge-articles-for-systems-center-operations-man.md)
-### [Maintain user information]()
+### Maintain user information
 #### [Export user data from Project Server](export-user-data-from-project-server.md)
 #### [Delete user data from Project Server](delete-user-data-from-project-server.md)
 #### [Export user data from Project Server 2019](export-user-data-in-project-server-2019.md)
