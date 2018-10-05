@@ -70,8 +70,7 @@ description: Project
                                         </div>
                                     </div>
                                 </a>
-                            </li>                                                     
-                             <li>
+                            </li><br/>                             <li>
                                 <a href="https://support.office.com/project">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -89,8 +88,7 @@ description: Project
                                         </div>
                                     </div>
                                 </a>
-                            </li>                
-                       </ul>
+                            </li><br/>                       </ul>
                     </li>
                 </ul>
             </li>

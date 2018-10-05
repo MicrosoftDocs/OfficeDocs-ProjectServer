@@ -50,11 +50,11 @@ An administrator can use the [Add-SPShellAdmin](https://docs.microsoft.com/en-us
     
 3. From the Powershell commmand prompt, type the following syntax to enable Project Server 2016 or 2019:
     
-  ```
-  Enable-ProjectServerLicense -Key <LicenseKey>
-  ```
+   ```
+   Enable-ProjectServerLicense -Key <LicenseKey>
+   ```
 
- **Creating a service application**
+   **Creating a service application**
   
 Project Server runs as a service application in SharePoint Server, so the first thing to do is check to see if you already have a Project Server Service Application configured.
   

@@ -24,10 +24,10 @@ description: "Summary: Use these articles to learn more about new features avail
 
 The following articles about Project Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-|**![What's new icon (box)](images/mod_icon_whatsNew_1_M.png) Content**|
-|:-----|
-|[What's new for IT pros in Project Server 2016](what-s-new-for-it-pros-in-project-server-2016.md) <br/> 
-|[What's new for IT pros in Project Server 2013] (what-s-new-for-it-pros-in-project-server-2013.md)<br/>
-|[What's deprecated or removed in Project Server 2016](what-s-deprecated-or-removed-in-project-server-2016.md) <br/> |
-   
+
+| **![What's new icon (box)](images/mod_icon_whatsNew_1_M.png) Content**                                              |
+|:--------------------------------------------------------------------------------------------------------------------|
+| [What's new for IT pros in Project Server 2016](what-s-new-for-it-pros-in-project-server-2016.md) <br/>             |
+| [What's new for IT pros in Project Server 2013](what-s-new-for-it-pros-in-project-server-2013.md)<br/>              |
+| [What's deprecated or removed in Project Server 2016](what-s-deprecated-or-removed-in-project-server-2016.md) <br/> |
 

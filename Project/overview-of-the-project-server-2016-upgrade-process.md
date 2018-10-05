@@ -36,9 +36,9 @@ Upgrading to Project Server 2016 can be broken up into six steps. These include:
   
 2. Copy and move your databases from your Project Server 2013 database server to the database server that hosts your Project Server 2016 installation. These databases are:
     
-  - Project Server 2013 databases
+   - Project Server 2013 databases
     
-  - SharePoint 2013 content database that contains your project site collections
+   - SharePoint 2013 content database that contains your project site collections
     
 3. Use the **Mount-SPContentDatabase** PowerShell cmdlet to attach and upgrade the SharePoint 2013 content database containing your Project site data to the Project Server 2016.
     

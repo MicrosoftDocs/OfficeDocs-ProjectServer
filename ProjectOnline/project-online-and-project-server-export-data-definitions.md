@@ -47,12 +47,9 @@ You will receive three lists of projects contained in the Project Draft, Publish
     
 This data includes:
   
-
-|:-----|
-|**Description** <br/> |
-|List of projects from the Draft schema that corresponds to the conditions above.  <br/> |
-|List of projects from the Published schema that corresponds to the conditions above.  <br/> |
-|List of projects from the Reporting schema that corresponds to the conditions above.  <br/> |
+- List of projects from the Draft schema that corresponds to the conditions above.
+- List of projects from the Published schema that corresponds to the conditions above.
+- List of projects from the Reporting schema that corresponds to the conditions above. 
    
 The list of projects may differ slightly for each of the three files. For example, a user can save the project and not publish, meaning that it will appear in the Draft projects list, but not the Published or Reporting projects lists.
   
@@ -2396,7 +2393,6 @@ Reporting_AssignmentBaselineTimephased contains the properties that define the r
 |AssignmentBaselineBudgetMaterialWork  <br/> |The planned number of units of the supplies or other consumable items that are to be used to complete an assignment.  <br/> |
 |AssignmentBaselineModifiedDate  <br/> |Date and time the assignment baseline was last modified.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ResourceId  <br/> |Unique identifier for the resource.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
@@ -2415,7 +2411,6 @@ Reporting_AssignmentTimephased contains the properties that define the reporting
 |ProjectUID  <br/> |Unique identifier for the project for the assignment timephased data.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task for the assignment timephased data.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ResourceId  <br/> |Unique identifier for the resource.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
@@ -2711,7 +2706,6 @@ Reporting_TaskBaselineTimephased contains the properties that define the reporti
 |TaskBaselineBudgetWork  <br/> |The planned, budgeted amount of work on a task.  <br/> |
 |TaskBaselineModifiedDate  <br/> |The date and time the task was last updated.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
    
@@ -2727,7 +2721,6 @@ Reporting_TaskTimephased contains the properties that define the reporting data 
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
 |T.FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskIsActive  <br/> |True if the task is active.  <br/> |
 |TaskIsProjectSummary  <br/> |True if the task is a project summary task.  <br/> |

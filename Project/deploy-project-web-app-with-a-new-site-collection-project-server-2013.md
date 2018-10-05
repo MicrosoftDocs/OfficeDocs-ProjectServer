@@ -39,17 +39,17 @@ If a top-level web site does not exist for the web application where you want to
 
 1. Start SharePoint 2013 Central Administration.
     
-  - For Windows Server 2008 R2:
+   - For Windows Server 2008 R2:
     
-  - Click **Start**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Central Administration**.
+   - Click **Start**, click **Microsoft SharePoint 2013 Products**, and then click **SharePoint 2013 Central Administration**.
     
-  - For Windows Server 2012:
+   - For Windows Server 2012:
     
-  - On the **Start** screen, click **SharePoint 2013 Central Administration**.
+   - On the **Start** screen, click **SharePoint 2013 Central Administration**.
     
-    If **SharePoint 2013 Central Administration** is not on the **Start** screen:
+     If **SharePoint 2013 Central Administration** is not on the **Start** screen:
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2013 Central Administration**.
+   - Right-click **Computer**, click **All apps**, and then click **SharePoint 2013 Central Administration**.
     
 2. In Central Administration, in the **Application Management** section, click **Create site collections**.
     
@@ -190,7 +190,7 @@ After the Project Web App site has been provisioned, verify that it was created 
     
 5. From the Microsoft PowerShell command prompt (that is, PS C:\\>), type the following command and then press ENTER:
     
-    **Get-SPSite -ContentDatabase** _<ContentDatabaseName>_
+    **Get-SPSite -ContentDatabase** *<ContentDatabaseName>*
     
     The command should return the URL for your Project Web App site and no other URLs.
     
