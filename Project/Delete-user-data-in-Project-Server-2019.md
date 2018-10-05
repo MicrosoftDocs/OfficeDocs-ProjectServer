@@ -97,7 +97,7 @@ Process Overview
 
 5.  **Sync workspace items into Project Server**:
 
-6.  **Perform an export of the user's data**: This procedures is described in [Export user data from Project Server 2019 Public Preview](export-user-data-from-project-server-2019.md).
+6.  **Perform an export of the user's data**: This procedures is described in [Export user data in Project Server 2019 Public Preview](export-user-data-in-project-server-2019.md).
 
 7.  **Delete user personal data from Issues and Risks**:
 
