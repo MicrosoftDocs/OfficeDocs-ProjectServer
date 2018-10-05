@@ -10,7 +10,7 @@ localization_priority: Normal
 
 description: "Learn how an Farm admin can delete a specific user's data from a Project Server 2019 Public Preview environment."
 ---
-
+# Delete user data from Project Server 2019 Public Preview
 
 > **Important!**: The process to delete user data from Project Server 2019 Public Preview is very different from the process used for Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to delete user data from previous versions of Project Server, see [Delete user data from Project Server](delete-user-data-from-project-server.md).
 
