@@ -269,14 +269,14 @@ The **Invoke** cmdlet uses the following paramaters:
 <td align="left">Required</td>
 </tr>
 <tr class="even">
-<td align="left">-LoginName</td>
+<td align="left">-ClaimsAccount</td>
 <td align="left">ClaimsAccount of the user.</td>
-<td align="left">Either LoginName or ResourceID is required.</td>
+<td align="left">Either Claims Account or ResourceID is required.</td>
 </tr>
 <tr class="odd">
 <td align="left">-ResourceId</td>
 <td align="left">Resource GUID of the user.</td>
-<td align="left">Either LoginName or ResourceID is required.</td>
+<td align="left">Either Claims Account or ResourceID is required.</td>
 </tr>
 <tr class="even">
 <td align="left">-UpdateDisplayName</td>
@@ -300,13 +300,12 @@ Using this command will remove the user's data from the PWA site, except for the
 Note that you can specify the user either by claims account or Resource ID.
 
 #### Use the Claims Account  
-Use the cmdlet the following way if you are specifying the user by logon name:
+Use the cmdlet the following way if you are specifying the user by Claims Account
+> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>*
 
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -LoginName \<ClaimsAccount\>*
+For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name.
 
-For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name
-
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -LoginName “i:0\#.w|contoso\\evac”  
+> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
 > *
 
 When running this command, a message will display asking you to confirm if you want to proceed.
@@ -331,17 +330,17 @@ After you confirm and the script successfully completes, a message will display 
 
 Using this command will remove the user data of a user from the Project Online instance, and will change the user's display name to something of their choosing, and this will also occur in timesheet records. Your organization may want to change the user's display name to something that will make the user's identity anonymous, such as "Deleted User".
 
-Note that you can specify the user either by logon name or Resource ID.
+Note that you can specify the user either by Claims Account or Resource ID.
 
 #### Use the Claims Account
 
 Use the cmdlet the following way if you are specifying the user by logon name:
 
-> Invoke-RedactProjectUser -Url \<PWASiteURL\> -LoginName \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
+> Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
 
 For example, the following will remove all user data for *evac@contoso.onmicrosoft.com* and will change his display name to "*Deleted User*" throughout the *https://contoso.sharepoint.com/sites/pwa* site.
 
-Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -LoginName “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $true
+Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $true
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
@@ -365,21 +364,21 @@ After you confirm and the script successfully completes, a message will display 
 
 Using this command will remove the user's data from the Project Web App site, and will change the user's display name to something you specify, **but this will not occur in timesheet records**. Your organization may want to later analyze if they have a business reason to retain the users display name in their timesheet records.
 
-Note that you can specify the user either by logon name or Resource ID.
+Note that you can specify the user either by Claims Account or Resource ID.
 
 #### Use the Claims Account
 
-Use the cmdlet the following way if you are specifying the user by logon name:
+Use the cmdlet the following way if you are specifying the user by Claims Account:
 
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -LoginName \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
+> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
 
 For example, the following will remove all data for *evac@contoso.onmicrosoft.com* and will change his display name to "*Deleted User*" throughout the *https://contoso.sharepoint.com/sites/pwa* site, except in timesheet records.
 
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -LoginName “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
+> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
-After you confirm and the script successfully completes, a message will display stating: After you confirm and the script successfully completes, a message will display stating: All data for resource \<user's Resource ID\> has been removed and the name of the resource has been changed to \<updated display name\> everywhere except for timesheet records.
+After you confirm and the script successfully completes, a message will display stating: After you confirm and the script successfully completes, a message will display stating: All data for resource \<user's login name\> has been removed and the name of the resource has been changed to \<updated display name\> everywhere except for timesheet records.
 
 #### Use the Resource ID
 

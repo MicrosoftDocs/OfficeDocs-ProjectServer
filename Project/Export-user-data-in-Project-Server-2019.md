@@ -1,5 +1,5 @@
 ---
-title: "Export user data from Project Server 2019 Public Preview"
+title: "Export user data from Project Server 2019"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -7,17 +7,17 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal
-description: "Learn how your organization can export a specific user's content from your Project Server 2019 Public Preview environment."
+description: "Learn how your organization can export a specific user's content from your Project Server 2019 environment."
 ---
-# Export user data from Project Server 2019 Public Preview
+# Export user data from Project Server 2019
 
-> **Important!**: The process to export user data from Project Server 2019 Public Preview is very different from the process used for Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to export user data from previous versions of Project Server, see [Export user data from Project Server](export-user-data-from-project-server.md).
+> **Important!**: The process to export user data from Project Server 2019 is very different from the process used for Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to export user data from previous versions of Project Server, see [Export user data from Project Server](export-user-data-from-project-server.md).
 
 
 Process Overview
 ----------------
 
-<span id="Overview" class="anchor"></span>The following is an overview of the process to export a specific user's information from a Project Web App site in Project Server 2019 Public Preview:
+<span id="Overview" class="anchor"></span>The following is an overview of the process to export a specific user's information from a Project Web App site in Project Server 2019:
 
 1.  **Download the export scripts**: Download the .sql and Microsoft PowerShell scripts for exporting user data.
 
