@@ -18,7 +18,7 @@ description: "Summary: In Project Server permission mode, Project Web App securi
 # Plan groups, categories, and RBS in Project Server
  
  **Summary:** In Project Server permission mode, Project Web App security is based on users, groups, and categories.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
   
 This article addresses planning for groups and categories in a Project Server deployment. If you are using SharePoint permission mode as your security model, see [Plan SharePoint groups in Project Server](plan-sharepoint-groups-in-project-server.md).
   

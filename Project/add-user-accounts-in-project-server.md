@@ -15,7 +15,7 @@ description: "Summary: Add user accounts by using the Manage Users page in Proje
 # Add user accounts in Project Server
 
  **Summary:** Add user accounts by using the Manage Users page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
 
 Every Project Web App user must have a user account before he or she can log on to Project Web App and interact with Project Server data. In Project Server permission mode, user accounts can be added through the Manage Users page in Project Web App Settings. 
 
