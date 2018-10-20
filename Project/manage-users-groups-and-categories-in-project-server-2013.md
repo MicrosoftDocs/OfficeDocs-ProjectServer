@@ -15,7 +15,7 @@ description: "Summary: Manage users, groups, and categories in Project Server pe
 # Manage users, groups, and categories in Project Server
  
  **Summary:** Manage users, groups, and categories in Project Server permission mode.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Server permission mode, Project Web App security is based on users, groups, and categories. Groups contain sets of users who need to access the same set of data in the same way. Categories provide access to projects and resources based on parameters that you define. For complete information about planning groups and categories, see [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md).
   

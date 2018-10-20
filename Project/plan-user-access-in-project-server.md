@@ -18,7 +18,7 @@ description: "Summary: Learn about the user access permission modes available in
 # Plan user access in Project Server
  
  **Summary:** Learn about the user access permission modes available in Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
   
 Project Server offers two security modes for controlling the kind of access that users have to sites and projects:
   
