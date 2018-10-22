@@ -34,7 +34,7 @@ Some of the key software requirements for SharePoint Server 2019 are:
 |||
 |:-----|:-----|
 |**Supported Server Operating Systems:**  <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
-|**Supported Database Server:**  <br/> | Microsoft SQL Server 2017 RTM for Windows <br/> Microsoft SQL Server 2016 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019. <br/> |
+|**Supported Database Server:**  <br/> | Microsoft SQL Server 2017 RTM for Windows Services<br/> Microsoft SQL Server 2016 with Service Pack 1 <br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019. <br/> |
 |**Supported browsers:**  <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
 > [!NOTE]
