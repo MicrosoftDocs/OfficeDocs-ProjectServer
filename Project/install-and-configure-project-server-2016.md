@@ -48,7 +48,7 @@ To enable the license key is only available by using a Microsoft Powershell cmdl
 
 
     
-3. From the Powershell commmand prompt, type the following syntax to enable Project Server 2016 or 2019:
+3. From the Powershell command prompt, type the following syntax to enable Project Server 2016 or 2019:
     
    ```
    Enable-ProjectServerLicense -Key <LicenseKey>
