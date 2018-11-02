@@ -39,6 +39,7 @@
 #### [Plan the application tier](plan-the-application-tier-in-project-server-2013.md)
 #### [Plan the database tier](plan-the-database-tier-in-project-server-2013.md)
 ### [Plan for administrative and service accounts](plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md)
+### [Project Server 2019 architecture](project-server-2019-architecture.md)
 ### [Project Server 2016 architecture](project-server-2016-architecture.md)
 ## [Install and configure](install-and-configure-for-project-server-2016.md)
 ### [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md)
