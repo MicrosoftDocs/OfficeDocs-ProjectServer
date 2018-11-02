@@ -1263,8 +1263,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentUpdatesByResource  <br/> |True if the assignment was updated by team member.  <br/> |
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
-|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
-|AssignmentDeletePending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
+|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> ||
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1333,7 +1332,7 @@ Each **Assignments** object may have a collection of **CustomFields** objects, w
 ### TaskStatus_AssignmentsSubmitted
 <a name="StatusAssignsub"> </a>
 
-TaskStatus_AssignmentsSubmitted contains data about status reports that the user .. This file will contain a collection of **Tasks** objects, which may have the following properties: 
+TaskStatus_AssignmentsSubmitted contains data about status reports that the user. This file will contain a collection of **Tasks** objects, which may have the following properties: 
   
 |****Properties****|****Description****|
 |:-----|:-----|
@@ -1567,7 +1566,6 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |ReservedData2  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData3  <br/> |Used to temporarily store calculated values.  <br/> |
 |AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data.  <br/> |
-|AssignmentTDModifiedCounter  <br/> |Counter for modified timephased data for an assignment.  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
 |AssignmentStopDate  <br/> |The date that the assignment was stopped.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
@@ -1684,6 +1682,8 @@ A **Lines** object can have a collection of **CustomFields** objects, which may 
 |TimeSheetLineID  <br/> |Unique identifier for the timesheet line.  <br/> |
 |CustomFieldUID  <br/> |Unique identifier for the custom field value.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
+|CustomFieldValue <br/> |Value properties for the custom field.|
+
    
 ### Timesheets_Reporting
 <a name="Timesheets_Reporting"> </a>
