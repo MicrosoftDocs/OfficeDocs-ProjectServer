@@ -301,11 +301,11 @@ Note that you can specify the user either by claims account or Resource ID.
 
 #### Use the Claims Account  
 Use the cmdlet the following way if you are specifying the user by Claims Account
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>*
+> *Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>*
 
 For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name.
 
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
+> *Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
 > *
 
 When running this command, a message will display asking you to confirm if you want to proceed.
@@ -316,11 +316,11 @@ After you confirm and the script successfully completes, a message will display 
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ResourceID \<ResourceID\>*
+> *Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\>*
 
 For example, the following removes all user data for the user with a resource ID of *0c7cd3fb-a0be-e111-9fte-00155d022d022681* throughout the *https://contoso.sharepoint.com/sites/pwa site*, except for the user's display name
 
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681*
+> *Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681*
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
@@ -336,11 +336,11 @@ Note that you can specify the user either by Claims Account or Resource ID.
 
 Use the cmdlet the following way if you are specifying the user by logon name:
 
-> Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
+> Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
 
 For example, the following will remove all user data for *evac@contoso.onmicrosoft.com* and will change his display name to "*Deleted User*" throughout the *https://contoso.sharepoint.com/sites/pwa* site.
 
-Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $true
+Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $true
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
@@ -350,11 +350,11 @@ After you confirm and the script successfully completes, a message will display 
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-> Invoke-RedactProjectUser -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
+> Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
 
 For example, the following will remove all user data for the user with a resource ID of *0c7cd3fb-a0be-e111-9fte-00155d022d022681* and will change the display name to "*Deleted User*" throughout the *https://contoso.sharepoint.com/sites/pwa* site.
 
-> Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $true
+> Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $true
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
@@ -370,11 +370,11 @@ Note that you can specify the user either by Claims Account or Resource ID.
 
 Use the cmdlet the following way if you are specifying the user by Claims Account:
 
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
+> *Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
 
 For example, the following will remove all data for *evac@contoso.onmicrosoft.com* and will change his display name to "*Deleted User*" throughout the *https://contoso.sharepoint.com/sites/pwa* site, except in timesheet records.
 
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
+> *Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
@@ -384,11 +384,11 @@ After you confirm and the script successfully completes, a message will display 
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-> *Invoke-RedactProjectUser -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
+> *Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
 
 For example, the following will remove all personal data for the user with a resource ID of 0c7cd3fb-a0be-e111-9fte-00155d022d022681 and will change the display name to "Deleted User" throughout the https://contoso.sharepoint.com/sites/pwa site, except in timesheet records.
 
-> *Invoke-RedactProjectUser -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
+> *Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
 
 When running this command, a message will display asking you to confirm if you want to proceed.
 
