@@ -47,12 +47,9 @@ You will receive three lists of projects contained in the Project Draft, Publish
     
 This data includes:
   
-
-|:-----|
-|**Description** <br/> |
-|List of projects from the Draft schema that corresponds to the conditions above.  <br/> |
-|List of projects from the Published schema that corresponds to the conditions above.  <br/> |
-|List of projects from the Reporting schema that corresponds to the conditions above.  <br/> |
+- List of projects from the Draft schema that corresponds to the conditions above.
+- List of projects from the Published schema that corresponds to the conditions above.
+- List of projects from the Reporting schema that corresponds to the conditions above. 
    
 The list of projects may differ slightly for each of the three files. For example, a user can save the project and not publish, meaning that it will appear in the Draft projects list, but not the Published or Reporting projects lists.
   
@@ -1266,8 +1263,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentUpdatesByResource  <br/> |True if the assignment was updated by team member.  <br/> |
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
-|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
-|AssignmentDeletePending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
+|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> ||
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1336,7 +1332,7 @@ Each **Assignments** object may have a collection of **CustomFields** objects, w
 ### TaskStatus_AssignmentsSubmitted
 <a name="StatusAssignsub"> </a>
 
-TaskStatus_AssignmentsSubmitted contains data about status reports that the user .. This file will contain a collection of **Tasks** objects, which may have the following properties: 
+TaskStatus_AssignmentsSubmitted contains data about status reports that the user. This file will contain a collection of **Tasks** objects, which may have the following properties: 
   
 |****Properties****|****Description****|
 |:-----|:-----|
@@ -1570,7 +1566,6 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |ReservedData2  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData3  <br/> |Used to temporarily store calculated values.  <br/> |
 |AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data.  <br/> |
-|AssignmentTDModifiedCounter  <br/> |Counter for modified timephased data for an assignment.  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
 |AssignmentStopDate  <br/> |The date that the assignment was stopped.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
@@ -1687,6 +1682,8 @@ A **Lines** object can have a collection of **CustomFields** objects, which may 
 |TimeSheetLineID  <br/> |Unique identifier for the timesheet line.  <br/> |
 |CustomFieldUID  <br/> |Unique identifier for the custom field value.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
+|CustomFieldValue <br/> |Value properties for the custom field.|
+
    
 ### Timesheets_Reporting
 <a name="Timesheets_Reporting"> </a>
@@ -2396,7 +2393,6 @@ Reporting_AssignmentBaselineTimephased contains the properties that define the r
 |AssignmentBaselineBudgetMaterialWork  <br/> |The planned number of units of the supplies or other consumable items that are to be used to complete an assignment.  <br/> |
 |AssignmentBaselineModifiedDate  <br/> |Date and time the assignment baseline was last modified.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ResourceId  <br/> |Unique identifier for the resource.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
@@ -2415,7 +2411,6 @@ Reporting_AssignmentTimephased contains the properties that define the reporting
 |ProjectUID  <br/> |Unique identifier for the project for the assignment timephased data.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task for the assignment timephased data.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ResourceId  <br/> |Unique identifier for the resource.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
@@ -2711,7 +2706,6 @@ Reporting_TaskBaselineTimephased contains the properties that define the reporti
 |TaskBaselineBudgetWork  <br/> |The planned, budgeted amount of work on a task.  <br/> |
 |TaskBaselineModifiedDate  <br/> |The date and time the task was last updated.  <br/> |
 |FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |TaskName  <br/> |Name of the task.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
    
@@ -2727,7 +2721,6 @@ Reporting_TaskTimephased contains the properties that define the reporting data 
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
 |T.FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
-|FiscalPeriodName  <br/> |Name of the fiscal period.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskIsActive  <br/> |True if the task is active.  <br/> |
 |TaskIsProjectSummary  <br/> |True if the task is a project summary task.  <br/> |

@@ -29,8 +29,8 @@ The following articles about installing and configuring Project Server 2019 Publ
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2019 Public Preview](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2019 Public Preview in a server farm environment.  <br/> |
-||[Upgrade to Project Server 2019 Public Preivew](upgrade-to-project-server-2019.md) <br/> |A list of articles about how to upgrade to Project Server 2019 Public Preview.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2019](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2019 in a server farm environment.  <br/> |
+||[Upgrade to Project Server 2019](upgrade-to-project-server-2019.md) <br/> |A list of articles about how to upgrade to Project Server 2019.  <br/> |
   
 ## Articles about installing and configuring Project Server 2016
 

@@ -14,7 +14,7 @@ description: "Learn how an Farm admin can delete a specific user's data from a P
 
 # Delete user data from Project Server
 
-Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010.
+Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to delete user data from Project Server 2019 Public Preview, see [Delete user data in Project Server 2019 Public Preview](delete-user-data-in-project-server-2019.md).
 
 - [Step 1 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-from-project-server.md#FindPWA)
 

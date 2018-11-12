@@ -1,5 +1,5 @@
 ---
-title: "Upgrading to Project Server 2019 Public Preview"
+title: "Upgrading to Project Server 2019"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -11,29 +11,29 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 03e9ea52-f4a6-4709-b8c3-41acf4484251
-description: "Summary: Learn how to upgrade to Project Server 2019 Public Preview."
+description: "Summary: Learn how to upgrade to Project Server 2019."
 ---
 
-# Upgrading to Project Server 2019 Public Preview
+# Upgrading to Project Server 2019
 
- **Summary:** Learn how to upgrade to Project Server 2019 Public Preview.<br/>
-**Applies to:** Project Server 2019 Public Preview
+ **Summary:** Learn how to upgrade to Project Server 2019.<br/>
+**Applies to:** Project Server 2019
 
-This article describes the steps required to upgrade to Project Server 2019 Public Preview. 
+This article describes the steps required to upgrade to Project Server 2019. 
 
 > [!NOTE]
-> Prior to reading this article, please see [Plan for upgrade to Project Server 2019 Public Preview](plan-for-upgrade-to-project-server-2019.md) for more information about upgrade and the upgrade process.
+> Prior to reading this article, please see [Plan for upgrade to Project Server 2019](plan-for-upgrade-to-project-server-2019.md) for more information about upgrade and the upgrade process.
 
 ## Upgrade requirements
 
-Note the following requirements for upgrading to Project Server 2019 Public Preview:
+Note the following requirements for upgrading to Project Server 2019:
 
--  You can only upgrade from Project Server 2016. If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019 Public Preview.
+-  You can only upgrade from Project Server 2016. If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019.
 
     > [!NOTE]
-    > For information about upgrading to Project Server 2019 Public Preview from Project Server 2013, see [Upgrade from SharePoint 2013 to SharePoint Server 2019 Public Preview](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019). 
+    > For information about upgrading to Project Server 2019 from Project Server 2013, see [Upgrade from SharePoint 2013 to SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019). 
 
--  The upgrade process requires you to run Microsoft PowerShell cmdlets in the SharePoint Server 2019 Public Preview Management Shell. Verify that you have the following minimum permissions to run them:
+-  The upgrade process requires you to run Microsoft PowerShell cmdlets in the SharePoint Server 2019 Management Shell. Verify that you have the following minimum permissions to run them:
 
     - securityadmin fixed server role on the SQL Server instance. 
 
@@ -43,12 +43,12 @@ Note the following requirements for upgrading to Project Server 2019 Public Prev
 
     - Administrators group on the server on which you are running the PowerShell cmdlets.
 
-An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
 
-[!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps)
+    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps)
 
 
-- If you are migrating your Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019 Public Preview:
+- If you are migrating your Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019:
 
   - They must be published.
 
@@ -57,11 +57,11 @@ An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to
     > [!NOTE]
     > For more information about Resource Engagements, see this blog post: [Resource Engagements](http://go.microsoft.com/fwlink/p/?LinkID=620823&amp;clcid=0x409). 
 
-## Project Server 2019 Public Preview upgrade steps
+## Project Server 2019 upgrade steps
 
-Upgrading to Project Server 2019 public Preview can be broken up into 4 steps. These include:
+Upgrading to Project Server 2019 can be broken up into four steps. These include:
 
-1. Create a Project Server 2019 Public Preview farm 
+1. Create a Project Server 2019 farm 
 
 2. Copy and move your databases
 
@@ -70,25 +70,25 @@ Upgrading to Project Server 2019 public Preview can be broken up into 4 steps. T
 4. Test your SharePoint Content database
 
 
-The following provides more detail about the upgrade steps mentioned in the upgrade overview.
+The following provides more detail about these upgrade steps.
 
-### Create your Project Server 2019 Public Preview farm
+### Create your Project Server 2019 farm
 <a name="farm"> </a>
 
-The first step in the upgrade process is to create the Project Server 2019 Public Preview farm. Since database attach is the supported method for upgrade, you will be attaching and upgrading your Project Server 2016 databases to this farm in the steps that follow.
+The first step in the upgrade process is to create the Project Server 2019 farm. Since database attach is the supported method for upgrade, you will be attaching and upgrading your Project Server 2016 databases to this farm in the steps that follow.
 
-Note that a key difference in installing Project Server 2019 Public Preview versus the way it was installed in previous versions is that the Project Server 2019 Public Preview installation is now a part of the SharePoint Server 2019 Public Preview installation. Project Server 2019 Public Preview now runs as a service application in SharePoint Server 2019 Public Preview, and does not require a separate installation. 
+Note that a key difference in installing Project Server 2019 versus the way it was installed in previous versions is that the Project Server 2019 installation is now a part of the SharePoint Server 2019 installation. Project Server 2019 now runs as a service application in SharePoint Server 2019, and does not require a separate installation. 
 
 > [!IMPORTANT]
-> Project Server 2019 Public Preview can only be enabled on the Enterprise version of SharePoint Server 2019 Public Preview. Project Server 2019 Public Preview cannot be enabled on SharePoint Server 2019 Public Preview with a Standard license. 
+> Project Server 2019 can only be enabled on the Enterprise version of SharePoint Server 2019. Project Server 2019 cannot be enabled on SharePoint Server 2019 with a Standard license. 
 
 > [!NOTE]
-> For more information about how to install a new Project Server 2019 Public Preview farm, see [Deploy Project Servers 2016 or 2019 Public Preview](deploy-project-server-2016.md). 
+> For more information about how to install a new Project Server 2019 farm, see [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md). 
 
 ### Copy and move your databases
 <a name="copy"> </a>
 
-The second step in the upgrade process copies your databases required for your Project Server 2016 environment to your new Project Server 2019 Public Preview environment. This is a two-step process:
+The second step in the upgrade process copies your databases required for your Project Server 2016 environment to your new Project Server 2019 environment. This is a two-step process:
 
 1. With the SharePoint Server 2016 farm in read-only mode, the server farm administrator backs up the following two databases from the SQL Server instance:
 
@@ -96,14 +96,14 @@ The second step in the upgrade process copies your databases required for your P
 
    - Project Server 2016 database
 
-2. The server farm administrator restores a backup copy of the databases to the SQL Server 2016 or 2017 instance being used to host the Project Server 2019 Public Preview farm databases.
+2. The server farm administrator restores a backup copy of the databases to the SQL Server 2016 or 2017 instance being used to host the Project Server 2019 farm databases.
 
-You can use SQL Server Management Studio to copy and the restore of the databases.
+You can use SQL Server Management Studio to copy and restore the databases.
 
 ### Attach and upgrade your SharePoint Server 2016 content database
 <a name="attachSP"> </a>
 
-The third step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 Public Preview farm. 
+The third step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 farm. 
 
 You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
 
@@ -120,7 +120,7 @@ You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/e
 ### Test your content database
 <a name="test"> </a>
 
-The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 Public Preview environment. This cmdlet will not update your data in anyway.
+The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 environment. This cmdlet will not update your data in anyway.
 
 1. Open the SharePoint 2019 Management Shell as an Administrator.
 
@@ -134,7 +134,7 @@ The fourth step in the upgrade is to test your newly attached and upgraded conte
 
     This will check the SharePoint - 80 Web application against the customizations referenced in the WSSContentContosoPWA database, and will post the results.
 
-The results of the Test-SPContentDatabase cmdlet will note inconsistencies it will find in your upgraded SharePoint Web application in its new SharePoint Server 2019 Public Preview environment. The results do not imply that the upgrade of the SharePoint 2016 content database has failed, but will only note things you need to look into in your new environment. 
+The results of the Test-SPContentDatabase cmdlet will note inconsistencies it will find in your upgraded SharePoint Web application in its new SharePoint Server 2019 environment. The results do not imply that the upgrade of the SharePoint 2016 content database has failed, but will only note things you need to look into in your new environment. The following are some checks that may appear in your results.
 
 
 #### Check your SharePoint Server 2016 content database for resource plan migration information

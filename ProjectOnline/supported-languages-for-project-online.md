@@ -35,7 +35,6 @@ Project Online supports the following language. If you create your Project Onlin
 |**Language**|**ll-cc**|**Locale ID (LCID)**|
 |:-----|:-----|:-----|
 |Arabic  <br/> |ar-sa  <br/> |1025  <br/> |
-|Brazilian  <br/> |pt-br  <br/> |1046  <br/> |
 |Chinese (PRC)  <br/> |zh-cn  <br/> |2056  <br/> |
 |Chinese (Taiwan)  <br/> |zh-tw  <br/> |1028  <br/> |
 |Czech  <br/> |cs-cz  <br/> |1029  <br/> |
