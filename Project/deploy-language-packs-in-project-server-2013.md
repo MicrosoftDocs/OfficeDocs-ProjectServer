@@ -199,7 +199,7 @@ You must perform the following steps for each language that you want to support.
 4. In the dialog box that appears, click **Save** to download a copy of the file to the local computer.
     
     > [!NOTE]
-    > If you are adding multiple language packs, you should rename the language pack file (ServerLangaugePack.exe) to a more descriptive name (for example, FrenchServerLangaugePack.exe). Because the default name for all language pack files is the same, renaming the file will help to prevent confusion when you are installing the language packs. 
+    > If you are adding multiple language packs, you should rename the language pack file (ServerLanguagePack.exe) to a more descriptive name (for example, FrenchServerLanguagePack.exe). Because the default name for all language pack files is the same, renaming the file will help to prevent confusion when you are installing the language packs. 
   
 ### Install the language pack
 <a name="section3"> </a>
