@@ -83,7 +83,10 @@
 ## [License management]()
 ### [Important information for Project Online customers about plan changes](important-information-for-project-online-customers-about-plan-changes.md)
 ### [Renew your Project Online plans in a larger organization](renew-your-project-online-plans-in-a-larger-organization.md)
-
+## Roadmap
+### Turn on Project Roadmap
+### [Turn off Project Roadmap](remove-project-roadmap-from-office-365.md)
+### [Delete user data from Project Roadmap](delete-user-data-from-project-roadmap.md)
 
 
 
