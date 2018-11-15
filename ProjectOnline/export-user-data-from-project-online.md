@@ -333,7 +333,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_published.xml  <br/> |The project file from the published schema saved as .xml format.  <br/> |
    
   > [!NOTE]
-    > See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
+  > See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
   
   **- An .mpp file for the project from the draft and published databases:**
     
@@ -344,7 +344,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_published.mpp  <br/> |The project file from the published schema saved as a Project .mpp file.  <br/> |
    
    > [!NOTE]
-    > You can open the .mpp file with Project Professional 2016 or the Project Online Desktop client. 
+   > You can open the .mpp file with Project Professional 2016 or the Project Online Desktop client. 
   
    **- Eight .json files for the project from the reporting schema:**
     
@@ -360,7 +360,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |[Reporting_TaskTimephased](project-online-and-project-server-export-data-definitions.md#TaskTimephased) <br/> |Task timephased data for the project from the reporting schema.  <br/> |
    
    > [!NOTE]
-    > To learn more about the objects contained in each of the .json files, see the [Project-specific user data from the reporting data](project-online-and-project-server-export-data-definitions.md#projectspec) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
+   > To learn more about the objects contained in each of the .json files, see the [Project-specific user data from the reporting data](project-online-and-project-server-export-data-definitions.md#projectspec) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
   
    **- Three .json files with the project's metadata from the draft, published, and reporting schemas:**
     
@@ -372,7 +372,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_reporting.json  <br/> |Project metadata file from the Reporting schema  <br/> |
    
    > [!NOTE]
-    > To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](project-online-and-project-server-export-data-definitions.md#ProjSpecMeta) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
+   > To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](project-online-and-project-server-export-data-definitions.md#ProjSpecMeta) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
   
 ## Step 6 - Find and save custom views, custom filters, attachments, and macros
 <a name="FindViews"> </a>
