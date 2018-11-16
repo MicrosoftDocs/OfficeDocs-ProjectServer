@@ -150,21 +150,21 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
   Connect-SPOService -URL <AdminSiteURL> 
   ```
 
-    For example:
+   For example:
     
   ```
   Connect-SPOService -URL http://contoso-admin.sharepoint.com 
   ```
 
-    After connecting to your SharePoint Online Admin Center, use the Get-SPOSites PowerShell cmdlet to find all PWA sites in your Office 365 environment:
+   After connecting to your SharePoint Online Admin Center, use the Get-SPOSites PowerShell cmdlet to find all PWA sites in your Office 365 environment:
     
-2. 2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
+2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
     
   ```
   Get-SPOSite | ?{$_.PWAEnabled -eq "Enabled"} | ft -a Url,Owner
   ```
 
-    After successfully running, a list of all PWA sites and site owners in your Office 365 environment will display.
+   After successfully running, a list of all PWA sites and site owners in your Office 365 environment will display.
     
 ## Step 3 - Find the user's Resource ID on each PWA site (optional)
 <a name="Step2"> </a>
