@@ -344,7 +344,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_published.mpp  <br/> |The project file from the published schema saved as a Project .mpp file.  <br/> |
    
    > [!NOTE]
-   > You can open the .mpp file with Project Professional 2016 or the Project Online Desktop client. 
+   > You can open the .mpp file with Project Professional 2019, Project Professional 2016, or the Project Online Desktop client. 
   
    **- Eight .json files for the project from the reporting schema:**
     
