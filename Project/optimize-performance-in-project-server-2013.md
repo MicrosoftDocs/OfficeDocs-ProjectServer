@@ -107,7 +107,7 @@ If you have a large number of jobs that are processed in parallel (that is, you 
     
 ### Workload process optimizations
 
-Certain aspects of how you operate and maintain your Project Sever deployment can help improve the perceived performance of Project Server. This section covers a list of Business- or IT-related process modifications that can help to improve the perceived performance of your Project Server during periods when your users are most likely to interact with the system.
+Certain aspects of how you operate and maintain your Project Server deployment can help improve the perceived performance of Project Server. This section covers a list of Business- or IT-related process modifications that can help to improve the perceived performance of your Project Server during periods when your users are most likely to interact with the system.
 
 - Timesheeting and status submissions:
     - If possible, try to stagger the times when users submit status updates and timesheets. This will act to reduce the strain on the system during peak periods by distributing the load over larger time intervals.
