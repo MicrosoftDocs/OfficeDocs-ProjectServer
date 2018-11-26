@@ -142,7 +142,7 @@ The ExportProjectUserContent PowerShell script is included with the [Project Onl
     
 7. Restart Project, and log on to the PWA site.
     
-- **Permissions:**In order to have the required permissions to run the script, you need to do at least one of the following:
+- **Permissions**: In order to have the required permissions to run the script, you need to do at least one of the following:
     
   - Add yourself as a site collection admin to the PWA Site for which you are running the script.
     
@@ -162,38 +162,37 @@ Use the ExportProjectUserContent.ps1 PowerShell script to export your user's dat
 |-LoginName  <br/> |Login name of the user.  <br/> |
 |-OutputDirectory  <br/> |Location to store the export files.  <br/> |
 |-Region  <br/> | This optional parameter specifies the Office 365 environment you are using. The values you can use for this parameter include:  <br/> **Default** - Project Public Cloud.  <br/> **China** - Gallatin.  <br/> **Germany** - BlackForest.  <br/> **ITAR** - Office 365 United States Government.  <br/>  If the parameter is not used, the default value is used (  *Default*  ).  <br/> |
-   
-    You can choose to run the script either by specifying the user's Resource ID or login Name.
-    
-    **To run the ExportProjectUser script using the users Resource ID**
-    
-    You would use the following command in Powershell with the paramaters listed above:
+
+You can chose to run the script either by specifying the user's Resource ID or login name.
+
+**To run the ExportProjectUser script using the users Resource ID**
+
+You would use the following command in PowerShell with the parameters listed above:
+
     
   ```
   .\ExportProjectUserContent.ps1 -Url <PwaSiteURL> -ResourceUid <UsersResourceID> -OutputDirectory <LocationToStoreOutput>
   ```
-
-    For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Resource ID of cb5c91cf-fd6b-e711-80d0-00155da4a406, and have the export files save to c:\pwa1siteOutput, you would enter:
+For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Resource ID of cb5c91cf-fd6b-e711-80d0-00155da4a406, and have the export files save to c:\pwa1siteOutput, you would enter:
     
   ```
   .\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -ResourceUid cb5c91cf-fd6b-e711-80d0-00155da4a40﻿6 -OutputDirectory c:\pwa1siteOutput
   ```
 
-    **To run the ExportProjectUser script using the users Login Name**
+ **To run the ExportProjectUser script using the users Login Name**
     
-    You would use the following command in Powershell with the paramaters listed above:
+You would use the following command in Powershell with the paramaters listed above:
     
   ```
   .\ExportProjectUserContent.ps1 -Url <PwaSiteURL> -LoginName <UsersLoginName> -OutputDirectory <LocationToStoreOutput>
   ```
 
-    For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Login Name of AdamB@contoso.onmicrosoft.com, and have the export files save to c:\pwa1siteOutput, you would enter:
+For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Login Name of AdamB@contoso.onmicrosoft.com, and have the export files save to c:\pwa1siteOutput, you would enter:
     
   ```
   .\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -LoginName AdamB@contoso.onmicrosoft.com -OutputDirectory c:\pwa1siteOutput
   ```
-
-2. After the script runs successfully, all exported data will be stored in the -OutputDirectory you specified.
+After the script runs successfully, all exported data will be stored in the -OutputDirectory you specified.
     
 ### Select specific feature-related user data files to export
 
@@ -248,11 +247,11 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |PublishedProjectList.xml  <br/> |List of projects from the Published schema that corresponds to the conditions above.  <br/> |
 |ReportingProjectList.xml  <br/> |List of projects from the Reporting schema that corresponds to the conditions above.  <br/> |
    
-    The list of projects may differ slightly for each of the three .xml files. For example, a user can save the project but not publish, meaning that it will appear in the DraftProjectList.xml file, but not the PublishedProjectList.xml or ReportingProjectList.xml files.
+   The list of projects may differ slightly for each of the three .xml files. For example, a user can save the project but not publish, meaning that it will appear in the DraftProjectList.xml file, but not the PublishedProjectList.xml or ReportingProjectList.xml files.
     
-    A project admin can use the Project list .xml files to give them information about which project-specific export files they be interested in analyzing to decide how much of the exported content should be shared with the user.
+   A project admin can use the Project list .xml files to give them information about which project-specific export files they be interested in analyzing to decide how much of the exported content should be shared with the user.
     
-    All three of the ProjectList.xml files will have the following properties for each project listed:
+   All three of the ProjectList.xml files will have the following properties for each project listed:
     
 |||
 |:-----|:-----|
@@ -295,7 +294,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |[Workflow](project-online-and-project-server-export-data-definitions.md#Workflow) <br/> |Project workflow data.  <br/> |
 |[WorkspaceItems](project-online-and-project-server-export-data-definitions.md#WSS) <br/> |Data about SharePoint items from project sites.  <br/> |
    
-    Certain feature-specific json files have the possibility of being large, so to improve performance, the following json files will spawn across multiple files:
+   Certain feature-specific json files have the possibility of being large, so to improve performance, the following json files will spawn across multiple files:
     
   - Engagements.json
     
@@ -333,10 +332,10 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_draft.xml  <br/> |The project file from the draft schema saved as .xml format.  <br/> |
 |\<projectName\>_published.xml  <br/> |The project file from the published schema saved as .xml format.  <br/> |
    
-    > [!NOTE]
-    > See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
+  > [!NOTE]
+  > See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
   
-    **- An .mpp file for the project from the draft and published databases:**
+  **- An .mpp file for the project from the draft and published databases:**
     
 |||
 |:-----|:-----|
@@ -344,10 +343,10 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_draft.mpp  <br/> |The project file from the draft schema saved as a Project .mpp file.  <br/> |
 |\<projectName\>_published.mpp  <br/> |The project file from the published schema saved as a Project .mpp file.  <br/> |
    
-    > [!NOTE]
-    > You can open the .mpp file with Project Professional 2016 or the Project Online Desktop client. 
+   > [!NOTE]
+   > You can open the .mpp file with Project Professional 2019, Project Professional 2016, or the Project Online Desktop client. 
   
-    **- Eight .json files for the project from the reporting schema:**
+   **- Eight .json files for the project from the reporting schema:**
     
 |**Name**|**Description**|
 |:-----|:-----|
@@ -360,10 +359,10 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |[Reporting_TaskBaselineTimephased](project-online-and-project-server-export-data-definitions.md#TaskBaselineTimephased) <br/> |Task baseline timephased data for the project from the reporting schema.  <br/> |
 |[Reporting_TaskTimephased](project-online-and-project-server-export-data-definitions.md#TaskTimephased) <br/> |Task timephased data for the project from the reporting schema.  <br/> |
    
-    > [!NOTE]
-    > To learn more about the objects contained in each of the .json files, see the [Project-specific user data from the reporting data](project-online-and-project-server-export-data-definitions.md#projectspec) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
+   > [!NOTE]
+   > To learn more about the objects contained in each of the .json files, see the [Project-specific user data from the reporting data](project-online-and-project-server-export-data-definitions.md#projectspec) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
   
-    **- Three .json files with the project's metadata from the draft, published, and reporting schemas:**
+   **- Three .json files with the project's metadata from the draft, published, and reporting schemas:**
     
 |||
 |:-----|:-----|
@@ -372,8 +371,8 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_published.json  <br/> |Project metadata file from the Published schema  <br/> |
 |\<projectName\>_reporting.json  <br/> |Project metadata file from the Reporting schema  <br/> |
    
-    > [!NOTE]
-    > To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](project-online-and-project-server-export-data-definitions.md#ProjSpecMeta) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
+   > [!NOTE]
+   > To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](project-online-and-project-server-export-data-definitions.md#ProjSpecMeta) section of [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md). 
   
 ## Step 6 - Find and save custom views, custom filters, attachments, and macros
 <a name="FindViews"> </a>
