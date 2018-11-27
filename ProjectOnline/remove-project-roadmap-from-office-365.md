@@ -30,6 +30,9 @@ You can remove all roadmap data by removing the entire Roadmap solution from Mic
 4. Select the **PortfolioService** solution, and then click **Delete**.
 5. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
 
+> [!NOTE]
+> Removing the Roadmap solution does not affect any of the projects or tasks that the roadmaps are connected to.
+
 ## See Also
 
 [Delete user data from Project Roadmap](delete-user-data-from-project-roadmap.md)
