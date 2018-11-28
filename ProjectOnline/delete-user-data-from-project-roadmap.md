@@ -24,7 +24,19 @@ To find a user's roadmaps
 4. From the **Look for** menu, choose **Roadmaps**.
 5. Click **Edit Columns**
 6. Click **Add Columns**.
-7. Choose the columns that you want to search on. Be sure to include **Office 365 Group AAD ID**.
+7. Choose the columns below that you want to search on. Be sure to include **Office 365 Group AAD ID**.
+
+   |**Display name**|**Description**|
+   |:---------------|:--------------|
+   |Name|Name of the Roadmap.|
+   |Order Hint|Ordering of the Roadmap Rows within a Roadmap.|
+   |Owner AAD ID|ID of the user in AAD who owns the Roadmap.|
+   |Parent Roadmap|ID of the parent Roadmap.|
+   |Creator AAD ID|ID of the user in AAD who created the Roadmap.|
+   |Office 365 Group AAD ID|ID of the roadmap's Office 365 group in AAD.|
+   |Roadmap|Unique identifier of a Roadmap.|
+   |Roadmap Type|The type of Roadmap record.|
+
 8. Click **OK**, and then click **OK** again.
 9. In the **Fields** list, choose **Owner AAD Id** and type in the user's Azure AD Object ID.
 10. Click **Results**.
@@ -39,7 +51,7 @@ For example,
 
 `Add-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
 
-Once you are an owner for the groups, you can open the roadmaps and make edits or deletions directly.
+Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly.
 
 ## See Also
 
