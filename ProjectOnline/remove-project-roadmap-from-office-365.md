@@ -14,7 +14,7 @@ description: "Remove Project Roadmap from Office 365."
 
 # Remove Project Roadmap from Office 365
 
-You can turn Project Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists.
+You can turn Project Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists. (Note that it may take a few minutes for roadmap functionality to be disabled while the setting synchronizes across your tenant.)
 
 1. In the [Microsoft 365 amin center](https://admin.microsoft.com), under **Settings**, click **Services & add-ins**.
 2. Click **Project Online**.
@@ -36,6 +36,3 @@ You can remove all roadmap data by removing the entire Roadmap solution from Mic
 ## See Also
 
 [Delete user data from Project Roadmap](delete-user-data-from-project-roadmap.md)
-  
-  
-
