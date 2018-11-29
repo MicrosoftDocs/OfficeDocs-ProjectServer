@@ -43,7 +43,7 @@ To find a user's roadmaps
 
 Make note of the Office 365 Group AAD ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
 
-To add yourself as a group owner, use [Add-AzureADGroupOwner](https://docs.microsoft.com/powershell/module/azuread/add-azureadgroupowner).
+To add yourself as a group owner, use [Add-AzureADGroupOwner](https://docs.microsoft.com/powershell/module/azuread/add-azureadgroupowner):
 
 `Add-AzureADGroupOwner -ObjectId <GroupID> -RefObjectId <YourAADObjectID>`
 
