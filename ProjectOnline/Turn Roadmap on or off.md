@@ -20,15 +20,14 @@ description: "Learn how Office 365 admins can turn on or off the Project Online 
 
 Office 365 admins can turn the Project Online Roadmap feature on or off for their organization through their Microsoft 365 Admin settings.
 
-To learn more about Roadmap, see the [Project Training Center](https://support.office.com/en-us/article/project-training-63f1db89-1ee0-4113-bedc-03fc5ec6223a).
 
 ## Considerations about Roadmap data deletion
 
 Before using the Roadmap feature, admins should understand more about deleting Roadmap data, should they need to do this in the future.
   
-You can turn Project Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists. 
+You can turn Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists. 
 
-If your Project Online subscription ends, most of the associated data is deleted in conformance with the Data Retention, Deletion, and Destruction in Office 365. Unlike other Project Online data, Roadmap data isn’t automatically deleted after 90 days when your Project Online subscription ends.
+If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Roadmap data isn’t automatically deleted after when your Project Online subscription ends.
 
 For more information details about deleting Roadmap data, see 
 [Remove Roadmap from Office 365](remove-roadmap-from-office-365.md).
@@ -60,9 +59,14 @@ If you see this message, it simply means that Roadmap hasn't been made available
  
 ### Roadmap is not yet available in your region
 
-Some countries have requirements for data storage locations for cloud-based solutions.
+Per the Volume Licensing Online Services Terms (OST) agreement, specific countries have requirements for data storage within that country or region.  If you see this message, it means that Roadmap is not currently available in your region for this reason.
 
-If you see this message, it means that Roadmap is not currently available in your region for this reason.
+Roadmap requires Business Application Platform support in your specific country.  The current list of countries and regions supported by the Business Application Platform, please go to [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+
+> [!NOTE]
+> For more information about the Volume Licensing Services Terms agreement, see [Licensing Terms page for Microsoft Volume Licensing programs](https://www.microsoft.com/licensing/product-licensing/products).
+
+
 
 ![Roadmap not available](media/roadmapRegion.png)
 
