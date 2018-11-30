@@ -51,20 +51,12 @@ In the following conditions, you will not be able to turn on Roadmap:
 
 ### Roadmap is not yet available to your organization
 
-The Roadmap feature is gradually rolled out to organizations to make sure 
+The Roadmap feature is being gradually rolled out to organizations over a period of time, similar to how other [Office 365 features are made available](https://support.office.com/article/when-do-i-get-the-newest-features-in-for-office-365-da36192c-58b9-4bc9-8d51-bb6eed468516).
 
 If you see this message, it simply means that Roadmap hasn't been made available yet to your tenant, but should be shortly.
 
 ![Roadmap not available](media/roadmapNA.png)
- 
- 
-### Roadmap requires CDS for Apps on your default instance
-
-The Roadmap feature requires the Common Data Source (CDS) for Apps in order to work.
-
-If you see this message, it means that you don't have the required version of CDS for Apps and you need to upgrade.  Follow the link provided for information about upgrading to CDS for Apps.
-
-![Need to upgrade to CDS for Apps](media/roadmapNA.png)
+  
  
 ### Roadmap is not yet available in your region
 
