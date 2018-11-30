@@ -28,14 +28,14 @@ To find a user's roadmaps
 
    |**Display name**|**Description**|
    |:---------------|:--------------|
-   |Name|Name of the Roadmap.|
-   |Order Hint|Ordering of the Roadmap Rows within a Roadmap.|
-   |Owner AAD ID|ID of the user in AAD who owns the Roadmap.|
-   |Parent Roadmap|ID of the parent Roadmap.|
-   |Creator AAD ID|ID of the user in AAD who created the Roadmap.|
+   |Name|Name of the roadmap.|
+   |Order Hint|Ordering of the roadmap rows within a roadmap.|
+   |Owner AAD ID|ID of the user in AAD who owns the roadmap.|
+   |Parent Roadmap|ID of the parent roadmap.|
+   |Creator AAD ID|ID of the user in AAD who created the roadmap.|
    |Office 365 Group AAD ID|ID of the roadmap's Office 365 group in AAD.|
-   |Roadmap|Unique identifier of a Roadmap.|
-   |Roadmap Type|The type of Roadmap record.|
+   |Roadmap|Unique identifier of a roadmap.|
+   |Roadmap Type|The type of roadmap record.|
 
 8. Click **OK**, and then click **OK** again.
 9. In the **Fields** list, choose **Owner AAD Id** and type in the user's Azure AD Object ID.
