@@ -85,8 +85,8 @@
 ### [Renew your Project Online plans in a larger organization](renew-your-project-online-plans-in-a-larger-organization.md)
 ## Roadmap
 ### Turn Project Roadmap on or off
-### [Remove Project Roadmap](remove-project-roadmap-from-office-365.md)
-### [Delete user data from Project Roadmap](delete-user-data-from-project-roadmap.md)
+### [Remove Project Roadmap](remove-roadmap-from-office-365.md)
+### [Delete user data from Project Roadmap](delete-user-data-from-roadmap.md)
 
 
 
