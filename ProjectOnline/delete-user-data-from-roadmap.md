@@ -1,5 +1,5 @@
 ---
-title: "Delete user data from Project Roadmap"
+title: "Delete user data from Roadmap"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -9,12 +9,12 @@ ms.service: project-online
 localization_priority: Normal
 ms.custom: Adm_Project
 search.appverid: PJO150
-description: "Learn how an Office 365 global administrator can delete a user's information from Project Roadmap."
+description: "Learn how an Office 365 global administrator can delete a user's information from Roadmap."
 ---
 
-# Delete user data from Project Roadmap
+# Delete user data from Roadmap
 
-You will need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
+To delete user data from Roadmap, you need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
 
 To find a user's roadmaps
 
