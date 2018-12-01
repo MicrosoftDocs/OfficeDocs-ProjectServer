@@ -59,12 +59,12 @@ If you see this message, it simply means that Roadmap hasn't been made available
  
 ### Roadmap is not yet available in your region
 
-Per the Volume Licensing Online Services Terms (OST) agreement, specific countries have requirements for data storage within that country or region.  If you see this message, it means that Roadmap is not currently available in your region for this reason.
+Per the Online Services Terms, specific countries have requirements for data storage within that country or region for Project Online. If you see this message, it means that Roadmap is not currently available in your region for this reason.
 
-Roadmap requires Business Application Platform support in your specific country.  The current list of countries and regions supported by the Business Application Platform, please go to [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+Roadmap requires Business Application Platform support in your specific country.  For the current list of countries and regions supported by the Business Application Platform, please go to [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
 > [!NOTE]
-> For more information about the Volume Licensing Services Terms agreement, see [Licensing Terms page for Microsoft Volume Licensing programs](https://www.microsoft.com/licensing/product-licensing/products).
+> For more information about the Online Services Terms, see the [Licensing Terms page](https://www.microsoft.com/licensing/product-licensing/products).
 
 
 
