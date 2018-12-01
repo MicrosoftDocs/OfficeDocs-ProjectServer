@@ -59,7 +59,7 @@ If you see this message, it simply means that Roadmap hasn't been made available
  
 ### Roadmap is not yet available in your region
 
-Per the Online Services Terms, specific countries have requirements for data storage within that country or region for Project Online. If you see this message, it means that Roadmap is not currently available in your region for this reason.
+Per the Online Services Terms, specific countries have requirements for data storage within that country or region for Project Online. If you see this message, it means that Roadmap is not currently available in your region.
 
 Roadmap requires Business Application Platform support in your specific country.  For the current list of countries and regions supported by the Business Application Platform, please go to [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
