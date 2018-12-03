@@ -51,7 +51,7 @@ For example,
 
 `Add-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
 
-Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly.
+Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](turn-roadmap-on-or-off.md) to do this.)
 
 ## See Also
 
