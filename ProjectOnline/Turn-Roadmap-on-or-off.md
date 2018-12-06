@@ -39,7 +39,7 @@ An Office 365 admin can do the following to turn Roadmap on or off for their org
  
 1. In the Microsoft 365 admin center, under **Settings**, click **Services & add-ins**.
 2. Click **Project Online**.
-3. Set Turn Roadmap on or off for your entire organization to On or Off.
+3. Set **Turn Roadmap on or off for your entire organization** to On or Off.
 4. Click **Save**.
 
 ![Roadmap Setting](media/roadmapToggle.png)
