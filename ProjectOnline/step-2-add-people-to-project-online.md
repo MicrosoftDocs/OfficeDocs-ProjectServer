@@ -64,7 +64,7 @@ For the full list of permissions available with Project Online, see [Plan ShareP
 <a name="__top"> </a>
 
 ||||
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |**Not every user needs to be a resource.** Sometimes, people like higher-level executives only need access to Project Online to keep an eye on how projects are going across the organization.  <br/> |![Users and resources](media/2cc5476a-68eb-4f42-8ca4-6e1c672f2c0c.png)           <br/> |
 
    
