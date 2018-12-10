@@ -75,7 +75,11 @@ Roadmap requires Business Application Platform support in your specific country.
 
   
 ## Related Topics
+
+[Roadmap training](https://support.office.com/article/video-welcome-to-roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a)
 <a name="step5"> </a>
+
+
 
 
   
