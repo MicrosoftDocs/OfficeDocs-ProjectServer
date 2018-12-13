@@ -79,7 +79,22 @@ Beyond the data and custom field limits, there are a couple of other variables t
   
 ### Changing domains is not supported
 
-If you want to use your own domain, like contoso.com, instead of the default domain, like contoso.onmicrosoft.com, you need to [Using and managing domains in Office 365 Enterprise and Office 365 Midsize Business](https://support.office.com/article/d6eed598-2060-4fbe-ad5c-d8263b69722f) * before *  adding users to Project Online. **Changing domains after you've added users is not supported.**
+If you want to use your own domain, like contoso.com, instead of the default domain, like contoso.onmicrosoft.com, you need to [set up your domain](https://support.office.com/article/d6eed598-2060-4fbe-ad5c-d8263b69722f) *before*  adding users to Project Online. **Changing domains after you've added users is not supported.**
+
+### Using period symbols in your PWA site collection name
+
+Period symbols should not be used in PWA site name portion of PWA site collection URLs.   Your admin configures the PWA site name when he or she creates your PWA site collection in the SharePoint admin center:
+
+![Project Web App Permission for Excel Online Refresh](media/createPWAsite.png)
+
+You will not be able to connect to the PWA site with Project Professional or the Project Online Desktop Client if period symbols are in the PWA site name portion of your PWA URL.  For example:
+
+|**PWA URL**|**Connect with Project client?**|
+|:-----|:-----|
+|https://contoso.sharepoint.com/sites/pwa  <br/> |Yes  <br/> |
+|https://contoso.sharepoint.com/sites/pwa.dept1  <br/> |No  <br/> |
+
+
   
 ### It takes more time to load more projects
 
