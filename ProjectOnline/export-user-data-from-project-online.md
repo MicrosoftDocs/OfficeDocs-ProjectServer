@@ -201,18 +201,14 @@ Some of the exported user content you receive will include a number of json form
 |**-Options values**|**Json files you receive**|
 |:-----|:-----|
 |All  <br/> |All feature-related json files, all project-specific json files, and all project-list files.  <br/> |
-|Resources  <br/> |Resource.json, ReportingResource.json  <br/> |
 |Timesheets  <br/> |Timesheets_Reporting.json, Timesheets_page#.json  <br/> For the Timesheets_page#.json, you will get file per page.  <br/> |
 |TaskStatus  <br/> |Rules.json, TaskStatus_AssignmentsHistory_page#.json, TaskStatus_AssignmentsSaved.json, TaskStatus_AssignmentsSubmitted.json  <br/> |
 |Security  <br/> |Security.json  <br/> |
-|ServerSettings  <br/> |CustomFields.json, LookupTables.json, Calendars.json, Delegations.json, QueueJobs.json, SubscribedReminders.json, UnsubscribedAlerts.json, ReminderEmails.json, AdminAudit.json  <br/> |
 |Portfolio  <br/> |BusinessDrivers.json, DriverPrioritizations.json, PortfolioAnalyses.json  <br/> |
 |StatusReports  <br/> |StatusReports.json  <br/> |
 |Engagements  <br/> |Engagements_page#.json  <br/> |
 |ResourcePlans  <br/> |ResourcePlans_page#.json, ReportingResourcePlans.json  <br/> |
 |Projects  <br/> |DraftProjectList.xml , PublishedProjectList.xml. ReportingProjectList  <br/> You will also receive one of each of the following for each project that the user was a part of:  <br/> Project_projName_draft.json, Project_projName_draft.mpp, Project_projName_draft.xml,  <br/> Project_projName_published.json, Project_projName_ published.mpp, Project_projName_ published.xml,  <br/> Project_projName_reporting.json, Project_projName_reporting_Tasks, Project_projName_reporting_Assignments, Project_projName_reporting_Resources, Project_projName_reporting_Baselines, Project_projName_reporting_TaskTimephased, Project_projName_reporting_AssignmentTimephased, Project_projName_reporting_TaskBaselineTimephased, Project_projName_reporting_ AssignmentBaselineTimephased  <br/> |
-|Workflow  <br/> |Workflow.json  <br/> |
-|WssItems  <br/> |WorkspaceItems.json  <br/> |
 |UserViewSettings  <br/> |UserViewSettings.json  <br/> |
    
 Using the -Options parameter can be helpful if you want to export user data from the PWA site for specific features. For example, if you are only concerned with your user's data in the Portfolio Analysis feature, you can run the -Options parameter with the value of Portfolio:
