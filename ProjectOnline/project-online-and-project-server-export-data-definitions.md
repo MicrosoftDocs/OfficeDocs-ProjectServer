@@ -2761,7 +2761,7 @@ The method defined in [Export user data from Project Online](export-user-data-fr
 ### Project metadata file from the Reporting schema
 <a name="MetaRep"> </a>
 
-The Project metedata file for a project will have the following properties:
+The Project metadata file for a project will have the following properties:
   
 |||
 |:-----|:-----|
@@ -2813,7 +2813,7 @@ The project can have a collection of **CustomFields** objects, with the followin
 ### Project metadata file from the Draft schema
 <a name="Metadraft"> </a>
 
-The Project metedata file for a project in the Draft schema will have the following properties:
+The Project metadata file for a project in the Draft schema will have the following properties:
   
 |||
 |:-----|:-----|
@@ -2862,7 +2862,7 @@ The Project metedata file for a project in the Draft schema will have the follow
 |ProjectCalculatesSubTasksAsSummary  <br/> |Indicates whether Project calculates sub-tasks as summary tasks.  <br/> |
 |ProjectDaysPerMonth  <br/> |The default number of working days per month.  <br/> |
 |ProjectDefaultEstimatedDuration  <br/> |A value that indicates whether new tasks have estimated durations.  <br/> |
-|ProjecthowEstimatedDurations  <br/> |A value that indicates whether a question mark is displayed after an estimated duration for a task.  <br/> |
+|ProjectShowEstimatedDurations  <br/> |A value that indicates whether a question mark is displayed after an estimated duration for a task.  <br/> |
 |ProjectExpandTimephased  <br/> |Indicates whether Project saves timephased data in a readable or binary format when saved to a database.  <br/> |
 |ProjectExternalEdited  <br/> |Indicates whether the project was edited externally.  <br/> |
 |ProjectReadCount  <br/> |Indicates the number of users who have one or more tables open as read-only.  <br/> |
@@ -2926,7 +2926,7 @@ The Project metedata file for a project in the Draft schema will have the follow
 ### Project metadata file from the Published schema
 <a name="MetaPub"> </a>
 
-The Project metedata file for a project in the Published schema will have the following properties:
+The Project metadata file for a project in the Published schema will have the following properties:
   
 |||
 |:-----|:-----|
@@ -2975,7 +2975,7 @@ The Project metedata file for a project in the Published schema will have the fo
 |ProjectCalculatesSubTasksAsSummary  <br/> |Indicates whether Project calculates sub-tasks as summary tasks.  <br/> |
 |ProjectDaysPerMonth  <br/> |The default number of working days per month.  <br/> |
 |ProjectDefaultEstimatedDuration  <br/> |A value that indicates whether new tasks have estimated durations.  <br/> |
-|ProjecthowEstimatedDurations  <br/> |A value that indicates whether a question mark is displayed after an estimated duration for a task.  <br/> |
+|ProjectShowEstimatedDurations  <br/> |A value that indicates whether a question mark is displayed after an estimated duration for a task.  <br/> |
 |ProjectExpandTimephased  <br/> |Indicates whether Project saves timephased data in a readable or binary format when saved to a database.  <br/> |
 |ProjectExternalEdited  <br/> |Indicates whether the project was edited externally.  <br/> |
 |ProjectReadCount  <br/> |Indicates the number of users who have one or more tables open as read-only.  <br/> |
