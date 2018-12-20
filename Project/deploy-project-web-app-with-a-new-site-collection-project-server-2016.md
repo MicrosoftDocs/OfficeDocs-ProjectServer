@@ -100,14 +100,14 @@ Verify that you have the following memberships:
 From the PowerShell command prompt, run the following commands to create the Project Web App site.
 
 ```
-New-SPSite -ContentDatabase ContentDBName -URL SiteCollectionURL/PWASiteName -Template pwa#0
+New-SPSite -ContentDatabase ContentDBName -URL SiteCollectionURL/PWASiteName -Template pwa#0 -OwnerAlias domain\user
 Enable-SPFeature pwasite -URL SiteCollectionURL/PWASiteName
 ```
 
 For example:
 
 ```
-New-SPSite -ContentDatabase PWA_Content -URL http://contoso-appsrv1/sites/PWA -Template pwa#0
+New-SPSite -ContentDatabase PWA_Content -URL http://contoso-appsrv1/sites/PWA -Template pwa#0 -OwnerAlias domain\user
 Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/PWA
 ```
 
