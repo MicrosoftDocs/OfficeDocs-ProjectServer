@@ -168,7 +168,7 @@
 #### [Manage Queue Settings for Project Web App](manage-queue-settings-for-project-web-app.md)
 ### [Add SharePoint task list data to Project Server 2013](add-sharepoint-task-list-data-to-project-server-2013.md)
 ## [Technical reference](technical-reference-for-project-server-2016.md)
-### [Project Server 2016 cmdlets](windows-powershell-for-project-server-2016-cmdlet-reference.md)
+### [Project Server cmdlets](windows-powershell-for-project-server-2016-cmdlet-reference.md)
 #### [Disable-ProjectServerLicense](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-projectserverlicense?view=sharepoint-ps)
 #### [Disable-SPProjectActiveDirectoryEnterpriseResourcePoolSync](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-spprojectactivedirectoryenterpriseresourcepoolsync?view=sharepoint-ps)
 #### [Disable-SPProjectEmailNotification](https://docs.microsoft.com/powershell/module/sharepoint-server/disable-spprojectemailnotification?view=sharepoint-ps)
