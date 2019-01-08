@@ -72,11 +72,13 @@ Roadmap requires Business Application Platform support in your specific country.
 > [!NOTE]
 > For more information about the Online Services Terms, see the [Licensing Terms page](https://www.microsoft.com/licensing/product-licensing/products).
 
-
-
 ![Roadmap not available](media/roadmapRegion.png)
 
-  
+
+### You need to migrate to Common Data Service for Apps
+
+Roadmap requires [Common Data Service for Apps](https://powerapps.microsoft.com/blog/cds-for-apps-march/).  If Roadmap is available to your organization, and you need to upgrade to CDS for Apps, you will see a message in your Project Online Roadmap settings stating that **Roadmap requires CDS for Apps on your default instance**.  The message will also provide you a link to documentation about [how to upgrade to CDS for Apps](https://go.microsoft.com/fwlink/?linkid=2030786).
+
 ## Related Topics
 
 [Roadmap training](https://support.office.com/article/video-welcome-to-roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a)
