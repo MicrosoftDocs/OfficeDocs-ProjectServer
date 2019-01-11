@@ -48,6 +48,7 @@
 ### [Best practices to improve Resource Engagements performance](best-practices-to-improve-resource-engagements-performance.md)
 ## [Project Management Office]()
 ### [Supporting your Project Online adoption with a Project Management Office (PMO)](supporting-your-project-online-adoption-with-a-project-management-office-pmo.md)
+### [Project Online implementation cookbook](Project/project-online-implementation-cookbook/project-online-implementation-cookbook.md)
 ### [Enterprise system best practices](enterprise-system-best-practices-white-paper.md)
 ### [The project management system maturity model](the-project-management-system-maturity-model-white-paper.md)
 ### [EPM: Centralized or decentralized?](epm-centralized-or-decentralizedwhite-paper.md)
