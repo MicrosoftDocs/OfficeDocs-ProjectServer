@@ -16,7 +16,7 @@ description: "Remove Roadmap from Office 365."
 
 You can turn Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists. (Note that it may take a few minutes for roadmap functionality to be disabled while the setting synchronizes across your tenant.)
 
-1. In the [Microsoft 365 amin center](https://admin.microsoft.com), under **Settings**, click **Services & add-ins**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Services & add-ins**.
 2. Click **Project Online**.
 3. Set **Turn Roadmap on or off for your entire organization** to **Off**.
 
@@ -24,7 +24,7 @@ If your Project Online subscription ends, most of the associated data is deleted
 
 You can remove all roadmap data by removing the entire Roadmap solution from Microsoft 365. This will delete all of the existing roadmaps and associated user data.
 
-1. In the [Microsoft 365 amin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
 2. In the Dynamics 365 Administraton Center, select the default instance, and then click **Open**.
 3. On the **Settings** menu, under **Customization**, click **Solutions**.
 4. Select the **PortfolioService** solution, and then click **Delete**.
