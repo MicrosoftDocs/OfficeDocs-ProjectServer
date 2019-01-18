@@ -30,7 +30,7 @@ Before using the Roadmap feature, admins should understand more about deleting R
   
 You can turn Roadmap off in the Microsoft 365 admin center. This will prevent your users from using Roadmap, but will not remove any user data that currently exists. 
 
-If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Roadmap data isn’t automatically deleted after when your Project Online subscription ends.
+If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Roadmap data isn’t automatically deleted after your Project Online subscription ends.
 
 For more information details about deleting Roadmap data, see 
 [Remove Roadmap from Office 365](remove-roadmap-from-office-365.md).
