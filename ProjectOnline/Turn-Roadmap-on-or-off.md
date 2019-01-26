@@ -48,8 +48,6 @@ An Office 365 admin can do the following to turn Roadmap on or off for their org
 
 ![Roadmap Setting](media/roadmapToggle.png)
 
-> [!NOTE]
-> If you are currently using Microsoft 365 admin center preview, you need to [switch from preview back to the classic experience](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide#switch-to-preview-and-back-again) to see the Project Online settings to turn Roadmap on or off. 
     
 ## If you aren't able to turn on Roadmap
 
@@ -78,7 +76,15 @@ Roadmap requires Business Application Platform support in your specific country.
 
 ### You need to migrate to Common Data Service for Apps
 
-Roadmap requires [Common Data Service for Apps](https://powerapps.microsoft.com/blog/cds-for-apps-march/).  If Roadmap is available to your organization, and you need to upgrade to CDS for Apps, you will see a message in your Project Online Roadmap settings stating that **Roadmap requires CDS for Apps on your default instance**.  The message will also provide you a link to documentation about [how to upgrade to CDS for Apps](https://go.microsoft.com/fwlink/?linkid=2030786).
+Roadmap requires [Common Data Service for Apps](https://powerapps.microsoft.com/blog/cds-for-apps-march/).  If Roadmap is available to your organization, and you need to upgrade to CDS for Apps, you will see a message in your Project Online Roadmap settings stating that **Roadmap requires Common Data Service for Apps on your default CDS instance**.  The message will also provide you a link to documentation about [how to upgrade to CDS for Apps](https://go.microsoft.com/fwlink/?linkid=2030786).
+
+![Roadmap not available](media/CDSMigrate.png)
+
+### Your Office 365 tenant does not have the correct license
+
+Your Office 365 tenant needs to have a **Project Online Professional** or **Project Online Premium** license in order to use the Roadmap feature.  The Project Online settings in the Microsoft 365 Admin Center will not be available if your Office 365 tenant does not have at least one of these licenses.
+
+
 
 ## Related Topics
 
