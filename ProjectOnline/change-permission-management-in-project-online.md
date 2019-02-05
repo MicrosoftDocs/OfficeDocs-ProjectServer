@@ -36,15 +36,15 @@ Project Online uses SharePoint Permission Mode, by default. This mode is more st
   
 To change between permission modes:
   
-1. Go to the Office Admin Portal [Where to sign in to Office 365 for business](https://admin.microsoft.com/AdminPortal/Home#/homepage). 
+1. Go to the Office 365 admin center [Where to sign in to Office 365](https://admin.microsoft.com). 
     
-2. On the left blade (menu), find **Admin centers**, hover over it to display Admin centers menu, select **SharePoint**. This      action will display all SharePoint site collections belonging to current subscription.
+2. On the left blade (menu), find **Admin centers**, expand the list, and select **SharePoint**. This will display a list of SharePoint site collections.
     
-3. Select the **Project Web Access site collection**.
+3. Select the Project Web App site collection that you want to change.
     
-4. On the ribbon, find Project Web App drop down icon, click the drop down button, and select **Settings**.
+4. On the ribbon, find the **Project Web App** drop down icon, click the drop down button, and select **Settings**.
 
-5. Change the permission model from **SharePoint Permission Mode** to **Project Permission Mode**.
+5. Choose the permission mode that you want, and then click **OK**.
     
 
   
