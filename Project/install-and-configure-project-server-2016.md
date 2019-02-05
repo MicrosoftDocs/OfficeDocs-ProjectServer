@@ -27,10 +27,9 @@ Be sure you have [installed SharePoint Server 2016 or 2019](https://docs.microso
 
 Project Servers 2016 and 2019 requires a license in order to operate, and you must enable Project Servers 2016 or 2019 by using your license key before you can create a Project Web App site. 
 
-[!NOTE]
-To enable the license key is only available by using a Microsoft Powershell cmdlet. 
+> [!NOTE] To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
-(If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.)
+If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.
   
 ### To activate Project Servers 2016 or 2019 
 
@@ -42,7 +41,7 @@ To enable the license key is only available by using a Microsoft Powershell cmdl
     
     •db_owner fixed database role on all databases that are to be updated.
     
-    •local Administrators group on the server on which you are running the PowerShell cmdlets.
+    •Local Administrators group on the server on which you are running the PowerShell cmdlets.
 
     An administrator can use the [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use Project Server cmdlets. 
 
@@ -53,8 +52,6 @@ To enable the license key is only available by using a Microsoft Powershell cmdl
    ```
    Enable-ProjectServerLicense -Key <LicenseKey>
    ```
-
- 
   
 ### Check for a Project Server Service Application
 
