@@ -27,7 +27,8 @@ Be sure you have [installed SharePoint Server 2016 or 2019](https://docs.microso
 
 Project Servers 2016 and 2019 requires a license in order to operate, and you must enable Project Servers 2016 or 2019 by using your license key before you can create a Project Web App site. 
 
-> [!NOTE] To enable the license key is only available by using a Microsoft Powershell cmdlet. 
+> [!NOTE]
+> To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
 If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.
   
