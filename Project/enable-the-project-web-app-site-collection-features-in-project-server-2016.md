@@ -1,5 +1,5 @@
 ---
-title: "Enable the Project Web App site collection features in Project Servers 2016 or 2019 Public Preview"
+title: "Enable the Project Web App site collection features in Project Servers 2016 or 2019"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.assetid: b9c4dff2-4812-4131-8b20-4b7766d93233
 description: "Summary: Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App."
 ---
 
-# Enable the Project Web App site collection features in Project Servers 2016 or 2019 Public Preview
+# Enable the Project Web App site collection features in Project Servers 2016 or 2019
 
  **Summary:** Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2019 Public Preview
+**Applies to:** Project Server 2016, Project Server 2019
 
 Enabling the Project Web App site collection features adds additional functionality to the site collection that allows you to import SharePoint list projects into Project Web App.
 
