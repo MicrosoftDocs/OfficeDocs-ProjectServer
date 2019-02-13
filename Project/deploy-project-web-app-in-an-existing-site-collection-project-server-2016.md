@@ -36,11 +36,7 @@ For information on enabling the Project Web App site collection features, see [E
 For information on creating a Project Web App site in an existing site collection, see [Create a PWA site in an existing site collection](create-a-pwa-site-in-an-existing-site-collection.md).
   
 ## See also
-
-#### 
-
 [Deploy Project Web App with a new site collection (Project Server 2016)](deploy-project-web-app-with-a-new-site-collection-project-server-2016.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 
