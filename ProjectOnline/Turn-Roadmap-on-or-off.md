@@ -38,7 +38,8 @@ For more information details about deleting Roadmap data, see
 ## Turn Roadmap on or off
 
 An Office 365 admin can do the following to turn Roadmap on or off for their organization:
- 
+> [!NOTE]
+> Roadmap is currently turned off by default. After March 15, Roadmap will be turned on for all licensed users. If you want to ensure that Roadmap is off for your organization after that date, follow these steps after February 14, 2019 and turn it off. You need to do this even if you previously turned Roadmap off, and even if you’ve never used Roadmap. 
  
 1. In the Microsoft 365 admin center, under **Settings**, click **Services & add-ins**.
 2. Click **Project Online**.

@@ -117,15 +117,12 @@ After the Project Web App site has been provisioned, verify that it was created 
 
 From the PowerShell command prompt , type the following command and then press ENTER:
 
-    **Get-SPSite -ContentDatabase** *<ContentDatabaseName>*
-
-    
-
+    Get-SPSite -ContentDatabase <ContentDatabaseName>
 
 The command should return the URL for your Project Web App site and no other URLs.
 
 > [!NOTE]
-    > If additional URLs beyond that of the Project Web App site are listed in the content database, delete the Project Web App site and restart the procedure with a new content database.
+> If additional URLs beyond that of the Project Web App site are listed in the content database, delete the Project Web App site and restart the procedure with a new content database.
 
 After the Project Web App site is in the desired content database, you must lock down the database to prevent SharePoint Server from adding additional site collections to the database. This is performed by configuring the maximum number of sites for the content database to one. 
 
