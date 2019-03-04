@@ -4,7 +4,6 @@ localization_priority: Normal
 author: efrene
 manager: samanro
 layout: LandingPage
-ms.assetid: 
 ms.service: project-online
 ms.tgt_pltfrm: na
 ms.devlang: na
