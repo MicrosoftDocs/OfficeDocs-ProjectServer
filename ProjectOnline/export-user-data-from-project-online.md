@@ -7,7 +7,6 @@ ms.date: 6/25/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
-ms.collection: M365-security-compliance
 localization_priority: Normal
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
 description: "Your organization can export a specific user's content from your Project Online environment. To export this content, an Office 365 global administrator can follow these steps:"
@@ -15,7 +14,7 @@ description: "Your organization can export a specific user's content from your P
 
 # Export user data from Project Online
 
-Your organization can export a specific user's content from your Project Online environment. To export this content, an Office 365 global administrator can follow these steps:
+Your organization can export a specific user's content from your Project Online environment. To export this content, an Office 365 global administrator can follow these steps: 
   
 - [Step 1 - Download the export script files](export-user-data-from-project-online.md#scripts)
     
@@ -35,7 +34,7 @@ Your organization can export a specific user's content from your Project Online 
     
  **Work with your Project Admins**
   
-Depending on your company, your Office 365 global admin might be knowledgeable about managing Office 365 administrative tasks, but may know little about Project Online administration. If this is the case, we recommend that the Office 365 global admin work collaboratively with their PWA site admins to accomplish these tasks. For example, a global admin would probably be best suited to run the PowerShell script to find all PWA sites, but would probably need to work collaboratively with the PWA admin to accomplish the remaining steps and for help regarding business rules and configuration of each PWA site.
+Depending on your company, your Office 365 global admin might be knowledgeable about managing Office 365 administrative tasks, but may know little about Project Online administration. If this is the case, we recommend that the Office 365 global admin work collaboratively with their PWA site admins to accomplish these tasks. For example, a Office 365 global admin would probably be best suited to run the PowerShell script to find all PWA sites, but would probably need to work collaboratively with the PWA admin to accomplish the remaining steps and for help regarding business rules and configuration of each PWA site.
   
 ## Step 1 - Download the export script files
 <a name="scripts"> </a>

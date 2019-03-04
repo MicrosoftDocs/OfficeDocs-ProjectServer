@@ -9,7 +9,6 @@ ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
-ms.collection: M365-subscription-management
 ms.assetid: ec6a2c12-b179-46ca-ac3b-2f06984e4f66
 description: "Before you start using Project Online, one of the most important decisions that you have to make is how you want to manage your Project Online user accounts."
 ---

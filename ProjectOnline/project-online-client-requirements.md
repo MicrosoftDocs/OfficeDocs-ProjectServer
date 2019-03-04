@@ -7,7 +7,6 @@ ms.date: 1/17/2018
 audience: admin
 ms.topic: conceptual
 ms.service: project-online
-ms.collection: M365-subscription-management
 localization_priority: Priority
 ms.custom:
 - Adm_O365
