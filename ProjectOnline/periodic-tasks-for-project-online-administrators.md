@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
-ms.collection: M365-subscription-management
 search.appverid: PJO150
 ms.assetid: f7de04cc-9850-466c-920a-dd1ab593154e
 

@@ -8,7 +8,6 @@ audience: admin
 ms.topic: get-started-article
 ms.service: project-online
 localization_priority: Normal
-ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
 - PJO160
