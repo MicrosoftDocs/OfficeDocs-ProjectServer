@@ -6,6 +6,7 @@ manager: pamgreen
 ms.date: 2/16/2018
 audience: admin
 ms.topic: article
+ms.collection: M365-subscription-management
 f1_keywords:
 - 'O365P_ProjWA'
 - 'O365M_ProjWA'

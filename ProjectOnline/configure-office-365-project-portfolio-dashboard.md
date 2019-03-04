@@ -7,6 +7,7 @@ ms.date: 3/9/2018
 audience: admin
 ms.topic: article
 ms.service: o365-administration
+ms.collection: M365-subscription-management
 localization_priority: Normal
 search.appverid:
 - PJO150
