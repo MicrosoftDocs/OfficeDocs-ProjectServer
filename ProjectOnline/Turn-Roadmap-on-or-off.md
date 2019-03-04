@@ -9,6 +9,7 @@ ms.topic: get-started-article
 ms.service: project-online
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
 - PJO160

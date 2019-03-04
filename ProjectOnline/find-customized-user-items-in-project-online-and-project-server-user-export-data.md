@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: project-online
 localization_priority: Normal
 ms.custom: Adm_Project
+ms.collection: M365-security-compliance
 search.appverid:
 - PJU140
 - PJO150

@@ -7,6 +7,7 @@ ms.date: 1/5/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
+ms.collection: M365-subscription-management
 localization_priority: Normal
 ms.custom:
 - IT_ProjectAdmin

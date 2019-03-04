@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150

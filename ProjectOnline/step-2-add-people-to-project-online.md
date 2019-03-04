@@ -7,6 +7,7 @@ ms.date: 12/14/2017
 audience: admin
 ms.topic: overview
 ms.service: project-online
+ms.collection: M365-subscription-management
 localization_priority: Normal
 search.appverid:
 - PJO150
