@@ -84,7 +84,7 @@ Access to these files can be secured by using SharePoint Server 2013 security. Y
   
 ## Reporting in Project Online
 
-In Project Online, Project Web App data for reporting is only available through the OData feed. The OData feed must be accessed through Excel 2013. OData reports can be published to the Business Intelligence Center and displayed using Excel Services, but the data cannot be refreshed using Excel Services.
+In Project Online, Project Web App data for reporting is only available through the Project Online Reporting OData feed. The OData feed can be accessed through Excel 2013 or later. OData reports can be published to the Project Online Project Web App and displayed using Excel Online. Providing the Excel file is using the legacy OData import wizard for the Project Online Reporting OData feed, Excel Online will be able to refresh the Project Online data in the Excel file. For details on enabling the legacy data import wizards in Excel see this article: [Data import and analysis options](https://support.office.com/en-us/article/data-import-and-analysis-options-3ea52160-08bc-45ac-acd9-bc4a11bcc2a2)
   
 ## See also
 [Overview of Excel Services in SharePoint Server 2013](https://technet.microsoft.com/library/ee424405.aspx)
