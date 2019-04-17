@@ -86,7 +86,7 @@ Roadmap requires [Common Data Service for Apps](https://powerapps.microsoft.com/
 
 Your Office 365 tenant needs to have a **Project Online Professional** or **Project Online Premium** license in order to use the Roadmap feature.  The Project Online settings in the Microsoft 365 Admin Center will not be available if your Office 365 tenant does not have at least one of these licenses.
 
-The **Project Online Professional** or **Project Online Premium** license assigned to a user will provide three service plans that will allow the user to use the Roadmap feature. All three must be turned on for Roadmap to work for the user. 
+The **Project Online Professional** or **Project Online Premium** license assigned to a user will provide three service plans that will allow the user to use the Roadmap feature. The **Project P3**, **Flow for Project**, and **Common Data Service for Project** service plans directly support the infrastructure of running Roadmap.  All three must be turned on for Roadmap to work for the user. 
 
 ![Roadmap not available](media/PJOModProjServicePlans.jpg)
 ## Related Topics
