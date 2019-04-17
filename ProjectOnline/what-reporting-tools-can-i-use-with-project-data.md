@@ -28,6 +28,8 @@ If you're using Project Web App, you might be wondering what tools you can use t
 - [Reports in Project 2013](what-reporting-tools-can-i-use-with-project-data.md#__reports_in_project)
     
 - [SQL Server Reporting Services](what-reporting-tools-can-i-use-with-project-data.md#__sql_server_reporting) (provided your organization has Reporting Services set up) 
+
+- [Power BI](what-reporting-tools-can-i-use-with-project-data.md#__power_BI) for data visualizations and insights
     
 - Use other tools, such as PerformancePoint Services or [Visio Services](what-reporting-tools-can-i-use-with-project-data.md#__visio_services) (if your organization has these service applications set up and you have access to your project data in these tools) 
     
@@ -86,6 +88,11 @@ See [Create a project report](https://support.office.com/article/6e74dc79-0e2d-4
 <a name="__sql_server_reporting"> </a>
 
 Reporting Services is a powerful reporting platform that is available with SQL Server. Some customers prefer to use Reporting Services to create and share reports. Typically, IT administrators and developers create Reporting Services reports, and then share those reports using SharePoint or a Reporting Services report server. See [SQL Server Reporting Services tools](https://technet.microsoft.com/library/ms155792).
+
+## Power BI
+<a name="__power_BI"> </a>
+
+Power BI offers a great experience for data visualization and insights. See [What is Power BI](https://powerbi.microsoft.com/en-us/what-is-power-bi/)
   
 ## PerformancePoint Services in SharePoint Server 2013
 <a name="__sharepoint_applications"> </a>

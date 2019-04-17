@@ -37,16 +37,10 @@ Project Online uses SharePoint Permission Mode, by default. This mode is more st
   
 To change between permission modes:
   
-1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your admin account and go to Project Online. 
+1. Go to the the **Project Web App** site collection as the Project Web App Administrator 
     
-2. In Project Online, click the **Settings** icon, and select **PWA Settings**.
+2. On the Project Web App site, click the Settings icon in the top right corner then click **PWA Settings**
     
-3. On the **PWA Settings** page, in the **Operational Policies** section, select **Additional Server Settings**. 
+3. Under the **Operational Policies** heading, click **Additonal Server Settings**
     
-4. In the **Permissions Management** section, choose the permission mode you want to use for your Project Web App site: **SharePoint Permission Mode** or **Project Permission Mode**.
-    
-5. Select **OK**.
-    
-
-  
-
+4. In the **Permission Management** section choose the permission mode that you want and then click **Save**
