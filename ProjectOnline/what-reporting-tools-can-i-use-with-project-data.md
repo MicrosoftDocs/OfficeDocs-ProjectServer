@@ -63,7 +63,7 @@ Excel 2013 has lots of great business intelligence (BI) features. These include:
     
 - [Analyze your data instantly](https://support.office.com/article/9e382e73-7f5e-495a-a8dc-be8225b1bb78), which enables you to select a range of data and instantly see possible ways to display that data
     
-- [Create a PivotTable timeline to filter dates](https://support.office.com/article/d3956083-01be-408c-906d-6fc99d9fadfa) and [slicers](https://support.office.com/article/01832226-31B5-4568-8806-38C37DCC180E .aspx) that enable people to view more specific information in PivotTable reports or PivotChart reports 
+- [Create a PivotTable timeline to filter dates](https://support.office.com/article/d3956083-01be-408c-906d-6fc99d9fadfa) and [slicers](https://support.office.com/article/01832226-31B5-4568-8806-38C37DCC180E.aspx) that enable people to view more specific information in PivotTable reports or PivotChart reports 
     
 See [Creating charts from start to finish](https://support.office.com/article/36f8a2b7-0f74-4d40-942d-bc2e42436d73). 
   
