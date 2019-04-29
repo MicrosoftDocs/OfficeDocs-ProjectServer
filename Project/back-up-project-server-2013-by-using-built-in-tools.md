@@ -87,7 +87,20 @@ For Project Server 2013, there are two core components for backing up, unique to
 7. Click **OK** to perform the backup.
     
 8. Repeat this process for each database in the list.
-    
+
+### Start the SQL Server agent
+
+> [!NOTE]
+> After you have completed the Microsoft Project Server backup, Microsoft recommends that you schedule regular backups of the database. The SQL Server Agent (MSSQLSERVER) service needs to be started for jobs to be scheduled and run.  
+
+To start the MSSQLSERVER service, follow these steps:
+
+1. Click **Start**, point to **Administrative Tools**, and then click **Services**.
+
+2. On the right pane, locate and right-click **SQL Server Agent (MSSQLSERVER)**, and then click **Start**.
+
+3. Close the Services tool.
+
 ### To schedule the backup
 
 1.	Go to Start -> All Programs -> Microsoft SQL Server 2008/2012 -> SQL Server Management Studio.
