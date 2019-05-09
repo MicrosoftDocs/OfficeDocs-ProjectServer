@@ -49,6 +49,6 @@ A number of factors can affect how much effort you will need to put into your mi
   
 - **Get help from a Microsoft Partner** - Upgrading to Project Online from Project Server can be a challenge, and requires a lot of preparation and planning. It can be especially challenging if you were not the one to setup and configure Project Server originally. Luckily, there are Microsoft Partners you can turn to who can help you with this. You can search for a Microsoft Partner to help with your migration on the [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=841249). You can pull up a listing of all Microsoft Partner with expertise in Project by searching on the term  *Gold Project and Portfolio Management*  . 
     
-- **Microsoft FastTrack** - Check with [Microsoft FastTrack](https://www.microsoft.com/fasttrack) for guidance about migrating to the cloud from your on-premises environment. Only migrations from Project Server 2013 or Project Server 2016 are supported. Check with Microsoft FastTrack on minimum license volumes to use this service. 
+- **Get help from Microsoft Services** - You can also use [Microsoft Services](https://www.microsoft.com/enterprise/services?rtc=1&activetab=pillars:primaryr13) to consult with Microsoft solutions experts who have the knowledge and experience to migrate you from your on-premises Project Server environment. 
     
 
