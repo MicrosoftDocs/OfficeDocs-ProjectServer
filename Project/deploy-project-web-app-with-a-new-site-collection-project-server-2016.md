@@ -3,7 +3,7 @@ title: "Deploy Project Web App with a new site collection"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: project-server-itpro
 localization_priority: Normal
