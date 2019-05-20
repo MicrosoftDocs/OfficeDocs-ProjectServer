@@ -39,6 +39,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/ProjectOnline/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "contributors_to_exclude": [
+        "denisebmsft"
+      ],
       "searchScope": ["Project Online"],
        "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
