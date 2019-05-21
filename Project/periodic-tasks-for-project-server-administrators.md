@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: scotv
 ms.date: 5/16/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.prod: project-server-itpro
 localization_priority: Normal

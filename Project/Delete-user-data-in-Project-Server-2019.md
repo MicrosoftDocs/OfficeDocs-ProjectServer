@@ -3,7 +3,7 @@ title: "Delete user data from Project Server 2019 Public Preview"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal

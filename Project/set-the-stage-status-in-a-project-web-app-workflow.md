@@ -4,7 +4,7 @@ ms.author: kenwith
 author: kenwith
 manager: scotv
 ms.date: 8/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal

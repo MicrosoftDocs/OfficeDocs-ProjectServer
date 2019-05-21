@@ -3,7 +3,7 @@ title: "Upgrading to Project Server 2019"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal

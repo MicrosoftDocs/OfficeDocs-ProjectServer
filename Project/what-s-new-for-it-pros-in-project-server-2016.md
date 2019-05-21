@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 12/20/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: project-server-itpro
 localization_priority: Normal
