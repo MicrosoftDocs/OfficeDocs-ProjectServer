@@ -48,8 +48,8 @@ When connecting to Project Online with Project Professional, there will always b
 3. On the Additional Server Settings page, in the Project Professional Versions section, under **Minimum Versions** you can see the minimum supported build numbers for Project Professional clients that can connect to Project Online. These include: 
     
   - Project Professional 2016
-  - Project Professional 2019 Preview
-  - Project Online Desktop Client (subscription version of Project Professional)
+  - Project Professional 2019
+  - Project Online Desktop Client (subscription version included with Project Online Professional and Project Online Premium licenses)
     
     All builds that are at or higher than the current minimum build number posted on this page are supported to connect to Project Online. 
     
