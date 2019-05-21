@@ -3,7 +3,7 @@ title: "Deploy Project Servers 2016 or 2019 Public Preview"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal
