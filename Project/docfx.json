@@ -35,6 +35,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/project/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "denisebmsft"
+      ],
       "searchScope": [
         "Project Server"
       ],
