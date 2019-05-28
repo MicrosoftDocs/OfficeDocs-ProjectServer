@@ -6,6 +6,7 @@
 ### [Add Project Online to your Office 365 account](add-project-online-to-your-office-365-account.md)
 ### [Add Project Online to a site collection](add-project-online-to-a-site-collection.md)
 ### [Migrate to Project Online from Project Server](migrate-to-project-online-from-project-server.md)
+### [Connect to Project Online with the Project Online Desktop Client](connect-to-project-online-with-the-project-online-desktop-client.md)
 ### [Set up another Project Online site](set-up-another-project-online-site.md)
 ### [Delete a Project Web App site](delete-a-project-web-app-site.md)
 ### [Turn on notifications in Project Web App](turn-on-notifications-in-project-web-app.md)
