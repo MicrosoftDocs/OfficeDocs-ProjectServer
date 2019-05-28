@@ -54,7 +54,7 @@ You can do the following to connect to your Project Online site in your Office 3
 
  
  > [!NOTE]
-> You can also connect to Project Online with supported versions of Project Professional. See [Project Online client requirements](project-online-client-requirements) for more information.
+> You can also connect to Project Online with supported versions of Project Professional. See [Project Online client requirements](project-online-client-requirements.md) for more information.
 
     
 
