@@ -52,9 +52,7 @@ You may decide that you want to set up an additional Project Online site, to man
     
     ![Private Site Collection with Project Web App](media/032a8138-25e1-490a-8e38-3ddb9607556a.png)
   
-6. Select the web site where you want to create the site collection in the **Public Website Address** list, and then type the part of the URL that points directly to the site collection in the box that follows. 
-    
-    For example, select **https://contoso.microsoftonline.com** from the **Public Website Address** list, and then type **pwa** in the box next to the address. The address for the site collection will be https://contoso.microsoftonline.com/pwa. 
+6. Select the web site where you want to create the site collection in the **Web Site Address** list, and then type the part of the URL that points directly to the site collection in the box that follows.    
     
 7. Fill out the rest of the boxes, including the following:
     
@@ -67,6 +65,6 @@ You may decide that you want to set up an additional Project Online site, to man
 8. Click **OK** to create the site collection, with Project Online enabled. 
     
 > [!NOTE]
->  After setting up the site, wait 15 minutes before using it, so that Project Online can finish installing. 
+>  After setting up the site, wait 15 minutes before using it, so that Project Online can finish installing.
   
 
