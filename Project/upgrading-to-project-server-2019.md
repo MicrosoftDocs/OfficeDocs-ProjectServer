@@ -94,7 +94,6 @@ The second step in the upgrade process copies your databases required for your P
 
    - SharePoint Server 2016 content database that contains your project data
 
-   - Project Server 2016 database
 
 2. The server farm administrator restores a backup copy of the databases to the SQL Server 2016 or 2017 instance being used to host the Project Server 2019 farm databases.
 
@@ -142,7 +141,7 @@ The results of the Test-SPContentDatabase cmdlet will note inconsistencies it wi
 Check the MSP_RESOURCE_PLANS table for the following columns:
 
 |**Column**|**Values**|
-|:-----|:-----|
+|:-----: |:-----|
 |RESPLAN_IS_MIGRATED  <br/> | "0" not migrated <br/>  "1" migrated <br/> |
 |MIGRATED_REV_COUNTER  <br/> |The value shown is the number of attempts it took to migrate this resource plan. If the command is run repeatedly, this value is incremented each time, with a maximum value of 50.  <br/> |
 |MIGRATION_ERROR_INFO  <br/> | Provides additional information about migration: <br/>  MissingResources=1, followed by a list of missing resources <br/>  AccessDenied=2, followed by any additional information <br/>  DatabaseError=3, followed by any additional information <br/>  Unknown=4, followed by any additional information <br/> |
