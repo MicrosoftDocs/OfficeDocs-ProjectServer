@@ -84,7 +84,7 @@ If you want to use your own domain, like contoso.com, instead of the default dom
 
 ### Master page customizations
 
-Modifying the default or changing out the default master page template can result in unexpected  rendering or display issues and is not supported. 
+Modifying or changing out the default master page template can result in unexpected rendering or display issues and is not supported. 
 
 ### Using period symbols in your PWA site collection site address
 
