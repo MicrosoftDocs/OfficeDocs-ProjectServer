@@ -44,7 +44,7 @@ There is a special case in which the base installation language for SharePoint S
   
 |||
 |:-----|:-----|
-|**SharePoint Server 2019 ** <br/> |**Project Server 2019 ** <br/> |
+|**SharePoint Server 2019** <br/> |**Project Server 2019** <br/> |
 |Thai  <br/> |English  <br/> |
    
  **Language packs**
