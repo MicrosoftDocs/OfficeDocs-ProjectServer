@@ -19,7 +19,7 @@ description: "This article describes periodic checks Project Server admins shoul
 
 **Applies to:** Project Server 2016, Project Server 2013 <br/>
 
-This article describes periodic checks Project Server admins should perform to maintain their environments. It was contributed by Microsoft Senior Premier Field Engineer [Brooks White](https://go.microsoft.com/fwlink/p/?linkid=848903).
+This article describes periodic checks Project Server admins should perform to maintain their environments. It was contributed by Microsoft Senior Premier Field Engineer [Brooks White](https://go.microsoft.com/fwlink/p/?linkid=848903). (To access this link you will need a LinkedIn account)
   
 ## 
 
