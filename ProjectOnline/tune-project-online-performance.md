@@ -1,5 +1,5 @@
 ---
-title: "Tune Project Web App (PWA) performance"
+title: "Tune Project Web App (PWA) performance in Project Online"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -17,7 +17,7 @@ ms.assetid: 12ba0ebd-c616-42e5-b9b6-cad570e8409c
 description: 
 ---
 
-# Tune Project Web App (PWA) performance
+# Tune Project Web App (PWA) performance in Project Online
 
   
 The online version of Project Web App is used in several large organizations. The rich set of Project Portfolio Management (PPM) capabilities have been used at scale in these large organizations successfully when the following best practices in this document are followed. This document is updated as new best practices are discovered.
