@@ -49,11 +49,11 @@ For reporting, there are also limits to how many single-value custom fields, of 
 > [!NOTE]
 > While you can create more custom fields than these limits, only this many custom fields will be included in the OData feed. You are not able to choose which of the fields are included. 
   
-Also for reporting, if an individual report's source Excel file is larger than 10MB, it cannot be refreshed in Excel Online. Instead, you can:
+Also for reporting, if an individual report's source Excel file is larger than 10MB, it cannot be refreshed in Excel. Instead, you can:
   
 - Refresh the report using Excel 2013.
     
-- Consider getting [Power BI](https://powerbi.microsoft.com/en-us/) to extend that 10MB limit and refresh the report in Excel Online. 
+- Consider getting [Power BI](https://powerbi.microsoft.com/en-us/) to extend that 10MB limit and refresh the report in Excel. 
     
 [File size limits for workbooks in SharePoint Online](https://support.office.com/article/9e5bc6f8-018f-415a-b890-5452687b325e).
   
