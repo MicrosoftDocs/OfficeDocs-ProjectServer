@@ -125,7 +125,7 @@ To grant users access to the cube, you must add the following groups and account
   
 - If you're accessing the cube using Windows authentication, such as through Excel, your user account must be a member of the ProjectServerViewOlapDataRole role in the cube. Consider using Active Directory Directory Services groups to manage user access to the cube. If you're using Active Directory synchronization with Project Server, those groups may contain the users to whom you want to grant cube access.
     
-- If you're accessing the cube using Secure Store, such as when using Excel Online, the credentials of the Secure Store target application must be a member of the ProjectServerViewOlapDataRole role in the cube.
+- If you're accessing the cube using Secure Store, such as when using Excel, the credentials of the Secure Store target application must be a member of the ProjectServerViewOlapDataRole role in the cube.
     
 Use the following procedure to grant users access to the OLAP cube.
   
