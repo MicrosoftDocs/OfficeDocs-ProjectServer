@@ -89,7 +89,7 @@ The following table shows a high-level comparison of how on-premises and online 
    
 Setting up reporting in Project Online is the easiest option to configure. The OData feeds for Project Web App work as soon as you set up Project Web App. 
   
-Setting up reporting in an on-premises environment is more involved. If you want to access the Project Web App in the content database, you need to follow a series of steps that includes [setting up Office Online Server](http://technet.microsoft.com/library/e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5%28Office.14%29.aspx) and [Secure Store](http://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125%28Office.14%29.aspx).
+Setting up reporting in an on-premises environment is more involved. If you want to access the Project Web App in the content database, you need to follow a series of steps that includes [setting up Office Web Apps Server](http://technet.microsoft.com/library/e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5%28Office.14%29.aspx) and [Secure Store](http://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125%28Office.14%29.aspx).
   
 If you want to copy Project Online data into an on-premises data warehouse, you need to use SQL Server Integration Services and create a custom solution. Of all the reporting options for Project Web App this requires the most up-front work from your IT department or BI specialists. However, it does allow you to use Project Online even if you have business requirements for advanced reporting in an on-premises database.
   
