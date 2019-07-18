@@ -24,7 +24,7 @@ If you already subscribe to another Microsoft service, such as Exchange Online o
   
 ||
 |:-----|
-|**How do I know if I have the right kind of Office 365 account?** <br/> To check, go to the [Purchase Services page](https://go.microsoft.com/fwlink/p/?LinkID=402340) in the Office 365 admin center.  <br/> |||
+|**How do I know if I have the right kind of Office 365 account?** <br/> To check, go to the [Purchase Services page](https://go.microsoft.com/fwlink/p/?LinkID=402340) in the Microsoft admin center.  <br/> |||
 |||
 |![Purchase Services](media/6a43626d-916a-4bb7-816f-633770ded933.jpg)           <br/> |**If you see Project Online listed,** this means you can add it! Keep reading to learn more.  <br/> **If you don't see Project Online listed,** this could be because your account isn't Office 365 Enterprise, Government, or Academic. These are the only subscription levels that currently support Project Online.  <br/> |
    
@@ -34,7 +34,7 @@ If you already subscribe to another Microsoft service, such as Exchange Online o
   
 1. [Log into](https://portal.office.com) your Office 365 account. 
     
-2. On the Office 365 admin center, choose **Purchase Services** on the left menu. 
+2. On the Microsoft 365 admin center, choose **Purchase Services** on the left menu. 
     
 3. Choose **Add** next to the Project Online plan that you prefer, and follow the on-screen instructions. 
     
