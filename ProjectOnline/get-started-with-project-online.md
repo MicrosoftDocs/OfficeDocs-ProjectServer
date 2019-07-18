@@ -38,7 +38,7 @@ description: "This article is the first in a series that will help you get start
   
 ### Got the wrong thing?
 
- **If you need to cancel and subscribe to something else,** choose **Billing** \> **Subscriptions** in the Office 365 admin center, choose the subscription you want to cancel, and then click **Cancel subscription** in the pane on the right. Then, you can find the right product to subscribe to and add that to your existing Office 365 account. 
+ **If you need to cancel and subscribe to something else,** choose **Billing** \> **Subscriptions** in the Microsoft 365 admin center, choose the subscription you want to cancel, and then click **Cancel subscription** in the pane on the right. Then, you can find the right product to subscribe to and add that to your existing Office 365 account. 
   
 ### Need help?
 

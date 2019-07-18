@@ -135,7 +135,7 @@ If you are looking to provide your users with similar functionality as they did 
 ## Step 3: Buy the Project Online Skus that you need
 <a name="step3"> </a>
 
-Now that you know what you need, you can now purchase the needed number of licenses you need for each new Project Online Skus. You can do this through the Office 365 Admin Center through the Billing page. You will want to [Buy licenses for your Office 365 for business subscription](https://support.office.com/article/36081d8d-b3fa-4948-8c34-e217bba825e1#buy4later).
+Now that you know what you need, you can now purchase the needed number of licenses you need for each new Project Online Skus. You can do this through the Microsoft 365 Admin Center through the Billing page. You will want to [Buy licenses for your Office 365 for business subscription](https://support.office.com/article/36081d8d-b3fa-4948-8c34-e217bba825e1#buy4later).
   
 ## Step 4: Assign the new licenses to your users
 <a name="step4"> </a>
@@ -193,7 +193,7 @@ When you have completed assigning your Project Online Skus to your users, you ne
 
 After running it, open the newly generated License Report in Excel and search for any occurrences of the old Project Online skus.
   
-Also verify that if you have any unassigned old Project Online skus, that you cancel them in the Office 365 Admin Center on the Billing page. You can search for retired skus by simply searching the file for occurrences of the retired Project Online sku strings.
+Also verify that if you have any unassigned old Project Online skus, that you cancel them in the Microsoft 365 Admin Center on the Billing page. You can search for retired skus by simply searching the file for occurrences of the retired Project Online sku strings.
   
 If you have any issues in trying to move to your new Project Online skus, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for assistance. 
   
