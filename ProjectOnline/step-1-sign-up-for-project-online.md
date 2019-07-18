@@ -28,7 +28,7 @@ description: "The first step in getting started with Project Online is to get si
 
 ||||
 |:-----|:-----|:----|
-|![Sign up](media/094f4fe5-6b9c-41b7-8b5b-431c09684d05.png)           <br/> |**Start from scratch** <br/> New to Office 365? Start here!  <br/> [![Sign up for Project Online](media/3c86592e-8704-4428-8b62-bf52c1dcfa03.png)](https://products.office.com/Project/project-online-portfolio-management)|**Add Project Online to Office 365** <br/> If you already have an Office 365 account, you may be able to add Project Online to that account by choosing **Activate offers** from the left menu on the Office 365 admin center under **Billing**. [Learn more](add-project-online-to-your-office-365-account.md) <br/> |
+|![Sign up](media/094f4fe5-6b9c-41b7-8b5b-431c09684d05.png)           <br/> |**Start from scratch** <br/> New to Office 365? Start here!  <br/> [![Sign up for Project Online](media/3c86592e-8704-4428-8b62-bf52c1dcfa03.png)](https://products.office.com/Project/project-online-portfolio-management)|**Add Project Online to Office 365** <br/> If you already have an Office 365 account, you may be able to add Project Online to that account by choosing **Activate offers** from the left menu on the Microsoft 365 admin center under **Billing**. [Learn more](add-project-online-to-your-office-365-account.md) <br/> |
    
 
    
@@ -37,7 +37,7 @@ description: "The first step in getting started with Project Online is to get si
 
 |||
 |:-----|:-----|
-|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> | It may seem a little backwards, but after you sign up, the first thing you should do is **make sure your account is assigned a Project Online license**. Some accounts are and some aren't.  <br/> **To check if you're assigned a license:** <br/>  Choose **Users** \> **Active Users** from the left menu on the Office 365 admin center.  <br/>  Choose your account.  <br/>  Confirm that the **Project Online** is listed under **Product licenses**.  <br/> **Even if, as the administrator, you don't actually plan to use Project Online,** the only way you'll be able to see that Project Online is, in fact, included in your Office 365 account is by giving yourself a license to use it. You can go back in later and remove your license to free it up for another user, if needed.  <br/> |
+|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> | It may seem a little backwards, but after you sign up, the first thing you should do is **make sure your account is assigned a Project Online license**. Some accounts are and some aren't.  <br/> **To check if you're assigned a license:** <br/>  Choose **Users** \> **Active Users** from the left menu on the Microsoft 365 admin center.  <br/>  Choose your account.  <br/>  Confirm that the **Project Online** is listed under **Product licenses**.  <br/> **Even if, as the administrator, you don't actually plan to use Project Online,** the only way you'll be able to see that Project Online is, in fact, included in your Office 365 account is by giving yourself a license to use it. You can go back in later and remove your license to free it up for another user, if needed.  <br/> |
    
 ## Be patient...
 <a name="__top"> </a>

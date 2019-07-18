@@ -102,7 +102,7 @@ You users will not lose any of their data when they switch to a new plan. While 
   
 ## How will I know when I need to make a decision on my plan?
 
-If you have access to the Office 365 admin portal, you'll see posts in the Message Center (part of the [About the Office 365 admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23)) with information on when you need to take action. In the meantime, you can renew your subscription and add more licenses as usual. 
+If you have access to the Office 365 admin portal, you'll see posts in the Message Center (part of the [About the admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23)) with information on when you need to take action. In the meantime, you can renew your subscription and add more licenses as usual. 
   
 ## How can I add additional licenses if I am still using a retired Project plan?
 
