@@ -42,27 +42,25 @@ You may decide that you want to set up an additional Project Online site, to man
     > [!TIP]
     > The **Admin** tile appears only to Office 365 administrators. 
   
-3. In the lower-left navigation, expand **Admin Centers** and open the **SharePoint** admin center. 
+3. In the lower-left navigation, select **Show all**, expand **Admin Centers** and open the **SharePoint** admin center. 
+
+4. In the SharePoint admin center, select **Active sites**.
+
+5. On the **Active sites** page, select **Create**, and on the **Create a site** page, select **Other options**.
+6. On the **Other options** page, from the **Choose a template** menu, select **Project Web App site**. 
+
+    ![Selecting the Project Web App site template](media/PWASiteTemplate.jpg) 
+
+7. Give the site a name, type the name or email address of the site's Primary administrator, select a time zone, and select a language.
+8. Select **Finish**.
     
-4. Click **New** \> **Private Site Collection with Project Web App**.
-    
-    ![New \> Private Site Collection with Project Web App](media/5c4d7f4a-4329-4e30-8da7-5ee5ded70b49.png)
+
   
-5. Type a name for the new site collection in the **Title** box. 
-    
-    ![Private Site Collection with Project Web App](media/032a8138-25e1-490a-8e38-3ddb9607556a.png)
+
   
-6. Select the web site where you want to create the site collection in the **Web Site Address** list, and then type the part of the URL that points directly to the site collection in the box that follows.    
+  
     
-7. Fill out the rest of the boxes, including the following:
-    
-  - **Administrator** Enter the name of the administrator for the site collection. 
-    
-  - **Storage Quota** Enter the maximum amount of memory you want to dedicate to storage for Project Online. The recommendation is at least 200 MB. This figure affects performance. 
-    
-  - Server Resource Quota Enter the maximum number of server resources you want to use in Project Online. The recommendation is at least 300 server resources. This figure affects performance.
-    
-8. Click **OK** to create the site collection, with Project Online enabled. 
+
     
 > [!NOTE]
 >  After setting up the site, wait 15 minutes before using it, so that Project Online can finish installing.
