@@ -34,19 +34,24 @@ To enable Project Online on an existing site collection:
 2. Click the app launcher ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), and then click **Admin**.
     
 3. In the admin center, under **Admin centers**, select **SharePoint**.
+
+  
+4. On the SharePoint admin center, select **Classic features**.
+5. On the **Classic features** page, in the **Classic site collections page** section, select **Open**. 
+
     
-4. Hover over the URL for the site collection where you want to enable Project Online, and then select the check box that appears to the left of the URL.
+6. Hover over the URL for the site collection where you want to enable Project Online, and then select the check box that appears to the left of the URL.
     
     ![Site Collections check box](media/fa112993-ceb2-44c4-9884-07897ebc9315.png)
   
     > [!IMPORTANT]
     > You can only add Project Online to a site collection that uses the **Team Site** or **Project Site** template. 
   
-5. Click **Project Web App** on the ribbon, and then click **Add**.
+7. Click **Project Web App** on the ribbon, and then click **Add**.
     
     ![Project Web App \> Add](media/93785041-1596-4369-9c36-ac5228a68eac.png)
   
-6. On the dialog box that appears, click **Enable** to add Project Online to the site collection. 
+8. On the dialog box that appears, click **Enable** to add Project Online to the site collection. 
     
     > [!NOTE]
     > After setting up the site, wait 15 minutes before using it, so that Project Online can finish installing. 
