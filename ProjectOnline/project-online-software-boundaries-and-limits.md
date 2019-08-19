@@ -33,7 +33,7 @@ To keep Project Online performing at its best, there are some limits to how much
     
   - The project sites for these projects must not exceed 2000 sites in any one site collection - and for best performance with large numbers of projects aim to have none of the project sites in the PWA site collection itself.
     
-- ﻿Initial quota of 25GB per Project Web App site. Please see [Tune Project Online performance](tune-project-online-performance.md) for more information. 
+- ﻿Initial quota of 25 GB per Project Web App site. Please see [Tune Project Online performance](tune-project-online-performance.md) for more information. 
     
     > [!NOTE]
     > The 25GB limit for each Project Online database is separate from the [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498) where Project Web App is enabled. The number of Project Web App sites within a tenant is the same as the maximum number of SharePoint Site Collections allowed in a tenant. 
