@@ -25,7 +25,7 @@ This article lists all of the updates that have been made to the Portfolio Servi
 ## Upgrade Information
 If you want to upgrade your solution within Dynamics 365 when a newer version is available, please see [KB #3192042](https://support.microsoft.com/help/3192042/how-to-upgrade-the-solutions-for-a-microsoft-dynamics-crm-portals-depl). 
 >[!Note]
-Although updates are automatically deployed to the portal website itself by Microsoft, action must be taken by your Office 365 admin to deploy the corresponding solutions within the Dynamics 365 instance that is associated with the portal. 
+>Although updates are automatically deployed to the portal website itself by Microsoft, action must be taken by your Office 365 admin to deploy the corresponding solutions within the Dynamics 365 instance that is associated with the portal. 
 
 ## Version history
 
