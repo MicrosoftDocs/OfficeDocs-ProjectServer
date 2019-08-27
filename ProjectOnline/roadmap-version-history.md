@@ -10,7 +10,6 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
-ms.assetid: 38b9df07-e508-4880-b848-d725c36c7efd
 description: "See version history and release notes for the Portfolio Service solution."
 ---
 
