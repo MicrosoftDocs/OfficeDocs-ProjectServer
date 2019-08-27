@@ -22,9 +22,10 @@ description: "See version history and release notes for the Portfolio Service so
 
 This article lists all of the updates that have been made to the Portfolio Service solution in  Microsoft Dynamics 365 to date, along with other information pertinent to those updates.
 
+## Upgrade Information
+If you want to upgrade your solution within Dynamics 365 when a newer version is available, please see [KB #3192042](https://support.microsoft.com/help/3192042/how-to-upgrade-the-solutions-for-a-microsoft-dynamics-crm-portals-depl)
+
 ## Version history
-    
- 
 
   
 |**Version**|**Release date**|**Update description**|
