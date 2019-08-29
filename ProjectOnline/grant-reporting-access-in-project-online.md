@@ -18,7 +18,7 @@ description: "If your Project Online reports connect to the OData feed, you'll n
 # Grant reporting access in Project Online
 
   
-Before you can use Project Online reports in Excel, the tenant administrator needs to activate this feature for the Project Online site collection.
+Before you can use Project Online reports in Excel Online, the tenant administrator needs to activate this feature for the Project Online site collection.
   
 1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your admin account. 
     
@@ -35,9 +35,11 @@ Before you can use Project Online reports in Excel, the tenant administrator nee
     > [!TIP]
     >  If you have more than one Project Online site collection, make a note about which one has **Project Web App Permission for Excel Web App Refresh** activated. When you activate it on one site collection, it is activated for all site collections in your Office 365 tenant. However, if you ever want to deactivate it, you can only turn it off from the site collection where you activated it initially. 
   
-You should now be able to refresh your Project Online reports in Excel.
+You should now be able to refresh your Project Online reports in Excel Online.
   
 > [!IMPORTANT]
 >  Before using the default Project Online reports ( **Project Overview**, **Resource Overview**, and **Project Overview Dashboard**), you may need to open each report in Excel 2013, refresh the data, and then save the report back to Project Online. This will update the report so that it is supported by Excel. 
-  
+
+> [!IMPORTANT]
+> Please note, for Excel Online to be able to refresh the Excel reports, the Excel reports will need to use the legacy data import wizards. For details on enabling the legacy data import wizards in Excel, see this article: [Data import and analysis options](https://support.office.com/en-us/article/data-import-and-analysis-options-3ea52160-08bc-45ac-acd9-bc4a11bcc2a2)
 
