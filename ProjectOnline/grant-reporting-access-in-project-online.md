@@ -41,5 +41,5 @@ You should now be able to refresh your Project Online reports in Excel Online.
 >  Before using the default Project Online reports ( **Project Overview**, **Resource Overview**, and **Project Overview Dashboard**), you may need to open each report in Excel 2013, refresh the data, and then save the report back to Project Online. This will update the report so that it is supported by Excel. 
 
 > [!IMPORTANT]
-> Please note, for Excel Online to be able to refresh the Excel reports, the Excel reports will need to use the legacy data import wizards. For details on enabling the legacy data import wizards in Excel, see this article: [Data import and analysis options](https://support.office.com/en-us/article/data-import-and-analysis-options-3ea52160-08bc-45ac-acd9-bc4a11bcc2a2)
+> For Excel Online to be able to refresh the Excel reports, the Excel reports will need to use the legacy data import wizards. For details on enabling the legacy data import wizards in Excel, see [Data import and analysis options](https://support.office.com/article/data-import-and-analysis-options-3ea52160-08bc-45ac-acd9-bc4a11bcc2a2).
 
