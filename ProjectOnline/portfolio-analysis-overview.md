@@ -12,7 +12,7 @@ ms.custom: IT_ProjectAdmin
 description: "Learn what a project portfolio analysis is and how to get started doing portfolio analyses in Project Web App."
 ---
 
-# **Portfolio analysis in the Microsoft Project Web Application**
+# Portfolio analysis in the Microsoft Project Web Application
 
 ‎**Summary:** Learn what a project portfolio analysis is and how to get started doing portfolio analyses in Project Web App.
 

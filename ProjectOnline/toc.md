@@ -48,7 +48,7 @@
 ### [Project Online: software boundaries and limits](project-online-software-boundaries-and-limits.md)
 ### [Best practices to improve Resource Engagements performance](best-practices-to-improve-resource-engagements-performance.md)
 ## [Portfolio analysis]()
-### [**Portfolio analysis in the Microsoft Project Web Application**](portfolio-analysis-overview.md)
+### [Portfolio analysis in the Microsoft Project Web Application](portfolio-analysis-overview.md)
 ### [Defining portfolio analysis business drivers](portfolio-analysis-business-drivers.md)
 ### [Prioritizing portfolio analysis business drivers](portfolio-analysis-driver-prioritization.md)
 ### [Creating a new portfolio analysis](creating-a-portfolio-analysis.md)
