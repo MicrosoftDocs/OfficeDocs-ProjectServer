@@ -50,7 +50,7 @@ If you choose not to pre-populate your directory, you can choose the **Allow ext
   
 The advantage of this method is that the site can be easily shared with anyone who has an Office 365 or Microsoft account. You can invite new users whenever you need to by clicking **Share** on the Project Web App site. Users who accept invitations are added to your Office 365 directory and you can manage them there. 
   
-One thing to note in using this method is that invited users aren't added to your Office 365 directory until they accept the sharing invitation, and they must be in your directory before you can assign them a Project Online license. Because of this, they will not have full access to the Project Web App site when they first receive the invitation. They can still work with documents, issues, and risks, but won't be able to manage projects or work with time sheets until they have a Project Online license.
+One thing to note in using this method is that invited users aren't added to your Office 365 directory until they accept the sharing invitation, and they must be in your directory before you can assign them a Project Online license. Because of this, they will not have full access to the Project Web App site when they first receive the invitation. They can still work with documents, issues, and risks, but won't be able to manage projects or work with time sheets until they have a Project Online license and have accepted the invitation.
   
  **Choosing a sharing method**
   
