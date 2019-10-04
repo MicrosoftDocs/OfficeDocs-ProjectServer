@@ -136,11 +136,19 @@ To run the ExportProjectContent script:
     |**Parameter** <br/> |**Description** <br/> |
     |ProjectId   <br/> |GUID of the project within CDS.  You learned how to find this in the previous section.   <br/> |
     |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
-    |InstanceId   <br/> |The OrgId or instance name of the CDS organization. <br/> |
+    |InstanceId   <br/> |The identifier of the Dynamics 365 instance you are using. <br/> |
 
-    For example, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>contoso.crm.dynamics.com<spam><spam>, you would run the script like this:
+    To find your Instance ID:
 
-    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>contoso.crm.dynamics.com<spam><spam>"
+    a. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Customizations**.</br>
+    b. On the Customizations page, select **Developer Resources**.</br>
+    c. On the Developer Resources page, in **Instance Reference Information**, note the Unique Name value.</br>
+    ![Find the instance Unique Name](media/CDSOrgID.png)</br>
+    d. Determine the InstanceID value by inserting the Unique Name value in front of the .crm.dynamics.com. For example, **org37a70f30.crm.dynamics.com**.
+
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>org37a70f30.crm.dynamics.com<spam><spam>, you would run the script like this:
+
+    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>org37a70f30.crm.dynamics.com<spam><spam>"
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML And .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
