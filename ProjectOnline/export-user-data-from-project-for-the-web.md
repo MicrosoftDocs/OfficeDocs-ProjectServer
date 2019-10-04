@@ -62,9 +62,11 @@ You can look specifically at any of these Dynamics 365 solutions to get an idea 
 To view entities for a Dynamics 365 solution:
 1. In the Microsoft 365 admin center, under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
+
    ![CDS Instance](media/CDSInstance.png) 
 3. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 4. On the All Solutions page, click on the Display Name of the solution that you are interested in.
+
     ![CDS solutions](media/CDSsolutions.png) 
 5.  On the solution information page, expand **Entities** to view them.
 
@@ -72,20 +74,23 @@ To view entities for a Dynamics 365 solution:
 6. Under each entity, you can select specific objects to get more details about its properties.
 ![Solutions entities descriptions](media/CDSEntitiesDesc.png)
 
-### Use Advanced Find to query for user data
+### Use Advanced Find to search for user data
 
 Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for Project service data for your user. Advanced Find will search across all solutions in your CDS instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 3.	Click the **Advance Find** button.
+
     ![Advanced Find](media/AdvancedFind.png)
 4.	In Advanced Find, in the **Look for** menu, select the objects that you want to search for. For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
-![Advanced Find](media/AdvancedFindLookForRoadmap1.png)
+
+    ![Advanced Find](media/AdvancedFindLookForRoadmap1.png)
 5.	To begin building your query, click **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You will need the users AAD ID or account name.  For example:
     -	To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
     -	To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
-    ![Create query in Advanced Find](media/AdvancedFindBuildQueryRM.png)
+
+        ![Create query in Advanced Find](media/AdvancedFindBuildQueryRM.png)
 6. When you are done with selecting your search criteria, in the ribbon, select **Edit Columns**.
 7. On the Edit columns page, select **Add columns**, and then select the columns you want to include in the query.  When done, click **OK**.
 8. Click **Results** to run your query.
@@ -122,20 +127,20 @@ Now that you have the Project IDs of the projects you are interested in looking 
 To run the ExportProjectContent script:
 1. In Windows PowerShell, run the following: 
 
-.\ExportProjectContent.ps1 -ProjectID (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+    .\ExportProjectContent.ps1 -ProjectID (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
 
-You will need to configure the following parameters when running the script:
+    You will need to configure the following parameters when running the script:
 
-|||
-|:-----|:-----|
-|**Parameter** <br/> |**Description** <br/> |
-|ProjectId   <br/> |GUID of the project within CDS.  You learned how to find this in the previous section.   <br/> |
-|OutputDirectory  <br/> |Location where the export files are put.   <br/> |
-|InstanceId   <br/> |The OrgId or instance name of the CDS organization. <br/> |
+    |||
+    |:-----|:-----|
+    |**Parameter** <br/> |**Description** <br/> |
+    |ProjectId   <br/> |GUID of the project within CDS.  You learned how to find this in the previous section.   <br/> |
+    |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
+    |InstanceId   <br/> |The OrgId or instance name of the CDS organization. <br/> |
 
-For example, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>contoso.crm.dynamics.com<spam><spam>, you would run the script like this:
+    For example, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>contoso.crm.dynamics.com<spam><spam>, you would run the script like this:
 
-.\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>contoso.crm.dynamics.com<spam><spam>"
+    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>contoso.crm.dynamics.com<spam><spam>"
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML And .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
