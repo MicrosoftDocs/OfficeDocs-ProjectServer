@@ -40,7 +40,7 @@ Depending on the type of user data you need to find, there are two paths you can
 - **Find data about your users project and roadmap objects in CDS** - Use the Advanced Find feature in the Dynamics 365 Admin Center to find all the users data that is contained in CDS (for example, objects related to their projects and roadmaps).
 - **Find data about specific projects that your user was associated with** - Use the project export PowerShell script to get details about specific projects the user was associated with.
 
-## Find user data in CDS with the Advanced Fined search feature 
+## Find user data in CDS with the Advanced Find search feature 
 
 Project for the web user information that resides in CDS - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across these solutions to find the information you need.
 
@@ -98,7 +98,7 @@ Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/c
 
 You can then review the results to determine what data you'd like to provide to the user.
 
-## Use the export script to drill into specific projects
+## Use the export script to see details on specific projects
 
 If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  Powershell script to get more information on each project. With the script, you can get the following files for a specific project:
 
