@@ -22,6 +22,8 @@ description: "Learn how to use external users with Project Online."
 In Project Online, a Project Web App site is a site collection within SharePoint Online and sharing a Project Web App site with external users works the same as sharing any other SharePoint Online site. In this article, we cover the options for external sharing that are relevant to Project Web App in Project Online, along with licensing implications for giving your external users access to Project Web App features in Project Online. We also encourage you to read about how to [manage external sharing for your SharePoint Online environment](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85).
   
 Once a Project Web App site has been shared with an external user, the user can collaborate through documents and lists in that site, including risks and issues. Any interaction on a Project Site requires a Project Online license.
+
+You can only assist and work on projects with a **Project Online Essentials** license but you can create and manage resources with a **Project Online Professional** license. This means that you cannot manage or create new projects with a "Project Online Essentials" license.
   
 > [!NOTE]
 > For more information about Project Online license considerations for external users, see the [Project Online Service Description](https://go.microsoft.com/fwlink/?linkid=866192). 
@@ -48,7 +50,7 @@ If you choose not to pre-populate your directory, you can choose the **Allow ext
   
 The advantage of this method is that the site can be easily shared with anyone who has an Office 365 or Microsoft account. You can invite new users whenever you need to by clicking **Share** on the Project Web App site. Users who accept invitations are added to your Office 365 directory and you can manage them there. 
   
-One thing to note in using this method is that invited users aren't added to your Office 365 directory until they accept the sharing invitation, and they must be in your directory before you can assign them a Project Online license. Because of this, they will not have full access to the Project Web App site when they first receive the invitation. They can still work with documents, issues, and risks, but won't be able to manage projects or work with time sheets until they have a Project Online license.
+One thing to note in using this method is that invited users aren't added to your Office 365 directory until they accept the sharing invitation, and they must be in your directory before you can assign them a Project Online license. Because of this, they will not have full access to the Project Web App site when they first receive the invitation. They can still work with documents, issues, and risks, but won't be able to manage projects or work with time sheets until they have a Project Online license and have accepted the invitation.
   
  **Choosing a sharing method**
   
