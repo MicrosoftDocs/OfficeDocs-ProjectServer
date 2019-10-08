@@ -30,7 +30,7 @@ You will need the following in order to look for data on a specific user through
 
 If you also want to export and view information on specific projects: 
 - You need to be a tenant admin.
-- You need a copy of Project Professional or the Project Online Desktop Client if you want to view your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
+- You need a copy of Project Professional 2016, Project Professional 2019, or the Project Online Desktop Client if you want to view your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
   
 
 ## Methods for finding your user's data
@@ -102,9 +102,10 @@ You can then review the results to determine what data you'd like to provide to 
 
 If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  Powershell script to get more information on each project. With the script, you can get the following files for a specific project:
 
-- A Project file (.MPP) for the project
+- Project files (.MPP) for the project.
 - An XML file that contains project details and settings.
 
+Note that you may receive multiple versions of the project file. These are snapshoto 
 
 ### Get the Project IDs of the projects you are interested in
 
@@ -140,23 +141,31 @@ To run the ExportProjectContent script:
 
     To find your Instance ID:
 
-    a. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Customizations**.</br>
-    b. On the Customizations page, select **Developer Resources**.</br>
-    c. On the Developer Resources page, in **Instance Reference Information**, note the Unique Name value.</br>
-    ![Find the instance Unique Name](media/CDSOrgID.png)</br>
-    d. Determine the InstanceID value by inserting the Unique Name value in front of the .crm.dynamics.com. For example, **org37a70f30.crm.dynamics.com**.
+    a. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>org37a70f30.crm.dynamics.com<spam><spam>, you would run the script like this:
+   ![CDS Instance](media/CDSInstance.png) </br>
+    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>.
 
-    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>org37a70f30.crm.dynamics.com<spam><spam>"
+    ![Find the instance Unique Name](media/DynamicsOrgid.png)</br>
+
+    
+
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
+
+    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML And .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
 
-Both the .XML and .MPP file that is created will be prefixed with the project’s Project ID.  For example, if the ProjectID value is dd065460-02b8-e911-a989-000d3a170e10, the file names for the exported data will be:
+Both the .XML and .MPP files that are created will be prefixed with the project’s Project ID.  For example, if the Project ID value is dd065460-02b8-e911-a989-000d3a170e10, the file names for the exported data will be:
 
 - dd065460-02b8-e911-a989-000d3a170e10.XML
 - dd065460-02b8-e911-a989-000d3a170e10.MPP
+
+Note that you may receive multiple versions of your .MPP file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.
+
+All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
+
 
 ### View data contained in the project file (.MPP)
 
@@ -165,6 +174,7 @@ Using Project client software, you can open and view the project file to find in
 You can view the users project file by using one of the following Project clients:
 - Project Online Desktop Client (you have this if you have a Project Online Professional or Project Online Premium license).
 - Project Professional 2019
+- Project Professional 2016
 
 You can get a free trial version of the Project Online Desktop Client by getting the [free trial version of Project Online Professional](https://www.microsoft.com/p/project-online-professional/CFQ7TTC0K8V1?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab).
 
