@@ -9,10 +9,10 @@ ms.service:
 localization_priority: Normal
 ms.custom: Adm_Project
 search.appverid: 
-description: "Learn how an Office 365 global administrator can delete a user's information from Project for the Web."
+description: "Learn how to connect to your Project for the web data through Power BI Desktop."
 ---
 # Connect to Project for the web data through Power BI Desktop
-You can connect to data in Project Online through Power BI Desktop.
+You can connect to data in Project for the web through Power BI Desktop.
 
 ## Step 1: Download Power BI Desktop
 1. [Download Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
