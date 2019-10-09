@@ -44,9 +44,9 @@ Depending on the type of user data you need to find, there are two paths you can
 
 Project for the web user information that resides in CDS - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across these solutions to find the information you need.
 
-### Understand CDS data and where it resides
+### Understand Project for the web CDS data and where it resides
 
-When looking for a specific users Project service data in Dynamics 365 CDS, it is located in these five Dynamics 365 solutions:
+When looking for a specific users Project for the web data in Dynamics 365 CDS, it is located in these five Dynamics 365 solutions:
 
 |||
 |:-----|:-----|
@@ -112,6 +112,10 @@ Note that you may receive multiple versions of the project file. These are snaps
 Before you run the script, you need to the the Project IDs of the projects you are interested in.
 
 Assuming you've used Advanced Find search to query for the users projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it is hidden by default.  Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
+
+After you unhide the columns in the spreadsheet, looks for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
+
+![CDS Instance](media/projectIDs.png)
 
 ### Run the Export script
 
