@@ -53,6 +53,14 @@ For example,
 
 Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](turn-roadmap-on-or-off.md) to do this.)
 
+### For roadmaps not associated to a group
+
+If your user's roadmap is not associated to an Office 365 group, you will not be able to delete or make edits to the roadmap, and should do the following:
+
+1. Create an Office 365 group and know the Office 365 Group AAD ID value.
+2. (Note to Nadin - from this point on I don't know how to get to the Forms page for the roadmap to add the Group AAD ID field.  I need to check with you on this tomorrow morning).
+
+
 ## To find a user's projects
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click **Dynamics 365**.
@@ -67,7 +75,19 @@ Once you are an owner for the groups, you can open the roadmaps from Project Hom
 7. On the Edit columns page, select **Add columns**, and then select the columns you want to include in the query.  When done, click **OK**.
 8. Click **Results** to run your query.
 
-To make changes to a project, you can open a project directly from the results list and make changes or deletions directly.
+### To delete or edit a project
+
+To delete or edit a users project, do the following:
+
+1. From the Advanced Find search results list, note the project you want to delete or update.
+2. On the PowerApps admin page, click the drop-down menu and select **Project**.
+![PowerApps menu](media\PowerAppsProject.png)
+3. On the Project page, in the **System Views** menu, select **All Projects**.
+4. Click on the project you are interested in deleted or redacting.
+5. On the project page, you can choose to delete or make changes to the project.
+![PowerApps menu](media\RedactProject.png)
+(Note to Nadin: Do you need to make changes through Project client, or can you make them directly here? I doesn't seem like I can make them directly.  If you need Project client, I should include the free trial info here.)
+
 
 ## See Also
 
@@ -76,4 +96,4 @@ To make changes to a project, you can open a project directly from the results l
 [Delete user data from Project Online](delete-user-data-from-project-online.md)
   
   
-
+[Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
