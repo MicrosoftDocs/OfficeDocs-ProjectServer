@@ -76,17 +76,21 @@ To view entities for a Dynamics 365 solution:
 
 ### Use Advanced Find to search for user data
 
-Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for Project service data for your user. Advanced Find will search across all solutions in your CDS instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
+Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your CDS instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 3.	Click the **Advance Find** button.
 
     ![Advanced Find](media/AdvancedFind.png)
-4.	In Advanced Find, in the **Look for** menu, select the objects that you want to search for. For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
+4.	In Advanced Find, in the **Look for** menu, select the objects that you want to search for, such as your user's projects or roadmaps.
+    
+    For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
 
     ![Advanced Find](media/AdvancedFindLookForRoadmap1.png)
-5.	To begin building your query, click **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You will need the users AAD ID or account name.  For example:
+5.	To begin building your query, click **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You will need the users AAD ID or account name.  
+
+    For example:
     -	To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
     -	To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
 
