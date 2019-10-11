@@ -53,9 +53,9 @@ For example,
 
 Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](turn-roadmap-on-or-off.md) to do this.)
 
-### For roadmaps not associated to a group
+### For roadmaps not associated to an Office 365 group
 
-If your user's roadmap is not associated to an Office 365 group, and you want to be able to delete or make edits to it, you need add a group that you own and assign it to the roadmap.
+If your user's roadmap is not associated to an Office 365 group, and you want to be able to delete or make edits to it, you need add a group that you own to the roadmap.
 
 This first requires you to create an Office 365 Group and get the Office 365 Group AAD id value for it.  After you do this, do the following:
 
