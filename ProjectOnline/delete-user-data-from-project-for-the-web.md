@@ -55,11 +55,17 @@ Once you are an owner for the groups, you can open the roadmaps from Project Hom
 
 ### For roadmaps not associated to a group
 
-If your user's roadmap is not associated to an Office 365 group, you will not be able to delete or make edits to the roadmap, and should do the following:
+If your user's roadmap is not associated to an Office 365 group, and you want to be able to delete or make edits to it, you need add a group that you own and assign it to the roadmap.
 
-1. Create an Office 365 group and know the Office 365 Group AAD ID value.
-2. (Note to Nadin - from this point on I don't know how to get to the Forms page for the roadmap to add the Group AAD ID field.  I need to check with you on this tomorrow morning).
+This first requires you to create an Office 365 Group and get the Office 365 Group AAD id value for it.  After you do this, do the following:
 
+1. In the Advanced Find search results, click the name of the roadmap to open it in Dynamics 365.
+2. In the Roadmap Information page in Dynamics 365, click the menu item with three dots, and in the menu select **Flow**, and then select **Form Editor**.
+3. In the Form Editor, select **Office 365 Group AAD id** from the Unused Fields list, and drag and drop it to the **General** section of the form, under Owner. 
+4. Click **Save** and then **Publish**.
+5. After the change in completed, on the Roadmap Information page, you will see the Office 365 Group AAD id field display. Enter the Office 365 Group AAD ID value of the group you own into the field box.
+
+You are now the owner of the Office 365 Group for the roadmap and can edit or delete it.
 
 ## To find a user's projects
 
@@ -80,7 +86,7 @@ If your user's roadmap is not associated to an Office 365 group, you will not be
 To delete or edit a users project, do the following:
 
 1. From the Advanced Find search results list, note the project you want to delete or update.
-2. On the PowerApps admin page, click the drop-down menu and select **Project**.
+2. On the PowerApps admin page, click the drop-down menu and select **Project**.</br>
 ![PowerApps menu](media\PowerAppsProject.png)
 3. On the Project page, in the **System Views** menu, select **All Projects**.
 4. Click on the project you are interested in deleted or redacting.
