@@ -92,14 +92,17 @@ To delete or edit a users project, do the following:
 4. Click on the project you are interested in deleted or redacting.
 5. On the project page, you can choose to delete or make changes to the project.
 ![PowerApps menu](media\RedactProject.png)
-(Note to Nadin: Do you need to make changes through Project client, or can you make them directly here? I doesn't seem like I can make them directly.  If you need Project client, I should include the free trial info here.)
+
+If you need to edit the project, you need to use either Project Professional 2019 or the Project Online Desktop Client. You can get a free trial version of the Project Online Desktop Client by getting the [free trial version of Project Online Professional](https://www.microsoft.com/p/project-online-professional/CFQ7TTC0K8V1?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab).
 
 
 ## See Also
 
 [Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
 
+[Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
+
 [Delete user data from Project Online](delete-user-data-from-project-online.md)
   
   
-[Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
+

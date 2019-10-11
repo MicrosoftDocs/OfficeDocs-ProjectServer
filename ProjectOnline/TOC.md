@@ -96,6 +96,8 @@
 ## [Maintain user data]()
 ### [Delete user data from Project Online](delete-user-data-from-project-online.md)
 ### [Export user data from Project Online](export-user-data-from-project-online.md)
+### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
+### [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 ### [Find customized user items in Project Online and Project Server user export data](find-customized-user-items-in-project-online-and-project-server-user-export-data.md)
 ### [Project Online and Project Server export data definitions](project-online-and-project-server-export-data-definitions.md)
 ## [License management]()

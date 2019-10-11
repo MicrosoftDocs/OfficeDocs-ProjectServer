@@ -16,7 +16,7 @@ description: "Your organization can export a specific user's content from your P
 
 This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. 
 
-Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft Dynamics 365. This article describes how you can:  
+Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
 - View a specific user’s Project for the web data by using the Advanced Find function in Dynamics 365.  
 - Use a PowerShell script to export data about specific projects that your user was a part of.   
@@ -42,7 +42,7 @@ Depending on the type of user data you need to find, there are two paths you can
 
 ## Find user data in CDS with the Advanced Find search feature 
 
-Project for the web user information that resides in CDS - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across these solutions to find the information you need.
+Project for the web user information that resides in CDS - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across entities in these solutions to find the information you need.
 
 ### Understand Project for the web CDS data and where it resides
 
@@ -105,13 +105,11 @@ If you need to look for more details that are contained in specific projects tha
 - Project files (.MPP) for the project.
 - An XML file that contains project details and settings.
 
-Note that you may receive multiple versions of the project file. These are snapshoto 
-
 ### Get the Project IDs of the projects you are interested in
 
-Before you run the script, you need to the the Project IDs of the projects you are interested in.
+Before you run the script, you need to the Project IDs of the projects you are interested in.
 
-Assuming you've used Advanced Find search to query for the users projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it is hidden by default.  Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
+Assuming you've used Advanced Find search to query for the user's projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it is hidden by default.  Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
 
 After you unhide the columns in the spreadsheet, looks for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
@@ -123,7 +121,7 @@ Now that you have the Project IDs of the projects you are interested in looking 
 
 [Download the ExportProjectContent Windows PowerShell script](https://go.microsoft.com/fwlink/?linkid=2106330) and unzip the files.
 
-> [Note!]
+> [!NOTE]
 > After you unzip the script, run the following in Windows PowerShell to import the modules:
 >
 > Import-Module -Name ./projectonlineAdmin
@@ -158,7 +156,7 @@ To run the ExportProjectContent script:
 
     .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
 
-2. When the script completes, go to the OutputDirectory location you specified to find the .XML And .MPP files for the project.
+2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
 
 Both the .XML and .MPP files that are created will be prefixed with the project’s Project ID.  For example, if the Project ID value is dd065460-02b8-e911-a989-000d3a170e10, the file names for the exported data will be:
@@ -182,12 +180,22 @@ You can view the users project file by using one of the following Project client
 
 You can get a free trial version of the Project Online Desktop Client by getting the [free trial version of Project Online Professional](https://www.microsoft.com/p/project-online-professional/CFQ7TTC0K8V1?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab).
 
->[Note!] You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
+> [!NOTE]
+> You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
 
 ### View data contained in the project XML file
 
 The XML file contains a number of properties pertaining to the specific project. You can see the [Project XML Interchange Schema Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the XML data contained in this file. 
 
+## See Also
+
+[Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
+
+[Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
+
+[Export user data from Project Online](export-user-data-from-project-online.md)
+  
+  
 
 
 
