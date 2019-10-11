@@ -44,8 +44,8 @@ To enable Project Online on an existing site collection:
     
     ![Site Collections check box](media/fa112993-ceb2-44c4-9884-07897ebc9315.png)
   
-    > [!IMPORTANT]
-    > You can only add Project Online to a site collection that uses the **Team Site** or **Project Site** template. 
+> [!IMPORTANT]
+> You can only add Project Online to a site collection that uses the **Classic Team Site** or **Project Site** template. 
   
 7. Click **Project Web App** on the ribbon, and then click **Add**.
     

@@ -19,7 +19,7 @@ To delete user data from Roadmap, you need the user's Azure AD Object ID. You ca
 To find a user's roadmaps
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
-2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
+2. In the Dynamics 365 Administraton Center, select the default instance, and then click **Open**.
 3. Click Advanced Find.
 4. From the **Look for** menu, choose **Roadmaps**.
 5. Click **Edit Columns**
