@@ -87,7 +87,7 @@ To delete or edit a users project, do the following:
 
 1. From the Advanced Find search results list, note the project you want to delete or update.
 2. On the PowerApps admin page, click the drop-down menu and select **Project**.</br>
-![PowerApps menu](media\PowerAppsProject.png)
+![PowerApps menu](media/PowerAppsProject.png)
 3. On the Project page, in the **System Views** menu, select **All Projects**.
 4. Click on the project you are interested in deleted or redacting.
 5. On the project page, you can choose to:
