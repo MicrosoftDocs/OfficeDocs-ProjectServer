@@ -90,10 +90,12 @@ To delete or edit a users project, do the following:
 ![PowerApps menu](media\PowerAppsProject.png)
 3. On the Project page, in the **System Views** menu, select **All Projects**.
 4. Click on the project you are interested in deleted or redacting.
-5. On the project page, you can choose to delete or make changes to the project.
-![PowerApps menu](media\RedactProject.png)
+5. On the project page, you can choose to:
+    - Click **Delete** to delete the project.
+    - Click **Tasks** to update the the project's tasks.
 
-If you need to edit the project, you need to use either Project Professional 2019 or the Project Online Desktop Client. You can get a free trial version of the Project Online Desktop Client by getting the [free trial version of Project Online Professional](https://www.microsoft.com/p/project-online-professional/CFQ7TTC0K8V1?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab).
+
+
 
 
 ## See Also
