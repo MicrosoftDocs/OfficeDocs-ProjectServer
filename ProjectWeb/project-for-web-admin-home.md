@@ -19,7 +19,7 @@ Learn about resources available for Project for the Web admins.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="planner-for-admins.md#how-do-i-turn-off-planner-for-my-organization">
+        <a href="turn-project-for-the-web-off.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -29,7 +29,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Link name</h3>
+                        <h3>How to turn off Project for the web</h3>
                     </div>
                 </div>
             </div>
@@ -37,17 +37,17 @@ Learn about resources available for Project for the Web admins.
         </a>
     </li>
     <li>
-        <a href="https://planner.uservoice.com/forums/330525-microsoft-planner-feedback-forum">
+        <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-planner.svg" alt="Project for the Web user voice" />
+                            <img src="https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-planner.svg" alt="Project user voice" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Link name</h3>
+                        <h3>Project UserVoice</h3>
                     </div>
                 </div>
             </div>
@@ -61,11 +61,11 @@ Learn about resources available for Project for the Web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Project for the Web API" />
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Project for the web API" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Link name</h3>
+                        <h3>Project for the web API</h3>
                     </div>
                 </div>
             </div>
@@ -76,6 +76,7 @@ Learn about resources available for Project for the Web admins.
 
 <ul class="panelContent cardsF">
     <li>
+        <a href="https://techcommunity.microsoft.com/t5/Project/ct-p/Project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -86,19 +87,20 @@ Learn about resources available for Project for the Web admins.
                     </div>
                     <div class="cardText">
                         <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a href=" ">Project Community</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blog-site-planner.svg" alt="Planner blog" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blog-site-planner.svg" alt="Project blog" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,6 +112,7 @@ Learn about resources available for Project for the Web admins.
         </div>
     </li>
     <li>
+        <a href="https://support.office.com/project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -120,7 +123,7 @@ Learn about resources available for Project for the Web admins.
                     </div>
                     <div class="cardText">
                         <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a href=" ">Project for the web end user help</a></p>
                     </div>
                 </div>
             </div>
@@ -130,78 +133,3 @@ Learn about resources available for Project for the Web admins.
 
 ---
 
-<h2>Featured Articles</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>

@@ -51,7 +51,7 @@ For example,
 
 `Add-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
 
-Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](turn-roadmap-on-or-off.md) to do this.)
+Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](https://docs.microsoft.com/projectonline/turn-roadmap-on-or-off) to do this.)
 
 ### For roadmaps not associated to an Office 365 group
 
@@ -104,7 +104,7 @@ To delete or edit a users project, do the following:
 
 [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 
-[Delete user data from Project Online](delete-user-data-from-project-online.md)
+[Delete user data from Project Online](https://docs.microsoft.com/projectonline/delete-user-data-from-project-online)
   
   
 

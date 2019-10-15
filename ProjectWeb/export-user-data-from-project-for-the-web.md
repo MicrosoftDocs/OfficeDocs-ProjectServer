@@ -198,7 +198,7 @@ The XML file contains a number of properties pertaining to the specific project.
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
-[Export user data from Project Online](export-user-data-from-project-online.md)
+[Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
   
   
 
