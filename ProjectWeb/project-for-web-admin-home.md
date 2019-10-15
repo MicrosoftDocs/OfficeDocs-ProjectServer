@@ -56,12 +56,13 @@ Learn about resources available for Project for the Web admins.
     </li>
     <li>
         <a href="  ">
-        <div class="cardSize">
+            <a href="https://developer.microsoft.com/en-us/project/blogs/">
+            <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Project for the web API" />
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Project Developer blog" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +87,6 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Heading</h3>
                         <p><a href=" ">Project Community</a></p>
                     </div>
                 </div>
@@ -104,8 +104,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a href=" ">Project blog</a></p>
                     </div>
                 </div>
             </div>
@@ -122,7 +121,6 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Heading</h3>
                         <p><a href=" ">Project for the web end user help</a></p>
                     </div>
                 </div>
