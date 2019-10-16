@@ -15,7 +15,7 @@ description: "Resources for admins who want to learn more about managing Project
 
 # Project for the web get started guide for admins
 
-If you want to disable Project for the web for specific users in your organization, an admin can do this by disabling the service for the user in the Microsoft 365 Admin Center.  
+Project for the web is a new service that is now available to users who have Project Online Professional and Project Online Premium licenses. This article provides admins information to help them better understand and manage the service. 
 
 ## Learn more about Project for the web
 
@@ -34,7 +34,7 @@ If your organization currently uses Project Online Professional (renamed to Proj
 
 [Turn off Project for the web](turn-project-for-the-web-off.md)
 
-## Train your users 
+## Help your users 
 
 Project for the web is designed to be easy-to-use and intuitive. Use the following articles, quick starts, and videos to help your users learn how to better use Project for the web. 
  - x
