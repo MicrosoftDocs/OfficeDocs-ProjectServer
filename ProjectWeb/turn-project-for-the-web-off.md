@@ -15,12 +15,12 @@ description: "Learn how to turn off Project for the web for users in your organi
 
 # Turn off Project for the web
 
-If you want to disable Project for the web for specific users in your organization, an admin can do this by disabling the service for the user in the Microsoft 365 Admin Center.  
+Access to Project for the web is granted to users if they are assigned a Project P3 or Project P5 license (previously called Project Online Professional and Project Online Premium). An admin can manage access by assigning and unassigning the associated licenses. If you want to turn off Project for the web for specific users in your organization, an admin can do this by turning off the service for the user in the Microsoft 365 Admin Center.  
 
-A scenario where you might want to do this is if your users currently use Project Online Professional or Project Online Premium and you don't want to give all of your users access to Project for the web at the moment.
+You might want to do this if your users currently use Project Online and you don't want to give all of your users access to Project for the web at the moment.
 
 > [!NOTE]
-> Disabling Project for the web will also disable the Roadmap feature, even if you have Roadmap enabled in the Project Online Settings in Microsoft 365 Admin Center.
+> Turning off Project for the web for the user will also turn off the Roadmap feature.
 
 To turn off Project for the web for a user:
 
@@ -34,12 +34,10 @@ To turn off Project for the web for a user:
 You can repeat this procedure for each user that you don't want to use Project for the web.
 
 > [!NOTE]
-> There is no way to turn off Project for the web to more than one user at a time or through your organization through the Microsoft 365 admin center user interface. 
+> You can only turn off Project for the web to one user at a time through the Office 365 Admin Center user interface.  You also cannot turn Project for the web off to your organization (like you can for Roadmap in the Project Online settings in the Office 365 Admin Center).
 
  
 ## See Also
-
-
   
   
 

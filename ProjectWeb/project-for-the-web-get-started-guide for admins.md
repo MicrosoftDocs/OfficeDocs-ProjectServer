@@ -1,0 +1,74 @@
+---
+title: "Project for the web get started guide for admins"
+ms.author: efrene
+author: efrene
+manager: pamgreen
+ms.date: 10/28/2019
+audience: admin
+ms.topic: article
+ms.service: 
+search.appverid: PJO150
+localization_priority: Normal
+m
+description: "Resources for admins who want to learn more about managing Project for the web."
+---
+
+# Project for the web get started guide for admins
+
+If you want to disable Project for the web for specific users in your organization, an admin can do this by disabling the service for the user in the Microsoft 365 Admin Center.  
+
+## Learn more about Project for the web
+
+The follow can be helpful to you if you are an admin who wants to learn more about Project for the web. It can be especially helpful if your organization currently uses Project Online or the Project Online Desktop Client.
+
+- [What is Project for the web? ](https://go.microsoft.com/fwlink/?linkid=2108301)
+- [What can you do with Project for the web? ](https://go.microsoft.com/fwlink/?linkid=2108303)
+- [Project for the web and Project Online](https://go.microsoft.com/fwlink/?linkid=2108305)
+- [Project for the web and Project Online desktop client ](https://go.microsoft.com/fwlink/?linkid=2108306)
+- [Customizing Project for the web ](https://go.microsoft.com/fwlink/?linkid=2108401)
+- [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
+
+## Turn off Project for the web
+
+If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, see the following article:
+
+[Turn off Project for the web](turn-project-for-the-web-off.md)
+
+## Train your users 
+
+Project for the web is designed to be easy-to-use and intuitive. Use the following articles, quick starts, and videos to help your users learn how to better use Project for the web. 
+ - x
+ - x
+ - x
+ - x
+ - x
+ - x
+ - x
+ - x
+
+## Reporting information on Project for the web data
+
+Project for the web data is stored in your Dynamics 365 Common Data Service default instance. You can view Power BI reports by connecting to the data with Power BI Desktop, which is described in the following article:
+
+[Connect to Project for the web data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
+
+## Searching for user data for Project for the web
+
+If you need to find a specific user's data in Project for the web (for example, all project the user owned or created), you can find that information in the following articles:
+
+- [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
+- [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
+
+
+
+
+
+ 
+## See Also
+
+
+  
+  
+
+
+
