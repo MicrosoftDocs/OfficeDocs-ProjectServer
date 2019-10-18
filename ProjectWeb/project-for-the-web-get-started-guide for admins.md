@@ -28,11 +28,9 @@ The follow can be helpful to you if you are an admin who wants to learn more abo
 - [Customizing Project for the web ](https://go.microsoft.com/fwlink/?linkid=2108401)
 - [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
-## Turn off Project for the web
+## Turn off Project for the web for specific users
 
-If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, see the following article:
-
-[Turn off Project for the web](turn-project-for-the-web-off.md)
+If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, you can turn it off. Learn how to do this in [Turn off Project for the web](turn-project-for-the-web-off.md).
 
 ## Help your users 
 
