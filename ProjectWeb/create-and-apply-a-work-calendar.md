@@ -1,5 +1,5 @@
 ---
-title: "Create and apply a work hours template in Project for the web"
+title: "Create and apply a work calendar in Project for the web"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -19,6 +19,9 @@ Project for the web is built on the [Microsoft Power Platform](https://powerplat
 
 Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures. You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.
 
+> [!Note]
+> Project for the web comes with a default work template that is automatically applied to users that you assign to tasks. It specifies work hours of 9AM through 5PM from Monday through Friday. You only need to create a new work hours template if this one does not suit your needs.
+
 You associate a work template to the project calendar to apply the schedule for the project.
 
 There are two ways you can create a work hours template:
@@ -26,7 +29,7 @@ There are two ways you can create a work hours template:
 - Create a new work hours template.
  
 Both methods are done on the PowerApps Project Resources page in Dynamics 365. To go there, do the following:
-1. While logged into Office 365, open a browser window and go to **https://web.powerapps.com**.
+1. While logged into Office 365, open a browser window and go to **https://<spam><spam>web.powerapps<spam><spam>.com**.
 2. On the PowerApps page, select **Apps**.
 3. On the Apps page, in the Org Apps tab, select **Project**.
 4. On the Project page, in the left pane, select **Resources**.
