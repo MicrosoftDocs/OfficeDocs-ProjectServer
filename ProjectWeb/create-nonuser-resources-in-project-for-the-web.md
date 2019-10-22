@@ -26,11 +26,13 @@ Some of the more commonly used non-user resources you will be able to add includ
 |||
 |:-----|:-----|
 |**Name** <br/> |**Description** <br/> |
-|Contact   <br/> |The resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors.  <br/> |
+|Contact or Account   <br/> |The resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors.  <br/> |
 |Equipment <br/> |The resource is a piece of equipment, tool, or machine that must be scheduled.  <br/> |
-|Facility   <br/> |The resource is a physical space that needs to be scheduled, such as a building or room. <br/> |
 
-For more information about other non-user resources you can add, see [Set up a bookable resource](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#add-work-hours). 
+> [!Note] 
+> You will only be able to assign user, contact, account, or equipment resource types to project tasks in Project for the web.
+
+For more information about non-user resources, see [Set up a bookable resource](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#add-work-hours). 
 
 
 ## Create a non-work resource
