@@ -15,7 +15,7 @@ description: "Learn how to add a non-user resource and make it available to assi
 
 # Add non-user resources in Project for the web
 
-Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/), and some aspects of resource setup for Project for the web is done in Dynamics 365, such as how to add resources that are not users in your organization (for example, contacts, equipment, or facilities) and making them available to assign to tasks.
+Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/), and some aspects of resource setup for Project for the web is done in Dynamics 365, such as how to add resources that are not users in your organization (for example, contacts or equipment) and making them available to assign to tasks.
 
 While any user in Azure Active Directory (AAD) is automatically available as a resource to assign to project tasks in Project for the web, you need to manually add non-user resources.
 
@@ -35,7 +35,7 @@ Some of the more commonly used non-user resources you will be able to add includ
 For more information about non-user resources, see [Set up a bookable resource](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#add-work-hours). 
 
 
-## Create a non-work resource
+## Create a non-user resource
 
 You first need to go to the Dynamics 365 Project Resources page:
 1. While logged into Office 365, open a browser window and go to **https://<spam><spam>web.powerapps<spam><spam>.com**.
@@ -46,7 +46,7 @@ You first need to go to the Dynamics 365 Project Resources page:
 
 When you get to the resources page, do the following:
 1. On the Resources page, click **New**.
-2. On tne New Bookable Resource page, click in the **Resource Type** field, and select the resource type you need to create.
+2. On the New Bookable Resource page, click in the **Resource Type** field, and select the resource type you need to create.
 ![Resource types](media\resourcetypes.png)
 3. Provide the information needed for the resource type you selected.
 4. In the **Name** field, type the name your want to give the resource.
