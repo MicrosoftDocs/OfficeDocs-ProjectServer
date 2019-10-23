@@ -70,8 +70,9 @@ You should see a list of the licenses available on your tenant, for example:
    - PROJECTPREMIUM is Project Plan 5 (Project Online Premium)
    - PROJECTPROFESSIONAL is Project Plan 3 (Project Online Professional)
 
-    The value will be prefixed by the tenant domain name. For example, in the image above, the AccountSKUID value for the Project Online Premium license is **M365x115998:PROJECTPREMIUM**.
- 4. Create a $LicenseOption object that disables the Project P3 service plan (PROJECT_PROFESSIONAL) from the Project Plan 3 and Project Plan 5 licenses (the AccountSKUID values). </br>In our example, the following will disable the Project P3 service plan in a Project Plan 5 license.</br>
+        The value will be prefixed by the tenant domain name. For example, in the image above, the AccountSKUID value for the Project Online Premium license is **M365x115998:PROJECTPREMIUM**.</br>
+
+4. Create a $LicenseOption object that disables the Project P3 service plan (PROJECT_PROFESSIONAL) from the Project Plan 3 and Project Plan 5 licenses (the AccountSKUID values). </br>In our example, the following will disable the Project P3 service plan in a Project Plan 5 license.</br>
 ```PowerShell
 $LicenseOptionsPremium = New-MsolLicenseOptions -AccountSkuId "M365x115998:PROJECTPREMIUM" -DisabledPlans "PROJECT_PROFESSIONAL"
 ```
