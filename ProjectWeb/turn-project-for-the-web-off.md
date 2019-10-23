@@ -1,5 +1,5 @@
 ---
-title: "Turn off Project for the web"
+title: "Turn off Project for the web for users in your organization"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -13,11 +13,19 @@ m
 description: "Learn how to turn off Project for the web for users in your organization."
 ---
 
-# Turn off Project for the web
+# Turn off Project for the web for users in your organization
 
-Access to Project for the web is granted to users if they are assigned a Project P3 or Project P5 license (previously called Project Online Professional and Project Online Premium). An admin can manage access by assigning and unassigning the associated licenses. If you want to turn off Project for the web for specific users in your organization, an admin can do this by turning off the service for the user in the Microsoft 365 Admin Center.  
+Access to Project for the web is granted to users if they are assigned one of the following licenses:
 
-You might want to do this if your users currently use Project Online and you don't want to give all of your users access to Project for the web at the moment.
+- Project Plan P1
+- Project Plan P3 (previously called Project Online Professional)
+- Project Plan P5 (previously called Project Online Premium)
+
+ An admin can manage access to Project for the web by assigning and unassigning the associated licenses. 
+
+ If you want to turn off Project for the web for specific users in your organization, an admin can do this by turning off the service for the user in the Microsoft 365 Admin Center.  
+
+You might want to do this if your users currently use Project Online (through Project Plan P3 or Project Plan P5 licenses) and you don't want to give all of your users access to Project for the web at the moment.
 
 > [!NOTE]
 > Turning off Project for the web for the user will also turn off the Roadmap feature.
@@ -34,7 +42,7 @@ To turn off Project for the web for a user:
 You can repeat this procedure for each user that you don't want to use Project for the web.
 
 > [!NOTE]
-> You can only turn off Project for the web to one user at a time through the Office 365 Admin Center user interface.  You also cannot turn Project for the web off to your organization (like you can for Roadmap in the Project Online settings in the Microsoft 365 Admin Center).
+> You can only turn off Project for the web for one user at a time through the Office 365 Admin Center user interface.  You also cannot turn Project for the web off to your organization (like you can for Roadmap in the Project Online settings in the Microsoft 365 Admin Center).
 
 ## Turn off Project for the web for multiple users using Windows PowerShell
 
