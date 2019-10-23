@@ -37,6 +37,8 @@ To turn off Project for the web for a user:
 ![Select user](media/activeusers.png)
 3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop down menu. This would be either Project Online Professional or Project Online Premium.
 4. In the list of apps that display, uncheck **Project P3**, and then click **Save changes**.</br>
+> [!Important]
+> The service plan that disables Project for the web is called **Project P3**.  It is important to distinguish it from **Project Plan 3**, which is one of the three licenses in which Project for the web is available. Project Plan 1, Project Plan 3, and Project Plan 5 are all licenses that have the Project P3 service plan.  
 ![Select user](media/p3service.png)
 
 You can repeat this procedure for each user that you don't want to use Project for the web.
@@ -65,24 +67,24 @@ Get-MsolAccountSku
 You should see a list of the licenses available on your tenant, for example:
 ![AccountSKUId](media/AccountSKUID.png) </br>
 3. Look for the accountSKUid values that contain **PROJECTPREMIUM** or **PROJECTPROFESSIONAL**.
-    - PROJECTPREMIUM is Project Online Premium
-    - PROJECTPROFESSIONAL is Project Online Professional
+   - PROJECTPREMIUM is Project Plan 5 (Project Online Premium)
+   - PROJECTPROFESSIONAL is Project Plan 3 (Project Online Professional)
 
     The value will be prefixed by the tenant domain name. For example, in the image above, the AccountSKUID value for the Project Online Premium license is **M365x115998:PROJECTPREMIUM**.
- 4. Create a $LicenseOption object that disables the Project P3 service plan (PROJECT_PROFESSIONAL) from the Project Online licenses (the AccountSKUID values). </br>In our example, the following will disable the Project P3 service plan in Project Online Premium licenses.</br>
+ 4. Create a $LicenseOption object that disables the Project P3 service plan (PROJECT_PROFESSIONAL) from the Project Plan 3 and Project Plan 5 licenses (the AccountSKUID values). </br>In our example, the following will disable the Project P3 service plan in a Project Plan 5 license.</br>
 ```PowerShell
 $LicenseOptionsPremium = New-MsolLicenseOptions -AccountSkuId "M365x115998:PROJECTPREMIUM" -DisabledPlans "PROJECT_PROFESSIONAL"
 ```
-If the tenant had Project Online Professional licenses, the following will disable it in Project Online Professional licenses. </br>
+If the tenant had Project Plan P3 licenses (Project Online Professional) , the following will disable it in that license. </br>
 ```PowerShell
 $LicenseOptionsProfessional = New-MsolLicenseOptions -AccountSkuId "M365x115998:PROJECTPROFESSIONAL" -DisabledPlans "PROJECT_PROFESSIONAL"
 ```
-5. After you've created the object, pass a list of your user accounts in which you'd like to disable Project for the web.  There are different ways to do this, such as importing from a CSV file.  For our example, we'll create a UPNList with the accounts in which we want to disable Project for the web.</br>
+5. After you've created the objects, create a list of your user accounts in which you'd like to disable Project for the web.  There are different ways to do this, such as importing from a CSV file.  For our example, we'll create a UPNList with the user accounts in which we want to disable Project for the web.</br>
 ```PowerShell
 `$UPNList = @("AdeleV@M365x115998.OnMicrosoft.com","AlexW@M365x115998.OnMicrosoft.com")
 ```
 
-6. After creating your list, apply the applicable $LicenseOption object to each user account. </br>For our example, we're applying the $LicenseOptionsPremium object to each user in the UPNList, which would disable Project for the web from each user who has a Project Online Premium license.  </br>
+6. After creating your list, apply the applicable $LicenseOption object to each user account. </br>For our example, we're applying the $LicenseOptionsPremium object to each user in the UPNList, which would disable Project for the web from each user who has a Project Plan P5 license.  </br>
 ```PowerShell
 ForEach ($UPN in $UPNList)
 {
