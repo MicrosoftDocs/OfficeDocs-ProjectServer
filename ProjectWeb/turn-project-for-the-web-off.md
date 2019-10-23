@@ -35,10 +35,10 @@ To turn off Project for the web for a user:
 1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**.
 2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**.</br>
 ![Select user](media/activeusers.png)
-3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop down menu. This would be either Project Online Professional or Project Online Premium.
+3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select `the user's Project Online license from the **Show apps for** drop down menu. This would be either Project Online Professional or Project Online Premium.
 4. In the list of apps that display, uncheck **Project P3**, and then click **Save changes**.</br>
 > [!Important]
-> The service plan that disables Project for the web is called **Project P3**.  It is important to distinguish it from **Project Plan 3**, which is one of the three licenses in which Project for the web is available. Project Plan 1, Project Plan 3, and Project Plan 5 are all licenses that have the Project P3 service plan.  
+> The service plan that disables Project for the web is called **Project P3**.  It is important to distinguish it from **Project Plan 3**, which is one of the three licenses in which Project for the web is available. Project Plan 1, Project Plan 3, and Project Plan 5 are all licenses that have the Project P3 service plan.</br>  
 ![Select user](media/p3service.png)
 
 You can repeat this procedure for each user that you don't want to use Project for the web.
