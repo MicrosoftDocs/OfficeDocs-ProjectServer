@@ -5,7 +5,7 @@ author: efrene
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/28/2019/2018
+ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
