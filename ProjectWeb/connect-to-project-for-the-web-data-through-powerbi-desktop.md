@@ -2,8 +2,15 @@
 title: 'Connect to Project for the web data through Power BI Desktop'
 description: 'Connect to Project for the web data through Power BI Desktop'
 author: efrene
+ms.author: efrene
+author: efrene
 manager: pamgreen
-ms.reviewer: 
+ms.date: 10/28/2019/2018
+audience: admin
+ms.topic: article
+ms.service: project-web
+search.appverid: PJO150
+localization_priority: Normal
 
 ---
 # Connect to Project for the web data through Power BI Desktop

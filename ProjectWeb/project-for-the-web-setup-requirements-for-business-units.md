@@ -3,13 +3,12 @@ title: "Project for the web setup requirements for Dynamics 365 business units"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 6/25/2018
+ms.date: 10/28/2019/2018
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
-m
 description: "Learn how to assign the Project User role to a Dynamics 365 business unit's team."
 ---
 

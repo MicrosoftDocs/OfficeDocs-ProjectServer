@@ -3,11 +3,11 @@ title: "Project for the Web admin help"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 9/23/2019
+ms.date: 10/28/2019
 audience: Admin
 ms.topic: landing-page
 layout: LandingPage
-ms.service: o365-administration
+ms.service: project-web
 localization_priority: Priority
 description: "Learn about resources available for Project for the Web admins."
 ---
@@ -122,7 +122,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <p><a href=" ">Project for the web end user help</a></p>
+                        <h3>Project for the web end user help</h3>
                     </div>
                 </div>
             </div>

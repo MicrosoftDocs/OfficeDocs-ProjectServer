@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: 
 search.appverid: PJO150
 localization_priority: Normal
-m
 description: "Learn how to turn off Project for the web for users in your organization."
 ---
 

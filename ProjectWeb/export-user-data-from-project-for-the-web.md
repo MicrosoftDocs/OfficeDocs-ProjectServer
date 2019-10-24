@@ -3,10 +3,10 @@ title: "Export user data from Project for the Web"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 6/25/2018
+ms.date: 10/28/2019
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d

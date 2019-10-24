@@ -3,10 +3,13 @@ title: "Delete user data from Project for the web"
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.date: 10/28/2019/2018
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
+search.appverid: PJO150
 localization_priority: Normal
+m
 ms.custom: Adm_Project
 search.appverid: PJO150
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
