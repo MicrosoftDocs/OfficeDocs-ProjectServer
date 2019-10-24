@@ -29,13 +29,52 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Project for the web</h3>
+                        <h3>Get started with Project for the web for admins</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://support.office.com/article/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="What is Project for the web" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>What is Project for the web?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/article/project-for-the-web-and-project-online-6569170c-5c8e-474e-a7f0-642872f62f8a">
+                  <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Project for the web and Project Online" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Project for the web and Project Online</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+<ul class="panelContent cardsF">
     <li>
         <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
         <div class="cardSize">
@@ -71,43 +110,6 @@ Learn about resources available for Project for the Web admins.
             </div>
         </div>
         </a>
-    </li>
-</ul>
-
-<ul class="panelContent cardsF">
-    <li>
-        <a href="https://techcommunity.microsoft.com/t5/Project/ct-p/Project">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/globe-internet.svg" alt="Project Community" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><a href=" ">Project Community</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blog-site-planner.svg" alt="Project blog" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><a href=" ">Project blog</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </li>
     <li>
         <a href="https://support.office.com/project">
