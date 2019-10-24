@@ -19,7 +19,7 @@ Learn about resources available for Project for the Web admins.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="turn-project-for-the-web-off.md">
+        <a href="project-for-the-web-get-started-guide-for-admins.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -29,7 +29,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>How to turn off Project for the web</h3>
+                        <h3>Get started with Project for the web</h3>
                     </div>
                 </div>
             </div>
@@ -55,9 +55,8 @@ Learn about resources available for Project for the Web admins.
         </a>
     </li>
     <li>
-        <a href="  ">
-            <a href="https://developer.microsoft.com/en-us/project/blogs/">
-            <div class="cardSize">
+        <a href="https://developer.microsoft.com/en-us/project/blogs/  ">
+                  <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
@@ -131,3 +130,17 @@ Learn about resources available for Project for the Web admins.
 
 ---
 
+<h2>Featured articles</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <p><a href="/ProjectWeb/project-for-the-web-get-started-guide-for-admins">Project for the web get started guide for admins</a></p><p><a href="/ProjectWeb/turn-project-for-the-web-off">Turn Project for the web off for users in your organization</a></p><p><a href="/ProjectWeb/connect-to-project-for-the-web-data-through-powerbi-desktop">Connect to Project for the web data through Power BI Desktop</a></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
