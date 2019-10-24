@@ -35,10 +35,10 @@ From here, you can choose which tables you would like to connect to and build a 
 
  Project for the web data is stored in the Dynamics 365 Common Data Service (CDS). For the parameter value needed to connect with the Power BI Desktop, you need to enter the URL of your default CDS instance that you are using, and it needs to be in the following format: 
 
-<spam><spam>https:\\(Default CDS environment).(region).dynamics.com<spam><spam>
+https://<spam><spam>(Default CDS environment).(region).dynamics<spam><spam>.com
 
 For example:
-<spam><spam>https:\\orgde6d15d8.crm.dynamics.com<spam><spam>
+https://<spam><spam>orgde6d15d8.crm.dynamics<spam><spam>.com
 
 **To determine the Default CDS environment value of the URL**:
 
