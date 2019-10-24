@@ -3,7 +3,7 @@
 ## [Get started]()
 ### [Project for the web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)
 ### [Turn off Project for the web](turn-project-for-the-web-off.md)
-### [Connect to Project for the web data through Power BI Desktop](connect-to-project-for-the-web-data-through-power-bi-desktop.md)
+### [Connect to Project for the web data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
 ## [Resources]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
