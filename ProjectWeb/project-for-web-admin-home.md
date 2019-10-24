@@ -29,7 +29,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Project for the web for admins</h3>
+                        <p>Get started with Project for the web for admins</p>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What is Project for the web?</h3>
+                        <p>What is Project for the web?</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Project for the web and Project Online</h3>
+                        <p>Project for the web and Project Online</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Project UserVoice</h3>
+                        <p>Project UserVoice</p>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Project for the web API</h3>
+                        <p>Project for the web API</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Project for the web end user help</h3>
+                        <p>Project for the web end user help</p>
                     </div>
                 </div>
             </div>
