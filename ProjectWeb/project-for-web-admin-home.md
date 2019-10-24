@@ -29,7 +29,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <p>Get started with Project for the web for admins</p>
+                        <H3>Get started with Project for the web for admins</H3>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <p>What is Project for the web?</p>
+                        <H3>What is Project for the web?</H3>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ Learn about resources available for Project for the Web admins.
                         </div>
                     </div>
                     <div class="cardText">
-                        <p>Project for the web and Project Online</p>
+                        <H3>Project for the web and Project Online</H3>
                     </div>
                 </div>
             </div>
