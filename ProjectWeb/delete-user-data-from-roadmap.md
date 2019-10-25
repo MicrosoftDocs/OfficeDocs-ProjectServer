@@ -57,7 +57,7 @@ Once you are an owner for the groups, you can open the roadmaps from Project Hom
 
 [Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
 
-[Delete user data from Project Online](delete-user-data-from-project-online.md)
+[Delete user data from Project Online](https://docs.microsoft.com/projectonline/delete-user-data-from-project-online)
   
   
 
