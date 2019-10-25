@@ -1,4 +1,4 @@
-# [Admin home](project-for-web-admin-home.md)
+# [Admin home](projectforweb-admin-home.md)
 
 ## [Get started]()
 ### [Project for the web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)
