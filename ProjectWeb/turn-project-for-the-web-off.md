@@ -43,11 +43,11 @@ To turn off Project for the web for a user:
 You can repeat this procedure for each user that you don't want to use Project for the web.
 
 > [!NOTE]
-> You can only turn off Project for the web for one user at a time through the Office 365 Admin Center user interface.  You also cannot turn Project for the web off to your organization (like you can for Roadmap in the Project Online settings in the Microsoft 365 Admin Center).
+> You cannot turn Project for the web off to your organization (like you can for Roadmap in the Project Online settings in the Microsoft 365 Admin Center).
 
 ## Turn off Project for the web for multiple users using Windows PowerShell
 
-While you are only able to disable Project for the web for one user at a time through the Office 365 Admin Center user interface, an admin can turn off Project for the web for multiple users through Windows PowerShell. 
+If you need to disable Project for the web for a large number of users, an admin can do this through Windows PowerShell.
 
 > [!Note]
 > Before attempting this, you first need to [install the required modules](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) and be a global admin on your tenant. </br>
