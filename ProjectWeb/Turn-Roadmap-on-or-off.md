@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/7/2018
 audience: admin
 ms.topic: get-started-article
-ms.service: project-online
+ms.service: project-web
 localization_priority: Normal
 ms.custom: Adm_O365
 ms.collection: M365-subscription-management

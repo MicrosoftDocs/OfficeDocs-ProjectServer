@@ -20,14 +20,13 @@ localization_priority: Normal
 You first need to do the following:
 
 - Download [Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
-- Download the [Project for the web Power BI template]() to your computer.
+- Download the [Project for the web Power BI template](https://aka.ms/ProjectReports) to your computer.
 
 ## Launch and configure the Power BI Desktop template file
 1. Click on the Project for the web Power BI template file to open it in Power BI Desktop.
-2. In the ribbon, select **Edit Queries**, and then select **Edit Parameters**.
-3. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **OK**.<br/>
+2. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **OK**.<br/>
 ![Default CDS environment](media\Parameter.png)
-1.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select Organizational account and then enter your credentials.
+3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select Organizational account and then enter your credentials.
 
 From here, you can choose which tables you would like to connect to and build a query. 
 
@@ -35,7 +34,7 @@ From here, you can choose which tables you would like to connect to and build a 
 
  Project for the web data is stored in the Dynamics 365 Common Data Service (CDS). For the parameter value needed to connect with the Power BI Desktop, you need to enter the URL of your default CDS instance that you are using, and it needs to be in the following format: 
 
-https://<spam><spam>(Default CDS environment).(region).dynamics<spam><spam>.com
+https://<spam><spam>(environment_name).(region).dynamics<spam><spam>.com
 
 For example:
 https://<spam><spam>orgde6d15d8.crm.dynamics<spam><spam>.com
