@@ -24,7 +24,7 @@ You first need to do the following:
 
 ## Launch and configure the Power BI Desktop template file
 1. Click on the Project for the web Power BI template file to open it in Power BI Desktop.
-2. In the **Enter Parameters** screen, in the **CDS URL** field, type the [URL of your Dynamics 365 Common Data Service (CDS) default instance](##How-to-determine-your-CDS-URL) you are using for Project for the web, and then click **Load**.<br/>
+2. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **Load**.<br/>
 ![Default CDS environment](media\Parameter.png)
 3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account** and then click **Sign In**.</br>
 ![Default CDS environment](media\OrgSignin.png)
