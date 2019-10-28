@@ -5,7 +5,7 @@ author: efrene
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/28/2019
+ms.date: 10/29/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
@@ -24,24 +24,27 @@ You first need to do the following:
 
 ## Launch and configure the Power BI Desktop template file
 1. Click on the Project for the web Power BI template file to open it in Power BI Desktop.
-2. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **Load**.<br/>
+2. In the **Enter Parameters** screen, in the **CDS URL** field, type the [URL of your Dynamics 365 Common Data Service (CDS) default instance](##How-to-determine-your-CDS-URL) you are using for Project for the web, and then click **Load**.<br/>
 ![Default CDS environment](media\Parameter.png)
-3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select Organizational account and then enter your credentials.
+3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account** and then click **Sign In**.</br>
+![Default CDS environment](media\OrgSignin.png)
+4.  A message will display telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
-From here, you can choose which tables you would like to connect to and build a query. 
 
 ### How to determine your CDS URL
 
- Project for the web data is stored in the Dynamics 365 Common Data Service (CDS). For the parameter value needed to connect with the Power BI Desktop, you need to enter the URL of your default CDS instance that you are using, and it needs to be in the following format: 
+ Project for the web data is stored in the Dynamics 365 Common Data Service (CDS). You need to enter the URL of your default CDS instance that you are using, and it needs to be in the following format: 
 
 https://<spam><spam>(environment_name).(region).dynamics<spam><spam>.com
 
 For example:
 https://<spam><spam>orgde6d15d8.crm.dynamics<spam><spam>.com
 
-**To determine the Default CDS environment value of the URL**:
+The following will tell you how to find the *environment_name* and the *region* values of the URL.
 
-1. While logged into Office 365, go to this site:  https://web.powerapps.com
+**To determine the Default CDS environment name value of the URL**:
+
+1. While logged into Office 365, go to this site:  https://<spam><spam>web.powerapps<spam><spam>.com
 2. On the PowerApps page, note the value in the **Environments** section.  In the image below, the default CDS environment value is **orgde6d15d8**.
 
     ![Default CDS environment](media\PowerAppsPage.png)
@@ -65,9 +68,25 @@ The region value will usually be associated to the data center that is close to 
 |United Kingdom   <br/> |crm11 <br/> |
 |France  <br/> |crm12 <br/> |
 
-If you are not sure, check with your Office 365 administrator and have them check for the value in the [Power Platform Admin Center](https://docs.microsoft.com/en-us/power-platform/admin/admin-guide).
+If you are not sure, check with your Office 365 administrator and have them check for the value in the [Power Platform Admin Center](https://docs.microsoft.com/power-platform/admin/admin-guide).
 
 ![PowerPlatform Admin Center](media\PowerPlatformAdminCenter.png)
+
+## After connecting to your data
+
+After Power BI Desktop retrieves the data, the visualizations in each report page will load and display the data.  
+
+> [!Note]
+> You need to have read permissions at the business-unit level to the CDS entities to which the report connects to have a portfolio-level view of the data.  
+
+The template comes with 11 detailed reports: 
+- Portfolio Overview (3 report pages)
+- Roadmap (2 report pages)
+- Resource Overview (2 report pages)
+- Project and Task Overview (2 report pages)
+- My Work and My Timeline: Detailed information on the work for an individual team member (2 report pages).   
+
+From the Power BI Desktop, we recommend [publishing the report to a shared workspace](https://docs.microsoft.com/power-bi/desktop-upload-desktop-files), and then [configure scheduled refresh of the data to keep your dataset up to date](https://docs.microsoft.com/power-bi/refresh-scheduled-refresh).
 
 ## See also
 

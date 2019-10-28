@@ -33,15 +33,16 @@ If your organization currently uses Project Online Professional (renamed to Proj
 
 ## Help your users 
 
-Project for the web is designed to be easy-to-use and intuitive. Use the following articles, quick starts, and videos to help your users learn how to better use Project for the web. 
- - x
- - x
- - x
- - x
- - x
- - x
- - x
- - x
+Project for the web is designed to be easy-to-use and intuitive. You can use the following articles, quick starts, and videos to help your users learn how to better use Project for the web. 
+
+ - [QuickStart guide: Create your project](https://go.microsoft.com/fwlink/?linkid=2109367)
+ - [QuickStart guide: Build your project](https://support.office.com/article/a45f7bcb-d3ff-4900-b2cb-41b8ba7ffbfe)
+ - [QuickStart guide: Manage your project](https://support.office.com/article/c8e1f866-2c6a-4018-a39c-807382e7c671)
+ - [Share a project in Project for the web](https://support.office.com/article/share-a-project-885758f0-c216-4129-a53d-6e2406977469)
+ - [How to use the grid and timeline view]()
+ - [How to use the board view]()
+ - []()
+ - []()
 
 ## Reporting information on Project for the web data
 

@@ -16,7 +16,13 @@ description: "Learn how an Office 365 global administrator can delete a user's i
 
 # Delete user data from Project for the web
 
-To delete user data from Project for the web, you need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
+To delete user data from Project for the web, you need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure Active Directory or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
+
+To find a user's Azure AD Object ID in the Azure Active Directory Admin Center:
+1. In the Azure Active Directory Admin Center, click on **Users** to see a list of all users in your organization.
+2. Click on the name of the user.
+3. On the user profile page, in the **Identity** section, you can find the user's Azure AD Object ID value in the **Object ID** field.</br>
+![PowerApps menu](media/AzureUserProfile.png)
 
 ## To find and delete a user's roadmaps
 
