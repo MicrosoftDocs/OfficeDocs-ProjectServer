@@ -79,12 +79,6 @@ After Power BI Desktop retrieves the data, the visualizations in each report pag
 > [!Note]
 > You need to have read permissions at the business-unit level to the CDS entities to which the report connects to have a portfolio-level view of the data.  
 
-The template comes with 11 detailed reports: 
-- Portfolio Overview (3 report pages)
-- Roadmap (2 report pages)
-- Resource Overview (2 report pages)
-- Project and Task Overview (2 report pages)
-- My Work and My Timeline: Detailed information on the work for an individual team member (2 report pages).   
 
 From the Power BI Desktop, we recommend [publishing the report to a shared workspace](https://docs.microsoft.com/power-bi/desktop-upload-desktop-files), and then [configure scheduled refresh of the data to keep your dataset up to date](https://docs.microsoft.com/power-bi/refresh-scheduled-refresh).
 
