@@ -14,7 +14,7 @@ description: "Learn how to assign the Project User role to a Dynamics 365 busine
 
 # Project for the web setup requirements for Dynamics 365 business units
 
-In Dynamics 365, you can create additional [business units](https://docs.microsoft.com/en-us/power-platform/admin/create-edit-business-units) in your Common Data Service (CDS) instance.  If you want Project for the web users in the business unit to be able to access and use it, you need to made sure that the associated team in which your users are members have the **Common Data Service User** and **Project User** roles applied to it.
+In Dynamics 365, you can create additional [business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units) in your Common Data Service (CDS) instance.  If you want Project for the web users in the business unit to be able to access and use it, you need to made sure that the associated team in which your users are members have the **Common Data Service User** and **Project User** roles applied to it.
 
 > [!NOTE]
 > You only need to do this if you add a new business unit to your default CDS instance. This will automatically be applied to your root business unit's team settings.
@@ -37,7 +37,7 @@ In Dynamics 365, you can create additional [business units](https://docs.microso
 
 ## See Also
 
-[Create or edit business units](https://docs.microsoft.com/en-us/power-platform/admin/create-edit-business-units)
+[Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units)
   
   
 
