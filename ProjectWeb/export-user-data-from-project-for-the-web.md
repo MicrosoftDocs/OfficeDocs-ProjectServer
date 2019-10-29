@@ -3,14 +3,14 @@ title: "Export user data from Project for the Web"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 6/25/2018
+ms.date: 10/29/2019
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
-description: "Your organization can export a specific user's content from your Project Online environment. To export this content, an Office 365 global administrator can follow these steps:"
+description: "Learn how your organization can export a specific user's content from your Project for the web environment."
 ---
 
 # Export user data from Project for the web
@@ -198,7 +198,7 @@ The XML file contains a number of properties pertaining to the specific project.
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
-[Export user data from Project Online](export-user-data-from-project-online.md)
+[Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
   
   
 
