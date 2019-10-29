@@ -25,9 +25,9 @@ You first need to do the following:
 ## Launch and configure the Power BI Desktop template file
 1. Click on the Project for the web Power BI template file to open it in Power BI Desktop.
 2. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **Load**.<br/>
-![Default CDS environment](media\Parameter.png)
+![Default CDS environment](media/Parameter.png)
 3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account** and then click **Sign In**.</br>
-![Default CDS environment](media\OrgSignin.png)
+![Default CDS environment](media/OrgSignin.png)
 4.  A message will display telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
 
@@ -47,7 +47,7 @@ The following will tell you how to find the *environment_name* and the *region* 
 1. While logged into Office 365, go to this site:  https://<spam><spam>web.powerapps<spam><spam>.com
 2. On the PowerApps page, note the value in the **Environments** section.  In the image below, the default CDS environment value is **orgde6d15d8**.
 
-    ![Default CDS environment](media\PowerAppsPage.png)
+    ![Default CDS environment](media/PowerAppsPage.png)
 
 **To determine the region value of the URL**:
 
@@ -70,7 +70,7 @@ The region value will usually be associated to the data center that is close to 
 
 If you are not sure, check with your Office 365 administrator and have them check for the value in the [Power Platform Admin Center](https://docs.microsoft.com/power-platform/admin/admin-guide).
 
-![PowerPlatform Admin Center](media\PowerPlatformAdminCenter.png)
+![PowerPlatform Admin Center](media/PowerPlatformAdminCenter.png)
 
 ## After connecting to your data
 
