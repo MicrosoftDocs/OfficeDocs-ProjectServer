@@ -14,7 +14,7 @@ description: "Learn about resources available for Project for the Web admins."
 
 # Project for the web admin help
 
-Learn about resources available for Project for the Web admins.
+Learn about resources available for Project for the web admins.
 
 
 <ul class="panelContent cardsFTitle">
@@ -25,7 +25,7 @@ Learn about resources available for Project for the Web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-planner.svg" alt="Get started with Project for the Web" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-planner.svg" alt="Get started with Project for the web" />
                         </div>
                     </div>
                     <div class="cardText">
