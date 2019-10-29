@@ -3,9 +3,11 @@ title: "Delete user data from Project for the web"
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.date: 10/28/2019
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
+search.appverid: PJO150
 localization_priority: Normal
 ms.custom: Adm_Project
 search.appverid: PJO150
@@ -14,9 +16,15 @@ description: "Learn how an Office 365 global administrator can delete a user's i
 
 # Delete user data from Project for the web
 
-To delete user data from Project for the web, you need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
+To delete user data from Project for the web, you need the user's Azure AD Object ID. You can get this by checking the user's profile properties in Azure Active Directory or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
 
-## To find a user's roadmaps
+To find a user's Azure AD Object ID in the Azure Active Directory Admin Center:
+1. In the Azure Active Directory Admin Center, click on **Users** to see a list of all users in your organization.
+2. Click on the name of the user.
+3. On the user profile page, in the **Identity** section, you can find the user's Azure AD Object ID value in the **Object ID** field.</br>
+![PowerApps menu](media/AzureUserProfile.png)
+
+## To find and delete a user's roadmaps
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administraton Center, select the default instance, and then click **Open**.
@@ -40,8 +48,12 @@ To delete user data from Project for the web, you need the user's Azure AD Objec
 8. Click **OK**, and then click **OK** again.
 9. In the **Fields** list, choose **Owner AAD Id** and type in the user's Azure AD Object ID.
 10. Click **Results**.
+11. Click the name of the roadmap you want to delete.
+12. Click **Delete**.
 
-Make note of the Office 365 Group AAD ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
+## To make changes to a user's roadmap
+
+From your Advanced Find search results, make note of the Office 365 Group AAD ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
 
 To add yourself as a group owner, use [Add-AzureADGroupOwner](https://docs.microsoft.com/powershell/module/azuread/add-azureadgroupowner):
 
@@ -51,11 +63,11 @@ For example,
 
 `Add-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
 
-Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits or deletions directly. ([Roadmap must be enabled](turn-roadmap-on-or-off.md) to do this.)
+Once you are an owner for the groups, you can open the roadmaps from Project Home and make edits directly. ([Roadmap must be enabled](https://docs.microsoft.com/projectonline/turn-roadmap-on-or-off) to do this.)
 
 ### For roadmaps not associated to an Office 365 group
 
-If your user's roadmap is not associated to an Office 365 group, and you want to be able to delete or make edits to it, you need add a group that you own to the roadmap.
+If your user's roadmap is not associated to an Office 365 group, and you want to be able to make edits to it, you need add a group that you own to the roadmap.
 
 This first requires you to create an Office 365 Group and get the Office 365 Group AAD id value for it.  After you do this, do the following:
 
@@ -65,7 +77,7 @@ This first requires you to create an Office 365 Group and get the Office 365 Gro
 4. Click **Save** and then **Publish**.
 5. After the change in completed, on the Roadmap Information page, you will see the Office 365 Group AAD id field display. Enter the Office 365 Group AAD ID value of the group you own into the field box.
 
-You are now the owner of the Office 365 Group for the roadmap and can edit or delete it.
+You are now the owner of the Office 365 Group for the roadmap and can edit it.
 
 ## To find a user's projects
 
@@ -104,7 +116,7 @@ To delete or edit a users project, do the following:
 
 [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 
-[Delete user data from Project Online](delete-user-data-from-project-online.md)
+[Delete user data from Project Online](https://docs.microsoft.com/projectonline/delete-user-data-from-project-online)
   
   
 

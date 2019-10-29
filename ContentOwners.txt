@@ -4,5 +4,6 @@
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 
-/Project/  @efrene @AndreaBarr
-/ProjectOnline/ @efrene @AndreaBarr
+/Project/  @efrene 
+/ProjectOnline/ @efrene 
+/ProjectWeb/ @efrene

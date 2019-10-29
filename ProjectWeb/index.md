@@ -1,4 +1,4 @@
 ---
-redirect_url: project-for-the-web
+redirect_url: projectforweb-admin-home
 redirect_document_id: TRUE 
 ---
