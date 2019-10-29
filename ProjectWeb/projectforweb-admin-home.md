@@ -14,7 +14,7 @@ description: "Learn about resources available for Project for the Web admins."
 
 # Project for the web admin help
 
-Learn about resources available for Project for the Web admins.
+Learn about resources available for Project for the web admins.
 
 
 <ul class="panelContent cardsFTitle">
@@ -25,7 +25,7 @@ Learn about resources available for Project for the Web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-planner.svg" alt="Get started with Project for the Web" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-planner.svg" alt="Get started with Project for the web" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +43,7 @@ Learn about resources available for Project for the Web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="What is Project for the web" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-project.svg" alt="What is Project for the web" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +61,7 @@ Learn about resources available for Project for the Web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Project for the web and Project Online" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-list-planning-project.svg" alt="Project for the web and Project Online" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -76,7 +76,7 @@ Learn about resources available for Project for the Web admins.
 
 <ul class="panelContent cardsF">
     <li>
-        <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
+        <a href="https://microsoftproject.uservoice.com/forums/914203-project-for-the-web">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
