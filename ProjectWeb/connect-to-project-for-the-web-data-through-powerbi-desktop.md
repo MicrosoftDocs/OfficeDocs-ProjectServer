@@ -19,7 +19,7 @@ localization_priority: Normal
 ## Get started 
 You first need to do the following:
 
-- Download [Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
+- Download [Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
 - Download the [Project for the web Power BI template](https://aka.ms/ProjectReports) to your computer.
 
 ## Launch and configure the Power BI Desktop template file
