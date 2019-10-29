@@ -76,7 +76,7 @@ Learn about resources available for Project for the web admins.
 
 <ul class="panelContent cardsF">
     <li>
-        <a href="https://microsoftproject.uservoice.com/forums/218133-microsoft-project">
+        <a href="https://microsoftproject.uservoice.com/forums/914203-project-for-the-web">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
