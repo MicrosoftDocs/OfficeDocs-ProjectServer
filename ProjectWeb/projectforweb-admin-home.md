@@ -12,7 +12,7 @@ localization_priority: Priority
 description: "Learn about resources available for Project for the Web admins."
 ---
 
-# Project for the Web admin help
+# Project for the web admin help
 
 Learn about resources available for Project for the Web admins.
 

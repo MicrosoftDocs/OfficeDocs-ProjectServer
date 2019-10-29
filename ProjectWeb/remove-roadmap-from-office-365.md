@@ -35,4 +35,4 @@ You can remove all roadmap data by removing the entire Roadmap solution from Mic
 
 ## See Also
 
-[Delete user data from Roadmap](delete-user-data-from-roadmap.md)
+[Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
