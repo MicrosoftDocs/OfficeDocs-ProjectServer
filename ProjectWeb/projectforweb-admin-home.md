@@ -43,7 +43,7 @@ Learn about resources available for Project for the web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="What is Project for the web" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-project.svg" alt="What is Project for the web" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +61,7 @@ Learn about resources available for Project for the web admins.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Project for the web and Project Online" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-list-planning-project.svg" alt="Project for the web and Project Online" />
                         </div>
                     </div>
                     <div class="cardText">
