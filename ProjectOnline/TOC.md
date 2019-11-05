@@ -28,7 +28,7 @@
 ##  [Reporting]()
 ### [Grant reporting access in Project Online](grant-reporting-access-in-project-online.md)
 ### [What reporting tools can I use with project data?](what-reporting-tools-can-i-use-with-project-data.md)
-### [Configure rollup of your timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md)
+### [Configure rollup of timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md)
 ##  [Resources]()
 ### [Configure the Resource Center](configure-the-resource-center.md)
 ### [Activate resource engagements in Project Online](activate-resource-engagements-in-project-online.md)
