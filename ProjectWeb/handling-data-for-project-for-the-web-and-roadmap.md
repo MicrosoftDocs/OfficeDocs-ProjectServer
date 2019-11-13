@@ -38,8 +38,8 @@ If you need to delete Project for the web or Roadmap data (for example, you need
 
 An admin can choose to turn off Project for the web throughout the organization or to specific users:
 
-- [Turn Project for the web off to individual users](). This can be done through the Microsoft 365 admin center or through Windows PowerShell.
-- [Turn Project for the web off to the entire organization](). This is done through the Project Settings page in the Microsoft 365 admin center.
+- [Turn Project for the web off to individual users](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell.
+- [Turn Project for the web off to the entire organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-your-organization). This is done through the Project Settings page in the Microsoft 365 admin center.
 
 ## Turn off Roadmap 
 
