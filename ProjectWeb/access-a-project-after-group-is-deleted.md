@@ -44,7 +44,7 @@ If the Office 365 group has been deleted for longer than 30 days, it is not rest
 
 The admin will need to:
 1. Find the project through the Advanced Find search function in the Dynamics 365 Admin Center.
-2. Assign the project to the user who needs to access it. 
+2. Assign the project to the user or Office 365 group that needs to access it. 
 
 ### Find the project in Advanced Find search
 
@@ -65,11 +65,11 @@ Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/c
 6. Click **Results** to run the query. The project you are looking for should display in the Projects tab.
 
 
-## Reassign the project 
+### Reassign the project to a new user or Office 365 group
 
-After locating the project through Advanced Find, the admin can now reassign the project to a user or group. 
+After locating the project through Advanced Find, the admin can now reassign the project to a user or Office 365 group. 
 
-To reassign a project to a user or Office 365 group: 
+To reassign a project to a user or group: 
 
 
 1. Select the checkbox next to the project name.
