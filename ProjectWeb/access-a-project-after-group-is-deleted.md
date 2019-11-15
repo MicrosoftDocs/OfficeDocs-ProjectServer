@@ -16,9 +16,14 @@ description: "Learn how to regain access to a project in Project for the web aft
 
 If the Office 365 group that you are sharing your Project for the web project with is deleted, users in the group will not be able to access the project.  However, there are ways for you to regain access.
 
+- The group owner can restore the Office 365 group.
+- An admin can reassign the project to a user or Office 365 group.
+
+The option you should choose depends on how long ago the group was deleted.
+
 ## Restore the Office 365 group
 
-If you've deleted a group that you own, it will be retained for 30 days by default. This 30-day period is considered a "soft-delete" because you can still restore the deleted group. After 30 days, the group and its associated contents are permanently deleted and cannot be restored.
+If a group that you own has been deleted, it will be retained for 30 days by default. This 30-day period is considered a "soft-delete" because you can still restore the deleted group. After 30 days, the group and its associated contents are permanently deleted and cannot be restored.
 
 If you are the owner of an Office 365 group, you can restore the group yourself by following these steps.
 
@@ -30,31 +35,58 @@ After you've restored the group, members of the group should be able to access t
 > [!Note]
 > To learn more about deleting an Office 365 group, see [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
 
-## Connect a new Office 365 group to the project
+## Reassign the project
 
-If the Office 365 group has been deleted for longer than 30 days, you will need an admin in your tenant to help you with connecting a new Office 365 group to the project.
+If the Office 365 group has been deleted for longer than 30 days, it is not restorable and you will need an admin in your tenant to help you with reassigning the project to either:
 
-First, the user that wants to access the project will need to [create a new Office 365 group](https://support.office.com/article/create-a-group-in-outlook-04d0c9cf-6864-423c-a380-4fa858f27102) to provide to the admin. This group will be substituted for the group that was deleted, and will give the group owner access to the project.
+- The user that needs to access the project
+- An active Office 365 group with members who need to access the project.
 
-There are many way to create a group, but the most common way is to [create it through Outlook](https://support.office.com/article/create-a-group-in-outlook-04d0c9cf-6864-423c-a380-4fa858f27102#ID0EACAAA=Windows).
+The admin will need to:
+1. Find the project through the Advanced Find search function in the Dynamics 365 Admin Center.
+2. Assign the project to the user who needs to access it. 
 
-After the user creates a new group, an admin will need to:
-1. Find the Office 365 group's AAD ID value for the group you created.
-2. Find the project through the Advanced Find search function in the Dynamics 365 Admin Center.
-3. Edit the project to substitute the new Office 365 group's AAD ID for the old value (the Office 365 group that was deleted). 
+### Find the project in Advanced Find search
 
-### Find the Office 365 group's AAD ID value
+Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for the project you need.
 
-You first need to find the Azure AD Object ID of the new group that you plan to share the project to. You can get this by checking the group's properties in Azure Active Directory or by using [Get-AzureADGroup](https://docs.microsoft.com/powershell/module/azuread/get-azureadgroup?view=azureadps-2.0).
+1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
+2.	On the PowerApps Settings page, select **Dynamics 365 Custom**.
+3.	On the **Projects** page, click the filter icon in the menu bar and then select **Advance Find**.
 
-To find an Office 365 group's Azure AD Object ID in the Azure Active Directory Admin Center:
-1. In the Azure Active Directory Admin Center, click on **Groups** to see a list of all groups in your organization.
-2. If you cannot readily see the group you are looking for, use the search box to find it.
-3. After locating the group you are looking for, you can find the group's Office 365 group's AAD ID value under the **Object Id** column.
-![PowerApps menu](media/GroupSearch.png)
+    ![Advanced Find](media/AdvancedFind.png)
+4.	In Advanced Find, in the **Look for** menu, select **Projects**.  In the **Use Saved View** menu, select **All projects**.
+   
+ 
+5.	Click **Select**, and from the menu, select **Name**.  From the next menu, select **Equals**, and then in the **Enter text** box type the name of the project you are looking for. 
+ ![Advanced Find Filter](media/AdvancedFindFilter.png)
+
+6. Click **Results** to run the query. The project you are looking for should display in the Projects tab.
 
 
-### Add the new Office 365 group's AAD ID value to the project
+## Reassign the project 
+
+After locating the project through Advanced Find, the admin can now reassign the project to a user or group. 
+
+To reassign a project to a user or Office 365 group: 
+
+
+1. Select the checkbox next to the project name.
+2. In the ribbon, click **Assign Projects**.
+ ![Assign project](media/AssignProject.png)
+3. On the **Assign Project** screen, click in the **Assign to** box to change it to **User or team**.
+4. Click in the **User or team** box, and then click the magnifying glass icon. Then scroll to the bottom of the results and click on **Look up more records**.
+5.  On the **Lookup Record** screen:
+- If you want to reassign the project to a user, select **User** in the **Look for** menu, select the user from the user list, and then click **Add**.
+
+
+ ![Lookup Record](media/LookupRecordUser.png)
+
+- If you want to reassign the project to an Office 365 group, select **Team** from the **Look for** menu, select **All AAD Office Group Teams** from the **Look in** menu, select the group from the list, and then click **Add**.
+
+ ![Lookup Record](media/LookupRecord.png)
+
+
 
 
 
