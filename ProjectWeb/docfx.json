@@ -44,6 +44,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/project-for-the-web/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "titleSuffix": "Project for the web",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
       "feedback_product_url": "https://microsoftproject.uservoice.com",
