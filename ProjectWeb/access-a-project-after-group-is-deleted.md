@@ -58,8 +58,9 @@ Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/c
 4.	In Advanced Find, in the **Look for** menu, select **Projects**.  In the **Use Saved View** menu, select **All projects**.
    
  
-5.	Click **Select**, and from the menu, select **Name**.  From the next menu, select **Equals**, and then in the **Enter text** box type the name of the project you are looking for. 
- ![Advanced Find Filter](media/AdvancedFindFilter.png)
+5.	Click **Select**, and from the menu, select **Name**.  From the next menu, select **Equals**, and then in the **Enter text** box type the name of the project you are looking for. </br>
+
+     ![Advanced Find Filter](media/AdvancedFindFilter.png)
 
 6. Click **Results** to run the query. The project you are looking for should display in the Projects tab.
 
@@ -72,19 +73,20 @@ To reassign a project to a user or Office 365 group:
 
 
 1. Select the checkbox next to the project name.
-2. In the ribbon, click **Assign Projects**.
- ![Assign project](media/AssignProject.png)
-3. On the **Assign Project** screen, click in the **Assign to** box to change it to **User or team**.
-4. Click in the **User or team** box, and then click the magnifying glass icon. Then scroll to the bottom of the results and click on **Look up more records**.
-5.  On the **Lookup Record** screen:
+2. In the ribbon, click **Assign Projects**.</br>
+
+     ![Assign project](media/AssignProject.png)
+1. On the **Assign Project** screen, click in the **Assign to** box to change it to **User or team**.
+2. Click in the **User or team** box, and then click the magnifying glass icon. Then scroll to the bottom of the results and click on **Look up more records**.
+3.  On the **Lookup Record** screen:
 - If you want to reassign the project to a user, select **User** in the **Look for** menu, select the user from the user list, and then click **Add**.
 
 
- ![Lookup Record](media/LookupRecordUser.png)
+     ![Lookup Record](media/LookupRecordUser.png)
 
 - If you want to reassign the project to an Office 365 group, select **Team** from the **Look for** menu, select **All AAD Office Group Teams** from the **Look in** menu, select the group from the list, and then click **Add**.
 
- ![Lookup Record](media/LookupRecord.png)
+     ![Lookup Record](media/LookupRecord.png)
 
 
 
