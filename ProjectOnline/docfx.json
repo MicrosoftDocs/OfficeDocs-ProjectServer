@@ -39,6 +39,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/ProjectOnline/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "titleSuffix": "ProjectOnline",
       "contributors_to_exclude": [
         "denisebmsft"
       ],
