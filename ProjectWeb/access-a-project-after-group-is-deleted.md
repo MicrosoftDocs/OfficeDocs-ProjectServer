@@ -1,9 +1,9 @@
 ---
-title: "Access a project in Project for the web after it's Office 365 group has been deleted"
+title: "Access a project in Project for the web after its Office 365 group has been deleted"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 11/18/2019
+ms.date: 11/28/2019
 audience: admin
 ms.topic: article
 ms.service: 
@@ -14,10 +14,10 @@ description: "Learn how to regain access to a project in Project for the web aft
 
 # Access a project in Project for the web after its Office 365 group has been deleted
 
-If the Office 365 group that is associated with your project with is deleted, users in the group will not be able to access the project. However, there are ways for you to regain access.
+If the Office 365 group that is associated with your project has been deleted, users in the group will not be able to access the project.  However, there are ways for you to regain access.
 
 - The group owner can restore the Office 365 group.
-- An admin can reassign the project to a user who can then choose a new group.
+- An admin can reassign the project to a user who can then choose or create a new group.
 
 The option you should choose depends on how long ago the group was deleted.
 
