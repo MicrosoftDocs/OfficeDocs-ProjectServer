@@ -16,7 +16,8 @@ description: "Learn how Project for the web uses the Dynamics 365 Common Data Se
 
 Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). The Power Platform consists of [PowerApps](https://powerapps.microsoft.com), [Microsoft Flow](https://preview.flow.microsoft.com), [Power BI](https://powerbi.microsoft.com), and the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). Project for the web  data is stored in CDS.  
 
-> [!Note] Note that Project for the web data also includes data from its  Roadmap feature. 
+> [!Note] 
+> Note that Project for the web data also includes data from its  Roadmap feature. 
 
 ## Data retention
 
@@ -42,11 +43,13 @@ An admin can choose to turn off Project for the web throughout the organization 
 
 
 - [Turn Project for the web off to the entire organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-your-organization). This is done through the Project Settings page in the Microsoft 365 admin center.
-    > [!Note] Turning off Project for the web to your org does not turn  off the Roadmap feature. 
+    > [!Note] 
+    > Turning off Project for the web to your org does not turn  off the Roadmap feature. 
 
 - [Turn Project for the web off to individual users](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
 
-     > [!Note] When you turn off Project for the web to individual users  in your tenant, you will also turn off the Roadmap feature.
+    > [!Note] 
+    > When you turn off Project for the web to individual users  in your tenant, you will also turn off the Roadmap feature.
 
 ## Turn off Roadmap 
 
