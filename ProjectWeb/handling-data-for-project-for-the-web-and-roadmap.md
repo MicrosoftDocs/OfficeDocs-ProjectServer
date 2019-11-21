@@ -44,7 +44,7 @@ An admin can choose to turn off Project for the web throughout the organization 
 
 - [Turn Project for the web off to the entire organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-your-organization). This is done through the Project Settings page in the Microsoft 365 admin center.
     > [!Note] 
-    > Turning off Project for the web to your org does not turn  off the Roadmap feature. 
+    > Turning off Project for the web to your org does not turn off the Roadmap feature. 
 
 - [Turn Project for the web off to individual users](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
 
