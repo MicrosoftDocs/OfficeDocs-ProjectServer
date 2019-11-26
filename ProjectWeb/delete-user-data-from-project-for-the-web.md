@@ -28,11 +28,12 @@ To find a user's Azure AD Object ID in the Azure Active Directory Admin Center:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administraton Center, select the default instance, and then click **Open**.
-3. Click **Advanced Find**.
-4. From the **Look for** menu, choose **Roadmaps**.
-5. Click **Edit Columns**
-6. Click **Add Columns**.
-7. Choose the columns below that you want to search on. Be sure to include **Office 365 Group AAD ID**.
+3. On the PowerApps page, click the Settings icon in the menu bar, and select **Advanced Settings**.
+4. On the **Dynamics 365 Settings Business Management** page, click the filter icon and then click **Advanced Find**.
+5. From the **Look for** menu, choose **Roadmaps**.
+6. Click **Edit Columns**
+7. Click **Add Columns**.
+8. Choose the columns below that you want to search on. Be sure to include **Office 365 Group AAD ID**.
 
    |**Display name**|**Description**|
    |:---------------|:--------------|

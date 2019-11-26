@@ -12,27 +12,8 @@ localization_priority: Normal
 description: "Learn how to turn off Project for the web for users in your organization."
 ---
 
-# Turn off Project for the web
 
-An admin can control user access to Project for the web in their organization in the following ways:
-
-- Turn off access for the whole organization
-- Turn off access for specific users in your organization
-
-
-## Turn off Project for the web for your organization
-
-An admin can turn off Project for the web for all users in your organization through the Project settings page in the Microsoft 365 admin center.
-
-To turn off Project for the web:
-
-1. In the [Microsoft 365 admin center](admin.microsoft.com), expand the navigation menu, select **Settings**, and then select **Services and add-ins**.
-2. In the **Services and add-ins** list, select **Project**.
-3. On the **Project** settings page, deselect **Turn project management features on for your organization**, and then click **Save changes**.
-
-![Select user](media/ProjectSettings.png)
-
-## Turn off Project for the web for specific users in your organization
+# Turn off Project for the web for specific users in your organization
 
  An admin can manage access to Project for the web for specific users by assigning and unassigning the associated licenses. 
 
