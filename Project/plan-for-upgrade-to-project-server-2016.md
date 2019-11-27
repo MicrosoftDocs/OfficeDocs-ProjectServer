@@ -55,12 +55,10 @@ Since upgrading to Project Server 2016 from Project Server 2013 is the only supp
 
 |**Upgrading from**|**Upgrade path**|
 |:-----|:-----|
-|Project Server 2010  <br/> |
-1.Upgrade to Project Server 2013 <br/> 2.Upgrade to Project Server  2016 <br/>|
-|Project Server 2007  <br/> |
-1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 <br/>|
+|Project Server 2010  <br/> | 1.Upgrade to Project Server 2013 <br/> 2.Upgrade to Project Server  2016 <br/>|
+|Project Server 2007  <br/> |1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 <br/>|
 
-For more informations:
+For more informations:<br/>
 [Upgrade to Project Server 2010](https://go.microsoft.com/fwlink/?LinkId=747042) <br/> 
 [Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/?LinkId=747043) <br/> 
 [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> 
