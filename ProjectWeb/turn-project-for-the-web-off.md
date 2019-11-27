@@ -19,9 +19,9 @@ description: "Learn how to turn off Project for the web for users in your organi
 
 Access to Project for the web is granted to users if they are assigned one of the following licenses:
 
-- Project Plan P1
-- Project Plan P3 (previously called Project Online Professional)
-- Project Plan P5 (previously called Project Online Premium)
+- Project Plan 1
+- Project Plan 3 (previously called Project Online Professional)
+- Project Plan 5 (previously called Project Online Premium)
 
  If you want to turn off Project for the web for specific users in your organization, an admin can do this by turning off the service for the user in the Microsoft 365 Admin Center.  
 
