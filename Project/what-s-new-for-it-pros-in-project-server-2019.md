@@ -104,7 +104,7 @@ You can connect to Project Server 2019 with not only Project Professional 2019 a
 | |
    
 > [!NOTE]
-> Project Online Desktop Client connectivity to Project Server 2013 is no longer be supported after September 15, 2018. 
+> Project Online Desktop Client connectivity to Project Server 2013 will no longer be supported after January 13, 2020. 
 
   
 > [!NOTE]
