@@ -64,11 +64,14 @@ The following table shows you the versions of Project Professional that are supp
   
 |**Project Server version**|**Supported client version**|**Note**|
 |:-----|:-----|:-----|
-|Project Server 2013  <br/> | Project Professional 2013 <br/>  Project Professional 2016 <br/>  Project Online Desktop Client <br/> ||
+|Project Server 2013  <br/> | Project Professional 2013 <br/>  Project Professional 2016 <br/>   ||
 |Project Server 2010  <br/> | Project Professional 2010 <br/>  Project Professional 2007 with Service Pack 2 (only in backward compatibility mode) <br/> |Will only accept connections from Project Professional 2007 with Service Pack 2 when backward compatibility mode is enabled in Project Server 2010.  <br/> |
    
 > [!IMPORTANT]
 > Project Server 2013 does not have a backward compatibility feature that enables earlier versions of Project Professional to connect to the server. 
+
+> [!Note]
+> Project Online Desktop Client connectivity to Project Server 2013 will expire and no longer be supported after January 13, 2020. 
   
 Project Professional 2013 has the following installation requirements:
   
