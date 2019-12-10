@@ -90,7 +90,7 @@ description: Project
                                     </div>
                                 </a>
                             </li><br/>                            <li>
-                                <a href="https://developer.microsoft.com/en-us/project/docs/">
+                                <a href="https://developer.microsoft.com/project/docs/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
