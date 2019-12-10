@@ -90,6 +90,24 @@ description: Project
                                     </div>
                                 </a>
                             </li><br/>                            <li>
+                                <a href="https://developer.microsoft.com/en-us/project/docs/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/Project-Server-400x140.svg" alt="Project developers" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Project developer</h3>
+                                                    <p>Everything you need to know to create Project add-ins and customize Project.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>        
+                            </li><br/>                            <li>
                                 <a href="/Project/windows-powershell-for-project-server-2016-cmdlet-reference">
                                     <div class="cardSize">
                                         <div class="cardPadding">

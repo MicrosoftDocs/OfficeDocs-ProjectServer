@@ -5,7 +5,7 @@ author: efrene
 manager: pamgreen
 ms.date: 11/21/2019
 audience: admin
-ms.service: project-online
+ms.service: project-web
 localization_priority: Normal
 search.appverid:
 - PJO150
