@@ -2,27 +2,27 @@
   "redirections": [
     {
       "source_path": "projectonline/delete-user-data-from-project-for-the-web.md",
-      "redirect_url": "/project-for-the-web/delete-user-data-from-project-for-the-web.md",
+      "redirect_url": "/project-for-the-web/delete-user-data-from-project-for-the-web",
       "redirect_document_id": true
     },
     {
       "source_path": "projectonline/delete-user-data-from-roadmap.md",
-      "redirect_url": "/project-for-the-web/delete-user-data-from-project-for-the-web.md",
+      "redirect_url": "/project-for-the-web/delete-user-data-from-project-for-the-web",
       "redirect_document_id": false
     },
     {
       "source_path": "projectonline/export-user-data-from-project-for-the-web.md",
-      "redirect_url": "/project-for-the-web/export-user-data-from-project-for-the-web.md",
+      "redirect_url": "/project-for-the-web/export-user-data-from-project-for-the-web",
       "redirect_document_id": true
     },
     {
       "source_path": "projectonline/remove-roadmap-from-office-365.md",
-      "redirect_url": "/project-for-the-web/remove-roadmap-from-office-365.md",
+      "redirect_url": "/project-for-the-web/remove-roadmap-from-office-365",
       "redirect_document_id": true
     },
     {
       "source_path": "projectonline/turn-roadmap-on-or-off.md",
-      "redirect_url": "/project-for-the-web/turn-roadmap-on-or-off.md",
+      "redirect_url": "/project-for-the-web/turn-roadmap-on-or-off",
       "redirect_document_id": true
     },
     {
