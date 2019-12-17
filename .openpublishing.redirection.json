@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "ProjectOnline/delete-user-data-from-project-for-the-web.md",
-      "redirect_url": "/project-for-the-web/delete-user-data-from-project-for-the-web",
+      "redirect_url": "https://docs.microsoft.com/project-for-the-web/delete-user-data-from-project-for-the-web",
       "redirect_document_id": true
     },
     {
