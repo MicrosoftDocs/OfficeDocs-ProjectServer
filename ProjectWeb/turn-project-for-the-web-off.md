@@ -94,6 +94,25 @@ ForEach ($UPN in $UPNList)
 ```
 For more information about disabling services through Office 365 PowerShell, see [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). 
 
+## Turn Project Online off
+
+An admin may want certain users to have access to Project for the web and the Roadmap feature, and not Project Online.  To do this, an admin would need to turn off the Project Online service for the user through their assigned Project Plan 3 or Project Plan 5 license.  
+
+> [!Note]
+> Roadmap is only available in read-only through the Project Plan 1 license. You will not be able to edit or create a new roadmap.
+
+To turn off Project Online:
+
+1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**.
+2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**.</br>
+![Select user](media/activeusers.png)
+3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop down menu. This would be either **Project Plan 3** or **Project Plan 5**.
+4. In the list of apps that display, uncheck **Project Online Service**, and then click **Save changes**.</br>
+ 
+    ![Project Online Service](media/projectonlineservice.png) 
+
+    You can repeat this procedure for each user that you want to use only Project for the web and Roadmap.
+
 
 ## See Also
   
