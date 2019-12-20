@@ -96,10 +96,10 @@ For more information about disabling services through Office 365 PowerShell, see
 
 ## Turn Project Online off
 
-An admin may want certain users to have access to Project for the web and the Roadmap feature, and not Project Online.  To do this, the admin would not only need to turn on Project for the web and Roadmap in Project settings, but also need to turn off the Project Online service for the user through their assigned Project Plan 3 or Project Plan 5 license.  
+An admin may want certain users to have access to Project for the web and the Roadmap feature, and not Project Online.  To do this, an admin would need to turn off the Project Online service for the user through their assigned Project Plan 3 or Project Plan 5 license.  
 
 > [!Note]
-> Roadmap is not available through the Project Plan 1 license.
+> Roadmap is only available in read-only through the Project Plan 1 license. You will not be able to edit or create a new roadmap.
 
 To turn off Project Online:
 
