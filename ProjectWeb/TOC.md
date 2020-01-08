@@ -3,6 +3,7 @@
 ## [Get started]()
 ### [Project for the web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)
 ### [Turn off Project for the web](turn-project-for-the-web-off.md)
+### [Project for the web limits and boundaries](project-for-the-web-limits-and-boundaries.md)
 ### [Connect to Project for the web data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
 ## [Resource management]()
