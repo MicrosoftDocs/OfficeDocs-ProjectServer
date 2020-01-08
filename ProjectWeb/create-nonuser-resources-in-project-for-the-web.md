@@ -16,7 +16,7 @@ description: "Learn how to add a non-user resource and make it available to assi
 
 Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/), and some aspects of resource setup for Project for the web is done in Dynamics 365, such as how to add resources that are not users in your organization (for example, contacts or equipment) and making them available to assign to tasks.
 
-While any user in Azure Active Directory (AAD) is automatically available as a resource to assign to project tasks in Project for the web, you need to manually add non-user resources.
+While users in Azure Active Directory (AAD) are automatically available to assign to project tasks in Project for the web, you need to manually add non-user resources.
 
 ## Types of non-user resources
 
