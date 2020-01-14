@@ -129,13 +129,13 @@ Now that you have the Project IDs of the projects you are interested in looking 
 > [!NOTE]
 > After you unzip the script, run the following in Windows PowerShell to import the modules:
 >
-> Import-Module -Name ./projectonlineAdmin
+> Import-Module -Name ./projectexport
 
 
 To run the ExportProjectContent script:
 1. In Windows PowerShell, run the following: 
 
-    .\ExportProjectContent.ps1 -ProjectID (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
 
     You will need to configure the following parameters when running the script:
 
@@ -157,9 +157,9 @@ To run the ExportProjectContent script:
 
     
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is https://<spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
 
-    .\ExportProjectContent.ps1 -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId https://<spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
