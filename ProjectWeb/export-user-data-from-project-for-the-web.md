@@ -135,7 +135,9 @@ Now that you have the Project IDs of the projects you are interested in looking 
 To run the ExportProjectContent function:
 1. In Windows PowerShell, where you have imported the moduel, run the following: 
 
-    ExportProjectContent -ProjectId (ProjectId of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+
+    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+
 
     You will need to configure the following parameters when running the script:
 
@@ -159,7 +161,9 @@ To run the ExportProjectContent function:
 
     As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
 
-    ExportProjectContent -ProjectId dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+
+    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
