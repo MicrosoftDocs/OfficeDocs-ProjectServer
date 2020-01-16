@@ -1,5 +1,5 @@
 ---
-title: "Project for the web limits"
+title: "Project for the web limits and boundaries"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -13,7 +13,7 @@ search.appverid:
 description: "Learn about limits for Project for the web projects and tasks."
 ---
 
-# Project for the web limits
+# Project for the web limits and boundaries
 
 There are important limitations that you should know if you are using Project for the web. These limits apply to projects and tasks.
   

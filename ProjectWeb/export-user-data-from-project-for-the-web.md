@@ -122,9 +122,9 @@ After you unhide the columns in the spreadsheet, looks for the name of the proje
 
 ### Run the Export script
 
-Now that you have the Project IDs of the projects you are interested in looking at, use the **ExportProjectContent.ps1** Windows PowerShell script get more information. The ExportProjectUserContent PowerShell script is included with the Project User Content Export script package.
+Now that you have the Project IDs of the projects you are interested in looking at, use the **ExportProjectContent** Windows PowerShell function to get more information. The ExportProjectUserContent function is included in the ProjectExport Windows PowerShell module.
 
-[Download the ExportProjectContent Windows PowerShell script](https://go.microsoft.com/fwlink/?linkid=2106330) and unzip the files.
+[Download the Project Export Windows PowerShell module](https://go.microsoft.com/fwlink/?linkid=2106330) and first unblock the zip file and then unzip the files.
 
 > [!NOTE]
 > After you unzip the script, run the following in Windows PowerShell to import the modules:
@@ -132,10 +132,12 @@ Now that you have the Project IDs of the projects you are interested in looking 
 > Import-Module -Name ./projectexport
 
 
-To run the ExportProjectContent script:
-1. In Windows PowerShell, run the following: 
+To run the ExportProjectContent function:
+1. In Windows PowerShell, where you have imported the moduel, run the following: 
+
 
     ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+
 
     You will need to configure the following parameters when running the script:
 
@@ -159,7 +161,9 @@ To run the ExportProjectContent script:
 
     As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
 
+
     ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
 3. If you have multiple projects, run the script again for each project, using it’s corresponding ProjectID value.
