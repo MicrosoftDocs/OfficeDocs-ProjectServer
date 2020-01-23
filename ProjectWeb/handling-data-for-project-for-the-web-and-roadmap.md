@@ -68,6 +68,10 @@ Although Roadmap is a Project for the web feature, it is possible that some orga
 The **Turn Roadmap on for your organization** control on the Project Settings page allows you to [turn Roadmap on or off in your organization](https://docs.microsoft.com/project-for-the-web/turn-roadmap-on-or-off). </br>
  
 
+## Turn off Project Online
+
+An admin may want certain users to have access to Project for the web and the Roadmap feature, and not Project Online. To do this, an admin would need to [turn off the Project Online service for the user](https://docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off#turn-off-project-online) through their assigned Project Plan 3 or Project Plan 5 license.
+
 ## See Also
   
 [Turn Project for the web off](turn-project-for-the-web-off.md)</br>
