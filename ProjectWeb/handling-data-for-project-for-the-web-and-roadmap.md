@@ -49,14 +49,7 @@ Similarly, an admin can also [manually delete Project Online data](https://docs.
 
 ## Turn off Project for the web
 
-An admin can choose to turn off Project for the web throughout the organization or to specific users:
-
-
-- [Turn Project for the web off to the entire organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-your-organization). This is done through the Project Settings page in the Microsoft 365 admin center.
-    > [!Note] 
-    > Turning off Project for the web to your org does not turn off the Roadmap feature. 
-
-- [Turn Project for the web off to individual users](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
+An admin can choose to [turn off Project for the web to specific users in their organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
 
     > [!Note] 
     > When you turn off Project for the web to individual users in your tenant, you will also turn off the Roadmap feature for those users.
