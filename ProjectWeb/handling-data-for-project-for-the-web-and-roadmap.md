@@ -18,7 +18,7 @@ This article gives you an overview of how data is handled for two Project servic
 
 Project Online is built on SharePoint Online and its data is stored in Office 365 (specifically in SharePoint Online). 
 
-Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
 
 > [!Note] 
@@ -35,7 +35,7 @@ You can find the location of where your Project for the web and Project Online d
 
 ### Project for the web and the Common Data Service
 
-When Project for the web is first used in your Microsoft 365 tenant, a default CDS instance is provided to your tenant.  Project for the web data (such as project or roadmaps) is stored in solutions in the default instance.
+When Project for the web is first used in your Microsoft 365 tenant, a default CDS instance is provided to your tenant.  Project for the web data (such as projects or roadmaps) is stored in solutions in the default instance.
 
 Admins can find the name and details of their default CDS instance in the PowerApps admin center (admin.powerapps.com).  
 
@@ -51,8 +51,8 @@ Similarly, an admin can also [manually delete Project Online data](https://docs.
 
 An admin can choose to [turn off Project for the web to specific users in their organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
 
-    > [!Note] 
-    > When you turn off Project for the web to individual users in your tenant, you will also turn off the Roadmap feature for those users.
+ > [!Note] 
+ > When you turn off Project for the web to individual users in your tenant, you will also turn off the Roadmap feature for those users.
 
 ## Turn off Roadmap 
 
