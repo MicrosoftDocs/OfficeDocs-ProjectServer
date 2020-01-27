@@ -18,7 +18,8 @@ Project for the web is built on the [Microsoft Power Platform](https://powerplat
 
 While users in Azure Active Directory (AAD) are available to assign to project tasks in Project for the web, you need to manually add non-user resources.
 
-> [!Note] Guest users accounts in AAD are not supported to be available to directly assign to tasks in Project for the web.
+> [!Note] 
+> Guest users accounts in AAD are not  supported to be available to directly assign  to tasks in Project for the web.
 
 ## Types of non-user resources
 
