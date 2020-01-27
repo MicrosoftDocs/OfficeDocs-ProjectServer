@@ -16,6 +16,7 @@
 ### [Access a project in Project for the web after its Office 365 group has been deleted](access-a-project-after-group-is-deleted.md)
 ### [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 ### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
+### [Handling data for Project](handling-data-for-project-for-the-web-and-roadmap.md)
 ## [Release notes]()
 ### [Project Service Core solution version history](project-service-core-solution-version-history.md)
 ### [Roadmap's Portfolio service solution version history](roadmap-version-history.md)
