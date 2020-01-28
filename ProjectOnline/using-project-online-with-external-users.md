@@ -23,7 +23,7 @@ In Project Online, a Project Web App site is a site collection within SharePoint
   
 Once a Project Web App site has been shared with an external user, the user can collaborate through documents and lists in that site, including risks and issues. Any interaction on a Project Site requires a Project Online license.
 
-You can only assist and work on projects with a **Project Online Essentials** license but you can create and manage resources with a **Project Online Professional** license. This means that you cannot manage or create new projects with a "Project Online Essentials" license.
+You can create and manage resources with a **Project Plan 3 or Project Plan 5** license.
   
 > [!NOTE]
 > For more information about Project Online license considerations for external users, see the [Project Online Service Description](https://go.microsoft.com/fwlink/?linkid=866192). 
