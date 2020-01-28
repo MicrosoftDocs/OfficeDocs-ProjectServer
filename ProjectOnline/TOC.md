@@ -99,7 +99,6 @@
 ### [Find customized user items in Project Online and Project Server user export data](find-customized-user-items-in-project-online-and-project-server-user-export-data.md)
 ### [Project Online and Project Server export data definitions](project-online-and-project-server-export-data-definitions.md)
 ## [License management]()
-### [Important information for Project Online customers about plan changes](important-information-for-project-online-customers-about-plan-changes.md)
 ### [Renew your Project Online plans in a larger organization](renew-your-project-online-plans-in-a-larger-organization.md)
 
 
