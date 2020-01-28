@@ -19,7 +19,7 @@ description: "Learn how Office 365 admins can renew their users from retired Pro
 
 # Renew your Project Online plans in a larger organization
 
-In August of 2016, [we announced some changes](important-information-for-project-online-customers-about-plan-changes.md) in the Project Online plans that will be available to you, as some plans expired at the end of 2016 and new ones became available. Many of you may now need to renew your retired Project Online plans and move your users to the new available plans. 
+In August of 2016, there were changes in the Project Online plans that will be available to you, as some plans expired at the end of 2016 and new ones became available. Many of you may now need to renew your retired Project Online plans and move your users to the newer available plans. 
   
 For most organizations, the Project Online license renewal process can help you through purchasing and reassigning licenses to your users. However, if you need to renew 3000 or more Project Online licenses, you need to reassign user licenses with the steps documented in this article. These steps are:
   
@@ -119,7 +119,6 @@ Now that you know which Skus are assigned to specific users, you need to determi
   
 |**Resource**|**Description**|
 |:-----|:-----|
-|[Important information for Project Online customers about plan changes](important-information-for-project-online-customers-about-plan-changes.md) <br/> |Use this article to get an overview of retired and new Project Online plans, and which plan you are likely to move to if you want the same functionality from your previous plan.  <br/> |
 |[Project Online Service Descriptions](https://go.microsoft.com/fwlink/p/?linkid=841280) <br/> |Use this article to get a detailed look into what each of the new Project Online plans provides you in terms of features and functionality.  <br/> |
 |[Project Online plans and pricing](https://go.microsoft.com/fwlink/p/?linkid=842835) <br/> |Use this site to see pricing and a high-level comparison of Project cloud-based solutions.  <br/> |
    
