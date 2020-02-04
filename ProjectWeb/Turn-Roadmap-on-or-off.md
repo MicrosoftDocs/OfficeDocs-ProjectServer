@@ -39,8 +39,6 @@ For more information details about deleting Roadmap data, see
 ## Turn Roadmap on or off
 
 An Office 365 admin can do the following to turn Roadmap on or off for their organization:
-> [!NOTE]
-> Roadmap is currently turned off by default. After March 15, Roadmap will be turned on for all licensed users. If you want to ensure that Roadmap is off for your organization after that date, follow these steps after February 14, 2019 and turn it off. You need to do this even if you previously turned Roadmap off, and even if you’ve never used Roadmap. 
  
 1. In the Microsoft 365 admin center, under **Settings**, click **Settings**.
 2. Click **Project**.
@@ -51,49 +49,19 @@ An Office 365 admin can do the following to turn Roadmap on or off for their org
 ![Roadmap Setting](media/roadmapToggle.png)
 
     
-## If you aren't able to turn on Roadmap
 
-In the following conditions, you will not be able to turn on Roadmap:
+## Make sure you have the correct license
 
-### Roadmap is not yet available to your organization
-
-The Roadmap feature is being gradually rolled out to organizations over a period of time, similar to how other [Office 365 features are made available](https://support.office.com/article/when-do-i-get-the-newest-features-in-for-office-365-da36192c-58b9-4bc9-8d51-bb6eed468516).
-
-If you see this message, it simply means that Roadmap hasn't been made available yet to your tenant, but should be shortly.
-
-![Roadmap not available](media/roadmapNA.png)
-  
- 
-### Roadmap is not yet available in your region
-
-Per the Online Services Terms, specific countries have requirements for data storage within that country or region for Project Online. If you see this message, it means that Roadmap is not currently available in your region.
-
-Roadmap requires Business Application Platform support in your specific country.  For the current list of countries and regions supported by the Business Application Platform, please go to [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+Your Office 365 tenant needs to have a **Project Plan 3** or **Project Plan 5** license in order to use the Roadmap feature.  The Project settings in the Microsoft 365 Admin Center will not be available if your Office 365 tenant does not have at least one of these licenses.
 
 > [!NOTE]
-> For more information about the Online Services Terms, see the [Licensing Terms page](https://www.microsoft.com/licensing/product-licensing/products).
+> Roadmap is currently not available in the Project Plan 3 and Project Plan 5 EDU licenses. This includes: 
+>* Project Plan 3 for Faculty
+>* Project Plan 5 for Faculty 
+>* Project Plan 3 for Students
+>* Project Plan 5 for Students 
 
-![Roadmap not available](media/roadmapRegion.png)
-
-
-### You need to migrate to Common Data Service for Apps
-
-Roadmap requires [Common Data Service for Apps](https://powerapps.microsoft.com/blog/cds-for-apps-march/).  If Roadmap is available to your organization, and you need to upgrade to CDS for Apps, you will see a message in your Project Online Roadmap settings stating that **Roadmap requires Common Data Service for Apps on your default CDS instance**.  The message will also provide you a link to documentation about [how to upgrade to CDS for Apps](https://go.microsoft.com/fwlink/?linkid=2030786).
-
-![Roadmap not available](media/CDSMigrate.png)
-
-### Your Office 365 tenant does not have the correct license
-
-Your Office 365 tenant needs to have a **Project Online Professional** or **Project Online Premium** license in order to use the Roadmap feature.  The Project Online settings in the Microsoft 365 Admin Center will not be available if your Office 365 tenant does not have at least one of these licenses.
-
-> [!NOTE]
-> Roadmap is currently not available in the Project Online Professional and Project Online Premium EDU licenses. This includes: 
->* Project Online Professional for Faculty
->* Project Online Premium for Faculty 
->* Project Online Professional for Students
->* Project Online Premium for Students 
-
-The **Project Online Professional** or **Project Online Premium** license assigned to a user will provide three service plans that will allow the user to use the Roadmap feature. The **Project P3**, **Data integration for Project with Flow**, and **Common Data Service for Project** service plans directly support the infrastructure of running Roadmap.  All three must be turned on for Roadmap to work for the user. 
+The **Project Plan 3** or **Project Plan 5** license assigned to a user will provide three service plans that will allow the user to use the Roadmap feature. The **Project P3**, **Data integration for Project with Flow**, and **Common Data Service for Project** service plans directly support the infrastructure of running Roadmap.  All three must be turned on for Roadmap to work for the user. 
 
 ![Roadmap not available](media/PJOModProjServicePlans.jpg)
 ## Related Topics
