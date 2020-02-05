@@ -53,7 +53,7 @@ The Project Plan 1 license gives users access to Project for the web only, and d
 
 You can unassign the Project Plan 1 license from the user if you no longer want to give them access to Project for the web.
 
-For more information about Project plans, see the [Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
+For more information about Project plans, see the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
 ## Turn off Project for the web for multiple users using Windows PowerShell
 
