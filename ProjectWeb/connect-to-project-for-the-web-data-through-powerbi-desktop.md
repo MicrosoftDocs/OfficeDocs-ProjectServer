@@ -1,5 +1,5 @@
 ---
-title: 'Connect to Project for the web data through Power BI Desktop'
+title: 'Connect to Project data through Power BI Desktop'
 description: 'Connect to Project for the web data through Power BI Desktop'
 author: efrene
 ms.author: efrene
@@ -13,25 +13,32 @@ search.appverid: PJO150
 localization_priority: Normal
 
 ---
-# Connect to Project for the web data through Power BI Desktop
+# Connect to Project data through Power BI Desktop
 
+You can use the Project Power BI template to import and analyze data from Project for the web and Project Online into Power BI. The template is designed to help you quickly connect to your Default Common Data Service (CDS) instance in Dynamics 365 where your Project for the web data is stored, as well as connect to your Project Web App tenant in Office 365.  You will be able to download a variety of data to visually explore and monitor all the key aspects of your PPM deployment. There are multiple visually rich report pages for the portfolio, resource, and project overview.
 
 ## Get started 
 You first need to do the following:
 
 - Download [Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
-- Download the [Project for the web Power BI template](https://aka.ms/ProjectReports) to your computer.
+- Download the [Project Power BI template](https://aka.ms/ProjectReports) to your computer. The file name of the template file is **Microsoft Project Power BI Template.pbit**.
+ 
+To use the template, you need the following:
+
+- A Project Plan 3 (previously named Project Online Professional) or Project Plan 5 (previously named Project Online Premium) Subscription
+- A Power BI Desktop or Power Bi Pro Subscription
 
 ## Launch and configure the Power BI Desktop template file
-1. Click on the Project for the web Power BI template file to open it in Power BI Desktop.
-2. In the **Enter Parameters** screen, in the **CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web, and then click **Load**.<br/>
-![Default CDS environment](media/Parameter.png)
-3.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account** and then click **Sign In**.</br>
+1. Click on the Project Power BI template file to open it in Power BI Desktop.
+2. On the **Enter Parameters** screen, in the **Default CDS URL** field, type the URL of your Dynamics 365 Common Data Service (CDS) default instance you are using for Project for the web.<br/>
+3. In the **PWA URL** field, type the URL of your Project Online Project Web App site.  For example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
+![Parameters](media/MSPowerBIProject.png)
+4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
 ![Default CDS environment](media/OrgSignin.png)
-4.  A message will display telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
+5.  A message will display telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
 
-### How to determine your CDS URL
+### How to determine your Default CDS URL
 
  Project for the web data is stored in the Dynamics 365 Common Data Service (CDS). You need to enter the URL of your default CDS instance that you are using, and it needs to be in the following format: 
 
@@ -72,6 +79,21 @@ If you are not sure, check with your Office 365 administrator and have them chec
 
 ![PowerPlatform Admin Center](media/PowerPlatformAdminCenter.png)
 
+## To determine your Project Web App URL
+
+You can go to your Project Online PWA site home page to find the PWA site URL.
+
+You can get to your PWA site by:
+
+1. In Office 365, click the Apps icon in the top left corner, and then in **Apps**, select **Project**.
+2. On your Project Home page, on the bottom of the page, click, **Go to Project Online**. This will take you to your PWA Home page.
+3. Copy the URL in your browser and use this value for the **PWA URL** field in the Project template.
+
+![Project Web App Site URL](media/PWASiteURL.png) 
+
+If you are still not sure, check with your Office 365 admin and have them check for the value in the SharePoint admin center.
+
+
 ## After connecting to your data
 
 After Power BI Desktop retrieves the data, the visualizations in each report page will load and display the data.  
@@ -84,7 +106,7 @@ From the Power BI Desktop, we recommend [publishing the report to a shared works
 
 ## See also
 
-[Compose HTTP requests and handle errors](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors#web-api-url-and-versions).   
+[Compose HTTP requests and handle errors](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors#web-api-url-and-versions)
 
   
 
