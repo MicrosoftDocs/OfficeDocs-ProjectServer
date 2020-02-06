@@ -79,7 +79,7 @@ If you are not sure, check with your Office 365 administrator and have them chec
 
 ![PowerPlatform Admin Center](media/PowerPlatformAdminCenter.png)
 
-## To determine your Project Web App URL
+### How to determine your Project Web App (PWA) URL
 
 You can go to your Project Online PWA site home page to find the PWA site URL.
 
