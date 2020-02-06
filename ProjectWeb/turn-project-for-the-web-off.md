@@ -47,11 +47,11 @@ You can repeat this procedure for each user that you don't want to use Project f
 > [!NOTE]
 > You cannot turn Project for the web off to your organization (like you can for Roadmap in the Project settings in the Microsoft 365 Admin Center).
 
-### Project Plan 1 license
+### Project Plan 1 
 
-The Project Plan 1 license gives users access to Project for the web only, and does not include Roadmap or Project Online.
+The Project Plan 1 license gives a user access to Project for the web only, and does not include Roadmap or Project Online.
 
-You can unassign the Project Plan 1 license from the user if you no longer want to give them access to Project for the web.
+You can simply unassign the Project Plan 1 license from a user if you no longer want to give them access to Project for the web.
 
 For more information about Project plans, see the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
