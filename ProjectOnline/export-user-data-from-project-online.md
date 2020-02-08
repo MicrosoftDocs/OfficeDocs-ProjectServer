@@ -116,7 +116,7 @@ If you want to find the user's resource ID, PWA site admins can to do the follow
 ## Step 4 - Export your user's data from the PWA site
 <a name="BKMK_RuntheExportPowerShellscript"> </a>
 
-Next, you will need to run the ** ExportProjectUserContent ** PowerShell script in order to export your user's data from each PWA site in your Office 365 environment. In order to run the script, you need to make sure you and your environment meet the prerequisites, and then you can run the script. 
+Next, you will need to run the **ExportProjectUserContent** PowerShell script in order to export your user's data from each PWA site in your Office 365 environment. In order to run the script, you need to make sure you and your environment meet the prerequisites, and then you can run the script. 
   
 The ExportProjectUserContent PowerShell script is included with the [Project Online User Content Export and Delete script package](https://go.microsoft.com/fwlink/?linkid=871953).
   
