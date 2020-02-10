@@ -25,8 +25,8 @@ You first need to do the following:
  
 To use the template, you need the following:
 
-- A Project Plan 3 (previously named Project Online Professional) or Project Plan 5 (previously named Project Online Premium) Subscription
-- A Power BI Desktop or Power Bi Pro Subscription
+- A Project Plan 3 (previously named Project Online Professional) or Project Plan 5 (previously named Project Online Premium) subscription.
+- A Power BI Desktop or Power Bi Pro subscription.
 
 ## Launch and configure the Power BI Desktop template file
 1. Click on the Project Power BI template file to open it in Power BI Desktop.
