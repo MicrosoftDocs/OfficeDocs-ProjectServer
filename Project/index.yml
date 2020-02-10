@@ -1,0 +1,56 @@
+### YamlMime:Hub
+
+title: Project documentation # < 60 chars
+summary: Project documentation for admins and IT Professionals # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: project
+
+metadata:
+  title: Project documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Project documentation for admins and IT Professionals # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: project-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
+  localization_priority: Priority
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For IT Professionals # < 60 chars (optional)
+      items:
+        # Card
+        - title: Project for the web
+          summary: Find resources for managing Project for the web in your Office 365 environment.
+          url: https://docs.microsoft.com/project-for-the-web/projectforweb-admin-home
+        # Card
+        - title: Project Online
+          summary: Find resources for managing Project Online in your Office 365 environment.
+          url: https://docs.microsoft.com/projectonline/project-online
+        # Card
+        - title: Project Server
+          summary: Deploy and manage Project Server for your organization.
+          url: https://review.docs.microsoft.com/Project/project-server-2013-and-2016
+        # Card
+        - title: PowerShell Reference for Project
+          summary: Learn about the PowerShell cmdlets you need to manage Project Server or Project Online.
+          url: https://review.docs.microsoft.com/Project/windows-powershell-for-project-server-2016-cmdlet-reference
+        # Card
+        - title: Troubleshoot
+          summary: Find troubleshooting and support resources for IT Professionals and admins.
+          url: https://docs.microsoft.com/office365/troubleshoot/enterprise
+    - title: For other audiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Developers
+          summary: Guidance for developing solutions for Project.
+          url: https://developer.microsoft.com/project/docs/
+        # Card
+        - title: End users
+          summary: Find help, training, and technical support for Project users on support.office.com.
+          url: https://support.office.com/project
+
