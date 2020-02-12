@@ -16,13 +16,13 @@ description: "Learn how Project for the web uses the Common Data Service to stor
 
 This article gives you an overview of how data is handled for two Project services: Project for the web and Project Online. 
 
-Project Online is built on SharePoint Online and its data is stored in Office 365 (specifically in SharePoint Online). 
+Project Online is built on SharePoint Online and its data is stored in Office 365 (specifically in SharePoint Online).
 
 Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
 
 > [!Note] 
-> Project for the web data also includes data from its  Roadmap feature. 
+> Project for the web data also includes data from its Roadmap feature. 
 
 ## Data retention
 
@@ -31,7 +31,7 @@ Since Project for the web data is stored in CDS, data retention policies differ 
 
 ## Where is my data located
 
-You can find the location of where your Project for the web and Project Online data is stored by seeing [Explore where Office 365 stores your customer data](https://products.office.com/where-is-your-data-located?rtc=1). 
+You can look for the location of where your Project for the web and Project Online data is stored by seeing [Explore where Office 365 stores your customer data](https://products.office.com/where-is-your-data-located?rtc=1). 
 
 ### Project for the web and the Common Data Service
 
