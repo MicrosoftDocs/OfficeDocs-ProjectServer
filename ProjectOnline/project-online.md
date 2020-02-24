@@ -6,6 +6,7 @@ manager: samanro
 ms.service: project-online
 ms.tgt_pltfrm: na
 ms.devlang: na
+layout: LandingPage
 ms.topic: landing-page
 ms.date: 12/11/2017
 ms.author: efrene
@@ -25,7 +26,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get Started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get Started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +44,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +62,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-blue.svg" alt="Best Practices" />
+                            <img src="https://docs.microsoft.com/office/media/icons/best-practices-blue.svg" alt="Best Practices" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +82,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-list-planning-blue.svg" alt="" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +100,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-blue.svg" alt="" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +118,7 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/settings.svg" alt="" />
+                            <img src="https://docs.microsoft.com/office/media/icons/settings.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
