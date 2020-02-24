@@ -54,7 +54,13 @@ Project for the web is designed to be easy-to-use and intuitive. You can use the
 
 Project for the web data is stored in your Dynamics 365 Common Data Service default instance. You can view Power BI reports by connecting to the data with Power BI Desktop, which is described in the following article:
 
-[Connect to Project for the web data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
+[Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
+
+## Common Data Service
+Your Project for the web and Roadmap data is stored in your [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) default instance. Initial use of Project for the web or Roadmap in your tenant will automatically create the default CDS instance. 
+
+> [!NOTE]
+> Project for the web is only supported on your default CDS instance.
 
 ## Resource setup in PowerApps
 

@@ -6,7 +6,6 @@ manager: pamgreen
 ms.date: 10/28/2019
 audience: Admin
 ms.topic: landing-page
-layout: LandingPage
 ms.service: project-web
 localization_priority: Priority
 description: "Learn about resources available for Project for the Web admins."
