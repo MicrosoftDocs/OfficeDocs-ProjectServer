@@ -5,6 +5,7 @@ author: efrene
 manager: pamgreen
 ms.date: 10/28/2019
 audience: Admin
+layout: LandingPage
 ms.topic: landing-page
 ms.service: project-web
 localization_priority: Priority
