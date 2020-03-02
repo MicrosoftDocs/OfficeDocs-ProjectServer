@@ -53,9 +53,9 @@ To turn on or off Project for the web:
 
 1. In the [Microsoft 365 admin center](admin.microsoft.com), expand the navigation menu, select **Settings**, and then select **Settings**.
 2. Select **Project**.
-3. On the **Project** settings page, select or deselect **Turn project management features on for your organization**, and then click **Save changes**.
+3. On the **Project** settings page, select or deselect **Turn on Project for the web for your organization**, and then click **Save changes**.
 
-![Select user](media/ProjectSettings.png)
+![Select user](media/projsettingsp4w.png)
 
 ## Turn off Project for the web for specific users in your organization
 
@@ -134,14 +134,12 @@ For more information about disabling services through Office 365 PowerShell, see
 ## Turn Roadmap on or off
 
 An admin can do the following to turn Roadmap on or off for their organization:
- 
-1. In the Microsoft 365 admin center, under **Settings**, click **Services & add-ins**.
-2. Click **Project Online**.
-3. Set **Turn Roadmap on or off for your entire organization** to On or Off.
-4. Click **Save**.
-5. After saving the settings, go to project.microsoft.com and verify that you can [create a roadmap](https://support.office.com/article/video-create-a-roadmap-6c1828da-203e-4c5b-9739-fdd837021feb?ui=en-US&rs=en-US&ad=US).
 
-![Roadmap Setting](media/roadmapToggle.png)
+1. In the [Microsoft 365 admin center](admin.microsoft.com), expand the navigation menu, select **Settings**, and then select **Settings**.
+2. Select **Project**.
+3. On the **Project** settings page, select or deselect **Turn on Roadmap for your organization**, and then click **Save changes**.
+ 
+![Roadmap Setting](media/projsettingsrm.png)
 
 
 
