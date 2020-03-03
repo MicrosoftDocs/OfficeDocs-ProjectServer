@@ -57,7 +57,7 @@ To turn on or off Project for the web:
 
 ![Select user](media/projsettingsp4w.png)
 
-> [!Important!]
+> [!Important]
 > Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still turn off Project for the web for users by the steps described in the following section. </br> 
 
 ## Turn off Project for the web for specific users in your organization
