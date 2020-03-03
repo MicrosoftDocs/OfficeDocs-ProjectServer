@@ -57,6 +57,9 @@ To turn on or off Project for the web:
 
 ![Select user](media/projsettingsp4w.png)
 
+> [!Important!]
+> Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still turn off Project for the web for users by the steps described in the following section. </br> 
+
 ## Turn off Project for the web for specific users in your organization
 
  An admin can manage access to Project for the web for specific users by turning off the service for their associated Project Plan licenses. This assumes that that Project for the web is turned turned on for the organization in the Project settings page in the Microsoft 365 admin center.
@@ -80,7 +83,7 @@ To turn off Project for the web for a user:
 
     You can repeat this procedure for each user that you don't want to use Project for the web.
 
-> [!Important]
+> [!Important!]
 > The service plan that disables Project for the web is called **Project P3**.  It is important to distinguish it from **Project Plan 3**, which is one of the three licenses in which Project for the web is available. Project Plan 1, Project Plan 3, and Project Plan 5 are all licenses that have the Project P3 service plan.</br>  
 
 
@@ -138,6 +141,8 @@ An admin can do the following to turn Roadmap on or off for their organization:
 1. In the [Microsoft 365 admin center](admin.microsoft.com), expand the navigation menu, select **Settings**, and then select **Settings**.
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Roadmap for your organization**, and then click **Save changes**.
+
+
  
 ![Roadmap Setting](media/projsettingsrm.png)
 
