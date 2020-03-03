@@ -23,8 +23,8 @@ To turn off Project for the web:
 3. Uncheck **Turn Project for the web on for your entire organization**.
 4. Click **Save**.
 
-> [!Important!]
-> Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still turn off Project for the web for users in [this article](turn-project-for-the-web-off.md). </br> 
+> [!NOTE]
+> Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still turn off Project for the web for users in [this article](turn-project-for-the-web-off.md). 
 
 To turn off Roadmap:
 
