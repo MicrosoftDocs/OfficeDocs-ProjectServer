@@ -24,7 +24,7 @@ Project Online offers two security management options for controlling the kind o
 - **SharePointPermission Mode** With this option selected, a special set of SharePoint security groups are created in sites associated with Project Online. These groups are used to grant users varying levels of access to projects and Project Online functionality. 
     
     > [!TIP]
-    > To learn more about the permissions included in the security groups used with SharePoint Permission Mode, see [SharePoint Permissions Mode default permissions for Project Server 2013 SharePoint groups](https://technet.microsoft.com/en-us/library/jj219510%28v=office.15%29.aspx). While this article is written with Project Server 2013 in mind, the information also applies to Project Online. 
+    > To learn more about the permissions included in the security groups used with SharePoint Permission Mode, see [SharePoint Permissions Mode default permissions for Project Server 2013 SharePoint groups](https://technet.microsoft.com/library/jj219510%28v=office.15%29.aspx). While this article is written with Project Server 2013 in mind, the information also applies to Project Online. 
   
 - **Project Permission Mode** With this option selected, Project Online provides a set of customizable security groups and other functionality that is distinct from SharePoint groups. 
     

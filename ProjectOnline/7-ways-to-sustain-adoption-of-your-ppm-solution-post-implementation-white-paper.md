@@ -86,7 +86,7 @@ The moral of the story? What the project team thought, found, assumed, and desig
   
  **5) Establish Governance**
   
-Establishing a governance model to maintain your PPM solution, including changes etc., is, in my opinion, crucial. This topic has been covered in a great detail in the white paper [Beat the Half-life (t ½): Governing Your PPM Solution, Post-Implementation](http://go.microsoft.com/fwlink/?LinkId=393527). While the governance strategy helps maintain your PPM solution itself, it also shows the users that it is not required to like every single aspect of the implementation. It shows them that asking for a change is OK. This itself will bring an openness to the table, which helps users become the drivers. Actively talking about what can be improved about the solution is much better for adoption than just assuming everybody is aligned with what has been implemented.
+Establishing a governance model to maintain your PPM solution, including changes etc., is, in my opinion, crucial. This topic has been covered in a great detail in the white paper [Beat the Half-life (t ½): Governing Your PPM Solution, Post-Implementation](https://go.microsoft.com/fwlink/?LinkId=393527). While the governance strategy helps maintain your PPM solution itself, it also shows the users that it is not required to like every single aspect of the implementation. It shows them that asking for a change is OK. This itself will bring an openness to the table, which helps users become the drivers. Actively talking about what can be improved about the solution is much better for adoption than just assuming everybody is aligned with what has been implemented.
   
  **6) Provide Fanatical Support**
   

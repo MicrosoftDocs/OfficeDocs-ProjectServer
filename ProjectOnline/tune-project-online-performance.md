@@ -214,7 +214,7 @@ Limit Active Directory sync to groups of resources that actually need to use the
   
 ## Custom Fields and Lookup Tables
 
-[Project Online limits and boundaries](https://docs.microsoft.com/en-us/projectonline/project-online-software-boundaries-and-limits)
+[Project Online limits and boundaries](https://docs.microsoft.com/projectonline/project-online-software-boundaries-and-limits)
 document lists a high threshold in the number of custom fields and lookup tables allowed in a PWA instance, careful consideration needs to be given during the planning and customization of the site in regards to the number of custom fields, associated lookup tables and entries. Excessive customization in this area will have performance implications.
 
 ### Performance tradeoff

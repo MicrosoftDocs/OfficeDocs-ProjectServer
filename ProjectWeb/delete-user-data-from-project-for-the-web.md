@@ -10,7 +10,6 @@ ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
 ms.custom: Adm_Project
-search.appverid: PJO150
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
 ---
 

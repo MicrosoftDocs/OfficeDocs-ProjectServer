@@ -29,7 +29,7 @@ There are three ways to back up Project Server 2013 components located in a Shar
 We recommend a backup for any production environment, or any environment where data loss would be unacceptable. In a SharePoint farm, the ideal method is to back up all content and configuration databases so that you can perform a complete restore, if necessary. Monitor farm resources when backups are taken for performance issues, and if desirable, take your backups during low-usage times.
   
 > [!NOTE]
-> To review the backup documentation for a SharePoint Server 2013 farm, see [Back up farms in SharePoint 2013](http://technet.microsoft.com/library/8daa31a5-0f8c-4bd6-84c9-ee1f5074594d.aspx). 
+> To review the backup documentation for a SharePoint Server 2013 farm, see [Back up farms in SharePoint 2013](https://technet.microsoft.com/library/8daa31a5-0f8c-4bd6-84c9-ee1f5074594d.aspx). 
   
 For Project Server 2013, there are two core components for backing up, unique to Project Server: a Project Server service application database for each Project Server service application in the farm, and at least one, but possibly more than one, content database that contains Project sites. The methods outlined below show you how to back up these elements.
   
@@ -171,7 +171,7 @@ You can use Microsoft PowerShell to back up your Project Server 2013 farm manual
     
 7. If issues are encountered, review the backup log located at the path that was specified in step 8. Otherwise, the backup will be at the location that was specified at the **-Directory** parameter.
     
-For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx).
+For more information, see [Backup-SPFarm](https://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx).
 > [!NOTE]
 > We recommend that you use Windows PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   

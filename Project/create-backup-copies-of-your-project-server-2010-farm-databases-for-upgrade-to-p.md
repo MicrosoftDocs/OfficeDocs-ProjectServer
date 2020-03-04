@@ -38,7 +38,7 @@ The following sections describe how to create backup copies of these databases i
     
 - SQL Server 2012
     
-After you complete this procedure, you will have to restore your backup copies of your databases to the SQL Server instance that you are using to host your Project Server 2013 databases. For more information, see [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx).
+After you complete this procedure, you will have to restore your backup copies of your databases to the SQL Server instance that you are using to host your Project Server 2013 databases. For more information, see [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx).
   
 ## Create backup copies of your databases in SQL Server 2005
 
@@ -130,9 +130,9 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 [Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 
-[What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
+[What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
   
-[Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
   
-[Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
+[Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
 

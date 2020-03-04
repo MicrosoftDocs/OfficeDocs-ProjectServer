@@ -34,7 +34,7 @@ To commit the scenario, select the **Commit** button on the **Analysis** tab in 
 
 ## Workflow options
 
-This article assumes you have configured a workflow to support moving projects from one stage to another. Please see [this article](https://docs.microsoft.com/en-us/project/create-a-sample-project-web-app-workflow) for more information on configuring basic workflow within PWA.
+This article assumes you have configured a workflow to support moving projects from one stage to another. Please see [this article](https://docs.microsoft.com/project/create-a-sample-project-web-app-workflow) for more information on configuring basic workflow within PWA.
 
 In **SharePoint Designer**, configure the workflow stage to *Wait for a Project Event*. In the action configuration options, select *When a Project is Committed*.
 
@@ -78,6 +78,6 @@ Many organizations will add logic to move the **Selected** projects to the next 
 
 ![Sample transition to stage dialog box](media/15-image3.png)
 
-For more information on developing custom demand management workflows, refer to the online site for Microsoft Project Server Demand Management resources: <http://technet.microsoft.com/en-us/projectserver/ff899331>.
+For more information on developing custom demand management workflows, refer to the online site for Microsoft Project Server Demand Management resources: <https://technet.microsoft.com/projectserver/ff899331>.
 
 ## Related articles

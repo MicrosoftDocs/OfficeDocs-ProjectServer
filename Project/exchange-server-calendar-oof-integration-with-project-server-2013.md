@@ -74,7 +74,7 @@ You can adjust the Exchange sync timer job. By default, it will run once per day
     
 5. You must locate the **Project Web App: Exchange Calendar Out of Office synchronization job for [PWA URL]** timer job, where _[PWA-URL]_ is the URL of the PWA site you've enabled the feature on. Click this timer job link.
     
-6. On the Edit Timer Job page, you can make the changes that you must have, such as running the job at a time other than the early morning hours, or changing to be more frequent, such as hourly. For more information on timer jobs, see [Timer job reference](http://technet.microsoft.com/library/b23e4fb4-6ee1-451e-92b3-7c90be5dc7e7.aspx).
+6. On the Edit Timer Job page, you can make the changes that you must have, such as running the job at a time other than the early morning hours, or changing to be more frequent, such as hourly. For more information on timer jobs, see [Timer job reference](https://technet.microsoft.com/library/b23e4fb4-6ee1-451e-92b3-7c90be5dc7e7.aspx).
     
 ## Effect of OOF integration for users and project managers
 

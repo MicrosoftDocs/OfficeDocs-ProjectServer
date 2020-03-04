@@ -23,7 +23,7 @@ description: "There are some important limitations that you should know if you a
 There are some important limitations that you should know if you are using Project Online. These limitations apply regardless of whether you are using Project Online by itself, or with other Office 365 plans.
   
 > [!TIP]
-> **Want more info about Project Online and Office 365 plans?** Take a look at the service descriptions for [Project Online](http://technet.microsoft.com/en-us/library/project-online-service-description.aspx) and [Office 365](http://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx). 
+> **Want more info about Project Online and Office 365 plans?** Take a look at the service descriptions for [Project Online](https://technet.microsoft.com/library/project-online-service-description.aspx) and [Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx). 
   
 ## Limits in Project Online
 
