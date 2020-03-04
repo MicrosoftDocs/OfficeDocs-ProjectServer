@@ -1,5 +1,5 @@
 ---
-title: "Turn Project for the web and Roadmap on or off for users in your organization"
+title: "Turn Project for the web or Roadmap on or off for users in your organization"
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -9,10 +9,10 @@ ms.topic: article
 ms.service: 
 search.appverid: PJO150
 localization_priority: Normal
-description: "Learn how to turn Project for the web and Roadmap on or off for users in your organization."
+description: "Learn how to turn Project for the web or Roadmap on or off for users in your organization."
 ---
 
-# Turn Project for the web and Roadmap on or off for users in your organization
+# Turn Project for the web or Roadmap on or off for users in your organization
 
 Access to Project for the web is available to users if they are assigned one of the following licenses:
 
@@ -83,7 +83,7 @@ To turn off Project for the web for a user:
 
     You can repeat this procedure for each user that you don't want to use Project for the web.
 
-> [!Important!]
+> [!Important]
 > The service plan that disables Project for the web is called **Project P3**.  It is important to distinguish it from **Project Plan 3**, which is one of the three licenses in which Project for the web is available. Project Plan 1, Project Plan 3, and Project Plan 5 are all licenses that have the Project P3 service plan.</br>  
 
 

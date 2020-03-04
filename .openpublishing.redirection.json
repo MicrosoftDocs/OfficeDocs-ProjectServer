@@ -26,6 +26,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "projectweb/turn-roadmap-on-or-off.md",
+      "redirect_url": "https://docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "ProjectOnline/index.md",
       "redirect_url": "project-online",
       "redirect_document_id": false

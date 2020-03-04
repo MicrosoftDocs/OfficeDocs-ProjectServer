@@ -24,7 +24,7 @@ To turn off Project for the web:
 4. Click **Save**.
 
 > [!NOTE]
-> Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still turn off Project for the web for users in [this article](turn-project-for-the-web-off.md). 
+> Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still [turn off Project for the web for individual users](turn-project-for-the-web-off.md). 
 
 To turn off Roadmap:
 
@@ -34,6 +34,8 @@ To turn off Roadmap:
 4. Click **Save**.
 
 If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Project for the web and Roadmap data isn’t automatically deleted when your Project Online subscription ends.
+
+## Remove Project for the web and Roadmap data
 
 You can remove all Project for the web and Roadmap data by removing the entire solution from Microsoft 365. This will delete all of the existing projects, roadmaps, and associated user data.
 
