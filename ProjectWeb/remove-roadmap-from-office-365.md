@@ -46,6 +46,7 @@ To remove Roadmap:
 3. On the **Settings** menu, under **Customization**, click **Solutions**.
 4. Select the **PortfolioService** solution, and then click **Delete**.
 5. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
+6. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
 
 
 > [!NOTE]
@@ -56,11 +57,13 @@ To remove Project for the web:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
 2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
-3. On the **Settings** menu, under **Customization**, click **Solutions**.
-4. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
-5. Select the **MicrosoftDynamicsScheduling** solution, and then click **Delete**.
-6. Select the **msdynce_SchedulingPatch** solution, and then click **Delete**.
-7. Select the **msdynce_Scheduling** solution, and then click **Delete**.
+3. On the PowerApps page, click the Settings icon, and then click **Advanced Settings**.
+4. On the **Settings** menu, under **Customization**, click **Solutions**.
+5. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
+6. Select the **MicrosoftDynamicsScheduling** solution, and then click **Delete**.
+7. Select the **msdynce_SchedulingPatch** solution, and then click **Delete**.
+8. Select the **msdynce_Scheduling** solution, and then click **Delete**.
+9. . Select any solutions with a naming format of **msdyn_ProjectServiceCore_Patch_(number)**, (for example, msdyn_ProjectServiceCore_Patch_1 or msdyn_ProjectServiceCore_Patch_2), and then click **Delete**.
 ## See Also
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
