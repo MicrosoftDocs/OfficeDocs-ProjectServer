@@ -24,7 +24,7 @@ You can add a Project Web App site to an existing site collection. Doing so will
 
 In order for a Project Web App site to function properly, the Project Web App site collection features must be enabled. If you have not already done so, [enable the Project Web App site collection features](enable-the-project-web-app-site-collection-features-in-project-server-2016.md) on the site collection where you want to deploy the Project Web App site.
 
-To create a Project Web App site in an existing site collection, you run the [New-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spweb?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site. 
+To create a Project Web App site in an existing site collection, you run the [New-SPWeb](https://docs.microsoft.com/powershell/module/sharepoint-server/new-spweb?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site. 
 
 From the PowerShell command prompt, type the following syntax to create the Project Web App site.
 

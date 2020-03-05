@@ -758,7 +758,7 @@ Archived Project Data: To export archived projects:
 
 1.  [Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013).
 
-2.  [Restore the archived version](https://docs.microsoft.com/en-us/project/restore-item-level-objects-through-administrative-restore-project-server-2013).
+2.  [Restore the archived version](https://docs.microsoft.com/project/restore-item-level-objects-through-administrative-restore-project-server-2013).
 
 3.  Export the user related data.
 
@@ -766,7 +766,7 @@ Archived Project Data: To export archived projects:
 
 Archived Non-Project Data:
 
-1.  Use [SharePoint backup and recovery](https://docs.microsoft.com/en-us/sharepoint/administration/backup-and-recovery-overview) to create a clone of the current farm.
+1.  Use [SharePoint backup and recovery](https://docs.microsoft.com/sharepoint/administration/backup-and-recovery-overview) to create a clone of the current farm.
 
 2.  Restore the archived items from Administrative backup and restore (see previous procedure).
 

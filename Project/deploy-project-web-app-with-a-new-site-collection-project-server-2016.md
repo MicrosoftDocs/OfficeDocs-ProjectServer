@@ -88,7 +88,7 @@ Creating a Project Web App site takes five basic steps:
 
 After the content database has been created and configured, the next step is to create the Project Web App site itself.
 
-To create a Project Web App site in a new site collection, you run the [New-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spsite?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features. 
+To create a Project Web App site in a new site collection, you run the [New-SPSite](https://docs.microsoft.com/powershell/module/sharepoint-server/new-spsite?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features. 
 
 Verify that you have the following memberships:
 
@@ -111,7 +111,7 @@ New-SPSite -ContentDatabase PWA_Content -URL http://contoso-appsrv1/sites/PWA -T
 Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/PWA
 ```
 
-After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps) cmdlet, passing the new content database as a parameter:
+After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](https://docs.microsoft.com/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps) cmdlet, passing the new content database as a parameter:
 
 ### To verify the Project Web App site location
 

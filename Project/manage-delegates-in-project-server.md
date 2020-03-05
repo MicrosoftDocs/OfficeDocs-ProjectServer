@@ -36,5 +36,5 @@ Articles in this section include the following:
 
 [Delete user delegates in Project Server 2013](delete-user-delegates-in-project-server.md)
 
-[Act as a delegate (Project Server 2013)](http://technet.microsoft.com/library/82a63c3f-a63b-465f-8ff4-d40acf778733.aspx)
+[Act as a delegate (Project Server 2013)](https://technet.microsoft.com/library/82a63c3f-a63b-465f-8ff4-d40acf778733.aspx)
 

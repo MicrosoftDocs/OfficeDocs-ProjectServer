@@ -50,7 +50,7 @@ Once the initial Project Server 2013 configuration within SharePoint Server 2013
   
 ## Get started
 
-The first step, prior to installation, is to make sure you have the needed permissions to accomplish the required tasks. For more information, see [Prepare for deployment](http://technet.microsoft.com/library/5eb36d04-7d13-4495-a00e-dfa28986223c.aspx).
+The first step, prior to installation, is to make sure you have the needed permissions to accomplish the required tasks. For more information, see [Prepare for deployment](https://technet.microsoft.com/library/5eb36d04-7d13-4495-a00e-dfa28986223c.aspx).
   
 ## See also
 

@@ -25,7 +25,7 @@ Enabling the Project Web App site collection features adds additional functional
 ## Enable the Project Web App site collection features
 <a name="EnableTheProjectWebAppSiteCollectionFeatures"> </a>
 
-The Project Web App site collection features are enabled by using the [Enable-SPFeature](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/enable-spfeature?view=sharepoint-ps) PowerShell cmdlet. 
+The Project Web App site collection features are enabled by using the [Enable-SPFeature](https://docs.microsoft.com/powershell/module/sharepoint-server/enable-spfeature?view=sharepoint-ps) PowerShell cmdlet. 
 
 From the PowerShell command prompt, type the followoing syntax to enable the Project Web App site collection features.
 
@@ -49,9 +49,9 @@ If you want to add a Project Web App site to the site collection, see [Create a 
 #### 
 
 
-[Enable-SPFeature](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/enable-spfeature?view=sharepoint-ps)
+[Enable-SPFeature](https://docs.microsoft.com/powershell/module/sharepoint-server/enable-spfeature?view=sharepoint-ps)
 
-[Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps)
+[Get-SPWeb](https://docs.microsoft.com/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps)
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

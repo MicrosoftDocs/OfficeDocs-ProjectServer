@@ -28,15 +28,15 @@ Language packs are not bundled into multilingual installation packages. You must
   
 In this article:
   
-- [Available languages for Project Server 2013 language packs](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#first_section)
+- [Available languages for Project Server 2013 language packs](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#first_section)
     
-- [Compatibility with SharePoint Server 2013 language packs](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#second_section)
+- [Compatibility with SharePoint Server 2013 language packs](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#second_section)
     
-- [Language Pack deployment scenarios](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#dep)
+- [Language Pack deployment scenarios](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#dep)
     
-- [Deploy a Project Server 2013 language pack](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#third__section)
+- [Deploy a Project Server 2013 language pack](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#third__section)
     
-- [Uninstall language packs](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#fifth_section)
+- [Uninstall language packs](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#fifth_section)
     
 ## Available languages for Project Server 2013 language packs
 <a name="first_section"> </a>
@@ -111,7 +111,7 @@ The following languages are supported by SharePoint Server 2013, but are not ava
     
 As an example, the SharePoint Server 2013 Thai language pack is not bundled with a Thai language pack for Project Server 2013, since it does not exist.
   
-For more information about SharePoint Server 2013 language packs, see [Install or uninstall language packs for SharePoint 2013](http://technet.microsoft.com/library/26c07867-0150-463d-b21a-a6d42aecf05a.aspx). 
+For more information about SharePoint Server 2013 language packs, see [Install or uninstall language packs for SharePoint 2013](https://technet.microsoft.com/library/26c07867-0150-463d-b21a-a6d42aecf05a.aspx). 
   
 ## Language Pack deployment scenarios
 <a name="dep"> </a>
@@ -169,13 +169,13 @@ The customer has a base installation of English SharePoint Server 2013 and Proje
 
 The steps for deploying a Project Server 2013 language pack and making the language available to users are as follows:
   
-1. [Download the language pack](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section2)
+1. [Download the language pack](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section2)
     
-2. [Install the language pack](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section3)
+2. [Install the language pack](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section3)
     
-3. [Make the language available for the Project Web App site](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section5)
+3. [Make the language available for the Project Web App site](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section5)
     
-4. [Specify the display language for the site](http://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section4)
+4. [Specify the display language for the site](https://technet.microsoft.com/library/7ce9823a-c6f0-4bc9-986d-a59f985e43a6.aspx#section4)
     
 > [!IMPORTANT]
 > As mentioned previously, if a Project Server 2013 Language Pack is available for a specific language, it is bundled with the SharePoint Server 2013 Language Pack for that specific language. They will be downloaded as a single file and installed together to your farm. For more information about the availability of Project Server 2013 Language Packs for specific languages, see the "Available languages for Project Server 2013 language packs" section of this article. 
@@ -314,5 +314,5 @@ If you no longer want to make a language available for a site, clear the languag
 
 #### 
 
-[Install or uninstall language packs for SharePoint 2013](http://technet.microsoft.com/library/26c07867-0150-463d-b21a-a6d42aecf05a.aspx)
+[Install or uninstall language packs for SharePoint 2013](https://technet.microsoft.com/library/26c07867-0150-463d-b21a-a6d42aecf05a.aspx)
 
