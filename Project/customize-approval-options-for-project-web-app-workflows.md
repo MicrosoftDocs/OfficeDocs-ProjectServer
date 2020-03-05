@@ -26,7 +26,7 @@ In this article, we'll look at how to add a third option — we'll call it  *Rev
 
 Before starting, make sure:
   
-- If you are using an on-premises deployment of Project Server, you have set up the [SharePoint 2013 workflow platform](http://technet.microsoft.com/library/145fc383-d584-487a-8738-8de15512ae26%28Office.14%29.aspx).
+- If you are using an on-premises deployment of Project Server, you have set up the [SharePoint 2013 workflow platform](https://technet.microsoft.com/library/145fc383-d584-487a-8738-8de15512ae26%28Office.14%29.aspx).
     
 - You have created the sample workflow, stages, and enterprise project type as described in [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md).
     

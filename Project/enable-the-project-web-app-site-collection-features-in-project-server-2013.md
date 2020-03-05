@@ -86,11 +86,11 @@ If you want to add a Project Web App site to the site collection, see [Create a 
 
 #### 
 
-[New-SPProjectDatabase](http://technet.microsoft.com/library/6eca666c-cbe8-41aa-94c5-4a8a3419fc96.aspx)
+[New-SPProjectDatabase](https://technet.microsoft.com/library/6eca666c-cbe8-41aa-94c5-4a8a3419fc96.aspx)
 
-[Enable-SPFeature](http://technet.microsoft.com/library/9b68c192-b640-4cb8-8a92-a98008169b27.aspx)
+[Enable-SPFeature](https://technet.microsoft.com/library/9b68c192-b640-4cb8-8a92-a98008169b27.aspx)
 
-[Get-SPWeb](http://technet.microsoft.com/library/9bf9284f-e3b9-439d-8a5f-74020e1eccaf.aspx)
+[Get-SPWeb](https://technet.microsoft.com/library/9bf9284f-e3b9-439d-8a5f-74020e1eccaf.aspx)
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 
