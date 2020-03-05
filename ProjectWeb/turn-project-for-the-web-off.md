@@ -138,7 +138,7 @@ For more information about disabling services through Office 365 PowerShell, see
 
 An admin can do the following to turn Roadmap on or off for their organization:
 
-1. In the [Microsoft 365 admin center](admin.microsoft.com), expand the navigation menu, select **Settings**, and then select **Settings**.
+1. In the Microsoft 365 admin center, expand the navigation menu, select **Settings**, and then select **Settings**.
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Roadmap for your organization**, and then click **Save changes**.
 
