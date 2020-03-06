@@ -58,7 +58,7 @@ To turn on or off Project for the web:
 ![Select user](media/projsettingsp4w.png)
 
 > [!Important]
-> Currently, if you turn on Project for the web, actual activation on your tenant will happen at later date (see your Message Center for more details). </br> 
+> Currently, if you turn on Project for the web, actual activation on your tenant will happen at a later date (see your Message Center for more details). </br> 
 
 ## Turn off Project for the web for specific users in your organization
 
