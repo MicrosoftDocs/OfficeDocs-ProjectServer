@@ -146,6 +146,16 @@ An admin can do the following to turn Roadmap on or off for their organization:
  
 ![Roadmap Setting](media/projsettingsrm.png)
 
+### Users can't access or create roadmaps 
+
+If your licensed users were previously able to use Roadmap, but are no longer able to, you can easily resolve this by turning on Roadmap in the steps described above.
+
+The problem will appear as:
+1. Your users will no longer see the **Create Roadmap** option on the Project Home page.
+2. When opening a roadmap, users will see the error **Roadmaps is not turned on for your organization**.
+
+> [!Note]
+> Make sure to check your Message Center, as the problem above was likely caused by a requirement to turn on the setting for specific Office 365 tenants.
 
 
 ## Turn Project Online off
