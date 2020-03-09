@@ -61,7 +61,7 @@ To turn on or off Project for the web:
 > Currently, if you turn on Project for the web, actual activation on your tenant will happen at a later date (see your Message Center for more details). </br> 
 
 > [!Important]
-> Turning Project for the web on or off will have no affect on your ability to use Project Online. </br>
+> Turning Project for the web on or off will have no effect on your ability to use Project Online. </br>
 
 ## Turn off Project for the web for specific users in your organization
 
