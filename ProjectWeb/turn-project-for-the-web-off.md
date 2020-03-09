@@ -60,6 +60,9 @@ To turn on or off Project for the web:
 > [!Important]
 > Currently, if you turn on Project for the web, actual activation on your tenant will happen at a later date (see your Message Center for more details). </br> 
 
+> [!Important]
+> Turning Project for the web on or off will have no affect on your ability to use Project Online. </br>
+
 ## Turn off Project for the web for specific users in your organization
 
  An admin can manage access to Project for the web for specific users by turning off the service for their associated Project Plan licenses. This assumes that that Project for the web is turned turned on for the organization in the Project settings page in the Microsoft 365 admin center.
