@@ -178,6 +178,9 @@ To turn off Project Online:
 
     You can repeat this procedure for each user that you want to use only Project for the web and Roadmap.
 
+> [!Important]
+> Turning Project Online on or off for a specific user will have no effect on their ability to use Project for the web. </br>
+
 ## See Also
   
   
