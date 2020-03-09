@@ -34,11 +34,11 @@ additionalContent:
         # Card
         - title: Project Server
           summary: Deploy and manage Project Server for your organization.
-          url: https://review.docs.microsoft.com/Project/project-server-2013-and-2016
+          url: https://docs.microsoft.com/Project/project-server-2013-and-2016
         # Card
         - title: PowerShell Reference for Project
-          summary: Learn about the PowerShell cmdlets you need to manage Project Server or Project Online.
-          url: https://review.docs.microsoft.com/Project/windows-powershell-for-project-server-2016-cmdlet-reference
+          summary: Learn about the PowerShell cmdlets you need to manage Project Server.
+          url: https://docs.microsoft.com/Project/windows-powershell-for-project-server-2016-cmdlet-reference
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
