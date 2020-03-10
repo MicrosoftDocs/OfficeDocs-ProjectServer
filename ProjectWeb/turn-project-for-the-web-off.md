@@ -163,9 +163,6 @@ The problem will appear as:
 
 An admin may want certain users to have access to Project for the web and the Roadmap feature, and not Project Online.  To do this, the admin would not only need to turn on Project for the web and Roadmap in Project settings, but also need to turn off the Project Online service for the user through their assigned Project Plan 3 or Project Plan 5 license.  
 
-> [!Note]
-> Roadmap is not available through the Project Plan 1 license.
-
 To turn off Project Online:
 
 1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**.
