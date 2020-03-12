@@ -49,6 +49,7 @@ This article describes how admins can use do the following to address the above 
 
 An admin can turn Project for the web on or off for all users in their organization through the Project settings page in the Microsoft 365 admin center.
 
+
 > [!Important]
 > This setting is only available in the [new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide#participate-in-the-new-admin-center). If you are using the classic admin center, you will need to switch to the new Microsoft 365 admin center to access this setting.</br> 
 
@@ -60,6 +61,8 @@ To turn on or off Project for the web:
 3. On the **Project** settings page, select or deselect **Turn on Project for the web for your organization**, and then click **Save changes**.
 
 ![Select user](media/projsettingsp4w.png)
+
+If an admin tries to access Project settings page and receives the error message *Unable to retrieve settings*, have a licensed user go to their Project Home page (project.microsoft.com). This will initiate Project for the web on the tenant and will make the Project settings available for the admin.
 
 > [!Important]
 > Currently, if you turn on Project for the web, actual activation on your tenant will happen at a later date (see your Message Center for more details). </br> 
