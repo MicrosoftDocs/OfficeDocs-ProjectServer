@@ -62,7 +62,7 @@ To turn on or off Project for the web:
 
 ![Select user](media/projsettingsp4w.png)
 
-If an admin tries to access Project settings page and receives the error message *Unable to retrieve settings*, have a licensed user go to their Project Home page (project.microsoft.com). This will initiate Project for the web on the tenant and will make the Project settings available for the admin.
+If an admin tries to access the Project settings page and receives the error message *Unable to retrieve settings*, have a licensed user go to their Project Home page (project.microsoft.com). This will initiate Project for the web on the tenant and will make the Project settings available for the admin.
 
 > [!Important]
 > Currently, if you turn on Project for the web, actual activation on your tenant will happen at a later date (see your Message Center for more details). </br> 
