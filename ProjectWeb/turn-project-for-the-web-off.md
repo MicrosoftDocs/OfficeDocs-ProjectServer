@@ -49,6 +49,10 @@ This article describes how admins can use do the following to address the above 
 
 An admin can turn Project for the web on or off for all users in their organization through the Project settings page in the Microsoft 365 admin center.
 
+> [!Important]
+> This setting is only available in the [new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide#participate-in-the-new-admin-center). If you are using the classic admin center, you will need to switch to the new Microsoft 365 admin center to access this setting.</br> 
+
+
 To turn on or off Project for the web:
 
 1. In the Microsoft 365 admin center, expand the navigation menu, select **Settings**, and then select **Settings**.
