@@ -188,7 +188,7 @@ For example, the Contoso.com domain has a two-way trust with Litware.com and Fab
   
 [Manage security group synchronization with Active Directory in Project Server](manage-security-group-synchronization-with-active-directory-in-project-server.md)
 
-[People Picker and claims providers overview (SharePoint 2013)](http://technet.microsoft.com/library/bf8717c2-463d-4e8d-acaf-f186b5907df1.aspx)
+[People Picker and claims providers overview (SharePoint 2013)](https://technet.microsoft.com/library/bf8717c2-463d-4e8d-acaf-f186b5907df1.aspx)
   
-[Plan for People Picker in SharePoint 2013](http://technet.microsoft.com/library/2093c146-c880-48c6-9526-24cdf80969ba.aspx)
+[Plan for People Picker in SharePoint 2013](https://technet.microsoft.com/library/2093c146-c880-48c6-9526-24cdf80969ba.aspx)
 
