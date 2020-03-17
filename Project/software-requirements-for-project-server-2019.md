@@ -38,7 +38,7 @@ Some of the key software requirements for SharePoint Server 2019 are:
 |**Supported browsers:**  <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
 > [!NOTE]
-> For information about the hardware, software, and browser requirement for SharePoint Server 2019, see [System requirements for SharePoint Server 2019](https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements-2019). 
+> For information about the hardware, software, and browser requirement for SharePoint Server 2019, see [System requirements for SharePoint Server 2019](https://docs.microsoft.com/sharepoint/install/hardware-and-software-requirements-2019). 
   
 ## Client Compatibility
 
@@ -69,7 +69,7 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md)
 
-[Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/en-us/sharepoint/install/system-requirements-for-sharepoint-server-2016)
+[Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/sharepoint/install/system-requirements-for-sharepoint-server-2016)
   
-[Plan browser support in SharePoint Server 2019](https://docs.microsoft.com/en-us/sharepoint/install/browser-support-planning-0)
+[Plan browser support in SharePoint Server 2019](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)
 
