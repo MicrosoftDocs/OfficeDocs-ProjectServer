@@ -26,7 +26,7 @@ Read this article for an overview of these differences and the factors to consid
   
 In this article, we'll look at business decisions. Also look at the [technical decisions](planning-project-server-and-project-online-for-technical-decision-makers.md) you'll need to make.
   
-For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](http://technet.microsoft.com/library/f86ebfbb-0e55-420a-8718-66c27467eeb0.aspx).
+For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](https://technet.microsoft.com/library/f86ebfbb-0e55-420a-8718-66c27467eeb0.aspx).
   
 ## User access in Project Server and Project Online
 
@@ -54,7 +54,7 @@ The following table compares how you can use on-premises and online business int
   
 ||**Project Server**|**Project Online**|
 |:-----|:-----|:-----|
-|Cloud business intelligence  <br/> |Use Power BI Desktop to access your on-premises Project Server data.  <br/> This requires Power BI and may require some configuration by your IT department.  <br/> |Use OData in Excel or a custom application to access your Project Online data for general reporting. Add Power BI for Office 365 for scheduled data refresh, [Power BI Q&amp;A](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-q-and-a), and other advanced features.  <br/> |
+|Cloud business intelligence  <br/> |Use Power BI Desktop to access your on-premises Project Server data.  <br/> This requires Power BI and may require some configuration by your IT department.  <br/> |Use OData in Excel or a custom application to access your Project Online data for general reporting. Add Power BI for Office 365 for scheduled data refresh, [Power BI Q&amp;A](https://docs.microsoft.com/power-bi/consumer/end-user-q-and-a), and other advanced features.  <br/> |
 |On-premises business intelligence  <br/> |Use SQL Server Reporting Services or PerformancePoint Services for your corporate reporting needs. Use Excel for self-service business intelligence and ad-hoc reporting.  <br/> Both work without additional configuration needed beyond writing the report.  <br/> |Bring your Project Online data into a data warehouse on-premises or in Microsoft Azure where you can use standard corporate business intelligence reporting tools, such as SQL Server Reporting Services.  <br/> This requires configuration and customization by your IT department.  <br/> |
    
  **Keeping it simple**
