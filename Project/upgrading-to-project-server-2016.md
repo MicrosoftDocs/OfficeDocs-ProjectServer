@@ -43,7 +43,7 @@ Note the following requirements for upgrading to Project Server 2016:
   - They must have associated time phased data (it must contain work, not just resources).
 
     > [!NOTE]
-    > For more information about Resource Engagements, see this blog post: [Resource Engagements](http://go.microsoft.com/fwlink/p/?LinkID=620823&amp;clcid=0x409). 
+    > For more information about Resource Engagements, see this blog post: [Resource Engagements](https://go.microsoft.com/fwlink/p/?LinkID=620823&amp;clcid=0x409). 
 
 ## Project Server 2016 upgrade steps
 
