@@ -23,13 +23,13 @@ This article is one is a series of articles for upgrade to Project Server 2013. 
 
 - [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
 
-- [Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+- [Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
 
-- [Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx)
+- [Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx)
 
-- [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
+- [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
 
-- [What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
+- [What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
 
 After restoring your Project Server 2010 databases and the SharePoint content database that contains your Project Web App site data, you can then run the steps necessary to upgrade the data and the Project Web App site collection to Project Server 2013. The actual upgrade process can be divided into two separate phases:
 
@@ -65,12 +65,12 @@ After restoring your Project Server 2010 databases and the SharePoint content da
 
 ||**Steps**|**Required Microsoft PowerShell cmdlet**|
 |:-----|:-----|:-----|
-|1  <br/> |Check the SharePoint content database that contains your Project Site data for errors that can cause upgrade to fail.  <br/> |[Test-SPContentDatabase](http://technet.microsoft.com/library/ed095a0a-fa1a-4323-8503-624f0e09707d.aspx) <br/> |
-|2  <br/> |Attach and upgrade the SharePoint content database.  <br/> |[Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) <br/> |
-|3  <br/> |Take ownership of the site collection you want to upgrade.  <br/> |[Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx) <br/> |
-|4  <br/> |Migrate users from Windows Classic authentication to claims-based authentication (optional).  <br/> > [!NOTE]> This step is only required if your Project Server 2010 web application is using Classic Windows authentication, and your Project Server 2013 web application is using claims-based authentication.           |([Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx) <SPWebAppPipeBind>).MigrateUsers($true) <br/> |
-|5  <br/> |Check the SharePoint site collection for issues that can cause upgrade to fail.  <br/> |[Test-SPSite](http://technet.microsoft.com/library/4941af13-fcb0-4747-86b0-e43ab9b39090.aspx) <br/> |
-|6  <br/> |Upgrade the SharePoint site.  <br/> |[Upgrade-SPSite](http://technet.microsoft.com/library/3dc2f4ae-8ca1-4912-94ea-93c8b6cdd096.aspx)Upgrade-SPSite  <br/> |
+|1  <br/> |Check the SharePoint content database that contains your Project Site data for errors that can cause upgrade to fail.  <br/> |[Test-SPContentDatabase](https://technet.microsoft.com/library/ed095a0a-fa1a-4323-8503-624f0e09707d.aspx) <br/> |
+|2  <br/> |Attach and upgrade the SharePoint content database.  <br/> |[Mount-SPContentDatabase](https://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) <br/> |
+|3  <br/> |Take ownership of the site collection you want to upgrade.  <br/> |[Set-SPSite](https://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx) <br/> |
+|4  <br/> |Migrate users from Windows Classic authentication to claims-based authentication (optional).  <br/> > [!NOTE]> This step is only required if your Project Server 2010 web application is using Classic Windows authentication, and your Project Server 2013 web application is using claims-based authentication.           |([Get-SPWebApplication](https://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx) <SPWebAppPipeBind>).MigrateUsers($true) <br/> |
+|5  <br/> |Check the SharePoint site collection for issues that can cause upgrade to fail.  <br/> |[Test-SPSite](https://technet.microsoft.com/library/4941af13-fcb0-4747-86b0-e43ab9b39090.aspx) <br/> |
+|6  <br/> |Upgrade the SharePoint site.  <br/> |[Upgrade-SPSite](https://technet.microsoft.com/library/3dc2f4ae-8ca1-4912-94ea-93c8b6cdd096.aspx)Upgrade-SPSite  <br/> |
 
 ### 1. Check the SharePoint Content database for errors that can cause upgrade to fail
 
@@ -155,7 +155,7 @@ For example:
 (Get-SPWebApplication http://contoso:80).migrateUsers($true)
 ```
 
-For more information about this method, see [SPWebApplication.MigrateUsers Method](https://msdn.microsoft.com/en-us/library/ee554321.aspx).
+For more information about this method, see [SPWebApplication.MigrateUsers Method](https://msdn.microsoft.com/library/ee554321.aspx).
 
 ### 5. Check your PWA Site collection for issues that can cause upgrade of the site to fail
 
@@ -435,11 +435,11 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
 
-[What's new for upgrade (Project Server 2013)](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
+[What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
 
-[Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
 
-[Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
+[Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx)
 
-[Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](http://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx)
+[Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx)
 
