@@ -83,6 +83,6 @@ Chris Vandersluis is the president and founder of Montreal, Canada-based HMS Sof
   
 Chris Vandersluis can be contacted by e-mail at: chris.vandersluis@hms.ca
   
-If you would like to read more EPM-related articles by Chris Vandersluis, see HMS's EPM Guidance site (http://www.epmguidance.com/?page_id=39).
+If you would like to read more EPM-related articles by Chris Vandersluis, see HMS's EPM Guidance site (https://www.epmguidance.com/?page_id=39).
   
 

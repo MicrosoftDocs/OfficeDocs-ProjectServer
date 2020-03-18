@@ -96,7 +96,7 @@ You can schedule the frequency that Active Directory synchronization to PWA secu
     
 3. On the Job Definitions page, find and click **Project Server: Synchronization of AD with security groups for <PWAIntanceName>**. 
     
-    For example: Project Server: Synchronization of AD with security groups for http://contoso/pwa.
+    For example: Project Server: Synchronization of AD with security groups for https://contoso/pwa.
     
 4. On the Edit Timer Job page for the job, in the **Recurring Schedule** section, you can configure when the synchronization will run on a recurring basis. In the **This timer job is scheduled to run** section, you can select one of the following options, based on your organization's requirements:
     

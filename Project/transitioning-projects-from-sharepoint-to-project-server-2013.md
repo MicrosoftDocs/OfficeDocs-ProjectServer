@@ -230,10 +230,10 @@ Enable-SPFeature pwasite -URL SiteCollectionURL
 For example:
 
 ```
-$web=Get-SPWeb http://contoso-appsrv1/sites/ContosoProjects
+$web=Get-SPWeb https://contoso-appsrv1/sites/ContosoProjects
 $web.Properties["PWA_TAG"]="ProjectWebApp1DB"
 $web.Properties.Update()
-Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/ContosoProjects
+Enable-SPFeature pwasite -URL https://contoso-appsrv1/sites/ContosoProjects
 ```
 
 After the Project Web App site collection features have been activated for the site collection, the next step depends on the needs of your organization. You can do one of the following:
@@ -419,8 +419,8 @@ Upgrade-SPProjectWebInstance -Identity SiteCollectionURL -Confirm:$False
 For example:
 
 ```
-New-SPweb -URL http://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
-Upgrade-SPProjectWebInstance -Identity http://contoso-appsrv1/sites/ContosoProjects -Confirm:$False
+New-SPweb -URL https://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
+Upgrade-SPProjectWebInstance -Identity https://contoso-appsrv1/sites/ContosoProjects -Confirm:$False
 ```
 
 After you have created the Project Web App site and run **Upgrade-SPProjectWebInstance**, you must run iisreset on each application server in the farm. To run iisreset, open a command window, and type:

@@ -458,26 +458,26 @@ For a Project Web App instance that contains a large number of entities, such as
 - **Use a $filter URL option, or use $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
     
   ```
-  http://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
+  https://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
   ```
 
 - **Get an entity collection by using an association.** For example, the following query internally uses the Project_Assignments_Assignment_Project association to get all of the assignments in a specific project: 
     
   ```
-  http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
+  https://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
   ```
 
 - **Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets issues 11 through 20 for all projects, in order of the resource who is assigned to the issue: 
     
   ```
-  http://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
+  https://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
   ```
 
  **Recommendation:**
   
 -	Limit the amount of data you query at runtime by using server-side filtering to retrieve only the columns that you need. The impact of this is most noticeable with custom fields. Add it only if you really need it. 
 
--	Ensure that you are filtering on the entity key. The entity key is indexed and will offer a much more performant data retrieval experience. You can find the key(s) for each entity by reviewing the Service Metadata Document in your PWA instance: http://ServerName/sites/PWA/_api/ProjectData/$metadata
+-	Ensure that you are filtering on the entity key. The entity key is indexed and will offer a much more performant data retrieval experience. You can find the key(s) for each entity by reviewing the Service Metadata Document in your PWA instance: https://ServerName/sites/PWA/_api/ProjectData/$metadata
 
   
 ## Project Web App Quota

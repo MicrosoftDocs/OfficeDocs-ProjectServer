@@ -39,7 +39,7 @@ In Project Server 2016, what was previously known as Resource Plans in Project S
 Existing Resource Plans can be converted to Resource Engagements when you upgrade from Project Server 2013 to Project Server 2016 as an optional part of the upgrade process. The Resource Plan view will no longer be available in Project Professional 2016 or Project Professional 2019.
   
 > [!NOTE]
-> For more information about Resource Engagements, see this [blog post](http://go.microsoft.com/fwlink/?LinkID=620823&amp;clcid=0x409). For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements as part of the Project Server 2016 upgrade process, see [Upgrading to Project Server 2019](upgrading-to-project-server-2019.md). 
+> For more information about Resource Engagements, see this [blog post](https://go.microsoft.com/fwlink/?LinkID=620823&amp;clcid=0x409). For more information about migrating your Project Server 2013 Resource Plans to Resource Engagements as part of the Project Server 2016 upgrade process, see [Upgrading to Project Server 2019](upgrading-to-project-server-2019.md). 
   
 ## My Tasks
 <a name="MyTasks"> </a>
@@ -49,7 +49,7 @@ The My Tasks and associated Exchange Task Sync features have been removed in Sha
 ## Project Server Interface (PSI) Project class removed
 <a name="ProjectClass"> </a>
 
-The Project class in the PSI is not supported in Project Servers 2016 or Project Server 2019. For all new development, use the [Project Client Side Object Model (CSOM)](http://go.microsoft.com/fwlink/p/?LinkId=798162&amp;clcid=0x409).
+The Project class in the PSI is not supported in Project Servers 2016 or Project Server 2019. For all new development, use the [Project Client Side Object Model (CSOM)](https://go.microsoft.com/fwlink/p/?LinkId=798162&amp;clcid=0x409).
   
 |||
 |:-----|:-----|

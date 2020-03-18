@@ -87,7 +87,7 @@ Project Professional 2013 has the following installation requirements:
 |Visual reports  <br/> | Excel 2007, Excel 2010, or Excel 2013 <br/>  Microsoft Office Visio 2007, Visio 2010, or Visio 2013 <br/> |
    
 > [!NOTE]
-> For more information about Project Professional 2013 and other Office 2013 client installation requirements, see [System requirements for Office 2013](http://technet.microsoft.com/library/399026a3-007c-405a-a377-da7b0f7bf9de.aspx). 
+> For more information about Project Professional 2013 and other Office 2013 client installation requirements, see [System requirements for Office 2013](https://technet.microsoft.com/library/399026a3-007c-405a-a377-da7b0f7bf9de.aspx). 
   
 ### Supported browsers for Project Web App
 
@@ -131,7 +131,7 @@ You should gather current configuration information about your Project Server 20
 Before you upgrade, you must identify and then evaluate the customizations in your Project Server 2010 environment and determine whether you will upgrade them, and how. After you upgrade to your Project Server 2013 test environment, check to see if the customizations you want to migrate can be reapplied. 
   
 > [!NOTE]
-> For detailed information about how to plan for upgrading customizations, see [Create plan to upgrade customizations (SharePoint 2013)](http://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95.aspx). 
+> For detailed information about how to plan for upgrading customizations, see [Create plan to upgrade customizations (SharePoint 2013)](https://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95.aspx). 
   
 During the upgrade process, several Microsoft PowerShell "test" cmdlets can be run on your databases to verify if specific customizations in your Project Server 2010 environment can cause issues with the upgrade process. In most cases, customizations will not cause the actual upgrade process to fail. 
   
@@ -225,5 +225,5 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 [Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
 #### 
 
-[Prepare your environment for upgrade (Project Server 2013)](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
 

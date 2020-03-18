@@ -37,7 +37,7 @@ The application tier in Project Server 2013 includes the following components:
 ## SharePoint Server 2013
 <a name="SharePointServer"> </a>
 
-The Enterprise edition of SharePoint Server 2013 is required for Project Server 2013. SharePoint Server 2013 has many features in its own right, and deployment of SharePoint Server 2013 should be carefully planned. For information about how to plan your SharePoint Server 2013 deployment, see [Planning and architecture for SharePoint Server 2013](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx).
+The Enterprise edition of SharePoint Server 2013 is required for Project Server 2013. SharePoint Server 2013 has many features in its own right, and deployment of SharePoint Server 2013 should be carefully planned. For information about how to plan your SharePoint Server 2013 deployment, see [Planning and architecture for SharePoint Server 2013](https://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx).
   
 ## Project Server 2013
 <a name="section1"> </a>

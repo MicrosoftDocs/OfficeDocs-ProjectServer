@@ -28,7 +28,7 @@ Upgrading to Project Server 2013 differs in many ways from upgrading to previous
 
 - [ Client compatibility with Project Server 2013](#section4)
 
-- [Upgrade from Project Server 2010 to Project Online](http://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx#Online)
+- [Upgrade from Project Server 2010 to Project Online](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx#Online)
 
 - [Known issues when you upgrade to Project Server 2013](#section5)
 
@@ -114,9 +114,9 @@ Project Server 2010 customers may want to upgrade from their on-premises environ
 
 The following are current known issues that occur when you upgrade to Project Server 2013: 
 
-- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the PWA ribbon, you only see the Basic Project Plan Enterprise Project Type (EPT). You do not see other project types that are available in Project Server 2013. The workaround for this issue is to manually add the Project Server 2013 EPTs. For more information about this workaround, see[Post-upgrade tasks: Address known issue with Enterprise Project Types (Project Server 2013)](http://technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx). 
+- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the PWA ribbon, you only see the Basic Project Plan Enterprise Project Type (EPT). You do not see other project types that are available in Project Server 2013. The workaround for this issue is to manually add the Project Server 2013 EPTs. For more information about this workaround, see[Post-upgrade tasks: Address known issue with Enterprise Project Types (Project Server 2013)](https://technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx). 
 
-- When you upgrade your Project Server 2010 databases to Project Server 2013, your Project Server 2010 databases must be in native mode (not backward compatibility mode). If your Project Server 2010 databases are in backward compatibility mode (BCM) when you upgrade, you may experience some issues (such as missing pages) with your sites after upgrade, because BCM is not a supported feature in Project Server 2013. For more information about this issue, see [Prepare your environment for an upgrade to Project Server 2013](http://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+- When you upgrade your Project Server 2010 databases to Project Server 2013, your Project Server 2010 databases must be in native mode (not backward compatibility mode). If your Project Server 2010 databases are in backward compatibility mode (BCM) when you upgrade, you may experience some issues (such as missing pages) with your sites after upgrade, because BCM is not a supported feature in Project Server 2013. For more information about this issue, see [Prepare your environment for an upgrade to Project Server 2013](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
 
     > [!NOTE]
     > For more information about backward compatibility mode, see [Project Server 2010 backward compatibility mode](https://technet.microsoft.com/en-us/library/gg502585%28v=office.14%29.aspx). 

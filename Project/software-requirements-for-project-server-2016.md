@@ -38,7 +38,7 @@ Some of the key software requirements for SharePoint Server 2016 are:
 |**Supported browsers** **:** <br/> | Microsoft Edge <br/> Microsoft Internet Explorer 11 <br/> Microsoft Internet Explorer 10 <br/> Google Chrome (latest released version) <br/> Mozilla Firefox (latest released version plus immediate previous version) <br/> Apple Safari (latest released version) <br/> |
    
 > [!NOTE]
-> For information about the hardware, software, and browser requirement for SharePoint Server 2016, see [System requirements for SharePoint Server 2016 IT Preview](http://technet.microsoft.com/library/64233599-f18c-4081-a3ce-450e878a1b9f.aspx). 
+> For information about the hardware, software, and browser requirement for SharePoint Server 2016, see [System requirements for SharePoint Server 2016 IT Preview](https://technet.microsoft.com/library/64233599-f18c-4081-a3ce-450e878a1b9f.aspx). 
   
 ## Client Compatibility
 
@@ -75,7 +75,7 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Deploy Project Server 2016](deploy-project-server-2016.md)
 
-[Hardware and software requirements for SharePoint Server 2016](http://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx)
+[Hardware and software requirements for SharePoint Server 2016](https://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx)
   
-[Plan browser support in SharePoint Server 2016](http://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx)
+[Plan browser support in SharePoint Server 2016](https://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx)
 

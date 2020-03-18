@@ -45,7 +45,7 @@ If you are planning to upgrade to Project Server 2016, it is important to know t
 - **Upgrade your Project Server 2013 Resource Plans to Resource Engagements** Resource Engagements is a new feature in Project Server 2016 that helps project managers and resource managers to align with each other on the specific amount of work and time periods for specific resources associated with a project. Resource Engagements replaces the Resource Plans feature, as they will no longer be available in Project Server 2016. You can choose to migrate your existing Project Server 2013 Resources Plans to use as Resource Engagements in Project Server 2016 as part of the upgrade process. Note that for your Project Server 2013 Resource Plans to migrate correctly to Resource Engagements, they must contain time phased data and must be published.
     
     > [!NOTE]
-    > For more information about Resource Engagements, see this blog post: [Resource Engagements](http://go.microsoft.com/fwlink/?LinkID=620823&amp;amp;clcid=0x409). 
+    > For more information about Resource Engagements, see this blog post: [Resource Engagements](https://go.microsoft.com/fwlink/?LinkID=620823&amp;amp;clcid=0x409). 
   
 ## Upgrading from an earlier version of Project Server
 <a name="Upg"> </a>
