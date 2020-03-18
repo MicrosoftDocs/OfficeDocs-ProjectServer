@@ -36,7 +36,7 @@ Enable-SPFeature pwasite -URL SiteCollectionURL
 For example:
 
 ```
-Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/ContosoProjects
+Enable-SPFeature pwasite -URL https://contoso-appsrv1/sites/ContosoProjects
 ```
 
 After the Project Web App site collection features have been activated for the site collection, you can add a Project Center web part and begin importing SharePoint list projects into Project Web App.

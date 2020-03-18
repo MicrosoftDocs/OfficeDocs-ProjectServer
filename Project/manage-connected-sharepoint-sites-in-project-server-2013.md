@@ -122,7 +122,7 @@ If you want to automatically run synchronization for your project sites, see the
     
 3. On the Job Definitions page, find and click **Project Server: Synchronization of SharePoint Server permission to Project Web App permissions for job <PWAInstance>**. 
     
-    For example: Project Server: Synchronization of SharePoint Server permission to Project Web App permissions job for http://contoso/pwa.
+    For example: Project Server: Synchronization of SharePoint Server permission to Project Web App permissions job for https://contoso/pwa.
     
 4. On the Edit Timer Job page for the job, in the Recurring Schedule section, you can specify when the synchronization will run on a recurring basis. Under **This timer job is scheduled to run**, you can select one of the following options, based on your company's requirements:
     

@@ -70,14 +70,14 @@ When you upgrade your Project Server 2010 databases to Project Server 2013, your
 > It is critical that you check-out, open, save, and check-in the Enterprise Global Template file in Project Professional 2010 after you disable BCM. If this is not done, new projects created in your upgraded environment may be corrupted. 
 
 > [!NOTE]
-> For more information about backward compatibility mode, see [Project Server 2010 backward compatibility mode (BCM)](http://technet.microsoft.com/library/22473a53-d12c-41b4-a63f-56037dbda2aa.aspx). 
+> For more information about backward compatibility mode, see [Project Server 2010 backward compatibility mode (BCM)](https://technet.microsoft.com/library/22473a53-d12c-41b4-a63f-56037dbda2aa.aspx). 
 
 ## Check your Project Server 2010 data for issues that can cause the upgrade to fail
 <a name="section4"> </a>
 
 The following are current known issues that occur when upgrading to Project Server 2013: 
 
-- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the Project Web App ribbon, you only see the Basic Project Plan and the Sample Proposal. You do not see other project types that are available in Project Server 2013. After upgrading to Project Server 2013, you can correct this known issue with a simple workaround that is described in[Post-upgrade tasks (Project Server 2013)](http://technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx).
+- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the Project Web App ribbon, you only see the Basic Project Plan and the Sample Proposal. You do not see other project types that are available in Project Server 2013. After upgrading to Project Server 2013, you can correct this known issue with a simple workaround that is described in[Post-upgrade tasks (Project Server 2013)](https://technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx).
 
 - In Project Server 2010, the **Prevent Active Directory synchronization for this user** option is available for each user in the user's property page. Selecting this option will allow you to manually specify the security group membership for the user and prevent the user's memberships from being altered when synchronizing security groups with Active Directory. When upgrading from Project Server 2010 to Project Server 2013, this option is no longer available.
 
@@ -129,7 +129,7 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 [Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
 #### 
 
-[Plan for upgrade (SharePoint 2013 Products)](http://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6.aspx)
+[Plan for upgrade (SharePoint 2013 Products)](https://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6.aspx)
 
-[Create a communication plan (SharePoint 2013)](http://technet.microsoft.com/library/dcf8e99b-fd8e-4a91-b281-bd673afee3b7.aspx)
+[Create a communication plan (SharePoint 2013)](https://technet.microsoft.com/library/dcf8e99b-fd8e-4a91-b281-bd673afee3b7.aspx)
 

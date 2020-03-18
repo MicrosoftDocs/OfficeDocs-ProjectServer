@@ -23,7 +23,7 @@ Project Server 2013 integrates the SharePoint Server 2013 Business Intelligence 
   
 To configure reporting, you must do the following steps:
   
-- [Video demonstration](http://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx#VideoDemonstration)
+- [Video demonstration](https://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx#VideoDemonstration)
     
 - [Configure prerequisites](#ConfigurePrerequisites)
     
@@ -56,18 +56,18 @@ The procedures in this article require Excel Services and Secure Store. If you h
   
 For information about deploying Excel Services, see the following articles:
   
-- [Excel Services overview](http://technet.microsoft.com/library/fe776cf2-17a4-4bb6-95ea-66288f243a93.aspx)
+- [Excel Services overview](https://technet.microsoft.com/library/fe776cf2-17a4-4bb6-95ea-66288f243a93.aspx)
     
-- [Configure Excel Services in SharePoint](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx)
+- [Configure Excel Services in SharePoint](https://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx)
     
 > [!IMPORTANT]
-> The Excel Services application pool account requires access to the SharePoint content database that is associated with Project Web App. If the content database was created after Excel Services was configured, you must follow the procedure in [Grant content database access to the managed account](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#GrantAccess) to grant the proper access.
+> The Excel Services application pool account requires access to the SharePoint content database that is associated with Project Web App. If the content database was created after Excel Services was configured, you must follow the procedure in [Grant content database access to the managed account](https://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#GrantAccess) to grant the proper access.
   
 For information about deploying Secure Store, see the following articles:
   
-- [Plan the Secure Store Service (SharePoint Server 2013)](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
+- [Plan the Secure Store Service (SharePoint Server 2013)](https://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
     
-- [Configure the Secure Store Service (SharePoint 2013)](http://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125.aspx)
+- [Configure the Secure Store Service (SharePoint 2013)](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125.aspx)
     
 After both Excel Services and Secure Store have been configured on the farm, proceed with the procedures in the sections below.
   
@@ -132,7 +132,7 @@ If you do not already have the SQL Server 2008 R2 Analysis Management Objects (A
 > [!NOTE]
 > Use the SQL Server 2008 R2 version of AMO regardless of which version of SQL Server you are using to host your databases. 
   
-Click to download the [SQL Server 2008 R2 Analysis Management Objects](https://go.microsoft.com/fwlink/p/?LinkID=188448) (http://go.microsoft.com/fwlink/?LinkID=188448).
+Click to download the [SQL Server 2008 R2 Analysis Management Objects](https://go.microsoft.com/fwlink/p/?LinkID=188448) (https://go.microsoft.com/fwlink/?LinkID=188448).
   
 > [!NOTE]
 > After installing the AMO objects, restart the **Project Application Service** on each application server in the farm where it is running. This service is configured in the SharePoint Central Administration website in the **System Settings** section, **Manage services on server**. 
@@ -158,13 +158,13 @@ Follow this procedure twice: once for each library.
     
     For the Templates library:
     
-     `http://<servername>/<projectsitename>/ProjectBICenter/Templates/`
+     `https://<servername>/<projectsitename>/ProjectBICenter/Templates/`
     
     or
     
     For the Sample Reports library:
     
-     `http://<servername>/<projectsitename>/ProjectBICenter/Sample%20Reports/`
+     `https://<servername>/<projectsitename>/ProjectBICenter/Sample%20Reports/`
     
 6. In the **Trust Children** section, confirm that the **Children trusted** check box is selected.
     
@@ -206,7 +206,7 @@ Use the following procedure to determine the URL of the data connection library 
     
 5. In the **Address** box, paste the URL for the data connection library that you copied in the previous procedure. It should be in the following format:
     
-     `http://<ServerName>/<ProjectSiteName>/ProjectBICenter/Data%20Connections/English%20(United%20States)`
+     `https://<ServerName>/<ProjectSiteName>/ProjectBICenter/Data%20Connections/English%20(United%20States)`
     
 6. Click **OK**.
     
