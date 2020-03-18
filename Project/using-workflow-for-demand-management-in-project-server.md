@@ -17,7 +17,7 @@ description: "Summary: Learn about phases, stages, enterprise project types, and
  **Summary:** Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management.<br/>
 **Applies to:** Project Server 2016, Project Server 2013
   
-This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](http://technet.microsoft.com/library/4a3a3fb3-89bc-4dc7-8f27-6da7dabfa0de.aspx).
+This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](https://technet.microsoft.com/library/4a3a3fb3-89bc-4dc7-8f27-6da7dabfa0de.aspx).
   
 You can use the demand management tools in Project Web App to capture all project ideas in one place, and then guide them through a decision-making process catered to your business's needs. Using these tools can help your users make decisions about which proposals to approve, and track progress on a project until the work is completed.
   
