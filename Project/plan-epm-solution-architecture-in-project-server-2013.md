@@ -22,7 +22,7 @@ This chapter describes the components of a Project Server 2013 deployment. This 
   
 Project Server 2013 is deployed across multiple tiers: a client tier, a Web tier, an application tier, and a database tier. Applications and services in each tier provide for availability and scalability, which enables any size organizations to manage projects of a range of sizes and levels of complexity. You can configure the application and database tiers of Project Server to best meet the needs and requirements of your organization.
   
-Project Server 2013 is deployed on an existing SharePoint Server 2013 farm. It is important that you include planning for SharePoint Server 2013 as part of your Project Server deployment plans. For more information, see [Planning and architecture for SharePoint Server 2013](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx).
+Project Server 2013 is deployed on an existing SharePoint Server 2013 farm. It is important that you include planning for SharePoint Server 2013 as part of your Project Server deployment plans. For more information, see [Planning and architecture for SharePoint Server 2013](https://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx).
   
 ## Understanding Project Server architecture
 

@@ -31,7 +31,7 @@ To see more articles, see ["From the Trenches" white papers](https://support.off
 
 ### Introduction
 
-In Radioactive Physics, Half-life (t½) is the amount of time required for a quantity to fall to half its value as measured at the beginning of the time period. (Ref: http://en.wikipedia.org/wiki/Half-life).
+In Radioactive Physics, Half-life (t½) is the amount of time required for a quantity to fall to half its value as measured at the beginning of the time period. (Ref: https://en.wikipedia.org/wiki/Half-life).
   
 So, how does that apply to your recently implemented, brand spanking new Project Portfolio Management (PPM) solution? The reason it applies is because your PPM solution, implemented successfully, comes with an expiration date. If you do not take the time to plan, design, and execute a governance process around the management of the PPM solution, you can rest assured that the solution will get filled with stale data, bad design changes, processes that are out of sync with actual organizational processes, and the list goes on. Just like a car that never receives maintenance, your solution will stop yielding the ROI that is expected out of it. Your users will become passive, and either stop using the solution or vociferously advocate a different solution.
   
@@ -150,6 +150,6 @@ Prasanna Adavi (PMP, MCTS, MCITP, MCT) is a Senior Enterprise Project Management
   
 He also has extensive experience in leading projects end-to-end in a wide spectrum of domains and verticals, including IT, ERP (SAP), Manufacturing, Application Development, Automotive and Creative Services. He is a regular presenter at various Project Server, EPM and SharePoint events across the country, and a regular contributor to the SharePoint and EPM Community. 
   
-Prasanna is a regular blogger (http://www.prasannaadavi.com) and also runs a bi-weekly podcast (http://www.msprojectpodcast.com), mainly focusing on Microsoft Project and Project Server solutions. Prasanna is a Senior Consultant with EPMA (http://www.epmainc.com). 
+Prasanna is a regular blogger (https://www.prasannaadavi.com) and also runs a bi-weekly podcast (https://www.msprojectpodcast.com), mainly focusing on Microsoft Project and Project Server solutions. Prasanna is a Senior Consultant with EPMA (https://www.epmainc.com). 
   
 

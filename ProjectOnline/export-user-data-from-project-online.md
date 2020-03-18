@@ -79,7 +79,7 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
   For example:
     
   ```
-  Connect-SPOService -URL http://contoso-admin.sharepoint.com 
+  Connect-SPOService -URL https://contoso-admin.sharepoint.com 
   ```
 
 2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 

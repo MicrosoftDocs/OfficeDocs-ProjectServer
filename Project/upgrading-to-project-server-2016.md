@@ -43,7 +43,7 @@ Note the following requirements for upgrading to Project Server 2016:
   - They must have associated time phased data (it must contain work, not just resources).
 
     > [!NOTE]
-    > For more information about Resource Engagements, see this blog post: [Resource Engagements](http://go.microsoft.com/fwlink/p/?LinkID=620823&amp;clcid=0x409). 
+    > For more information about Resource Engagements, see this blog post: [Resource Engagements](https://go.microsoft.com/fwlink/p/?LinkID=620823&amp;clcid=0x409). 
 
 ## Project Server 2016 upgrade steps
 
@@ -157,7 +157,7 @@ After attaching, upgrading, and testing your SharePoint 2013 content database, t
 
     For example:
 
-     `Migrate-SPProjectDatabase -DatabaseName ProjectDB1 -SiteCollection "http://contoso1/sites/PWA"`
+     `Migrate-SPProjectDatabase -DatabaseName ProjectDB1 -SiteCollection "https://contoso1/sites/PWA"`
 
     When the cmdlet completes successfully, verify that you can open the Project site you specified in Project Server 2016.
 
@@ -169,11 +169,11 @@ After attaching, upgrading, and testing your SharePoint 2013 content database, t
 
 You will need to run the following Windows PowerShell cmdlet to disable a database quota limit restriction that is set by default in Project Server 2016:
 
- `Set-SPProjectDatabaseQuota -URL <http://servername/sites/pwa> -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
+ `Set-SPProjectDatabaseQuota -URL <https://servername/sites/pwa> -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
 
 For example: 
 
- `Set-SPProjectDatabaseQuota -URL http://contoso/sites/pwa -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
+ `Set-SPProjectDatabaseQuota -URL https://contoso/sites/pwa -Enabled:$false -ReadOnlyLimit 10200 -ReadOnlyWarningThreshold 90 -MaxDbSize 10240`
 
 > [!NOTE]
 >  If the database quota limit restriction is not disabled, you will run into the following issues:>  If you are upgrading to Project Server 2016 and your Project database you are upgrading is larger than 10 Gigs, your PWA site will immediately be set to Read-Only.>  If you deploy Project Server 2016, configure a PWA site, and through daily product use, the data for the site eventually goes over the 10 Gig limit, your PWA site will be set to Read-Only.>  If you are using multiple PWA sites, the cmdlet must be run for each PWA site.
@@ -194,7 +194,7 @@ If you want to use the Resource Engagements feature in Project Server 2016, you 
 
     For example:
 
-     `Migrate-SPProjectResourcePlans -URL "http://contoso1/sites/PWA"`
+     `Migrate-SPProjectResourcePlans -URL "https://contoso1/sites/PWA"`
 
 After running the cmdlet, you should receive one of the following confirmation messages:
 

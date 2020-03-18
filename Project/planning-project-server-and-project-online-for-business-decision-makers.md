@@ -26,7 +26,7 @@ Read this article for an overview of these differences and the factors to consid
   
 In this article, we'll look at business decisions. Also look at the [technical decisions](planning-project-server-and-project-online-for-technical-decision-makers.md) you'll need to make.
   
-For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](http://technet.microsoft.com/library/f86ebfbb-0e55-420a-8718-66c27467eeb0.aspx).
+For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](https://technet.microsoft.com/library/f86ebfbb-0e55-420a-8718-66c27467eeb0.aspx).
   
 ## User access in Project Server and Project Online
 

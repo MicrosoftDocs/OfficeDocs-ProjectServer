@@ -44,7 +44,7 @@ After you have created the top-level web site, you must grant users access to th
 
 ### To set Read permissions on the top-level Web site
 
-1. Navigate to the root site (that is, http://<servername>).
+1. Navigate to the root site (that is, https://<servername>).
 
 2. At the top of the page, click **Share**.
 
@@ -107,8 +107,8 @@ Enable-SPFeature pwasite -URL SiteCollectionURL/PWASiteName
 For example:
 
 ```
-New-SPSite -ContentDatabase PWA_Content -URL http://contoso-appsrv1/sites/PWA -Template pwa#0 -OwnerAlias domain\user
-Enable-SPFeature pwasite -URL http://contoso-appsrv1/sites/PWA
+New-SPSite -ContentDatabase PWA_Content -URL https://contoso-appsrv1/sites/PWA -Template pwa#0 -OwnerAlias domain\user
+Enable-SPFeature pwasite -URL https://contoso-appsrv1/sites/PWA
 ```
 
 After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](https://docs.microsoft.com/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps) cmdlet, passing the new content database as a parameter:

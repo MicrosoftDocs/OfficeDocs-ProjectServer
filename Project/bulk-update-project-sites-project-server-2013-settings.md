@@ -56,7 +56,7 @@ The **Update Site Paths** setting lets you break links between projects and proj
     
 7. For **New Site Path**:
     
-1. Select the Web application that contains the project sites that you want to link to (for example, http://hr1.contoso.com).
+1. Select the Web application that contains the project sites that you want to link to (for example, https://hr1.contoso.com).
     
 2. In the **Site URL** field, type the site URL information (for example, PWA).
     

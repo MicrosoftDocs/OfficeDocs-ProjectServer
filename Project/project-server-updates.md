@@ -22,7 +22,7 @@ Find and manage updates for Project Server 2013 and Project Server 2010 in one p
   
 ## Latest Updates for Project Server 2013
 
-Starting with the April 2015 release, all Office 2013 updates will only apply if Office 2013 SP1 is installed. See [KB2817430](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2817430) for more information about acquiring Office 2013 SP1 for client products, and[KB2880552](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2880552) for more information about SP1 for Office 2013 server products.
+Starting with the April 2015 release, all Office 2013 updates will only apply if Office 2013 SP1 is installed. See [KB2817430](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2817430) for more information about acquiring Office 2013 SP1 for client products, and[KB2880552](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2880552) for more information about SP1 for Office 2013 server products.
   
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
@@ -109,9 +109,9 @@ Starting with the April 2015 release, all Office 2013 updates will only apply if
 
 #### 
 
-[Office Updates](http://technet.microsoft.com/library/564f1df0-0f10-427e-af8e-2c8fb7fdd382.aspx)
+[Office Updates](https://technet.microsoft.com/library/564f1df0-0f10-427e-af8e-2c8fb7fdd382.aspx)
   
-[SharePoint Updates](http://technet.microsoft.com/library/3e6a2836-2cf8-4105-b9f2-643c3164a5c3.aspx)
+[SharePoint Updates](https://technet.microsoft.com/library/3e6a2836-2cf8-4105-b9f2-643c3164a5c3.aspx)
   
-[Exchange Updates](http://technet.microsoft.com/library/6a8091d0-4f19-4ae7-9e44-fd1c9f5fbe19.aspx)
+[Exchange Updates](https://technet.microsoft.com/library/6a8091d0-4f19-4ae7-9e44-fd1c9f5fbe19.aspx)
 

@@ -35,7 +35,7 @@ New-SPweb -URL SiteCollectionURL/PWASiteName -Template pwa#0
 For example:
 
 ```
-New-SPweb -URL http://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
+New-SPweb -URL https://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
 ```
 
 The Project Web App site is now available at the URL that you specified.

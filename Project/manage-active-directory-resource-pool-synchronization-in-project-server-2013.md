@@ -127,7 +127,7 @@ In Project Server 2013, scheduling synchronization of your enterprise resource p
     
 3. On the Timer Job Status page, find and then click **Project Web App: Synchronization of AD with the Enterprise Resource Pool job for <PWA site name>**. 
     
-    For example: Project Web App: Synchronization of AD with the Enterprise Resource Pool job for http://contoso/pwa.
+    For example: Project Web App: Synchronization of AD with the Enterprise Resource Pool job for https://contoso/pwa.
     
 4. On the Edit Timer Job page, in the **Recurring Schedule** section, you can configure when the synchronization will run on a recurring basis. Under **This timer job is scheduled to run**, you can select one of the following options, based on your company's requirements:
     
@@ -188,7 +188,7 @@ For example, the Contoso.com domain has a two-way trust with Litware.com and Fab
   
 [Manage security group synchronization with Active Directory in Project Server](manage-security-group-synchronization-with-active-directory-in-project-server.md)
 
-[People Picker and claims providers overview (SharePoint 2013)](http://technet.microsoft.com/library/bf8717c2-463d-4e8d-acaf-f186b5907df1.aspx)
+[People Picker and claims providers overview (SharePoint 2013)](https://technet.microsoft.com/library/bf8717c2-463d-4e8d-acaf-f186b5907df1.aspx)
   
-[Plan for People Picker in SharePoint 2013](http://technet.microsoft.com/library/2093c146-c880-48c6-9526-24cdf80969ba.aspx)
+[Plan for People Picker in SharePoint 2013](https://technet.microsoft.com/library/2093c146-c880-48c6-9526-24cdf80969ba.aspx)
 

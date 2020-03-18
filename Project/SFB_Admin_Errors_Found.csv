@@ -19,7 +19,7 @@ Warning,1029865c-ab8e-401e-a10f-13c77ebbdef3,Found nested table in md file:10298
 Warning,1029865c-ab8e-401e-a10f-13c77ebbdef3,Fixing missing end table tag in file:1029865c-ab8e-401e-a10f-13c77ebbdef3.md
 Warning,1029865c-ab8e-401e-a10f-13c77ebbdef3,Found invalid tables saving file:1029865c-ab8e-401e-a10f-13c77ebbdef3.md
 Warning,1223bffd-7e67-48cb-aee7-b6c5027ace16,Found a an ul list inside a table in html file:1223bffd-7e67-48cb-aee7-b6c5027ace16.xml
-Warning,1619f4b5-af74-41ee-8051-7eb99511d084,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Navigate to the root site (that is- http://&lt;servername&gt;).</p> in md file:1619f4b5-af74-41ee-8051-7eb99511d084.md total found:0
+Warning,1619f4b5-af74-41ee-8051-7eb99511d084,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Navigate to the root site (that is- https://&lt;servername&gt;).</p> in md file:1619f4b5-af74-41ee-8051-7eb99511d084.md total found:0
 Warning,1cfc7258-dabf-4be2-81c6-7c42d1a598e4,Found nested table in md file:1cfc7258-dabf-4be2-81c6-7c42d1a598e4.md
 Warning,1cfc7258-dabf-4be2-81c6-7c42d1a598e4,Fixing missing end table tag in file:1cfc7258-dabf-4be2-81c6-7c42d1a598e4.md
 Warning,1cfc7258-dabf-4be2-81c6-7c42d1a598e4,Found invalid tables saving file:1cfc7258-dabf-4be2-81c6-7c42d1a598e4.md
@@ -28,7 +28,7 @@ Warning,1d3f263d-efcf-4a32-88ad-13c5836f14df,Fixing missing end table tag in fil
 Warning,1d3f263d-efcf-4a32-88ad-13c5836f14df,Found invalid tables saving file:1d3f263d-efcf-4a32-88ad-13c5836f14df.md
 Warning,1fc96ddf-f44c-4b90-be39-ae4cdaa91af9,Found a an ul list inside a table in html file:1fc96ddf-f44c-4b90-be39-ae4cdaa91af9.xml
 Warning,1ff8d75f-637e-4474-acdc-f57b6390f59d,Found a an ul list inside a table in html file:1ff8d75f-637e-4474-acdc-f57b6390f59d.xml
-Warning,227b341e-0b3a-4469-a4cf-de70f9f4b98d,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form http://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:227b341e-0b3a-4469-a4cf-de70f9f4b98d.md total found:0
+Warning,227b341e-0b3a-4469-a4cf-de70f9f4b98d,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form https://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:227b341e-0b3a-4469-a4cf-de70f9f4b98d.md total found:0
 Warning,227b341e-0b3a-4469-a4cf-de70f9f4b98d,Found nested table in md file:227b341e-0b3a-4469-a4cf-de70f9f4b98d.md
 Warning,227b341e-0b3a-4469-a4cf-de70f9f4b98d,Fixing missing end table tag in file:227b341e-0b3a-4469-a4cf-de70f9f4b98d.md
 Warning,227b341e-0b3a-4469-a4cf-de70f9f4b98d,Found invalid tables saving file:227b341e-0b3a-4469-a4cf-de70f9f4b98d.md
@@ -50,7 +50,7 @@ Warning,2e6fc417-d882-4e7a-b0fc-94c2a72a0b0d,Found invalid tables saving file:2e
 Warning,30267248-e652-4fba-bb36-5ecdb2981132,Found a an ul list inside a table in html file:30267248-e652-4fba-bb36-5ecdb2981132.xml
 Warning,32d82f51-546a-42a3-ade5-54cc4dfdcb87,Found a an ul list inside a table in html file:32d82f51-546a-42a3-ade5-54cc4dfdcb87.xml
 Warning,32d82f51-546a-42a3-ade5-54cc4dfdcb87,Missing tables headers in file:32d82f51-546a-42a3-ade5-54cc4dfdcb87.md
-Warning,3f2609cd-74cc-4695-a27a-a400e369a07e,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form http://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:3f2609cd-74cc-4695-a27a-a400e369a07e.md total found:0
+Warning,3f2609cd-74cc-4695-a27a-a400e369a07e,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form https://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:3f2609cd-74cc-4695-a27a-a400e369a07e.md total found:0
 Warning,3f2609cd-74cc-4695-a27a-a400e369a07e,Found nested table in md file:3f2609cd-74cc-4695-a27a-a400e369a07e.md
 Warning,3f2609cd-74cc-4695-a27a-a400e369a07e,Fixing missing end table tag in file:3f2609cd-74cc-4695-a27a-a400e369a07e.md
 Warning,3f2609cd-74cc-4695-a27a-a400e369a07e,Found invalid tables saving file:3f2609cd-74cc-4695-a27a-a400e369a07e.md
@@ -95,7 +95,7 @@ Warning,6f4a1de6-878d-49cf-b759-352b717ddde2,Found nested table in md file:6f4a1
 Warning,6f4a1de6-878d-49cf-b759-352b717ddde2,Fixing missing end table tag in file:6f4a1de6-878d-49cf-b759-352b717ddde2.md
 Warning,6f4a1de6-878d-49cf-b759-352b717ddde2,Fixing missing end table tag in file:6f4a1de6-878d-49cf-b759-352b717ddde2.md
 Warning,6f4a1de6-878d-49cf-b759-352b717ddde2,Found invalid tables saving file:6f4a1de6-878d-49cf-b759-352b717ddde2.md
-Warning,6fe13e13-61b8-483b-8dae-4cc82eabafc6,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form http://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:6fe13e13-61b8-483b-8dae-4cc82eabafc6.md total found:0
+Warning,6fe13e13-61b8-483b-8dae-4cc82eabafc6,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form https://&lt;ServerName&gt;/&lt;PWAName&gt;. </p> in md file:6fe13e13-61b8-483b-8dae-4cc82eabafc6.md total found:0
 Warning,6fe13e13-61b8-483b-8dae-4cc82eabafc6,Found nested table in md file:6fe13e13-61b8-483b-8dae-4cc82eabafc6.md
 Warning,6fe13e13-61b8-483b-8dae-4cc82eabafc6,Fixing missing end table tag in file:6fe13e13-61b8-483b-8dae-4cc82eabafc6.md
 Warning,6fe13e13-61b8-483b-8dae-4cc82eabafc6,Found invalid tables saving file:6fe13e13-61b8-483b-8dae-4cc82eabafc6.md
@@ -109,7 +109,7 @@ Warning,8d89e112-4522-477e-be5d-467af1eb1060,Found a an ul list inside a table i
 Warning,8f7ef435-af46-4575-baef-4f36d7debf24,Found nested table in md file:8f7ef435-af46-4575-baef-4f36d7debf24.md
 Warning,8f7ef435-af46-4575-baef-4f36d7debf24,Fixing missing end table tag in file:8f7ef435-af46-4575-baef-4f36d7debf24.md
 Warning,8f7ef435-af46-4575-baef-4f36d7debf24,Found invalid tables saving file:8f7ef435-af46-4575-baef-4f36d7debf24.md
-Warning,94b48cf9-dc40-4c8e-afd8-39e2fbd125a4,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>(<a href="http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx" target="_blank">Get-SPWebApplication</a> &lt;SPWebAppPipeBind&gt;).MigrateUsers($true) </p> in md file:94b48cf9-dc40-4c8e-afd8-39e2fbd125a4.md total found:0
+Warning,94b48cf9-dc40-4c8e-afd8-39e2fbd125a4,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>(<a href="https://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx" target="_blank">Get-SPWebApplication</a> &lt;SPWebAppPipeBind&gt;).MigrateUsers($true) </p> in md file:94b48cf9-dc40-4c8e-afd8-39e2fbd125a4.md total found:0
 Warning,94b48cf9-dc40-4c8e-afd8-39e2fbd125a4,Found nested table in md file:94b48cf9-dc40-4c8e-afd8-39e2fbd125a4.md
 Warning,94b48cf9-dc40-4c8e-afd8-39e2fbd125a4,Fixing missing end table tag in file:94b48cf9-dc40-4c8e-afd8-39e2fbd125a4.md
 Warning,94b48cf9-dc40-4c8e-afd8-39e2fbd125a4,Found invalid tables saving file:94b48cf9-dc40-4c8e-afd8-39e2fbd125a4.md
@@ -190,7 +190,7 @@ Warning,cc10a269-8dde-4d1c-b879-5c4cccf0a5bd,Fixing missing end table tag in fil
 Warning,cc10a269-8dde-4d1c-b879-5c4cccf0a5bd,Fixing missing end table tag in file:cc10a269-8dde-4d1c-b879-5c4cccf0a5bd.md
 Warning,cc10a269-8dde-4d1c-b879-5c4cccf0a5bd,Fixing missing end table tag in file:cc10a269-8dde-4d1c-b879-5c4cccf0a5bd.md
 Warning,cc10a269-8dde-4d1c-b879-5c4cccf0a5bd,Found invalid tables saving file:cc10a269-8dde-4d1c-b879-5c4cccf0a5bd.md
-Warning,cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form http://&lt;server_name&gt;/&lt;PWA_name&gt;. </p> in md file:cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf.md total found:0
+Warning,cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form https://&lt;server_name&gt;/&lt;PWA_name&gt;. </p> in md file:cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf.md total found:0
 Warning,cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf,Found nested table in md file:cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf.md
 Warning,cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf,Fixing missing end table tag in file:cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf.md
 Warning,cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf,Found invalid tables saving file:cc1180f0-75cc-4cdf-b9ee-4350b6e27fdf.md
@@ -220,7 +220,7 @@ Warning,da1217a9-ca83-4d68-83f9-5e1632984b9b,Found invalid tables saving file:da
 Warning,e20a4d90-9a66-416d-b519-f61bbf8fc83b,Found nested table in md file:e20a4d90-9a66-416d-b519-f61bbf8fc83b.md
 Warning,e20a4d90-9a66-416d-b519-f61bbf8fc83b,Fixing missing end table tag in file:e20a4d90-9a66-416d-b519-f61bbf8fc83b.md
 Warning,e20a4d90-9a66-416d-b519-f61bbf8fc83b,Found invalid tables saving file:e20a4d90-9a66-416d-b519-f61bbf8fc83b.md
-Warning,e4384366-5945-4fb4-a4ce-03ec1a013602,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form http://&lt;ServerName&gt;/&lt;PWASite&gt;. </p> in md file:e4384366-5945-4fb4-a4ce-03ec1a013602.md total found:0
+Warning,e4384366-5945-4fb4-a4ce-03ec1a013602,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The type must be a valid URL- in the form https://&lt;ServerName&gt;/&lt;PWASite&gt;. </p> in md file:e4384366-5945-4fb4-a4ce-03ec1a013602.md total found:0
 Warning,e4384366-5945-4fb4-a4ce-03ec1a013602,Found nested table in md file:e4384366-5945-4fb4-a4ce-03ec1a013602.md
 Warning,e4384366-5945-4fb4-a4ce-03ec1a013602,Fixing missing end table tag in file:e4384366-5945-4fb4-a4ce-03ec1a013602.md
 Warning,e4384366-5945-4fb4-a4ce-03ec1a013602,Found invalid tables saving file:e4384366-5945-4fb4-a4ce-03ec1a013602.md
@@ -239,5 +239,5 @@ Warning,f4fc43cd-87ee-41f1-8540-7aa795827d83,Found nested table in md file:f4fc4
 Warning,f4fc43cd-87ee-41f1-8540-7aa795827d83,Fixing missing end table tag in file:f4fc43cd-87ee-41f1-8540-7aa795827d83.md
 Warning,f4fc43cd-87ee-41f1-8540-7aa795827d83,Found invalid tables saving file:f4fc43cd-87ee-41f1-8540-7aa795827d83.md
 Warning,f7b97b0f-d7f9-42ef-bbee-e220daedd06e,Video is found in md file:f7b97b0f-d7f9-42ef-bbee-e220daedd06e.md total found:1
-Warning,f7b97b0f-d7f9-42ef-bbee-e220daedd06e,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Navigate to the root site (that is- http://&lt;servername&gt;).</p> in md file:f7b97b0f-d7f9-42ef-bbee-e220daedd06e.md total found:0
+Warning,f7b97b0f-d7f9-42ef-bbee-e220daedd06e,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Navigate to the root site (that is- https://&lt;servername&gt;).</p> in md file:f7b97b0f-d7f9-42ef-bbee-e220daedd06e.md total found:0
 

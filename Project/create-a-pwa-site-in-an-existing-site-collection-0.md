@@ -34,8 +34,8 @@ Upgrade-SPProjectWebInstance -Identity SiteCollectionURL -Confirm:$False
 For example:
   
 ```
-New-SPweb -URL http://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
-Upgrade-SPProjectWebInstance -Identity http://contoso-appsrv1/sites/ContosoProjects -Confirm:$False
+New-SPweb -URL https://contoso-appsrv1/sites/ContosoProjects/PWA -Template pwa#0
+Upgrade-SPProjectWebInstance -Identity https://contoso-appsrv1/sites/ContosoProjects -Confirm:$False
 ```
 
 After you have created the Project Web App site and run **Upgrade-SPProjectWebInstance**, you must run iisreset on each application server in the farm. To run iisreset, open a command window, and type:
@@ -50,9 +50,9 @@ The Project Web App site is now available at the URL that you specified.
 
 #### 
 
-[New-SPWeb](http://technet.microsoft.com/library/1ea28725-5b75-49f9-b69c-5ff0edf31459.aspx)
+[New-SPWeb](https://technet.microsoft.com/library/1ea28725-5b75-49f9-b69c-5ff0edf31459.aspx)
   
-[Upgrade-SPProjectWebInstance](http://technet.microsoft.com/library/014804fa-0006-462d-9c40-70a487fd6819.aspx)
+[Upgrade-SPProjectWebInstance](https://technet.microsoft.com/library/014804fa-0006-462d-9c40-70a487fd6819.aspx)
   
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 
