@@ -33,6 +33,6 @@ The following articles about upgrading to Project Server 2016 are available to v
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> |Learn how to upgrade to Project Server 2016.  <br/> |
    
 > [!NOTE]
-> For information about upgrading to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](http://technet.microsoft.com/library/40d265d9-dd16-405f-8c85-390975024bad.aspx). 
+> For information about upgrading to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](https://technet.microsoft.com/library/40d265d9-dd16-405f-8c85-390975024bad.aspx). 
   
 
