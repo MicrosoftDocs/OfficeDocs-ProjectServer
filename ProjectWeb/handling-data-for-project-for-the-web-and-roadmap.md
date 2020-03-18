@@ -28,6 +28,8 @@ Project for the web is built on the [Microsoft Power Platform](https://powerplat
 
 Since Project for the web data is stored in CDS, data retention policies differ from Project Online (whose data is stored in Office 365).  When your Project Online subscription ends, your data is retained for 90 days before it is automatically deleted (in accordance to [Office 365 data retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)).  However, if you use Project for the web (which is included in Project Plan 1, Project Plan 3, and Project Plan 5 licenses), that data is not automatically deleted 90 days after your subscription ends. 
 
+You can remove all Project for the web or Roadmap data by [removing the entire solution from from Microsoft 365](https://docs.microsoft.com/en-us/project-for-the-web/remove-roadmap-from-office-365).
+
 
 ## Where is my data located
 
@@ -49,7 +51,7 @@ Similarly, an admin can also [manually delete Project Online data](https://docs.
 
 ## Turn off Project for the web
 
-An admin can choose to [turn off Project for the web to specific users in their organization](https://review.docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off?branch=efrene-v2working#turn-off-project-for-the-web-for-specific-users-in-your-organization). This can be done through the Microsoft 365 admin center or through Windows PowerShell. 
+An admin can choose to either [turn off Project for the web to your organization](https://docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off#turn-project-for-the-web-on-or-off-for-all-users-in-your-organization) or choose to [turn off Project for the web to specific users in their organization](https://docs.microsoft.com/project-for-the-web/turn-project-for-the-web-off#turn-off-project-for-the-web-for-specific-users-in-your-organization). 
 
  > [!Note] 
  > When you turn off Project for the web to individual users in your tenant, you will also turn off the Roadmap feature for those users.
@@ -67,7 +69,7 @@ An admin may want certain users to have access to Project for the web and the Ro
 
 ## See Also
   
-[Turn Project for the web off](turn-project-for-the-web-off.md)</br>
+
 [Project for web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)
 
 
