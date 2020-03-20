@@ -158,13 +158,13 @@ Follow this procedure twice: once for each library.
     
     For the Templates library:
     
-     `http://<servername>/<projectsitename>/ProjectBICenter/Templates/`
+     `https://<servername>/<projectsitename>/ProjectBICenter/Templates/`
     
     or
     
     For the Sample Reports library:
     
-     `http://<servername>/<projectsitename>/ProjectBICenter/Sample%20Reports/`
+     `https://<servername>/<projectsitename>/ProjectBICenter/Sample%20Reports/`
     
 6. In the **Trust Children** section, confirm that the **Children trusted** check box is selected.
     
@@ -206,7 +206,7 @@ Use the following procedure to determine the URL of the data connection library 
     
 5. In the **Address** box, paste the URL for the data connection library that you copied in the previous procedure. It should be in the following format:
     
-     `http://<ServerName>/<ProjectSiteName>/ProjectBICenter/Data%20Connections/English%20(United%20States)`
+     `https://<ServerName>/<ProjectSiteName>/ProjectBICenter/Data%20Connections/English%20(United%20States)`
     
 6. Click **OK**.
     

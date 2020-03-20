@@ -39,7 +39,7 @@ This article describes how to configure a SQL Server Analysis Services cube for 
 ## Before you begin
 <a name="begin"> </a>
 
-This article assumes that you have completed all of the steps in [Configure reporting for Project Web App (Project Server 2013)](http://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx). The procedures in this article make use of the Active Directory groups and accounts that you created in the reporting configuration article.
+This article assumes that you have completed all of the steps in [Configure reporting for Project Web App (Project Server 2013)](https://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx). The procedures in this article make use of the Active Directory groups and accounts that you created in the reporting configuration article.
   
 Before you begin, make sure you have the following:
   
@@ -174,7 +174,7 @@ Use the following procedure to grant users access to the OLAP cube.
 [Active Directory Resource Pool Synchronization for Project Server 2013](active-directory-resource-pool-synchronization-for-project-server-2013.md)
 #### 
 
-[Configure reporting for Project Web App (Project Server 2013)](http://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx)
+[Configure reporting for Project Web App (Project Server 2013)](https://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx)
   
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

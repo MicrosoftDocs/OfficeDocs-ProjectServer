@@ -84,19 +84,19 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://contoso/pwa1" class="uri">http://contoso/pwa1</a> </td>
+<td align="left"><a href="https://contoso/pwa1" class="uri">https://contoso/pwa1</a> </td>
 <td align="left">63ed0197-3647-4279-ed5e80855fc7 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL01 </td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://contoso/pwa2" class="uri">http://contoso/pwa2</a> </td>
+<td align="left"><a href="https://contoso/pwa2" class="uri">https://contoso/pwa2</a> </td>
 <td align="left">67fd0727-5279-3321-ef4e90956fc8 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL01 </td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://contoso/pwa3" class="uri">http://contoso/pwa3</a> </td>
+<td align="left"><a href="https://contoso/pwa3" class="uri">https://contoso/pwa3</a> </td>
 <td align="left">63ed0197-3647-4279-eg7e20233fg9 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL02 </td>

@@ -84,7 +84,7 @@ Test-SPContentDatabase -Name <contentdbName> -WebApplication <URL>
 For example:
 
 ```
-Test-SPContentDatabase -Name PWA_ContentDB -WebApplication http://Contoso:80  -ServerInstance SQLServer1
+Test-SPContentDatabase -Name PWA_ContentDB -WebApplication https://Contoso:80  -ServerInstance SQLServer1
 ```
 
 
@@ -110,7 +110,7 @@ Mount-SPContentDatabase -Name <contentdbName> -WebApplication <URL> -DatabaseSer
 For example:
 
 ```
-Mount-SPContentDatabase -Name PWA_ContentDB -WebApplication http://Contoso:80 -DatabaseServer SQLServer1 -NoB2BSiteUpgrade
+Mount-SPContentDatabase -Name PWA_ContentDB -WebApplication https://Contoso:80 -DatabaseServer SQLServer1 -NoB2BSiteUpgrade
 ```
 
 
@@ -132,7 +132,7 @@ Set-SPSite  -Identity <sitecollectionName> -SecondaryOwnerAlias <account>
 For example:
 
 ```
-Set-SPSite -Identity http://contoso/pwa -SecondaryOwnerAlias "contoso\\FarmAdmin"
+Set-SPSite -Identity https://contoso/pwa -SecondaryOwnerAlias "contoso\\FarmAdmin"
 ```
 
 
@@ -152,7 +152,7 @@ If you are migrating Project Server 2010 users who were using Windows Classic au
 For example:
 
 ```
-(Get-SPWebApplication http://contoso:80).migrateUsers($true)
+(Get-SPWebApplication https://contoso:80).migrateUsers($true)
 ```
 
 For more information about this method, see [SPWebApplication.MigrateUsers Method](https://msdn.microsoft.com/library/ee554321.aspx).
@@ -170,7 +170,7 @@ Test-SPSite -Identity <URL>
 For example:
 
 ```
-Test-SPSite -Identity http://contoso/pwa
+Test-SPSite -Identity https://contoso/pwa
 ```
 
 
@@ -182,7 +182,7 @@ The results display the number of "FailedWarningCounts" that it discovered throu
 
 ### To run a health check on the PWA site collection to view upgrade warning information
 
-1. In a browser window, enter the URL for the site (for example, http://contoso/pwa). At the end of the URL, type the following: /_layouts/15/settings.aspx. In this example, the complete URL would be http://contoso/pwa/_layouts/15/settings.aspx. This gives you a direct link to the Site Setting page. You cannot display the PWA site page because it has not been upgraded and is still in SharePoint Server 2010 mode.
+1. In a browser window, enter the URL for the site (for example, https://contoso/pwa). At the end of the URL, type the following: /_layouts/15/settings.aspx. In this example, the complete URL would be https://contoso/pwa/_layouts/15/settings.aspx. This gives you a direct link to the Site Setting page. You cannot display the PWA site page because it has not been upgraded and is still in SharePoint Server 2010 mode.
 
 2. On the PWA Site Settings page, in the **Site Collection Administration** section, click **Site Collection Health Checks**.
 
@@ -206,7 +206,7 @@ Upgrade-SPSite -Identity <URL> -versionupgrade
 For example
 
 ```
-Upgrade-SPSite -Identity http://contoso/pwa -versionupgrade
+Upgrade-SPSite -Identity https://contoso/pwa -versionupgrade
 ```
 
 
@@ -241,7 +241,7 @@ Convertto-SPProjectDatabase -WebApplication <URL> -Dbserver <databaseServerName>
 For example:
 
 ```
-Convertto-SPProjectDatabase -WebApplication http://contoso:80 -Dbserver SQLServer1 -ArchiveDbname ContosoProjectArchived -DraftDbname ContosoProjectDraft -PublishedDbname ContosoProjectPublished -ReportingDbname ContosoProjectReporting -ProjectServiceDbname ContosoProjectWebApp1 
+Convertto-SPProjectDatabase -WebApplication https://contoso:80 -Dbserver SQLServer1 -ArchiveDbname ContosoProjectArchived -DraftDbname ContosoProjectDraft -PublishedDbname ContosoProjectPublished -ReportingDbname ContosoProjectReporting -ProjectServiceDbname ContosoProjectWebApp1 
 ```
 
 
@@ -270,7 +270,7 @@ Mount-SPProjectDatabase -Name <ProjectWebAppdbName> -WebApplication<URL> -Databa
 For example:
 
 ```
-Mount-SPProjectDatabase -Name ContosoProjectWebApp1 -WebApplication http://contoso:80 -DatabaseServer SQLServer1
+Mount-SPProjectDatabase -Name ContosoProjectWebApp1 -WebApplication https://contoso:80 -DatabaseServer SQLServer1
 ```
 
 
@@ -314,7 +314,7 @@ Upgrade-SPProjectDatabase -Name <ProjectWebAppdbName> -WebApplication <URL> -Dat
 For example:
 
 ```
-Upgrade-SPProjectDatabase -Name ContosoProjectWebApp1 -WebApplication http://contoso:80 -DatabaseServer SQLServer1
+Upgrade-SPProjectDatabase -Name ContosoProjectWebApp1 -WebApplication https://contoso:80 -DatabaseServer SQLServer1
 ```
 
 
@@ -339,7 +339,7 @@ Mount-SPProjectWebInstance -DatabaseName <ProjectWebAppdbName> -SiteCollection<U
 For example:
 
 ```
-Mount-SPProjectWebInstance -DatabaseName ContosoProjectWebApp1 -SiteCollection http://contoso/pwa -DatabaseServer SQLServer1 
+Mount-SPProjectWebInstance -DatabaseName ContosoProjectWebApp1 -SiteCollection https://contoso/pwa -DatabaseServer SQLServer1 
 ```
 
 
@@ -364,7 +364,7 @@ Test-SPProjectWebInstance -Identity <URL or Site ID>
 For example:
 
 ```
-Test-SPProjectWebInstance -Identity http://contoso/pwa
+Test-SPProjectWebInstance -Identity https://contoso/pwa
 ```
 
 
@@ -385,7 +385,7 @@ Upgrade-SPProjectWebInstance -Identity <URL or site ID>
 For example:
 
 ```
-Upgrade-SPProjectWebInstance -Identity http://contoso/pwa
+Upgrade-SPProjectWebInstance -Identity https://contoso/pwa
 ```
 
 
@@ -408,7 +408,7 @@ Enable-SPFeature -Identity pwasite -URL <ProjectSiteCollection>
 For example:
 
 ```
-Enable-SPFeature -Identity pwasite -URL http://contoso/PWA
+Enable-SPFeature -Identity pwasite -URL https://contoso/PWA
 ```
 
 

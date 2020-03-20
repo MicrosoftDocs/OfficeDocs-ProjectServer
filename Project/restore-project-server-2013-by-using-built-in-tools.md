@@ -20,7 +20,7 @@ description: "Summary: You can do specific restores of Project Server 2013 in mu
   
 Sometimes you must do a restore of your Project Server 2013 components, either into a new SharePoint Server 2013 environment or your existing SharePoint Server 2013 environment. If this is the case, your options depend on the SQL Server or SharePoint backups available to you. This article describes scenarios for the restore process for the built-in restore options recommended by Microsoft.
   
-Before restoring your Project Server components to a SharePoint farm, make sure that you have reviewed the requirements for SharePoint restoration at [Restore farms in SharePoint 2013](http://technet.microsoft.com/library/7942ef65-c309-402d-b4bb-d54e686fc5d9.aspx). 
+Before restoring your Project Server components to a SharePoint farm, make sure that you have reviewed the requirements for SharePoint restoration at [Restore farms in SharePoint 2013](https://technet.microsoft.com/library/7942ef65-c309-402d-b4bb-d54e686fc5d9.aspx). 
   
 Some of the decisions which must be made when you are prepared to restore are as follows:
   
@@ -38,7 +38,7 @@ Some of the decisions which must be made when you are prepared to restore are as
     
 Consider the following before you try to restore your Project Server 2013 sites and components:
   
-- When considering a Project Server 2013 component restore, you'll be restoring at least one Project Server service application (or at least its database) and one or more content databases that contain Project Web Access sites. If you want to restore additional SharePoint components, you can review the SharePoint articles at [Backup solutions in SharePoint 2013](http://technet.microsoft.com/library/79d47308-a90a-4c51-a1ae-93567e978236.aspx).
+- When considering a Project Server 2013 component restore, you'll be restoring at least one Project Server service application (or at least its database) and one or more content databases that contain Project Web Access sites. If you want to restore additional SharePoint components, you can review the SharePoint articles at [Backup solutions in SharePoint 2013](https://technet.microsoft.com/library/79d47308-a90a-4c51-a1ae-93567e978236.aspx).
     
 ## Scenario one: You have SQL Server database backups
 
@@ -197,7 +197,7 @@ You have to restore a backup of your SharePoint farm to a last known good config
   
 6. The restore should continue until it is completed. If there are errors, you can review the restore log located at the backup path. If there are no errors, you should be able to confirm that your Project Server components are now in the restore farm.
     
-For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx).
+For more information, see [Restore-SPFarm](https://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx).
 > [!NOTE]
 > We recommend that you use Windows PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   

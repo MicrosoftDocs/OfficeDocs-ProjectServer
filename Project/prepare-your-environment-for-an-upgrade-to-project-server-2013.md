@@ -77,7 +77,7 @@ When you upgrade your Project Server 2010 databases to Project Server 2013, your
 
 The following are current known issues that occur when upgrading to Project Server 2013: 
 
-- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the Project Web App ribbon, you only see the Basic Project Plan and the Sample Proposal. You do not see other project types that are available in Project Server 2013. After upgrading to Project Server 2013, you can correct this known issue with a simple workaround that is described in[Post-upgrade tasks (Project Server 2013)](https//technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx).
+- Upon completing the upgrade from Project Server 2010 to Project Server 2013, if you click **New** in the Project Web App ribbon, you only see the Basic Project Plan and the Sample Proposal. You do not see other project types that are available in Project Server 2013. After upgrading to Project Server 2013, you can correct this known issue with a simple workaround that is described in[Post-upgrade tasks (Project Server 2013)](https://technet.microsoft.com/library/2d27658e-cf30-4f9f-8768-39de5a41e22f.aspx).
 
 - In Project Server 2010, the **Prevent Active Directory synchronization for this user** option is available for each user in the user's property page. Selecting this option will allow you to manually specify the security group membership for the user and prevent the user's memberships from being altered when synchronizing security groups with Active Directory. When upgrading from Project Server 2010 to Project Server 2013, this option is no longer available.
 

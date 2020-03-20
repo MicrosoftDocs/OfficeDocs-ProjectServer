@@ -127,7 +127,7 @@ In Project Server 2013, scheduling synchronization of your enterprise resource p
     
 3. On the Timer Job Status page, find and then click **Project Web App: Synchronization of AD with the Enterprise Resource Pool job for <PWA site name>**. 
     
-    For example: Project Web App: Synchronization of AD with the Enterprise Resource Pool job for http://contoso/pwa.
+    For example: Project Web App: Synchronization of AD with the Enterprise Resource Pool job for https://contoso/pwa.
     
 4. On the Edit Timer Job page, in the **Recurring Schedule** section, you can configure when the synchronization will run on a recurring basis. Under **This timer job is scheduled to run**, you can select one of the following options, based on your company's requirements:
     
