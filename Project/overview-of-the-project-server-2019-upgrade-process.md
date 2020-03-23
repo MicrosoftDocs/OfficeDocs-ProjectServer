@@ -40,8 +40,8 @@ Upgrading to Project Server 2019 can be broken up into four steps. These include
     
    - SharePoint 2016 content database that contains your project site collections
     
-3. Use the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to attach and upgrade the SharePoint 2016 content database containing your Project site data to the Project Server 2019.
+3. Use the [Mount-SPContentDatabase](https://docs.microsoft.com/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to attach and upgrade the SharePoint 2016 content database containing your Project site data to the Project Server 2019.
     
-4. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to check your upgraded SharePoint content databases.
+4. Use the [Test-SPContentDatabase](https://docs.microsoft.com/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to check your upgraded SharePoint content databases.
     
    

@@ -92,7 +92,7 @@ At a high-level, some key architecture changes for Project Server 2013 include t
 - **Azure cloud services for Project Online**: For Project Online users in Office 365, data is stored in the Azure cloud services operating system.
 
     > [!NOTE]
-    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](https://msdn.microsoft.com/en-us/library/office/ee767687.aspx). 
+    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](https://msdn.microsoft.com/library/office/ee767687.aspx). 
 
 ## Multi-tenancy support
 <a name="section3"> </a>
