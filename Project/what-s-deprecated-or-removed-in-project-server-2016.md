@@ -146,7 +146,7 @@ In Project Servers 2016, Project Server Interface (PSI) extension scenarios are 
 #### 
 
 
-[New and improved features in SharePoint Server 2016](https://docs.microsoft.com/en-us/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
+[New and improved features in SharePoint Server 2016](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
 
 [What's deprecated from SharePoint Server 2016](https://docs.microsoft.com/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016)
 
