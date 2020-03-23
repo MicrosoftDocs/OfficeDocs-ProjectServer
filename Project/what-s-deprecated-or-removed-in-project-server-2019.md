@@ -14,7 +14,6 @@ ms.collection:
 ms.assetid: 04fee973-5623-4768-a3ba-c109e45dd7eb
 description: "Learn what has been deprecated or removed in Project Server 2019."
 ---
-**Applies to:** Project Server 2019 
 
 # What's deprecated or removed in Project Server 2019 
 Learn what has been deprecated or removed in Project Server 2019.
