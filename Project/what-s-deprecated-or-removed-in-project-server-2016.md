@@ -14,7 +14,6 @@ ms.collection:
 ms.assetid: 04fee973-5623-4768-a3ba-c109e45dd7eb
 description: "Learn what has been deprecated or removed in Project Servers 2016."
 ---
-**Applies to:** Project Server 2016
 
 # What's deprecated or removed in Project Servers 2016 
 Learn what has been deprecated or removed in Project Servers 2016.
