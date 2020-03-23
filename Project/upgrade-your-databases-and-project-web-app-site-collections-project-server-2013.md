@@ -155,7 +155,7 @@ For example:
 (Get-SPWebApplication https://contoso:80).migrateUsers($true)
 ```
 
-For more information about this method, see [SPWebApplication.MigrateUsers Method](https://msdn.microsoft.com/en-us/library/ee554321.aspx).
+For more information about this method, see [SPWebApplication.MigrateUsers Method](https://msdn.microsoft.com/library/ee554321.aspx).
 
 ### 5. Check your PWA Site collection for issues that can cause upgrade of the site to fail
 

@@ -148,8 +148,8 @@ In Project Server 2019, Project Server Interface (PSI) extension scenarios are n
 [What's new for IT pros in Project Server 2019 ](what-s-new-for-it-pros-in-project-server-2019.md)
 
 
-[New and improved features in SharePoint Server 2019 ](https://docs.microsoft.com/en-us/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
+[New and improved features in SharePoint Server 2019 ](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
 
 
-[What's deprecated from SharePoint Server 2019 ](https://docs.microsoft.com/en-us/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019)
+[What's deprecated from SharePoint Server 2019 ](https://docs.microsoft.com/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019)
   
