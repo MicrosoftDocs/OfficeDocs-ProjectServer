@@ -28,7 +28,7 @@ This article gives you an overview of the logical architecture that exists for k
 
 ## Key Project apps 
 
-The architecture diagram above shows the key apps that are available through available Project Plan subscriptions: 
+The architecture diagram above shows the key apps that are available through Project Plan subscriptions: 
 
 - Project Online Desktop Client
 - Project Online
