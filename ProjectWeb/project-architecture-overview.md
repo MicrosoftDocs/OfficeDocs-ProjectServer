@@ -3,7 +3,7 @@ title: "Project architecture overview"
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 3/15/2020
+ms.date: 3/27/2020
 audience: admin
 ms.topic: article
 ms.service: 
@@ -14,7 +14,7 @@ description: "Get a high-level overview of the Project logical architecture."
 
 # Project architecture overview
 
-This article gives you an overview of the logical architecture that exists for key services that are provided in Project.
+This article gives you an overview of the logical architecture that exists for key apps that are provided in Project.
 
 
 
@@ -26,9 +26,9 @@ This article gives you an overview of the logical architecture that exists for k
 
 
 
-## Key Project apps and services
+## Key Project apps 
 
-The architecture diagram above shows the key services that are available through available Project Plan subscriptions: 
+The architecture diagram above shows the key apps that are available through available Project Plan subscriptions: 
 
 - Project Online Desktop Client
 - Project Online
@@ -39,7 +39,7 @@ For more details about features that are available through these project apps an
 
 ### Project Plans
 
-The key Project apps and services described in this article are available in the following Project Plans.
+The key Project apps described in this article are available in the following Project Plans.
 
 |**Plan**|**Project Plan 1**|**Project Plan 3**|**Project Plan 5**|
 |:-----|:-----|:-----|:----|
