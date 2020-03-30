@@ -23,7 +23,7 @@ Access to Project for the web is available to users if they are assigned one of 
 Users who have Project Plan 3 and Project Plan 5 licenses have access to not only Project Online and the Project Online Desktop Client, but also Project for the web and Roadmap. 
 
 > [!Note]
-> Roadmap is not available through the Project Plan 1 license.
+> Users only have read-only access to Roadmap through the Project Plan 1 license.
 
 ## How admins can control access to Project for the web and Roadmap
 
