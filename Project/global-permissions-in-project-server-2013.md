@@ -39,7 +39,7 @@ The following is a list of global permissions for Project Server 2013. The colum
 |Can be Delegate  <br/> |Specifies whether a user can be a delegate.  <br/> |||
 |Change Workflow  <br/> |Allows a user to change a project's Enterprise Project type. (Change Project Type).  <br/> |||
 |Clean up Project Server database  <br/> |Allows a user to access the Delete Enterprise Objects page available through the Server Settings page in Project Web App. Grant this permission to users who have to delete timesheets, status reports responses, projects, resources, users, and user delegates from Project Server.  <br/> |||
-|Contribute to Project Web App  <br/> |Allows users to edit items within lists in Project Web App project sites.  <br/> |||
+|Contribute to Project Web App  <br/> |Allows users to edit items within lists in the Project Web App root site.  <br/> |||
 |Edit Status Report Requests  <br/> |Allows a user to access the Request a status report link on the Project Web App Status Reports center and to view team reports. Grant this permission to any member of your organization who has to create status report requests and view team reports, usually project managers, resource managers, team leads, and members of your organization's PMO.  <br/> |||
 |Log on  <br/> |Allows a user to connect to Project Server from Project Professional or to log on to Project Web App. Grant this permission to any user who is authorized to connect to Project Server from Project Professional or log on to Project Web App.  <br/> |||
 |Log on to Project Server from Project Professional  <br/> |Allows a user to load the Enterprise Global Template when he or she connects Project Professional to Project Server. Grant this permission to all users in your organization who will be using Project Professional to connect to Project Server.  <br/> |||
@@ -51,7 +51,7 @@ The following is a list of global permissions for Project Server 2013. The colum
 |Manage Enterprise Custom Fields  <br/> |Allows a user to modify the definitions of Enterprise Custom Fields and lookup table from Project Web App.  <br/> |||
 |Manage Exchange Integration  <br/> |Allows administrators to enable the synchronization of project tasks with Exchange Server.  <br/> |||
 |Manage Gantt Chart and Grouping Formats  <br/> |Allows a user to access the Gantt chart and grouping formats customization options in the Project Server Administration page for Project Web App views.  <br/> |||
-|Manage Lists in Project Web App  <br/> |Allows a user to create, modify, and delete lists within the Project Web App project site. This permission is used when you synchronize a user against the Project Web App project site.  <br/> |||
+|Manage Lists in Project Web App  <br/> |Allows a user to create, modify, and delete lists within the Project Web App project site. This permission is used when you synchronize a user against the Project Web App root  site.  <br/> |||
 |Manage Notification and Reminders  <br/> |Allows a user to manage the Notification and Reminders settings.  <br/> |||
 |Manage My Delegates  <br/> |Allows users to see the "Manage Delegates" link and to set a delegate on the "Add/Modify Delegation" page.  <br/> |||
 |Manage My Resource Delegates  <br/> |Allows users to set a user who requires a substitute on the Add/Modify Delegation page.  <br/> |||
