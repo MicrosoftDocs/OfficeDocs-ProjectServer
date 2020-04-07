@@ -70,6 +70,15 @@ If an admin tries to access the Project settings page and receives the error mes
 > [!Important]
 > Turning Project for the web on or off will have no effect on your ability to use Project Online. </br>
 
+### Project for the web is not turned on for your organization
+
+If your licensed users were previously able to use Project for the web, but are no longer able to, you can resolve this by turning on Project for the web in the steps described above.
+
+The problem will appear as:
+- Your users will no longer see the **New blank project** option on the Project Home page.
+- When opening a project, users will see the error **Project is not turned on for your organization**. 
+
+
 ## Turn off Project for the web for specific users in your organization
 
  An admin can manage access to Project for the web for specific users by turning off the service for their associated Project Plan licenses. This assumes that that Project for the web is turned turned on for the organization in the Project settings page in the Microsoft 365 admin center.
@@ -161,7 +170,7 @@ An admin can do the following to turn Roadmap on or off for their organization:
 If your licensed users were previously able to use Roadmap, but are no longer able to, you can resolve this by turning on Roadmap in the steps described above.
 
 The problem will appear as:
-1. Your users will no longer see the **Create Roadmap** option on the Project Home page.
+1. Your users will no longer see the **New Roadmap** option on the Project Home page.
 2. When opening a roadmap, users will see the error **Roadmap is not turned on for your organization**.
 
 
