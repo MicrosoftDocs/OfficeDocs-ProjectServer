@@ -44,15 +44,15 @@ The key Project apps described in this article are available in the following Pr
 
 |**Plan**|**Project Plan 1**|**Project Plan 3**|**Project Plan 5**|
 |:-----|:-----|:-----|:----|
-|Project or the web  <br/> |Yes  <br/> |Yes  |Yes|
-|Roadmap <br/>| No | Yes|Yes |
-|Project Online <br/> |No  <br/> |Yes| Yes|
-|Project Online Desktop Client<br/> |  No<br/> |Yes | Yes|
+|Project or the web  <br/> |Available  <br/> |Available  |Available|
+|Roadmap <br/>| Read-Only | Available|Available |
+|Project Online <br/> |Not Available  <br/> |Available| Available|
+|Project Online Desktop Client<br/> |  Not Available<br/> |Available | Available|
 
 
 
 > [!Note] 
-> In Project Plan 1, you can view roadmaps in read-only mode. 
+> In Project Plan 1, users can only view roadmaps in read-only mode. 
 
 For more details on Project Plans, see the [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
@@ -67,14 +67,8 @@ Just like Project Online, users can access their Project for the web projects th
 ### Data storage
 Project for the web data is saved to the Common Data Service (CDS). CDS is part of the Microsoft Power Platform, which Project for the web is built on.  
 
-When Project for the web or Roadmap are first used in an Office 365 tenant, a Default CDS instance is provisioned for the tenant. Project for the web data is saved to the following [CDS Solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview):
+When Project for the web or Roadmap are first used in an Office 365 tenant, a Default CDS instance is provisioned for the tenant. Project for the web data is saved as entities to [Solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview) that are in the default CDS instance, and can be identified by their display name of **Project**.
 
-- ProjectServiceCore
-- ProjectServiceCore_Anchor
-- ProjectServiceCore_Patch
-- Universal resource scheduling
-- Scheduling patch
-- Scheduling
 
 ### Reporting
 You can use PowerBI Desktop to import and analyze not only your Project Online data, but also your Project for the web data as well. You can use the same [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data.
@@ -84,11 +78,7 @@ You can use PowerBI Desktop to import and analyze not only your Project Online d
 Use [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a) to create a collective view of projects that are important to you. Your roadmap can connect to projects created in multiple tools, such as Project Online, Project for the web, and Azure DevOps.  
 
 ### Data storage
-Roadmap data is saved to entities in the following CDS solutions:
-
-- PortfolioService
-- PortfolioService_Anchor
-- PortfolioService_Patch
+As mentioned previously, Project for the web and Roadmap data are saved to solutions in the default CDS instance. While Project for the web data is saved as entities in  **Project** [solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview), Roadmap data is saved to entities in CDS solutions that have a display name of **Portfolio Service**.
 
 ## Project Online
 
@@ -103,13 +93,13 @@ Users can access their Project Online projects through the [Project Home page](h
 Project Online data is stored to the SharePoint Content Database in Office 365. Each Project Online site created within the tenant creates a separate partition within the content database so that each instance is independent of each other. For example, custom fields used in one Project Online site are independent of another Project Online site. 
 
 ### Reporting 
-You can use PowerBI Desktop to import and analyze your Project Online data. You can use the [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data.
+You can use PowerBI Desktop to import and analyze your Project Online data. You can use the [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data. And as noted earlier, the same Project template can be used to include your Project for the web data as well.
 
 ## Project Online Desktop Client
 
 Many project managers use the Project Online desktop client as a personal productivity tool for their project management needs. They build schedules in the client, save them as .mpp files, share these files with others, and keep them updated as the project progresses.
 
- You can also use the Project Online Desktop Client  to [connect to a Project Online site](https://docs.microsoft.com/projectonline/connect-to-project-online-with-the-project-online-desktop-client) to take advantage of its enterprise project and portfolio management capabilities.
+ You can also use the Project Online Desktop Client to [connect to a Project Online site](https://docs.microsoft.com/projectonline/connect-to-project-online-with-the-project-online-desktop-client) to take advantage of its enterprise project and portfolio management capabilities.
 
 
 
@@ -122,7 +112,8 @@ Many project managers use the Project Online desktop client as a personal produc
 [Project for web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)</br>
 [Microsoft Power Platform documentation](https://docs.microsoft.com/power-platform/)</br>
 [Project for the web and Project Online](https://support.microsoft.com/office/project-for-the-web-and-project-online-6569170c-5c8e-474e-a7f0-642872f62f8a?ui=en-us&rs=en-us&ad=us)</br>
-[Project for the web and Project Online Desktop Client](https://support.office.com/article/project-for-the-web-and-project-online-desktop-client-2dd7583c-eb34-467f-bf63-607bdc816e20)
+[Project for the web and Project Online Desktop Client](https://support.office.com/article/project-for-the-web-and-project-online-desktop-client-2dd7583c-eb34-467f-bf63-607bdc816e20)</br>
+[Develop applications and reports for the new Project for the web](https://developer.microsoft.com/project/blogs/developing-applications-and-reports-using-the-new-project/)
 
 
 
