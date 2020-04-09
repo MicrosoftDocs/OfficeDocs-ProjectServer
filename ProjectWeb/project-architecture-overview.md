@@ -32,7 +32,7 @@ The architecture diagram above shows the key apps that are available through Pro
 
 
 - Project for the web
-- Project Roadmap
+- Roadmap
 - Project Online
 - Project Online Desktop Client
 
@@ -74,7 +74,7 @@ When Project for the web or Roadmap are first used in an Office 365 tenant, a De
 You can use PowerBI Desktop to import and analyze not only your Project Online data, but also your Project for the web data as well. You can use the same [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data.
 
 
-## Project Roadmap
+## Roadmap
 Use [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a) to create a collective view of projects that are important to you. Your roadmap can connect to projects created in multiple tools, such as Project Online, Project for the web, and Azure DevOps.  
 
 ### Data storage
@@ -93,7 +93,9 @@ Users can access their Project Online projects through the [Project Home page](h
 Project Online data is stored to the SharePoint Content Database in Office 365. Each Project Online site created within the tenant creates a separate partition within the content database so that each instance is independent of each other. For example, custom fields used in one Project Online site are independent of another Project Online site. 
 
 ### Reporting 
-You can use PowerBI Desktop to import and analyze your Project Online data. You can use the [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data. And as noted earlier, the same Project template can be used to include your Project for the web data as well.
+You can use PowerBI Desktop to import and analyze your Project Online data using [Power BI](https://docs.microsoft.com/projectonline/tune-project-online-performance#powerbi). You can use the [Project Power BI template](https://docs.microsoft.com/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data. And as noted earlier, the same Project template can be used to include your Project for the web data as well.
+
+For larger Project Online instances with very large amounts of data, you may want to use [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/projectonline/tune-project-online-performance#sql-server-integration-services-ssis) to access and analyze your data.
 
 ## Project Online Desktop Client
 
