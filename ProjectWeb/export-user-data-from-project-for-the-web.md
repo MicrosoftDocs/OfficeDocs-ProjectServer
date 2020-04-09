@@ -134,7 +134,7 @@ Now that you have the Project IDs of the projects you are interested in looking 
 
 
 To run the ExportProjectContent function:
-1. In Windows PowerShell, where you have imported the moduel, run the following: 
+1. In Windows PowerShell, where you have imported the module, run the following: 
 
 
     ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"

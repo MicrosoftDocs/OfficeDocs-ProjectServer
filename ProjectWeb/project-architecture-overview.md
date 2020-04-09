@@ -52,7 +52,7 @@ The key Project apps described in this article are available in the following Pr
 
 
 > [!Note] 
-> In Project Plan 1, users can only view roadmaps in read-only mode. 
+> In Project Plan 1, users can only view roadmaps in read-only. 
 
 For more details on Project Plans, see the [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
