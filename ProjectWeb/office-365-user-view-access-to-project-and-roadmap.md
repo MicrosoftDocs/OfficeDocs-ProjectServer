@@ -42,6 +42,7 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 ## See Also
   
 [Project architecture overview](project-architecture-overview.md)</br>
+[Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
 
 
 
