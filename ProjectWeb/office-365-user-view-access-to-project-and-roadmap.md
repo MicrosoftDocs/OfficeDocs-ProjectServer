@@ -1,5 +1,5 @@
 ---
-title: "Office 365 user view access to Project for the web and Roadmap
+title: "Office 365 user view access to Project for the web and Roadmap"
 ms.author: efrene
 author: efrene
 manager: pamgreen
