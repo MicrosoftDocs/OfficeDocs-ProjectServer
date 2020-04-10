@@ -32,7 +32,6 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 - Microsoft 365 E5 Developer (without Windows and Audio Conferencing)
 - Microsoft 365 E5 without Audio Conferencing
 - Office 365 E5
-- Office 365 E5 - escalation Sku
 - Office 365 E5 without Audio Conferencing
 - Office 365 E5 without Power BI and Phone System
 
