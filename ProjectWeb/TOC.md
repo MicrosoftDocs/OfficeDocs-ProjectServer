@@ -5,6 +5,7 @@
 ### [Turn Project for the web or Roadmap on or off](turn-project-for-the-web-off.md)
 ### [Project architecture overview](project-architecture-overview.md)
 ### [Project for the web limits and boundaries](project-for-the-web-limits-and-boundaries.md)
+### [Office 365 user view access to Project for the web and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)
 ### [Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
 ## [Resource management]()
