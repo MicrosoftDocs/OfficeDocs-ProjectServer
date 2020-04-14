@@ -16,7 +16,7 @@ localization_priority: Normal
 
 You can use the Project Power BI template to import and analyze data from Project for the web and Project Online into Power BI. The template is designed to help you quickly connect to your Default Common Data Service (CDS) instance in Dynamics 365 where your Project for the web data is stored, as well as connect to your Project Web App tenant in Office 365.  You will be able to download a variety of data to visually explore and monitor all the key aspects of your PPM deployment. There are multiple visually rich report pages for the portfolio, resource, and project overview.
 
-## Get started 
+## Get started
 You first need to do the following:
 
 - Download [Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
@@ -122,62 +122,44 @@ After connecting to your data, the following key "out-of-the-box" reports are av
 
 ### Portfolio Dashboard
 
-The Portfolio Dashboard report gives you a roll-up of all projects, and lets you know the total number of projects, effort completed, and effort remaining.  It lets you filter your project data by project progress to see projects that are not started, in progress, or completed. It also lets you filter by each project manager.
+The Portfolio Dashboard report gives you a roll-up of all projects, and lets you know the total number of projects, effort completed, and effort remaining. It lets you filter your project data by project progress or project manager.
+
+
 
 ![Portfolio Dashboard](media/portfolio-dashboard.png) 
 
 ### Portfolio Timeline
 
-The Portfolio Timeline reports shows visually where all projects fall on a timeline, including their duration and progress to date. All projects are color-coded by Project Manager.  
-
-This report lets you filter your project data by project progress to see projects that are not started, in progress, or completed. 
-
-The Filter pane on the right lets you do more filtering based on start and finished dates, and the timeline bar on the top lets you easily adjust for specific time periods (by year, quarter, month, week, and day).
+The Portfolio Timeline reports shows visually where all projects fall on a timeline, including their duration and progress to date. 
 
 ![Portfolio Timeline](media/portfolio-timeline.png) 
 
 ### Portfolio Milestones
 
-The Portfolio Milestones report summarizes all milestones completed the past 30 days and those still listed to complete in the past.  It also show the milestones planned for the next 30 days.
-
-This report lets you filter your project data by project progress to see projects that are not started, in progress, or completed. The Filter pane on the right lets you do more filtering based on start and finished dates.
-
- The donut charts show the total count of milestones and how many are in each project. The table shows each milestone, the project they are in, and the finish date.
+The Portfolio Milestones report summarizes all milestones completed and are yet to complete in the past 30 days, as well as the milestones planned for the next 30 days.
 
 ![Portfolio Milestones](media/portfolio-milestones.png) 
 
 ### Resource Dashboard
-The Resource Dashboard gives a resource manager an overview of how his or her resources are allocated to projects, show in a treemap chart on the bottom of the report.
-
-The stacked bar chart on the right top show total effort for each resource (effort completed and effort remaining), and tasks remaining for each resource are shown in a doughnut chart.
-
-Clicking on a resource in doughnut chart shows that resources task by status (overdue, on-track, completed, late, and future).
+The Resource Dashboard gives a resource manager an overview of how his or her resources are allocated to projects, showing details about each resources total effort, tasks remaining, and task status.
  
 ![Resource Dashboard](media/resource-dashboard.png) 
 
 ### Resource Assignments
 
-
-
-This report lets you filter your data by task progress (not started, in progress, and completed), as well as by individual resource. 
-
-The column bar chart on the right top show total effort (effort completed and effort remaining).​
-
-Doughnut chart show how the effort distribution across resources, and clicking on a specific resource in the chart will provide additional effort information for that specific resource.
-
-The table shows the details of the project and its tasks for a resource.  This includes start and finish dates, progress, effort, effort completed, and effort remaining. 
+The Resource Assignments report lets you focus on task and project data for your resources.  You can drill into a resources task progress, total effort, effort distribution across projects, and project and task details.
 
 ![Resource Assignments](media/resource-assignments.png) 
 
 ### Task Overview
 
-The Task Overview report looks at task details across projects.  The tiles across the top provide a count of  projects and how many tasks, completed tasks, future tasks, on-track tasks, late tasks, and overdue tasks there are.  The tiles on the right summarizes effort, effort completed and effort remaining.  Selecting a project in the pie chart will give you the number of tasks by status (overdue, on-track, completed, late, and future) for that project.  Selecting a project will also provide task details displayed in the table (start and finish dates, progress, effort, effort completed, and effort remaining). The Filter pane on the right lets you do more filtering based on start and finished dates.
+The Task Overview report looks at task details across projects.  
 
 ![Task Overview](media/task-overview.png) 
 
 ### Project Timeline
 
-The Project Timeline shows each project with the detailed tasks and status.  This report can be filtered by task status (overdue, on-track, completed, late, and future), project manager, or project name.  Timeline bar on the top lets you easily adjust for specific time periods (by year, month, week, or day). In the table, tasks are color-coded for status, and clicking on them will provide task details. The Filter pane on the right lets you do more filtering based on start and finished dates.
+The Project Timeline shows each project with details on its tasks and status.  
 
 ![Project Timeline](media/project-timeline.png) 
 
@@ -185,26 +167,13 @@ The Project Timeline shows each project with the detailed tasks and status.  Thi
 
 The My Work report lets an individual team member see a  detailed task list of all their work across projects, and gives others visibility into their work. 
 
-Tiles in the report give the count of the total number of projects that they are working on, total number of tasks that they are assigned to, completed tasks, future tasks, on track tasks, late tasks, overdue tasks, total effort, effort completed, and effort remaining.​
-
-A pie chart shows the number of tasks by project, and a treemap chart shows effort by project (effort completed and effort remaining).
-
-Clicking on a specific project in either the pie or treemap chart will provide additional task details on that project in the task by status doughnut chart. Additionally, the table shows the projects detailed tasks for the resource, and sorts by Task KPI by default. Task details in the table include start and finish dates, progress, effort, effort completed, and effort remaining. 
-
-The Filter pane on the right lets you do more filtering based on start and finished dates.
-
 
 ![My Work](media/my-work.png) 
 
 ### My Timeline
 
 The My Timeline report lets team member see their personal timeline of work across and within projects.​
-
-It can be filtered for individual resource, as well as by task status (overdue, on-track, completed, late, and future).
-
-The timeline bar on the top lets you easily adjust for specific time periods (by year, month, week, and day).
-
-In the table, the resources tasks are color-coded for status, and clicking on them will provide task details. 
+ 
 
 ![My Timeline](media/my-timeline.png) 
 
