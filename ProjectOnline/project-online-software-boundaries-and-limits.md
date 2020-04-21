@@ -82,6 +82,10 @@ Beyond the data and custom field limits, there are a couple of other variables t
 
 If you want to use your own domain, like contoso.com, instead of the default domain, like contoso.onmicrosoft.com, you need to [set up your domain](https://support.office.com/article/d6eed598-2060-4fbe-ad5c-d8263b69722f) *before*  adding users to Project Online. **Changing domains after you've added users is not supported.**
 
+### Changing User Principle Names
+
+Changing a user principal name after you’ve added the user is not supported.
+
 ### Master page customizations
 Modifying or changing out the default master page template can result in unexpected rendering or display issues and is not supported. 
 
