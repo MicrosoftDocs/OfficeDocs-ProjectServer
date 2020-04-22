@@ -28,7 +28,7 @@ description: "The second step in getting started with Project Online is adding t
 
 |||
 |:-----|:-----|
-|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Microsoft 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step.<br/>**IMPORTANT!** **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!**  |      
+|![Add user](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Microsoft 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step.<br/>**IMPORTANT!** **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!** Additionally, **changing User Principal Names (UPN) after you’ve added users is not supported!** |      
    
 |||
 |:-----|:-----|
@@ -41,8 +41,7 @@ description: "The second step in getting started with Project Online is adding t
 
 |||
 |:-----|:-----|
-|![Share](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to divide them into groups by how they'll be using it.  <br/>
-  <br/> **Not everyone needs access to everything** available in Project Online. Usually, your organization can be sorted into the following roles:  <br/> |||
+|![Share](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to divide them into groups by how they'll be using it.  <br/> **Not everyone needs access to everything** available in Project Online. Usually, your organization can be sorted ino the following roles:</br>|
 |||
 |**Role**  <br/> |**Description**  <br/> |**Permission name**  <br/> |
 |Admins  <br/> |People who need full control over your Project Online subscription. Admins manage your user list, who gets what level of access, and also manage all the main project settings.  <br/> |**Administrators for Project Web App [Full Control]** <br/> |
