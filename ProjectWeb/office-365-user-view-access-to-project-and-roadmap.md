@@ -31,11 +31,57 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 - Microsoft 365 E5
 - Microsoft 365 E5 Developer (without Windows and Audio Conferencing)
 - Microsoft 365 E5 without Audio Conferencing
+- Microsoft 365 E3
+- Microsoft 365 E3 - Unattended License
+- Microsoft 365 F3
+- Microsoft 365 F1
+- Microsoft 365 A5 for faculty
+- Microsoft 365 A5 for students
+- Microsoft 365 A5 student use benefits
+- Microsoft 365 A5 without Audio Conferencing for faculty
+- Microsoft 365 A5 without Audio Conferencing for students
+- Microsoft 365 A5 without Audio Conferencing for students use benefit
+- Microsoft 365 A3 for Faculty
+- Microsoft 365 A3 for Students
+- Microsoft 365 A3 student use benefits
+- Microsoft 365 A3 - Unattended License for faculty
+- Microsoft 365 A3 - Unattended License for students
+- Microsoft 365 A3 - Unattended License for students use benefit
+- Microsoft 365 Business
 - Office 365 E5
 - Office 365 E5 without Audio Conferencing
 - Office 365 E5 without Power BI and Phone System
-
-
+- Office 365 E5 - escalation Sku
+- Office 365 E3
+- Office 365 E3 Developer
+- Office 365 E3 without ProPlus
+- Office 365 Education E3 for faculty
+- Office 365 Education E3 for students
+- Office 365 E1
+- Office 365 E1 with Exchange Online Archiving
+- Office 365 F3
+- Office 365 F3 with Addon
+- Office 365 F3 with Yammer
+- Microsoft 365 F1
+- Office 365 A5 for faculty
+- Office 365 A5 for students
+- Office 365 A5 student use benefit
+- Office 365 A5 without Audio Conferencing for faculty
+- Office 365 A5 without Audio Conferencing for students
+- Office 365 A5 without Audio Conferencing for students use benefit
+- Office 365 A3 for faculty
+- Office 365 A3 for students
+- Office 365 A3 student use benefit
+- Office 365 A1 for faculty
+- Office 365 A1 for faculty (for Device)
+- Office 365 A1 for students
+- Office 365 A1 for students (for Device)
+- Office 365 A1 Plus for faculty
+- Office 365 A1 Plus for students
+- Office 365 Business Premium
+- Office 365 Business Premium - Prepaid Legacy
+- Office 365 Business Essentials
+- Office 365 Business Essentials - Prepaid Legacy
 
 
 ## See Also
