@@ -47,7 +47,11 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 - Microsoft 365 A3 - Unattended License for faculty
 - Microsoft 365 A3 - Unattended License for students
 - Microsoft 365 A3 - Unattended License for students use benefit
-- Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Basic - Prepaid Legacy
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Standard - Prepaid Legacy
+- Microsoft 365 Business Premium
 - Office 365 E5
 - Office 365 E5 without Audio Conferencing
 - Office 365 E5 without Power BI and Phone System
@@ -62,7 +66,6 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 - Office 365 F3
 - Office 365 F3 with Addon
 - Office 365 F3 with Yammer
-- Microsoft 365 F1
 - Office 365 A5 for faculty
 - Office 365 A5 for students
 - Office 365 A5 student use benefit
@@ -78,10 +81,7 @@ Currently, users that have the following Office 365 licenses assigned to them wi
 - Office 365 A1 for students (for Device)
 - Office 365 A1 Plus for faculty
 - Office 365 A1 Plus for students
-- Office 365 Business Premium
-- Office 365 Business Premium - Prepaid Legacy
-- Office 365 Business Essentials
-- Office 365 Business Essentials - Prepaid Legacy
+
 
 
 ## See Also
