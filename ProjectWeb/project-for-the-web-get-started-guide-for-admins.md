@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
+search.appverid: MET150
 description: "Resources for admins who want to learn more about managing Project for the web."
 ---
 

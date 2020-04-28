@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: eef8f943-616b-46ff-9b56-b9a8a5daa1fa
 description: "This article is part of our From the Trenches collection. It describes how to make an Enterprise Project Management deployment roadmap when you plan to implement EPM. It uniquely describes factors to consider when you plan your deployment path."
 ---

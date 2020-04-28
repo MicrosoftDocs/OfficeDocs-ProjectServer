@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: cf300560-ed31-4db8-9e53-b5a1003ea26e
 description: "This article is part of our From the Trenches collection. It describes operational best practices for enterprise systems in general (including Microsoft Project Server). It notes how, although enterprise systems strive to provide an easy-to-use interface at the user level, the technology and infrastructure required to provide it is often very complex. This white paper then describes how this complexity requires you to use some basic best practices that give you the best chance of maintaining a high degree of reliability in your enterprise system."
 ---

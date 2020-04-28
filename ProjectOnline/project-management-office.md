@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.assetid: bc22bee5-f114-4623-ba62-55823f7ede7b
 description: "PMO landing page"
 ---

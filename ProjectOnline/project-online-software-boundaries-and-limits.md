@@ -13,6 +13,7 @@ ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 5a09dbce-1e68-4a7b-b099-d5f1b21ba489
 description: "There are some important limitations that you should know if you are using Project Online. These limitations apply regardless of whether you are using Project Online by itself, or with other Office 365 plans."
 ---

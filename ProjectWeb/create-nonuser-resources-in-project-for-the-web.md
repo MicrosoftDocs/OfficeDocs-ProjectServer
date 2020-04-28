@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: project-web
 search.appverid: PJO150
 localization_priority: Normal
+search.appverid: MET150
 description: "Learn how to add a non-user resource and make it available to assign to tasks in Project for the web."
 ---
 

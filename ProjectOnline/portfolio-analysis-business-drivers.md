@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to define and configure the portfolio analysis business drivers that support project prioritization in the Project Web Application."
 ---

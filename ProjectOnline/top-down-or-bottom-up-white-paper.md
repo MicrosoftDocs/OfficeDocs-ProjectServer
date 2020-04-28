@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 834e8d8f-8768-4dcb-8af7-8fac4eb61af7
 description: "This article is part of our From the Trenches collection. It discusses project management, portfolio management, and task management, and it compares the top-down and bottom-up management practices related to them."
 ---

@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: 
 search.appverid: PJO150
 localization_priority: Normal
+search.appverid: MET150
 description: "Learn how Project for the web uses the Common Data Service to store and manage data."
 ---
 

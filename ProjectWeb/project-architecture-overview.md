@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: 
 search.appverid: PJO150
 localization_priority: Normal
+search.appverid: MET150
 description: "Get a high-level overview of the Project logical architecture."
 ---
 

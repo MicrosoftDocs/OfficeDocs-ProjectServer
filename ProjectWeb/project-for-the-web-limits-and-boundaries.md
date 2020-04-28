@@ -10,6 +10,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 description: "Learn about limits for Project for the web projects and tasks."
 ---
 

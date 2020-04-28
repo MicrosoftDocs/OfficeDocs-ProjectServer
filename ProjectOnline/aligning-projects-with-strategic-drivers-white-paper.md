@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 4e091977-8f5d-4769-9587-0bf8da45a09f
 description: "This article is part of our From the Trenches collection. It discusses using strategic drivers in Portfolio Management to effectively create a standard approach for making important project decisions."
 ---

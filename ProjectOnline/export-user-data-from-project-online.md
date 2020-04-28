@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
 description: "Your organization can export a specific user's content from your Project Online environment. To export this content, an Office 365 global administrator can follow these steps:"
 ---

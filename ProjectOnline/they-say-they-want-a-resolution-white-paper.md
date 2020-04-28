@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: e067d8f6-1697-45a2-8b2a-9087026e78b6
 description: "This article is part of our From the Trenches collection. It describes some common challenges you may face when scheduling projects. It describes coming up with the best approach when you try to determine how long tasks should be and how many tasks there should be to optimize a project schedule. It discusses how different industries typically require different types of schedules (for example, software development, EPM (engineering, procurement, and construction), and plant shutdown). It also discusses several factors in choosing project resolution (for example, length of project, resources involved, management or division of resources, speed and effort required in collecting data, and data update schedule)."
 ---

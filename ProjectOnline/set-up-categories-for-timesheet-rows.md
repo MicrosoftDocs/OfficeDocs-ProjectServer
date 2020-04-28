@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 7e70ec99-927c-4fe0-a94d-c66f6451e497
 description: Instructions on how to set up categories for timesheets (such as Travel and Vacation) using Project Web App.
 ---

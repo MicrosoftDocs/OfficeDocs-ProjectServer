@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 ms.assetid: 62fb71b4-a815-49ff-8554-4ce4010a2771
 description: "Learn more about upgrade from your Project Server 2016 or Project Server 2013 on-premises environment to Project Online."
 ---

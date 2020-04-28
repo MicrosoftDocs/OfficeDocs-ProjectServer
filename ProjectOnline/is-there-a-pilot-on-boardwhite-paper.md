@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: d0e7f60e-51a4-4118-a19d-afd9e0d47876
 description: "If there is a pilot on board, would he or she please ring their call button?is something no passenger ever wants to hear. I re-read a remarkable news story from a true incident just like this that happened back in December 2013. After the pilot of a flight out of Des Moines, Iowa suffered a medical emergency, the co-pilot made a request for any pilots on board. Capt. Mark Gongol, a B1 bomber pilot in the US Air Force, stepped into the breach. The plane, passengers, and crew all landed safely."
 ---

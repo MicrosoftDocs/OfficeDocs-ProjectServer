@@ -8,7 +8,9 @@ ms.topic: article
 ms.service: project-web
 localization_priority: Normal
 ms.custom: Adm_Project
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 description: "Remove Roadmap from Office 365."
 ---
 

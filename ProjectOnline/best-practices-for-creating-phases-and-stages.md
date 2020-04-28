@@ -13,6 +13,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: a28ce158-68bf-4dc5-af41-90fde7677419
 description: "Phases and stages are an important part of using workflow in Project Web App. This article presents some best practices for creating phases and stages. If you're just starting out with Project Web App workflow, chick out Using workflow for demand management in Project Online first."
 ---

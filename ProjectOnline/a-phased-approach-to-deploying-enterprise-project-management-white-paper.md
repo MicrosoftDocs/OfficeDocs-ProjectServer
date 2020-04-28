@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 73687431-0c6d-4389-ab4d-73cdeda79207
 description: "This article is part of the From the Trenches collection. It describes various challenges you can face when planning to deploy the Enterprise Project Management solution in your environment. It also describes several different deployment scenarios that can be used, as well as important prerequisites that need to be considered."
 ---

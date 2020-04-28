@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 84af80c0-962d-4297-ae61-c646940d255a
 description: "This article is part of our From the Trenches collection. It describes the importance of having executive involvement for a successful Enterprise Project Management (EPM) deployment. It describes reasons why a company might choose to not involve an executive in the deployment, how executives should be involved in the deployment, and tips on how to effectively involve an executive in the deployment."
 ---
