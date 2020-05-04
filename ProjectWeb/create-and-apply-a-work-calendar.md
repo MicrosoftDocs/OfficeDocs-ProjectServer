@@ -7,9 +7,10 @@ ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
-search.appverid: MET150
 description: "Learn how to create a work hours template and apply it to resources in Project for the web."
 ---
 

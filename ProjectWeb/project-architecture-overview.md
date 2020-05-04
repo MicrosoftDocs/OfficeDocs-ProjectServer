@@ -7,9 +7,10 @@ ms.date: 3/27/2020
 audience: admin
 ms.topic: article
 ms.service: 
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
-search.appverid: MET150
 description: "Get a high-level overview of the Project logical architecture."
 ---
 

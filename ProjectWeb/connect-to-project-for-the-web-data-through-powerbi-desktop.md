@@ -8,9 +8,10 @@ ms.date: 10/29/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
-search.appverid: MET150
 
 ---
 # Connect to Project data through Power BI Desktop

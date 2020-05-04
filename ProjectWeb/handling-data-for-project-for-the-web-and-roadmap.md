@@ -7,9 +7,10 @@ ms.date: 12/5/2019
 audience: admin
 ms.topic: article
 ms.service: 
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
-search.appverid: MET150
 description: "Learn how Project for the web uses the Common Data Service to store and manage data."
 ---
 

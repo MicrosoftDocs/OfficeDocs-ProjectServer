@@ -7,9 +7,10 @@ ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
-search.appverid: MET150
 ms.custom: Adm_Project
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
 ---
