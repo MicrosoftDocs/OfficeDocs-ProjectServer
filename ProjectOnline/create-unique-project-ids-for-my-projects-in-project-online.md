@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: d70422a2-b431-44a7-984c-b62ca1928b61
 description: "Configure Project Online so that unique Project IDs are created for new projects."
 ---

@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 203972b9-3625-44af-9d77-19cedc8bd290
 description: "In Project Online, resource managers and project managers can negotiate an agreement, called a Overview: Resource engagements, to make sure that resources are being used appropriately and effectively throughout your organization. This article describes ways that resource managers can improve performance, such as reduced page load times and less timeout errors, when using Resource Engagements."
 ---

@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: f0b248f7-30ae-4807-825f-a45b6de0764b
 description: "The Office 365 Project Portfolio Dashboard app provides a variety of project, task, and resource-based reports, including issues/risks/deliverables reporting for Project Online. You can download it from the SharePoint Store for free."
 ---

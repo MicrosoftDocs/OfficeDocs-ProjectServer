@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn what a resource analysis is and how to get started doing resource analyses in the Project Web Application (PWA)."
 ---

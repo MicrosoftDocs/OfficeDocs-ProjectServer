@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 3fda2b6f-3145-46fa-af02-e39a00450ec1
 
 description: "The first step in getting started with Project Online is to get signed up."

@@ -8,6 +8,7 @@ audience: admin
 ms.topic: overview
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn what a project portfolio analysis is and how to get started doing portfolio analyses in Project Web App."
 ---

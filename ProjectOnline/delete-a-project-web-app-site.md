@@ -13,6 +13,7 @@ ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: e1a4f351-f419-4ecb-b8a5-9bfc4c707b01
 description: "This article covers how to delete a Project Web App site in Project Online, and how to disable Project Web App within a site collection."
 ---

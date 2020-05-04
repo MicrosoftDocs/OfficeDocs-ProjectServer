@@ -8,6 +8,7 @@ audience: Admin
 ms.topic: get-started-article
 ms.prod: project-server-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6f4a1de6-878d-49cf-b759-352b717ddde2
 

@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 3537c79a-1a5f-4b1e-9de0-c437673352c6
 description: "Project Web App for Project Online offers two security management options for controlling the kind of access that users have to sites and projects: SharePoint Permission Management and Classic Permission Management. This article describes how to switch between these options."
 ---

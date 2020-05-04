@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: e65c6c3b-68af-4d13-9504-5626b73e54ce
 
 description: "The second step in getting started with Project Online is adding the people who will use it."

@@ -12,7 +12,9 @@ localization_priority: Normal
 ms.custom:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top_Top
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 ms.assetid: f305a365-3d81-48bc-a3d0-4260e7326899
 description: "Learn how to use external users with Project Online."
 ---

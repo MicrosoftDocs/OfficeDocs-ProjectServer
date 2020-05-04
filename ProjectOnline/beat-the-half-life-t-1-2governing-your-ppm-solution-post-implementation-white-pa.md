@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: d9101852-a724-42e7-bea3-c7ff2c700c06
 description: "This white paper is part of our From the Trenches collection. It describes how to set up a framework to setup a governance model for your Project Portfolio Management (PPM) solution. It also includes a sample governance plan that could be used as a starting point to set up your own governance strategy."
 ---

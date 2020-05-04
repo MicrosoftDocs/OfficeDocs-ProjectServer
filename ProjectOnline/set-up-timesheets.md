@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 3e20822d-de27-494e-8821-c25b1174586e
 description: "Instructions on how to set up timesheets for resources in Project Web App."
 ---

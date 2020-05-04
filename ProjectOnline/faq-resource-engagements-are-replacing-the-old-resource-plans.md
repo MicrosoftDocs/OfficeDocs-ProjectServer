@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 5ddd3242-4858-4e57-a8c1-2b20c06d959a
 description: "Resource engagements are new for Project Online, but what happens to the old resource plans? Read on about this new feature and how old resource plans are converted into resource engagements."
 ---

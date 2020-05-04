@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to define and configure custom fields that support the portfolio prioritization calculation in the Project Web Application."
 ---
