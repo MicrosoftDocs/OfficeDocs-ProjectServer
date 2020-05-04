@@ -79,7 +79,7 @@ The user data delete process described in this article is different from deletin
 - Deleting user data through the steps in this article does not delete the enterprise resource. It changes the user account to inactivate, removes the user data, and can optionally change the name of the resource to something you choose (such as "Deleted User") .
     
 ## Delete scenarios
-<a name="scenarios_1"> </a>
+<a name="scenarios"> </a>
 
 Depending on your needs, this process allows you to delete your user data listed above, but also allows some control of in regards to deleting the users display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
   
