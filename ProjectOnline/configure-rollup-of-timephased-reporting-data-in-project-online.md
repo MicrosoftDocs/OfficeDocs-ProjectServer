@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: da8487fe-899e-4510-a264-e2ebc948928c
 
 description: "Project admins can configure Project Online to roll up timephased reporting data to different levels of granularity. They can choose to roll up their data daily, weekly, monthly, or by fiscal period and retrieve the data through the timephased OData endpoints:"

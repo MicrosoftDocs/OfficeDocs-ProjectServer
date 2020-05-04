@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 212275d0-a32b-4560-97c5-1499616b8787
 description: "Plan users and groups for Project Online in SharePoint Permission Mode."
 ---

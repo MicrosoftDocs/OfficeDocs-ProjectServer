@@ -9,6 +9,7 @@ layout: LandingPage
 ms.topic: landing-page
 ms.service: project-web
 localization_priority: Priority
+search.appverid: MET150
 description: "Learn about resources available for Project for the Web admins."
 ---
 

@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to combine the project portfolio, resource pool, and prioritization mechanism into a single analysis of the project portfolio using the Project Web Application."
 ---

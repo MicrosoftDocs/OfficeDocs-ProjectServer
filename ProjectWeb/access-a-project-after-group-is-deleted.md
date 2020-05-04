@@ -7,7 +7,9 @@ ms.date: 11/28/2019
 audience: admin
 ms.topic: article
 ms.service: 
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
 description: "Learn how to regain access to a project in Project for the web after its associated Office 365 group has been deleted."
 ---

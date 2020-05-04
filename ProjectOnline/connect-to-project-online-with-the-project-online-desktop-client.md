@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 ms.assetid: 
 description: "Learn how to set up a connection to Project Online with the Project Online Desktop Client."
 ---

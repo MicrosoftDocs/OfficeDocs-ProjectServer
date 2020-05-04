@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 4f125cf5-a752-4ce6-b9e9-5a2eb6ace9e2
 description: "If your Project Online reports connect to the OData feed, you'll need to grant the BI Azure Service access to Project Web App before you can refresh data in Excel. This article explains how to grant this access."
 ---

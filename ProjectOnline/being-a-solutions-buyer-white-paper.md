@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: a05f1286-0771-496d-ae84-07982316b445
 description: "This article is part of our From the Ttrenches collection. It describes how prospective software purchasers can make interactions with software vendors more effective by applying easily understood business analysis methods. It walks you through an exercise that can help create software evaluation criteria by effectively determining what problems need to be addressed by the software solution."
 ---

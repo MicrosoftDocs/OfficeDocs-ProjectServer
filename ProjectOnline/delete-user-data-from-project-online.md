@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: project-online
 localization_priority: Normal
 ms.custom: Adm_Project
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 ms.assetid: 252fa593-9c25-47ed-b861-643fe8bf1cb7
 description: "Learn how an Office 365 global administrator can delete a user's information from a Project Online environment."
 ---

@@ -13,6 +13,7 @@ search.appverid:
 - PJO150
 - PJU150
 - PJO160
+- MET150
 ms.assetid: 55825b21-1a20-4d40-9f26-0ec91bf920d3
 description: "There are a couple of different ways you can set up Project Web App to capture task progress. Step 3: Update progress"
 ---
