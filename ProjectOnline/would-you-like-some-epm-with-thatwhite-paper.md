@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 0d4032e2-e971-4e94-84a2-3f093ae860a6
 description: "This article is part of our From the Trenches collection. It discusses the evolution of project management systems, the use of Enterprise Project Management, and the importance of understanding which project management solution is best for you."
 ---

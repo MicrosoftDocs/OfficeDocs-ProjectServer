@@ -9,7 +9,9 @@ ms.topic: conceptual
 ms.service: project-online
 localization_priority: Normal
 ms.custom: IT_ProjectAdmin
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 ms.assetid: f7de04cc-9850-466c-920a-dd1ab593154e
 
 description: "Describes periodic checks Project Online admins should perform to maintain their environments."

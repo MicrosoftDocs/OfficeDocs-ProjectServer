@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: f5ed1080-1cc6-4ab7-b00e-25cbfbea03f5
 description: "A topic that shows you how to set up the ability to send notifications in Project Web App."
 ---

@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 9a07055a-c940-4671-a349-e4dadd6f509d
 description: "This article is part of our From the Trenches collection. It describes how project managers can share bad news about their projects most effectively and with the least damage to themselves."
 ---

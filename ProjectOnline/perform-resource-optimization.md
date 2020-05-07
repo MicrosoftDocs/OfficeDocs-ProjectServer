@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to use the PWA portfolio analysis functionality to model resource scenarios."
 ---

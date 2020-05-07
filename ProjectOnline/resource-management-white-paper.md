@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 662c2c43-a1d8-4a00-b6b7-efef101bae92
 description: "This article is part of our From the Trenches collection. It describes challenges in different aspects of resource management and provides suggestions on creating a resource management system."
 ---

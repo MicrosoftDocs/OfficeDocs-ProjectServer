@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 488db381-8498-44d9-b76c-69f45f26132b
 description: "If you're using Project Online, you need to activate the resource engagements features before you can start using them."
 ---

@@ -13,6 +13,7 @@ search.appverid:
 - PJU140
 - PJU150
 - PJU160
+- MET150
 ms.assetid: dc6def80-ac6f-4048-b9d3-4a25acab1f5a
 description: "This article is part of our From the Trenches collection. It describes how enterprise system implementations need to able to adapt and evolve to be successful."
 ---

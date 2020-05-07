@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 67bdd3e9-9887-45ee-948d-7f3c02a1e5eb
 description: "Instructions on how to set up vacation, sick leave, and other non-project work categories using Project Web App."
 ---

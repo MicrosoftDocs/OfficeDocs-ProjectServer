@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: c2cb242a-adc2-44e3-ac4c-b95f833b3ac3
 description: "If your organization uses Active Directory, the first time you view the Resource Center in Project Web App, you can choose to add members of an Active Directory group as resources."
 ---

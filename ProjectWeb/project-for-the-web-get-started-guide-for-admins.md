@@ -7,7 +7,9 @@ ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
-search.appverid: PJO150
+search.appverid: 
+- PJO150
+- MET150
 localization_priority: Normal
 description: "Resources for admins who want to learn more about managing Project for the web."
 ---

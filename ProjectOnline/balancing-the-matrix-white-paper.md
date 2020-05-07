@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: a0a73b9f-8492-40b6-8cb8-75137efc9d4f
 description: "This article is part of our From the Trenches collection. It describes the challenges facing someone who implements Enterprise Project Management (EPM) in an organization that uses a matrix project management environment."
 ---

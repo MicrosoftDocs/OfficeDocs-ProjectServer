@@ -17,6 +17,7 @@ search.appverid:
 - ZPJ160
 - IWA160
 - ZPJ190
+- MET150
 ms.assetid: f18c4eea-ff7f-4c9d-888c-1829cc5124c0
 description: "Learn which web browsers and Project Professional client versions are supported to work with Project Online."
 ---

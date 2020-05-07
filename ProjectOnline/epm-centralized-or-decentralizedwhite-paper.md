@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 5dd958b1-2b38-4482-899f-96cd0ee5f474
 description: "This article is part of our From the Trenches collection. It describes how organizations need to understand the problems they are trying to solve when deciding on implementing a project management system. Sometimes deploying a centralized project management system may not be the best answer."
 ---

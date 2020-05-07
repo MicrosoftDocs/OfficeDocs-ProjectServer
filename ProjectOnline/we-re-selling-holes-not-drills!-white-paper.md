@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 790caa2c-f44d-4a77-a72c-a47acc22f46f
 description: "I came across an interesting expression recently. A software salesperson was talking about delivering the entire solution to his client.We don't sell drills. We sell holes,he said. It's a great analogy. Many people (me included) have gone to the hardware store and window shopped in the power tools department while wondering what project I could possibly think of which would justify buying this great power tool. But applying this logic makes as much sense in the do-it-yourself world as it does in enterprise software systems."
 ---

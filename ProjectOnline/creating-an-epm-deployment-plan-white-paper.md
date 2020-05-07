@@ -14,6 +14,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 37ef7fee-7e6b-49c4-96c0-a64c95bf3793
 description: "This article is part of our From the Trenches collection. It describes how to create an Enterprise Project Management (EPM) deployment plan. It identifies phases and major points in an EPM Deployment plan, and it estimates times for each, based on a mid-sized organization with several hundred EPM system users. It also identifies factors that can affect the estimated duration times for each phase."
 ---

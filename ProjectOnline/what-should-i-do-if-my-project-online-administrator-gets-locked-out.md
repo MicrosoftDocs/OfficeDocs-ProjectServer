@@ -12,6 +12,7 @@ ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 9ef4dd2a-a6f4-4fa5-ad41-acd586db2b1b
 description: "Locked out? Don't panic. The site collection administrator for your Project Online site automatically has administrative permissions, and can get the Project Online administrator back in."
 ---

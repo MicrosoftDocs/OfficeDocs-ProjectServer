@@ -13,6 +13,7 @@ ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 ms.assetid: 307b0b6d-0256-4f3f-b780-bff36149aca1
 description: "Learn how Office 365 admins can renew their users from retired Project Online plans to current Project Online plans in a larger organization."
 ---

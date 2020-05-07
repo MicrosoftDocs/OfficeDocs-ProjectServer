@@ -10,6 +10,7 @@ localization_priority: Normal
 search.appverid:
 - PJO150
 - PJO160
+- MET150
 description: "See version history and release notes for the Portfolio Service solution."
 ---
 

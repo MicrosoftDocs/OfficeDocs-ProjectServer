@@ -15,6 +15,7 @@ search.appverid:
 - PJU150
 - PJO160
 - PJU160
+- MET150
 ms.assetid: 44dfe691-b8f5-4691-97fe-c329c3881e97
 description: "This article is part of our From the Trenches collection. It describes best practices for recognizing when a project should be stopped, the benefits of doing so, and considerations you need to take into account when cancelling the project."
 ---
