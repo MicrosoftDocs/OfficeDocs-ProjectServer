@@ -28,7 +28,7 @@ This will allow them to have read-only access to projects and roadmaps that are 
 
 ## Office 365 subscription with view access
 
-Users that have the following Office 365 licenses assigned to them will have view access to Project for the web and Roadmap in the very near future.
+Users that have the following Office 365 licenses assigned to them will have view access to Project for the web and Roadmap in the near future.
 
 > [!Note] 
 > For more information about availability, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?featureid=60646).
