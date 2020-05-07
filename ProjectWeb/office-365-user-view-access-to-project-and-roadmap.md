@@ -17,7 +17,7 @@ description: "Learn how certain Office 365 users can have view access to Project
 # Office 365 User view access to Project and Roadmap
 
 > [!Important] 
-> Office 365 User view access will be available in the near future. For more information see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?featureid=60646).,
+> Office 365 User view access will be available in the near future. For more information see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?featureid=60646).
 
 An appropriate Project Plan license needs to be assigned to your Office 365 users to use [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) or [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a). However, users that are assigned certain Office 365 licenses are allowed to have view access to Project for the web and Roadmap. 
 This will allow them to have read-only access to projects and roadmaps that are shared with them, without needing to be assigned a Project Plan license.
