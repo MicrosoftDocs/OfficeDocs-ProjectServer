@@ -34,7 +34,7 @@ You will need the following in order to look for data on a specific user through
 If you also want to export and view information on specific projects: 
 - You need to be a tenant admin.
 - You need to have a Project Plan 1, Project Plan 3, or Project Plan 5 license.
-- You need a copy of Project Professional 2016, Project Professional 2019, or the Project Online Desktop Client if you want to view your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
+- You need the Project Online Desktop Client if you want to view your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
   
 
 ## Methods for finding your user's data
@@ -183,14 +183,9 @@ All snapshots currently stored for the project are exported.  Snapshots can be p
 
 ### View data contained in the project file (.MPP)
 
-Using Project client software, you can open and view the project file to find information that you might want to provide the user.
+Use Project Online Desktop Client to open and view the project file to find information that you might want to provide the user.
 
-You can view the users project file by using one of the following Project clients:
-- Project Online Desktop Client (you have this if you have a Project Online Professional or Project Online Premium license).
-- Project Professional 2019
-- Project Professional 2016
-
-You can get a free trial version of the Project Online Desktop Client by getting the [free trial version of Project Online Professional](https://www.microsoft.com/p/project-online-professional/CFQ7TTC0K8V1?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab).
+Project Online Desktop client is available through either the Project Plan 3 and Project Plan 5 licenses. If you don't have a subscription, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US).
 
 > [!NOTE]
 > You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
