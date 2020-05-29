@@ -16,6 +16,8 @@ description: "Learn how to turn Project for the web or Roadmap on or off for use
 
 # Turn Project for the web or Roadmap on or off for users in your organization
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xoa0]  
+
 Access to Project for the web is available to users if they are assigned one of the following licenses:
 
 - Project Plan 1
