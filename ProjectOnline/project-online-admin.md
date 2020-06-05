@@ -5,10 +5,9 @@ author: efrene
 manager: samanro
 ms.assetid: 
 ms.service: project-online
-layout: LandingPage
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: landing-page
+ms.topic: article
 ms.date: 12/11/2017
 ms.author: efrene
 
@@ -17,131 +16,19 @@ ms.author: efrene
 
 Learn how to plan for, implement, and maintain Project Online in your environment.
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="/ProjectOnline/get-started-with-project-online">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get Started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get Started with Project Online</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/ProjectOnline/supporting-your-project-online-adoption-with-a-project-management-office">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan to Implement Project Online </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/ProjectOnline/tune-project-online-performance">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/best-practices-blue.svg" alt="Best Practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Best Practices to Improve Performance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>   
-</ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="/ProjectOnline/project-online-software-boundaries-and-limits">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Project Online Software Limits and Boundaries</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/ProjectOnline/set-up-timesheets">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-blue.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Set Up Timesheets </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/ProjectOnline/configure-rollup-of-timephased-reporting-data-in-project-online">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/settings.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Configure Rollup of Timephased Reporting Data in Project Online</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>   
-</ul>
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![a hand and arrow](https://docs.microsoft.com/office/media/icons/get-started-planner.png)  | [Get Started with Project Online](get-started-with-project-online.md) | ![a task list](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan to Implement Project Online](supporting-your-project-online-adoption-with-a-project-management-office-pmo.md) | ![best practices ribbon](https://docs.microsoft.com/office/media/icons/best-practices-planner.png)  | [Best Practices to Improve Performance](tune-project-online-performance.md) |
+| ![task bullet list](https://docs.microsoft.com/office/media/icons/task-list-planning-project.png)  | [Project Online Software Limits and Boundaries](project-online-software-boundaries-and-limits.md) | ![a clock](https://docs.microsoft.com/office/media/icons/clock-planner.png)  | [Set Up Timesheets](set-up-timesheets.md) | ![settings gear](https://docs.microsoft.com/office/media/icons/settings.png)  | [Configure Rollup of Timephased Reporting Data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md) |
 
 
-<h2>Featured articles</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="/ProjectOnline/project-online-client-requirements">Project Online client requirements</a></p><p><a href="/ProjectOnline/best-practices-to-improve-resource-engagements-performance">Best practices to improve Resource Engagements performance</a></p><p><a href="/ProjectOnline/change-permission-management-in-project-online">Change permission management in Project Online</a></p><p><a href="/ProjectOnline/understanding-identity-management-in-project-online">Understanding identity management in Project Online</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+
+## Featured articles
+
+[Project Online client requirements](project-online-client-requirements.md)
+
+[Best practices to improve Resource Engagements performance](best-practices-to-improve-resource-engagements-performance.md)
+
+[Change permission management in Project Online](change-permission-management-in-project-online.md)
+
+[Understanding identity management in Project Online](understanding-identity-management-in-project-online.md)
