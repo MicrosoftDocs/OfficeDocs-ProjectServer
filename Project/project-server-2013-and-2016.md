@@ -19,15 +19,15 @@ Learn how to plan, deploy, manage users in Project Server.
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![a task checklist](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan for Project Server](/Project/plan-for-project-server-2016) | ![Deploy](https://docs.microsoft.com/office/media/icons/deploy-planner.png)  | [Install and Configure Project Server](/Project/install-and-configure-for-project-server-2016.md) | ![user account](https://docs.microsoft.com/office/media/icons/user-accounts.png)  | [Plan user access in Project Server](/Project/plan-user-access-in-project-server.md) |
+| ![a task checklist](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan for Project Server](plan-for-project-server-2016) | ![Deploy](https://docs.microsoft.com/office/media/icons/deploy-planner.png)  | [Install and Configure Project Server](install-and-configure-for-project-server-2016.md) | ![user account](https://docs.microsoft.com/office/media/icons/user-accounts.png)  | [Plan user access in Project Server](plan-user-access-in-project-server.md) |
 
 ---
 
 ## Featured articles
-[Software requirements](/Project/software-requirements-for-project-server-2016.md)
+[Software requirements](software-requirements-for-project-server-2016.md)
 
-[Project server architecture](/Project/project-server-2016-architecture.md)
+[Project server architecture](project-server-2016-architecture.md)
 
-[Deploy Project Web App](/Project/deploy-project-web-app-0.md)
+[Deploy Project Web App](deploy-project-web-app-0.md)
 
-[Project Server 2016 cmdlets](/Project/windows-powershell-for-project-server-2016-cmdlet-reference.md)
+[Project Server 2016 cmdlets](windows-powershell-for-project-server-2016-cmdlet-reference.md)

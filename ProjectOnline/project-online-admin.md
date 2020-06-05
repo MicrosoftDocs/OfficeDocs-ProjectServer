@@ -18,17 +18,17 @@ Learn how to plan for, implement, and maintain Project Online in your environmen
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![a hand and arrow](https://docs.microsoft.com/office/media/icons/get-started-planner.png)  | [Get Started with Project Online](/ProjectOnline/get-started-with-project-online.md) | ![a task list](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan to Implement Project Online](/ProjectOnline/supporting-your-project-online-adoption-with-a-project-management-office.md) | ![best practices ribbon](https://docs.microsoft.com/office/media/icons/best-practices-planner.png)  | [Best Practices to Improve Performance](/ProjectOnline/tune-project-online-performance.md) |
-| ![task bullet list](https://docs.microsoft.com/office/media/icons/task-list-planning-project.png)  | [Project Online Software Limits and Boundaries](/ProjectOnline/project-online-software-boundaries-and-limits.md) | ![a clock](https://docs.microsoft.com/office/media/icons/clock-planner.png)  | [Set Up Timesheets](/ProjectOnline/set-up-timesheets.md) | ![settings gear](https://docs.microsoft.com/office/media/icons/settings.png)  | [Configure Rollup of Timephased Reporting Data in Project Online](/ProjectOnline/configure-rollup-of-timephased-reporting-data-in-project-online.md) |
+| ![a hand and arrow](https://docs.microsoft.com/office/media/icons/get-started-planner.png)  | [Get Started with Project Online](get-started-with-project-online.md) | ![a task list](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan to Implement Project Online](supporting-your-project-online-adoption-with-a-project-management-office.md) | ![best practices ribbon](https://docs.microsoft.com/office/media/icons/best-practices-planner.png)  | [Best Practices to Improve Performance](tune-project-online-performance.md) |
+| ![task bullet list](https://docs.microsoft.com/office/media/icons/task-list-planning-project.png)  | [Project Online Software Limits and Boundaries](project-online-software-boundaries-and-limits.md) | ![a clock](https://docs.microsoft.com/office/media/icons/clock-planner.png)  | [Set Up Timesheets](set-up-timesheets.md) | ![settings gear](https://docs.microsoft.com/office/media/icons/settings.png)  | [Configure Rollup of Timephased Reporting Data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md) |
 
 
 
 ## Featured articles
 
-[Project Online client requirements](/ProjectOnline/project-online-client-requirements.md)
+[Project Online client requirements](project-online-client-requirements.md)
 
-[Best practices to improve Resource Engagements performance](/ProjectOnline/best-practices-to-improve-resource-engagements-performance.md)
+[Best practices to improve Resource Engagements performance](best-practices-to-improve-resource-engagements-performance.md)
 
-[Change permission management in Project Online](/ProjectOnline/change-permission-management-in-project-online.md)
+[Change permission management in Project Online](change-permission-management-in-project-online.md)
 
-[Understanding identity management in Project Online](/ProjectOnline/understanding-identity-management-in-project-online.md)
+[Understanding identity management in Project Online](understanding-identity-management-in-project-online.md)
