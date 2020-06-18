@@ -47,8 +47,12 @@ To remove the Project tile from the App Launcher for a user, an admin needs to r
 
 If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this through Windows PowerShell instead of through the Microsoft 365 admin center. 
 
+Make sure to use the latest [Azure Active Directory module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
+
 > [!Important!] 
 > Again, noting that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
+
+
 
 1. In Windows PowerShell, type and enter the following to sign into your tenant.</br>
 ```PowerShell
@@ -113,79 +117,7 @@ Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
 
 ```
 
-4. Type the following to find the **AccountSkuId** of your Project Online licenses.</br>
-```PowerShell
-#disable the plan for the user/sku combination
 
-$user = "<user>@tenant.onmicrosoft.com"  #user
-$skuPart = "ENTERPRISEPREMIUM"   #sku to disable the plan on from the previous step
-
-$plansToDisableList = @("PROJECT_O365_F3","PROJECT_O365_P1","PROJECT_O365_P2","PROJECT_O365_P3")
-
-#Get the SKU details
-$sku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq  $skuPart}
-
-#Get a reference to the service plan we are disabling
-$newPlansToDisable = $sku.ServicePlans | ? {$_.ServicePlanName -in $plansToDisableList}
-
-
-#Get any disabled service plans (apps) on the SKU assigned to the user
-$existingDisabled =Get-AzureADUserLicenseDetail  -ObjectId $user  | ? {$_.SkuPartNumber -eq  $skuPart } | Select-Object -ExpandProperty  ServicePlans |  ? {$_.ProvisioningStatus -eq 'Disabled' }
-
-#Merge the lists together so we are maintaining disabled service plans (apps)
-$totalDisabledPlans = @($newPlansToDisable,$existingDisabled)
-
-#Create a license with the service plan (apps) disabled
-$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-$license.SkuId = $sku.SkuId
-$license.DisabledPlans = $totalDisabledPlans.ServicePlanId
-
-
-$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-$licenses.AddLicenses = $license
-
-#Assign updated SKU
-Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
-
-
-```
-
-5. Type the following to find the **AccountSkuId** of your Project Online licenses.</br>
-```PowerShell
-#disable the plan for the user/sku combination
-
-$user = "<user>@tenant.onmicrosoft.com"  #user
-$skuPart = "ENTERPRISEPREMIUM"   #sku to disable the plan on from the previous step
-
-$plansToDisableList = @("PROJECT_O365_F3","PROJECT_O365_P1","PROJECT_O365_P2","PROJECT_O365_P3")
-
-#Get the SKU details
-$sku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq  $skuPart}
-
-#Get a reference to the service plan we are disabling
-$newPlansToDisable = $sku.ServicePlans | ? {$_.ServicePlanName -in $plansToDisableList}
-
-
-#Get any disabled service plans (apps) on the SKU assigned to the user
-$existingDisabled =Get-AzureADUserLicenseDetail  -ObjectId $user  | ? {$_.SkuPartNumber -eq  $skuPart } | Select-Object -ExpandProperty  ServicePlans |  ? {$_.ProvisioningStatus -eq 'Disabled' }
-
-#Merge the lists together so we are maintaining disabled service plans (apps)
-$totalDisabledPlans = @($newPlansToDisable,$existingDisabled)
-
-#Create a license with the service plan (apps) disabled
-$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-$license.SkuId = $sku.SkuId
-$license.DisabledPlans = $totalDisabledPlans.ServicePlanId
-
-
-$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-$licenses.AddLicenses = $license
-
-#Assign updated SKU
-Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
-
-
-```
 
 ## See Also
 [Office 365 user view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)  
