@@ -1,5 +1,5 @@
 ---
-title: "Remove Project for the web or Roadmap from Office 365"
+title: "Remove Project from the Office 365 app"
 ms.author: efrene
 author: efrene
 manager: pamgreen
