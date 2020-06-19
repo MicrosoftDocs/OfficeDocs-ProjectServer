@@ -28,8 +28,13 @@ An admin may want to keep the Project tile from displaying for the user in some 
 
 To remove the Project tile from the App Launcher for a user, an admin needs to remove the **Project for Office** service for the user’s Microsoft 365 or Office 365 license in the Microsoft 365 admin center. 
 
-> [!Important!] 
+> [!NOTE]
+> If you had previously disabled the **Common Data Service for Project** service to hide the Project tile previously, please enable it and use the steps in this article to disable the new **Project for Office** service.  Future Office scenarios in addition to Project will depend on CDS.
+
+> [!Important] 
 > Removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
+
+
 
 ### To remove the Project tile for an individual user 
 
@@ -49,8 +54,8 @@ If you need to remove the Project tile for a large number of users, it may be ea
 
 Make sure to use the latest [Azure Active Directory module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
 
-> [!Important!] 
-> Again, noting that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
+> [!Important] 
+> Again, note that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
 
 
 
@@ -60,7 +65,6 @@ Connect-AzureAd
 ```
 2. After connecting to Azure Active Directory, you can use the following to get a list of the Office 365 or Microsoft 365 licenses that have view access to Project for the web and Roadmap on your tenant. 
 ```PowerShell
-Connect-AzureAd
 
 $returnObject = @()
 Get-AzureADSubscribedSku | % {
