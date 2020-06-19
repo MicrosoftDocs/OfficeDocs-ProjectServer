@@ -29,7 +29,7 @@ An admin may want to keep the Project tile from displaying for the user in some 
 To remove the Project tile from the App Launcher for a user, an admin needs to remove the **Project for Office** service for the user’s Microsoft 365 or Office 365 license in the Microsoft 365 admin center. 
 
 > [!NOTE]
-> If you had previously disabled the **Common Data Service for Project** service to hide the Project tile previously, please enable it and use the steps in this article to disable the new **Project for Office** service.  Future Office scenarios in addition to Project will depend on CDS.
+> If you had previously disabled the **Common Data Service for Project** service to hide the Project tile, please enable it and use the steps in this article to disable the new **Project for Office** service.  Future Office scenarios in addition to Project will depend on CDS.
 
 > [!Important] 
 > Removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
