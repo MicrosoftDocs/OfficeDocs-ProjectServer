@@ -101,7 +101,7 @@ If you want to find the user's resource ID, PWA site admins can to do the follow
   
 1. In the Project Online **Server Settings**, in the **Enterprise Data** section, click **Resource Center**.
     
-2. On the **Resource Center** page, in the ** Resource Name ** column, locate the user's name then look in that row to see if you can find a value in the **Unique ID** column. This value is the user's Resource ID. For example, in the graphic below, you can see Aaron Painter's Resource ID value listed in the Unique ID column. 
+2. On the **Resource Center** page, in the **Resource Name** column, locate the user's name then look in that row to see if you can find a value in the **Unique ID** column. This value is the user's Resource ID. For example, in the graphic below, you can see Aaron Painter's Resource ID value listed in the Unique ID column. 
     
     ![User's Resource ID in the Unique ID column](media/1dee114a-2efc-4368-9e7c-6ecd614f1409.png)
   
