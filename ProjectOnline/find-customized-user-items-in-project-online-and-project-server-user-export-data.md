@@ -65,9 +65,9 @@ For Project Server, you will need to save the specific project file to XML forma
 
 4. Now open the project's MPP file in the Project Online Desktop Client or Project Professional 2016. 
     
-5. Click the **View** menu to open the ribbon, and in the ribbon select the ** Other View ** dropdown menu, and then click **More Views**. 
+5. Click the **View** menu to open the ribbon, and in the ribbon select the **Other View** dropdown menu, and then click **More Views**. 
     
-6. In the ** More Views ** window, in the Views list, select the view you are looking for, and then click **Apply**. 
+6. In the **More Views** window, in the Views list, select the view you are looking for, and then click **Apply**. 
     
     ![More Filters](media/ec762973-a15d-4c92-b6d3-3b5d91413b04.png)
   

@@ -176,7 +176,7 @@ Both the .XML and .MPP files that are created will be prefixed with the projectâ
 - dd065460-02b8-e911-a989-000d3a170e10.XML
 - dd065460-02b8-e911-a989-000d3a170e10.MPP
 
-Note that you may receive multiple versions of your .MPP file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.
+Note that you may receive multiple versions of your .MPP file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date. 
 
 All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
 
