@@ -36,10 +36,12 @@ Users that have the following Office 365 licenses assigned to them will have vie
 - Microsoft 365 E5
 - Microsoft 365 E5 Developer (without Windows and Audio Conferencing)
 - Microsoft 365 E5 without Audio Conferencing
+- Microsoft 365 E5 with Calling Minutes
 - Office 365 E5
 - Office 365 E5 without Audio Conferencing
 - Office 365 E5 without Power BI and Phone System
 - Office 365 E5 - Escalation Sku
+- Office 365 E5 with Calling Minutes
 - Microsoft 365 E3
 - Microsoft 365 E3 - Unattended License
 - Office 365 E3
@@ -65,12 +67,16 @@ Users that have the following Office 365 licenses assigned to them will have vie
 - Microsoft 365 A5 without Audio Conferencing for Faculty
 - Microsoft 365 A5 without Audio Conferencing for Students
 - Microsoft 365 A5 without Audio Conferencing for Students Use Benefit
+- Microsoft 365 A5 with Calling Minutes for Students
+- Microsoft 365 A5 with Calling Minutes for Faculty 
 - Office 365 A5 for Faculty
 - Office 365 A5 for Students
 - Office 365 A5 Student Use Benefit
 - Office 365 A5 without Audio Conferencing for Faculty
 - Office 365 A5 without Audio Conferencing for Students
 - Office 365 A5 without Audio Conferencing for Students Use Benefit
+- Office 365 A5 with Calling Minutes for Students
+- Office 365 A5 with Calling Minutes for Faculty
 - Microsoft 365 A3 for Faculty
 - Microsoft 365 A3 for Students
 - Microsoft 365 A3 Student Use Benefits
