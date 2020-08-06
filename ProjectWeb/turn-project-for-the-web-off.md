@@ -164,10 +164,35 @@ An admin can do the following to turn Roadmap on or off for their organization:
 1. In the Microsoft 365 admin center, expand the navigation menu, select **Settings**, and then select **Settings**.
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Roadmap for your organization**, and then click **Save changes**.
-
-
  
 ![Roadmap Setting](media/projsettingsrm.png)
+
+4. Project Roadmap may requires the Project Roadmap connector to be added to a **[Data Policy](https://admin.powerplatform.microsoft.com/dlp)** in the Power Platform admin center.  At the moment, the [Project Roadmap connector does not show up in the GUI of the **Data Policy**](https://github.com/MicrosoftDocs/power-platform/issues/177). 
+Therefore, please follow along this guidance in order to add the Project Roadmap connector to the data group **Business** in the desired **Data Policy**.
+
+```powershell
+$userName = "<your username>"
+$userPassword =  "<your userpassword>"
+$DlpDisplayName = "<your desired DLP Policy DisplayName"
+
+# Connect to PowerApps
+Add-PowerAppsAccount -Username $userName -Password $userPassword
+
+# Get all Power Platform DLP policies (Data Policies)
+Get-AdminDlpPolicy
+
+# Set desired DLP policy to be modified
+$DlpPolicy = Get-AdminDlpPolicy | Where-Object DisplayName -EQ $DlpDisplayName
+
+# Get BusinessDataGropup connectors of specific DLP Policy and check for ConnectorId '/providers/Microsoft.PowerApps/apis/shared_projectroadmap'
+Get-AdminDlpPolicy -PolicyName $DlpPolicy.PolicyName | Select-Object –ExpandProperty BusinessDataGroup
+
+# Add Connector "Project Roadmap" to BusinessDataGropup of DLP policy and check for Status 200 / Description OK
+Add-CustomConnectorToPolicy -PolicyName $DlpPolicy.PolicyName -ConnectorId '/providers/Microsoft.PowerApps/apis/shared_projectroadmap' -GroupName hbi -ConnectorName "Project Roadmap" -ConnectorType "Microsoft.PowerApps/apis"
+
+# Verify DLP policy settings
+Get-AdminDlpPolicy -PolicyName $DlpPolicy.PolicyName | Select-Object –ExpandProperty BusinessDataGroup | Where-Object name -EQ "Project Roadmap"
+```
 
 ### Roadmap is not turned on for your organization 
 
