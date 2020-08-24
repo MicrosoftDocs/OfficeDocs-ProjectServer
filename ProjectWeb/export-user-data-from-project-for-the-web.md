@@ -56,7 +56,7 @@ When looking for a specific users Project for the web data in Dynamics 365 CDS, 
 |:-----|:-----|
 |**Name** <br/> |**Display Name** <br/> |
 |PortfolioService  <br/> |Portfolio Service  <br/> |
-|msdyn_ProjectServiceCore <br/> |Project Service Automation Core  <br/> |
+|msdyn_ProjectServiceCore <br/> |Project <br/> |
 |MicrosoftDynamicsScheduling  <br/> |Universal Resource Scheduling <br/> |
 |msdynce_SchedulingPatch  <br/> |Scheduling Patch <br/> |
 |mydynce_Scheduling <br/> | Scheduling <br/> |
