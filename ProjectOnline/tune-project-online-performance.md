@@ -333,7 +333,7 @@ You'll then need to test your instances to verify that everything works correctl
 
 Project Online has an OData reporting service that provides a way to build reporting/visualization on the data stored in the service. The ProjectData OData reporting service API is defined [here](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
 
-Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the policies defined [here](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
+Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the article [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
 
 In addition, following the recommendations outlined in this document will reduce the number, length and frequency of calls needed to retrieve data. If throttling is occurring often, check across the organization as multiple departments could be querying the same data or not following the best practices outlined in this article and affecting everyone.
 
@@ -361,7 +361,7 @@ By using the Project OData service, you can extract information from your Projec
  **Recommendation:**
   
 Store the least amount of timephased data that is consistent with your business needs. 
-Do not use Daily if you have workflows that wait on publish to complete.  Daily can take significate time to generate the required data causing workflows to wait. 
+Do not use Daily if you have workflows that wait on publish to complete.  Daily can take significant time to generate the required data causing workflows to wait. 
  
 
 ### Querying the service
@@ -375,7 +375,7 @@ Perform Odata refresh actions after hours. Decisions to maintain real time or cl
 
 For a Project Web App instance that contains a large number of entities, such as projects, assignments, or tasks, you should limit the data returned in at least one of the following ways. If you don't limit the data returned, the query can exceed the default limits and affect server performance.
 
-- **Always use a $filter URL option and use $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
+- **Always use a $filter URL option and $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
     
   ```
   http://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
@@ -384,10 +384,12 @@ For a Project Web App instance that contains a large number of entities, such as
 -	**Avoid Custom Fields that are multi-value lookups.** Extra computation is required to process custom field values which are multi-value lookups.  These fields are not able to take advantage of several optimizations that have been implemented for more common customer scenarios. If multi value custom fields  have already been configured, improve the lookup speed and reliability by ensuring that none of those fields are specified in your filtered Odata query. 
 
 -	**Querying entities by key or association.** When querying entities, refer to the metadata document at https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata.  Whenever possible query the entity in one of the following ways:
-  -	Keys – note if there is more than one key, using the first key will perform better than only using the second key
-  -	Associations
+    
+  - **Keys** Note: If there is more than one key, using the first key will perform better than only using the second key.
+ 
+   - **Associations**
 
-For example you can query [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) via AssignmentId and ProjectId
+For example you can query the [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId
 
   ```
   https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12' and ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
@@ -456,23 +458,23 @@ Retrieve the current snapshot of the reporting data you are interested in. Use t
 
 For example using the [Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
 
-1.	Query the ProjectId from the Project entity including any additional filters.  Example filter on projects that have specific custom field values
-2.	Query the Project entity specifying the fields that need to be downloaded and filtering on a single ProjectId that were previously retrieved. Include the ProjectModifiedDate as it is used in the delta sync pattern below. 
-3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities.  For example using Task entity:
+1.	Query the ProjectId from the Project entity including any additional filters.  For example, filter on projects that have specific start or finish dates. 
+2.	Query the Project entity specifying the fields that need to be downloaded, filtering on a single ProjectId that was previously retrieved. Include the ProjectModifiedDate as it is used in the delta sync pattern below. 
+3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities. 
 
 
 For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
-1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step
-2.	Query the Task entity specifying the fields that need to be downloaded and filtering on a single TaskId  that was previously retrieved. Include the TaskModifiedDate as it is used in the delta sync pattern below. 
+1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step.
+2.	Query the Task entity specifying the fields that need to be downloaded and filtering on a single TaskId that was previously retrieved. Include the TaskModifiedDate as it is used in the delta sync pattern below. 
 3.	Repeat for each TaskId.
 
 Similarly, use the same approach for each related entity e.g. [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163029(v=office.15)) 
 
 
-The above steps apply to other groups of entities, dor example when retrieving timesheet information:
+The above steps apply to other groups of entities, for example when retrieving timesheet information:
 
--	[Timesheet](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue or other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
+-	[Timesheet](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue on to other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
 
 When retrieving Resource entity information: 
 
@@ -482,14 +484,14 @@ When retrieving Resource entity information:
 
 Check periodically to keep the local copy of the reporting data up to date.  Repeat the steps below as needed for the respective group of entitles, e.g. Timesheet, Resource…
 
-1.	Query all the ProjectId’s and modification date from the Project endpoint using $filter criteria
+1.	Query all the ProjectId’s and modification date from the Project endpoint using $filter criteria.
 2.	Delete local project and related records (Tasks, Assignments etc) where the ProjectId no longer exists.
 3.	Where the service modification date and the local modification date are different for the project record, query the Project endpoint for all the required fields filtering on a single ProjectId at a time.  In addition, for each ProjectId, download the data for related entities.  
 
 For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
-1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed i.e. Project service modification date didn’t match the local modification date
-2.	Delete local and related records TaskId no longer exists
+1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed i.e. Project service modification date didn’t match the local modification date.
+2.	Delete local and related records for TaskId that no longer exists.
 3.	Where the service modification date and the local modification date are different, query the respective entity endpoint passing in TaskId and entity primary key and update the local version.
 
 Repeat for each related entity e.g. Assignment, TaskTimephasedData 
