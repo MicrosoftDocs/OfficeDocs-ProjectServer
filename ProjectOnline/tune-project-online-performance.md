@@ -329,9 +329,20 @@ You'll then need to test your instances to verify that everything works correctl
 
 ## OData and Reporting
 
-### Reporting
+### ProjectData OData Service
 
-In Project Online you can choose the granularity of time phased reporting data - or you can choose  *Never*  if you do not need time phased reporting data. This feature is fully documented in [Configure rollup of timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md). Choosing an option that uses the least amount of data that satisfies your reporting needs means that reports will generate quicker, you may be able to use different reporting options as you will have a smaller dataset and you will also benefit from faster publishing of projects. The list of options in order of most benefit to performance are:
+Project Online has an OData reporting service that provides a way to build reporting/visualization on the data stored in the service. The ProjectData OData reporting service API is defined [here](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
+
+Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the policies defined [here](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
+
+In addition, following the recommendations outlined in this document will reduce the number, length and frequency of calls needed to retrieve data. If throttling is occurring often, check across the organization as multiple departments could be querying the same data or not following the best practices outlined in this article and affecting everyone.
+
+
+### Timephased Reporting
+
+In Project Online you can choose the level of granularity you need for timephased reporting data. The options and impact of the levels are fully documented in [Configure rollup of timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md). Choosing a level that generates the least amount of data for your scenarios will allow the data to be visible in OData Reporting service endpoint faster and will reduce the amount of time it will take to download.
+
+The list of options in order of performance (from most to least performant correlating to the amount of data generated):
   
 - Never
     
@@ -349,86 +360,141 @@ By using the Project OData service, you can extract information from your Projec
   
  **Recommendation:**
   
-Store the least amount of timephased data that is consistent with your business needs. Do not use  *Daily*  if you have workflows that wait on publish to complete. 
-  
-#### PowerBI
+Store the least amount of timephased data that is consistent with your business needs. 
+Do not use Daily if you have workflows that wait on publish to complete.  Daily can take significate time to generate the required data causing workflows to wait. 
+ 
 
-If the amount of data is small, then Power BI can regularly read data from the Project OData service and help provide a variety of dynamics reports. A sample content pack can be found [here](https://github.com/OfficeDev/Project-Power-BI-Content-Packs).
-  
-If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months.
-  
-#### SQL Server Integration Services (SSIS)
+### Querying the service
+There are [limits](https://go.microsoft.com/fwlink/p/?linkid=845599) to the number of entities that can be returned in one query of the ProjectData OData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request.
 
-Using SSIS, data can be extracted from the Project OData service and can download your reporting data into a SQL server database locally or in Microsoft Azure. A sample SSIS package for the Project OData service can be found [here](https://go.microsoft.com/fwlink/p/?linkid=845597).
-  
  **Recommendation:**
-  
-If your reporting needs still require you to extract a large amount of data, consider using the [SQL Server Integration Services (SSIS) package](https://go.microsoft.com/fwlink/p/?LinkId=544822) to copy your reporting data into a SQL server database locally or in Microsoft Azure. 
-  
-When using SSIS, please consider the following steps:
-  
- **Full Sync**
-  
-Get a current snapshot of the reporting data you are interested in.
-  
-1. Record current date/time as sync time
-    
-2. Download data from each endpoint.
-    
- **Delta Sync**
-  
-Check periodically to keep your copy up to date.
-  
-1. Record current date time.
-    
-2. Query ProjectId From Projects endpoint.
-    
-3. Delete local Projects where the ProjectId no longer exists.
-    
-4. Query each endpoint by Project:
-    
-1. Query the entity Ids.
-    
-2. Delete local entities where the Ids no longer exists.
-    
-3. Query for mod_dates that has changed since you last synced﻿.
-    
-#### Custom Fields
 
-When retrieving data from the OData endpoint, extra computation is required when using custom fields which are multi-value lookups. The extra computation does not allow the OData endpoint to take advantage of a number of optimizations.
-  
- **Recommendation**
-  
-Do not use multi-value lookup custom fields.﻿
-  
-### Querying OData
+Avoid performing full “refresh everything” data loads. These refreshes can impact performance of the PWA site especially during peak use times leading to overall performance degradation of user operations in PWA or throttling.
 
-There are [limits](https://go.microsoft.com/fwlink/p/?linkid=845599) to the number of entities that can be returned in one query of the ProjectData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request. 
-  
+Perform Odata refresh actions after hours. Decisions to maintain real time or close to real reports should also take into consideration the performance tradeoffs to the user experience in the PWA site.  If “refresh everything” requirements exist, please review the “SQL Server Integration Services (SSIS) – Recommended for large datasets” section.
+
 For a Project Web App instance that contains a large number of entities, such as projects, assignments, or tasks, you should limit the data returned in at least one of the following ways. If you don't limit the data returned, the query can exceed the default limits and affect server performance.
-  
-- **Use a $filter URL option, or use $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
+
+- **Always use a $filter URL option and use $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
     
   ```
   http://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
   ```
 
-- **Get an entity collection by using an association.** For example, the following query internally uses the Project_Assignments_Assignment_Project association to get all of the assignments in a specific project: 
-    
+-	**Avoid Custom Fields that are multi-value lookups.** Extra computation is required to process custom field values which are multi-value lookups.  These fields are not able to take advantage of several optimizations that have been implemented for more common customer scenarios. If multi value custom fields  have already been configured, improve the lookup speed and reliability by ensuring that none of those fields are specified in your filtered Odata query. 
+
+-	**Querying entities by key or association.** When querying entities, refer to the metadata document at https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata.  Whenever possible query the entity in one of the following ways:
+  -	Keys – note if there is more than one key, using the first key will perform better than only using the second key
+  -	Associations
+
+For example you can query [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) via AssignmentId and ProjectId
+
   ```
-  http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12' and ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
+
+or
+
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments(AssignmentId=guid'719d849a-79b4-e911-b073-00155d9c3d12',ProjectId=guid'b5b02399-79b4-e911-b073-00155d9c3d12') 
+  ```  
+
+via AssignmentId
+
+  ```  
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12'
+  ```    
+
+via ProjectId:
+
+  ```
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter= ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
   ```
 
-- **Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets issues 11 through 20 for all projects, in order of the resource who is assigned to the issue: 
-    
+via association via Project
+
   ```
-  http://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
+  https://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
   ```
 
- **Recommendation:**
+-	**Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets [Issues](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj162995(v=office.15)) 11 through 20 for all projects, in order of the resource who is assigned to the issue:
+
+  ```
+  https://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
+  ```
+
+-	**Avoid retrieving the Project/Task/Resource name when querying the [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) Entity.**  The service performs additional processing to retrieve the respective names. If the data has already been retrieved from other queries, do not include it in the $select filter when querying Assignment.
+
+
+**Recommendation:**
+-	Limit the amount of data you query at runtime by using server-side filtering to retrieve only the columns that you need. The impact of this is most noticeable with custom fields. Add in the custom fields only if you need them.
+-	Ensure that you are filtering on the entity key. The entity key is indexed and will offer a much more performant data retrieval experience. You can find the key(s) for each entity by reviewing the Service Metadata Document in your PWA instance: https://Contoso.sharepoint.com/sites/PWA/_api/ProjectData/$metadata
+
+
+### Retrieving Data and Building Reports
+
+#### PowerBI
+
+If the amount of data is small, then Power BI can regularly read data from the Project OData service and help provide a variety of dynamics reports. A sample content pack can be found [here](https://github.com/OfficeDev/Project-Power-BI-Content-Packs).
   
-Trying limiting the amount of data you query at runtime by using server-side filtering.
+If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as PowerBI may not take advantage of the service-side filtering optimizations. 
   
+  
+#### Excel OData 
+
+Excel can be used to download data and build custom visualizations/reports. If the amount of data in Project Online is large, a subset of the data can be using a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as Excel may not take advantage of the service-side filtering optimizations.
+
+
+#### SQL Server Integration Services (SSIS)
+
+Using SSIS, Project Online reporting data can be downloaded from the Project OData service into a local SQL server database or into Microsoft Azure. Once downloaded, any reports/visualizations can be authored. A further process is needed to keep the local data in sync with Project Online. 
+
+When using SSIS, use the following pattern that Project Online has been optimized for. The pattern will reduce the amount of time it takes to retrieve and keep the local data in sync. Further only download the fields that are needed to perform the business requirements. The fewer the fields being queried, the quicker the data can be retrieved.
+
+
+**Full Sync**
+
+Retrieve the current snapshot of the reporting data you are interested in. Use the following method to efficiently retrieve [Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163049(v=office.15)) and related entities.
+
+For example using the [Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
+
+1.	Query the ProjectId from the Project entity including any additional filters.  Example filter on projects that have specific custom field values
+2.	Query the Project entity specifying the fields that need to be downloaded and filtering on a single ProjectId that were previously retrieved. Include the ProjectModifiedDate as it is used in the delta sync pattern below. 
+3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities.  For example using Task entity:
+
+
+For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+
+1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step
+2.	Query the Task entity specifying the fields that need to be downloaded and filtering on a single TaskId  that was previously retrieved. Include the TaskModifiedDate as it is used in the delta sync pattern below. 
+3.	Repeat for each TaskId.
+
+Similarly, use the same approach for each related entity e.g. [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163029(v=office.15)) 
+
+
+The above steps apply to other groups of entities, dor example when retrieving timesheet information:
+
+-	[Timesheet](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue or other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
+
+When retrieving Resource entity information: 
+
+- Retrieve the ResourceId and ResourceModifiedDate, then [Resource](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163027(v=office.15)) records, then [ResourceTimephasedData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163541(v=office.15)) etc. Include the respective primary key Ids and modification dates fields.
+
+**Delta Sync**
+
+Check periodically to keep the local copy of the reporting data up to date.  Repeat the steps below as needed for the respective group of entitles, e.g. Timesheet, Resource…
+
+1.	Query all the ProjectId’s and modification date from the Project endpoint using $filter criteria
+2.	Delete local project and related records (Tasks, Assignments etc) where the ProjectId no longer exists.
+3.	Where the service modification date and the local modification date are different for the project record, query the Project endpoint for all the required fields filtering on a single ProjectId at a time.  In addition, for each ProjectId, download the data for related entities.  
+
+For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+
+1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed i.e. Project service modification date didn’t match the local modification date
+2.	Delete local and related records TaskId no longer exists
+3.	Where the service modification date and the local modification date are different, query the respective entity endpoint passing in TaskId and entity primary key and update the local version.
+
+Repeat for each related entity e.g. Assignment, TaskTimephasedData 
+
+
 ## Project Web App Quota
 
 By default, the Project Web App Site comes with a 25GB limit and is separate from the [limit on all data stored in the SharePoint site collection](https://go.microsoft.com/fwlink/p/?LinkID=856113) where Project Web App is enabled. Using the reporting granularity options to reduce your data volume can help in staying within the quota. 
