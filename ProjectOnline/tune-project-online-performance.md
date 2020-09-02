@@ -323,7 +323,7 @@ You'll then need to test your instances to verify that everything works correctl
 
 
 > [!NOTE]
-> This feature is being introduced gradually to Office 365.  This means that you may not currently have this setting available.
+> This setting can only be seen and changed by the Site Collection Administrator. 
 
 
 
