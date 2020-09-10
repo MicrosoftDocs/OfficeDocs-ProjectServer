@@ -35,6 +35,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/project/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Project Server",
       "contributors_to_exclude": [
         "denisebmsft"
