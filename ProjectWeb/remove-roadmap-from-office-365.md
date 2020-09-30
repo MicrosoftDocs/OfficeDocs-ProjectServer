@@ -62,10 +62,11 @@ To remove Project for the web:
 3. On the PowerApps page, click the Settings icon, and then click **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
 5. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
-6. Select the **MicrosoftDynamicsScheduling** solution, and then click **Delete**.
-7. Select the **msdynce_SchedulingPatch** solution, and then click **Delete**.
-8. Select the **msdynce_Scheduling** solution, and then click **Delete**.
-9. . Select any solutions with a naming format of **msdyn_ProjectServiceCore_Patch_(number)**, (for example, msdyn_ProjectServiceCore_Patch_1 or msdyn_ProjectServiceCore_Patch_2), and then click **Delete**.
+6. Select the **msdyn_ProjectServiceCore_Anchor** solution, and then click **Delete**.
+7. Select the **MicrosoftDynamicsScheduling** solution, and then click **Delete**.
+8. Select the **msdynce_SchedulingPatch** solution, and then click **Delete**.
+9. Select the **msdynce_Scheduling** solution, and then click **Delete**.
+10. . Select any solutions with a naming format of **msdyn_ProjectServiceCore_Patch_(number)**, (for example, msdyn_ProjectServiceCore_Patch_1 or msdyn_ProjectServiceCore_Patch_2), and then click **Delete**.
 ## See Also
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
