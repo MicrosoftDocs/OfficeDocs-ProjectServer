@@ -1,7 +1,7 @@
 ---
 title: "Plan the client tier in Project Server 2013"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 12/1/2017
 audience: ITPro

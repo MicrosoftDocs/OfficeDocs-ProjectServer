@@ -1,7 +1,7 @@
 ---
 title: "Using Project Online with external users"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 1/5/2018
 audience: admin

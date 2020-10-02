@@ -1,7 +1,7 @@
 ---
 title: "Tune Project Web App (PWA) performance in Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 3/28/2018
 audience: admin

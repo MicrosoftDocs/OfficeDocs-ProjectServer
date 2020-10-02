@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 audience: ITPro
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Project Server 2016 architecture"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 8/31/2016
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Export user data from Project for the Web"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 10/29/2019
 audience: admin

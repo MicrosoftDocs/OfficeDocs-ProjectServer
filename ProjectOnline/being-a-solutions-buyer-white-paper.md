@@ -1,7 +1,7 @@
 ---
 title: "Being a solutions buyer white paper"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 11/19/2015
 audience: admin

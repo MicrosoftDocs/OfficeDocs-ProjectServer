@@ -1,7 +1,7 @@
 ---
 title: "Defining project portfolio dependencies"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 9/24/2019
 audience: admin

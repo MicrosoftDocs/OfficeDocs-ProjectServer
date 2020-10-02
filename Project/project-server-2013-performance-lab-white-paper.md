@@ -1,7 +1,7 @@
 ---
 title: "Project Server 2013 Performance Lab (white paper)"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/29/2017
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Install and configure Project Servers 2016 or 2019"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 audience: ITPro
 ms.topic: article

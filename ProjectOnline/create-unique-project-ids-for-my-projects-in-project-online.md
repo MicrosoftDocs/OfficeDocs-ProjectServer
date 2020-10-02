@@ -1,7 +1,7 @@
 ---
 title: "Create unique Project IDs for my projects in Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 2/9/2018
 audience: admin

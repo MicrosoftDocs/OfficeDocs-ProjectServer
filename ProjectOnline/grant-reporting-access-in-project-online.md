@@ -1,7 +1,7 @@
 ---
 title: "Grant reporting access in Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 2/25/2016
 audience: admin

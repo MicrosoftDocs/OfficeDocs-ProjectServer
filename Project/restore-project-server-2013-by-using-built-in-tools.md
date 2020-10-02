@@ -1,7 +1,7 @@
 ---
 title: "Restore Project Server 2013 by using built-in tools"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 12/1/2017
 audience: ITPro
