@@ -42,4 +42,4 @@ There are important limitations that you should know if you are using Project fo
 |Maximum duration of leaf task  <br/> |1250 days  <br/> |
 |Maximum duration of a summary task  <br/> |3650 days (10 years)  <br/> |
 |Maximum resources assigned to a task  <br/> |20 resources  <br/> |
-|Supported date range for a task  <br/> |1/1/1984 - 12/31/2149  <br/> |
+|Supported date range for a task  <br/> |1/1/2000 - 12/31/2149  <br/> |
