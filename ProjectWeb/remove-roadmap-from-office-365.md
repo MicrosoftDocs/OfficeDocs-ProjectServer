@@ -1,7 +1,7 @@
 ---
 title: "Remove Project from the Office 365 app"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 audience: admin
 ms.topic: article

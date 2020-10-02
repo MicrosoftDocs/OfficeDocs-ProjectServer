@@ -1,7 +1,7 @@
 ---
 title: "Delete user data from Project for the web"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App in an existing site collection"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro

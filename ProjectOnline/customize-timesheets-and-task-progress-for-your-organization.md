@@ -1,7 +1,7 @@
 ---
 title: "Customize timesheets and task progress for your organization"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 7/11/2017
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Configure rollup of timephased reporting data in Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 5/16/2018
 audience: admin

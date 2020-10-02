@@ -1,7 +1,7 @@
 ---
 title: "They say they want a resolution white paper"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 12/30/2016
 audience: admin

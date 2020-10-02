@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App with a new site collection (Project Server 2013)"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/20/2017
 audience: ITPro

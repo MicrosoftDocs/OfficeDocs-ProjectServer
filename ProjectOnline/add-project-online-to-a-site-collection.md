@@ -1,7 +1,7 @@
 ---
 title: "Add Project Online to a site collection"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 2/16/2018
 audience: admin

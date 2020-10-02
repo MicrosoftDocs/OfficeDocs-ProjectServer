@@ -1,7 +1,7 @@
 ---
 title: "Project for the web get started guide for admins"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin

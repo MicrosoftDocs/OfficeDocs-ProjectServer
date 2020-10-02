@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Data (Project Server settings)"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 9/6/2017
 audience: ITPro

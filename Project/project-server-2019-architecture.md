@@ -1,7 +1,7 @@
 ---
 title: "Project Server 2019 architecture"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 9/15/2018
 audience: ITPro

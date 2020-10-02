@@ -1,7 +1,7 @@
 ---
 title: "Manage Active Directory Resource Pool synchronization in Project Server 2013"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/30/2017
 audience: ITPro

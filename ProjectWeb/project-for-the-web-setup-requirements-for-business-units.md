@@ -1,7 +1,7 @@
 ---
 title: "Project for the web setup requirements for Dynamics 365 business units"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin

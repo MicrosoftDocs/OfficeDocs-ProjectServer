@@ -1,7 +1,7 @@
 ---
 title: "Is there a pilot on board? white paper"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 8/10/2016
 audience: admin

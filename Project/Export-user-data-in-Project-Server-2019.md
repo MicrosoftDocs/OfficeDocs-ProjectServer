@@ -1,7 +1,7 @@
 ---
 title: "Export user data from Project Server 2019"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 audience: ITPro
 ms.topic: article

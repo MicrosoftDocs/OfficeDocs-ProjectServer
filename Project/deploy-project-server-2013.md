@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Server 2013"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/15/2017
 audience: ITPro

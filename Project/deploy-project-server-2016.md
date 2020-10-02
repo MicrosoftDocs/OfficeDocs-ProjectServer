@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Servers 2016 or 2019 Public Preview"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 audience: ITPro
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Install Project Server 2013 to a stand-alone computer"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 1/1/1900
 audience: ITPro

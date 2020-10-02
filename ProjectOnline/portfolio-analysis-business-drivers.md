@@ -1,7 +1,7 @@
 ---
 title: "Defining portfolio analysis business drivers"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 9/24/2019
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 12/1/2017
 audience: ITPro
