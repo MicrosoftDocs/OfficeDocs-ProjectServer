@@ -1,7 +1,7 @@
 ---
 title: "Change permission management in Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 6/15/2018
 audience: admin

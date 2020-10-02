@@ -1,7 +1,7 @@
 ---
 title: "Step 1 Sign up for Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 12/14/2017
 audience: admin

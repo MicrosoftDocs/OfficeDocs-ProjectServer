@@ -1,7 +1,7 @@
 ---
 title: "Supported languages for Project Online"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 11/1/2016
 audience: admin

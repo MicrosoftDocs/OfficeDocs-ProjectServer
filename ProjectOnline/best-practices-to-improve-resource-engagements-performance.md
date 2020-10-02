@@ -1,7 +1,7 @@
 ---
 title: "Best practices to improve Resource Engagements performance"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 6/1/2017
 audience: admin

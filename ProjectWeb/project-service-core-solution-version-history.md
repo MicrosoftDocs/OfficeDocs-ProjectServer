@@ -1,7 +1,7 @@
 ---
 title: "Project Service Core solution version history"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 12/9/2019
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Install and configure for Project Server"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 1/19/2016
 audience: ITPro

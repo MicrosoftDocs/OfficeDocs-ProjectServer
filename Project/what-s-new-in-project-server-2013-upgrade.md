@@ -1,7 +1,7 @@
 ---
 title: "What's new in Project Server 2013 upgrade"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/21/2017
 audience: ITPro

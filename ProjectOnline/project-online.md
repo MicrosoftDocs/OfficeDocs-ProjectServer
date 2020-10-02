@@ -1,14 +1,14 @@
 ---
 title: "Project Online Admin Documentation"
 localization_priority: Normal
-author: efrene
+author: serdars
 manager: samanro
 ms.service: project-online
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.date: 12/11/2017
-ms.author: efrene
+ms.author: serdars
 ms.assetid: 117b8a98-4758-40e3-86f5-3b893f8b7289
 description: "Project Online provides project management, work management, and portfolio management capabilities for the enterprise in an environment hosted through Office 365. With it, organizations can effectively initiate, select, plan, and deliver projects while tracking time and budget, while also providing extensive reporting capabilities. Learn how to plan for, implement, and manage Project Online with this content set."
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Prepare your environment for an upgrade to Project Server 2013"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: scotv
 ms.date: 11/22/2017
 audience: ITPro

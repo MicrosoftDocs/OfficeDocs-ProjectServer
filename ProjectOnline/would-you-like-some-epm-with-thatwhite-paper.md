@@ -1,7 +1,7 @@
 ---
 title: "Would you like some EPM with that? white paper"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 12/30/2016
 audience: admin

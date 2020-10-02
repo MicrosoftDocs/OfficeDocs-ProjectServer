@@ -1,7 +1,7 @@
 ---
 title: "Project Online client requirements"
-ms.author: efrene
-author: efrene
+ms.author: serdars
+author: serdars
 manager: pamgreen
 ms.date: 1/17/2018
 audience: admin
