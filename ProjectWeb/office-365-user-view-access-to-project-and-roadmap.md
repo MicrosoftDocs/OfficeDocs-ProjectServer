@@ -6,7 +6,6 @@ manager: pamgreen
 ms.date: 4/10/2020
 audience: admin
 ms.topic: article
-ms.service: 
 search.appverid: 
 - PJO150
 - MET150
