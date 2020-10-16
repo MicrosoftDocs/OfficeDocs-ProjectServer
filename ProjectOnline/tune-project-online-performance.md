@@ -1,7 +1,7 @@
 ---
-title: "Tune Project Web App (PWA) performance in Project Online"
-ms.author: serdars
-author: serdars
+title: "Tune Project Online performance"
+ms.author: efrene
+author: efrene
 manager: pamgreen
 ms.date: 3/28/2018
 audience: admin
@@ -13,30 +13,29 @@ ms.custom: Adm_Project
 search.appverid:
 - PJO150
 - PJO160
-- MET150
 ms.assetid: 12ba0ebd-c616-42e5-b9b6-cad570e8409c
 description: 
 ---
 
-# Tune Project Web App (PWA) performance in Project Online
+# Tune Project Online performance
 
   
-The online version of Project Web App is used in several large organizations. The rich set of Project Portfolio Management (PPM) capabilities have been used at scale in these large organizations successfully when the following best practices in this document are followed. This document is updated as new best practices are discovered.
+With the launch of Project Online a few years ago, organizations of all sizes have been able to use Microsoft's rich set of Project Portfolio Management (PPM) capabilities within the convenience of our Office 365 cloud infrastructure.
   
-Although one of the obvious benefits of using a cloud-based service is avoiding having to deal with deployment, setup, and hardware and software tuning, there are still some steps you can take to ensure your organization gets the best performance out of Project Web App.
+Although one of the obvious benefits of using a cloud-based service is avoiding having to deal with deployment, setup, and hardware and software tuning, there are still some steps you can take to ensure your organization gets the best performance out of Project Online.
   
-Project Web App offers many configuration and customization settings.  Project Web App has been optimized to work within a set of configurations and customizations.  Excessive customization will have a negative performance impact. This article highlights the performance impact and tradeoffs of some of the most common Project Web App settings, so you can make informed decisions when it comes to customizing and configuring Project Web App.
+Project Online offers many configuration and customization settings, but customizations can have a performance impact. This article highlights the performance impact and tradeoffs of some of the most common Project Online settings, so you can make informed decisions when it comes to customizing and configuring Project Online.
   
 ||
 |:-----|
 ||
 |This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project. ||
    
-## Office 365 and SharePoint best practices
+## Office 365 and SharePoint Online best practices
 
-There is a wealth of information around network planning and performance tuning for [SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=544778) and [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=544780). All this information is relevant to Project Web App customers and should be consulted in addition to the following best practices specific to Project Web App.
+There is a wealth of information around network planning and performance tuning for [SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=544778) and [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=544780). All this information is relevant to Project Online customers and should be consulted in addition to the following best practices specific to Project Online.
   
-## Project Web App configuration and customization
+## Project Online configuration and customization
 
 Many elements of a Project Web App site can be configured and customized, from administrative settings to permissions, and from collaboration settings to look-and-feel. Let's look at the settings that can potentially have an impact on the overall performance of your Project Web App site.
   
@@ -50,9 +49,7 @@ We will cover:
     
   - Synchronization mechanisms between Project Online and SharePoint Online
     
-- Active Directory Resource Pool sync
-
--	Custom Fields and Lookup Tables
+- Active Directory Resource Pool sync﻿
     
 - UI customization and look-and-feel
     
@@ -68,18 +65,18 @@ We will cover:
   
 ## Permission modes: SharePoint or Project
 
-Project Web App has two permission modes. SharePoint permission mode and the classic Project permission mode. The comparison between both modes can be found on [Technet](https://go.microsoft.com/fwlink/p/?LinkId=544784).
+With Project Online and Project Server 2013, we introduced a new and simplified permission model called SharePoint permission mode, as opposed to the legacy Project permission mode. The comparison between both modes can be found on [Technet](https://go.microsoft.com/fwlink/p/?LinkId=544784).
   
-By default, PWA sites are provisioned in SharePoint permission mode. By using this mode, you can manage user authorization via regular SharePoint groups and permissions.
+New Project Online instances are provisioned in SharePoint permission mode by default, and we are confident this mode will address the needs of the vast majority of customers. By using this mode, you can manage user authorization via regular SharePoint groups and permissions.
   
 Project permission mode offers a high degree of customizability, but it can come at a price in terms of performance. If you create hundreds of categories and rely heavily on dynamic permissions via your Resource Breakdown Structure (RBS), it might slow down the end-user experience for users who have access to a lot of content, such as admins and portfolio managers.
   
 > [!NOTE]
-> Switching between SharePoint permission mode and Project permission mode deletes all security-related settings. If you switch from SharePoint permission mode to Project permission mode, you have to manually configure your security permissions structure.
+> Switching between SharePoint permission mode and Project Server permission mode deletes all security-related settings. If you switch from SharePoint permission mode to classic Project Server permission mode, you have to manually configure your security permissions structure in Project Server 2013 and Project Server 2016. Switching from Project Server permission mode back to SharePoint permission mode deletes your security permissions information from Project Server 2013 and Project Server 2016. 
   
  **Recommendation:**
   
-Use the default SharePoint permission mode for better overall performance. If you need to [use Project permission mode](change-permission-management-in-project-online.md), limit your customizations as much as possible.
+When possible, keep the default SharePoint permission mode for better overall performance. If you need to [use Project permission mode](change-permission-management-in-project-online.md), limit your customizations as much as possible.
   
 ## Enterprise Project Types
 
@@ -95,11 +92,11 @@ EPTs also allow you to define:
 
 Project sites are built on core SharePoint functionality. Creating project sites is not a lightweight process, and deciding if and when your organization might need project sites can go a long way in improving the overall end-user experience.
   
-A lot of organizations use Project Web App to collect and rate project proposals before deciding which projects to fund. If project sites are set to be automatically created the first time a project is published, then all project proposals, even the ones that don't make the cut, get a project site. These unnecessary sites would have to be manually cleaned up afterwards.
+A lot of organizations use Project Online to collect and rate project proposals before deciding which projects to fund. If project sites are set to be automatically created the first time a project is published, then all project proposals, even the ones that don't make the cut, get a project site. These unnecessary sites would have to be manually cleaned up afterwards.
   
 A better approach, if you decide to use project sites, is either letting the user choose when to create their collaboration site, or, even better, having it created by a workflow as soon as the project proposal reaches a certain stage gate.
   
-SharePoint Online currently limits the number of sites that can be created. See [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498) for the number of subsites that can be created for each site collection. Each EPT allows you to specify which site collection to create new project sites in. This will allow you to create a project site for each project as you can span them across multiple site collections. 
+SharePoint Online currently [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498) the number of subsites that can be created for each site collection. An EPT allows you to define which site collection to create new project sites in. This will allow you to create a project site for each project as you can span them across multiple site collections. 
   
 ![Project Sites across PWA site collections](media/b17ddfd2-c049-42b5-b0aa-d76590c524c4.png)
   
@@ -121,11 +118,11 @@ For each EPT, you can configure this option by:
     
 ![Project site creation options](media/15f744a9-23d5-4295-8cdb-39230d174530.png)
   
-Create project sites in their own site collection by the EPT. Keep the number of project sites in a site collection below the [SharePoint limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498).
+Create project sites in their own site collection by the EPT. Keep the number of project sites in a site collection below the SharePoint Online [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498).
   
 ### What do you sync?
 
-Project Web App runs on top of SharePoint.  Some features require synchronization between Project Web App and SharePoint. These synchronizations can be time consuming especially for large and complex organizations and, depending on your business needs, can sometimes be unnecessary. This article explores all these various synchronization systems to help you decide which ones you need and which ones you can safely turn off. Some of these settings are already off by default.
+Project Online runs on top of SharePoint Online the same way Project Server runs on top of SharePoint Server. As a result, we have to keep in sync a certain number of components between to two systems. These synchronizations can be time consuming and, depending on your business needs, can sometimes be unnecessary. This article explores all these various synchronization systems to help you decide which ones you need and which ones you can safely turn off. Some of these settings are already off by default.
   
 In the following sections, we discuss:
   
@@ -135,20 +132,10 @@ In the following sections, we discuss:
     
 ### Sync User Permissions
 
-Project Sites provides project teams a space to collaborate, upload documents, and raise issues. When sync user permissions is turned on, whenever a person is granted or denied a permission to a project, the corresponding Project site permissions are updated.
+Project Sites are workspaces where project teams can collaborate, upload documents, and raise issues. When sync user permissions is turned on, whenever a person is granted permission to a project, the corresponding Project site permissions are updated.
   
-This synchronization happens every time the project is published and when there is an impacting change to a Project User in Active Directory. The tradeoff for the sync convenience is performance. The more users and sites that need to be synced, the slower the operation, especially if you're:
-
-
--	An organization with many users and complex security permissions
-
--	Bulk publishing
-
--	Importing or creating multiple projects (with Projects sites)
-
--	Updating group memberships that will require a resync of project site permissions
-
-
+This synchronization happens every time the project is published. The tradeoff for the sync convenience is performance, e.g. the more users and sites that need to be synced, the slower the operation, especially if you're bulk publishing, importing or creating multiple projects (with Projects sites), or updating group memberships that will require a resync of project site permissions.
+  
 For each EPT, you can define if sync user permissions is turned on.
   
 > [!NOTE]
@@ -156,7 +143,7 @@ For each EPT, you can define if sync user permissions is turned on.
   
  **Recommendation:**
   
-We always recommend to disable the Project site permission sync option and strongly recommend that you disable the Project site permission sync option if the following is true for your deployment:
+We strongly recommend that you disable the Project site permission sync option if the following is true of your deployment:
   
 - You have a large number of resources (\>1000)
     
@@ -174,13 +161,13 @@ Here are some options to consider for managing your Project site permissions:
     
 - If site access aligns with specific roles, create one or more groups that map to those roles (possibly if you have Group sync enabled, you can use the same groups) and grant those groups access to the Project site.
     
-For each EPT, you can turn off Sync User Permissions:
+For each EPT, you can turn on Sync User Permisssions by:
   
 1. In Project Web App Settings, click **Enterprise Project Types**.
     
 2. Select the EPT to which you need to change the setting.
     
-3. In the EPT settings page, in the **Synchronize** section, ensure that the **User Permission Sync** option is unchecked.
+3. In the EPT settings page, in the **Synchronize** section, select **User Permission Sync**.
     
 ![User Permission Sync](media/0f3b699f-529d-44c1-a752-2445be6c732a.png)
   
@@ -213,29 +200,6 @@ Active Directory Resource Pool sync by itself does not have particular performan
   
 Limit Active Directory sync to groups of resources that actually need to use the system, and monitor any potential permission issues after the synchronization of large groups. (To configure Active Directory Enterprise Resource Pool Synchronization, in Project Web App Settings, click **Active Directory Resource Pool Synchronization**.
   
-## Custom Fields and Lookup Tables
-
-[Project Online limits and boundaries](https://docs.microsoft.com/projectonline/project-online-software-boundaries-and-limits)
-document lists a high threshold in the number of custom fields and lookup tables allowed in a PWA instance, careful consideration needs to be given during the planning and customization of the site in regards to the number of custom fields, associated lookup tables and entries. Excessive customization in this area will have performance implications.
-
-### Performance tradeoff
-
-The following operations can be impacted if a PWA site has many custom fields and lookup tables and the lookup tables are large: Saving Projects
--	Publishing projects
-
--	Rendering PDP pages with custom fields
-
--	Querying OData to generate reports
-
-### Recommendation:
-
--	Limit the number of custom fields and lookup tables
-
--	Pay attention to the design of your custom field formulas – avoid formulas that have dependencies on fields that change regularly, which leads to larger changes, resulting in longer save and publish actions. 
-
--	Keep lookup tables small – most custom lookup tables have less than 20 values and that’s a good range to stay in. Lookup tables with hundreds or thousands of values adds extra overhead especially in the retrieval of OData reports. 
-
-
 ## PWA pages and views customizations
 
 ### Page customizations
@@ -359,15 +323,26 @@ You'll then need to test your instances to verify that everything works correctl
 
 
 > [!NOTE]
-> This feature is being introduced gradually to Office 365.  This means that you may not currently have this setting available.
+> This setting can only be seen and changed by the Site Collection Administrator. 
 
 
 
 ## OData and Reporting
 
-### Reporting
+### ProjectData OData Service
 
-In Project Online you can choose the granularity of time phased reporting data - or you can choose  *Never*  if you do not need time phased reporting data. This feature is fully documented in [Configure rollup of timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md). Choosing an option that uses the least amount of data that satisfies your reporting needs means that reports will generate quicker, you may be able to use different reporting options as you will have a smaller dataset and you will also benefit from faster publishing of projects. The list of options in order of most benefit to performance are:
+Project Online has an OData reporting service that provides a way to build reporting/visualization on the data stored in the service. The ProjectData OData reporting service API is defined [here](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
+
+Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the article [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
+
+In addition, following the recommendations outlined in this document will reduce the number, length and frequency of calls needed to retrieve data. If throttling is occurring often, check across the organization as multiple departments could be querying the same data or not following the best practices outlined in this article and affecting everyone.
+
+
+### Timephased Reporting
+
+In Project Online you can choose the level of granularity you need for timephased reporting data. The options and impact of the levels are fully documented in [Configure rollup of timephased reporting data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md). Choosing a level that generates the least amount of data for your scenarios will allow the data to be visible in OData Reporting service endpoint faster and will reduce the amount of time it will take to download.
+
+The list of options in order of performance (from most to least performant correlating to the amount of data generated):
   
 - Never
     
@@ -385,102 +360,143 @@ By using the Project OData service, you can extract information from your Projec
   
  **Recommendation:**
   
-Store the least amount of timephased data that is consistent with your business needs. Do not use  *Daily*  if you have workflows that wait on publish to complete. 
-  
-#### PowerBI
+Store the least amount of timephased data that is consistent with your business needs. 
+Do not use Daily if you have workflows that wait on publish to complete.  Daily can take significant time to generate the required data causing workflows to wait. 
+ 
 
-If the amount of data is small, then Power BI can regularly read data from the Project OData service and help provide a variety of dynamics reports. A sample content pack can be found [here](https://github.com/OfficeDev/Project-Power-BI-Content-Packs).
-  
-If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months.
-  
-#### SQL Server Integration Services (SSIS)
+### Querying the service
+There are [limits](https://go.microsoft.com/fwlink/p/?linkid=845599) to the number of entities that can be returned in one query of the ProjectData OData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request.
 
-Using SSIS, data can be extracted from the Project OData service and can download your reporting data into a SQL server database locally or in Microsoft Azure. A sample SSIS package for the Project OData service can be found [here](https://go.microsoft.com/fwlink/p/?linkid=845597).
-  
  **Recommendation:**
-  
-If your reporting needs still require you to extract a large amount of data, consider using the [SQL Server Integration Services (SSIS) package](https://go.microsoft.com/fwlink/p/?LinkId=544822) to copy your reporting data into a SQL server database locally or in Microsoft Azure. 
-  
-When using SSIS, please consider the following steps:
-  
- **Full Sync**
-  
-Get a current snapshot of the reporting data you are interested in.
-  
-1. Record current date/time as sync time
-    
-2. Download data from each endpoint.
 
-> [!NOTE]
-> Project Online is optimized to only retrieve the data you are requesting so include the fields you require.  Avoid downloading all the columns if they are not needed.
-    
- **Delta Sync**
-  
-Check periodically to keep your copy up to date.
-  
-1. Record current date time.
-    
-2. Query ProjectId From Projects endpoint.
-    
-3. Delete local Projects where the ProjectId no longer exists.
-    
-4. Query each endpoint by Project:
-    
-1. Query the entity Ids.
-    
-2. Delete local entities where the Ids no longer exists.
-    
-3. Query for mod_dates that has changed since you last synced﻿.
+Avoid performing full “refresh everything” data loads. These refreshes can impact performance of the PWA site especially during peak use times leading to overall performance degradation of user operations in PWA or throttling.
 
-> [!NOTE]
-> As mentioned earlier Project Online is optimized to only retrieve the data you are requesting so include the fields you require.  Avoid downloading all the columns if they are not needed.
+Perform Odata refresh actions after hours. Decisions to maintain real time or close to real reports should also take into consideration the performance tradeoffs to the user experience in the PWA site.  If “refresh everything” requirements exist, please review the “SQL Server Integration Services (SSIS) – Recommended for large datasets” section.
 
-#### Custom Fields
-
-When retrieving data from the OData endpoint, extra computation is required when using custom fields which are multi-value lookups. The extra computation does not allow the OData endpoint to take advantage of a number of optimizations.
-  
- **Recommendation**
-  
-Do not use multi-value lookup custom fields.﻿
-  
-### Querying OData
-
-There are [limits](https://go.microsoft.com/fwlink/p/?linkid=845599) to the number of entities that can be returned in one query of the ProjectData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request. 
-
-Avoid performing full “refresh everything” data loads. These refreshes can impact performance of the PWA site especially during peak use times leading to overall performance degradation of user operations in PWA or throttling. 
-
-### Recommendation
-
-Perform Odata refresh actions after hours. Decisions to maintain real time or close to real reports should also take into consideration the performance tradeoffs to the user experience in the PWA site. 
-
-  
 For a Project Web App instance that contains a large number of entities, such as projects, assignments, or tasks, you should limit the data returned in at least one of the following ways. If you don't limit the data returned, the query can exceed the default limits and affect server performance.
-  
-- **Use a $filter URL option, or use $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
+
+- **Always use a $filter URL option and $select to limit the data.** For example, the following query filters by project start date and returns only four fields, in order of the project name: 
     
   ```
-  https://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
+  http://ServerName/ProjectServerName/_api/ProjectData/Projects?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;$orderby=ProjectName&amp;$select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
   ```
 
-- **Get an entity collection by using an association.** For example, the following query internally uses the Project_Assignments_Assignment_Project association to get all of the assignments in a specific project: 
+-	**Avoid Custom Fields that are multi-value lookups.** Extra computation is required to process custom field values which are multi-value lookups.  These fields are not able to take advantage of several optimizations that have been implemented for more common customer scenarios. If multi value custom fields  have already been configured, improve the lookup speed and reliability by ensuring that none of those fields are specified in your filtered Odata query. 
+
+-	**Querying entities by key or association.** When querying entities, refer to the metadata document at https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata.  Whenever possible query the entity in one of the following ways:
     
+  - **Keys** Note: If there is more than one key, using the first key will perform better than only using the second key.
+ 
+   - **Associations**
+
+For example you can query the [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId
+
+  ```
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12' and ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
+
+or
+
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments(AssignmentId=guid'719d849a-79b4-e911-b073-00155d9c3d12',ProjectId=guid'b5b02399-79b4-e911-b073-00155d9c3d12') 
+  ```  
+
+via AssignmentId
+
+  ```  
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12'
+  ```    
+
+via ProjectId:
+
+  ```
+  https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter= ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
+  ```
+
+via association via Project
+
   ```
   https://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
   ```
 
-- **Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets issues 11 through 20 for all projects, in order of the resource who is assigned to the issue: 
-    
+-	**Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets [Issues](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj162995(v=office.15)) 11 through 20 for all projects, in order of the resource who is assigned to the issue:
+
   ```
   https://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
   ```
 
- **Recommendation:**
-  
--	Limit the amount of data you query at runtime by using server-side filtering to retrieve only the columns that you need. The impact of this is most noticeable with custom fields. Add it only if you really need it. 
+-	**Avoid retrieving the Project/Task/Resource name when querying the [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)) Entity.**  The service performs additional processing to retrieve the respective names. If the data has already been retrieved from other queries, do not include it in the $select filter when querying Assignment.
 
--	Ensure that you are filtering on the entity key. The entity key is indexed and will offer a much more performant data retrieval experience. You can find the key(s) for each entity by reviewing the Service Metadata Document in your PWA instance: https://ServerName/sites/PWA/_api/ProjectData/$metadata
 
+**Recommendation:**
+-	Limit the amount of data you query at runtime by using server-side filtering to retrieve only the columns that you need. The impact of this is most noticeable with custom fields. Add in the custom fields only if you need them.
+-	Ensure that you are filtering on the entity key. The entity key is indexed and will offer a much more performant data retrieval experience. You can find the key(s) for each entity by reviewing the Service Metadata Document in your PWA instance: https://Contoso.sharepoint.com/sites/PWA/_api/ProjectData/$metadata
+
+
+### Retrieving Data and Building Reports
+
+#### PowerBI
+
+If the amount of data is small, then Power BI can regularly read data from the Project OData service and help provide a variety of dynamics reports. A sample content pack can be found [here](https://github.com/OfficeDev/Project-Power-BI-Content-Packs).
   
+If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as PowerBI may not take advantage of the service-side filtering optimizations. 
+  
+  
+#### Excel OData 
+
+Excel can be used to download data and build custom visualizations/reports. If the amount of data in Project Online is large, a subset of the data can be using a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as Excel may not take advantage of the service-side filtering optimizations.
+
+
+#### SQL Server Integration Services (SSIS)
+
+Using SSIS, Project Online reporting data can be downloaded from the Project OData service into a local SQL server database or into Microsoft Azure. Once downloaded, any reports/visualizations can be authored. A further process is needed to keep the local data in sync with Project Online. 
+
+When using SSIS, use the following pattern that Project Online has been optimized for. The pattern will reduce the amount of time it takes to retrieve and keep the local data in sync. Further only download the fields that are needed to perform the business requirements. The fewer the fields being queried, the quicker the data can be retrieved.
+
+
+**Full Sync**
+
+Retrieve the current snapshot of the reporting data you are interested in. Use the following method to efficiently retrieve [Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163049(v=office.15)) and related entities.
+
+For example using the [Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
+
+1.	Query the ProjectId from the Project entity including any additional filters.  For example, filter on projects that have specific start or finish dates. 
+2.	Query the Project entity specifying the fields that need to be downloaded, filtering on a single ProjectId that was previously retrieved. Include the ProjectModifiedDate as it is used in the delta sync pattern below. 
+3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities. 
+
+
+For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+
+1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step.
+2.	Query the Task entity specifying the fields that need to be downloaded and filtering on a single TaskId that was previously retrieved. Include the TaskModifiedDate as it is used in the delta sync pattern below. 
+3.	Repeat for each TaskId.
+
+Similarly, use the same approach for each related entity e.g. [Assignment](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163029(v=office.15)) 
+
+
+The above steps apply to other groups of entities, for example when retrieving timesheet information:
+
+-	[Timesheet](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue on to other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
+
+When retrieving Resource entity information: 
+
+- Retrieve the ResourceId and ResourceModifiedDate, then [Resource](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163027(v=office.15)) records, then [ResourceTimephasedData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163541(v=office.15)) etc. Include the respective primary key Ids and modification dates fields.
+
+**Delta Sync**
+
+Check periodically to keep the local copy of the reporting data up to date.  Repeat the steps below as needed for the respective group of entitles, e.g. Timesheet, Resource…
+
+1.	Query all the ProjectId’s and modification date from the Project endpoint using $filter criteria.
+2.	Delete local project and related records (Tasks, Assignments etc) where the ProjectId no longer exists.
+3.	Where the service modification date and the local modification date are different for the project record, query the Project endpoint for all the required fields filtering on a single ProjectId at a time.  In addition, for each ProjectId, download the data for related entities.  
+
+For example using [Task](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+
+1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed i.e. Project service modification date didn’t match the local modification date.
+2.	Delete local and related records for TaskId that no longer exists.
+3.	Where the service modification date and the local modification date are different, query the respective entity endpoint passing in TaskId and entity primary key and update the local version.
+
+Repeat for each related entity e.g. Assignment, TaskTimephasedData 
+
+
 ## Project Web App Quota
 
 By default, the Project Web App Site comes with a 25GB limit and is separate from the [limit on all data stored in the SharePoint site collection](https://go.microsoft.com/fwlink/p/?LinkID=856113) where Project Web App is enabled. Using the reporting granularity options to reduce your data volume can help in staying within the quota. 
@@ -509,4 +525,3 @@ Summary recommendation:
 
 [Project Online: software boundaries and limits](project-online-software-boundaries-and-limits.md)
   
-
