@@ -1,8 +1,8 @@
 ---
 title: "Tune Project Online performance"
-ms.author: efrene
-author: efrene
-manager: pamgreen
+ms.author: serdars
+author: serdars
+manager: serdars
 ms.date: 3/28/2018
 audience: admin
 ms.topic: article
