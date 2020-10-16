@@ -116,9 +116,9 @@ For each EPT, you can configure this option by:
     
 3. In the EPT settings page, in the **Project Site** section, select **Allow users to choose**.
     
-![Project site creation options](media/15f744a9-23d5-4295-8cdb-39230d174530.png)
+   ![Project site creation options](media/15f744a9-23d5-4295-8cdb-39230d174530.png)
   
-Create project sites in their own site collection by the EPT. Keep the number of project sites in a site collection below the SharePoint Online [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498).
+   Create project sites in their own site collection by the EPT. Keep the number of project sites in a site collection below the SharePoint Online [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498).
   
 ### What do you sync?
 
@@ -134,7 +134,7 @@ In the following sections, we discuss:
 
 Project Sites are workspaces where project teams can collaborate, upload documents, and raise issues. When sync user permissions is turned on, whenever a person is granted permission to a project, the corresponding Project site permissions are updated.
   
-This synchronization happens every time the project is published. The tradeoff for the sync convenience is performance, e.g. the more users and sites that need to be synced, the slower the operation, especially if you're bulk publishing, importing or creating multiple projects (with Projects sites), or updating group memberships that will require a resync of project site permissions.
+This synchronization happens every time the project is published. The tradeoff for the sync convenience is performance, e.g., the more users and sites that need to be synced, the slower the operation, especially if you're bulk publishing, importing or creating multiple projects (with Projects sites), or updating group memberships that will require a resync of project site permissions.
   
 For each EPT, you can define if sync user permissions is turned on.
   
@@ -169,7 +169,7 @@ For each EPT, you can turn on Sync User Permisssions by:
     
 3. In the EPT settings page, in the **Synchronize** section, select **User Permission Sync**.
     
-![User Permission Sync](media/0f3b699f-529d-44c1-a752-2445be6c732a.png)
+   ![User Permission Sync](media/0f3b699f-529d-44c1-a752-2445be6c732a.png)
   
 ### Sync SharePoint Tasks Lists for Enterprise projects
 
@@ -190,7 +190,7 @@ This option is turned off by default. Only turn SharePoint Tasks Lists sync on i
     
 3. In the EPT settings page, in the **Synchronize** section, select **Sync SharePoint Tasks Lists**.
     
-![Sync SharePoint Tasks Lists](media/a6dd40fc-f81e-4650-bc2b-95e2a1b402dd.png)
+   ![Sync SharePoint Tasks Lists](media/a6dd40fc-f81e-4650-bc2b-95e2a1b402dd.png)
   
 ## Active Directory Resource Pool sync
 
@@ -236,7 +236,8 @@ When you configure views, offer users simple specialized views for faster naviga
 
 Users can configure different ways to have the view rendered to them including having data grouped by different fields. When using **group by**, data can be rolled up for supported aggregation fields (for example, summing costs or a custom field). Computing these aggregate values requests the service to load up all the values in order to display the total.
   
-![Example of data grouped by fields and rolled up for aggregation fields.](media/6d916026-237d-491f-8481-f1f0a3fb79a6.png)
+> [!div class="mx-imgBorder"]
+> ![Example of data grouped by fields and rolled up for aggregation fields.](media/6d916026-237d-491f-8481-f1f0a3fb79a6.png)
   
  **Recommendation:**
   
@@ -314,16 +315,16 @@ If the developer confirms the add-in is ready for the change, you then need to e
 
 1. On your **PWA Settings** page, in the **Operational Policies** section, select **Additional Server Settings**.
 
-2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.<br/>
-![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
+2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.
+
+   ![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
 
 3. Select **Save**.
 
    You'll then need to test your instances to verify that everything works correctly.
 
-
-> [!NOTE]
-> This setting can only be seen and changed by the Site Collection Administrator. 
+   > [!NOTE]
+   > This setting can only be seen and changed by the Site Collection Administrator. 
 
 
 
@@ -392,7 +393,7 @@ For a Project Web App instance that contains a large number of entities, such as
  
    - **Associations**
 
-     For example you can query the [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId:
+     For example, you can query the [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId:
 
      ```http
      https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12' and ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
@@ -441,12 +442,12 @@ For a Project Web App instance that contains a large number of entities, such as
 
 If the amount of data is small, then Power BI can regularly read data from the Project OData service and help provide a variety of dynamics reports. A sample content pack can be found [here](https://github.com/OfficeDev/Project-Power-BI-Content-Packs).
   
-If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as PowerBI may not take advantage of the service-side filtering optimizations. 
+If the amount of data in Project Online is large, you can still bring in a subset of the data as long as it meets the PowerBI data size limits outlined [here](https://powerbi.microsoft.com/documentation/powerbi-admin-manage-your-data-storage-in-power-bi/#dataset-limits). Another option is to create your reports in a moving window, i.e., filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as PowerBI may not take advantage of the service-side filtering optimizations. 
   
   
 #### Excel OData 
 
-Excel can be used to download data and build custom visualizations/reports. If the amount of data in Project Online is large, a subset of the data can be using a moving window, i.e. filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as Excel may not take advantage of the service-side filtering optimizations.
+Excel can be used to download data and build custom visualizations/reports. If the amount of data in Project Online is large, a subset of the data can be using a moving window, i.e., filtering projects who were active in the last 30 days or viewing resource capacity for the next 6 months. Review the $filter/$select section for best practices as Excel may not take advantage of the service-side filtering optimizations.
 
 
 #### SQL Server Integration Services (SSIS)
@@ -460,7 +461,7 @@ When using SSIS, use the following pattern that Project Online has been optimize
 
 Retrieve the current snapshot of the reporting data you are interested in. Use the following method to efficiently retrieve [Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163049(v=office.15)) and related entities.
 
-For example using the [Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
+For example, using the [Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
 
 1.	Query the ProjectId from the Project entity including any additional filters.  For example, filter on projects that have specific start or finish dates. 
 
@@ -469,7 +470,7 @@ For example using the [Project](https://docs.microsoft.com/previous-versions/off
 3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities. 
 
 
-For example using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+For example, using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
 1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step.
 
@@ -480,7 +481,7 @@ For example using [Task](https://docs.microsoft.com/previous-versions/office/pro
     Similarly, use the same approach for each related entity, e.g., [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](https://docs.microsoft.com/previous-versions/office/project-odata/jj163029(v=office.15)) 
 
 
-The preceding steps apply to other groups of entities, for example when retrieving timesheet information:
+The preceding steps apply to other groups of entities, for example, when retrieving timesheet information:
 
 -	[Timesheet](https://docs.microsoft.com/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue on to other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
 
@@ -490,17 +491,18 @@ When retrieving Resource entity information:
 
 **Delta Sync**
 
-Check periodically to keep the local copy of the reporting data up to date.  Repeat the steps below as needed for the respective group of entitles, e.g. Timesheet, Resource…
+Check periodically to keep the local copy of the reporting data up to date.  Repeat the steps below as needed for the respective group of entitles, e.g., Timesheet, Resource…
 
 1.	Query all the ProjectId’s and modification date from the Project endpoint using $filter criteria.
 
-2.	Delete local project and related records (Tasks, Assignments etc) where the ProjectId no longer exists.
+2.	Delete local project and related records (Tasks, Assignments, etc.) where the ProjectId no longer exists.
 
 3.	Where the service modification date and the local modification date are different for the project record, query the Project endpoint for all the required fields filtering on a single ProjectId at a time.  In addition, for each ProjectId, download the data for related entities.  
 
-    For example using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
-1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed i.e. Project service modification date didn’t match the local modification date.
+For example, using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+
+1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed, i.e., Project service modification date didn’t match the local modification date.
 
 2.	Delete local and related records for TaskId that no longer exists.
 
