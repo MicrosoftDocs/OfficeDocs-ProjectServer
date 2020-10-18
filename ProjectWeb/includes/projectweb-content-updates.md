@@ -26,3 +26,12 @@
 | 10/2/2020 | [Project for the Web admin help](/project-for-the-web/projectforweb-admin-home) | modified |
 | 10/2/2020 | [Remove Project from the Office 365 App Launcher](/project-for-the-web/remove-project-from-the-office-365-app-launcher) | modified |
 | 10/2/2020 | [Remove Project from the Office 365 app](/project-for-the-web/remove-roadmap-from-office-365) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/12/2020 | [Office 365 User view access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
+| 10/12/2020 | [Turn Project for the web or Roadmap on or off for users in your organization](/project-for-the-web/turn-project-for-the-web-off) | modified |
