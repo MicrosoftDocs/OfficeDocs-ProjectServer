@@ -99,3 +99,11 @@
 | 10/2/2020 | [What reporting tools can I use with project data?](/ProjectOnline/what-reporting-tools-can-i-use-with-project-data) | modified |
 | 10/2/2020 | [What should I do if my Project Online administrator gets locked out?](/ProjectOnline/what-should-i-do-if-my-project-online-administrator-gets-locked-out) | modified |
 | 10/2/2020 | [Would you like some EPM with that? white paper](/ProjectOnline/would-you-like-some-epm-with-thatwhite-paper) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/16/2020 | [Tune Project Online performance](/ProjectOnline/tune-project-online-performance) | modified |
