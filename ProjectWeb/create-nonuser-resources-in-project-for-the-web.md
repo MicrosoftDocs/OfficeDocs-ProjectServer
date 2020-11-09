@@ -42,7 +42,7 @@ For more information about non-user resources, see [Set up a bookable resource](
 ## Create a non-user resource
 
 You first need to go to the Dynamics 365 Project Resources page:
-1. While logged into Office 365, open a browser window and go to **https://<spam><spam>web.powerapps<spam><spam>.com**.
+1. While logged into Office 365, open a browser window and go to **https://<spam><spam>make.powerapps<spam><spam>.com**.
 2. On the PowerApps page, select **Apps**.
 3. On the Apps page, in the Org Apps tab, select **Project**.
 4. On the Project page, in the left pane, select **Resources**.
