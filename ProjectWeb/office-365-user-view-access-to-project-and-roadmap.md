@@ -23,72 +23,44 @@ This will allow them to have read-only access to projects and roadmaps that are 
 
 
 > [!Note] 
-> For more information about Project Plan subscriptions, see the [Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+> For more information about Project Plan subscriptions and understand what the capabilities of an Office 365 user are, see the [Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
 ## Office 365 subscription with view access
 
-Users that have the following Office 365 licenses assigned to them will have view access to Project for the web and Roadmap in the near future.
+Office 365 view access applies to the following families of Office 365 suites and their education counterparts.
 
-- Microsoft 365 E5
-- Microsoft 365 E5 Developer (without Windows and Audio Conferencing)
-- Microsoft 365 E5 without Audio Conferencing
-- Microsoft 365 E5 with Calling Minutes
-- Office 365 E5
-- Office 365 E5 without Audio Conferencing
-- Office 365 E5 without Power BI and Phone System
-- Office 365 E5 - Escalation Sku
-- Office 365 E5 with Calling Minutes
-- Microsoft 365 E3
-- Microsoft 365 E3 - Unattended License
-- Office 365 E3
-- Office 365 E3 Developer
-- Office 365 E3 without ProPlus
-- Office 365 Education E3 for Faculty
-- Office 365 Education E3 for Students
+- Microsoft 365 F3 and Office 365 F3
 - Office 365 E1
-- Office 365 E1 with Exchange Online Archiving
-- Microsoft 365 Business Basic
-- Microsoft 365 Business Basic - Prepaid Legacy
-- Microsoft 365 Business Standard
-- Microsoft 365 Business Standard - Prepaid Legacy
-- Microsoft 365 Business Premium
-- Microsoft 365 F3
-- Office 365 F3
-- Office 365 F3 with Addon
-- Office 365 F3 with Yammer
-- Microsoft 365 F1
-- Microsoft 365 A5 for Faculty
-- Microsoft 365 A5 for Students
-- Microsoft 365 A5 Student Use Benefits
-- Microsoft 365 A5 without Audio Conferencing for Faculty
-- Microsoft 365 A5 without Audio Conferencing for Students
-- Microsoft 365 A5 without Audio Conferencing for Students Use Benefit
-- Microsoft 365 A5 with Calling Minutes for Students
-- Microsoft 365 A5 with Calling Minutes for Faculty 
-- Office 365 A5 for Faculty
-- Office 365 A5 for Students
-- Office 365 A5 Student Use Benefit
-- Office 365 A5 without Audio Conferencing for Faculty
-- Office 365 A5 without Audio Conferencing for Students
-- Office 365 A5 without Audio Conferencing for Students Use Benefit
-- Office 365 A5 with Calling Minutes for Students
-- Office 365 A5 with Calling Minutes for Faculty
-- Microsoft 365 A3 for Faculty
-- Microsoft 365 A3 for Students
-- Microsoft 365 A3 Student Use Benefits
-- Microsoft 365 A3 - Unattended License for Faculty
-- Microsoft 365 A3 - Unattended License for Students
-- Microsoft 365 A3 - Unattended License for Students Use Benefit
-- Office 365 A3 for Faculty
-- Office 365 A3 for Students
-- Office 365 A3 Student Use Benefit
-- Office 365 A1 for Faculty
-- Office 365 A1 for Faculty (for Device)
-- Office 365 A1 for Students
-- Office 365 A1 for Students (for Device)
-- Office 365 A1 Plus for Faculty
-- Office 365 A1 Plus for Students
+- Microsoft 365 for business
+- Microsoft E3 and Office 365 E3
+- Microsoft E5 and Office 365 E5
 
+Within each subscription there are two apps which can be seen from the Microsoft 365 Admin center.
+
+- Project for Office (Plan X)
+- Common Data Service
+
+The "Plan" in the title of Project for Office comes from the family of suite the app is included in. Both apps (from the same subscription) must be assigned to the user to view Project for the web or Roadmap.
+
+Project for Office App
+
+| Family Subscription | Admin center Display Name | Id | Name |
+| --- | --- | --- | --- |
+| F3 | Project for Office (Plan F) | 7f6f28c2-34bb-4d4b-be36-48ca2e77e1ec | PROJECT\_O365\_F3 |
+| E1 | Project for Office (Plan E1) | a55dfd10-0864-46d9-a3cd-da5991a3e0e2 | PROJECT\_O365\_P1 |
+| E3 | Project for Office (Plan E3) | 31b4e2fc-4cd6-4e7d-9c1b-41407303bd66 | PROJECT\_O365\_P2 |
+| E5 | Project for Office (Plan E5) | b21a6b06-1988-436e-a07b-51ec6d9f52ad | PROJECT\_O365\_P3 |
+
+Note: Microsoft 365 for business subscriptions include E3 or E5.
+
+Common Data Service App
+
+| Family Subscription | Admin center Display Name | Id | Name |
+| --- | --- | --- | --- |
+| F3 | Common Data Service | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
+| E1 | Common Data Service | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
+| E3 | Common Data Service  | 4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
+| E5 | Common Data Service | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
 
 
 ## See Also
