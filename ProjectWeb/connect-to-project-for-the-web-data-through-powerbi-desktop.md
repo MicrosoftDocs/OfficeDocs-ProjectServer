@@ -64,7 +64,7 @@ The following will tell you how to find the *environment_name* and the *region* 
 
 **To determine the Default CDS environment name value of the URL**:
 
-1. While logged into Office 365, go to this site:  https://<spam><spam>web.powerapps<spam><spam>.com
+1. While logged into Office 365, go to this site:  https://<spam><spam>make.powerapps<spam><spam>.com
 2. On the PowerApps page, under **Start from data**, select **Common Data Service**. 
 3. On the PowerApps page, note the value in the **Environments** section.  In the image below, the default CDS environment value is **orge817dafc**.
 
