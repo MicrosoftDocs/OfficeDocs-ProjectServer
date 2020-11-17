@@ -3,7 +3,6 @@ title: "Office 365 User view access to Project for the web and Roadmap"
 ms.author: serdars
 author: serdars
 manager: pamgreen
-ms.date: 4/10/2020
 audience: admin
 ms.topic: article
 search.appverid: 
