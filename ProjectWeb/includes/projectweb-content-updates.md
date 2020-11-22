@@ -2,6 +2,14 @@
 
 
 
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/17/2020 | [Office 365 User view access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
+
+
 ## Week of November 09, 2020
 
 
@@ -12,12 +20,3 @@
 | 11/9/2020 | [Add non-user resources in Project for the web](/project-for-the-web/create-nonuser-resources-in-project-for-the-web) | modified |
 | 11/9/2020 | [Office 365 User view access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
 | 11/10/2020 | [Office 365 User view access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
-
-
-## Week of October 12, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/12/2020 | [Office 365 User view access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
-| 10/12/2020 | [Turn Project for the web or Roadmap on or off for users in your organization](/project-for-the-web/turn-project-for-the-web-off) | modified |
