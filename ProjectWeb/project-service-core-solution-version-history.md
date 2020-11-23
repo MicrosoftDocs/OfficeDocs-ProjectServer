@@ -31,6 +31,13 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
   
 |**Version**|**Release date**|**Update description**|
 |:-----|:-----|:-----|
+|1.0.4.71 <br/> |November 7, 2020 <br/> | Items resolved in this version: 
+|  |  | - Bug: Manual deployment fails with post-import error|
+|  |  | - Bug: User timezone related notification is not localised|
+|  |  | - Bug: Updated localization translation|
+|  |  | - Bug: Missing validation on Project Start Date|
+|  |  | - Feature: Added support for Project Operations|
+|  |  | Additional improvements in performance and bug fixes |
 |1.0.1.605  <br/> |April 3, 2020  <br/> |Improvements in installation of the solution to address instances where the default team has been modified. Additional bug fixes and performance improvements. <br/> |
 |1.0.1.427  <br/> |January 2020  <br/> |Several bug fixes and performance improvements.  <br/> |
 |1.0.1.211  <br/> |November 2019  <br/> |Several bug fixes and performance improvements.  <br/> |
