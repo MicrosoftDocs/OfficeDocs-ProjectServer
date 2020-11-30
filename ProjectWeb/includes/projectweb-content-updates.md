@@ -2,6 +2,14 @@
 
 
 
+## Week of November 23, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/23/2020 | [Project Service Core solution version history](/project-for-the-web/project-service-core-solution-version-history) | modified |
+
+
 ## Week of November 16, 2020
 
 
