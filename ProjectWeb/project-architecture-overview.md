@@ -52,7 +52,6 @@ The key Project apps described in this article are available in the following Pr
 |Project Online Desktop Client<br/> |  Not Available<br/> |Available | Available|
 
 
-
 > [!Note] 
 > In Project Plan 1, users can only view roadmaps in read-only. 
 
@@ -62,14 +61,14 @@ For more details on Project Plans, see the [Microsoft Project Service Descriptio
 [Project for the web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5?ui=en-us&rs=en-us&ad=us) provides simple, powerful work management capabilities to meet most needs and roles. Project managers and team members can use Project for the web to plan and manage work of any size. 
 
 ### Platform
-Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com). The Power Platform consists of [PowerApps](https://docs.microsoft.com/powerapps/powerapps-overview), [Power Automate](https://docs.microsoft.com/power-automate/getting-started), [Power BI](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview), and the [Common Data Service  (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). Integration with the Microsoft Power Platform lets you easily leverage its components to [create custom business solutions](https://developer.microsoft.com/project/blogs/developing-applications-and-reports-using-the-new-project/) and do advanced analytics and reporting on project data.
+Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com). The Power Platform consists of [PowerApps](https://docs.microsoft.com/powerapps/powerapps-overview), [Power Automate](https://docs.microsoft.com/power-automate/getting-started), [Power BI](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview), and the [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). Integration with the Microsoft Power Platform lets you easily leverage its components to [create custom business solutions](https://developer.microsoft.com/project/blogs/developing-applications-and-reports-using-the-new-project/) and do advanced analytics and reporting on project data.
 
 Just like Project Online, users can access their Project for the web projects through the [Project Home page](https://support.office.com/article/get-started-with-project-home-a3b38418-35e7-4df4-8e4a-ba6a4fa0562a).  It will by default list projects that were recently viewed, owned by, or shared with the user.
 
 ### Data storage
-Project for the web data is saved to the Common Data Service (CDS). CDS is part of the Microsoft Power Platform, which Project for the web is built on.  
+Project for the web data is saved in the Dataverse. The Dataverse is part of the Microsoft Power Platform, which Project for the web is built on.  
 
-When Project for the web or Roadmap are first used in an Office 365 tenant, a Default CDS instance is provisioned for the tenant. Project for the web data is saved as entities to [Solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview) that are in the default CDS instance, and can be identified by their display name of **Project**.
+Project for the web  data is saved in entities in [Solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview) that are in a Dataverse instance, and can be identified by their display name of **Project**. 
 
 
 ### Reporting
@@ -80,7 +79,7 @@ You can use PowerBI Desktop to import and analyze not only your Project Online d
 Use [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a) to create a collective view of projects that are important to you. Your roadmap can connect to projects created in multiple tools, such as Project Online, Project for the web, and Azure DevOps.  
 
 ### Data storage
-As mentioned previously, Project for the web and Roadmap data are saved to solutions in the default CDS instance. While Project for the web data is saved as entities in  **Project** [solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview), Roadmap data is saved to entities in CDS solutions that have a display name of **Portfolio Service**.
+Roadmap data are saved to solutions in the Dataverse Default instance. While Project for the web data is saved as entities in  **Project** [solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview), Roadmap data is saved to entities in Dataverse solutions that have a display name of **Portfolio Service**.
 
 ## Project Online
 

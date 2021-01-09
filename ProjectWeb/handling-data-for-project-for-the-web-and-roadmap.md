@@ -11,7 +11,7 @@ search.appverid:
 - PJO150
 - MET150
 localization_priority: Normal
-description: "Learn how Project for the web uses the Common Data Service to store and manage data."
+description: "Learn how Project for the web uses the Dataverse to store and manage data."
 ---
 
 # Handling data for Project
@@ -20,7 +20,7 @@ This article gives you an overview of how data is handled for two Project servic
 
 Project Online is built on SharePoint Online and its data is stored in Office 365 (specifically in SharePoint Online).
 
-Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Project for the web data is stored in the [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
 
 > [!Note] 
@@ -37,13 +37,13 @@ You can remove all Project for the web or Roadmap data by [removing the entire s
 
 You can look for the location of where your Project for the web and Project Online data is stored by seeing [Explore where Office 365 stores your customer data](https://products.office.com/where-is-your-data-located?rtc=1). 
 
-### Project for the web and the Common Data Service
+### Project for the web and the Dataverse
 
-When Project for the web is first used in your Microsoft 365 tenant, a default CDS instance is provided to your tenant.  Project for the web data (such as projects or roadmaps) is stored in solutions in the default instance.
+When Project for the web is first used in your Microsoft 365 tenant, a default Dataverse instance is provided to your tenant.  Project for the web data (such as projects or roadmaps) is stored in solutions in the default instance.
 
-Admins can find the name and details of their default CDS instance in the PowerApps admin center (admin.powerapps.com).  
+Admins can find the name and details of their default Dataverse instance in the PowerApps admin center (admin.powerapps.com).  
 
-![CDS Environment](media/PowerAppsEnvironment.png)
+![Dataverse Environment](media/PowerAppsEnvironment.png)
 
 ### Deleting user data
 

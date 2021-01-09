@@ -19,7 +19,7 @@ description: "Learn how your organization can export a specific user's content f
 
 This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. 
 
-Project for the web data is stored in the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
+Project for the web data is stored in the [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
 - View a specific user’s Project for the web data by using the Advanced Find function in Dynamics 365.  
 - Use a PowerShell script to export data about specific projects that your user was a part of.   
@@ -41,16 +41,16 @@ If you also want to export and view information on specific projects:
 
 Depending on the type of user data you need to find, there are two paths you can take in searching for and exporting your user's data.
 
-- **Find data about your users project and roadmap objects in CDS** - Use the Advanced Find feature in the Dynamics 365 Admin Center to find all the users data that is contained in CDS (for example, objects related to their projects and roadmaps).
+- **Find data about your users project and roadmap objects in CDS** - Use the Advanced Find feature in the Dynamics 365 Admin Center to find all the users data that is contained in Dataverse (for example, objects related to their projects and roadmaps).
 - **Find data about specific projects that your user was associated with** - Use the project export PowerShell script to get details about specific projects the user was associated with.
 
-## Find user data in CDS with the Advanced Find search feature 
+## Find user data in Dataverse with the Advanced Find search feature 
 
-Project for the web user information that resides in CDS - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across entities in these solutions to find the information you need.
+Project for the web user information that resides in Dataverse - such as roadmap and project objects and properties - are located in specific Dynamics 365 solutions.  The Advanced Find search feature in the Dynamics 365 admin center can query across entities in these solutions to find the information you need.
 
-### Understand Project for the web CDS data and where it resides
+### Understand Project for the web Dataverse data and where it resides
 
-When looking for a specific users Project for the web data in Dynamics 365 CDS, it is located in these five Dynamics 365 solutions:
+When looking for a specific users Project for the web data in Dynamics 365 Dataverse, it is located in these five Dynamics 365 solutions:
 
 |||
 |:-----|:-----|
@@ -67,20 +67,20 @@ To view entities for a Dynamics 365 solution:
 1. In the Microsoft 365 admin center, under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![CDS Instance](media/CDSInstance.png) 
+   ![Dataverse Instance](media/CDSInstance.png) 
 3. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 4. On the All Solutions page, click on the Display Name of the solution that you are interested in.
 
-    ![CDS solutions](media/CDSsolutions.png) 
+    ![Dataverse solutions](media/CDSsolutions.png) 
 5.  On the solution information page, expand **Entities** to view them.
 
-    ![CDS solutions entities](media/CDSSolutionEntities.png) 
+    ![Dataverse solutions entities](media/CDSSolutionEntities.png) 
 6. Under each entity, you can select specific objects to get more details about its properties.
 ![Solutions entities descriptions](media/CDSEntitiesDesc.png)
 
 ### Use Advanced Find to search for user data
 
-Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your CDS instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
+Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
@@ -121,7 +121,7 @@ Assuming you've used Advanced Find search to query for the user's projects and h
 
 After you unhide the columns in the spreadsheet, looks for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
-![CDS Instance](media/projectIDs.png)
+![Dataverse Instance](media/projectIDs.png)
 
 ### Run the Export script
 
@@ -139,7 +139,7 @@ To run the ExportProjectContent function:
 1. In Windows PowerShell, where you have imported the module, run the following: 
 
 
-    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(CDS instance name)"
+    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(Dataverse instance name)"
 
 
     You will need to configure the following parameters when running the script:
@@ -147,7 +147,7 @@ To run the ExportProjectContent function:
     |||
     |:-----|:-----|
     |**Parameter** <br/> |**Description** <br/> |
-    |ProjectId   <br/> |GUID of the project within CDS.  You learned how to find this in the previous section.   <br/> |
+    |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
     |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
     |InstanceId   <br/> |The identifier of the Dynamics 365 instance you are using. <br/> |
 
@@ -155,14 +155,14 @@ To run the ExportProjectContent function:
 
     a. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![CDS Instance](media/CDSInstance.png) </br>
+   ![Dataverse Instance](media/CDSInstance.png) </br>
     b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>.
 
     ![Find the instance Unique Name](media/DynamicsOrgid.png)</br>
 
     
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the CDS org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
 
 
     ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
