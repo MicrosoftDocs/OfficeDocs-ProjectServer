@@ -56,7 +56,7 @@ Common Data Service App
 
 | Family Subscription | Admin center Display Name | Id | Name |
 | --- | --- | --- | --- |
-| F3 | Common Data Service | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_Dataverse\_O365\_F1 |
+| F3 | Common Data Service | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
 | E1 | Common Data Service | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
 | E3 | Common Data Service  | 4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
 | E5 | Common Data Service | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
