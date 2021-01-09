@@ -13,6 +13,8 @@ description: "Learn how to deploy Project to the Dataverse."
 
 ## Deploying Project
 
+> [!Note] This section refers to upcoming functionality. Project can only be deployed to the default Dataverse instance. It is not yet possible to deploy Project to other types of Dataverse instances.
+
 Project for the web is available for use in the Default Environment as well as in Sandbox and Production Dataverse environments.
 
 Project for the web in the Default environment enables customers to quickly get started creating projects, managing schedules, and sharing them with other users in the organization. Because everyone is a member of this environment by default, enabling users to create and manage Projects only requires that you assign a Project license to them.
