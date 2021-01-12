@@ -25,7 +25,7 @@ For some situations, you should consider deploying Project to additional environ
 * Data residency requirements for when the tenant is in a different geography than the users
 * Customizing Project to behave differently for different business units
 
-If you are looking to deploy to additional environments, you will need to create the environments, deploy project, and configure access for users.
+If you are looking to deploy to additional environments, you will need to create the environments, deploy Project, and configure access for users.
 
 [Learn more about Dataverse environments]([https://docs.microsoft.com/power-platform/admin/environments-overview)
 
