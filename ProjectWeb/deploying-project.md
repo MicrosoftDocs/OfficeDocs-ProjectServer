@@ -27,7 +27,7 @@ For some situations, you should consider deploying Project to additional environ
 
 If you are looking to deploy to additional environments, you will need to create the environments, deploy Project, and configure access for users.
 
-[Learn more about Dataverse environments]([https://docs.microsoft.com/power-platform/admin/environments-overview)
+[Learn more about Dataverse environments](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
 ## Provisioning a new environment
 > [!Note] This section only applies to Admins interesting in deploying Project to a non-Default environment.
