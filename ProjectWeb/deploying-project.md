@@ -30,7 +30,8 @@ If you are looking to deploy to additional environments, you will need to create
 [Learn more about Dataverse environments](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
 ## Provisioning a new environment
-> [!Note] This section only applies to Admins interesting in deploying Project to a non-Default environment.
+> [!Note]
+> This section only applies to Admins interested in deploying Project to a non-Default environment.
 
 Project is supported in the following types of environments
 * Default
