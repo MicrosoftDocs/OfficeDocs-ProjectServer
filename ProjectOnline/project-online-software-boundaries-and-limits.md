@@ -33,7 +33,7 @@ To keep Project Online performing at its best, there are some limits to how much
     
   - The project sites for these projects must not exceed 2000 sites in any one site collection - and for best performance with large numbers of projects aim to have none of the project sites in the PWA site collection itself.
   
-- Project sites and the PWA site itself are only supported in SharePoint classic mode
+- Project sites and the Project Web App site itself are only supported in SharePoint classic mode.
     
 - ﻿Initial quota of 25 GB per Project Web App site. Please see [Tune Project Online performance](tune-project-online-performance.md) for more information. 
     
@@ -112,4 +112,3 @@ If your connection to Project Online is running slowly, it can take a little lon
 
 [Tune Project Online performance](tune-project-online-performance.md)
   
-
