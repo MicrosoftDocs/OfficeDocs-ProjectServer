@@ -119,7 +119,7 @@ Before you run the script, you need to the Project IDs of the projects you are i
 
 Assuming you've used Advanced Find search to query for the user's projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it is hidden by default.  Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
 
-After you unhide the columns in the spreadsheet, looks for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
+After you unhide the columns in the spreadsheet, look for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
 ![Dataverse Instance](media/projectIDs.png)
 
@@ -203,5 +203,4 @@ The XML file contains a number of properties pertaining to the specific project.
 [Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
   
   
-
 
