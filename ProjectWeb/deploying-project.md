@@ -41,7 +41,7 @@ Project is supported in the following types of environments
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
  ![D365 App Toggle](media/AppToggle.png) 
 
-[Learn more about creating and managing environments](https://docs.microsoft.com/en-us/power-platform/admin/create-environment)
+[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment)
 
 ## Deploying Project for the web
 
