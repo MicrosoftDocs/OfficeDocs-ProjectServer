@@ -55,7 +55,8 @@ Deploying Project to a non-Default environment is done from within the [Power Pl
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
 ![Project package](media/InstallProject.png) 
 
-> [!Note] If the installation package isn't appearing in the list of     available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 
+> [!Note]
+> If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 
 
 
 [Learn more about using the PPAC to deploy applications](https://docs.microsoft.com/en-us/power-platform/admin/manage-apps)
