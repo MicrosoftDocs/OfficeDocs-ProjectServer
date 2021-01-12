@@ -60,7 +60,7 @@ Project for the web data is stored in your Dynamics 365 Dataverse default instan
 [Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 
 ## Dataverse
-Your Project for the web and Roadmap data is stored in the [Dataverse (formerly Common Data Service)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
+Your Project for the web and Roadmap data is stored in [Dataverse (formerly Common Data Service)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
 
 Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Admins have the option to deploy Project to additional environments.
 ## Resource setup in PowerApps
@@ -85,6 +85,5 @@ If you need to find a specific user's data in Project for the web (for example, 
 
   
   
-
 
 

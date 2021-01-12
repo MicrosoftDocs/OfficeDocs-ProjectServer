@@ -19,7 +19,7 @@ description: "Learn how your organization can export a specific user's content f
 
 This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. 
 
-Project for the web data is stored in the [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
+Project for the web data is stored in [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
 - View a specific user’s Project for the web data by using the Advanced Find function in Dynamics 365.  
 - Use a PowerShell script to export data about specific projects that your user was a part of.   
@@ -41,7 +41,7 @@ If you also want to export and view information on specific projects:
 
 Depending on the type of user data you need to find, there are two paths you can take in searching for and exporting your user's data.
 
-- **Find data about your users project and roadmap objects in CDS** - Use the Advanced Find feature in the Dynamics 365 Admin Center to find all the users data that is contained in Dataverse (for example, objects related to their projects and roadmaps).
+- **Find data about your user's project and roadmap objects in Dataverse** - Use the Advanced Find feature in the Dynamics 365 Admin Center to find all the user's data that is contained in Dataverse (for example, objects related to their projects and roadmaps).
 - **Find data about specific projects that your user was associated with** - Use the project export PowerShell script to get details about specific projects the user was associated with.
 
 ## Find user data in Dataverse with the Advanced Find search feature 
@@ -50,7 +50,7 @@ Project for the web user information that resides in Dataverse - such as roadmap
 
 ### Understand Project for the web Dataverse data and where it resides
 
-When looking for a specific users Project for the web data in Dynamics 365 Dataverse, it is located in these five Dynamics 365 solutions:
+When looking for a specific user's Project for the web data in Dynamics 365 Dataverse, it is located in these five Dynamics 365 solutions:
 
 |||
 |:-----|:-----|
@@ -203,6 +203,5 @@ The XML file contains a number of properties pertaining to the specific project.
 [Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
   
   
-
 
 

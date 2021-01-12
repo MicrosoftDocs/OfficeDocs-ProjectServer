@@ -65,11 +65,12 @@ Open the **Resources > Dynamics 365 apps** page from the left-hand navigation me
 
 Sandbox and Production environments require additional configuration. Assign the **Project Common** and **Project User** roles to anyone who will be creating Projects in the environment. Also, ensure these users have the appropriate Project license.
 
-There is no additional configuration needed to enable users to manage projects in the default environment. Users in the Default Environment only need a Project license to be able to create and manage Projects. 
+There is no additional configuration needed to enable users to manage Projects in the Default environment. Users in the Default environment only need a Project license to be able to create and manage Projects. 
 
 [Learn more about security roles in the Dataverse](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)
 
-> [!Note] Project-related roles are only available after the Project Service Core package has been deployed to the environment
+> [!Note]
+> Project-related roles are only available after the Project Service Core package has been deployed to the environment.
 
 ## Creating and managing projects in non-Default environments
 
