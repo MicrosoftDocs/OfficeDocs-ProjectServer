@@ -34,6 +34,7 @@ The follow can be helpful to you if you are an admin who wants to learn more abo
 - [What can you do with Project for the web? ](https://go.microsoft.com/fwlink/?linkid=2108303)
 - [Project for the web and Project Online](https://go.microsoft.com/fwlink/?linkid=2108305)
 - [Project for the web and Project Online desktop client ](https://go.microsoft.com/fwlink/?linkid=2108306)
+- [Deploying Project for the web](deploying-project.md)
 - [Customizing Project for the web ](https://go.microsoft.com/fwlink/?linkid=2108401)
 - [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
@@ -54,16 +55,14 @@ Project for the web is designed to be easy-to-use and intuitive. You can use the
 
 ## Reporting information on Project for the web data
 
-Project for the web data is stored in your Dynamics 365 Common Data Service default instance. You can view Power BI reports by connecting to the data with Power BI Desktop, which is described in the following article:
+Project for the web data is stored in your Dynamics 365 Dataverse default instance. You can view Power BI reports by connecting to the data with Power BI Desktop, which is described in the following article:
 
 [Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 
-## Common Data Service
-Your Project for the web and Roadmap data is stored in your [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) default instance. Initial use of Project for the web or Roadmap in your tenant will automatically create the default CDS instance. 
+## Dataverse
+Your Project for the web and Roadmap data is stored in [Dataverse (formerly Common Data Service)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
 
-> [!NOTE]
-> Project for the web is only supported on your default CDS instance.
-
+Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Admins have the option to deploy Project to additional environments.
 ## Resource setup in PowerApps
 
 While sharing and access to your project in Project for the web is done through Office 365 groups, it is important to note that Project for the web uses the PowerApps platform.  Some resource setup tasks such as [adding non-user resources](https://docs.microsoft.com/project-for-the-web/create-nonuser-resources-in-project-for-the-web) or [creating a work schedule template and applying it to resources](https://docs.microsoft.com/project-for-the-web/create-and-apply-a-work-calendar) are done in PowerApps. 
@@ -86,6 +85,5 @@ If you need to find a specific user's data in Project for the web (for example, 
 
   
   
-
 
 
