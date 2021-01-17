@@ -7,6 +7,7 @@
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 1/13/2021 | [Deploying Project](/project-for-the-web/deploying-project) | added |
 | 1/13/2021 | [Connect to Project data through Power BI Desktop](/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) | modified |
 | 1/13/2021 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
 | 1/13/2021 | [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap) | modified |
