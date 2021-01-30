@@ -15,6 +15,7 @@
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
 ### [Create non-user resources in Project for the web](create-nonuser-resources-in-project-for-the-web.md)
 ## [Maintain user data]()
+### [Learn about Dataverse security roles in Project for the web](project-for-the-web-security-roles.md)
 ### [Access a project in Project for the web after its Office 365 group has been deleted](access-a-project-after-group-is-deleted.md)
 ### [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 ### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
