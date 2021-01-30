@@ -10,6 +10,7 @@
 ### [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)
 ### [Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
+### [Frequently Asked Questions](faq.md)
 ## [Resource management]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
 ### [Create non-user resources in Project for the web](create-nonuser-resources-in-project-for-the-web.md)
