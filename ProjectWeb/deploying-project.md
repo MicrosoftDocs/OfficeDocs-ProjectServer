@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "Learn how to deploy Project to the Dataverse."
 ---
 
-## Deploying Project
+# Deploying Project
 
 > [!Note]
 > This section refers to upcoming functionality. Project can only be deployed to the default Dataverse instance. It is not yet possible to deploy Project to other types of Dataverse instances.
@@ -39,6 +39,7 @@ Project is supported in the following types of environments
 * Sandbox
 
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
+
  ![D365 App Toggle](media/AppToggle.png) 
 
 [Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment)
