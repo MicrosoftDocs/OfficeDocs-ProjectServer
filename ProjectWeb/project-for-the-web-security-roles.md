@@ -1,7 +1,7 @@
 ---
 title: "Project for the Web Security Roles"
 ms.author: namerali
-author: namerali
+author: NadinMerali
 manager: hocull
 ms.date: 01/07/2021
 audience: admin
@@ -12,7 +12,7 @@ description: "Learn about the security roles in Project for the web."
 ---
 # Project for the Web Security Roles
 
-Project for the web includes several security roles that enable users to work with Project. Some of these security roles can also be customized by Administrators to control access of data. [Learn more about security roles and priveleges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges).
+Project for the web includes several security roles that enable users to work with Project. Some of these security roles can also be customized by Administrators to control access of data. [Learn more about security roles and priveleges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
 ## Behavior with AAD Groups
 When a project is shared with an AAD Office Group, the Microsoft Project Application user will
@@ -21,7 +21,8 @@ When a project is shared with an AAD Office Group, the Microsoft Project Applica
    * Project Team Member 
    * Project Common 
 
-> [!Note] Today, in the Default org, the team is given Project User role but this is being changed to the above
+> [!Note] 
+> Today, in the Default org, the team is given Project User role but this is being changed to the above
 
 3. Ownership of the project and related tables is changed from the current owning user to the newly created team.
 Project for the web only supports adding additional security roles to the Microsoft Project Application user. Other changes/modification are not supported and can cause the service not to function. The Project Common role can modify to support least privilege and customization
