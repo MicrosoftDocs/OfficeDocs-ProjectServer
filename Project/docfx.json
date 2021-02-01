@@ -38,7 +38,14 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Project Server",
       "contributors_to_exclude": [
-        "denisebmsft"
+        "denisebmsft",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "searchScope": [
         "Project Server"
