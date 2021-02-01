@@ -38,7 +38,7 @@ Yes! It is a [model-driven Power App](https://docs.microsoft.com/powerapps/maker
 Create a new Power App and add any tables you need into it. You can have all the core Project tables, views, and forms, as well as any additional custom tables that you need. Users of this new Power App will need at least a Project Plan 3 or Plan 5 license, as well as a license to PowerApps. If you intend to use tables from other applications, be sure to follow any licensing guidelines for those apps. 
 
 ### How can I change the access rights for users of Project data in the Dataverse?
-The Project Team Member role is customizable and can be used to manage the access rights of users. Learn how to customize roles [here](https://docs.microsoft.com/en-us/power-platform/admin/wp-security-cds#:~:text=Dataverse%20uses%20role%2Dbased%20security,Dataverse%20teams%20and%20business%20units.).
+The Project Team Member role is customizable and can be used to manage the access rights of users. Learn how to customize roles [here](https://docs.microsoft.com/power-platform/admin/wp-security-cds#:~:text=Dataverse%20uses%20role%2Dbased%20security,Dataverse%20teams%20and%20business%20units.).
 
 ### How can I use Power BI with Project for the web?
 You can use the [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) to create reports on Project for the Web data. Users will need the appropriate license to be able to view these reports. Refer to other guidance in this FAQ, as well as in the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
