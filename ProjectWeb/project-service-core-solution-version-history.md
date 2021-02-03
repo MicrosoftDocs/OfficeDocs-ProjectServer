@@ -34,7 +34,7 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
 |1.0.6.154 | January 12, 2021 |Items resolved in this version:|
 |  |  | - Bug: Breaking change by renaming web resource |
 |  |  | - Bug: Update web resources in base solution |
-|  |  | - Bug: Named orgs need default PostImport configuation parameters |
+|  |  | - Bug: Named orgs need default PostImport configuration parameters |
 |  |  | - Bug: Rename Common Data Service User to Project Common |
 |  |  | - Bug: Named orgs toolbar updates |
 |  |  | - Feature: Add customizable entities to app module |
