@@ -47,5 +47,5 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
 |  |  | - Feature: Added support for Project Operations|
 |  |  | Additional improvements in performance and bug fixes |
 |1.0.1.605 | April 3, 2020  |Improvements in installation of the solution to address instances where the default team has been modified. Additional bug fixes and performance improvements |
-|1.0.1.427 | January 2020  |Several bug fixes and performance improvements.  |
+|1.0.1.427 | January 2020  |Several bug fixes and performance improvements  |
 |1.0.1.211 | November 2019  |Several bug fixes and performance improvements.  |
