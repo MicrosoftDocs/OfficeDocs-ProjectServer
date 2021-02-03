@@ -42,7 +42,14 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "ProjectOnline",
       "contributors_to_exclude": [
-        "denisebmsft"
+        "denisebmsft",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "searchScope": ["Project Online"],
       "feedback_system": "None",
