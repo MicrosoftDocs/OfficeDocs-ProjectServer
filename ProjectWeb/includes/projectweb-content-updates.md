@@ -2,12 +2,21 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2021 | [Frequently Asked Questions](/project-for-the-web/faq) | added |
+| 2/1/2021 | [Project for the Web Security Roles](/project-for-the-web/project-for-the-web-security-roles) | added |
+| 2/3/2021 | [Project Service Core solution version history](/project-for-the-web/project-service-core-solution-version-history) | modified |
+
+
 ## Week of January 11, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/13/2021 | [Deploying Project](/project-for-the-web/deploying-project) | added |
 | 1/13/2021 | [Connect to Project data through Power BI Desktop](/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) | modified |
 | 1/13/2021 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
 | 1/13/2021 | [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap) | modified |
