@@ -516,7 +516,7 @@ Repeat for each related entity, e.g., Assignment, TaskTimephasedData.
 By default, the Project Web App Site comes with a 25GB limit and is separate from the [limit on all data stored in the SharePoint site collection](https://go.microsoft.com/fwlink/p/?LinkID=856113) where Project Web App is enabled. Using the reporting granularity options to reduce your data volume can help in staying within the quota. 
   
 > [!NOTE]
-> For large customers, quota can be increased, but we would also expect customers to have considered the reporting granularity options to limit data volume. To increase your quota, please contact Microsoft. 
+> PWA quota can be increased (in increments) to a maximum of 100 GB.  A new PWA site will be required once the quota limit has been reached.  Increases beyond 50GB require that the PWA site no longer use the [daily timephased reporting granularity](https://docs.microsoft.com/ProjectOnline/configure-rollup-of-timephased-reporting-data-in-project-online) option. To discuss increasing the PWA site quota, please contact Microsoft. 
   
 ## Conclusion
 
