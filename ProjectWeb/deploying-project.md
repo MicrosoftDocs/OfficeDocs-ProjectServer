@@ -46,6 +46,128 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 
 ## Deploying Project for the web
 
+### System requirements
+
+In order to be able to provision and use a project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
+
+> [!IMPORTANT]
+> Because the system prerequisites should be on by default, this article is only relevant if you have done a lot of customizations to your tenant.
+
+**Enterprise applications**
+
+The following enterprise applications are to be enabled, by default.
+
+
+|Application Name  |Application ID  |
+|---------|---------|
+|  Dynamics Provision   |    39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f      |
+|Common Data Service    |      00000007-0000-0000-c000-000000000000    |
+|Microsoft Flow     |      7df0a125-d3be-4c96-aa54-591f83ff541c    |
+|Microsoft PowerApps    |  475226c6-020e-4fb2-8a90-7a972cbfc1d4        |
+|Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
+
+**Verifying status of Enterprise applications**
+
+To verify whether the Enterprise applications are enabled, perform the following steps:
+
+1. Sign in to as the tenant admin using https://aad.portal.azure.com/  
+
+2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
+
+3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**. 
+
+4. Use the textbox right below and search for the application ID listed above. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane below.
+
+5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
+
+6. Click **Properties** on the left pane.
+
+7. Ensure that **Enabled for users to sign-in** is set to **Yes**. 
+
+8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
+
+**Verifying status of Enterprise applications using Exchane Online PowerShell**
+
+For administrators who prefer PowerShell instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled:
+
+```powershell
+Connect-AzureAd
+Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow
+$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter "
+AppId    eq '00000007-0000-0000-c000-000000000000'  
+                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
+                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
+                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
+                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
+                                    " | ? {$_.AccountEnabled -eq $false}
+
+If ($ProjectRequiredAppsThatAreDisabled) 
+
+{ 
+
+    Write-Host "Required Azure AD Apps that have been disabled: " 
+
+    $ProjectRequiredAppsThatAreDisabled | Select AppId, DisplayName, AccountEnabled, ObjectId | ft -a 
+
+} 
+
+Else 
+
+{ 
+
+    Write-Host "All Azure AD Applications required for Project for the web functionality has been enabled." -ForegroundColor Yellow 
+
+}
+```
+The following script does the same as above and in addition, for each disabled application, it prompts the administrators if they want it enabled:
+
+```powershell
+Connect-AzureAd
+Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
+
+$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
+                                    AppId    eq '00000007-0000-0000-c000-000000000000'  
+                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
+                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
+                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
+                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
+                                    " | ? {$_.AccountEnabled -eq $false}
+
+If ($ProjectRequiredAppsThatAreDisabled) 
+
+{ 
+
+    Write-Host "Required Azure AD Apps that have been disabled: " 
+    $ProjectRequiredAppsThatAreDisabled | Select AppId, DisplayName, AccountEnabled, ObjectId | ft -a 
+
+      #For each detected App that has been disabled, reenable it.  
+
+    foreach ($DisabledApp in $ProjectRequiredAppsThatAreDisabled) 
+
+    { 
+        Write-Host "`nProcessing Application: $($DisabledApp.DisplayName) with Application Id: $($DisabledApp.AppId) and AccountEnabled state of: $($DisabledApp.AccountEnabled)" -ForegroundColor Yellow 
+
+        $ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]" 
+
+        while("Yes","No" -notcontains $ResponseToEnableApp){$ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]"} 
+
+        if ($ResponseToEnableApp -ieq "Yes") 
+        { 
+            Set-AzureADServicePrincipal -ObjectId $DisabledApp.ObjectId -AccountEnabled $True 
+            Write-Host "App: $($DisabledApp.DisplayName) has been enabled." 
+        } 
+ else 
+        { 
+            Write-Host "AccountEnabled state for app: $($DisabledApp.DisplayName) left as is at the current state of: $($DisabledApp.AccountEnabled)" 
+        } 
+    } 
+} 
+Else 
+{ 
+    Write-Host "All Azure AD Applications required for Project for the web functionality has been enabled." -ForegroundColor Yellow 
+} 
+```
+
 ### Deploying to the Default environment
 
 Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap are first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
