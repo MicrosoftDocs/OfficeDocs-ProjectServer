@@ -50,9 +50,6 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 
 In order to be able to provision and use a project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
 
-> [!IMPORTANT]
-> Because the system prerequisites should be on by default, this article is only relevant if you have done a lot of customizations to your tenant.
-
 **Enterprise applications**
 
 The following enterprise applications are to be enabled, by default.
@@ -68,7 +65,7 @@ The following enterprise applications are to be enabled, by default.
 
 **Verifying status of Enterprise applications**
 
-To verify whether the Enterprise applications are enabled, perform the following steps:
+To verify whether the required Enterprise applications are enabled, perform the following steps:
 
 1. Sign in to as the tenant admin using https://aad.portal.azure.com/  
 
@@ -76,7 +73,7 @@ To verify whether the Enterprise applications are enabled, perform the following
 
 3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**. 
 
-4. Use the textbox right below and search for the application ID listed above. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane below.
+4. Use the textbox right below and search for the application ID listed in the table above. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
 5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
 
@@ -86,20 +83,15 @@ To verify whether the Enterprise applications are enabled, perform the following
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
-**Verifying status of Enterprise applications using Exchane Online PowerShell**
+**Verifying status of required Enterprise applications using Azure Active Directory PowerShell for Graph**
 
-For administrators who prefer PowerShell instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled:
+For administrators who prefer [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled:
 
 ```powershell
 Connect-AzureAd
 Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow
 $ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter "
-AppId    eq '00000007-0000-0000-c000-000000000000'  
-                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
-                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
-                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
-                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
-                                    " | ? {$_.AccountEnabled -eq $false}
+AppId eq '00000007-0000-0000-c000-000000000000' or '475226c6-020e-4fb2-8a90-7a972cbfc1d4' or '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' or '7df0a125-d3be-4c96-aa54-591f83ff541c'  or'39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f'" | ? {$_.AccountEnabled -eq $false}
 
 If ($ProjectRequiredAppsThatAreDisabled) 
 
@@ -126,12 +118,7 @@ Connect-AzureAd
 Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
 
 $ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
-                                    AppId    eq '00000007-0000-0000-c000-000000000000'  
-                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
-                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
-                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
-                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
-                                    " | ? {$_.AccountEnabled -eq $false}
+AppId eq '00000007-0000-0000-c000-000000000000' or '475226c6-020e-4fb2-8a90-7a972cbfc1d4' or '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' or '7df0a125-d3be-4c96-aa54-591f83ff541c' or '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' " | ? {$_.AccountEnabled -eq $false}
 
 If ($ProjectRequiredAppsThatAreDisabled) 
 
