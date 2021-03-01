@@ -71,15 +71,27 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
 
+<include the image enterprise-applications-screen.png>
+
 3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**. 
+
+<include the image choosing-all-applications-value.png>
 
 4. Use the textbox right below and search for the application ID listed in the table above. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
+<include the image application-id-and-result.png>
+
 5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
+
+<include the image dynamics-provision-screen.png>
 
 6. Click **Properties** on the left pane.
 
-7. Ensure that **Enabled for users to sign-in** is set to **Yes**. 
+<include the image dynamics-provision-properties.png>
+
+7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
+
+<include the image configure-status-of-user-sign-in.png>
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
