@@ -71,27 +71,31 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
 
-<include the image enterprise-applications-screen.png>
+:::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen":::
 
-3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**. 
+3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**.
 
-<include the image choosing-all-applications-value.png>
+:::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen":::
 
 4. Use the textbox right below and search for the application ID listed in the table above. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
-<include the image application-id-and-result.png>
+:::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed":::
+
 
 5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
 
-<include the image dynamics-provision-screen.png>
+:::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen":::
+
 
 6. Click **Properties** on the left pane.
 
-<include the image dynamics-provision-properties.png>
+:::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed":::
+
 
 7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
 
-<include the image configure-status-of-user-sign-in.png>
+:::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled":::
+
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
