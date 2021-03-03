@@ -143,7 +143,7 @@ $ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter "
                                 or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
                                 or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
                                 or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
-                                | ? {$_.AccountEnabled -eq $false}
+                                " | ? {$_.AccountEnabled -eq $false}
 
 If ($ProjectRequiredAppsThatAreDisabled) 
 { 
