@@ -48,7 +48,7 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 
 ### System requirements
 
-In order to be able to provision and use a project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
+In order to be able to provision and use Project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
 
 **Enterprise applications**
 
@@ -105,9 +105,16 @@ For administrators who prefer [Azure Active Directory PowerShell for Graph](http
 
 ```powershell
 Connect-AzureAd
-Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow
-$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter "
-AppId eq '00000007-0000-0000-c000-000000000000' or '475226c6-020e-4fb2-8a90-7a972cbfc1d4' or '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' or '7df0a125-d3be-4c96-aa54-591f83ff541c'  or'39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f'" | ? {$_.AccountEnabled -eq $false}
+Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
+
+$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
+
+                                    AppId    eq '00000007-0000-0000-c000-000000000000'   
+                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
+                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
+                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
+                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
+                                    " | ? {$_.AccountEnabled -eq $false}
 
 If ($ProjectRequiredAppsThatAreDisabled) 
 
@@ -134,41 +141,71 @@ Connect-AzureAd
 Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
 
 $ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
-AppId eq '00000007-0000-0000-c000-000000000000' or '475226c6-020e-4fb2-8a90-7a972cbfc1d4' or '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' or '7df0a125-d3be-4c96-aa54-591f83ff541c' or '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' " | ? {$_.AccountEnabled -eq $false}
+
+                                    AppId    eq '00000007-0000-0000-c000-000000000000'  
+                                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
+                                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
+                                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
+                                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
+                                    " | ? {$_.AccountEnabled -eq $false}
 
 If ($ProjectRequiredAppsThatAreDisabled) 
 
 { 
 
     Write-Host "Required Azure AD Apps that have been disabled: " 
+
     $ProjectRequiredAppsThatAreDisabled | Select AppId, DisplayName, AccountEnabled, ObjectId | ft -a 
 
-      #For each detected App that has been disabled, reenable it.  
+  
+
+    #For each detected App that has been disabled, reenable it.  
 
     foreach ($DisabledApp in $ProjectRequiredAppsThatAreDisabled) 
 
     { 
+
         Write-Host "`nProcessing Application: $($DisabledApp.DisplayName) with Application Id: $($DisabledApp.AppId) and AccountEnabled state of: $($DisabledApp.AccountEnabled)" -ForegroundColor Yellow 
+
+  
 
         $ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]" 
 
         while("Yes","No" -notcontains $ResponseToEnableApp){$ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]"} 
 
+  
+
         if ($ResponseToEnableApp -ieq "Yes") 
+
         { 
+
             Set-AzureADServicePrincipal -ObjectId $DisabledApp.ObjectId -AccountEnabled $True 
+
             Write-Host "App: $($DisabledApp.DisplayName) has been enabled." 
+
         } 
- else 
+
+        else 
+
         { 
+
             Write-Host "AccountEnabled state for app: $($DisabledApp.DisplayName) left as is at the current state of: $($DisabledApp.AccountEnabled)" 
+
         } 
+
     } 
+
 } 
+
 Else 
+
 { 
+
     Write-Host "All Azure AD Applications required for Project for the web functionality has been enabled." -ForegroundColor Yellow 
+
 } 
+
+  
 ```
 
 ### Deploying to the Default environment
