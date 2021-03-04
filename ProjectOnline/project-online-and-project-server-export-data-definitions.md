@@ -25,7 +25,7 @@ This technical reference article describes the data objects and properties conta
   
 We can group the user data output your receive from both Project Online and Project Server into the following:
   
-- [Project lists](project-online-and-project-server-export-data-definitions.md#projlist): A list of projects that the user was a part of in the Project Web App (PWA) site.
+- [Project lists](project-online-and-project-server-export-data-definitions.md#project-lists): A list of projects that the user was a part of in the Project Web App (PWA) site.
     
 - [Feature-specific data](project-online-and-project-server-export-data-definitions.md#featurespec): Feature in the PWA site in which the user might have data.
     
