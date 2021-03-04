@@ -1500,7 +1500,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentFinishVariance  <br/> |The variance of the assignment finish date from the baseline finish date.  <br/> |
 |AssignmentUpdateNeeded  <br/> |True if the resource assigned to a task needs to be updated as to the status of the task.  <br/> |
 |AssignmentHasLinkedFields  <br/> |Whether the project is linked to another OLE object.  <br/> |
-|AssignmentIsConfirmed  <br/> |Yes if the value is con  <br/> |
+|AssignmentIsConfirmed  <br/> |Indicates whether this resource has accepted or rejected the task assignment.  <br/> |
 |AssignmentIsPendingResponse  <br/> |True if a response has not been received for a TeamAssign message.  <br/> |
 |AssignmentHasNotes  <br/> |Has text notes associated with the assignment.  <br/> |
 |AssignmentTeamStatusPending  <br/> |Indicates whether a status message has been received in response to a TeamStatus message sent to a resource assigned to a task.  <br/> |
@@ -1593,6 +1593,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRemovedFromTS  <br/> |Indicates if the assignment was removed from the timesheet.  <br/> |
 |AssignmentCreatedDate  <br/> |The date that the assignment was created.  <br/> |
 |AssignmentModifiedDate  <br/> |The date that the assignment was last updated.  <br/> |
+|AssignmentActualOvertimeCost  <br/> |The costs incurred for overtime work that has already been performed on an assignment.  <br/> |
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
