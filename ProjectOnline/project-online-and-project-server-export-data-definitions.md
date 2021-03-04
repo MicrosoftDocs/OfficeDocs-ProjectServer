@@ -1269,6 +1269,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
 |AssignmentPercentWorkCompleted  <br/> |The amount of work completed on the assignment.  <br/> |
+|AssignmentActualOvertimeCost  <br/> |The costs incurred for overtime work that has already been performed on an assignment.  <br/> |
 |AssignmentAssignedToExisting  <br/> |Indicates whether a new assignment has been created by a resource using the assign self to task feature.  <br/> |
 |AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
@@ -1593,7 +1594,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRemovedFromTS  <br/> |Indicates if the assignment was removed from the timesheet.  <br/> |
 |AssignmentCreatedDate  <br/> |The date that the assignment was created.  <br/> |
 |AssignmentModifiedDate  <br/> |The date that the assignment was last updated.  <br/> |
-|AssignmentActualOvertimeCost  <br/> |The costs incurred for overtime work that has already been performed on an assignment.  <br/> |
+
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
