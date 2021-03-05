@@ -189,6 +189,7 @@ Project Online Desktop client is available through either the Project Plan 3 and
 
 > [!NOTE]
 > You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
+> You cannot export the .MPP file from Project for the web and import it into Project Online (PWA).
 
 ### View data contained in the project XML file
 
@@ -203,4 +204,3 @@ The XML file contains a number of properties pertaining to the specific project.
 [Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
   
   
-
