@@ -169,7 +169,7 @@ If ($ProjectRequiredAppsThatAreDisabled)
     { 
         Write-Host "AccountEnabled state for app: $($DisabledApp.DisplayName) left as is at the current state of: $($DisabledApp.AccountEnabled)" 
     } 
-
+  }
 } 
 Else 
 
