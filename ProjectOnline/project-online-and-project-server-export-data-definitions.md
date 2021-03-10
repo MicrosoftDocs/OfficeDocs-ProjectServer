@@ -25,7 +25,7 @@ This technical reference article describes the data objects and properties conta
   
 We can group the user data output your receive from both Project Online and Project Server into the following:
   
-- [Project lists](project-online-and-project-server-export-data-definitions.md#projlist): A list of projects that the user was a part of in the Project Web App (PWA) site.
+- [Project lists](project-online-and-project-server-export-data-definitions.md#project-lists): A list of projects that the user was a part of in the Project Web App (PWA) site.
     
 - [Feature-specific data](project-online-and-project-server-export-data-definitions.md#featurespec): Feature in the PWA site in which the user might have data.
     
@@ -1269,6 +1269,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
 |AssignmentPercentWorkCompleted  <br/> |The amount of work completed on the assignment.  <br/> |
+|AssignmentActualOvertimeCost  <br/> |The costs incurred for overtime work that has already been performed on an assignment.  <br/> |
 |AssignmentAssignedToExisting  <br/> |Indicates whether a new assignment has been created by a resource using the assign self to task feature.  <br/> |
 |AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
@@ -1500,7 +1501,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentFinishVariance  <br/> |The variance of the assignment finish date from the baseline finish date.  <br/> |
 |AssignmentUpdateNeeded  <br/> |True if the resource assigned to a task needs to be updated as to the status of the task.  <br/> |
 |AssignmentHasLinkedFields  <br/> |Whether the project is linked to another OLE object.  <br/> |
-|AssignmentIsConfirmed  <br/> |Yes if the value is con  <br/> |
+|AssignmentIsConfirmed  <br/> |Indicates whether this resource has accepted or rejected the task assignment.  <br/> |
 |AssignmentIsPendingResponse  <br/> |True if a response has not been received for a TeamAssign message.  <br/> |
 |AssignmentHasNotes  <br/> |Has text notes associated with the assignment.  <br/> |
 |AssignmentTeamStatusPending  <br/> |Indicates whether a status message has been received in response to a TeamStatus message sent to a resource assigned to a task.  <br/> |
@@ -1593,6 +1594,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRemovedFromTS  <br/> |Indicates if the assignment was removed from the timesheet.  <br/> |
 |AssignmentCreatedDate  <br/> |The date that the assignment was created.  <br/> |
 |AssignmentModifiedDate  <br/> |The date that the assignment was last updated.  <br/> |
+
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
