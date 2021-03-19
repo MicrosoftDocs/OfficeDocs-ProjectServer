@@ -32,9 +32,9 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
 |**Version**|**Release date**|**Update description**|
 |:-----|:-----|:-----|
 |1.0.7.94 | February 2, 2021 | Items resolved in this version:|
-|  |  | - Bug: Copy Project may at times fail |
+|  |  | - Bug: Copy Project intermittently fails |
 |  |  | - Bug: Block installation on orgs of type (Teams) |
-|  |  | Additional improvements in performance and bug fixes |
+|  |  | Additional performance improvements and bug fixes |
 |1.0.6.154 | January 12, 2021 |Items resolved in this version: |
 |  |  | - Bug: Breaking change by renaming web resource |
 |  |  | - Bug: Update web resources in base solution |
