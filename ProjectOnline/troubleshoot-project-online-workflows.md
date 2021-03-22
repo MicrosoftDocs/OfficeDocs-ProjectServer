@@ -111,7 +111,7 @@ Project OData Service
 |Workflow State  <br/> |ProjectWorkflowStageData  <br/> |StageStatus  <br/> |
    
 > [!NOTE]
-> For more information about the Project OData service, see [ProjectData-Project OData service reference](https://go.microsoft.com/fwlink/?linkid=862657). 
+> For more information about the Project OData service, see [ProjectData-Project OData service reference](/previous-versions/office/project-odata/jj163015(v=office.15)). 
   
 Project REST API
   
@@ -356,5 +356,3 @@ The project may be checked out in another session and the workflow is unable to 
   
 > [!NOTE]
 > Workflow Last Run Date is referred to Last Submitted Date in the Project Service OData and Project Service REST API. 
-  
-

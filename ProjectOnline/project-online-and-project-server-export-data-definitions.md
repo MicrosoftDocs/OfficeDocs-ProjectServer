@@ -21,7 +21,7 @@ description: "This technical reference article describes the data objects and pr
 
 # Project Online and Project Server export data definitions
 
-This technical reference article describes the data objects and properties contained in the output files you receive when using the user data export method described in [Export user data from Project Online](export-user-data-from-project-online.md) and in [Export user data from Project Server](https://go.microsoft.com/fwlink/?linkid=873399) . This article will include short descriptions of the objects and properties you will find in the output data. 
+This technical reference article describes the data objects and properties contained in the output files you receive when using the user data export method described in [Export user data from Project Online](export-user-data-from-project-online.md) and in [Export user data from Project Server](/Project/export-user-data-from-project-server) . This article will include short descriptions of the objects and properties you will find in the output data. 
   
 We can group the user data output your receive from both Project Online and Project Server into the following:
   
@@ -505,7 +505,7 @@ ReportingResource contains data about reporting resources. Each **ReportingResou
 |ResourceHyperlinkFriendlyName  <br/> |Shows the title or explanatory text for a hyperlink associated with a resource.  <br/> |
 |ResourceHyperlinkHref  <br/> |The text that is displayed for a resource hyperlink, as specified in the Edit User page of Project Web Access.  <br/> |
 |ResourceInitials  <br/> |The initials of a resource.  <br/> |
-|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](https://go.microsoft.com/fwlink/?linkid=874506) for values.  <br/> |
+|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](/previous-versions/office/project-class/jj232846(v=office.15)) for values.  <br/> |
 |ResourceBookingType  <br/> |The resource booking type: proposed or committed.  <br/> |
 |ResourceCostPerUse  <br/> |The cost that accrues each time a work resource is used.  <br/> |
 |ResourceGroup  <br/> |The group to which resource belongs.  <br/> |
@@ -573,7 +573,7 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentBCWS  <br/> |Budgeted cost of work scheduled for the assignment (planned value).  <br/> |
 |AssignmentBookingID  <br/> |Assignment booking GUID.  <br/> |
 |AssignmentType  <br/> |Type of assignment. NormalAssignment=0, WorkOnlyAssignment=1, FixedCostAssignment=2, FixedCostWorkOnlyAssignment=3, EmptyAssignment=4, FixedCostGeneratedAssignment=100 (generated during RDS transfer), ResourcePlanAssignment=101.  <br/> |
-|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](https://go.microsoft.com/fwlink/?linkid=872234).  <br/> |
+|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](/previous-versions/office/project-class/gg223589(v=office.15)).  <br/> |
 |IsPublic  <br/> |True if the item was published, so a team member can see it.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
 |AssignmentWorkVariance  <br/> |The variance of assignment work from the baseline work as minutes x 1000.  <br/> |
@@ -622,7 +622,7 @@ Resource contains data about the resource. Each **ResourceData** object may have
 |ResourceHyperlinkFriendlyName  <br/> |Shows the title or explanatory text for a hyperlink associated with a resource.  <br/> |
 |ResourceHyperlinkHref  <br/> |Contains the combination, or concatenation, of the Hyperlink Address and Hyperlink SubAddress fields associated with a resource..  <br/> |
 |ResourceInitials  <br/> |The initials of a resource.  <br/> |
-|ResourceType  <br/> |The type of a resource. See [ResourceType Enumerations](https://go.microsoft.com/fwlink/?linkid=874506) for values.  <br/> |
+|ResourceType  <br/> |The type of a resource. See [ResourceType Enumerations](/previous-versions/office/project-class/jj232846(v=office.15)) for values.  <br/> |
 |ResourceBookingType  <br/> |The resource booking type: proposed or committed.  <br/> |
 |ResourceGroup  <br/> |The name of the group that a resource belongs to.  <br/> |
 |ResourceCode  <br/> |Contains any code, abbreviation, or number you want to enter as part of a resource's information.  <br/> |
@@ -648,7 +648,7 @@ Each **ResourceData** object may have a collection of **DefaultAssignmentOwnerRe
 |ResourceID  <br/> |The ID of the resource within the list of resources.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource for which the user is the default assignment owner.  <br/> |
 |ResourceName  <br/> |Name of the resource.  <br/> |
-|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](https://go.microsoft.com/fwlink/?linkid=874506) for values.  <br/> |
+|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](/previous-versions/office/project-class/jj232846(v=office.15)) for values.  <br/> |
 |DefaultAssignmentOwner  <br/> |Default assignment owner for the resource.  <br/> |
    
 Each **ResourceData** object may also have a collection of **CustomFields**. Each **CustomFields** object may contain the following properties: 
@@ -702,7 +702,7 @@ A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. 
 |ReservedData  <br/> |Used to temporarily store calculated values.  <br/> |
 |AssignmentActualFinish  <br/> |The actual finish date of the assignment.  <br/> |
 |AssignmentActualStart  <br/> |The actual start date of the assignment.  <br/> |
-|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](https://go.microsoft.com/fwlink/?linkid=872234).  <br/> |
+|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](/previous-versions/office/project-class/gg223589(v=office.15)).  <br/> |
 |AssignmentIsOverAllocated  <br/> |Indicates whether a resource is assigned to more work on a specific task than can be done within the resource's normal working capacity.  <br/> |
 |AssignmentWorkContour  <br/> |The work contour of the assignment. Values are: 0=Flat, 1=Back Loaded, 2=Front Loaded, 3=Double Peak, 4=Early Peak, 5=Late Peak, 6=Bell, 7=Turtle, 8=Contoured.  <br/> |
 |AssignmentStartVariance  <br/> |The variance of the assignment start date from the baseline start date.  <br/> |
@@ -1210,7 +1210,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentActualCostOfWorkPerformed  <br/> |Gets the actual cost of work performed (ACWP) for the assignment to date.  <br/> |
 |AssignmentEarnedValue  <br/> |Specifies the assignment's budgeted cost of work performed (BCWP).  <br/> |
 |AssignmentBCWS  <br/> |The budgeted cost of work on the assignment.  <br/> |
-|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](https://go.microsoft.com/fwlink/?linkid=872234).  <br/> |
+|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](/previous-versions/office/project-class/gg223589(v=office.15)).  <br/> |
 |AssignmentIsOverallocated  <br/> |Whether the assignment is overallocated.  <br/> |
 |AssignmentWorkContour  <br/> |The work contour of the assignment. Values are: 0=Flat, 1=Back Loaded, 2=Front Loaded, 3=Double Peak, 4=Early Peak, 5=Late Peak, 6=Bell, 7=Turtle, 8=Contoured.  <br/> |
 |AssignmentStartVariance  <br/> |The variance of the assignment start date from the baseline start date.  <br/> |
@@ -1494,7 +1494,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentActualCostOfWorkPerformed  <br/> |Gets the actual cost of work performed (ACWP) for the assignment to date.  <br/> |
 |AssignmentEarnedValue  <br/> |Specifies the assignment's budgeted cost of work performed (BCWP).  <br/> |
 |AssignmentBCWS  <br/> |The budgeted cost of work on the assignment.  <br/> |
-|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](https://go.microsoft.com/fwlink/?linkid=872234).  <br/> |
+|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](/previous-versions/office/project-class/gg223589(v=office.15)).  <br/> |
 |AssignmentIsOverallocated  <br/> |Whether the assignment is overallocated.  <br/> |
 |AssignmentWorkContour  <br/> |The work contour of the assignment. Values are: 0=Flat, 1=Back Loaded, 2=Front Loaded, 3=Double Peak, 4=Early Peak, 5=Late Peak, 6=Bell, 7=Turtle, 8=Contoured.  <br/> |
 |AssignmentStartVariance  <br/> |The variance of the assignment start date from the baseline start date.  <br/> |
@@ -2610,7 +2610,7 @@ Reporting_Assignments contains the properties that define the reporting data for
 |AssignmentBookingName  <br/> |Assignment booking name (committed or proposed).  <br/> |
 |AssignmentType  <br/> |Type of assignment. NormalAssignment=0, WorkOnlyAssignment=1, FixedCostAssignment=2, FixedCostWorkOnlyAssignment=3, EmptyAssignment=4, FixedCostGeneratedAssignment=100 (generated during RDS transfer), ResourcePlanAssignment=101.  <br/> |
 |TypeName  <br/> |Name of the assignment type.  <br/> |
-|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](https://go.microsoft.com/fwlink/?linkid=872234).  <br/> |
+|AssignmentResourceType  <br/> |The type of resource that is associated with an assignment. See [Type enumeration](/previous-versions/office/project-class/gg223589(v=office.15)).  <br/> |
 |R.TypeName  <br/> ||
 |IsPublic  <br/> |True if the item was published, so a team member can see it.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
@@ -2662,7 +2662,7 @@ Reporting_Resources contains the properties that define the reporting data for r
 |ResourceEmailAddress  <br/> |The email address of a resource.  <br/> |
 |ResourceInitials  <br/> |Initials of the resource.  <br/> |
 |ResourceMaterialLabel  <br/> |The Material Label field contains the unit of measurement you enter for a material resource, for example, tons, boxes, or cubic yards. This label is then used in conjunction with the material resource's assignment units, for example, eight tons or 22 boxes.  <br/> |
-|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](https://go.microsoft.com/fwlink/?linkid=874506) for values.  <br/> |
+|ResourceType  <br/> |The type of a resource (for example, Enterprise, Local, Project Server, Material, or Generic). See [ResourceType Enumerations](/previous-versions/office/project-class/jj232846(v=office.15)) for values.  <br/> |
 |TypeName  <br/> |Name of the resource type.  <br/> |
 |ResourceGroup  <br/> |The Group field contains the name of the group that a resource belongs to.  <br/> |
 |ResourceMaxUnits  <br/> |The maximum capacity (percentage or units) that a resource is available to accomplish tasks during the current time period.  <br/> |
@@ -2748,7 +2748,7 @@ The method defined in [Export user data from Project Online](export-user-data-fr
     
 - **\<ProjectName\>_\<ProjectID\>_published.xml**: The project file from the Published schema saved in .XML format. 
     
-See the [Project XML Data Interchange Schema Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
+See the [Project XML Data Interchange Schema Reference](/office-project/xml-data-interchange/project-xml-data-interchange-schema-reference) to understand the Project XML data contained in these files. 
   
 ## Project-specific Metadata files
 <a name="ProjSpecMeta"> </a>
@@ -3042,5 +3042,3 @@ The Project metadata file for a project in the Published schema will have the fo
 |ProjectPublishedReportingTimephasedFirstDayOfWeek  <br/> |The first day of the week for timephased reporting.  <br/> |
 |ProjectPublishedReportingTimephasedFirstWeekOfYear  <br/> |The first week of the year for timephased reporting.  <br/> |
 |ProjectFiscalPeriodMaxModDate  <br/> |The fiscal period max modified date.  <br/> |
-   
-
