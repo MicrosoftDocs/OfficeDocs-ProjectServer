@@ -141,12 +141,12 @@ You will need the use of several prepare PowerShell script files for the procedu
 ## Step 2 - Find the Project Web App sites in your Office 365 environment
 <a name="Step1"> </a>
 
-Global admins will need to use the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=867805) to connect to their SharePoint Online Admin Center and run the **[Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061)** PowerShell cmdlet to get a listing of URLs for each PWA site in their Office 365 environment. 
+Global admins will need to use the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=867805) to connect to their SharePoint Online Admin Center and run the **[Get-SPOSite](/powershell/module/sharepoint-online/get-sposite)** PowerShell cmdlet to get a listing of URLs for each PWA site in their Office 365 environment. 
   
 > [!NOTE]
 > To run the Get-SPOSite PowerShell cmdlet, you need to be either in a Global admin or SharePoint admin role. 
   
-1. In the SharePoint Online Management Shell module, connect to your SharePoint Online Admin Center with the **[Connect-SPOService](https://go.microsoft.com/fwlink/?linkid=873059)** cmdlet: 
+1. In the SharePoint Online Management Shell module, connect to your SharePoint Online Admin Center with the **[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)** cmdlet: 
     
   ```
   Connect-SPOService -URL <AdminSiteURL> 
@@ -160,7 +160,7 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
 
    After connecting to your SharePoint Online Admin Center, use the Get-SPOSites PowerShell cmdlet to find all PWA sites in your Office 365 environment:
     
-2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
+2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
     
   ```
   Get-SPOSite | ?{$_.PWAEnabled -eq "Enabled"} | ft -a Url,Owner
@@ -428,5 +428,3 @@ To clear the cache in Project Professional 2016 and the Project Online Desktop C
 [Export user data from Project Online](export-user-data-from-project-online.md)
   
 [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md)
-  
-

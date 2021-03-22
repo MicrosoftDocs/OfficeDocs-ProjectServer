@@ -91,6 +91,4 @@ This table summarizing the considerations and recommended options:
   
 [Use Excel 2013 to create a new Project Online report](https://support.office.com/article/d523d604-940c-4c57-a190-59b793ac9d49)
   
-[ProjectData-Project OData service reference](https://go.microsoft.com/fwlink/p/?linkid=852876)
-  
-
+[ProjectData-Project OData service reference](/previous-versions/office/project-odata/jj163015(v=office.15))
