@@ -32,7 +32,7 @@ Note the following requirements for upgrading to Project Server 2016:
 -  You can only upgrade from Project Server 2013. If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2013 first in order to upgrade to Project Server 2016.
 
     > [!NOTE]
-    > For information about upgrading to Project Server 2013 from Project Server 2010, see [Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=620701). 
+    > For information about upgrading to Project Server 2013 from Project Server 2010, see [Upgrade to Project Server 2013](./upgrade-to-project-server-2016.md). 
 
 -  The upgrade process requires you to run Windows PowerShell cmdlets in the SharePoint Server 2016 Management Console. Verify that you have the required permissions to run them
 
@@ -258,6 +258,4 @@ The following tags in **category:Engagements (PWA)** may have useful information
 
 - tag_a1khh
 
-- tag_a2ifo 
-
-
+- tag_a2ifo

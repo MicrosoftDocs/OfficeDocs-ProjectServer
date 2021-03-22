@@ -27,23 +27,23 @@ additionalContent:
         # Card
         - title: Project for the web
           summary: Find resources for managing Project for the web in your Office 365 environment.
-          url: https://docs.microsoft.com/project-for-the-web/projectforweb-admin-home
+          url: /project-for-the-web/projectforweb-admin-home
         # Card
         - title: Project Online
           summary: Find resources for managing Project Online in your Office 365 environment.
-          url: https://docs.microsoft.com/projectonline/project-online
+          url: /projectonline/project-online
         # Card
         - title: Project Server
           summary: Deploy and manage Project Server for your organization.
-          url: https://docs.microsoft.com/Project/project-server-2013-and-2016
+          url: ./project-server-2013-and-2016.md
         # Card
         - title: PowerShell Reference for Project
           summary: Learn about the PowerShell cmdlets you need to manage Project Server.
-          url: https://docs.microsoft.com/Project/windows-powershell-for-project-server-2016-cmdlet-reference
+          url: ./windows-powershell-for-project-server-2016-cmdlet-reference.md
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
-          url: https://docs.microsoft.com/office365/troubleshoot/enterprise
+          url: /office365/troubleshoot/enterprise
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card
@@ -54,4 +54,3 @@ additionalContent:
         - title: End users
           summary: Find help, training, and technical support for Project users on support.office.com.
           url: https://support.office.com/project
-

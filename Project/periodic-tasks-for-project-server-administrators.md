@@ -36,7 +36,7 @@ Project Server administrators should perform the following periodic checks to th
 | **Weekly**                                                                                                                                                                                                                                                       |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Review application and event logs on web front end (WFE) servers, APP servers and the SQL Server.  <br/>                                                                                                                                                         |
-| Use the Unified Logging Service (ULS logs) as needed, based on the finding in the application and system event logs. Use the [Merge-SPLogFile](https://go.microsoft.com/fwlink/?linkid=848897) PowerShell cmdlet to filter output from all servers. <br/>        |
+| Use the Unified Logging Service (ULS logs) as needed, based on the finding in the application and system event logs. Use the [Merge-SPLogFile](/powershell/module/sharepoint-server/Merge-SPLogFile) PowerShell cmdlet to filter output from all servers. <br/>        |
 | Check Active Directory synchronization jobs to ensure they were successful.  <br/>                                                                                                                                                                               |
 | Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/>NOTE - This may be the job of the PMO.                                                                                                              |
 | Clear any overly long delegation sessions in Server Settings                                                                                                                                                                                                     |
@@ -60,5 +60,3 @@ Project Server administrators should perform the following periodic checks to th
 |Create fiscal periods for the next calendar year.  <br/> |
 |Create timesheet periods for the next calendar year. The prefix might equal "Week.", starting at 1, and the suffix might be the calendar year, such as ".2016". Week 1's period will show as "Week.1.2016".  <br/> |
 |Consider deleting timesheets for long-ago periods.  <br/> |
-   
-

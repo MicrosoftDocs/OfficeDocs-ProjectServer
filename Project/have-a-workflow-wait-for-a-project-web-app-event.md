@@ -26,7 +26,7 @@ In this article we'll take a look at configuring a workflow to pause until the a
 
 Before starting, make sure:
   
-- If you are using an on-premises deployment of Project Server, you have set up the [SharePoint 2013 workflow platform](https://technet.microsoft.com/library/145fc383-d584-487a-8738-8de15512ae26%28Office.14%29.aspx).
+- If you are using an on-premises deployment of Project Server, you have set up the [SharePoint 2013 workflow platform](/SharePoint/governance/workflow-in-sharepoint-server).
     
 - You have created the sample workflow, stages, and enterprise project type as described in [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md).
     
@@ -114,4 +114,3 @@ In the next article, we'll look at [how to use the workflow status information t
 [Assign an approval task in a workflow](assign-an-approval-task-in-a-workflow.md)
   
 [Customize approval options for Project Web App workflows](customize-approval-options-for-project-web-app-workflows.md)
-

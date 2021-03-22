@@ -37,7 +37,7 @@ The application tier in Project Server 2013 includes the following components:
 ## SharePoint Server 2013
 <a name="SharePointServer"> </a>
 
-The Enterprise edition of SharePoint Server 2013 is required for Project Server 2013. SharePoint Server 2013 has many features in its own right, and deployment of SharePoint Server 2013 should be carefully planned. For information about how to plan your SharePoint Server 2013 deployment, see [Planning and architecture for SharePoint Server 2013](https://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx).
+The Enterprise edition of SharePoint Server 2013 is required for Project Server 2013. SharePoint Server 2013 has many features in its own right, and deployment of SharePoint Server 2013 should be carefully planned. For information about how to plan your SharePoint Server 2013 deployment, see [Planning and architecture for SharePoint Server 2013](/SharePoint/getting-started).
   
 ## Project Server 2013
 <a name="section1"> </a>
@@ -82,5 +82,3 @@ Third-party and line-of-business applications can be used with Project Server 20
 - **Integration with work or task management systems** Synchronize tasks and assignments between Project Server 2013 and systems such as Microsoft Visual Studio Team System. Microsoft Visual Studio Team System is integrated with Project Standard 2013 and Project Professional 2013, but integration with Project Server 2013 requires developing components by using the PSI.
     
 - **Process updates from team members** For projects that are not actively managed, automatically update them on the server by using information from team members about progress and other changes. Projects can be updated and republished without a project manager reviewing the results or making adjustments to the plan.
-    
-

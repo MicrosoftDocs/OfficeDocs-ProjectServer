@@ -21,7 +21,7 @@ description: "Summary: Upgrade from Project Server 2010 to Project Server 2013."
 This article contains an overview of the procedures required to upgrade to Project Server 2013 from Project Server 2010.
   
 > [!NOTE]
-> If you are upgrading to Project Server 2013 from Office Project Server 2007, you must first upgrade to Project Server 2010. There is no direct upgrade path from Office Project Server 2007 to Project Server 2013. For more information, see [What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx). 
+> If you are upgrading to Project Server 2013 from Office Project Server 2007, you must first upgrade to Project Server 2010. There is no direct upgrade path from Office Project Server 2007 to Project Server 2013. For more information, see [What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md). 
   
 ## Upgrade process overview
 
@@ -65,14 +65,14 @@ The first stage in upgrading to Project Server 2013 is to create the new Project
    - SharePoint content database that contains the Project Web App site data
     
 > [!NOTE]
-> For more information about copying your Project Server 2010 farm databases for upgrade, see [Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013](https://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx). 
+> For more information about copying your Project Server 2010 farm databases for upgrade, see [Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013](./create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-p.md). 
   
 ### Restore the databases to the computer that is running SQL Server that is hosting your Project Server 2013 farm databases
 
 The farm administrator restores the Project Server 2010 databases to the computer that is running SQL Server that is hosting your Project Server 2013 farm databases.
   
 > [!NOTE]
-> For more information about restoring your databases, see [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/072a3fc7-b0a7-4569-a03d-39a9c8ac72b9.aspx). 
+> For more information about restoring your databases, see [Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)](./restore-your-project-server-2010-farm-databases-for-upgrade-project-server-2013.md). 
   
 ### Upgrade the databases
 
@@ -106,9 +106,8 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 [Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md)
 #### 
 
-[What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
+[What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md)
   
-[Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade (Project Server 2013)](./prepare-your-environment-for-an-upgrade-to-project-server-2013.md)
   
-[Plan for upgrade (SharePoint 2013 Products)](https://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6.aspx)
-
+[Plan for upgrade (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/plan-for-upgrade)

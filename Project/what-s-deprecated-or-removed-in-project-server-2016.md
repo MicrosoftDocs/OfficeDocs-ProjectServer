@@ -48,7 +48,7 @@ The My Tasks and associated Exchange Task Sync features have been removed in Sha
 ## Project Server Interface (PSI) Project class removed
 <a name="ProjectClass"> </a>
 
-The Project class in the PSI is not supported in Project Servers 2016. For all new development, use the [Project Client Side Object Model (CSOM)](https://go.microsoft.com/fwlink/p/?LinkId=798162&amp;clcid=0x409).
+The Project class in the PSI is not supported in Project Servers 2016. For all new development, use the [Project Client Side Object Model (CSOM)](/previous-versions/office/project-class/jj236068(v=office.15)).
   
 |||
 |:-----|:-----|
@@ -69,7 +69,7 @@ The Project class in the PSI is not supported in Project Servers 2016. For all n
 In Project Servers 2016, the following PSI members have been removed: 
   
 > [!NOTE]
-> For more information about the Project Server Interface, see [Project Server 2013 class library and web service reference](https://go.microsoft.com/fwlink/p/?LinkId=623030)
+> For more information about the Project Server Interface, see [Project Server 2013 class library and web service reference](/previous-versions/office/project-class/ee767707(v=office.15))
   
 |||
 |:-----|:-----|
@@ -137,7 +137,7 @@ In Project Servers 2016, the following PSI members have been removed:
 In Project Servers 2016, Project Server Interface (PSI) extension scenarios are not supported. These scenarios enabled integration with custom Windows Communication Foundation (WCF) services. 
   
 > [!NOTE]
-> For more information about PSI extensions, see the MSDN article [Developing PSI Extensions](https://go.microsoft.com/fwlink/p/?LinkId=623772). 
+> For more information about PSI extensions, see the MSDN article [Developing PSI Extensions](/previous-versions/office/developer/office-2010/ff843378(v=office.14)). 
   
 ## See also
 <a name="PSIext"> </a>
@@ -145,9 +145,6 @@ In Project Servers 2016, Project Server Interface (PSI) extension scenarios are 
 #### 
 
 
-[New and improved features in SharePoint Server 2016](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
+[New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
 
-[What's deprecated from SharePoint Server 2016](https://docs.microsoft.com/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016)
-
-
-
+[What's deprecated from SharePoint Server 2016](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016)
