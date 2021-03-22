@@ -17,7 +17,7 @@ description: "Summary: Learn about phases, stages, enterprise project types, and
  **Summary:** Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management.<br/>
 **Applies to:** Project Server 2016, Project Server 2013
   
-This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](https://technet.microsoft.com/library/4a3a3fb3-89bc-4dc7-8f27-6da7dabfa0de.aspx).
+This article describes how demand management is implemented in Project Server. For additional details, see [Hitchhiker's Guide to Demand Management in Project Server 2013 (white paper)](./project-server-2013-and-2016.md).
   
 You can use the demand management tools in Project Web App to capture all project ideas in one place, and then guide them through a decision-making process catered to your business's needs. Using these tools can help your users make decisions about which proposals to approve, and track progress on a project until the work is completed.
   
@@ -80,5 +80,3 @@ There are four general steps to perform to create your workflow in Project Web A
 ## Enterprise project types
 
 An enterprise project type brings together all the elements of demand management by combining a single workflow with its phases and stages with department and project site template definitions. Normally, enterprise project types are aligned with individual departments, for example, marketing projects, IT projects, or HR projects. Using enterprise project types helps to categorize projects within the same organization that have a similar project life cycle. For a user, the enterprise project types appear in a drop-down list when the user clicks **New Project** in the Project Center.
-  
-

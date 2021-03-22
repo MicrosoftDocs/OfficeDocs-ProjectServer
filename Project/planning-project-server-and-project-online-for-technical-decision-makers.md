@@ -26,7 +26,7 @@ Read this article for an overview of the technical differences and what to consi
   
 In this article, we'll look at technical decisions. Also look at the [business decisions](planning-project-server-and-project-online-for-business-decision-makers.md) you'll need to make.
   
-For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](https://technet.microsoft.com/library/f86ebfbb-0e55-420a-8718-66c27467eeb0.aspx).
+For a feature-by-feature comparison of Project Server and Project Online, see [A feature/function comparison of Project Online and Project Server 2013](./project-server-2013-and-2016.md).
   
 ## User access in Project Server and Project Online
 
@@ -85,11 +85,11 @@ The following table shows a high-level comparison of how on-premises and online 
 ||**Project Server**|**Project Online**|
 |:-----|:-----|:-----|
 |Cloud BI  <br/> |Use Power BI Desktop to write reports by accessing Project Web App data in the content database or using the OData feed. These reports can be shared by publishing them to the cloud.  <br/> |Use Excel to access the Project Online OData feeds. Save reports for your users to your Project Online reporting library.  <br/> Optionally, use Power BI reports and data visualizations.  <br/> |
-|On-premises BI  <br/> |For corporate BI, use SQL Server Reporting Services or PerformancePoint Services to report directly on the reporting data in the content database or online analytical processing (OLAP) cubes. (Requires no more than one instance of Project Web App per content database.)  <br/> For self-service BI, use Excel to access the Project Server OData feeds or OLAP cubes.  <br/> |Use SQL Server Integration Services to [create a data warehouse on-premises or in Microsoft Azure](https://go.microsoft.com/fwlink/p/?LinkId=511997). Use SQL Server Reporting Services or PerformancePoint Services to report from that.  <br/> |
+|On-premises BI  <br/> |For corporate BI, use SQL Server Reporting Services or PerformancePoint Services to report directly on the reporting data in the content database or online analytical processing (OLAP) cubes. (Requires no more than one instance of Project Web App per content database.)  <br/> For self-service BI, use Excel to access the Project Server OData feeds or OLAP cubes.  <br/> |Use SQL Server Integration Services to [create a data warehouse on-premises or in Microsoft Azure](/previous-versions/office/project-odata/dn720853(v=office.15)). Use SQL Server Reporting Services or PerformancePoint Services to report from that.  <br/> |
    
 Setting up reporting in Project Online is the easiest option to configure. The OData feeds for Project Web App work as soon as you set up Project Web App. 
   
-Setting up reporting in an on-premises environment is more involved. If you want to access the Project Web App in the content database, you need to follow a series of steps that includes [setting up Office Web Apps Server](https://technet.microsoft.com/library/e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5%28Office.14%29.aspx) and [Secure Store](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125%28Office.14%29.aspx).
+Setting up reporting in an on-premises environment is more involved. If you want to access the Project Web App in the content database, you need to follow a series of steps that includes [setting up Office Web Apps Server](/officeonlineserver/deploy-office-online-server) and [Secure Store](/previous-versions/office/sharepoint-server-2010/ee806866(v=office.14)).
   
 If you want to copy Project Online data into an on-premises data warehouse, you need to use SQL Server Integration Services and create a custom solution. Of all the reporting options for Project Web App this requires the most up-front work from your IT department or BI specialists. However, it does allow you to use Project Online even if you have business requirements for advanced reporting in an on-premises database.
   
@@ -138,4 +138,3 @@ Similarly, lookup tables with large numbers of values can have a noticeable perf
 #### 
 
 [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
-
