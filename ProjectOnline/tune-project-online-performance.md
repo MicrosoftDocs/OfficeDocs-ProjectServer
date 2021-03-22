@@ -29,11 +29,11 @@ Project Online offers many configuration and customization settings, but customi
 ||
 |:-----|
 ||
-|This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project. ||
+|This article is part of the [Network planning and performance tuning for Office 365](/microsoft-365/enterprise/network-planning-and-performance) project. ||
    
 ## Office 365 and SharePoint Online best practices
 
-There is a wealth of information around network planning and performance tuning for [SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=544778) and [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=544780). All this information is relevant to Project Online customers and should be consulted in addition to the following best practices specific to Project Online.
+There is a wealth of information around network planning and performance tuning for [SharePoint Online](/microsoft-365/enterprise/tune-sharepoint-online-performance) and [Office 365](/microsoft-365/enterprise/network-planning-and-performance). All this information is relevant to Project Online customers and should be consulted in addition to the following best practices specific to Project Online.
   
 ## Project Online configuration and customization
 
@@ -65,7 +65,7 @@ We will cover:
   
 ## Permission modes: SharePoint or Project
 
-With Project Online and Project Server 2013, we introduced a new and simplified permission model called SharePoint permission mode, as opposed to the legacy Project permission mode. The comparison between both modes can be found on [Technet](https://go.microsoft.com/fwlink/p/?LinkId=544784).
+With Project Online and Project Server 2013, we introduced a new and simplified permission model called SharePoint permission mode, as opposed to the legacy Project permission mode. The comparison between both modes can be found on [Technet](/project/plan-user-access-in-project-server).
   
 New Project Online instances are provisioned in SharePoint permission mode by default, and we are confident this mode will address the needs of the vast majority of customers. By using this mode, you can manage user authorization via regular SharePoint groups and permissions.
   
@@ -295,13 +295,13 @@ Create lightweight specialized PDPs, and avoid mixing schedule-related and nonsc
 
 Updating project custom fields values in a workflow one at a time requires a separate server request using the Set Project Field action. This results in reduced performance when updating a lot of custom fields at the same time on a high-latency, low-bandwidth network.
   
-To solve this issue, there is a [CSOM method to update custom fields in bulk](https://go.microsoft.com/fwlink/p/?LinkId=544812). This method requires you to pass in a dictionary containing the name and values of all the custom fields you want to update.
+To solve this issue, there is a [CSOM method to update custom fields in bulk](/office/client-developer/project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project). This method requires you to pass in a dictionary containing the name and values of all the custom fields you want to update.
   
 ### API for provisioning project sites on-demand
 
 Each project can have its own dedicated SharePoint site where team members can collaborate, share documents, and raise issues. These sites can be automatically created on first publish or manually created by the project manager via Project Pro or the administrator via Project Web App settings, or they can simply be disabled.
   
-You can use the [CreateProjectSite('') method](https://go.microsoft.com/fwlink/p/?LinkId=544812) to decide when to create their project sites. This is particularly useful for organizations who want to create their sites only after a project proposal reaches a specific stage in a predefined workflow, rather than on first publish. This significantly improves the performance of project creation by postponing the creation of Project sites. 
+You can use the [CreateProjectSite('') method](/office/client-developer/project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project) to decide when to create their project sites. This is particularly useful for organizations who want to create their sites only after a project proposal reaches a specific stage in a predefined workflow, rather than on first publish. This significantly improves the performance of project creation by postponing the creation of Project sites. 
   
 ## Event Handling
 
@@ -309,7 +309,7 @@ Add-ins can respond to events being raised in Project Online. For example, an ad
 
 **Recommendation:**
   
-Project Online should be configured to handle certain events asynchronously to minimize the amount of time users will need to wait. To do this, ask the developer of any add-ins you use to make sure their code is able to handle After events asynchronously. They can go to [this article](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/gg749858(v=office.14)) to learn more about practices they can follow for handling these events.  
+Project Online should be configured to handle certain events asynchronously to minimize the amount of time users will need to wait. To do this, ask the developer of any add-ins you use to make sure their code is able to handle After events asynchronously. They can go to [this article](/previous-versions/office/developer/sharepoint-2010/gg749858(v=office.14)) to learn more about practices they can follow for handling these events.  
 
 If the developer confirms the add-in is ready for the change, you then need to enable the **Turn on asynchronous After event processing** setting on your **PWA Settings** page.
 
@@ -332,9 +332,9 @@ If the developer confirms the add-in is ready for the change, you then need to e
 
 ### ProjectData OData Service
 
-Project Online has an OData reporting service that provides a way to build reporting/visualization on the data stored in the service. The ProjectData OData reporting service API is defined [here](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)).
+Project Online has an OData reporting service that provides a way to build reporting/visualization on the data stored in the service. The ProjectData OData reporting service API is defined [here](/previous-versions/office/project-odata/jj163015(v=office.15)).
 
-Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the article [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
+Calls to the ProjectData OData reporting service are governed by SharePoint Online. Please review the article [Avoid getting throttled or blocked in SharePoint Online](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) to ensure that the calls are less likely to be throttled and to correctly implement retry and exponential back off recommendations.  
 
 In addition, following the recommendations outlined in this document will reduce the number, length and frequency of calls needed to retrieve data. If throttling is occurring often, check across the organization as multiple departments could be querying the same data or not following the best practices outlined in this article and affecting everyone.
 
@@ -366,7 +366,7 @@ Do not use Daily if you have workflows that wait on publish to complete.  Daily 
  
 
 ### Querying the service
-There are [limits](https://go.microsoft.com/fwlink/p/?linkid=845599) to the number of entities that can be returned in one query of the ProjectData OData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request.
+There are [limits](/previous-versions/office/project-odata/jj163015(v=office.15)) to the number of entities that can be returned in one query of the ProjectData OData service. As a result, querying a large amount of data requires multiple web requests to be sent to the service, adding network overhead and latency for each request.
 
 **Recommendation:**
 
@@ -393,7 +393,7 @@ For a Project Web App instance that contains a large number of entities, such as
  
    - **Associations**
 
-     For example, you can query the [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId:
+     For example, you can query the [Assignment](/previous-versions/office/project-odata/jj163163(v=office.15)) entity via AssignmentId and ProjectId:
 
      ```http
      https://ServerName/ProjectServerName/_api/ProjectData/Assignments?$filter=AssignmentId eq guid'719d849a-79b4-e911-b073-00155d9c3d12' and ProjectId eq guid'b5b02399-79b4-e911-b073-00155d9c3d12'
@@ -421,13 +421,13 @@ For a Project Web App instance that contains a large number of entities, such as
      https://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
      ```
 
--	**Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets [Issues](https://docs.microsoft.com/previous-versions/office/project-odata/jj162995(v=office.15)) 11 through 20 for all projects, in order of the resource who is assigned to the issue:
+-	**Do multiple queries to return data one page at a time, by using the $top operator and the $skip operator in a loop.** For example, the following query gets [Issues](/previous-versions/office/project-odata/jj162995(v=office.15)) 11 through 20 for all projects, in order of the resource who is assigned to the issue:
 
     ```http
     https://ServerName/ProjectServerName/_api/ProjectData/Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
     ```
 
--	**Avoid retrieving the Project/Task/Resource name when querying the [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)) Entity.**  The service performs additional processing to retrieve the respective names. If the data has already been retrieved from other queries, do not include it in the $select filter when querying Assignment.
+-	**Avoid retrieving the Project/Task/Resource name when querying the [Assignment](/previous-versions/office/project-odata/jj163163(v=office.15)) Entity.**  The service performs additional processing to retrieve the respective names. If the data has already been retrieved from other queries, do not include it in the $select filter when querying Assignment.
 
 
 **Recommendation:**
@@ -459,9 +459,9 @@ When using SSIS, use the following pattern that Project Online has been optimize
 
 **Full Sync**
 
-Retrieve the current snapshot of the reporting data you are interested in. Use the following method to efficiently retrieve [Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163049(v=office.15)) and related entities.
+Retrieve the current snapshot of the reporting data you are interested in. Use the following method to efficiently retrieve [Project](/previous-versions/office/project-odata/jj163049(v=office.15)) and related entities.
 
-For example, using the [Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
+For example, using the [Project](/previous-versions/office/project-odata/jj163049(v=office.15)) entity.
 
 1.	Query the ProjectId from the Project entity including any additional filters.  For example, filter on projects that have specific start or finish dates. 
 
@@ -470,7 +470,7 @@ For example, using the [Project](https://docs.microsoft.com/previous-versions/of
 3.	Repeat step 2 for each ProjectId. In addition, for each ProjectId, download the data for related entities. 
 
 
-For example, using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+For example, using [Task](/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
 1.	Query on the TaskId from Task entity filtering on any additional fields as well as the project ProjectId from the previous step.
 
@@ -478,16 +478,16 @@ For example, using [Task](https://docs.microsoft.com/previous-versions/office/pr
 
 3.	Repeat for each TaskId.
 
-    Similarly, use the same approach for each related entity, e.g., [Assignment](https://docs.microsoft.com/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](https://docs.microsoft.com/previous-versions/office/project-odata/jj163029(v=office.15)) 
+    Similarly, use the same approach for each related entity, e.g., [Assignment](/previous-versions/office/project-odata/jj163163(v=office.15)), [TaskTimephasedData](/previous-versions/office/project-odata/jj163029(v=office.15)) 
 
 
 The preceding steps apply to other groups of entities, for example, when retrieving timesheet information:
 
--	[Timesheet](https://docs.microsoft.com/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](https://docs.microsoft.com/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue on to other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
+-	[Timesheet](/previous-versions/office/project-odata/jj163150(v=office.15)): Retrieve the TimesheetId and ModifiedDate based on filter criteria , then Timesheet records, then [TimeSheetLines](/previous-versions/office/project-odata/jj163012(v=office.15)) filtering on the TimeSheetId and continue on to other related entities, ensuring that you're filering by primary key Ids (TimesheetUID) and modification date fields.
 
 When retrieving Resource entity information: 
 
-- Retrieve the ResourceId and ResourceModifiedDate, then [Resource](https://docs.microsoft.com/previous-versions/office/project-odata/jj163027(v=office.15)) records, then [ResourceTimephasedData](https://docs.microsoft.com/previous-versions/office/project-odata/jj163541(v=office.15)) etc. Include the respective primary key Ids and modification dates fields.
+- Retrieve the ResourceId and ResourceModifiedDate, then [Resource](/previous-versions/office/project-odata/jj163027(v=office.15)) records, then [ResourceTimephasedData](/previous-versions/office/project-odata/jj163541(v=office.15)) etc. Include the respective primary key Ids and modification dates fields.
 
 **Delta Sync**
 
@@ -500,7 +500,7 @@ Check periodically to keep the local copy of the reporting data up to date.  Rep
 3.	Where the service modification date and the local modification date are different for the project record, query the Project endpoint for all the required fields filtering on a single ProjectId at a time.  In addition, for each ProjectId, download the data for related entities.  
 
 
-For example, using [Task](https://docs.microsoft.com/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
+For example, using [Task](/previous-versions/office/project-odata/jj163598%28v%3doffice.15%29) entity:
 
 1.	Query on the TaskId and TaskModifiedDate from Task entity filtering on any additional fields as well as the project ProjectId from the previous step where the data has changed, i.e., Project service modification date didn’t match the local modification date.
 
@@ -513,10 +513,10 @@ Repeat for each related entity, e.g., Assignment, TaskTimephasedData.
 
 ## Project Web App Quota
 
-By default, the Project Web App Site comes with a 25GB limit and is separate from the [limit on all data stored in the SharePoint site collection](https://go.microsoft.com/fwlink/p/?LinkID=856113) where Project Web App is enabled. Using the reporting granularity options to reduce your data volume can help in staying within the quota. 
+By default, the Project Web App Site comes with a 25GB limit and is separate from the [limit on all data stored in the SharePoint site collection](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) where Project Web App is enabled. Using the reporting granularity options to reduce your data volume can help in staying within the quota. 
   
 > [!NOTE]
-> PWA quota can be increased (in increments) to a maximum of 100 GB.  A new PWA site will be required once the quota limit has been reached.  Increases beyond 50GB require that the PWA site no longer use the [daily timephased reporting granularity](https://docs.microsoft.com/ProjectOnline/configure-rollup-of-timephased-reporting-data-in-project-online) option. To discuss increasing the PWA site quota, please contact Microsoft. 
+> PWA quota can be increased (in increments) to a maximum of 100 GB.  A new PWA site will be required once the quota limit has been reached.  Increases beyond 50GB require that the PWA site no longer use the [daily timephased reporting granularity](./configure-rollup-of-timephased-reporting-data-in-project-online.md) option. To discuss increasing the PWA site quota, please contact Microsoft. 
   
 ## Conclusion
 
@@ -539,4 +539,3 @@ Summary recommendation:
 ## Related Topics
 
 [Project Online: software boundaries and limits](project-online-software-boundaries-and-limits.md)
-  

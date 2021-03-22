@@ -88,7 +88,7 @@ See [Create a project report](https://support.office.com/article/6e74dc79-0e2d-4
 ## SQL Server Reporting Services
 <a name="__sql_server_reporting"> </a>
 
-Reporting Services is a powerful reporting platform that is available with SQL Server. Some customers prefer to use Reporting Services to create and share reports. Typically, IT administrators and developers create Reporting Services reports, and then share those reports using SharePoint or a Reporting Services report server. See [SQL Server Reporting Services tools](https://technet.microsoft.com/library/ms155792).
+Reporting Services is a powerful reporting platform that is available with SQL Server. Some customers prefer to use Reporting Services to create and share reports. Typically, IT administrators and developers create Reporting Services reports, and then share those reports using SharePoint or a Reporting Services report server. See [SQL Server Reporting Services tools](/sql/reporting-services/tools/reporting-services-tools).
 
 ## Power BI
 <a name="__power_BI"> </a>
@@ -98,11 +98,9 @@ Power BI offers a great experience for data visualization and insights. See [Wha
 ## PerformancePoint Services in SharePoint Server 2013
 <a name="__sharepoint_applications"> </a>
 
-PerformancePoint Services in SharePoint Server 2013 is a great tool for creating power key performance indicators (KPIs), scorecards, reports, and dashboards. Ideal for (on premises) data stored in SQL Server Analysis Services, PerformancePoint Services enables you to create interactive, reusable dashboard items. See [TechNet Article: Create dashboards (PerformancePoint Services in SharePoint Server 2013)](https://technet.microsoft.com/library/jj571736%28v=office.15%29.aspx).
+PerformancePoint Services in SharePoint Server 2013 is a great tool for creating power key performance indicators (KPIs), scorecards, reports, and dashboards. Ideal for (on premises) data stored in SQL Server Analysis Services, PerformancePoint Services enables you to create interactive, reusable dashboard items. See [TechNet Article: Create dashboards (PerformancePoint Services in SharePoint Server 2013)](/SharePoint/administration/performancepoint-services-overview).
   
 ## Visio Services
 <a name="__visio_services"> </a>
 
-You can use Visio to create a data-connected diagram, and then share it with others by using Visio Services in SharePoint. See [A beginner's guide to Visio](https://support.office.com/article/bc1605de-d9f3-4c3a-970c-19876386047c) and [TechNet Article: Overview of Visio Services in SharePoint Server 2013](https://technet.microsoft.com/library/ee663485.aspx). 
-  
-
+You can use Visio to create a data-connected diagram, and then share it with others by using Visio Services in SharePoint. See [A beginner's guide to Visio](https://support.office.com/article/bc1605de-d9f3-4c3a-970c-19876386047c) and [TechNet Article: Overview of Visio Services in SharePoint Server 2013](/SharePoint/administration/visio-services-overview). 
