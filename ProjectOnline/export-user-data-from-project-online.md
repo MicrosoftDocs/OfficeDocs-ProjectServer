@@ -197,7 +197,7 @@ After the script runs successfully, all exported data will be stored in the -Out
     
 ### Select specific feature-related user data files to export
 
-Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the Security.json file contains data about the user's security groups, categories, and permissions settings. These [feature-related json files](export-user-data-from-project-online.md#featurespecific) are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the ExportProjectUserContent script. However, you can use the **-Options** parameter to select specific json files to download. These include the following: 
+Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the Security.json file contains data about the user's security groups, categories, and permissions settings. These feature-related json files are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the ExportProjectUserContent script. However, you can use the **-Options** parameter to select specific json files to download. These include the following: 
   
 |**-Options values**|**Json files you receive**|
 |:-----|:-----|

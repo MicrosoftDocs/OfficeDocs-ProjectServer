@@ -29,9 +29,6 @@ This article provides a brief overview of new and significantly updated function
     
 - [Upgrading to Project Server 2019 Public Prevew ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
     
-   
-- [Custom field limits](what-s-new-for-it-pros-in-project-server-2019.md#Cust)
-    
 - [Project Web App changes](what-s-new-for-it-pros-in-project-server-2019.md#PWAChanges)
     
    
