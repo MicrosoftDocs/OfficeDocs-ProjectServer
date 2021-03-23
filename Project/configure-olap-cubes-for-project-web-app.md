@@ -39,7 +39,7 @@ Before you begin:
   
 - You need an instance of SQL Server Analysis Services where you can build an OLAP cube You also need the name of the account that is running the SQL Server Analysis Services service for one of the procedures in this article.
     
-- Ensure that the SharePoint system account is an [OLAP Administrator](https://go.microsoft.com/fwlink/p/?LinkID=717498) on that instance of SQL Server Analysis Services.
+- Ensure that the SharePoint system account is an [OLAP Administrator](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15) on that instance of SQL Server Analysis Services.
     
 - You must have installed the SQL Server 2014 Analysis Management Objects (AMO) on each Application and Front-end role servers in the farm. ([Download the SQL Server 2014 Analysis Management Objects](https://go.microsoft.com/fwlink/?LinkId=722556).)
     
@@ -159,4 +159,3 @@ Use the following procedure to grant users access to the OLAP cube.
 #### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
-

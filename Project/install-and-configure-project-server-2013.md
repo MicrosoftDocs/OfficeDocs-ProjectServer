@@ -23,7 +23,7 @@ Project Server 2013 runs as a service application under SharePoint Server 2013. 
 Use the procedures that follow to install Project Server 2013. The Project Server 2013 software must be installed on each application server in the farm before you can run the SharePoint Products Configuration Wizard to integrate Project Server with SharePoint Server 2013. 
     
 > [!IMPORTANT]
-> If you plan to use workflows with Project Server, you must install and configure the SharePoint 2013 Workflow platform in SharePoint Server 2013. For more information, see [Installing and configuring workflow for SharePoint Server 2013](https://technet.microsoft.com/library/b37c1d36-5bfe-4f76-bb03-2c5436c043a2.aspx) and the[Workflow in SharePoint 2013 resource center](https://technet.microsoft.com/sharepoint/jj556245.aspx). 
+> If you plan to use workflows with Project Server, you must install and configure the SharePoint 2013 Workflow platform in SharePoint Server 2013. For more information, see [Installing and configuring workflow for SharePoint Server 2013](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) and the[Workflow in SharePoint 2013 resource center](/SharePoint/governance/getting-started-with-sharepoint-server-workflow). 
   
 > [!IMPORTANT]
 > After you install Project Server 2013, it cannot be uninstalled from the farm. If you want to remove Project Server 2013 functionality, you can turn off the Project Application Service and delete the Project Server 2013 Service Application. 
@@ -165,4 +165,3 @@ The next step is to determine how you want to deploy Project Web App. Go to the 
 #### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
-

@@ -24,7 +24,7 @@ description: "There are some important limitations that you should know if you a
 There are some important limitations that you should know if you are using Project Online. These limitations apply regardless of whether you are using Project Online by itself, or with other Office 365 plans.
   
 > [!TIP]
-> **Want more info about Project Online and Office 365 plans?** Take a look at the service descriptions for [Project Online](https://technet.microsoft.com/library/project-online-service-description.aspx) and [Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx). 
+> **Want more info about Project Online and Office 365 plans?** Take a look at the service descriptions for [Project Online](/office365/servicedescriptions/project-online-service-description/project-online-service-description) and [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description). 
   
 ## Limits in Project Online
 
@@ -116,4 +116,3 @@ If your connection to Project Online is running slowly, it can take a little lon
 ## Related Topics
 
 [Tune Project Online performance](tune-project-online-performance.md)
-  

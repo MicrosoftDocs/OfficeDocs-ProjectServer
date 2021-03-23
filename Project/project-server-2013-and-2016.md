@@ -1,11 +1,10 @@
 ---
 title: Project Server Documentation
 description: Project Server provides project management, work management, and portfolio management capabilities for the enterprise. With it, organizations can effectively initiate, select, plan, and deliver projects while tracking time and budget, while also providing extensive reporting capabilities. Learn how to deploy, configure, and manage Project Server with this content set.
-services: project-server-2013-2016
 author: serdars
 manager: samanro
 ms.assetid: 
-ms.service: project-server-2013-2016
+ms.prod: project-server-2016
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
@@ -19,7 +18,7 @@ Learn how to plan, deploy, manage users in Project Server.
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![a task checklist](https://docs.microsoft.com/office/media/icons/tasks-planner.png)  | [Plan for Project Server](plan-for-project-server-2016.md) | ![Deploy](https://docs.microsoft.com/office/media/icons/deploy-planner.png)  | [Install and Configure Project Server](install-and-configure-for-project-server-2016.md) | ![user account](https://docs.microsoft.com/office/media/icons/user-accounts.png)  | [Plan user access in Project Server](plan-user-access-in-project-server.md) |
+| ![a task checklist](/office/media/icons/tasks-planner.png)  | [Plan for Project Server](plan-for-project-server-2016.md) | ![Deploy](/office/media/icons/deploy-planner.png)  | [Install and Configure Project Server](install-and-configure-for-project-server-2016.md) | ![user account](/office/media/icons/user-accounts.png)  | [Plan user access in Project Server](plan-user-access-in-project-server.md) |
 
 ---
 

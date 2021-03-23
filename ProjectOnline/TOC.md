@@ -65,7 +65,7 @@
 ### [Configuring workflow to support portfolio analysis](configuring-workflow-and-portfolio-analysis.md)
 ## [Project Management Office]()
 ### [Supporting your Project Online adoption with a Project Management Office (PMO)](supporting-your-project-online-adoption-with-a-project-management-office-pmo.md)
-### [Project Online implementation cookbook](https://docs.microsoft.com/project/project-online-implementation-cookbook)
+### [Project Online implementation cookbook](/project/project-online-implementation-cookbook)
 ### [Enterprise system best practices](enterprise-system-best-practices-white-paper.md)
 ### [The project management system maturity model](the-project-management-system-maturity-model-white-paper.md)
 ### [EPM: Centralized or decentralized?](epm-centralized-or-decentralizedwhite-paper.md)
@@ -100,7 +100,3 @@
 ### [Project Online and Project Server export data definitions](project-online-and-project-server-export-data-definitions.md)
 ## [License management]()
 ### [Renew your Project Online plans in a larger organization](renew-your-project-online-plans-in-a-larger-organization.md)
-
-
-
-

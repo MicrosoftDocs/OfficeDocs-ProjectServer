@@ -29,9 +29,6 @@ This article provides a brief overview of new and significantly updated function
     
 - [Upgrading to Project Server 2019 Public Prevew ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
     
-   
-- [Custom field limits](what-s-new-for-it-pros-in-project-server-2019.md#Cust)
-    
 - [Project Web App changes](what-s-new-for-it-pros-in-project-server-2019.md#PWAChanges)
     
    
@@ -79,7 +76,7 @@ Since Project Server 2019 does not provide a matching language for all available
 |Welsh  <br/> |English  <br/> |
    
 > [!NOTE]
-> For more information about Project Online supported languages, see [Supported languages for Project Online](https://go.microsoft.com/fwlink/p/?linkid=832115). 
+> For more information about Project Online supported languages, see [Supported languages for Project Online](/ProjectOnline/supported-languages-for-project-online). 
   
 ## Hardware and software requirements
 <a name="Req"> </a>
@@ -108,7 +105,7 @@ You can connect to Project Server 2019 with not only Project Professional 2019 a
 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019, see [Plan browser support in SharePoint Server 2019 ](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0). 
+> For more information about the hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019, see [Plan browser support in SharePoint Server 2019 ](/sharepoint/install/browser-support-planning-0). 
   
 ## Upgrading to Project Server 2019 
 <a name="Upgra"> </a>
@@ -154,5 +151,4 @@ In Project Server 2019, in addition to performance improvements as well as acces
 
 #### 
 
-[New and improved features in SharePoint Server 2019 ](https://docs.microsoft.com/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
-
+[New and improved features in SharePoint Server 2019 ](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
