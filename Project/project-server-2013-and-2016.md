@@ -5,7 +5,7 @@ services: project-server-2013-2016
 author: serdars
 manager: samanro
 ms.assetid: 
-ms.service: project-server-2013-2016
+ms.service: project-server-2016
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
