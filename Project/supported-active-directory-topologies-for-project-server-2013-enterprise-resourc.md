@@ -76,7 +76,7 @@ In this topology above, Project Server 2013 trusts the Active Directory domain t
 > [!IMPORTANT]
 > This topology is not supported for Active Directory synchronization with the RTM build of Project Server 2013. It is only supported by installing the Project Server 2013 March 12, 2013 Cumulative Update to your Project Server 2013 environment. 
   
-In this multi-forest topology, two forests exist in which Project Server 2013 resides in one forest, and the Active Directory users reside in another. A forest trust needs to be created between forest root domains for each forest in order for the Project Server 2013 Enterprise Resource Pool to successfully synchronize with Active Directory groups and user in the other forest. Forest trusts are transitive, so any domain within one forest will trust any domain within the other forest. You are not required to setup individual trusts, although if your topology is complex you may need to set up some shortcut trusts. For more information about creating a shortcut trust, see [Create a shortcut trust](https://technet.microsoft.com/library/cc725721.aspx). 
+In this multi-forest topology, two forests exist in which Project Server 2013 resides in one forest, and the Active Directory users reside in another. A forest trust needs to be created between forest root domains for each forest in order for the Project Server 2013 Enterprise Resource Pool to successfully synchronize with Active Directory groups and user in the other forest. Forest trusts are transitive, so any domain within one forest will trust any domain within the other forest. You are not required to setup individual trusts, although if your topology is complex you may need to set up some shortcut trusts. For more information about creating a shortcut trust, see [Create a shortcut trust](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725721(v=ws.11)). 
   
 ![Forest Trust topology](images/ADSyncForestTrust.jpg)
   
@@ -110,4 +110,3 @@ All topologies not mentioned in this article as supported topologies are not sup
 [Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md)
   
 [Manage security group synchronization with Active Directory in Project Server](manage-security-group-synchronization-with-active-directory-in-project-server.md)
-

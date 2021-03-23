@@ -32,5 +32,4 @@ The following articles provide information about planning for Project Server dep
 
 #### 
 
-[Plan for SharePoint Server 2016](https://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835.aspx)
-
+[Plan for SharePoint Server 2016](/SharePoint/getting-started)

@@ -20,7 +20,7 @@ description: "Summary: Restore your Project Server 2010 databases to the SQL Ser
   
 This is one of the required steps when you upgrade from Project Server 2010 to Project Server 2013 through the database-attach upgrade method.
   
-After you have configured the Project Server 2013 destination environment, you can restore the backup copies of the Project Server 2010 databases on the SQL Server instance that you are using to host your Project Server 2013 databases. This requires you to have backup copies of your Project Server 2010 databases and the SharePoint content database used to host your Project Web App site data. For information about how to create backup copies of these databases, see [Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx). 
+After you have configured the Project Server 2013 destination environment, you can restore the backup copies of the Project Server 2010 databases on the SQL Server instance that you are using to host your Project Server 2013 databases. This requires you to have backup copies of your Project Server 2010 databases and the SharePoint content database used to host your Project Web App site data. For information about how to create backup copies of these databases, see [Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](./create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-p.md). 
   
 The Project Server 2010 databases that are required for upgrading to Project Server 2013 include the following:
   
@@ -112,9 +112,8 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 [Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 
-[What's new for upgrade (Project Server 2013)](https://technet.microsoft.com/library/d42b8778-87ee-4e09-8b9e-cb2d1d800db9.aspx)
+[What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md)
   
-[Prepare your environment for upgrade (Project Server 2013)](https://technet.microsoft.com/library/587325fd-c15f-4347-a247-92abbf23fb76.aspx)
+[Prepare your environment for upgrade (Project Server 2013)](./prepare-your-environment-for-an-upgrade-to-project-server-2013.md)
   
-[Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](https://technet.microsoft.com/library/028f9509-0cfb-4f7e-b102-e19f36d8f014.aspx)
-
+[Create backup copies of your Project Server 2010 farm databases for upgrade (Project Server 2013)](./create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-p.md)

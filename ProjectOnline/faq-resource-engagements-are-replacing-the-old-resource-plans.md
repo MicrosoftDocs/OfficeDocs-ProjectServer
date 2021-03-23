@@ -69,10 +69,8 @@ Portfolio analysis will now include engagement data instead of resource plan dat
   
 ## What about extensibility? Can I access the APIs for engagements?
 
-There are resource engagement APIs available, the Project Server CSOM class details are here: [Microsoft.ProjectServer.Client Namespace](https://docs.microsoft.com/dotnet/api/microsoft.projectserver.client)
+There are resource engagement APIs available, the Project Server CSOM class details are here: [Microsoft.ProjectServer.Client Namespace](/dotnet/api/microsoft.projectserver.client)
   
 ## When will this be available to Project Server customers?
 
 In the next release of Project Server, customers will be able to access all of these features.
-  
-

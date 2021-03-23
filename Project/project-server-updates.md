@@ -109,9 +109,8 @@ Starting with the April 2015 release, all Office 2013 updates will only apply if
 
 #### 
 
-[Office Updates](https://technet.microsoft.com/library/564f1df0-0f10-427e-af8e-2c8fb7fdd382.aspx)
+[Office Updates](/officeupdates/office-updates-msi)
   
-[SharePoint Updates](https://technet.microsoft.com/library/3e6a2836-2cf8-4105-b9f2-643c3164a5c3.aspx)
+[SharePoint Updates](/officeupdates/sharepoint-updates)
   
-[Exchange Updates](https://technet.microsoft.com/library/6a8091d0-4f19-4ae7-9e44-fd1c9f5fbe19.aspx)
-
+[Exchange Updates](/Exchange/new-features/build-numbers-and-release-dates)

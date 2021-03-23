@@ -38,5 +38,4 @@ Use the following procedure to delete timesheets from Project Web App.
 
 #### 
 
-[TimeSheet.QueueDeleteTimesheet method](https://go.microsoft.com/fwlink/p/?LinkId=262682)
-
+[TimeSheet.QueueDeleteTimesheet method](/previous-versions/office/project-class/gg239536(v=office.15))
