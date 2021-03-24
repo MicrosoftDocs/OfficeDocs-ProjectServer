@@ -19,6 +19,7 @@ localization_priority: Normal
 You can use the Project Power BI template to import and analyze data from Project for the web and Project Online into Power BI. The template is designed to help you quickly connect to your Dataverse instance in Dynamics 365 where your Project for the web data is stored, as well as connect to your Project Web App tenant in Office 365.  You will be able to download a variety of data to visually explore and monitor all the key aspects of your PPM deployment. There are multiple visually rich report pages for the portfolio, resource, and project overview.
 
 ## Get started
+
 You first need to do the following:
 
 - Download [Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
@@ -30,9 +31,10 @@ To use the template, you need the following:
 - A Power BI Desktop or Power Bi Pro subscription.
 
 ## Launch and configure the Power BI Desktop template file
+
 1. Click on the Project Power BI template file to open it in Power BI Desktop.
 2. On the **Enter Parameters** screen, in the **Dataverse URL** field, type the URL of your Dynamics 365 Dataverse instance you are using for Project for the web.<br/>
-3. In the **PWA URL** field, type the URL of your Project Online Project Web App site.  For example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
+3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
 ![Parameters](media/MSPowerBIProject.png)
 4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
 ![Default Dataverse environment](media/OrgSignin.png)
@@ -42,7 +44,7 @@ If you receive an error during the load process stating that access to a resourc
 1. In the ribbon, select **Edit queries**, and then select **Data source settings**.
 2. Select **Global permissions**, select a data source URL, and then click the **Edit permissions** button at the bottom of the screen.
 3. On the **Edit permissions** screen, verify that **Privacy level** is set to **Organizational**.
-4. Also verify that for **Credentials**, the **Type** is set to **Organizational account**.  If it is not, click on **Edit**, select **Organizational account** on the left pane, and log in with your credentials.  Click **Save**, and verify that the Credentials Type has changed.
+4. Also verify that for **Credentials**, the **Type** is set to **Organizational account**.  If it is not, click **Edit**, select **Organizational account** on the left pane, and log in with your credentials.  Click **Save**, and verify that the Credentials Type has changed.
 5. Do this for each of the remaining data source URLs, and then click **Close**.
 6. Try to load your data again.
  
@@ -65,8 +67,6 @@ The following sections will tell you how to find the *environment_name* and the 
 2. On the office.com page, in the left pane, click **All apps**.
 3. On the **All apps** page, click **Business Apps** tab and select the project application of the organization you want to build your reports on.
 The Apps URL will give you the environment and region value. 
-1. On the PowerApps page, under **Start from data**, select **Common Data Service**. 
-1. On the PowerApps page, note the value in the **Environments** section.  In the image below, the default Dataverse environment value is **orge817dafc**.
 
     ![Default Dataverse environment](media/powerappsen.png)
 
@@ -182,3 +182,11 @@ The My Timeline report lets team member see their personal timeline of work acro
 ## See also
 
 [Compose HTTP requests and handle errors](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors#web-api-url-and-versions)
+
+  
+
+
+
+
+
+
