@@ -35,8 +35,11 @@ To use the template, you need the following:
 1. Click on the Project Power BI template file to open it in Power BI Desktop.
 2. On the **Enter Parameters** screen, in the **Dataverse URL** field, type the URL of your Dynamics 365 Dataverse instance you are using for Project for the web.<br/>
 3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
+
 ![Parameters](media/MSPowerBIProject.png)
+
 4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
+
 ![Dataverse environment](media/OrgSignin.png)
 
 A message will display, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
