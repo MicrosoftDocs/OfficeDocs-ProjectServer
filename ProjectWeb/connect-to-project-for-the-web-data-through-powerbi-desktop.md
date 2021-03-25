@@ -100,7 +100,7 @@ If you are not sure, check with your Office 365 administrator and have them chec
 
 You can go to your Project Online PWA site home page to find the PWA site URL.
 
-You can get to your PWA site by:
+You can get to your PWA site by implementing the following steps:
 
 1. In Office 365, click the Apps icon in the top left corner, and then in **Apps**, select **Project**.
 2. On your Project Home page, on the bottom of the page, click, **Go to Project Online**. This will take you to your PWA Home page.
