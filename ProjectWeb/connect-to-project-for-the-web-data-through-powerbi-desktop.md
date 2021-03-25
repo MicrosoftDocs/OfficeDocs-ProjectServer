@@ -38,6 +38,7 @@ To use the template, you need the following:
 ![Parameters](media/MSPowerBIProject.png)
 4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
 ![Dataverse environment](media/OrgSignin.png)
+
 A message will display, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
 If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions:
