@@ -44,7 +44,7 @@ To use the template, you need the following:
 
 A message will display, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
-If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions:
+If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions by implementing the following steps:
 1. In the ribbon, select **Edit queries**, and then select **Data source settings**.
 2. Select **Global permissions**, select a data source URL, and then click the **Edit permissions** button at the bottom of the screen.
 3. On the **Edit permissions** screen, verify that **Privacy level** is set to **Organizational**.
