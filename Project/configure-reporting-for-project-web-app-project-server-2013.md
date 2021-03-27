@@ -23,7 +23,7 @@ Project Server 2013 integrates the SharePoint Server 2013 Business Intelligence 
   
 To configure reporting, you must do the following steps:
   
-- [Video demonstration](https://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx#VideoDemonstration)
+- [Video demonstration](#VideoDemonstration)
     
 - [Configure prerequisites](#ConfigurePrerequisites)
     
@@ -56,18 +56,18 @@ The procedures in this article require Excel Services and Secure Store. If you h
   
 For information about deploying Excel Services, see the following articles:
   
-- [Excel Services overview](https://technet.microsoft.com/library/fe776cf2-17a4-4bb6-95ea-66288f243a93.aspx)
+- [Excel Services overview](/SharePoint/administration/excel-services-overview)
     
-- [Configure Excel Services in SharePoint](https://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx)
+- [Configure Excel Services in SharePoint](/officeonlineserver/configure-excel-online-administrative-settings)
     
 > [!IMPORTANT]
-> The Excel Services application pool account requires access to the SharePoint content database that is associated with Project Web App. If the content database was created after Excel Services was configured, you must follow the procedure in [Grant content database access to the managed account](https://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#GrantAccess) to grant the proper access.
+> The Excel Services application pool account requires access to the SharePoint content database that is associated with Project Web App. If the content database was created after Excel Services was configured, you must follow the procedure in [Grant content database access to the managed account](/officeonlineserver/configure-excel-online-administrative-settings#GrantAccess) to grant the proper access.
   
 For information about deploying Secure Store, see the following articles:
   
-- [Plan the Secure Store Service (SharePoint Server 2013)](https://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d.aspx)
+- [Plan the Secure Store Service (SharePoint Server 2013)](/SharePoint/administration/secure-store-service-planning)
     
-- [Configure the Secure Store Service (SharePoint 2013)](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125.aspx)
+- [Configure the Secure Store Service (SharePoint 2013)](/SharePoint/administration/configure-the-secure-store-service)
     
 After both Excel Services and Secure Store have been configured on the farm, proceed with the procedures in the sections below.
   
@@ -281,4 +281,3 @@ If you plan to use SQL Server Analysis Services OLAP cubes with Project Web App,
 #### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
-

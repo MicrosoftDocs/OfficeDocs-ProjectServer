@@ -37,7 +37,7 @@ Learn how an Farm admin can delete a specific user's data from a Project Server 
 - [Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance.](delete-user-data-from-project-server.md#step6)
 
 > [!NOTE]
-> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
+> Issues and Risks are stored in Project Sites, which are part of SharePoint Server. When deleting user information, the best practice is to [delete the user's SharePoint Server information first](/office365/enterprise/gdpr-for-sharepoint-server), followed by deleting their Project Server information. 
 
 Be sure you have deployed the latest updates to your farm and Project Professional clients before you run the scripts in this article.
 
@@ -57,7 +57,7 @@ In Project Server, admins can use the steps detailed in this article to delete a
 > [!NOTE]
 > Project Author is not deleted as part of the procedures in this article. 
 
-User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to [delete this data directly from SharePoint Server](https://docs.microsoft.com/office365/enterprise/gdpr-for-sharepoint-server).
+User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to [delete this data directly from SharePoint Server](/office365/enterprise/gdpr-for-sharepoint-server).
 
 > [!IMPORTANT]
 > We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist. 
@@ -214,7 +214,7 @@ Workspace items include:
 ## Step 6 - Sync workspace items into Project Server
 <a name="SyncWorkspaceItems"> </a>
 
-The Sync-ProjectWorkspace201x.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName201x.sql script to retrieve this.) [Confirm that the queue jobs have completed](https://docs.microsoft.com/project/manage-queue-jobs-project-server-2013) before proceeding with additional steps. 
+The Sync-ProjectWorkspace201x.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can use the ExportWorkspaceItemsByDisplayName201x.sql script to retrieve this.) [Confirm that the queue jobs have completed](./manage-queue-jobs-project-server-2013.md) before proceeding with additional steps. 
 
 ## Step 7 - Open the resources calendar and clear out the exception reason for the user
 <a name="Calendar"> </a>
@@ -559,7 +559,7 @@ Project Server only keeps a single version of the following archived items:
 - Enterprise Custom Fields
 - Enterprise Global
 
-Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
+Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
 ## Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance
 <a name="step6"> </a>

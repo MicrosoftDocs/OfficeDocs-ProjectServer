@@ -69,5 +69,4 @@ Because Project Server 2013 coexists with SharePoint Server 2013, it generates a
 [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md)
 #### 
 
-[Typical Datasets (Project Server 2013)](https://technet.microsoft.com/library/e2a0a4b6-0bda-468e-aeca-00f2807bf644.aspx)
-
+[Typical Datasets (Project Server 2013)](./project-server-2013-and-2016.md)

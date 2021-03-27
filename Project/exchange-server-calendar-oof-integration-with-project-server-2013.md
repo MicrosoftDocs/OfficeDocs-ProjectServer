@@ -74,7 +74,7 @@ You can adjust the Exchange sync timer job. By default, it will run once per day
     
 5. You must locate the **Project Web App: Exchange Calendar Out of Office synchronization job for [PWA URL]** timer job, where _[PWA-URL]_ is the URL of the PWA site you've enabled the feature on. Click this timer job link.
     
-6. On the Edit Timer Job page, you can make the changes that you must have, such as running the job at a time other than the early morning hours, or changing to be more frequent, such as hourly. For more information on timer jobs, see [Timer job reference](https://technet.microsoft.com/library/b23e4fb4-6ee1-451e-92b3-7c90be5dc7e7.aspx).
+6. On the Edit Timer Job page, you can make the changes that you must have, such as running the job at a time other than the early morning hours, or changing to be more frequent, such as hourly. For more information on timer jobs, see [Timer job reference](/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016).
     
 ## Effect of OOF integration for users and project managers
 
@@ -99,5 +99,3 @@ From the Project Manager's perspective, no work has to be done. Users who submit
 - Time data is imported from Exchange Server at 15-minute intervals and aggregated to determine the total effect that the imported OOF time should have on the resource calendar. If the total out-of-office hours for a given day are less than four hours, then the out-of-office time is not reflected on Resource calendars. Amounts of four hours or more will be reflected.
     
 - As both a user's Exchange Server and Project Server resource calendars have working hours and non-working hours defined. Therefore, out of hours from the Exchange Server calendar that are within the Exchange Server working time period will count toward the number of hours taken from working time in Project Server. If the whole day is defined as non-working in Exchange Server, the whole day will also be specified as non-working in Project Server.
-    
-

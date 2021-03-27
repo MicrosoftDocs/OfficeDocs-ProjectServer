@@ -28,7 +28,7 @@ Once a Project Web App site has been shared with an external user, the user can 
 You can create and manage resources with a **Project Plan 3 or Project Plan 5** license.
   
 > [!NOTE]
-> For more information about Project Online license considerations for external users, see the [Project Online Service Description](https://go.microsoft.com/fwlink/?linkid=866192). 
+> For more information about Project Online license considerations for external users, see the [Project Online Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description). 
   
 Managing licenses and permissions for external users is the same as for internal users. (To find the external users in your user list, look for users with **#EXT#** in the user name.) 
   
@@ -38,7 +38,7 @@ There are two options for sharing your Project Web App site in Project Online. Y
   
  **Pre-populating your directory**
   
-You can pre-populate your Office 365 directory with external users, such as by using [Azure Active Directory B2B collaboration](https://azure.microsoft.com/documentation/articles/active-directory-b2b-collaboration-overview/) or by adding users manually and changing the user type to Guest. There are several advantages to doing this: 
+You can pre-populate your Office 365 directory with external users, such as by using [Azure Active Directory B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) or by adding users manually and changing the user type to Guest. There are several advantages to doing this: 
   
 - When you configure sharing for your Project Web App site, you can choose the **Allow sharing only with the external users that already exist in your organizations's directory** option. This gives you a greater level of control over sharing the site by limiting the scope of who can be invited to the site. 
     
@@ -81,5 +81,3 @@ Use the following procedure to configure sharing for your Project Web App site i
 4. Click **Save**.
     
 Once you've configured the sharing options for your Project Web App site and added users to your Office 365 directory if needed, you can invite external users to the site by using the **Share** button on the site in the same way that you would invite internal users. 
-  
-

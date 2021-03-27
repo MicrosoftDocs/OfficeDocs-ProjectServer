@@ -31,7 +31,7 @@ Note the following requirements for upgrading to Project Server 2019:
 -  You can only upgrade from Project Server 2016. If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019.
 
     > [!NOTE]
-    > For information about upgrading to Project Server 2019 from Project Server 2013, see [Upgrade from SharePoint 2013 to SharePoint Server 2019](https://docs.microsoft.com/SharePoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019). 
+    > For information about upgrading to Project Server 2019 from Project Server 2013, see [Upgrade from SharePoint 2013 to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019). 
 
 -  The upgrade process requires you to run Microsoft PowerShell cmdlets in the SharePoint Server 2019 Management Shell. Verify that you have the following minimum permissions to run them:
 
@@ -45,7 +45,7 @@ Note the following requirements for upgrading to Project Server 2019:
 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
 
-    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps)
+    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps)
 
 
 - If you are migrating your Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019:
@@ -104,7 +104,7 @@ You can use SQL Server Management Studio to copy and restore the databases.
 
 The third step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 farm. 
 
-You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
+You will need to run the [Mount -SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
 
 1. Open the SharePoint 2019 Management Shell as an Administrator.
 
@@ -119,7 +119,7 @@ You will need to run the [Mount -SPContentDatabase](https://docs.microsoft.com/p
 ### Test your content database
 <a name="test"> </a>
 
-The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](https://docs.microsoft.com/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 environment. This cmdlet will not update your data in anyway.
+The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 environment. This cmdlet will not update your data in anyway.
 
 1. Open the SharePoint 2019 Management Shell as an Administrator.
 
@@ -188,6 +188,4 @@ The following tags in **category:Engagements (PWA)** may have useful information
 
 - tag_a1khh
 
-- tag_a2ifo 
-
-
+- tag_a2ifo

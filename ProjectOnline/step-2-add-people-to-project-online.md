@@ -53,7 +53,7 @@ For the full list of permissions available with Project Online, see [Plan ShareP
    
 |||
 |:-----|:-----|
-|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**To more easily manage people in Project Online, create a security group for each of the roles you need:** <br/> 1. Choose **Groups \> Groups** from the left menu on the Microsoft 365 Admin Center. <br/> 2. At the top of the list of groups, choose **+ Add a group**.<br/> 3. For type, choose **Security group**. There are other group types in Office 365, but this is the one that can most easily manage your Project Online users. For more information on different types of groups, see [Compare groups](https://go.microsoft.com/fwlink/?linkid=2006514).<br/>4. Type a name for your group. It might be easiest to pick a name that refers to the permission level. For an organization named Contoso, you could name your group "Contoso admins" or "Contoso team members".<br/>5. Choose **Add**. |
+|![Arrow](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**To more easily manage people in Project Online, create a security group for each of the roles you need:** <br/> 1. Choose **Groups \> Groups** from the left menu on the Microsoft 365 Admin Center. <br/> 2. At the top of the list of groups, choose **+ Add a group**.<br/> 3. For type, choose **Security group**. There are other group types in Office 365, but this is the one that can most easily manage your Project Online users. For more information on different types of groups, see [Compare groups](/microsoft-365/admin/create-groups/compare-groups).<br/>4. Type a name for your group. It might be easiest to pick a name that refers to the permission level. For an organization named Contoso, you could name your group "Contoso admins" or "Contoso team members".<br/>5. Choose **Add**. |
    
 |||
 |:-----|:-----|
@@ -106,5 +106,3 @@ Next, learn about [Step 3: Set up shop in Project Online](step-3-set-up-shop-in-
 ||
 |:-----|
 |[Top of Page](step-1-sign-up-for-project-online.md#__top)|
-   
-

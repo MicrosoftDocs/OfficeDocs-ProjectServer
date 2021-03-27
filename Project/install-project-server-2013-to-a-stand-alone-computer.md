@@ -90,7 +90,7 @@ Once SharePoint Server 2013 is installed, the next step is to install Project Se
 
 #### 
 
-[Install SharePoint 2013 on a single server with a built-in database](https://technet.microsoft.com/library/mt493261(v=office.16).aspx)
+[Install SharePoint 2013 on a single server with a built-in database](/SharePoint/install/single-server-with-a-built-in-database)
   
 [Deploy Project Server 2013 to a server farm environment](deploy-project-server-2013-to-a-server-farm-environment.md)
 

@@ -59,8 +59,8 @@ Since upgrading to Project Server 2016 from Project Server 2013 is the only supp
 |Project Server 2007  <br/> |1.Upgrade to Project Server 2010 <br/> 2.Upgrade to Project Server 2013 <br/> 3.Upgrade to Project Server 2016 <br/>|
 
 For more informations:<br/>
-[Upgrade to Project Server 2010](https://go.microsoft.com/fwlink/?LinkId=747042) <br/> 
-[Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/?LinkId=747043) <br/> 
+[Upgrade to Project Server 2010](/previous-versions/office/project-server-2010/gg502590(v=office.14)) <br/> 
+[Upgrade to Project Server 2013](./upgrade-to-project-server-2016.md) <br/> 
 [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> 
    
 ## Upgrading multiple Project Web App sites
@@ -76,4 +76,3 @@ In the following example, Contoso is using Project Server 2013 and has three PWA
 | <https://contoso/sites/PWA_A>  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
 | <https://contoso/sites/PWA_B>  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
 | <https://contoso/sites/PWA_C>  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |
-

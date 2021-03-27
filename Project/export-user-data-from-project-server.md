@@ -332,13 +332,13 @@ ExportArchievdData201x.sql will return the following data that is stored in the 
 |Archived items - Resource custom fields|[Resource - custom fields](https://support.office.com/article/ce5faeae-9af4-4696-b847-a1f4f20327c7#rescustfields)|
 
 Archived Project Data: To export archived projects:
-1.  [Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207304(v%3doffice.14)))
-2.  [Restore the archived version](https://docs.microsoft.com/project/restore-item-level-objects-through-administrative-restore-project-server-2013). ([2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/dd207306(v%3doffice.14)))
+1.  [Archive the current project](./back-up-item-level-objects-through-administrative-backup-project-server-2013.md). ([2010](/previous-versions/office/project-server-2010/dd207304(v%3doffice.14)))
+2.  [Restore the archived version](./restore-item-level-objects-through-administrative-restore-project-server-2013.md). ([2010](/previous-versions/office/project-server-2010/dd207306(v%3doffice.14)))
 3.  Export the user related data.
 4.  Restore the project from archive.
 
 Archived Non-Project Data: 
-1.  Use [SharePoint backup and recovery](https://docs.microsoft.com/sharepoint/administration/backup-and-recovery-overview) ([2010](https://technet.microsoft.com/library/ee662536(v=office.14).aspx)) to create a clone of the current farm.
+1.  Use [SharePoint backup and recovery](/sharepoint/administration/backup-and-recovery-overview) ([2010](/previous-versions/office/sharepoint-server-2010/ee662536(v=office.14))) to create a clone of the current farm.
 2.  Restore the archived items from Administrative backup and restore (see previous procedure).
 3.  Export the user related data.
 

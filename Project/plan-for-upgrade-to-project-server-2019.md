@@ -38,7 +38,7 @@ If you are planning to upgrade to Project Server 2019, it is important to know t
   
 - **You can only upgrade to Project Server 2019 through Project Server 2016** If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 first in order to upgrade to Project Server 2019. 
 
-- **There is no direct upgrade path from Project Server 2013 to Project Server 2019.**  For additional information about how to upgrade from Project Server 2013 to 2019 Public Preview, see [High Level Overview to upgrade SharePoint 2013 to SharePoint Server 2019](https://docs.microsoft.com/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019)
+- **There is no direct upgrade path from Project Server 2013 to Project Server 2019.**  For additional information about how to upgrade from Project Server 2013 to 2019 Public Preview, see [High Level Overview to upgrade SharePoint 2013 to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019)
 
     
 - **No in-place upgrade** You must first create a Project Server 2019 installation, and then attach and upgrade your Project Server 2016 databases to the new farm. In-place upgrade is not supported.
@@ -58,7 +58,7 @@ Since upgrading to Project Server 2019 from Project Server 2016 is the only supp
 
 
 For more informations:<br/>
-[Upgrade to Project Server 2013](https://go.microsoft.com/fwlink/?LinkId=747043) <br/> 
+[Upgrade to Project Server 2013](./upgrade-to-project-server-2016.md) <br/> 
 [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> 
    
 ## Upgrading multiple Project Web App sites
@@ -74,4 +74,3 @@ In the following example, Contoso is using Project Server 2016 and has three PWA
 | <https://contoso/sites/PWA_A>  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
 | <https://contoso/sites/PWA_B>  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
 | <https://contoso/sites/PWA_C>  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |
-
