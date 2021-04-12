@@ -613,7 +613,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 </tbody>
 </table>
 
-> **Note:** See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files.
+> **Note:** See the [Project XML Data Interchange Scheme Reference](/office-project/xml-data-interchange/project-xml-data-interchange-schema-reference) to understand the Project XML data contained in these files.
 >
 > - An .mpp file for the project from the draft and published databases:
 
@@ -756,9 +756,9 @@ Step 7 - Archived items
 
 Archived Project Data: To export archived projects:
 
-1.  [Archive the current project](https://docs.microsoft.com/project/back-up-item-level-objects-through-administrative-backup-project-server-2013).
+1.  [Archive the current project](./back-up-item-level-objects-through-administrative-backup-project-server-2013.md).
 
-2.  [Restore the archived version](https://docs.microsoft.com/project/restore-item-level-objects-through-administrative-restore-project-server-2013).
+2.  [Restore the archived version](./restore-item-level-objects-through-administrative-restore-project-server-2013.md).
 
 3.  Export the user related data.
 
@@ -766,7 +766,7 @@ Archived Project Data: To export archived projects:
 
 Archived Non-Project Data:
 
-1.  Use [SharePoint backup and recovery](https://docs.microsoft.com/sharepoint/administration/backup-and-recovery-overview) to create a clone of the current farm.
+1.  Use [SharePoint backup and recovery](/sharepoint/administration/backup-and-recovery-overview) to create a clone of the current farm.
 
 2.  Restore the archived items from Administrative backup and restore (see previous procedure).
 

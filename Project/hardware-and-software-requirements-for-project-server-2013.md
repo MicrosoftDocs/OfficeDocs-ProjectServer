@@ -59,7 +59,7 @@ When you plan for the hardware that is required for a Project Server 2013 deploy
 This section specifies the hardware requirements for a Project Server 2013 deployment based on the datasets defined in [How datasets affect performance and capacity in Project Server 2013](how-datasets-affect-performance-and-capacity-in-project-server-2013.md).
   
 > [!NOTE]
-> The minimum hardware requirements in this section are recommended in which only the required services to run Project Server 2013 are enabled. Be aware that enabling additional SharePoint Server 2013 features in the farm may require more resources. For more information about hardware and software requirements for SharePoint Server 2013, see [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx). 
+> The minimum hardware requirements in this section are recommended in which only the required services to run Project Server 2013 are enabled. Be aware that enabling additional SharePoint Server 2013 features in the farm may require more resources. For more information about hardware and software requirements for SharePoint Server 2013, see [Hardware and software requirements for SharePoint 2013](/SharePoint/install/hardware-and-software-requirements). 
   
 ### Small dataset hardware recommendations for Project Server 2013
 
@@ -250,14 +250,14 @@ In addition to these server roles, Project Server 2013 also requires that Micros
 > Both the server roles and Microsoft PowerShell are configured automatically by the SharePoint Server 2013 prerequisite installation tool if they are not already enabled. 
   
 > [!NOTE]
-> For more information about Windows Server 2008 R2, see the [Windows Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx) on Microsoft TechNet.
+> For more information about Windows Server 2008 R2, see the [Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349801(v=ws.10)) on Microsoft TechNet.
   
 ### SharePoint Server 2013
 
 Project Server 2013 runs as a SharePoint Server 2013 service application. Therefore, SharePoint Server 2013 Enterprise is a prerequisite for Project Server 2013 installation. Prior versions of SharePoint Server and SharePoint Foundation 2013 are not supported. 
   
 > [!NOTE]
-> For more information about SharePoint Server 2013 hardware and software requirements, see [Hardware and software requirements (SharePoint 2013)](https://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx). 
+> For more information about SharePoint Server 2013 hardware and software requirements, see [Hardware and software requirements (SharePoint 2013)](/SharePoint/install/hardware-and-software-requirements). 
   
 ### Requirements for the database server (SQL Server)
 
@@ -286,8 +286,8 @@ If you plan to upgrade from a Project Server 2010 environment, be aware that Pro
   
 > [!NOTE]
 >  For more information about SQL Server, see the following Microsoft TechNet Home pages:
-> - [SQL Server 2008 R2](https://technet.microsoft.com/library/dd349801(v=ws.10).aspx)
-> - [SQL Server 2012](https://technet.microsoft.com/library/hh231622(v=sql.110).aspx)
+> - [SQL Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349801(v=ws.10))
+> - [SQL Server 2012](/previous-versions/sql/sql-server-2012/hh231622(v=sql.110))
   
 ### Software requirements for Project Server 2013 feature usage
 
@@ -297,7 +297,7 @@ The following table describes software requirements for use of specific Project 
 |:-----|:-----|:-----|
 |My Tasks (task synchronization with Exchange Server 2013, Project Server 2013, and SharePoint Server 2013)  <br/> | Server requirements: Exchange Server 2013 <br/>  Desktop requirements (supported Outlook versions): <br/>  Outlook 2013 <br/>  Outlook 2010 <br/>  Microsoft Office Outlook 2007 <br/>  Microsoft Office Outlook 2003 <br/>  Mobile requirements (supported mobile operating system versions): <br/>  Windows Phone 7.5 or newer <br/>  iApple: OS 5 or newer <br/>  Android 2.3 or newer <br/> |The Work Management Application service must be enabled.  <br/> Exchange Server 2013 and SharePoint Server 2013 have to be on the same domain together with the Auto Discover server configured and functional.  <br/> IMPORTANT - For Exchange Server 2013 integration with Project Server 2013, hybrid deployment is not supported. Exchange Server 2013 must be integrated either in an on-premises environment or online. An on-premises integration of Exchange Server 2013 will not support Project Online users.           |
 |Active Directory Synchronization (Resources and security groups)  <br/> | The domain controller must be one of the following operating systems: <br/>  Windows Server 2012 R2 <br/>  Windows Server 2012 <br/>  Windows Server 2008 R2 <br/>  Windows Server 2008 <br/>  Windows Server 2003 <br/> ||
-|Reporting  <br/> | On premises (supported versions): <br/>  Excel 2013 <br/>  Excel 2010 <br/>  Project Online: <br/>  Excel 2013 only <br/> |Reporting through the OData service (for both Project Server 2013 on-premises and Project Online) requires Excel 2013.  <br/> For more information about Reporting in Project Server 2013, see [Plan reporting and business intelligence in Project Web App](plan-reporting-and-business-intelligence-in-project-web-app.md).  <br/> For more information about software requirements for using business intelligence for your reports, see [Software Requirements for business intelligence](https://technet.microsoft.com/library/6824b3bf-9046-4d43-b266-de463d0007e5.aspx).  <br/> |
+|Reporting  <br/> | On premises (supported versions): <br/>  Excel 2013 <br/>  Excel 2010 <br/>  Project Online: <br/>  Excel 2013 only <br/> |Reporting through the OData service (for both Project Server 2013 on-premises and Project Online) requires Excel 2013.  <br/> For more information about Reporting in Project Server 2013, see [Plan reporting and business intelligence in Project Web App](plan-reporting-and-business-intelligence-in-project-web-app.md).  <br/> For more information about software requirements for using business intelligence for your reports, see [Software Requirements for business intelligence](/SharePoint/administration/software-requirements-for-business-intelligence).  <br/> |
 |Lync presence in Project Web App or Project Professional  <br/> | One of the following: <br/>  Lync 2013 with Internet Explorer 10, Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), or Google Chrome (latest released version). <br/>  Lync 2010 with Internet Explorer 10, Internet Explorer 9 or Internet Explorer 8. <br/>  Internet Explorer 9, Internet Explorer 8, Mozilla Firefox (latest released version), and Google Chrome (latest released version) with any Office 2013 application will provide the user a contact card, but no Skype for Business presence. <br/> NOTE - Skype for Business presence and contact card do not work in the new Internet Explorer interface in Windows 8.x, but do work on the traditional Desktop Internet Explorer 10.          ||
 |Workflow editing  <br/> | Requires both of the following: <br/>  SharePoint Designer 2013 <br/>  Microsoft Visio 2013 <br/> ||
    
@@ -346,7 +346,7 @@ Project Professional 2013 has the following installation requirements:
 |Visual Reports requirements  <br/> | Office Excel 2007, Excel 2010, or Excel 2013 <br/>  Office Visio 2007, Visio 2010, or Visio 2013 <br/> |
    
 > [!NOTE]
-> For more information about Project Professional 2013 requirements, see [Microsoft Project Professional 2013](https://technet.microsoft.com/library/399026a3-007c-405a-a377-da7b0f7bf9de.aspx#section12). 
+> For more information about Project Professional 2013 requirements, see [Microsoft Project Professional 2013](/previous-versions/office/office-2013-resource-kit/ee624351(v=office.15)#section12). 
   
 ### Project for Office 365 requirements
 
@@ -367,7 +367,7 @@ For Project Web App in Project Server 2013, you can use any of the following sup
 - Google Chrome (latest released version)
    
 > [!IMPORTANT]
-> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](https://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx). 
+> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](/SharePoint/install/browser-support-planning-0). 
   
 > [!NOTE]
 > Project Web App in Office 365 requires the same supported browsers. 
@@ -375,12 +375,11 @@ For Project Web App in Project Server 2013, you can use any of the following sup
 ## Project Server 2013 with the Azure platform
 <a name="section8"> </a>
 
-You can install Project Server 2013 and SharePoint Server 2013 on the Azure platform. For more information, see [SharePoint on Azure Infrastructure Services](https://go.microsoft.com/fwlink/p/?LinkId=780782&amp;clcid=0x409) in the Azure library.
+You can install Project Server 2013 and SharePoint Server 2013 on the Azure platform. For more information, see [SharePoint on Azure Infrastructure Services](/previous-versions/azure/dn275955(v=azure.100)) in the Azure library.
   
 ## See also
 <a name="section8"> </a>
 
 #### 
 
-[Support and licensing for Azure in SharePoint 2013](https://technet.microsoft.com/library/1157a2c0-133d-45fa-b0bf-14015fb00885.aspx)
-
+[Support and licensing for Azure in SharePoint 2013](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)

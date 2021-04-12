@@ -23,7 +23,7 @@ This series of articles describes the steps necessary to install Project Server 
   
 Deploying Project Server 2016 consists of the following steps:
   
-1. **[Install SharePoint Servers 2016 or 2019 ](https://docs.microsoft.com/sharepoint/install/install-for-sharepoint-server-2019)** - Project Server 2016 is part of SharePoint Server 2016 or 2019 Public Preview Enterprise Edition. Before you can configure Project Server 2016, you must install SharePoint Servers 2016 or 2019 Public Preview.
+1. **[Install SharePoint Servers 2016 or 2019 ](/sharepoint/install/install-for-sharepoint-server-2019)** - Project Server 2016 is part of SharePoint Server 2016 or 2019 Public Preview Enterprise Edition. Before you can configure Project Server 2016, you must install SharePoint Servers 2016 or 2019 Public Preview.
     
 2. **[Configure Project Servers 2016 or 2019](install-and-configure-project-server-2016.md)** - Unlike prior versions of Project Server, Project Servers 2016 or 2019 does not require a separate install from SharePoint Servers 2016 or 2019. Once you have installed SharePoint Server, you can configure Project Servers 2016 or 2019.
     

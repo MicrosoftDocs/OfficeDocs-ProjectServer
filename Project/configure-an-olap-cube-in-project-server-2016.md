@@ -53,7 +53,7 @@ Perform the following procedure to configure the dimensions and measures of an e
 |**Cube Measures** <br/> | Use the Cube measures area to specify the custom fields that you want to add to the OLAP cube as measures. <br/>  Select a cube from the drop-down list to display the available and selected measures. <br/>  Choose the measures that you want to include in that cube in the **Available fields** list and click **Add** to include them in the cube. Do this for each cube in the **Cube** drop-down list. <br/> |
 |**Built-in Measures** <br/> |Select the built-in measures that you want to include in the cube.  <br/> The fields that you select are added to the Project, Task, and Assignment cubes as measures.  <br/> |
 |**Inactive Tasks** <br/> |If you want the cube to include inactive tasks, select the **Include Inactive Tasks** check box. <br/> |
-|**Calculated Measures** <br/> |Select the cube that you want to define an expression for from the **Cube** drop-down list, and then click **Insert** to add a custom MDX expression. <br/> For more information about MDX expressions, see [Multidimensional Expressions (MDX) Reference](https://go.microsoft.com/fwlink/p/?LinkID=186166) (https://go.microsoft.com/fwlink/p/?LinkID=186166). <br/> |
+|**Calculated Measures** <br/> |Select the cube that you want to define an expression for from the **Cube** drop-down list, and then click **Insert** to add a custom MDX expression. <br/> For more information about MDX expressions, see [Multidimensional Expressions (MDX) Reference](/sql/mdx/multidimensional-expressions-mdx-reference) (https://go.microsoft.com/fwlink/p/?LinkID=186166). <br/> |
    
 7. Click **Save**.
     
@@ -101,4 +101,3 @@ Perform the following procedure to configure the build settings of an existing O
 [Delete OLAP cubes in Project Server 2016](delete-olap-cubes-in-project-server-2016.md)
   
 [Build OLAP cubes in Project Server 2016](build-olap-cubes-in-project-server-2016.md)
-

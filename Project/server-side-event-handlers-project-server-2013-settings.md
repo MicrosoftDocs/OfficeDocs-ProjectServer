@@ -25,7 +25,7 @@ The **Server Side Event Handler** settings are available through the Project Ser
 
 Project Server 2013 provides public events that enable development of custom processes such as adding and enforcing business rules, validation, data processing, notification services, and workflow. These custom processes are written as server-side event handlers by developers in an organization and can be associated to Project Server 2013 events through the Server Side Event Handlers page in Project Web App Server Settings. For example, developers in your organization can create an event handler that starts a custom workflow. Through the Server Side Event Handlers page, you can associate that event handler with the Project Published event so that a workflow starts when the event occurs.
 
-For more information about Project Server event handlers, see the MSDN article, [How to: Create a Project Server Event Handler and Log an Event](https://msdn.microsoft.com/library/gg615466.aspx)
+For more information about Project Server event handlers, see the MSDN article, [How to: Create a Project Server Event Handler and Log an Event](/previous-versions/office/developer/office-2010/gg615466(v=office.14))
 
 ### To associate an event handler with a server-side event
 
@@ -62,5 +62,3 @@ For more information about Project Server event handlers, see the MSDN article, 
 13. In the **Endpoint URL** field, enter the Windows Communication Foundation (WCF) Endpoint URL. If you are adding a legacy on-premises event handler, you can leave this field blank.
 
 14. Click **Save**.
-
-

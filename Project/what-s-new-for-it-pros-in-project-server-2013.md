@@ -54,7 +54,7 @@ This article provides a brief overview of new and significantly updated function
 - [Project Server 2013 upgrade changes](#section17)
 
 > [!NOTE]
-> Project Server 2013 is built on SharePoint Server 2013, so Project Server users should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2013, see [Explore SharePoint 2013](https://technet.microsoft.com/library/1a20e357-a21f-4409-9a99-6b8263ab30c5.aspx). 
+> Project Server 2013 is built on SharePoint Server 2013, so Project Server users should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2013, see [Explore SharePoint 2013](/SharePoint/what-s-new/what-s-new). 
 
 ## Project Online in Office 365
 <a name="section1"> </a>
@@ -85,14 +85,14 @@ At a high-level, some key architecture changes for Project Server 2013 include t
 
 - **Azure Workflow**: Declarative workflows (workflows that are defined in SharePoint Designer 2013) are offloaded to Azure Workflow for processing. Azure Workflow can run on a separate server in the SharePoint farm, on Azure in the cloud, or on a single Project Server computer for testing or demonstrations. Coded workflows that are developed with Visual Studio 11 Beta are processed in the workflow runtime within SharePoint Server, as in Project Server 2010.
 
-- **OData services for reporting**: Project Online users and users of Project Server 2013 on-premises can both access their reports through the OData service. Open Data (OData) is an industry standard web protocol used to access data from external systems. The OData service internally runs SQL queries on the Reporting tables and views. This is especially helpful for Project Online users, because the Project Web App database cannot be directly accessed in Azure. Project Server 2013 users will still be able to directly access the Reporting table and views through SQL Server in order to create reports. For more information, see[Introducing OData: Data Access for the web, the cloud, mobile devices and more](https://go.microsoft.com/fwlink/p/?LinkId=780783&amp;clcid=0x409) in the MSDN Library.
+- **OData services for reporting**: Project Online users and users of Project Server 2013 on-premises can both access their reports through the OData service. Open Data (OData) is an industry standard web protocol used to access data from external systems. The OData service internally runs SQL queries on the Reporting tables and views. This is especially helpful for Project Online users, because the Project Web App database cannot be directly accessed in Azure. Project Server 2013 users will still be able to directly access the Reporting table and views through SQL Server in order to create reports. For more information, see[Introducing OData: Data Access for the web, the cloud, mobile devices and more](/dotnet/framework/wcf/) in the MSDN Library.
 
 - **Project Server Queuing system**: In Project Server 2013, timesheet jobs do not use the queue system (no Timesheets queue). All sites served by the same application service share the same queue service. Several key changes have greatly improved queue performances. When a job is posted to the queue table, the system will be notified that a job is available, instead of periodically having to poll for queue jobs.
 
 - **Azure cloud services for Project Online**: For Project Online users in Office 365, data is stored in the Azure cloud services operating system.
 
     > [!NOTE]
-    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](https://msdn.microsoft.com/library/office/ee767687.aspx). 
+    > For more information about Project Server 2013 architecture, see [Project Server 2013 architecture overview](/office/client-developer/project/project-server-2013-architecture). 
 
 ## Multi-tenancy support
 <a name="section3"> </a>
@@ -164,7 +164,7 @@ Mobile features are used primarily by two types of Project Server users:
 
 Team members are also able to edit and submit task status through the Microsoft Exchange client on their telephones. Task synchronization between Exchange Server and SharePoint Server 2013 (the My Tasks page) is done through the Work Management Service.
 
-For information about mobile availability in SharePoint Server 2013, [What's new in mobile devices (SharePoint 2013)](https://technet.microsoft.com/library/64d0b7b1-0b1d-43f3-88b0-7a15055f2a90.aspx).
+For information about mobile availability in SharePoint Server 2013, [What's new in mobile devices (SharePoint 2013)](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016).
 
 ## Demand Management improvements
 <a name="section7"> </a>
@@ -205,7 +205,7 @@ An additional change to reporting in Project Server 2013 is that Basic Power Piv
 > [!NOTE]
 > For Project Server 2016, reports can be designed and viewed only in the Excel client. 
 
-For information about how to configure reporting in SharePoint Server 2013, see [Configure reporting for Project Web App (Project Server 2013)](https://technet.microsoft.com/library/1882695e-50f4-4bc7-9f15-18365f96caf5.aspx).
+For information about how to configure reporting in SharePoint Server 2013, see [Configure reporting for Project Web App (Project Server 2013)](./configure-reporting-for-project-web-app-project-server-2013.md).
 
 ## Improvements in Exchange integration with Project Server
 <a name="section9"> </a>
@@ -223,7 +223,7 @@ Project Server 2013 with Exchange Server 2013 provides the following:
 - Task synchronization with SharePoint and Outlook tasks.
 
 > [!NOTE]
-> For more information about configuring task synchronization, see [Configure Exchange task synchronization in SharePoint Server 2013](https://technet.microsoft.com/library/2a83671c-29c5-41af-a15c-54a573a05d99.aspx). 
+> For more information about configuring task synchronization, see [Configure Exchange task synchronization in SharePoint Server 2013](/SharePoint/administration/configure-exchange-task-synchronization). 
 
 ### Exchange calendar out-of-office integration
 
@@ -441,10 +441,8 @@ The following are important things to note for upgrading to Project Server 2013:
 
 - Backwards compatibility is not supported for Project Server 2013. If you want to connect to Project Server 2013 with a Project client, Project Professional 2013 is required. Project Professional 2010 does not connect to Project Server 2013.
 
-- There is no direct upgrade path from Project Server 2007 to Project Server 2013. You must first upgrade to Project Server 2010 before upgrading your data to Project Server 2013. For information about how to upgrade from Project Server 2007 to Project Server 2010, see the [Project Server 2010 Upgrade Overview](https://go.microsoft.com/fwlink/?LinkId=780784) on Microsoft TechNet.
+- There is no direct upgrade path from Project Server 2007 to Project Server 2013. You must first upgrade to Project Server 2010 before upgrading your data to Project Server 2013. For information about how to upgrade from Project Server 2007 to Project Server 2010, see the [Project Server 2010 Upgrade Overview](/previous-versions/office/project-server-2010/ee662496(v=office.14)) on Microsoft TechNet.
 
 - Because in-place upgrade is not supported, you must plan to have a Project Server 2013 environment to which you can migrate your Project Server 2010 data. 
 
 For information about how to upgrade to Project Server 2013, see [Upgrade to Project Server 2016](upgrade-to-project-server-2016.md).
-
-

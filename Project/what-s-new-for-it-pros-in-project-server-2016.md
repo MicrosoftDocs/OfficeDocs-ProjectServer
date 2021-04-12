@@ -67,7 +67,7 @@ One of the biggest changes in Project Server 2016 is the installation process. T
 For more detailed information about deploying Project Server 2016, see [Deploy Project Server 2016](deploy-project-server-2016.md).
   
 > [!NOTE]
-> Project Server 2016 runs as a service application in SharePoint Server 2016, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2016, see [New and improved features in SharePoint Server 2016](https://technet.microsoft.com/library/e81557fb-5046-4a67-8ec8-fdfda648af68.aspx). 
+> Project Server 2016 runs as a service application in SharePoint Server 2016, so Project Server administrators should read about its new features and functionality. For information about new features and functionality in SharePoint Server 2016, see [New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016). 
   
 ## Base installation languages and language packs
 <a name="Lang"> </a>
@@ -113,7 +113,7 @@ Since Project Server 2016 does not provide a matching language for all available
 |Welsh  <br/> |English  <br/> |
    
 > [!NOTE]
-> For more information about Project Online supported languages, see [Supported languages for Project Online](https://go.microsoft.com/fwlink/p/?linkid=832115). 
+> For more information about Project Online supported languages, see [Supported languages for Project Online](/ProjectOnline/supported-languages-for-project-online). 
   
 ## Hardware and software requirements
 <a name="Req"> </a>
@@ -144,7 +144,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 > If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](https://technet.microsoft.com/library/4d88c402-24f2-449b-86a6-6e7afcfec0cd.aspx). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](https://technet.microsoft.com/library/ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86.aspx). 
+> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](/SharePoint/install/hardware-and-software-requirements). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](/SharePoint/install/browser-support-planning-0). 
   
 ## Upgrading to Project Server 2016
 <a name="Upgra"> </a>
@@ -213,4 +213,4 @@ In Project Server 2016, you can easily create a new project through the Get Star
 
 #### 
 
-[New and improved features in SharePoint Server 2016](https://technet.microsoft.com/library/e81557fb-5046-4a67-8ec8-fdfda648af68.aspx)
+[New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)

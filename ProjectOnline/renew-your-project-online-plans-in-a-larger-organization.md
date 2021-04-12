@@ -40,9 +40,9 @@ For the procedures in this article, you'll need to run scripts that will require
   
 - The 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
     
-- The 64-bit version of the [Windows Azure Active Directory Module for Windows PowerShell (64-bit version)](https://go.microsoft.com/fwlink/p/?linkid=236297).
+- The 64-bit version of the [Windows Azure Active Directory Module for Windows PowerShell (64-bit version)](/collaborate/connect-redirect?DownloadID=59185).
     
-For more information, see [Connect to Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=842804).
+For more information, see [Connect to Office 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
   
 After you complete your installation, open the Windows Azure Active Directory Module for Windows PowerShell on your desktop and type the following at the prompt:
   
@@ -57,7 +57,7 @@ This lets you to enter your credentials needed to connect to Office 365.
 
 As a first step, you need to know which Project Online licenses you have and which users they are assigned to. This will help you to determine which new Project Online licenses they will need.
   
-We suggest using the [Manage your Office 365 Licenses](https://go.microsoft.com/fwlink/p/?linkid=842805) script that you can download from the Microsoft Code Gallery. This script lets you create a comprehensive report of assign skus and enabled plans that prints out to a .CSV file. We can also use it for replacing your users assigned sku, which is described later in this article. 
+We suggest using the [Manage your Office 365 Licenses](/samples/browse/?redirectedfrom=TechNet-Gallery) script that you can download from the Microsoft Code Gallery. This script lets you create a comprehensive report of assign skus and enabled plans that prints out to a .CSV file. We can also use it for replacing your users assigned sku, which is described later in this article. 
   
 Make sure to run  *Get-Help*  on the script to get more information about usage and examples. 
   
@@ -120,7 +120,7 @@ Now that you know which Skus are assigned to specific users, you need to determi
   
 |**Resource**|**Description**|
 |:-----|:-----|
-|[Project Online Service Descriptions](https://go.microsoft.com/fwlink/p/?linkid=841280) <br/> |Use this article to get a detailed look into what each of the new Project Online plans provides you in terms of features and functionality.  <br/> |
+|[Project Online Service Descriptions](/office365/servicedescriptions/project-online-service-description/project-online-service-description) <br/> |Use this article to get a detailed look into what each of the new Project Online plans provides you in terms of features and functionality.  <br/> |
 |[Project Online plans and pricing](https://go.microsoft.com/fwlink/p/?linkid=842835) <br/> |Use this site to see pricing and a high-level comparison of Project cloud-based solutions.  <br/> |
    
 If you are looking to provide your users with similar functionality as they did in their retired Project Online SKU, this table gives you some general guidance, but look to the above resources for more detail:
@@ -201,5 +201,3 @@ If you have any issues in trying to move to your new Project Online skus, you ca
 <a name="step5"> </a>
 
 [Brian Smith's Project Support Blog: How to handle Project Online sku changes](https://go.microsoft.com/fwlink/p/?linkid=842803)
-  
-

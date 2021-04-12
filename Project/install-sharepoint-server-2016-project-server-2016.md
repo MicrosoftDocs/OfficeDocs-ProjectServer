@@ -26,7 +26,7 @@ Before you can configure Project Server 2016, you must [install SharePoint Serve
   
 If you have a SharePoint Server 2016 farm configured and you are ready to install Project Server 2016, proceed to the next article, [Install and configure Project Server 2016](install-and-configure-project-server-2016.md).
   
-See [Install and configure SharePoint Server 16 Preview](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc.aspx) for detailed information about deploying SharePoint Server 2016.
+See [Install and configure SharePoint Server 16 Preview](/SharePoint/install/install) for detailed information about deploying SharePoint Server 2016.
   
 When you have completed SharePoint Server 2016 deployment, proceed to [Install and configure Project Server 2016](install-and-configure-project-server-2016.md).
   
@@ -37,5 +37,3 @@ If you have additional questions, try the [Project forums](https://social.techne
 If you would like to provide feedback on this article, choose the **Yes** or **No** option for **Did you find this article helpful?** located at the end of this page, and then type your feedback in the box that appears.
   
 ![This feedback tool appears at the end of each Project Server library article on TechNet.](images/technetFeedbackBox.png)
-  
-

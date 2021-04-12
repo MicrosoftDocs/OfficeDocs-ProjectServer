@@ -21,7 +21,7 @@ description: "Summary: Configure Project Servers 2016 or 2019 on a SharePoint Se
   
 Project Server runs as a service application under SharePoint Server. It is included as part of the SharePoint Server 2016 or SharePoint Server 2019 Enterprise installation, though it is licensed separately. This article describes configuring Project Servers 2016 or 2019, including provisioning the Project Server Service Application. Project Servers 2016 or 2019 are only available on SharePoint Servers 2016 or 2019 Public Preview Enterprise.
   
-Be sure you have [installed SharePoint Server 2016 or 2019](https://docs.microsoft.com/sharepoint/install/install-for-sharepoint-server-2016) before starting the procedures in this article. Also, be sure that the State Service is running on your SharePoint farm.
+Be sure you have [installed SharePoint Server 2016 or 2019](/sharepoint/install/install-for-sharepoint-server-2016) before starting the procedures in this article. Also, be sure that the State Service is running on your SharePoint farm.
   
 ## Configure Project Servers 2016 or 2019
 
@@ -30,7 +30,7 @@ Project Servers 2016 and 2019 requires a license in order to operate, and you mu
 > [!NOTE]
 > To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
-If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](https://docs.microsoft.com/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.
+If you're not sure if Project Server 2016 or 2019 has already been enabled, use the [Get-ProjectServerLicense](/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.
   
 ### To activate Project Servers 2016 or 2019 
 
@@ -44,7 +44,7 @@ If you're not sure if Project Server 2016 or 2019 has already been enabled, use 
     
     •Local Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use Project Server cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use Project Server cmdlets. 
 
 
     
@@ -103,4 +103,3 @@ The next step is to determine how you want to deploy Project Web App. Go to the 
 #### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
-

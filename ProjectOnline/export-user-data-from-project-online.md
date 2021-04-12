@@ -66,12 +66,12 @@ All files contained in the zip file should now be Unblocked. You can verify this
 ## Step 2 - Find all Project Web App sites in your Office 365 environment
 <a name="BKMK_FindallPWAsitesthattheuserispartof"> </a>
 
-Global admins will need to use the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=867805) to connect to their SharePoint Online Admin Center and run the **[Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061)** PowerShell cmdlet to get a listing of URLs for each PWA site in their Office 365 environment. 
+Global admins will need to use the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=867805) to connect to their SharePoint Online Admin Center and run the **[Get-SPOSite](/powershell/module/sharepoint-online/get-sposite)** PowerShell cmdlet to get a listing of URLs for each PWA site in their Office 365 environment. 
   
 > [!NOTE]
 > To run the Get-SPOSite PowerShell cmdlet, you need to be either in a Global admin or SharePoint admin role. 
   
-1. In the SharePoint Online Management Shell module, connect to your SharePoint Online Admin Center with the **[Connect-SPOService](https://go.microsoft.com/fwlink/?linkid=873059)** cmdlet: 
+1. In the SharePoint Online Management Shell module, connect to your SharePoint Online Admin Center with the **[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)** cmdlet: 
     
   ```
   Connect-SPOService -URL <AdminSiteURL> 
@@ -83,7 +83,7 @@ Global admins will need to use the [SharePoint Online Management Shell](https://
   Connect-SPOService -URL https://contoso-admin.sharepoint.com 
   ```
 
-2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=873061) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
+2. After connecting to your SharePoint Online Admin Center, use the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) PowerShell cmdlet to find all PWA sites in your Office 365 environment: 
     
   ```
   Get-SPOSite | ?{$_.PWAEnabled -eq "Enabled"} | ft -a Url,Owner
@@ -197,7 +197,7 @@ After the script runs successfully, all exported data will be stored in the -Out
     
 ### Select specific feature-related user data files to export
 
-Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the Security.json file contains data about the user's security groups, categories, and permissions settings. These [feature-related json files](export-user-data-from-project-online.md#featurespecific) are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the ExportProjectUserContent script. However, you can use the **-Options** parameter to select specific json files to download. These include the following: 
+Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the Security.json file contains data about the user's security groups, categories, and permissions settings. These feature-related json files are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the ExportProjectUserContent script. However, you can use the **-Options** parameter to select specific json files to download. These include the following: 
   
 |**-Options values**|**Json files you receive**|
 |:-----|:-----|
@@ -330,7 +330,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 |\<projectName\>_published.xml  <br/> |The project file from the published schema saved as .xml format.  <br/> |
    
   > [!NOTE]
-  > See the [Project XML Data Interchange Scheme Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the Project XML data contained in these files. 
+  > See the [Project XML Data Interchange Scheme Reference](/office-project/xml-data-interchange/project-xml-data-interchange-schema-reference) to understand the Project XML data contained in these files. 
   
   **- An .mpp file for the project from the draft and published databases:**
     
@@ -399,5 +399,3 @@ Data for a user's favorite and recently viewed projects in Project Home can only
 [Project Online export json object definitions](project-online-and-project-server-export-data-definitions.md)
   
 [Delete user data from Project Online](delete-user-data-from-project-online.md)
-  
-

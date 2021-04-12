@@ -58,11 +58,9 @@ New Project Web App instances use the SharePoint permission mode by default. If 
   
 ## Changing Project Web App permission modes
 
-In an on-premises installation of Project Server, the permission mode can be changed for a given instance of Project Web App by using the **Set-SPProjectPermissionMode** Microsoft PowerShell cmdlet. For more information, see [Set-SPProjectPermissionMode](https://docs.microsoft.com/powershell/module/sharepoint-server/set-spprojectpermissionmode?view=sharepoint-ps).
+In an on-premises installation of Project Server, the permission mode can be changed for a given instance of Project Web App by using the **Set-SPProjectPermissionMode** Microsoft PowerShell cmdlet. For more information, see [Set-SPProjectPermissionMode](/powershell/module/sharepoint-server/set-spprojectpermissionmode?view=sharepoint-ps).
   
 In Project Online, the mode can be changed in the Microsoft Office 365 portal site. For more information, see [Change permission management in Project Online](https://go.microsoft.com/fwlink/p/?LinkId=264708).
   
 > [!CAUTION]
 > Switching between SharePoint permission mode and Project Server permission mode deletes all security-related settings. If you switch from SharePoint permission mode to classic Project Server permission mode, you have to manually configure your security permissions structure in Project Server. Switching from Project Server permission mode back to SharePoint permission mode deletes your security permissions information from Project Server. 
-  
-

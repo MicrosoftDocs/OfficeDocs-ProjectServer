@@ -33,6 +33,4 @@ The following articles about upgrading to Project Server 2019 are available to v
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server 2019](upgrading-to-project-server-2019.md) <br/> |Learn how to upgrade to Project Server 2019.  <br/> |
    
 > [!NOTE]
-> For information about upgrading to SharePoint Server 2019, see [Upgrade to SharePoint Server 2019](https://docs.microsoft.com/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-2019). 
-  
-
+> For information about upgrading to SharePoint Server 2019, see [Upgrade to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-2019). 

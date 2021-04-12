@@ -99,5 +99,4 @@ If you do not readily know what you are using, it can be easy to confuse Project
   
 [Project Online: software boundaries and limits](project-online-software-boundaries-and-limits.md)
   
-[Project Online Service Description](https://go.microsoft.com/fwlink/p/?linkid=829088)
-
+[Project Online Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description)
