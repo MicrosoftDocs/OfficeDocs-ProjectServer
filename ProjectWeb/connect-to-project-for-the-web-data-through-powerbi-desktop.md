@@ -33,23 +33,31 @@ To use the template, you need the following:
 ## Launch and configure the Power BI Desktop template file
 
 1. Click on the Project Power BI template file to open it in Power BI Desktop.
-2. On the **Enter Parameters** screen, in the **Dataverse URL** field, type the URL of your Dynamics 365 Dataverse instance you are using for Project for the web.<br/>
-3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
 
-![Parameters](media/MSPowerBIProject.png)
+2. On the **Enter Parameters** screen, in the **Dataverse URL** field, type the URL of your Dynamics 365 Dataverse instance you are using for Project for the web.
 
-4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
+3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.
 
-![Dataverse environment](media/OrgSignin.png)
+   ![Parameters](media/MSPowerBIProject.png)
 
-A message will display, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
+4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.
+
+    ![Dataverse environment](media/OrgSignin.png)
+
+A message will be displayed, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
 If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions by implementing the following steps:
+
 1. In the ribbon, select **Edit queries**, and then select **Data source settings**.
+
 2. Select **Global permissions**, select a data source URL, and then click the **Edit permissions** button at the bottom of the screen.
+
 3. On the **Edit permissions** screen, verify that **Privacy level** is set to **Organizational**.
+
 4. Also verify that for **Credentials**, the **Type** is set to **Organizational account**.  If it is not, click **Edit**, select **Organizational account** on the left pane, and log in with your credentials.  Click **Save**, and verify that the Credentials Type has changed.
+
 5. Do this for each of the remaining data source URLs, and then click **Close**.
+
 6. Try to load your data again.
  
 ![Data source settings](media/data-source-settings.png)
@@ -103,10 +111,12 @@ You can go to your Project Online PWA site home page to find the PWA site URL.
 You can get to your PWA site by implementing the following steps:
 
 1. In Office 365, click the Apps icon in the top left corner, and then in **Apps**, select **Project**.
+
 2. On your Project Home page, on the bottom of the page, click, **Go to Project Online**. This will take you to your PWA Home page.
+
 3. Copy the URL in your browser and use this value for the **PWA URL** field in the Project template.
 
-![Project Web App Site URL](media/PWASiteURL.png) 
+   ![Project Web App Site URL](media/PWASiteURL.png) 
 
 If you are still not sure, check with your Office 365 admin and have them check for the value in the SharePoint admin center.
 
@@ -128,8 +138,6 @@ After connecting to your data, the following key "out-of-the-box" reports are av
 ### Portfolio Dashboard
 
 The Portfolio Dashboard report gives you a roll-up of all projects, and lets you know the total number of projects, effort completed, and effort remaining. It lets you filter your project data by project progress or project manager.
-
-
 
 ![Portfolio Dashboard](media/portfolio-dashboard.png) 
 
