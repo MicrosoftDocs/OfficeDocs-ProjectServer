@@ -59,8 +59,9 @@ If you receive an error during the load process stating that access to a resourc
 5. Do this for each of the remaining data source URLs, and then click **Close**.
 
 6. Try to load your data again.
- 
-![Data source settings](media/data-source-settings.png)
+
+> [!div class="mx-imgBorder"]
+> ![Data source settings](media/data-source-settings.png)
 
 ### How to determine your Dataverse URL
 
