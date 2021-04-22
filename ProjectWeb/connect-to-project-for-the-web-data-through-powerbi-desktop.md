@@ -78,7 +78,7 @@ The Apps URL will give you the environment and region value.
 
 The region value will usually be associated to the data center that is close to you geographically. The following list shows the region values associated with regional data centers.
 
-|**Region** <br/> |**Value** <br/>|
+| Region <br/> | Value <br/>|
 |:-----|:-----|
 |North America   <br/> |crm <br/> |
 |South America <br/> |crm2  <br/> |
@@ -185,11 +185,3 @@ The My Timeline report lets team member see their personal timeline of work acro
 ## See also
 
 [Compose HTTP requests and handle errors](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors#web-api-url-and-versions)
-
-  
-
-
-
-
-
-
