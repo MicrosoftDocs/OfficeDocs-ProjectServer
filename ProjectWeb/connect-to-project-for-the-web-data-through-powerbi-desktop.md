@@ -16,13 +16,14 @@ localization_priority: Normal
 ---
 # Connect to Project data through Power BI Desktop
 
-You can use the Project Power BI template to import and analyze data from Project for the web and Project Online into Power BI. The template is designed to help you quickly connect to your Default Dataverse instance in Dynamics 365 where your Project for the web data is stored, as well as connect to your Project Web App tenant in Office 365.  You will be able to download a variety of data to visually explore and monitor all the key aspects of your PPM deployment. There are multiple visually rich report pages for the portfolio, resource, and project overview.
+You can use the Project Power BI template to import and analyze data from Project for the web and Project Online into Power BI. The template is designed to help you quickly connect to your Dataverse instance in Dynamics 365 where your Project for the web data is stored, as well as connect to your Project Web App tenant in Office 365.  You will be able to download a variety of data to visually explore and monitor all the key aspects of your PPM deployment. There are multiple visually rich report pages for the portfolio, resource, and project overview.
 
 ## Get started
+
 You first need to do the following:
 
 - Download [Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), then run the installer to get **Power BI Desktop** on your computer.
-- Download the [Project Power BI template](https://aka.ms/ProjectReports) to your computer. The file name of the template file is **Microsoft Project Power BI Template.pbit**.
+- Download the [Project Power BI template](https://aka.ms/ProjectReports) to your computer. The file name of the template file is **Microsoft Project Power BI Template.pbit** for the *consolidated report*; **Microsoft Project Online Power BI Template.pbit** for *Project Online report*; and **Microsoft Project for the Web Power BI Template.pbit** for *Project for the Web report pack*.
  
 To use the template, you need the following:
 
@@ -30,43 +31,55 @@ To use the template, you need the following:
 - A Power BI Desktop or Power Bi Pro subscription.
 
 ## Launch and configure the Power BI Desktop template file
+
 1. Click on the Project Power BI template file to open it in Power BI Desktop.
-2. On the **Enter Parameters** screen, in the **Default CDS URL** field, type the URL of your Dynamics 365 Dataverse default instance you are using for Project for the web.<br/>
-3. In the **PWA URL** field, type the URL of your Project Online Project Web App site.  For example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.<br/>
-![Parameters](media/MSPowerBIProject.png)
-4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.</br>
-![Default Dataverse environment](media/OrgSignin.png)
-5.  A message will display telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
-If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions:
+2. On the **Enter Parameters** screen, in the **Dataverse URL** field, type the URL of your Dynamics 365 Dataverse instance you are using for Project for the web.
+
+3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.
+
+   ![Parameters](media/MSPowerBIProject.png)
+
+4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.
+
+    ![Dataverse environment](media/OrgSignin.png)
+
+A message will be displayed, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
+
+If you receive an error during the load process stating that access to a resource is forbidden, check your data source settings permissions by implementing the following steps:
+
 1. In the ribbon, select **Edit queries**, and then select **Data source settings**.
+
 2. Select **Global permissions**, select a data source URL, and then click the **Edit permissions** button at the bottom of the screen.
+
 3. On the **Edit permissions** screen, verify that **Privacy level** is set to **Organizational**.
-4. Also verify that for **Credentials**, that **Type** is ste to **Organizational account**.  If it is not, click on **Edit**, select **Organizational account** on the left pane, and log in with your credentials.  Click **Save**, and verify that the Credentials Type has changed.
+
+4. Also verify that for **Credentials**, the **Type** is set to **Organizational account**.  If it is not, click **Edit**, select **Organizational account** on the left pane, and log in with your credentials.  Click **Save**, and verify that the Credentials Type has changed.
+
 5. Do this for each of the remaining data source URLs, and then click **Close**.
+
 6. Try to load your data again.
- 
-![Data source settings](media/data-source-settings.png)
 
+> [!div class="mx-imgBorder"]
+> ![Data source settings](media/data-source-settings.png)
 
+### How to determine your Dataverse URL
 
+ Project for the web data is stored in the Dynamics 365 Dataverse. You need to enter the URL of your Dataverse instance that you are using, and it needs to be in the following format: 
 
-### How to determine your Default Dataverse URL
-
- Project for the web data is stored in the Dynamics 365 Dataverse. You need to enter the URL of your default Dataverse instance that you are using, and it needs to be in the following format: 
-
-https://<spam><spam>(environment_name).(region).dynamics<spam><spam>.com
+https://(environment_name).(region).dynamics.com
 
 For example:
-https://<spam><spam>orgde6d15d8.crm.dynamics<spam><spam>.com
+https://orgde6d15d8.crm.dynamics.com
 
-The following will tell you how to find the *environment_name* and the *region* values of the URL.
+The following sections will tell you how to find the *environment_name* and the *region* values of the URL.
 
-**To determine the Default Dataverse environment name value of the URL**:
+**To determine the Dataverse environment name value of the URL**:
 
-1. While logged into Office 365, go to this site:  https://<spam><spam>make.powerapps<spam><spam>.com
-2. On the PowerApps page, under **Start from data**, select **Common Data Service**. 
-3. On the PowerApps page, note the value in the **Environments** section.  In the image below, the default Dataverse environment value is **orge817dafc**.
+1. Log on to Office: https://www.office.com.
+2. On the office.com page, in the left pane, click **All apps**.
+3. On the **All apps** page, click **Business Apps** tab and select the project application of the organization you want to build your reports on.
+The Apps URL will give you the environment and region value. 
 
     ![Default Dataverse environment](media/powerappsen.png)
 
@@ -74,9 +87,8 @@ The following will tell you how to find the *environment_name* and the *region* 
 
 The region value will usually be associated to the data center that is close to you geographically. The following list shows the region values associated with regional data centers.
 
-|||
+| Region <br/> | Value <br/>|
 |:-----|:-----|
-|**Region** <br/> |**Value** <br/> |
 |North America   <br/> |crm <br/> |
 |South America <br/> |crm2  <br/> |
 |Canada   <br/> |crm3 <br/> |
@@ -97,13 +109,15 @@ If you are not sure, check with your Office 365 administrator and have them chec
 
 You can go to your Project Online PWA site home page to find the PWA site URL.
 
-You can get to your PWA site by:
+You can get to your PWA site by implementing the following steps:
 
 1. In Office 365, click the Apps icon in the top left corner, and then in **Apps**, select **Project**.
+
 2. On your Project Home page, on the bottom of the page, click, **Go to Project Online**. This will take you to your PWA Home page.
+
 3. Copy the URL in your browser and use this value for the **PWA URL** field in the Project template.
 
-![Project Web App Site URL](media/PWASiteURL.png) 
+   ![Project Web App Site URL](media/PWASiteURL.png) 
 
 If you are still not sure, check with your Office 365 admin and have them check for the value in the SharePoint admin center.
 
@@ -125,8 +139,6 @@ After connecting to your data, the following key "out-of-the-box" reports are av
 ### Portfolio Dashboard
 
 The Portfolio Dashboard report gives you a roll-up of all projects, and lets you know the total number of projects, effort completed, and effort remaining. It lets you filter your project data by project progress or project manager.
-
-
 
 ![Portfolio Dashboard](media/portfolio-dashboard.png) 
 
@@ -182,11 +194,3 @@ The My Timeline report lets team member see their personal timeline of work acro
 ## See also
 
 [Compose HTTP requests and handle errors](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors#web-api-url-and-versions)
-
-  
-
-
-
-
-
-
