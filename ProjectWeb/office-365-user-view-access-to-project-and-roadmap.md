@@ -37,7 +37,7 @@ Office 365 view access applies to the following families of Office 365 suites an
 Within each subscription there are two apps which can be seen from the Microsoft 365 Admin center.
 
 - Project for Office (Plan X)
-- Common Data Service
+- Dataverse
 
 The "Plan" in the title of Project for Office comes from the family of suite the app is included in. Both apps (from the same subscription) must be assigned to the user to view Project for the web or Roadmap.
 
@@ -52,14 +52,14 @@ Project for Office App
 
 Note: Microsoft 365 for business subscriptions include Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
 
-Common Data Service App
+Dataverse App
 
 | Family Subscription | Admin center Display Name | Id | Name |
 | --- | --- | --- | --- |
-| F3 | Common Data Service | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
-| E1 | Common Data Service | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
-| E3 | Common Data Service  | 4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
-| E5 | Common Data Service | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
+| F3 | Dataverse | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
+| E1 | Dataverse | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
+| E3 | Dataverse  | 4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
+| E5 | Dataverse | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
 
 
 ## See Also
