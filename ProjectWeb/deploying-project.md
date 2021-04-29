@@ -88,7 +88,7 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
 
-:::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled":::
+   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled":::
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
