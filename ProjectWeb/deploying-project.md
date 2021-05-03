@@ -37,9 +37,10 @@ Project is supported in the following types of environments
 
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
 
- ![D365 App Toggle](media/AppToggle.png) 
+> [!div class="mx-imgBorder"]
+> ![D365 App Toggle](media/AppToggle.png) 
 
-[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment)
+[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
 
 ## Deploying Project for the web
 
@@ -179,13 +180,15 @@ Deployment of Project to the Default environment is done for you automatically. 
 Deploying Project to a non-Default environment is done from within the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com). 
 
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
-![Project package](media/InstallProject.png) 
+
+> [!div class="mx-imgBorder"]
+> ![Project package](media/InstallProject.png) 
 
 > [!Note]
 > If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 
 
 
-[Learn more about using the PPAC to deploy applications](https://docs.microsoft.com/power-platform/admin/manage-apps)
+[Learn more about using the PPAC to deploy applications](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 ## Configuring Roles and Security
 
@@ -193,7 +196,7 @@ Sandbox and Production environments require additional configuration. Assign the
 
 There is no additional configuration needed to enable users to manage Projects in the Default environment. Users in the Default environment only need a Project license to be able to create and manage Projects. 
 
-[Learn more about security roles in the Dataverse](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)
+[Learn more about security roles in the Dataverse](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
 > [!Note]
 > Project-related roles are only available after the Project Service Core package has been deployed to the environment.
