@@ -23,8 +23,8 @@ If you have users with one of the [Microsoft 365 or Office 365 licenses that all
 
 An admin may want to keep the Project tile from displaying for the user in some situations, such as: 
 
-- In the event of the user not having a Project license and not caring to view Project for the web projects or roadmaps. 
-- In the event of the user having a Project license, but not using Project for the web or Roadmap. 
+- If the user does not have a Project license and does not care to view Project for the web projects or roadmaps.
+- If the user has a Project license, but doesn't use Project for the web or Roadmap.
 
 To remove the Project tile from the App Launcher for a user, an admin needs to remove the **Project for Office** service for the user’s Microsoft 365 or Office 365 license in the Microsoft 365 admin center. 
 
