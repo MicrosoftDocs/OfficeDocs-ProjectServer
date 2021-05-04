@@ -1825,7 +1825,6 @@ UserViewSettings contains data about custom view settings that the user created.
 |**Property** <br/> |**Description** <br/> |
 |WebControl  <br/> |Web control type (for example, resourcecenter).  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
-|ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |PropertyValue  <br/> |Value of the property.  <br/> |
    
