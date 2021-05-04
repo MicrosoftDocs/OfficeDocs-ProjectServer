@@ -580,7 +580,6 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentCostVariance  <br/> |The difference between the cost and baseline cost for a resource.  <br/> |
 |AssignmentCV  <br/> |Earned value cost variance.  <br/> |
 |AssignmentSV  <br/> |Earned value schedule variance.  <br/> |
-|AssignmentVAC  <br/> |Variance at completion.  <br/> |
 |AssignmentIsOverallocated  <br/> |True if any assigned resources are overallocated.  <br/> |
 |AssignmentPeakUnits  <br/> |Maximum number of units that a resource is assignmed for a task.  <br/> |
 |AssignmentCreatedDate  <br/> |Date and time the assignment was created.  <br/> |
