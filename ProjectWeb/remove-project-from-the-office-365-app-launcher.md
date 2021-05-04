@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/19/2020
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
