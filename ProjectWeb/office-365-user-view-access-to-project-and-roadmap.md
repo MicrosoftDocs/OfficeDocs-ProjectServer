@@ -50,7 +50,7 @@ Project for Office App
 | E3 | Project for Office (Plan E3) | 31b4e2fc-4cd6-4e7d-9c1b-41407303bd66 | PROJECT\_O365\_P2 |
 | E5 | Project for Office (Plan E5) | b21a6b06-1988-436e-a07b-51ec6d9f52ad | PROJECT\_O365\_P3 |
 
-Note: Microsoft 365 for business subscriptions include Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
+Note: Microsoft 365 for business subscriptions includes Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
 
 Common Data Service App
 
