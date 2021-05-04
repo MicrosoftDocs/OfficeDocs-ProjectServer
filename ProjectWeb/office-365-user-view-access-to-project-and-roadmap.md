@@ -52,14 +52,14 @@ Project for Office App
 
 Note: Microsoft 365 for business subscriptions include Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
 
-Dataverse App
+Common Data Service App
 
 | Family Subscription | Admin center Display Name | ID | Name |
 | --- | --- | --- | --- |
-| F3 | Dataverse | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
-| E1 | Dataverse | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
-| E3 | Dataverse  | 4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
-| E5 | Dataverse | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
+| F3 | Common Data Service | ca6e61ec-d4f4-41eb-8b88-d96e0e14323f | DYN365\_CDS\_O365\_F1 |
+| E1 | Common Data Service | 40b010bb-0b69-4654-ac5e-ba161433f4b4 | DYN365\_CDS\_O365\_P1 |
+| E3 | Common Data Service |4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14 | DYN365\_CDS\_O365\_P2 |
+| E5 | Common Data Service | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
 
 
 ## See Also
