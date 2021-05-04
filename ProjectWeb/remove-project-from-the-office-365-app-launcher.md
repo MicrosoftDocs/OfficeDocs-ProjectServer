@@ -23,8 +23,8 @@ If you have users with one of the [Microsoft 365 or Office 365 licenses that all
 
 An admin may want to keep the Project tile from displaying for the user in some situations, such as: 
 
-- When the user does not have a Project license and does not care to view Project for the web projects or roadmaps. 
-- When the user has a Project license, but doesn't use Project for the web or Roadmap. 
+- In the event of the user not having a Project license and not caring to view Project for the web projects or roadmaps. 
+- In the event of the user having a Project license, but not using Project for the web or Roadmap. 
 
 To remove the Project tile from the App Launcher for a user, an admin needs to remove the **Project for Office** service for the user’s Microsoft 365 or Office 365 license in the Microsoft 365 admin center. 
 
@@ -38,14 +38,14 @@ To remove the Project tile from the App Launcher for a user, an admin needs to r
 
 ![Select user](media/activeusers.png)
 
-3. On the user information page, select the **licenses and apps** tab, in the **Apps** section, select the user's Microsoft 365 or Office 365 license from the **Show apps for** drop down menu.  
+3. On the user information page, select the **licenses and apps** tab, in the **Apps** section, select the user's Microsoft 365 or Office 365 license from the **Show apps for** drop-down menu.  
 4. In the list of apps that display, uncheck **Project for Office**, and then click **Save changes**. 
 
  You can repeat this procedure for each user that you don't want to use Project for the web. 
 
 ### To remove the Project tile for multiple users
 
-If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this through Windows PowerShell instead of through the Microsoft 365 admin center. 
+If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this task through Windows PowerShell instead of through the Microsoft 365 admin center. 
 
 Make sure to use the latest [Azure Active Directory module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
 
@@ -79,7 +79,7 @@ if ($returnObject.Count -eq 0) {
 ```
 
 
-3. You can use the following script to help you to disable the Project for Office service plan for specific users and their associated license. For each user, you will need to know to know the **$skuPart** value for their license (you can find this in the results of step 2). </br>
+3. You can use the following script to help you to disable the Project for Office service plan for specific users and their associated license. For each user, you will need to know the **$skuPart** value for their license (you can find this value in the results of step 2). </br>
 ```PowerShell
 #disable the plan for the user/sku combination
 
