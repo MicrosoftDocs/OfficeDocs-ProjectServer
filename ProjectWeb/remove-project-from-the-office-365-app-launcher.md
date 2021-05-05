@@ -17,7 +17,7 @@ description: "Learn how to remove the Project tile from the Office 365 App Launc
 # Remove Project from the Office 365 App Launcher
 
 
-If you have users with one of the [Microsoft 365 or Office 365 licenses that allows them to view Project for the web projects and roadmaps](https://docs.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap#office-365-subscription-with-view-access), a Project tile will display in the Office 365 App Launcher.  
+If you have users with one of the [Office 365 User view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md#office-365-user-view-access-to-project-and-roadmap), a Project tile will display in the Office 365 App Launcher.  
 
 ![Project tile](media/applauncher.png)
 
@@ -47,7 +47,7 @@ To remove the Project tile from the App Launcher for a user, an admin needs to r
 
 If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this task through Windows PowerShell instead of through the Microsoft 365 admin center. 
 
-Make sure to use the latest [Azure Active Directory module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
+Make sure to use the latest [Azure Active Directory module](/office365/enterprise/powershell/connect-to-office-365-powershell).
 
 > [!Important] 
 > Again, note that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
@@ -121,7 +121,7 @@ Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
 ## See Also
 [Office 365 user view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
-[Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
+[Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
 
 
 
