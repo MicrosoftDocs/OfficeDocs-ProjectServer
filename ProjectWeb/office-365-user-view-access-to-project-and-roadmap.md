@@ -37,7 +37,7 @@ Office 365 view access applies to the following families of Office 365 suites an
 Within each subscription, there are two apps that can be seen from the Microsoft 365 Admin center.
 
 - Project for Office (Plan X)
-- Dataverse
+- Common Data Service
 
 The "Plan" in the title of Project for Office comes from the family of suite the app is included in. Both apps (from the same subscription) must be assigned to the user to view Project for the web or Roadmap.
 
