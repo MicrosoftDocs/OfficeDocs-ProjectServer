@@ -118,7 +118,7 @@ Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
 
 
 
-## See Also
+## See also
 [Office 365 user view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
 [Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)

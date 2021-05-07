@@ -14,7 +14,8 @@ description: "Learn how certain Office 365 users can have view access to Project
 
 # Office 365 User view access to Project and Roadmap
 
-An appropriate Project Plan license is required for your Office 365 users to use [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) or [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a). However, users that are assigned certain Office 365 licenses are allowed to have view access to Project for the web and Roadmap. 
+An appropriate Project Plan license is required for your Office 365 users to use [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) or [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a). However, users that are assigned certain Office 365 licenses are allowed to have view access to Project for the web and Roadmap.
+
 This provision will allow them to have read-only access to projects and roadmaps that are shared with them, without needing to be assigned a Project Plan license.
 
  If your users need to be able to edit or create projects or roadmaps, you will need to purchase the appropriate Project Plan license and assign it to the user.
@@ -62,7 +63,7 @@ Common Data Service App
 | E5 | Common Data Service | 28b0fa46-c39a-4188-89e2-58e979a6b014 | DYN365\_CDS\_O365\_P3 |
 
 
-## See Also
+## See also
 [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
 [Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
