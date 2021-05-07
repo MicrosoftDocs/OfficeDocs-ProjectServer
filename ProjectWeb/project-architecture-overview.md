@@ -20,7 +20,7 @@ This article gives you an overview of the logical architecture that exists for k
 
 
 
-![Project logical architecture diagram](media/projarchoverview.png)
+![Project logical architecture diagram](media/project-architecture-overview-early-version.png)
 
 
 
