@@ -39,7 +39,7 @@ Within each subscription, there are two apps that can be seen from the Microsoft
 
 The "Plan" in the title of Project for Office comes from the family of suite the app is included in. Both apps (from the same subscription) must be assigned to the user to view Project for the web or Roadmap.
 
-Project for Office App
+#### Project for Office App
 
 | Family Subscription | Admin center Display Name | ID | Name |
 | --- | --- | --- | --- |
@@ -51,7 +51,7 @@ Project for Office App
 > [!NOTE]
 > Microsoft 365 for business subscriptions include Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
 
-Common Data Service App
+#### Common Data Service App
 
 | Family Subscription | Admin center Display Name | ID | Name |
 | --- | --- | --- | --- |
