@@ -65,7 +65,7 @@ Common Data Service App
 ## See Also
 [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
-[Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
+[Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
 
 
 
