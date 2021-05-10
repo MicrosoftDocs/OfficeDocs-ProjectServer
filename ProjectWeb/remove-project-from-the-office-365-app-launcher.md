@@ -34,14 +34,16 @@ To remove the Project tile from the App Launcher for a user, an admin needs to r
 ### To remove the Project tile for an individual user 
 
 1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**. 
+
 2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**. 
 
-![Select user](media/activeusers.png)
+   ![Select user](media/activeusers.png)
 
 3. On the user information page, select the **licenses and apps** tab, in the **Apps** section, select the user's Microsoft 365 or Office 365 license from the **Show apps for** drop-down menu.  
+
 4. In the list of apps that display, uncheck **Project for Office**, and then click **Save changes**. 
 
- You can repeat this procedure for each user that you don't want to use Project for the web. 
+You can repeat this procedure for each user that you don't want to use Project for the web. 
 
 ### To remove the Project tile for multiple users
 
