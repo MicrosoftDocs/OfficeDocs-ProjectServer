@@ -55,12 +55,14 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
 > Again, note that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
 
 
+1. In Windows PowerShell, type and enter the following to sign into your tenant.
 
-1. In Windows PowerShell, type and enter the following to sign into your tenant.</br>
-```PowerShell
-Connect-AzureAd
-```
-2. After connecting to Azure Active Directory, you can use the following to get a list of the Office 365 or Microsoft 365 licenses that have view access to Project for the web and Roadmap on your tenant. 
+   ```PowerShell
+   Connect-AzureAd
+   ```
+
+2. After connecting to Azure Active Directory, you can use the following to get a list of the Office 365 or Microsoft 365 licenses that have view access to Project for the web and Roadmap on your tenant.
+
 ```PowerShell
 
 $returnObject = @()
@@ -81,7 +83,8 @@ if ($returnObject.Count -eq 0) {
 ```
 
 
-3. You can use the following script to help you to disable the Project for Office service plan for specific users and their associated license. For each user, you will need to know the **$skuPart** value for their license (you can find this value in the results of step 2). </br>
+3. You can use the following script to help you to disable the Project for Office service plan for specific users and their associated license. For each user, you will need to know the **$skuPart** value for their license (you can find this value in the results of step 2).
+
 ```PowerShell
 #disable the plan for the user/sku combination
 
@@ -115,16 +118,9 @@ $licenses.AddLicenses = $license
 #Assign updated SKU
 Set-AzureADUserLicense -ObjectId $user -AssignedLicenses $licenses
 
-
 ```
-
-
 
 ## See also
 [Office 365 user view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
 [Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
-
-
-
-
