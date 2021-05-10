@@ -38,7 +38,7 @@ The architecture diagram above shows the key apps that are available through Pro
 - Project Online
 - Project Online Desktop Client
 
-For more details about features that are available through these project apps and services, see [Feature availability across apps and subscriptions](office365/servicedescriptions/project-online-service-description/project-online-service-description#microsoft-project-subscriptions) in the Microsoft Project service description.  
+For more information about features that are available through these project apps and services, see [Feature availability across apps and subscriptions](/office365/servicedescriptions/project-online-service-description/project-online-service-description#microsoft-project-subscriptions) in the Microsoft Project service description.
 
 ### Project Plans
 
@@ -55,13 +55,13 @@ The key Project apps described in this article are available in the following Pr
 > [!Note] 
 > In Project Plan 1, users can only view roadmaps in read-only. 
 
-For more details on Project Plans, see the [Microsoft Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+For more information on Project Plans, see the [Microsoft Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
 ## Project for the web
 [Project for the web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5?ui=en-us&rs=en-us&ad=us) provides simple, powerful work management capabilities to meet most needs and roles. Project managers and team members can use Project for the web to plan and manage work of any size. 
 
 ### Platform
-Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com). The Power Platform consists of [PowerApps](/powerapps/powerapps-overview), [Power Automate](/power-automate/getting-started), [Power BI](/power-bi/fundamentals/power-bi-overview), and [Dataverse](/powerapps/maker/common-data-service/data-platform-intro). Integration with the Microsoft Power Platform lets you easily leverage its components to [create custom business solutions](https://developer.microsoft.com/project/blogs/developing-applications-and-reports-using-the-new-project/) and do advanced analytics and reporting on project data.
+Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com). The Power Platform consists of [PowerApps](/powerapps/powerapps-overview), [Power Automate](/power-automate/getting-started), [Power BI](/power-bi/fundamentals/power-bi-overview), and [Dataverse](/powerapps/maker/common-data-service/data-platform-intro). Integration with the Microsoft Power Platform lets you easily use its components to [create custom business solutions](https://developer.microsoft.com/project/blogs/developing-applications-and-reports-using-the-new-project/) and do advanced analytics and reporting on project data.
 
 Just like Project Online, users can access their Project for the web projects through the [Project Home page](https://support.office.com/article/get-started-with-project-home-a3b38418-35e7-4df4-8e4a-ba6a4fa0562a).  It will by default list projects that were recently viewed, owned by, or shared with the user.
 
@@ -83,7 +83,7 @@ Roadmap data are saved to solutions in the Dataverse Default instance. While Pro
 
 ## Project Online
 
-Project Online is a flexible online solution for Project Portfolio Management (PPM) and everyday work. Project Online provides powerful project management capabilities for planning, prioritizing, and managing projects and project portfolio investments—from almost anywhere on almost any device. Project Online can be used by administrators, portfolio managers and viewers, project and resource managers,and team leads and members. 
+Project Online is a flexible online solution for Project Portfolio Management (PPM) and everyday work. Project Online provides powerful project management capabilities for planning, prioritizing, and managing projects and project portfolio investments—from almost anywhere on almost any device. Project Online can be used by administrators, portfolio managers and viewers, project and resource managers, and team leads and members. 
 
 ### Platform
 Project Online is built on the SharePoint platform, and uses key SharePoint features such as web parts, collaborative sites, and SharePoint security groups.  Access is provided through a supported web browser. 
