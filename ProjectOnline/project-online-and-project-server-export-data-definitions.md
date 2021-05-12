@@ -58,9 +58,8 @@ A project admin can use the Project list files to give them information about wh
   
 All three of the ProjectList files will have the following properties for each project listed:
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |The unique identifier for the PWA site in which the project exists.  <br/> |
 |Proj_UID  <br/> |The unique identifier for the project.  <br/> |
 |Proj_Name  <br/> |Name of the project.  <br/> |
@@ -111,9 +110,9 @@ The feature areas for both Project Online and Project Server include the followi
 
 AdminAudit contains data about Project Web App server settings that the user changed. Each **AdminAuditData** object will have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |ServerSettingName  <br/> |Name of the PWA server setting.  <br/> |
 |SettingOldValue  <br/> |Previous value for the setting.  <br/> |
@@ -146,9 +145,8 @@ BusinessDrivers contains data about Portfolio Analysis business drivers that the
    
 Each **Drivers** object can have **Department** objects, which have the following properties. 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |DriverId  <br/> |Unique identifier for the business driver.  <br/> |
 |DepartmentId  <br/> |Unique identifier for the department.  <br/> |
 |DepartmentName  <br/> |Name of the department.  <br/> |
@@ -157,10 +155,9 @@ Each **Drivers** object can have **Department** objects, which have the followin
 <a name="Calendars"> </a>
 
 Calendars contains data about enterprise calendars that are currently checked out by the user. Each **CalendarData** object will have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |Id  <br/> |Unique identifier for the calendar.  <br/> |
 |Name  <br/> |Name of the calendar.  <br/> |
 |CheckedOutDate  <br/> |Date and time the calendar was checked out.  <br/> |
@@ -169,10 +166,9 @@ Calendars contains data about enterprise calendars that are currently checked ou
 <a name="CustomFields"> </a>
 
 CustomFields contains data about custom fields that are currently checked out by the user. Each **CustomFieldData** object will have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ID  <br/> |Unique identifier for the custom field.  <br/> |
 |Name  <br/> |Name of the custom field.  <br/> |
 |CheckOutDate  <br/> |Time and date the custom field was last checked out.  <br/> |
@@ -182,9 +178,8 @@ CustomFields contains data about custom fields that are currently checked out by
 
 Delegations contains data about delegations that the user is involved in. The user can either be the delegate or the person who requests for the delegation. Each **DelegationData** object will have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |Id  <br/> |Unique identifier for the delegation.  <br/> |
 |ResourceId  <br/> |Unique identifier for the resource that requested the delegation.  <br/> |
 |ResourceName  <br/> |Name of the resource that requested the delegation.  <br/> |
@@ -215,20 +210,18 @@ DriverPrioritizations contains data about business driver prioritizations that t
 |ModifiedDate  <br/> |Date and time when the prioritization was last updated.  <br/> |
    
 For **BusinessDrivers**, you will see the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PrioritizationId  <br/> |Unique identifier for the prioritization.  <br/> |
 |BusinessDriverId  <br/> |Unique identifier for the business driver.  <br/> |
 |BusinessDriverName  <br/> |Name of the business driver.  <br/> |
 |BusinessDriverPriorityPercentage  <br/> |Priority percentage assigned to the business driver.  <br/> |
    
 For the **DriverRankings**, you will see the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PrioritizationId  <br/> |Unique identifier for the prioritization.  <br/> |
 |BusinessDriver1Id  <br/> |Unique identifier for the first business driver in the prioritization.  <br/> |
 |BusinessDriver1Name  <br/> |Name of the first business driver in the prioritization.  <br/> |
@@ -240,10 +233,9 @@ For the **DriverRankings**, you will see the following properties:
 <a name="Engagements"> </a>
 
 Engagements contains data about resource engagements that the user created or modified, or was requested as a resource. Each **Engagement** object will have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |EngagementUID  <br/> |Unique identifier for the engagement.  <br/> |
 |ProjectID  <br/> |Unique identifier for the project for which the engagement was requested.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource requested.  <br/> |
@@ -264,9 +256,8 @@ Engagements contains data about resource engagements that the user created or mo
    
 Each **Engagements** object can contain multiple **EngagementSegments**, which may have the following properties:
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |EngagementUID  <br/> |Unique identifier for the engagement that contains the EngagementSegment.  <br/> |
 |SegmentType  <br/> | 0- Committed  <br/>  1- Proposed  <br/>  2- Draft  <br/>  3- Rejected  <br/> |
 |SegmentStartDate  <br/> |The proposed start date. Depending on the SegmentType, this is proposed/draft/committed start date for the segment.  <br/> |
@@ -275,10 +266,9 @@ Each **Engagements** object can contain multiple **EngagementSegments**, which m
 |SegmentWork  <br/> |Number of work units for a work day.  <br/> |
    
 Each **Engagements** object can contain **EngagementComments**, which may have the following properties:
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CommentUID  <br/> |Unique identifier for the comment.  <br/> |
 |EngagementUID  <br/> |Unique identifier for the engagement that contains the EngagementSegment.  <br/> |
 |CommentCreatedDate  <br/> |Date the comment was created.  <br/> |
@@ -291,9 +281,8 @@ Each **Engagements** object can contain **EngagementComments**, which may have t
 
 LookupTables contains data about lookup tables that are currently checked out by the user. Each **LookupTableData** object may have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ID  <br/> |Unique identifier for the lookup table.  <br/> |
 |Name  <br/> |Name of the lookup table.  <br/> |
 |CheckOutDate  <br/> |Time and date the lookup table was last checked out.  <br/> |
@@ -302,10 +291,9 @@ LookupTables contains data about lookup tables that are currently checked out by
 <a name="Analyses"> </a>
 
 PortfolioAnalysis contains data about Portfolio Analyses that the user created or modified. Each **Analyses** object will have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AnalysisID  <br/> |Unique identifier for the analysis.  <br/> |
 |AnalysisName  <br/> |Name of the analysis.  <br/> |
 |AnalysisDescription  <br/> |Description of the analysis.  <br/> |
@@ -341,10 +329,9 @@ PortfolioAnalysis contains data about Portfolio Analyses that the user created o
 |ProjectData  <br/> |Dataset link for more information about the project on which the analysis was done.  <br/> |
    
 Each **Analyses** object can have **ProjectData** properties, which include: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AnalysisID  <br/> |Unique identifier for the analysis.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
@@ -360,9 +347,9 @@ Each **Analyses** object can have **ProjectData** properties, which include:
    
 For Optimizer Solutions, **CostConstraintProject** objects can have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ScenarioId  <br/> |Identifier of the cost constraint scenario.  <br/> |
 |ScenarioName  <br/> |Name of the cost constraint scenario.  <br/> |
 |AnalysisID  <br/> |Unique identifier for the analysis.  <br/> |
@@ -379,9 +366,9 @@ For Optimizer Solutions, **CostConstraintProject** objects can have the followin
    
 For Optimizer Solutions, **CostConstraintScenario** objects can have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AnalysisID  <br/> |Unique identifier for the analysis.  <br/> |
 |AnalysisName  <br/> |Name of the analysis.  <br/> |
 |ScenarioId  <br/> |Identifier of the cost constraint scenario.  <br/> |
@@ -401,9 +388,9 @@ For Optimizer Solutions, **CostConstraintScenario** objects can have the followi
    
 For Planner Solutions, **ResourceConstraintProject** objects can have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ScenarioId  <br/> |Identifier of the cost constraint scenario.  <br/> |
 |ScenarioName  <br/> |Name of the cost constraint scenario.  <br/> |
 |AnalysisID  <br/> |Unique identifier for the analysis.  <br/> |
@@ -425,9 +412,9 @@ For Planner Solutions, **ResourceConstraintProject** objects can have the follow
    
 For Planner Solutions, **ResourceConstraintScenario** objects can have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ScenarioId  <br/> |Identifier of the cost constraint scenario.  <br/> |
 |ScenarioName  <br/> |Name of the cost constraint scenario.  <br/> |
 |ScenarioDescription  <br/> |Description of the cost constraint scenario.  <br/> |
@@ -454,9 +441,9 @@ For Planner Solutions, **ResourceConstraintScenario** objects can have the follo
 
 QueueJobs contains data about jobs that were created by the user through the Queuing service. Each **QueueData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CorrelationId  <br/> |Unique identifier for jobs that are part of a correlation with other jobs.  <br/> |
 |QueueState  <br/> | Queue state the job is currently in:  <br/>  0- Unknown  <br/>  1- ReadyForProcessing  <br/>  2- SendIncomplete  <br/>  3- Processing  <br/>  4- Success  <br/>  5- Failed  <br/>  6- FailedNotBlocking  <br/>  7-ProcessingDeferred  <br/>  8- CorrelationBlocked  <br/>  9- Cancelled  <br/>  10- OnHold  <br/>  11- Sleeping  <br/>  12- ReadyForLaunch  <br/> |
 |MessageType  <br/> |Queue job type (see the corresponding QueueStateLabel value).  <br/> |
@@ -475,9 +462,9 @@ QueueJobs contains data about jobs that were created by the user through the Que
 
 ReminderEmails contains data about email reminder notifications for the user. Each **ReminderEmailData** object will have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SessionId  <br/> |The unique identifier for the reminder emails.  <br/> |
 |EmailType  <br/> |The type of emails: Task, StatusReport, Timesheet, or Engagement.  <br/> |
 |RowIsReady  <br/> |If the email is ready to be sent out.  <br/> |
@@ -487,9 +474,9 @@ ReminderEmails contains data about email reminder notifications for the user. Ea
 
 ReportingResource contains data about reporting resources. Each **ReportingResourceData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
 |ResourceNTAccount  <br/> |The Windows account name for a resource.  <br/> |
@@ -543,9 +530,9 @@ Each **ResourceCapacityData** object may have the following properties:
 
 ReportingResourcePlan contains data about reporting resource plans. It may have the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
@@ -596,9 +583,9 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 
 Resource contains data about the resource. Each **ResourceData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceID  <br/> |ID of the resource within the list of resources.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
@@ -640,10 +627,9 @@ Resource contains data about the resource. Each **ResourceData** object may have
 |DefaultAssignmentOwnerResources  <br/> |Resources for which the resource is the default assignment owner.  <br/> |
    
 Each **ResourceData** object may have a collection of **DefaultAssignmentOwnerResources**. Each **DefaultAssignmentOwnerResources** object may have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceID  <br/> |The ID of the resource within the list of resources.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource for which the user is the default assignment owner.  <br/> |
 |ResourceName  <br/> |Name of the resource.  <br/> |
@@ -652,9 +638,9 @@ Each **ResourceData** object may have a collection of **DefaultAssignmentOwnerRe
    
 Each **ResourceData** object may also have a collection of **CustomFields**. Each **CustomFields** object may contain the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
 |CustomFieldUid  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
@@ -664,10 +650,9 @@ Each **ResourceData** object may also have a collection of **CustomFields**. Eac
 <a name="ResourcePlan"> </a>
 
 ResourcePlans contains data about resource plans the user created, modified, or was a part. For each **ResourcePlans** object, you will see the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |ResourcePlanUtilizationType  <br/> |Value that represents the utilization type of a resource plan.  <br/> |
@@ -692,9 +677,9 @@ ResourcePlans contains data about resource plans the user created, modified, or 
    
 A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. Each **ResourcePlanAssignments** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
@@ -747,10 +732,9 @@ A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. 
 |ModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
    
 A **ResourcePlanAssignments** object can have a collection of **Assignments**. Each **Assignments** object may contain the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier for the resource for the assignment.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project for the assignment.  <br/> |
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
@@ -769,9 +753,9 @@ A **ResourcePlanAssignments** object can have a collection of **Assignments**. E
 
 Rules contains data about approval rules defined by status manager to approve certain task updates. Each **RulesData** object can have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |RuleUid  <br/> |Unique identifier for the rule.  <br/> |
 |RuleManagerUid  <br/> |Unique identifier for the Status Manager Owner of the rule.  <br/> |
 |RuleManagerName  <br/> |The name of the Status Manager Owner.  <br/> |
@@ -801,9 +785,9 @@ Rules contains data about approval rules defined by status manager to approve ce
    
 Each **RulesDetailsData** object will have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |RuleUid  <br/> |Unique identifier for the rule.  <br/> |
 |RuleListItemUid  <br/> |Unique identifier for project/resource/delagatee.  <br/> |
 |RuleListItemType  <br/> |Type of the item, can be project, resource or delegate.  <br/> |
@@ -828,9 +812,9 @@ It includes:
     
 A **ResourceData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Properties** <br/> |**Description** <br/> |
+|:-----|:-----|
 |EncodedClaim  <br/> |Claims account of the resource.  <br/> |
 |ResourceUID  <br/> |Unique identifier of resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
@@ -838,20 +822,18 @@ A **ResourceData** object may have the following properties:
 |CategoryData  <br/> |Security category objects data.  <br/> |
    
 Under **ResourceData**, a **GroupData** object may have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier of resource.  <br/> |
 |GroupUID  <br/> |Unique identifier of the security group.  <br/> |
 |GroupName  <br/> |Name of the security group.  <br/> |
 |GroupDecription  <br/> |Description of the security group.  <br/> |
    
 Under **ResourceData**, a **CategoryData** object may have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier of resource.  <br/> |
 |CategoryUID  <br/> |Unique identifier of the category.  <br/> |
 |CategoryName  <br/> |Name of the category.  <br/> |
@@ -859,9 +841,9 @@ Under **ResourceData**, a **CategoryData** object may have the following propert
    
 Under **ResourceData**, a **ParentPermissionData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier of resource.  <br/> |
 |PermissionUID  <br/> |Unique identifier of the parent permission.  <br/> |
 |PermissionName  <br/> |Name of the parent permission.  <br/> |
@@ -869,9 +851,9 @@ Under **ResourceData**, a **ParentPermissionData** object may have the following
    
 Under **ParentPermissionData**, a **PermissionData** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier of resource.  <br/> |
 |PermissionUID  <br/> |Unique identifier of the permission.  <br/> |
 |PermissionParentUID  <br/> |Internal unique identifier of the parent permission name.  <br/> |
@@ -987,9 +969,9 @@ Each **WorkDetails** object may have the following properties:
 
 SubscribedReminders contains data about reminders subscribed to by the user. For each **SubscribedReminderData** object, you will see the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |Id  <br/> |The unique identifier of the reminder.  <br/> |
 |ReminderName  <br/> |The name of the reminder.  <br/> |
 |RecipientType  <br/> |Can be either: OnlyToManager, OnlyToTeamMember, or ToBothManagerAndTeamMember.  <br/> |
@@ -1195,9 +1177,9 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
 |TaskUID  <br/> |Unique identifier of the task for the assignment.  <br/> |
 |TaskName  <br/> |Name of the task for the assignment.  <br/> |
@@ -1318,9 +1300,9 @@ Each **Assignments** object may have a collection of **Timephased** objects, whi
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldUid  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
 |AssignmentUid  <br/> |Unique identifier for the assignment.  <br/> |
@@ -1477,9 +1459,9 @@ TaskStatus_AssignmentsSubmitted contains data about status reports that the user
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
 |TaskUID  <br/> |Unique identifier of the task for the assignment.  <br/> |
 |TaskName  <br/> |Name of the task for the assignment.  <br/> |
@@ -1597,9 +1579,9 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldUid  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
 |AssignmentUid  <br/> |Unique identifier for the assignment.  <br/> |
@@ -1614,9 +1596,8 @@ Each **Assignments** object may have a collection of **CustomFields** objects, w
 
 Timesheets contains data about timesheets the user owns or is a part of. For each timesheet, you will see the following objects:
   
-|||
-|:-----|:-----|
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
 |TimesheetName  <br/> |Name of the timesheet.  <br/> |
 |TimesheetOwnerID  <br/> |The unique identifier for the owner of the timesheet.  <br/> |
@@ -1635,9 +1616,9 @@ Timesheets contains data about timesheets the user owns or is a part of. For eac
    
 A **Timesheets** object can have a collection of **Lines** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
 |TimesheetLineId  <br/> |Unique identifier for the timesheet line item.  <br/> |
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
@@ -1660,9 +1641,9 @@ A **Timesheets** object can have a collection of **Lines** objects, which may ha
    
 Each **Lines** object can have a collection of **Actuals** objects. Each **Actuals** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
 |TimesheetLineId  <br/> |Unique identifier for the timesheet line.  <br/> |
 |ActualOvertimeWorkBillable  <br/> |The actual billable overtime work that has already been performed by resources assigned to tasks.  <br/> |
@@ -1678,9 +1659,9 @@ Each **Lines** object can have a collection of **Actuals** objects. Each **Actua
    
 A **Lines** object can have a collection of **CustomFields** objects, which may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimeSheetLineID  <br/> |Unique identifier for the timesheet line.  <br/> |
 |CustomFieldUID  <br/> |Unique identifier for the custom field value.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
@@ -1692,9 +1673,9 @@ A **Lines** object can have a collection of **CustomFields** objects, which may 
 
 Timesheets_Reporting contains timesheet data for the user from the reporting schema. For each **Timesheets** object, you will see the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
 |TimesheetName  <br/> |Name of the timesheet.  <br/> |
 |TimesheetOwnerId  <br/> |Unique identifier for the timesheet owner.  <br/> |
@@ -1711,9 +1692,9 @@ Timesheets_Reporting contains timesheet data for the user from the reporting sch
    
 Each **Timesheets** object can have a collection of **Line** objects. Each **Line** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
 |TimesheetLineId  <br/> |Unique identifier for the timesheet line item.  <br/> |
 |ActualOvertimeWorkBillable  <br/> |The actual billable overtime work that has already been performed by resources assigned to tasks.  <br/> |
@@ -1742,9 +1723,9 @@ Each **Timesheets** object can have a collection of **Line** objects. Each **Lin
    
 Each **Timesheets** object can have a collection of **Actuals** objects. Each **Actuals** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TimesheetLineId  <br/> |Unique identifier for the timesheet line.  <br/> |
 |ActualOvertimeWorkBillable  <br/> |The actual billable overtime work that has already been performed by resources assigned to tasks.  <br/> |
 |ActualOvertimeWorkNonBillable  <br/> |The actual non-billable overtime work that has already been performed by resources assigned to tasks.  <br/> |
@@ -1762,9 +1743,9 @@ Each **Timesheets** object can have a collection of **Actuals** objects. Each **
    
 Each **Actuals** object can have a collection of **CustomFields** objects. Each **CustomFields** object may have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldId  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the resource.  <br/> |
 |TimesheetUID  <br/> |Unique identifier for the timesheet.  <br/> |
@@ -1776,9 +1757,9 @@ Each **Actuals** object can have a collection of **CustomFields** objects. Each 
 
 UnsubscribedAlerts contains data about alert notifications unsubscribed by the user. For each **UnsubscribedAlertData** object, you will see the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |Id  <br/> |Unique identifier for the alert.  <br/> |
 |AlertName  <br/> |Name of the alert.  <br/> |
    
@@ -1810,18 +1791,17 @@ UserViewSettings contains data about custom view settings that the user created.
     
  **WebControlSettings** objects can have the following following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |WebControl  <br/> |Web control type (for example, resourcecenter).  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
 |PropertyValue  <br/> |Value of the property.  <br/> |
    
  **WebControlResourcePlanEngagementSettings** objects can have the following properties: 
-  
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |WebControl  <br/> |Web control type (for example, resourcecenter).  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
@@ -1830,9 +1810,8 @@ UserViewSettings contains data about custom view settings that the user created.
    
  **ViewSettings** objects can have following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ViewId  <br/> |The unique identifier for the view.  <br/> |
 |ViewName  <br/> |Name of the view.  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
@@ -1840,9 +1819,8 @@ UserViewSettings contains data about custom view settings that the user created.
    
  **LastPDPViewed** objects can have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |The unique identifier for the project.  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
 |PropertyString  <br/> |String representing value of the property  <br/> |
@@ -1851,9 +1829,8 @@ UserViewSettings contains data about custom view settings that the user created.
    
  **UserSettings** objects can have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |The unique identifier for the project.  <br/> |
 |SettingKey  <br/> |Key of the user setting stored in the database.  <br/> |
 |PropertyString  <br/> |String representing value of the property  <br/> |
@@ -1863,9 +1840,8 @@ UserViewSettings contains data about custom view settings that the user created.
    
  **OptimizerPlannerPlannerReqPages** objects can have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PageName  <br/> |Name of the page.  <br/> |
 |AnalysisUid  <br/> |Unique identifier of the analysis.  <br/> |
 |AnalysisName  <br/> |Name of the analysis.  <br/> |
@@ -1876,9 +1852,9 @@ UserViewSettings contains data about custom view settings that the user created.
    
 For each **PlannerDefPlannerResPlannerAvailPages** object, you will see the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PageName  <br/> |Name of the page.  <br/> |
 |AnalysisUid  <br/> |Unique identifier of the analysis.  <br/> |
 |AnalysisName  <br/> |The name of the analysis.  <br/> |
@@ -1887,9 +1863,8 @@ For each **PlannerDefPlannerResPlannerAvailPages** object, you will see the foll
    
  **PortfolioAnalysisGridSettings** objects can have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PageUrl  <br/> |URL of the page.  <br/> |
 |AnalysisId  <br/> |The unique identifier of the analysis.  <br/> |
 |AnalysisName  <br/> |The name of the analysis.  <br/> |
@@ -1898,9 +1873,8 @@ For each **PlannerDefPlannerResPlannerAvailPages** object, you will see the foll
    
  **OtherWebSettings** objects can have the following properties: 
   
-|||
-|:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SettingKey  <br/> |Unique key that describes the user setting data being stored.  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
 |PropertyValue  <br/> |Value of the property.  <br/> |
@@ -1910,9 +1884,9 @@ For each **PlannerDefPlannerResPlannerAvailPages** object, you will see the foll
   
 You may see the following properties for the above objects for the **PropertyName** and corresponding **PropertyValue** properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ViewUid  <br/> |Unique identifier of the view  <br/> |
 |JSGridWidth  <br/> |Width of the displayed grid (value in pixels).  <br/> |
 |SelectedResourceIds  <br/> |Unique identifiers of resources selected last on the grid.  <br/> |
@@ -2018,9 +1992,9 @@ You may see the following properties for the above objects for the **PropertyNam
   
 UserViewSettings contains data about custom view settings that the user created. Objects can have the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |PropertyName  <br/> |Name of the property.  <br/> |
 |PropertyValue  <br/> |Value of the property.  <br/> |
    
@@ -2092,9 +2066,9 @@ The custom view objects include the following:
   
 You may see the following properties for the above objects for the **PropertyName** and corresponding **PropertyValue** properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ViewUid  <br/> |Unique identifier of the view  <br/> |
 |JSGridWidth  <br/> |Width of the displayed grid (value in pixels).  <br/> |
 |SelectedResourceIds  <br/> |Unique identifiers of resources selected last on the grid.  <br/> |
@@ -2197,9 +2171,9 @@ You may see the following properties for the above objects for the **PropertyNam
 
 This file contains data about Project workflows in which the user was an owner. For each **WorkflowInstances** object, you may see the following objects: 
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteID  <br/> |Unique identifier for the PWA site in which the workflow is used.  <br/> |
 |ProjectID  <br/> |Unique identifier of the project utilizing the workflow.  <br/> |
 |ProjectName  <br/> |Name of the project utilizing the workflow.  <br/> |
@@ -2213,9 +2187,9 @@ This file contains data about Project workflows in which the user was an owner. 
    
 For each **WorkflowStatus** object, you may see the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |WorkflowInstanceId  <br/> |Unique identifier for the workflow instance.  <br/> |
 |PhaseId  <br/> |Unique identifier for the workflow phase.  <br/> |
 |PhaseName  <br/> |Name of the workflow phase.  <br/> |
@@ -2247,9 +2221,9 @@ WorkspaceItems described data about SharePoint items that are used in Project Se
     
 There can be a collection of **Issues** objects that have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |IssueUniqueId  <br/> |Unique identifier for the issue.  <br/> |
@@ -2277,9 +2251,9 @@ There can be a collection of **Issues** objects that have the following properti
    
 There can be a collection of **Risk** objects that have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project with the risk.  <br/> |
 |ProjectName  <br/> |Name of the project with the risk.  <br/> |
 |RiskUniqueId  <br/> |The unique identifier of the risk.  <br/> |
@@ -2315,9 +2289,9 @@ There can be a collection of **Risk** objects that have the following properties
    
 There can be a collection of **Deliverables** objects that have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project for the deliverable.  <br/> |
 |ProjectName  <br/> |Name of the project for the deliverable.  <br/> |
 |DeliverableUniqueId  <br/> |Unique identifier for the deliverable.  <br/> |
@@ -2337,9 +2311,9 @@ There can be a collection of **Deliverables** objects that have the following pr
    
 There can be a collection of **ListItemAssociations** objects that have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |ListItemId  <br/> |Unique identifier for the list item.  <br/> |
@@ -2378,9 +2352,9 @@ When you are exporting from Project Online, your will receive the information in
 
 Reporting_AssignmentBaselineTimephased contains the properties that define the reporting data for assignment baseline timephased data in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |An integer number that identifies a baseline in a project.  <br/> |
 |AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
@@ -2404,9 +2378,9 @@ Reporting_AssignmentBaselineTimephased contains the properties that define the r
 
 Reporting_AssignmentTimephased contains the properties that define the reporting data for assignment timephased data in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
@@ -2449,9 +2423,9 @@ Reporting_AssignmentTimephased contains the properties that define the reporting
 
 Reporting_ProjectBaseline contains the properties that define the reporting data for project baseline data in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
@@ -2476,9 +2450,9 @@ Reporting_ProjectBaseline contains the properties that define the reporting data
 
 Reporting_ProjectTasks contains the properties that define the reporting data for project tasks data in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |TaskUID  <br/> |The unique identifier of the task.  <br/> |
 |TaskParentUID  <br/> |The unique identifier of the parent task.  <br/> |
 |ProjectUID  <br/> |The unique identifier of the project to which the task belongs.  <br/> |
@@ -2563,9 +2537,9 @@ Reporting_ProjectTasks contains the properties that define the reporting data fo
    
 If the task contains a **CustomField** object, it will have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldId  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the resource.  <br/> |
 |TaskId  <br/> |Unique identifier for the task in which the customer field is used.  <br/> |
@@ -2576,9 +2550,9 @@ If the task contains a **CustomField** object, it will have the following proper
 
 Reporting_Assignments contains the properties that define the reporting data for assignments in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project for the assignment.  <br/> |
 |ResourceUID  <br/> |Unique identifier for the resource for the assignment.  <br/> |
@@ -2631,9 +2605,9 @@ Reporting_Assignments contains the properties that define the reporting data for
    
 If the task contains a **CustomField** object, it will have the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldId  <br/> |Unique identifier for the custom field.  <br/> |
 |CustomFieldName  <br/> |Name of the resource.  <br/> |
 |PrimaryCustomFieldId  <br/> |The ID of the primary custom field (either a Task or a Resource type) that this custom field is a child of.  <br/> |
@@ -2647,9 +2621,9 @@ If the task contains a **CustomField** object, it will have the following proper
 
 Reporting_Resources contains the properties that define the reporting data for resources in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
 |ResourceStandardRate  <br/> |The standard rate of pay for a resource.  <br/> |
@@ -2692,10 +2666,9 @@ Reporting_Resources contains the properties that define the reporting data for r
 <a name="TaskBaselineTimephased"> </a>
 
 Reporting_TaskBaselineTimephased contains the properties that define the reporting data for task baseline timephased data in the ProjectData service. It has the following properties:
-  
-|||
-|:-----|:-----|
+
 |**Object** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
@@ -2716,9 +2689,9 @@ Reporting_TaskBaselineTimephased contains the properties that define the reporti
 
 Reporting_TaskTimephased contains the properties that define the reporting data for task timephased data in the ProjectData service. It has the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
@@ -2765,9 +2738,9 @@ The method defined in [Export user data from Project Online](export-user-data-fr
 
 The Project metadata file for a project will have the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectUID  <br/> |The unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |ProjectAuthorName  <br/> |The name of the author of the project.  <br/> |
@@ -2803,9 +2776,9 @@ The Project metadata file for a project will have the following properties:
    
 The project can have a collection of **CustomFields** objects, with the following properties: 
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |CustomFieldValueUID  <br/> |Unique identifier for the custom field value.  <br/> |
 |CustomFieldTypeUID  <br/> |Unique identifier for the custom field type.  <br/> |
 |CustomFieldName  <br/> |Name of the custom field.  <br/> |
@@ -2817,9 +2790,9 @@ The project can have a collection of **CustomFields** objects, with the followin
 
 The Project metadata file for a project in the Draft schema will have the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectUID  <br/> |The unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |ProjectAuthorName  <br/> |The name of the author of the project.  <br/> |
@@ -2930,9 +2903,9 @@ The Project metadata file for a project in the Draft schema will have the follow
 
 The Project metadata file for a project in the Published schema will have the following properties:
   
-|||
-|:-----|:-----|
+
 |**Property** <br/> |**Description** <br/> |
+|:-----|:-----|
 |ProjectUID  <br/> |The unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |ProjectAuthorName  <br/> |The name of the author of the project.  <br/> |
