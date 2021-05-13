@@ -327,6 +327,14 @@ PortfolioAnalysis contains data about Portfolio Analyses that the user created o
 |CreatedDate  <br/> |Date the analysis was created.  <br/> |
 |ModifiedDate  <br/> |Date the analysis was last modified.  <br/> |
 |ProjectData  <br/> |Dataset link for more information about the project on which the analysis was done.  <br/> |
+|PlanningHorizonStartDate  <br/> |The beginning of the date and time range that is considered in a portfolio analysis.  <br/> |
+|PlanningHorizonEndDate  <br/> |The end of the date and time range that is considered in a portfolio analysis.  <br/> |
+|RoleCustomFieldId  <br/> |The GUID of the custom field that is used to define a role.  <br/> |
+|RoleCustomFieldName <br/> |TThe name of the custom field that is used to define a role.  <br/> |
+
+
+
+
    
 Each **Analyses** object can have **ProjectData** properties, which include: 
 
