@@ -1184,7 +1184,6 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
-  
 
 | Object | Description |
 |:-----|:-----|
