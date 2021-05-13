@@ -129,6 +129,7 @@ BusinessDrivers contains data about Portfolio Analysis business drivers that the
 |****Property****|****Description****|
 |:-----|:-----|
 |DriverID  <br/> |Unique identifier of the business driver.  <br/> |
+|DriverName  <br/> |The name of a driver.  <br/> |
 |DriverDescription  <br/> |Description of the business driver.  <br/> |
 |BusinessDriverIsActive  <br/> |Is the business driver active (true/false).  <br/> |
 |CreatedByResourceID  <br/> |Unique identifier of the resource that created the driver.  <br/> |
