@@ -961,7 +961,7 @@ Each **StatusReportDistribution** object may have the following properties:
 |CreatedDate  <br/> |Date the distribution was created.  <br/> |
 |ModifiedDate  <br/> |Date the distribution was last updated.  <br/> |
    
-Each **WorkDetails** object may have the following properties: 
+Each **WeekDetails** object may have the following properties: 
   
 | Properties | Description |
 |:-----|:-----|
