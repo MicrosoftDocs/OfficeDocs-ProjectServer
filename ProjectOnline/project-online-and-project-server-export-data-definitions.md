@@ -544,7 +544,8 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |:-----|:-----|
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
-|ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
+|ProjectName  <br/> |The name of the project.  <br/> |
+|ResourceID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
 |TaskId  <br/> |Unique identifier for the task.  <br/> |
 |ResourceOwnerId  <br/> |Resource ID of the resource owner.  <br/> |
@@ -561,6 +562,8 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentPercentWorkCompleted  <br/> |Percentage of work that has been completed.  <br/> |
 |AssignmentStartDate  <br/> |Date a resource is scheduled to begin an assignment.  <br/> |
 |AssignmentFinishDate  <br/> |Assignment finish date.  <br/> |
+|AssignmentActualStartDate  <br/> |The date and time that the assignment actually began. <br/> |
+|AssignmentActualFinishDate  <br/> |The date and time when an assignment was actually completed.  <br/> |
 |AssignmentDelay  <br/> |Amount of time a resource is to wait before starting to work on an assignment.  <br/> |
 |AssignmentStartVariance  <br/> |Variance at the start of the assignment.  <br/> |
 |AssignmentFinishVariance  <br/> |Variance at the assignment finish.  <br/> |
