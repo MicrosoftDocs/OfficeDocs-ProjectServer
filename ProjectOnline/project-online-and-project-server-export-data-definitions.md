@@ -2433,7 +2433,6 @@ Reporting_ProjectBaseline contains the properties that define the reporting data
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
