@@ -1540,7 +1540,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
 |AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
-|AssignmentDeletePending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
+|AssignmentDelegationPending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> |Indicates the status of an assignment: 0 - Not edited by resource. 1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1556,7 +1556,8 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |ReservedData1  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData2  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData3  <br/> |Used to temporarily store calculated values.  <br/> |
-|AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data.  <br/> |
+|AssignmentTDModifyDate  <br/> |The sum of the actual and remaining overtime cost of the assignment. <br/> |
+|AssignmentOvertimeCost  <br/> |Last modified date for assignment timephased data.  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
 |AssignmentStopDate  <br/> |The date that the assignment was stopped.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
