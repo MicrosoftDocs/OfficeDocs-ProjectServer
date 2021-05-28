@@ -778,6 +778,21 @@ Rules contains data about approval rules defined by status manager to approve ce
 |RuleConditionType  <br/> |If extra filtering is done in this rule this filed will have one of the values: None, Compare with fix string, or Compare with Database Column.  <br/> |
 |Field1  <br/> |The left side of the filter  <br/> |
 |Field2  <br/> |The right side of the filter  <br/> |
+|Field1Name   |
+|Field2Name  |
+|TaskStartOffset  <br/> |Offset for the task start  <br/> |
+|TaskReservedData <br/> |Used to temporarily store calculated values.  <br/> |
+|TaskSummaryProgressDate <br/> |Internal user only.  <br/> |
+|ReserverData <br/> |Internal user only.  <br/> |
+|ProjectSummaryAssignmentID <br/> |Unique identifier of the project summary assignment. <br/> |
+|AssignmentIsConfirmed  <br/> |Indicates whether this resource has accepted or rejected the task assignment. <br/> |
+|HistoryNotes |
+|AssignmentDelegationPending |
+|WNWRK_UID  <br/> Internal use only. <br/> |
+|WNWORK_ENTRY_UID  <br/> Internal use only. <br/> |
+|AssignmentOvertimeCost  <br/> The total overtime cost for an assignment, including costs for overtime work that has already been performed, in addition to remaining overtime costs. <br/> |
+|AssignmentCV  <br/> Earned value cost variance. <br/> |
+|AssignmentLastDelegationId  <br/> |The last delegation performed on this assignment. <br/> |
 |Operator  <br/> |Operator (can be Equal, Not Equal, Less Than, Greater Than, Less Than or Equal, Greater Than, or Equal).  <br/> |
 |ValueType  <br/> |Type of right side of the filter (can be string, int, double, date, bool).  <br/> |
 |IntValue  <br/> |Value to compare with if ValueType is  *Int*  .  <br/> |
