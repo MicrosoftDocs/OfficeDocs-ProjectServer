@@ -30,7 +30,7 @@ Project for the web only supports adding more security roles to the Microsoft Pr
 ## Project Common
 - Can be customized and used to support extensibility, see [Behavior with AAD Groups](#behavior-with-aad-groups) to understand how this permission is assigned to AAD Groups.
 - Provides non-project related permissions to give a user access to the environment including the ability to log in. 
-- It is a copy of the Basic User role (formally called Project Common role) but can diverge in future releases.
+- It is a copy of the Basic User role but can diverge in future releases.
 - The AAD Office Group team created at the project-sharing stage is given this role so that members have enough permissions to log into and interact with the environment.
 
 ## Portfolio User
