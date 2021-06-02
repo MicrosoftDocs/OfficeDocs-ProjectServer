@@ -43,7 +43,7 @@ Project for the web only supports adding more security roles to the Microsoft Pr
 
 ## Project Team Member
 - Provides user scoped permissions to read, update, and delete project and related entities.
-- The AAD Office Group team that is created when a project is shared is given this role so that member can interact with the project
+- The AAD Office Group team created at the project-sharing stage is given this role so that member can interact with the project.
 
 ## Project User
 Provides user scoped permissions to create, read, update, and delete project and related entities. 
