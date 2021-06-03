@@ -37,6 +37,7 @@
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Project Server",
+      "recommendations": true,
       "contributors_to_exclude": [
         "denisebmsft",
         "rjagiewich", 
