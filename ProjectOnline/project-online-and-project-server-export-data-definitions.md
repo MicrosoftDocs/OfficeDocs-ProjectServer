@@ -514,6 +514,10 @@ ReportingResource contains data about reporting resources. Each **ReportingResou
 |ResourceRequiresEngagements  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
 |ResourceCreatedDate  <br/> |The date and time that a resource was created in the project.  <br/> |
 |ResourceModifiedDate  <br/> |The date that information about a resource was last modified.  <br/> |
+
+
+
+
    
 Each **Customfields** object may have the following properties: 
   
@@ -544,7 +548,7 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |:-----|:-----|
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
-|ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
+|ResourceID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
 |TaskId  <br/> |Unique identifier for the task.  <br/> |
 |ResourceOwnerId  <br/> |Resource ID of the resource owner.  <br/> |
@@ -586,6 +590,9 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentResourcePlanWork  <br/> |The total time that is scheduled for an assignment in the resource plan.  <br/> |
 |TaskIsActive  <br/> |True if the task for the assignment timephased data is active.  <br/> |
 |TimesheetClassUid  <br/> |GUID of the timesheet class.  <br/> |
+|ProjectName  <br/> |The name of a project.  <br/> |
+|AssignmentActualStartDate  <br/> |The date and time that the assignment actually began.  <br/> |
+|AssignmentActualFinishDate <br/> |The date and time when an assignment was actually completed.  <br/> |
    
 ### Resource
 <a name="Resource"> </a>
