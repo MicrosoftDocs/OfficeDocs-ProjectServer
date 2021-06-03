@@ -672,16 +672,10 @@ ResourcePlans contains data about resource plans the user created, modified, or 
 |ResourcePlanCheckedOutByName  <br/> |Name of the user that checked out the resource plan.  <br/> |
 |ResourcePlanCheckedOutDate  <br/> |Date the resource plan was checked out.  <br/> |
 |ResourcePlanPublishStatus  <br/> |Internal property describing publish status.  <br/> |
-|ProjectCurrentRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ProjectCurrentRevRank  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanCreationDate  <br/> |Date and time the resource plan was created.  <br/> |
 |ResourcePlanModDate  <br/> |Date and time the resource plan was last updated.  <br/> |
-|ResourcePlanCreatedRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ResourcePlanModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanStartDate  <br/> |Date and time the resource plan began.  <br/> |
 |ResourcePlanFinishDate  <br/> |Date and time the resource plan ended.  <br/> |
-|ResourcePlanModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ResourcePlanCreatedRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanAssignments  <br/> |Assignments associated with the resource plan.  <br/> |
    
 A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. Each **ResourcePlanAssignments** object may have the following properties: 
