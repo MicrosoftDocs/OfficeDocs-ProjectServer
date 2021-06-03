@@ -2436,6 +2436,18 @@ Reporting_ProjectBaseline contains the properties that define the reporting data
 |:-----|:-----|
 |SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
+|AssignmentUid <br/> |Unique identifier of the assignment.  <br/> |
+|AssignmentType <br/> |Type of the assignment. NormalAssignment=0, WorkOnlyAssignment=1, FixedCostAssignment=2, FixedCostWorkOnlyAssignment=3, EmptyAssignment=4, FixedCostGeneratedAssignment=100 (generated during RDS transfer), ResourcePlanAssignment=101.  <br/> |
+|AssignmentBaselineCost  <br/> |The planned cost of the assignment.  <br/> |
+|AssignmentBaselineWork  <br/> |The total planned person-hours scheduled for an assignment.  <br/> |
+|AssignmentBaselineMaterialWork  <br/> |The planned number of units of supplies or other consumable items that are to be used to complete an assignment. <br/> |
+|AssignmentBaselineBudgetCost  <br/> |The planned cost of an assignment. <br/> |
+|AssignmentBaselineBudgetWork  <br/> |The planned total amount of time that is needed to complete an assignment. <br/> |
+|AssignmentBaselineBudgetMaterialWork  <br/> |The planned number of units of the supplies or other consumable items that are to be used to complete an assignment. <br/> |
+|AssignmentBaselineStartDate  <br/> |The planned start date of the assignment. <br/> |
+|AssignmentBaselineFinishDate  <br/> |The planned finish date of the assignment. <br/> |
+|AssignmentBaselineModifiedDate  <br/> |The planned finish date of the assignment. <br/> |
+|AssignmentBaselineModifiedDate  <br/> |Date and time the assignment baseline was last modified. <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
 |TaskBaselineCost  <br/> |The total planned cost for the task.  <br/> |
