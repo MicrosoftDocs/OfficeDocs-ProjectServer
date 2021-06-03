@@ -1256,7 +1256,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentUpdatesByResource  <br/> |True if the assignment was updated by team member.  <br/> |
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
-|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> ||
+|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1473,6 +1473,7 @@ TaskStatus_AssignmentsSubmitted contains data about status reports that the user
 |OvertimeWork  <br/> |Units of overtime work scheduled for the assignment.  <br/> |
 |ActualWork  <br/> |Actual units of work completed for the assignment. <br/> |
 |ActualOvertimeWork  <br/> |Actual units of overtime work completed for the assignment.<br/> |
+
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
 
