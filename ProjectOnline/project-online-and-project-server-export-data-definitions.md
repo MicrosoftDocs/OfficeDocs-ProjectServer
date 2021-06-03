@@ -1177,6 +1177,9 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
 |TaskCreatedDate  <br/> |Date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
+|AssignmentIsConfirmed  <br/> |Whether the Resource has accepted all of his or her assignments.  <br/> |
+|AssignmentOvertimeCost <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
+
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
 
@@ -1247,7 +1250,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentUpdatesByResource  <br/> |True if the assignment was updated by team member.  <br/> |
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
-|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> ||
+|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1458,7 +1461,13 @@ TaskStatus_AssignmentsSubmitted contains data about status reports that the user
 |TaskCreatedDate  <br/> |The date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
-   
+|AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
+|Date <br/> |Date the work started.  <br/> |
+|Work <br/> |Units of work scheduled for the assignment. <br/> |
+|OvertimeWork  <br/> |Units of overtime work scheduled for the assignment.  <br/> |
+|ActualWork  <br/> |Actual units of work completed for the assignment. <br/> |
+|ActualOvertimeWork  <br/> |Actual units of overtime work completed for the assignment.<br/> |
+
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
 
@@ -1534,7 +1543,6 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
 |AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
-|AssignmentDeletePending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> |Indicates the status of an assignment: 0 - Not edited by resource. 1 - Edited by resource but not updated to the project manager yet.  <br/> |
