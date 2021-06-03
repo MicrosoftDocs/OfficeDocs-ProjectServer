@@ -2390,7 +2390,6 @@ Reporting_AssignmentTimephased contains the properties that define the reporting
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project for the assignment timephased data.  <br/> |
@@ -2678,7 +2677,6 @@ Reporting_TaskBaselineTimephased contains the properties that define the reporti
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
@@ -2701,10 +2699,9 @@ Reporting_TaskTimephased contains the properties that define the reporting data 
 
 | Property | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
-|TaskUID  <br/> |Unique identifier for the task.  <br/> |
+|TaskID  <br/> |Unique identifier for the task.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
-|T.FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
+|FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskIsActive  <br/> |True if the task is active.  <br/> |
 |TaskIsProjectSummary  <br/> |True if the task is a project summary task.  <br/> |
