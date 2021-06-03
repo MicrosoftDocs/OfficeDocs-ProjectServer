@@ -2434,7 +2434,6 @@ Reporting_ProjectBaseline contains the properties that define the reporting data
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |AssignmentUid <br/> |Unique identifier of the assignment.  <br/> |
 |AssignmentType <br/> |Type of the assignment. NormalAssignment=0, WorkOnlyAssignment=1, FixedCostAssignment=2, FixedCostWorkOnlyAssignment=3, EmptyAssignment=4, FixedCostGeneratedAssignment=100 (generated during RDS transfer), ResourcePlanAssignment=101.  <br/> |
