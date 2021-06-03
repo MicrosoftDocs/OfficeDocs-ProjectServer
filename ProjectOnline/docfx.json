@@ -41,6 +41,7 @@
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "ProjectOnline",
+      "recommendations": true,
       "contributors_to_exclude": [
         "denisebmsft",
         "rjagiewich", 
