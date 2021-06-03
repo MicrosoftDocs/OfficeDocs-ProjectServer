@@ -511,7 +511,7 @@ ReportingResource contains data about reporting resources. Each **ReportingResou
 |ResourceWorkgroup  <br/> |A number value that represents a team collaboration method for a resource.  <br/> |
 |ResourceCostCenter  <br/> |A user-defined code for resource cost accounting.  <br/> |
 |ResourceIsTeam  <br/> |True if a resource is a team resource.  <br/> |
-|ResourceRequiresEngagements  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
+|ResourceRequiresEngagement  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
 |ResourceCreatedDate  <br/> |The date and time that a resource was created in the project.  <br/> |
 |ResourceModifiedDate  <br/> |The date that information about a resource was last modified.  <br/> |
 
