@@ -511,9 +511,13 @@ ReportingResource contains data about reporting resources. Each **ReportingResou
 |ResourceWorkgroup  <br/> |A number value that represents a team collaboration method for a resource.  <br/> |
 |ResourceCostCenter  <br/> |A user-defined code for resource cost accounting.  <br/> |
 |ResourceIsTeam  <br/> |True if a resource is a team resource.  <br/> |
-|ResourceRequiresEngagements  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
+|ResourceRequiresEngagement  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
 |ResourceCreatedDate  <br/> |The date and time that a resource was created in the project.  <br/> |
 |ResourceModifiedDate  <br/> |The date that information about a resource was last modified.  <br/> |
+
+
+
+
    
 Each **Customfields** object may have the following properties: 
   
@@ -544,7 +548,8 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |:-----|:-----|
 |AssignmentId  <br/> |Unique identifier for the assignment.  <br/> |
 |ProjectId  <br/> |Unique identifier for the project.  <br/> |
-|ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
+|ProjectName  <br/> |The name of the project.  <br/> |
+|ResourceID  <br/> |Unique identifier for the resource.  <br/> |
 |ResourceName  <br/> |Display name of the resource.  <br/> |
 |TaskId  <br/> |Unique identifier for the task.  <br/> |
 |ResourceOwnerId  <br/> |Resource ID of the resource owner.  <br/> |
@@ -561,6 +566,8 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentPercentWorkCompleted  <br/> |Percentage of work that has been completed.  <br/> |
 |AssignmentStartDate  <br/> |Date a resource is scheduled to begin an assignment.  <br/> |
 |AssignmentFinishDate  <br/> |Assignment finish date.  <br/> |
+|AssignmentActualStartDate  <br/> |The date and time that the assignment actually began. <br/> |
+|AssignmentActualFinishDate  <br/> |The date and time when an assignment was actually completed.  <br/> |
 |AssignmentDelay  <br/> |Amount of time a resource is to wait before starting to work on an assignment.  <br/> |
 |AssignmentStartVariance  <br/> |Variance at the start of the assignment.  <br/> |
 |AssignmentFinishVariance  <br/> |Variance at the assignment finish.  <br/> |
@@ -586,6 +593,9 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentResourcePlanWork  <br/> |The total time that is scheduled for an assignment in the resource plan.  <br/> |
 |TaskIsActive  <br/> |True if the task for the assignment timephased data is active.  <br/> |
 |TimesheetClassUid  <br/> |GUID of the timesheet class.  <br/> |
+|ProjectName  <br/> |The name of a project.  <br/> |
+|AssignmentActualStartDate  <br/> |The date and time that the assignment actually began.  <br/> |
+|AssignmentActualFinishDate <br/> |The date and time when an assignment was actually completed.  <br/> |
    
 ### Resource
 <a name="Resource"> </a>
@@ -672,16 +682,10 @@ ResourcePlans contains data about resource plans the user created, modified, or 
 |ResourcePlanCheckedOutByName  <br/> |Name of the user that checked out the resource plan.  <br/> |
 |ResourcePlanCheckedOutDate  <br/> |Date the resource plan was checked out.  <br/> |
 |ResourcePlanPublishStatus  <br/> |Internal property describing publish status.  <br/> |
-|ProjectCurrentRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ProjectCurrentRevRank  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanCreationDate  <br/> |Date and time the resource plan was created.  <br/> |
 |ResourcePlanModDate  <br/> |Date and time the resource plan was last updated.  <br/> |
-|ResourcePlanCreatedRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ResourcePlanModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanStartDate  <br/> |Date and time the resource plan began.  <br/> |
 |ResourcePlanFinishDate  <br/> |Date and time the resource plan ended.  <br/> |
-|ResourcePlanModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ResourcePlanCreatedRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
 |ResourcePlanAssignments  <br/> |Assignments associated with the resource plan.  <br/> |
    
 A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. Each **ResourcePlanAssignments** object may have the following properties: 
@@ -961,7 +965,7 @@ Each **StatusReportDistribution** object may have the following properties:
 |CreatedDate  <br/> |Date the distribution was created.  <br/> |
 |ModifiedDate  <br/> |Date the distribution was last updated.  <br/> |
    
-Each **WorkDetails** object may have the following properties: 
+Each **WeekDetails** object may have the following properties: 
   
 | Properties | Description |
 |:-----|:-----|
@@ -1183,6 +1187,9 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
 |TaskCreatedDate  <br/> |Date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
+|AssignmentIsConfirmed  <br/> |Whether the Resource has accepted all of his or her assignments.  <br/> |
+|AssignmentOvertimeCost <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
+
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
 
@@ -1253,7 +1260,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentUpdatesByResource  <br/> |True if the assignment was updated by team member.  <br/> |
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
-|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> ||
+|AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> | Indicates the status of an assignment.  <br/>  0 - Not edited by resource.  <br/>  1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1464,7 +1471,13 @@ TaskStatus_AssignmentsSubmitted contains data about status reports that the user
 |TaskCreatedDate  <br/> |The date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
-   
+|AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
+|Date <br/> |Date the work started.  <br/> |
+|Work <br/> |Units of work scheduled for the assignment. <br/> |
+|OvertimeWork  <br/> |Units of overtime work scheduled for the assignment.  <br/> |
+|ActualWork  <br/> |Actual units of work completed for the assignment. <br/> |
+|ActualOvertimeWork  <br/> |Actual units of overtime work completed for the assignment.<br/> |
+
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
 
@@ -1540,7 +1553,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRequestsUpdates  <br/> |Indicates whether a team resource has submitted actuals.  <br/> |
 |AssignmentUpdatesAccepted  <br/> |True is status updates made for assignment where accepted.  <br/> |
 |AssignmentActualsPending  <br/> |True if accepted updates are pending to be applied to the plan.  <br/> |
-|AssignmentDeletePending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
+|AssignmentDelegationPending  <br/> |True if delete for assignment is pending to be applied.  <br/> |
 |AssignmentIsDelegated  <br/> |True if assignment was created by a reassign operation.  <br/> |
 |AssignmentIsNew  <br/> |True if assignment is newly created for team member.  <br/> |
 |AssignmentUpdateStatus  <br/> |Indicates the status of an assignment: 0 - Not edited by resource. 1 - Edited by resource but not updated to the project manager yet.  <br/> |
@@ -1556,7 +1569,8 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |ReservedData1  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData2  <br/> |Used to temporarily store calculated values.  <br/> |
 |ReservedData3  <br/> |Used to temporarily store calculated values.  <br/> |
-|AssignmentTDModifyDate  <br/> |Last modified date for assignment timephased data.  <br/> |
+|AssignmentTDModifyDate  <br/> |The sum of the actual and remaining overtime cost of the assignment. <br/> |
+|AssignmentOvertimeCost  <br/> |Last modified date for assignment timephased data.  <br/> |
 |AssignmentResumeDate  <br/> |The date that the assignment resumed.  <br/> |
 |AssignmentStopDate  <br/> |The date that the assignment was stopped.  <br/> |
 |AssignmentIsPublished  <br/> |True if assignment is published.  <br/> |
@@ -2388,7 +2402,6 @@ Reporting_AssignmentTimephased contains the properties that define the reporting
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project for the assignment timephased data.  <br/> |
@@ -2433,8 +2446,19 @@ Reporting_ProjectBaseline contains the properties that define the reporting data
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
+|AssignmentUid <br/> |Unique identifier of the assignment.  <br/> |
+|AssignmentType <br/> |Type of the assignment. NormalAssignment=0, WorkOnlyAssignment=1, FixedCostAssignment=2, FixedCostWorkOnlyAssignment=3, EmptyAssignment=4, FixedCostGeneratedAssignment=100 (generated during RDS transfer), ResourcePlanAssignment=101.  <br/> |
+|AssignmentBaselineCost  <br/> |The planned cost of the assignment.  <br/> |
+|AssignmentBaselineWork  <br/> |The total planned person-hours scheduled for an assignment.  <br/> |
+|AssignmentBaselineMaterialWork  <br/> |The planned number of units of supplies or other consumable items that are to be used to complete an assignment. <br/> |
+|AssignmentBaselineBudgetCost  <br/> |The planned cost of an assignment. <br/> |
+|AssignmentBaselineBudgetWork  <br/> |The planned total amount of time that is needed to complete an assignment. <br/> |
+|AssignmentBaselineBudgetMaterialWork  <br/> |The planned number of units of the supplies or other consumable items that are to be used to complete an assignment. <br/> |
+|AssignmentBaselineStartDate  <br/> |The planned start date of the assignment. <br/> |
+|AssignmentBaselineFinishDate  <br/> |The planned finish date of the assignment. <br/> |
+|AssignmentBaselineModifiedDate  <br/> |The planned finish date of the assignment. <br/> |
+|AssignmentBaselineModifiedDate  <br/> |Date and time the assignment baseline was last modified. <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
 |TaskBaselineCost  <br/> |The total planned cost for the task.  <br/> |
@@ -2676,7 +2700,6 @@ Reporting_TaskBaselineTimephased contains the properties that define the reporti
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskUID  <br/> |Unique identifier for the task.  <br/> |
@@ -2699,10 +2722,9 @@ Reporting_TaskTimephased contains the properties that define the reporting data 
 
 | Property | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
-|TaskUID  <br/> |Unique identifier for the task.  <br/> |
+|TaskID  <br/> |Unique identifier for the task.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
-|T.FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
+|FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
 |TaskIsActive  <br/> |True if the task is active.  <br/> |
 |TaskIsProjectSummary  <br/> |True if the task is a project summary task.  <br/> |
