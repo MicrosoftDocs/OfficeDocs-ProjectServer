@@ -36,11 +36,11 @@ In this article:
 
 If you are planning to upgrade to Project Server Subscription Edition, it is important to know the following:
   
-- **You can only upgrade to Project Server Subscription Edition through Project Server 2016 or 2019** If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 or 2019 first in order to upgrade to Project Server Subscription Edition. 
+- **You can only upgrade to Project Server Subscription Edition through Project Server 2016 or 2019**. If you are upgrading from earlier versions of Project Server, you must upgrade your databases to Project Server 2016 or 2019 first in order to upgrade to Project Server Subscription Edition. 
    
-- **No in-place upgrade** You must first create a Project Server Subscription Edition installation, and then attach and upgrade your Project Server 2016 or 2019 databases to the new farm. In-place upgrade is not supported.
+- **No in-place upgrade**. You must first create a Project Server Subscription Edition installation, and then attach and upgrade your Project Server 2016 or 2019 databases to the new farm. In-place upgrade is not supported.
     
-- **Upgrade through Microsoft PowerShell cmdlets** Similar to the Project Server 2019 upgrade experience, upgrading to Project Server Subscription Edition will be through the use of PowerShell cmdlets. You can use the SharePoint Subscription Edition Management Shell to run the correct version of the cmdlets used for upgrade.
+- **Upgrade through Microsoft PowerShell cmdlets**. Similar to the Project Server 2019 upgrade experience, upgrading to Project Server Subscription Edition will be by using PowerShell cmdlets. You can use the SharePoint Subscription Edition Management Shell to run the correct version of the cmdlets used for upgrade.
     
 ## Upgrading from an earlier version of Project Server
 <a name="Upg"> </a>
@@ -54,7 +54,7 @@ Since upgrading to Project Server Subscription Edition from Project Server 2016 
 |Project Server 2019 |1. Upgrade to Project Server Subscription Edition <br/>|
 
 
-For more informations:<br/>
+For more information, see:<br/>
 [Upgrade to Project Server 2013](./upgrade-to-project-server-2016.md) <br/> 
 [Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> 
    

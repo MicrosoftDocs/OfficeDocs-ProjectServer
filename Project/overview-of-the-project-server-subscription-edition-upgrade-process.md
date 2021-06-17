@@ -34,9 +34,9 @@ Upgrading to Project Server Subscription Edition can be broken up into four step
     > [!IMPORTANT]
     > Project Server Subscription Edition can only be enabled on the Enterprise version of SharePoint Server Subscription Edition. Project Server Subscription Edition cannot be enabled on SharePoint Server Subscription Edition with a Standard license. 
   
-2. Copy and move your database from your Project Server 2016 or 2019 database server to the database server that hosts your Project Server Subscription Edition installation. This databases is SharePoint 2016 or 2019 content database that contains your project site collections
+2. Copy and move your database from your Project Server 2016 or 2019 database server to the database server that hosts your Project Server Subscription Edition installation. This database is SharePoint 2016 or 2019 content database that contains your project site collections.
     
-3. Use the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to attach and upgrade the SharePoint 2016 or 2019 content database containing your Project site data to the Project Server Subscription Edition.
+3. Use the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?) PowerShell cmdlet to attach and upgrade the SharePoint 2016 or 2019 content database containing your Project site data to the Project Server Subscription Edition.
     
-4. Use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to check your upgraded SharePoint content databases.
+4. Use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/test-spcontentdatabase?) PowerShell cmdlet to check your upgraded SharePoint content databases.
     
