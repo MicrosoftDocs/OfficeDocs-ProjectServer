@@ -1,5 +1,5 @@
 ---
-title: "Install and configure Project Servers 2016 or 2019"
+title: "Install and configure Project Servers 2016 or 2019 or Subscription Edition"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -11,10 +11,10 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 54bd9a14-ede6-445e-9b44-a03798b6d1b0
-description: "Summary: Configure Project Servers 2016 or 2019 on a SharePoint Server farm."
+description: "Summary: Configure Project Servers 2016 or 2019 or Subscription Edition on a SharePoint Server farm."
 ---
 
-# Install and configure Project Servers 2016 or 2019
+# Install and configure Project Servers 2016 or 2019 or Subscription Edition
  
  **Summary:** Configure Project Servers 2016 or 2019 or Subscription Edition on a SharePoint Server 2016 or SharePoint Server 2019 farm or SharePoint Server Subscription Edition farm.<br/>
 **Applies to:** Project Server 2016, Project Server 2019, Project Server Subscription Edition
