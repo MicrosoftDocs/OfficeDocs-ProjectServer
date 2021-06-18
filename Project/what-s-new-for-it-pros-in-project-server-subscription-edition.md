@@ -84,8 +84,8 @@ Since Project Server Subscription Edition is now a service application in ShareP
 |||
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2019 Standard or Datacenter <br/> |
-|**Supported Database Server** **:** <br/> | Microsoft SQL Server 2019 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
-|**Supported browser** **s:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/>Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
+|**Supported Database Server:** <br/> | Microsoft SQL Server 2019 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
+|**Supported browser's:** <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/>Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
    
  **Project client compatibility**
 You can connect to Project Server Subscription Edition with not only Project Professional 2021 and the Project Online Desktop Client, but also with Project Professional 2019. 
