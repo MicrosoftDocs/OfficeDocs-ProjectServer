@@ -25,7 +25,7 @@ This article provides a brief overview of new and significantly updated function
     
 - [Hardware and software requirements](what-s-new-for-it-pros-in-project-server-2019.md#Req)
     
-- [Upgrading to Project Server Subscription Edition Public Prevew ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
+- [Upgrading to Project Server Subscription Edition Public Preview ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
     
 - [Project Web App changes](what-s-new-for-it-pros-in-project-server-2019.md#PWAChanges)
     
@@ -35,7 +35,7 @@ This article provides a brief overview of new and significantly updated function
 
 Now that both the Project Server Subscription Edition and SharePoint Server Subscription Edition are installed through a single installation, the base language is automatically matched for both. For example, when you install SharePoint Server Subscription Edition (English - US), the base installation language for both Project Server Subscription Edition and SharePoint Server Subscription Edition will be English - US. 
   
-There is a special case in which the base installation language for SharePoint Server Subscription Edition and Project Server Subscription Edition do not match:
+There is a special case in which the base installation language for SharePoint Server Subscription Edition and Project Server Subscription Edition does not match:
   
 |||
 |:-----|:-----|
@@ -117,7 +117,7 @@ When planning to upgrade to Project Server Subscription Edition take note of the
     
 - **No in-place upgrade** - You must first create a Project Server Subscription Edition farm, and then attach and upgrade your Project Server 2016 or 2019 databases to the new farm. In-place upgrade is not supported.
     
-- **Upgrade through Microsoft PowerShell** - Similar to the Project Server 2016 or 2019 upgrade experience, upgrading to Project Server Subscription Edition will be through the use of PowerShell cmdlets.
+- **Upgrade through Microsoft PowerShell** - Similar to the Project Server 2016 or 2019 upgrade experience, upgrading to Project Server Subscription Edition will be by using PowerShell cmdlets.
     
 - **Migrate your Project Server Resource Plans** -  You can migrate your Project Server Resource Plans data to Resource Engagements in Project Server Subscription Edition. 
     
