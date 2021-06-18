@@ -29,7 +29,8 @@ In this article:
 - [Upgrading multiple Project Web App sites](plan-for-upgrade-to-project-server-2019.md#MultPWA)
     
 > [!NOTE]
-> <br/>For an overview of the steps in the upgrade process, see [Overview of the Project Server Subscription Edition upgrade process](overview-of-the-project-server-2019-upgrade-process.md).<br/> <br/>For details information about the upgrade process, see [Upgrading to Project Server Subscription Edition](upgrading-to-project-server-2019.md). 
+> For an overview of the steps in the upgrade process, see [Overview of the Project Server Subscription Edition upgrade process](overview-of-the-project-server-2019-upgrade-process.md).
+> For more information about the upgrade process, see [Upgrading to Project Server Subscription Edition](upgrading-to-project-server-2019.md). 
   
 ## Things you need to know about upgrading to Project Server Subscription Edition
 <a name="thingknow"> </a>
