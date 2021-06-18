@@ -782,6 +782,9 @@ Rules contains data about approval rules defined by status manager to approve ce
 |RuleConditionType  <br/> |If extra filtering is done in this rule this filed will have one of the values: None, Compare with fix string, or Compare with Database Column.  <br/> |
 |Field1  <br/> |The left side of the filter  <br/> |
 |Field2  <br/> |The right side of the filter  <br/> |
+|Field1Name <br/> |Fields used for comparisons in approval rules.  <br/> |
+|Field2Name <br/> |Fields used for comparisons in approval rules.  <br/> |
+|AssignmentLastDelegationId  <br/> |The last delegation performed on this assignment. <br/> |
 |Operator  <br/> |Operator (can be Equal, Not Equal, Less Than, Greater Than, Less Than or Equal, Greater Than, or Equal).  <br/> |
 |ValueType  <br/> |Type of right side of the filter (can be string, int, double, date, bool).  <br/> |
 |IntValue  <br/> |Value to compare with if ValueType is  *Int*  .  <br/> |
@@ -1187,6 +1190,9 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
 |TaskCreatedDate  <br/> |Date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
+|TaskStartOffset  <br/> |Offset for the task start  <br/> |
+|TaskReservedData <br/> |Used to temporarily store calculated values.  <br/> |
+|TaskSummaryProgressDate <br/> |Internal user only.  <br/> |
 
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
@@ -1301,7 +1307,16 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentHyperlinkSubAddress  <br/> |The specific location in a document within a hyperlink associated with a assignment.  <br/> |
 |AssignmentNotes  <br/> |The notes that are entered in the assignment details dialog box.  <br/> |
 |AssignmentVAC  <br/> |The difference between baseline cost and total cost.  <br/> |
-   
+|ReserverData <br/> |Internal user only.  <br/> |
+|AssignmentIsConfirmed  <br/> |Indicates whether this resource has accepted or rejected the task assignment. <br/> |
+|HistoryNotes <br/> |Archives user comments about an assignment. <br/> | 
+|AssignmentDelegationPending <br/> |True if delete for assignment is pending to be applied. <br/> | 
+|WNWRK_UID  <br/> Internal use only. <br/> |
+|WNWORK_ENTRY_UID  <br/> Internal use only. <br/> |
+|AssignmentOvertimeCost  <br/> The total overtime cost for an assignment, including costs for overtime work that has already been performed, in addition to remaining overtime costs. <br/> |
+|AssignmentCV  <br/> Earned value cost variance. <br/> |
+|ProjectSummaryAssignmentID <br/> |Unique identifier of the project summary assignment. <br/> |
+
 Each **Assignments** object may have a collection of **Timephased** objects, which may have the following properties: 
   
 | Properties | Description |
