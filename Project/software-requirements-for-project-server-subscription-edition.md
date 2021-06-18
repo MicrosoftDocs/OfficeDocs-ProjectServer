@@ -36,7 +36,7 @@ Some of the key software requirements for SharePoint Server Subscription Edition
 |**Supported Server Operating Systems:**  <br/> | Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server:**  <br/> | Microsoft SQL Server 2019 RTM for Windows Services<br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
 |**Supported browsers:**  <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
-
+    
 > [!NOTE]
 > For information about the hardware, software, and browser requirement for SharePoint Server Subscription Edition, see [System requirements for SharePoint Server Subscription Edition](/sharepoint/install/hardware-and-software-requirements-2019).
 
@@ -48,6 +48,7 @@ You can connect to Project Server Subscription Edition with not only Project Pro
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server Subscription Edition<br/> |Project Professional 2021 <br/> Project Professional 2019 <br/>  Project Online Desktop Client <br/> <br/> |
+    
 
 ## Cube Building Service requirements
 
@@ -58,8 +59,6 @@ SQL Server 2019 Analysis Services must also be installed on your SQL Server 2019
 For charts to render correctly in your browser when using Portfolio Analysis in Project Server Subscription Edition, the State Service needs to be running in your SharePoint farm.
   
 ## See also
-
-#### 
 
 [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md)
 
