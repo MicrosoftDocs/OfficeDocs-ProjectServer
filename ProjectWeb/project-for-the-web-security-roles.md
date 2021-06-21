@@ -17,12 +17,13 @@ Project for the web includes several security roles that enable users to work wi
 ## Behavior with AAD Groups
 When a project is shared with an AAD Office Group, the Microsoft Project Application user will
 1. Create a Team that is backed by the AAD Group.  The name of the team will be the same as the AAD Office group when possible.
+
 2. The team is given the following security roles
    * Project Team Member 
    * Project Common 
 
-> [!Note] 
-> Today, in the Default org, the team is given Project User role but this is being changed to the above
+   > [!Note] 
+   > Today, in the Default org, the team is given Project User role but this is being changed to the above
 
 3. Ownership of the project and related tables is changed from the current owning user to the newly created team.
 Project for the web only supports adding more security roles to the Microsoft Project Application user. Other changes/modification are not supported and can cause the service not to function. The Project Common role can modify to support least privilege and customization
