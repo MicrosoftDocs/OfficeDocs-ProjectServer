@@ -30,7 +30,7 @@ Project Servers 2016 or 2019 or Subscription Edition requires a license in order
 > [!NOTE]
 > To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
-If you're not sure if Project Server 2016 or 2019 or Subscription Edition has already been enabled, use the [Get-ProjectServerLicense](/powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps) cmdlet to check.
+If you're not sure if Project Server 2016 or 2019 or Subscription Edition has already been enabled, use the [Get-ProjectServerLicense](/powershell/module/sharepoint-server/get-projectserverlicense) cmdlet to check.
   
 ### To activate Project Servers 2016 or 2019 or Subscription Edition
 
@@ -44,7 +44,7 @@ If you're not sure if Project Server 2016 or 2019 or Subscription Edition has al
     
     •Local Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use Project Server cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin) cmdlet to grant permissions to use Project Server cmdlets. 
 
 
     
@@ -99,7 +99,5 @@ After the application pool account has been registered with SharePoint Server, t
 The next step is to determine how you want to deploy Project Web App. Go to the next article, [Deploy Project Web App](deploy-project-web-app.md).
   
 ## See also
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

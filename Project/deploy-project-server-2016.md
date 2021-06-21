@@ -31,8 +31,6 @@ Deploying Project Server 2016 or 2019 or Subscription Edition consists of the fo
     
 ## See also
 
-#### 
-
 [Upgrade to Project Server 2016](upgrade-to-project-server-2016.md)
 
 [Upgrade to Project Server 2019](upgrade-to-project-server-2019.md)
