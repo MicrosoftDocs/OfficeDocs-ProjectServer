@@ -2,7 +2,7 @@
 title: "Plan the project life cycle in Project Web App"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
 ms.topic: concetpual
