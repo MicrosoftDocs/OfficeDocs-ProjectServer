@@ -2,7 +2,7 @@
 title: "Determine the number and types of users that require access to Project Server 2016"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
 ms.topic: concetpual

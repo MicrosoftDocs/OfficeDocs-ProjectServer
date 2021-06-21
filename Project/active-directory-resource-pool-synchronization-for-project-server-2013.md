@@ -2,7 +2,7 @@
 title: "Active Directory Resource Pool Synchronization for Project Server 2013"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/01/2017
 audience: ITPro
 ms.topic: article

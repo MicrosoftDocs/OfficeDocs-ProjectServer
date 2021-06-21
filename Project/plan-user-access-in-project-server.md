@@ -2,7 +2,7 @@
 title: "Plan user access in Project Server"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 8/1/2017
 audience: ITPro
 ms.topic: concetpual

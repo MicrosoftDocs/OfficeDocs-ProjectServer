@@ -2,7 +2,7 @@
 title: "Project Server 2013 backup and restore"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article

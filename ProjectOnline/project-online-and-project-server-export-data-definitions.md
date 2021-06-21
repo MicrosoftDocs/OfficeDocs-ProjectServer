@@ -782,6 +782,9 @@ Rules contains data about approval rules defined by status manager to approve ce
 |RuleConditionType  <br/> |If extra filtering is done in this rule this filed will have one of the values: None, Compare with fix string, or Compare with Database Column.  <br/> |
 |Field1  <br/> |The left side of the filter  <br/> |
 |Field2  <br/> |The right side of the filter  <br/> |
+|Field1Name <br/> |Fields used for comparisons in approval rules.  <br/> |
+|Field2Name <br/> |Fields used for comparisons in approval rules.  <br/> |
+|AssignmentLastDelegationId  <br/> |The last delegation performed on this assignment. <br/> |
 |Operator  <br/> |Operator (can be Equal, Not Equal, Less Than, Greater Than, Less Than or Equal, Greater Than, or Equal).  <br/> |
 |ValueType  <br/> |Type of right side of the filter (can be string, int, double, date, bool).  <br/> |
 |IntValue  <br/> |Value to compare with if ValueType is  *Int*  .  <br/> |
@@ -1187,8 +1190,9 @@ TaskStatus_AssignmentsSaved contains data about status reports that the user cre
 |TaskCreatedDate  <br/> |Date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
-|AssignmentIsConfirmed  <br/> |Whether the Resource has accepted all of his or her assignments.  <br/> |
-|AssignmentOvertimeCost <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
+|TaskStartOffset  <br/> |Offset for the task start  <br/> |
+|TaskReservedData <br/> |Used to temporarily store calculated values.  <br/> |
+|TaskSummaryProgressDate <br/> |Internal user only.  <br/> |
 
    
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
@@ -1235,6 +1239,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentActualOvertimeWork  <br/> |The actual amount of overtime work incurred on the assignment.  <br/> |
 |AssignmentRemainingOvertimeWork  <br/> |The remaining overtime work scheduled to complete the assignment.  <br/> |
 |AssignmentOvertimeCost  <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
+|AssignmentOvertimeCost1  <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
 |AssignmentRemainingOvertimeCost  <br/> |The remaining projected overtime cost of completing the assignment.  <br/> |
 |AssignmentRTFNotes  <br/> |Represents notes that are associated with the specified assignment, and that are stored in Rich Text Format.  <br/> |
 |AssignmentBookingType  <br/> |Specifies the booking type of the assignment. 1=Commited, 2=Proposed.  <br/> |
@@ -1249,6 +1254,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentNoteStatus  <br/> |Indicates whether a note has been entered for the assignment.  <br/> |
 |TaskIsSummary  <br/> |Specifies whether the task is a summary task.  <br/> |
 |AssignmentIsConfirmed  <br/> |Whether the Resource has accepted all of his or her assignments.  <br/> |
+|AssignmentIsConfirmed1  <br/> |Whether the Resource has accepted all of his or her assignments.  <br/> |
 |AssignmentUpdatedByManager  <br/> |True if the assignment was updated by Project Manager.  <br/> |
 |AssignmentLockeByManager  <br/> |True if this assignment doesn't accept update from team member anymore.  <br/> |
 |AssignmentCreatedByResourceId  <br/> |Resource ID of the assignment creator.  <br/> |
@@ -1301,7 +1307,16 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentHyperlinkSubAddress  <br/> |The specific location in a document within a hyperlink associated with a assignment.  <br/> |
 |AssignmentNotes  <br/> |The notes that are entered in the assignment details dialog box.  <br/> |
 |AssignmentVAC  <br/> |The difference between baseline cost and total cost.  <br/> |
-   
+|ReserverData <br/> |Internal user only.  <br/> |
+|AssignmentIsConfirmed  <br/> |Indicates whether this resource has accepted or rejected the task assignment. <br/> |
+|HistoryNotes <br/> |Archives user comments about an assignment. <br/> | 
+|AssignmentDelegationPending <br/> |True if delete for assignment is pending to be applied. <br/> | 
+|WNWRK_UID  <br/> Internal use only. <br/> |
+|WNWORK_ENTRY_UID  <br/> Internal use only. <br/> |
+|AssignmentOvertimeCost  <br/> The total overtime cost for an assignment, including costs for overtime work that has already been performed, in addition to remaining overtime costs. <br/> |
+|AssignmentCV  <br/> Earned value cost variance. <br/> |
+|ProjectSummaryAssignmentID <br/> |Unique identifier of the project summary assignment. <br/> |
+
 Each **Assignments** object may have a collection of **Timephased** objects, which may have the following properties: 
   
 | Properties | Description |
@@ -1471,12 +1486,6 @@ TaskStatus_AssignmentsSubmitted contains data about status reports that the user
 |TaskCreatedDate  <br/> |The date the task was created.  <br/> |
 |TaskModifiedDate  <br/> |The date the task was last updated.  <br/> |
 |Assignments  <br/> |The collection of assignments that make up the project.  <br/> |
-|AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
-|Date <br/> |Date the work started.  <br/> |
-|Work <br/> |Units of work scheduled for the assignment. <br/> |
-|OvertimeWork  <br/> |Units of overtime work scheduled for the assignment.  <br/> |
-|ActualWork  <br/> |Actual units of work completed for the assignment. <br/> |
-|ActualOvertimeWork  <br/> |Actual units of overtime work completed for the assignment.<br/> |
 
 Each **Tasks** object may have a collection of **Assignments** objects, which may have the following properties: 
   
@@ -1597,7 +1606,17 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentRemovedFromTS  <br/> |Indicates if the assignment was removed from the timesheet.  <br/> |
 |AssignmentCreatedDate  <br/> |The date that the assignment was created.  <br/> |
 |AssignmentModifiedDate  <br/> |The date that the assignment was last updated.  <br/> |
-
+   
+Each **Assignments** object may have a collection of **Timephased** objects, which may have the following properties: 
+  
+| Properties | Description |
+|:-----|:-----|
+|AssignmentUID  <br/> |Unique identifier for the assignement.  <br/> |
+|Date  <br/> |Date the work started.  <br/> |
+|Work  <br/> |Units of work scheduled for the assignment.  <br/> |
+|OvertimeWork  <br/> |Units of overtime work scheduled for the assignment.  <br/> |
+|ActualWork  <br/> |Actual units of work completed for the assignment.  <br/> |
+|ActualOvertimeWork  <br/> |Actual units of overtime work completed for the assignment.  <br/> |
    
 Each **Assignments** object may have a collection of **CustomFields** objects, which may have the following properties: 
   
