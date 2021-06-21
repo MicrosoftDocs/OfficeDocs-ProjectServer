@@ -2,7 +2,7 @@
 title: "Configure SQL Server and Analysis Services in Project Server 2013"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article

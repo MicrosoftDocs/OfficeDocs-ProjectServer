@@ -2,7 +2,7 @@
 title: "Project Server 2016 architecture"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 8/31/2016
 audience: ITPro
 ms.topic: concetpual

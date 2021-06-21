@@ -2,7 +2,7 @@
 title: "Customize approval options for Project Web App workflows"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Upgrading to Project Server 2016"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 4/21/2017
 audience: ITPro
 ms.topic: article

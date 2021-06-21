@@ -2,7 +2,7 @@
 title: "Disable permissions in Project Web App (Project Server permission mode) (Project Server 2013)"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article

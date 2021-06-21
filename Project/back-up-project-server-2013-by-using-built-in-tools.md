@@ -2,7 +2,7 @@
 title: "Back up Project Server 2013 by using built-in tools"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article

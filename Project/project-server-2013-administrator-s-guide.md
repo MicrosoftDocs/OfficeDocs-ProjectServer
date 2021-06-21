@@ -2,7 +2,7 @@
 title: "Project Server 2013 Administrator's Guide"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
