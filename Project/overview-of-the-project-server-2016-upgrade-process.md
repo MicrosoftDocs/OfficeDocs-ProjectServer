@@ -2,7 +2,7 @@
 title: "Overview of the Project Server 2016 upgrade process"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article

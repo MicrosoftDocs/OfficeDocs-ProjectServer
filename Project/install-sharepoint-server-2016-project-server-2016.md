@@ -2,7 +2,7 @@
 title: "Install SharePoint Server 2016 (Project Server 2016)"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/20/2016
 audience: ITPro
 ms.topic: hub-page

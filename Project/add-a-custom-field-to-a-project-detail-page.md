@@ -2,7 +2,7 @@
 title: "Add a custom field to a project detail page"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article

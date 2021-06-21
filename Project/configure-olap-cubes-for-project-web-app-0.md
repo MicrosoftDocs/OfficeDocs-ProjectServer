@@ -2,7 +2,7 @@
 title: "Configure OLAP cubes for Project Web App"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/21/2017
 audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Delete user delegates in Project Server"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
