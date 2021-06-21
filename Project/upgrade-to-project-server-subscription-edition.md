@@ -26,7 +26,7 @@ This series of articles describes how to plan and upgrade to Project Server Subs
 
 The following articles about upgrading to Project Server Subscription Edition are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+| |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Overview of the Project Server Subscription Edition upgrade process](overview-of-the-project-server-subscription-edition-upgrade-process.md) <br/> |Provides an overview of the steps required to upgrade to Project Server Subscription Edition.  <br/> |
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Plan for upgrade to Project Server Subscription Edition](plan-for-upgrade-to-project-server-subscription-edition.md) <br/> |Learn about things you need to consider when planning to upgrade to Project Server Subscription Edition.  <br/> |
