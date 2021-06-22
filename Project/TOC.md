@@ -69,7 +69,7 @@
 ##### [Configure SQL Server and Analysis Services](configure-sql-server-and-analysis-services-in-project-server-2013-0.md)
 ##### [Add an application server to a farm in Project Server 2013](add-an-application-server-to-a-farm-in-project-server-2013.md)
 #### [Deploy language packs in Project Server 2013](deploy-language-packs-in-project-server-2013.md)
-### [Upgrade to Project Server Subscription Edition]
+### [Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md)
 #### [Overview of the upgrade process](overview-of-the-project-server-subscription-edition-upgrade-process.md)
 #### [Plan for upgrade](plan-for-upgrade-to-project-server-subscription-edition.md)
 #### [Upgrading to Project Server Subscription Edition](upgrading-to-project-server-subscription-edition.md)
