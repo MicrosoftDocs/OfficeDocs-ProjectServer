@@ -2,7 +2,7 @@
 title: "Delete enterprise objects in Project Server"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article

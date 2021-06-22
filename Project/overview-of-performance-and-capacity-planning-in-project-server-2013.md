@@ -2,7 +2,7 @@
 title: "Overview of performance and capacity planning in Project Server 2013"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article

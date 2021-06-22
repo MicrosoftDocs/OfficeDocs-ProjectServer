@@ -2,7 +2,7 @@
 title: "Project Server 2013 Performance Lab (white paper)"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article

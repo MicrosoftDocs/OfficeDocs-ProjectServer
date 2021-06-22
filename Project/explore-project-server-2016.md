@@ -2,7 +2,7 @@
 title: "Explore Project Server 2016"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 1/19/2016
 audience: ITPro
 ms.topic: hub-page

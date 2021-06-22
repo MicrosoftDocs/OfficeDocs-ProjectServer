@@ -2,7 +2,7 @@
 title: "Planning Project Server and Project Online for technical decision makers"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/20/2016
 audience: ITPro
 ms.topic: article

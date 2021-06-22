@@ -2,7 +2,7 @@
 title: "Software requirements for Project Server 2016"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 12/7/2016
 audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Manage users in Project Server"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 10/10/2017
 audience: ITPro
 ms.topic: article

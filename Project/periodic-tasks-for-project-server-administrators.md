@@ -2,7 +2,7 @@
 title: "Periodic tasks for Project Server administrators"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 5/16/2017
 audience: Admin
 ms.topic: get-started-article

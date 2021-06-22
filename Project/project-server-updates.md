@@ -2,7 +2,7 @@
 title: "Project Server Updates"
 ms.author: serdars
 author: serdars
-manager: scotv
+manager: serdars
 ms.date: 11/14/2017
 audience: ITPro
 ms.topic: overview
