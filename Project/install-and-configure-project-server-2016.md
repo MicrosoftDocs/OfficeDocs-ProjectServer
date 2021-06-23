@@ -1,5 +1,5 @@
 ---
-title: "Install and configure Project Servers 2016 or 2019 or Subscription Edition"
+title: "Install and configure Project Servers Subscription Edition, 2019, or 2016"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -11,28 +11,28 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 54bd9a14-ede6-445e-9b44-a03798b6d1b0
-description: "Summary: Configure Project Servers 2016 or 2019 or Subscription Edition on a SharePoint Server farm."
+description: "Summary: Configure Project Servers Subscription Edition, 2019, or 2016 on a SharePoint Server farm."
 ---
 
-# Install and configure Project Servers 2016 or 2019 or Subscription Edition
+# Install and configure Project Servers Subscription Edition, 2019, or 2016
  
- **Summary:** Configure Project Servers 2016 or 2019 or Subscription Edition on a SharePoint Server 2016 or SharePoint Server 2019 farm or SharePoint Server Subscription Edition farm.<br/>
-**Applies to:** Project Server 2016, Project Server 2019, Project Server Subscription Edition
+ **Summary:** Configure Project Servers Subscription Edition, 2019, or 2016 on a SharePoint Server 2016 or SharePoint Server 2019 farm or SharePoint Server Subscription Edition farm.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
-Project Server runs as a service application under SharePoint Server. It is included as part of the SharePoint Server 2016 or SharePoint Server 2019 or SharePoint Server Subscription Edition Enterprise installation, though it is licensed separately. This article describes configuring Project Servers 2016 or 2019 or Subscription Edition, including provisioning the Project Server Service Application. Project Servers 2016 or 2019 or Subscription Edition are only available on SharePoint Servers 2016 or 2019 or Subscription Edition Public Preview Enterprise.
+Project Server runs as a service application under SharePoint Server. It is included as part of the SharePoint Server 2016 or SharePoint Server 2019 or SharePoint Server Subscription Edition Enterprise installation, though it is licensed separately. This article describes configuring Project Servers Subscription Edition, 2019, or 2016, including provisioning the Project Server Service Application. Project Servers Subscription Edition, 2019, or 2016 are only available on SharePoint Servers 2016 or 2019 or Subscription Edition Public Preview Enterprise.
   
 Be sure you have [installed SharePoint Server 2016 or 2019 or Subscription Edition](/sharepoint/install/install-for-sharepoint-server-2016) before starting the procedures in this article. Also, be sure that the State Service is running on your SharePoint farm.
   
-## Configure Project Servers 2016 or 2019 or Subscription Edition
+## Configure Project Servers Subscription Edition, 2019, or 2016
 
-Project Servers 2016 or 2019 or Subscription Edition requires a license in order to operate, and you must enable Project Servers 2016 or 2019 or Subscription Edition by using your license key before you can create a Project Web App site.
+Project Servers Subscription Edition, 2019, or 2016 requires a license in order to operate, and you must enable Project Servers Subscription Edition, 2019, or 2016 by using your license key before you can create a Project Web App site.
 
 > [!NOTE]
 > To enable the license key is only available by using a Microsoft Powershell cmdlet. 
   
-If you're not sure if Project Server 2016 or 2019 or Subscription Edition has already been enabled, use the [Get-ProjectServerLicense](/powershell/module/sharepoint-server/get-projectserverlicense) cmdlet to check.
+If you're not sure if Project Server Subscription Edition, 2019, or 2016 has already been enabled, use the [Get-ProjectServerLicense](/powershell/module/sharepoint-server/get-projectserverlicense) cmdlet to check.
   
-### To activate Project Servers 2016 or 2019 or Subscription Edition
+### To activate Project Servers Subscription Edition, 2019, or 2016
 
 1. Open the SharePoint Management Shell as Administrator.
 
@@ -48,7 +48,7 @@ If you're not sure if Project Server 2016 or 2019 or Subscription Edition has al
 
 
     
-3. From the PowerShell command prompt, type the following syntax to enable Project Server 2016 or 2019 or Subscription Edition:
+3. From the PowerShell command prompt, type the following syntax to enable Project Server Subscription Edition, 2019, or 2016:
     
    ```
    Enable-ProjectServerLicense -Key <LicenseKey>
