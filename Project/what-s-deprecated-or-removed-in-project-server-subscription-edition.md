@@ -17,7 +17,7 @@ description: "Learn what has been deprecated or removed in Project Servers Subsc
 
 # What is deprecated or removed from Project Server Subscription Edition
 
-**APPLIES TO**: ![no](images/no.png)2013 ![no](images/no.png)2016 ![no](images/no.png)2019 ![no](images/yes.png)Project Server Subscription Edition
+**APPLIES TO**: ![no](images/no1.png)2013 ![no](images/no1.png)2016 ![no](images/no1.png)2019 ![yes](images/yes1.png)Project Server Subscription Edition
 
 ## Features removed in Project Server Subscription Edition
 
