@@ -1,5 +1,5 @@
 ---
-title: "What's deprecated or removed in Project Servers Subscription Edition"
+title: "What's deprecated or removed in Project Server Subscription Edition"
 ms.author: v-benzyd
 author: benzicald
 manager: serdars
@@ -12,12 +12,13 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 04fee973-5623-4768-a3ba-c109e45dd7eb
-description: "Learn what has been deprecated or removed in Project Servers Subscription Edition."
+description: "Learn what has been deprecated or removed in Project Server Subscription Edition."
 ---
 
 # What's deprecated or removed from Project Server Subscription Edition
 
-**APPLIES TO**: Project Server Subscription Edition
+**Summary**: Learn what has been deprecated or removed in Project Server Subscription Edition. <br/>
+**Applies to**: Project Server Subscription Edition
 
 ## Features removed in Project Server Subscription Edition
 
