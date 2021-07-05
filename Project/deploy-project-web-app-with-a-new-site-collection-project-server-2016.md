@@ -17,7 +17,7 @@ description: "Summary: Learn how to deploy an instance of Project Web App along 
 # Deploy Project Web App with a new site collection (Project Server 2016 or Project Server 2019)
 
  **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
 
 ## Create a top-level web site
 

@@ -17,7 +17,7 @@ description: "Summary: Determine whether to deploy Project Web App to a new site
 # Deploy Project Web App
  
  **Summary:** Determine whether to deploy Project Web App to a new site collection or add it to an existing site collection.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 Before we get started configuring Project Web App, here are two important things if you've used earlier versions of Project Server:
   
