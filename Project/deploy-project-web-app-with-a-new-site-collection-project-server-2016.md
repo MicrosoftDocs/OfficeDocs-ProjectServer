@@ -4,14 +4,14 @@ ms.author: serdars
 author: serdars
 manager: pamgreen
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
-description: "Summary: Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
+description: "Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
 ---
 
 # Deploy Project Web App with a new site collection (Project Server 2016 or Project Server 2019)
@@ -88,7 +88,7 @@ Creating a Project Web App site takes five basic steps:
 
 After the content database has been created and configured, the next step is to create the Project Web App site itself.
 
-To create a Project Web App site in a new site collection, you run the [New-SPSite](/powershell/module/sharepoint-server/new-spsite?view=sharepoint-ps) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features. 
+To create a Project Web App site in a new site collection, you run the [New-SPSite](/powershell/module/sharepoint-server/new-spsite) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features.
 
 Verify that you have the following memberships:
 
@@ -111,13 +111,15 @@ New-SPSite -ContentDatabase PWA_Content -URL https://contoso-appsrv1/sites/PWA -
 Enable-SPFeature pwasite -URL https://contoso-appsrv1/sites/PWA
 ```
 
-After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps) cmdlet, passing the new content database as a parameter:
+After the Project Web App site has been provisioned, verify that it was created in the content database that you created. Use the [Get-SPSite](/powershell/module/sharepoint-server/get-spsite) cmdlet, passing the new content database as a parameter:
 
 ### To verify the Project Web App site location
 
 From the PowerShell command prompt , type the following command and then press ENTER:
 
+```
     Get-SPSite -ContentDatabase <ContentDatabaseName>
+```
 
 The command should return the URL for your Project Web App site and no other URLs.
 
@@ -147,9 +149,6 @@ You can now access the new Project Web App site.
 
 ## See also
 
-#### 
-
 [Deploy Project Web App in an existing site collection (Project Server 2016)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
