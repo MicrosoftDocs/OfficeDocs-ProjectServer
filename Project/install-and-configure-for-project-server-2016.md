@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 0c43062d-30e3-49b1-9705-ed447ad1d256
-description: "Summary: Deployment articles for Project Servers 2013, 2016, and 2019 Public Preview help you prepare to install and configure it."
+description: "Deployment articles for Project Servers Subscription Edition, 2019, 2016, and 2013 Public Preview helps you prepare to install and configure it."
 ---
 
 # Install and configure for Project Server 
@@ -21,7 +21,16 @@ description: "Summary: Deployment articles for Project Servers 2013, 2016, and 2
   
 Articles include information about deployment scenarios, step-by-step installation instructions, post-installation configuration steps, and upgrade information.
   
- This "install and configure" section includes information about deployment scenarios, step-by-step installation instructions, and post-installation configuration steps. This section also covers information about upgrading to Project Server 2016 or 2019 Public Preview.
+ This "install and configure" section includes information about deployment scenarios, step-by-step installation instructions, and post-installation configuration steps. This section also covers information about upgrading to Project Server Subscription Edition, 2019, or 2016 Public Preview.
+
+## Articles about installing and configuring Project Server Subscription Edition Public Preview
+
+The following articles about installing and configuring Project Server Subscription Edition Public Preview are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
+  
+||**Content**|**Description**|
+|:-----|:-----|:-----|
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server Subscription Edition](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server Subscription Edition in a server farm environment.  <br/> |
+||[Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md) <br/> |A list of articles about how to upgrade to Project Server Subscription Edition.  <br/> |
 
 ## Articles about installing and configuring Project Server 2019 Public Preview
 

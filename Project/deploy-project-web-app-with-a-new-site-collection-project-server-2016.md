@@ -14,7 +14,7 @@ ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
 description: "Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
 ---
 
-# Deploy Project Web App with a new site collection (Project Server 2016 or Project Server 2019)
+# Deploy Project Web App with a new site collection (Project Server Subscription Edition, 2019, or 2016)
 
  **Summary:** Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection.<br/>
 **Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
@@ -34,7 +34,7 @@ If a top-level web site does not exist for the web application where you want to
 4. In the **Template Selection** section, choose a template for the site.
 
     > [!NOTE]
-    > Project Servers 2016 or 2019 does not require a specific template. You can choose one appropriate for your organization. 
+    > Project Servers Subscription Edition, 2019, or 2016 does not require a specific template. You can choose one appropriate for your organization.
 
 5. In the **Primary Site Collection Administrator** section, type the name of the account that you want to use for the site administrator.
 
@@ -59,7 +59,7 @@ After you have created the top-level web site, you must grant users access to th
 ## Create a Project Web App site
 
 > [!IMPORTANT]
-> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server 2016 or 2019 content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
+> When you create a new Project Web App site in conjunction with a new site collection, we recommend that you use a separate SharePoint Server Subscription Edition, 2019, or 2016 content database for the Project Web App site and its associated project workspaces. To correctly isolate the Project Web App site in its own content database, you must deploy Project Web App at a time when other administrators are not creating new sites on the Web application where you are deploying Project Web App. 
 
 By putting Project Web App and its associated project workspaces in a separate content database, you greatly simplify site migration and backup and restore procedures.
 
@@ -88,14 +88,13 @@ Creating a Project Web App site takes five basic steps:
 
 After the content database has been created and configured, the next step is to create the Project Web App site itself.
 
-To create a Project Web App site in a new site collection, you run the [New-SPSite](/powershell/module/sharepoint-server/new-spsite) Microsoft PowerShell cmdlet to create the site in the content database that you just created, and then run Enable-SPFeature to turn on the Project Web App site collection features.
+To create a Project Web App site in a new site collection, you run the [New-SPSite](/powershell/module/sharepoint-server/new-spsite) Microsoft PowerShell cmdlet to create the site in the content database that you created, and then run Enable-SPFeature to turn on the Project Web App site collection features.
 
 Verify that you have the following memberships:
 
 - securityadmin fixed server role on the SQL Server instance. 
 - db_owner fixed database role on all databases that are to be updated.
 - local Administrators group on the server on which you are running the PowerShell cmdlets.
-
 
 From the PowerShell command prompt, run the following commands to create the Project Web App site.
 
@@ -115,7 +114,7 @@ After the Project Web App site has been provisioned, verify that it was created 
 
 ### To verify the Project Web App site location
 
-From the PowerShell command prompt , type the following command and then press ENTER:
+From the PowerShell command prompt, type the following command and then press ENTER:
 
 ```
     Get-SPSite -ContentDatabase <ContentDatabaseName>
@@ -126,7 +125,7 @@ The command should return the URL for your Project Web App site and no other URL
 > [!NOTE]
 > If additional URLs beyond that of the Project Web App site are listed in the content database, delete the Project Web App site and restart the procedure with a new content database.
 
-After the Project Web App site is in the desired content database, you must lock down the database to prevent SharePoint Server from adding additional site collections to the database. This is performed by configuring the maximum number of sites for the content database to one. 
+After the Project Web App site is in the desired content database, you must lock down the database to prevent SharePoint Server from adding additional site collections to the database. This is performed by configuring the maximum number of sites for the content database to one.
 
 > [!NOTE]
 > Configuring this setting does not prevent new project workspace sites from being created. 
@@ -149,6 +148,6 @@ You can now access the new Project Web App site.
 
 ## See also
 
-[Deploy Project Web App in an existing site collection (Project Server 2016)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
+[Deploy Project Web App in an existing site collection (Project Server Subscription Edition, 2019, or 2016)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

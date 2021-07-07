@@ -1,5 +1,5 @@
 ---
-title: "Enable the Project Web App site collection features in Project Servers 2016 or 2019"
+title: "Enable the Project Web App site collection features in Project Servers Subscription Edition, 2019, or 2016"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.assetid: b9c4dff2-4812-4131-8b20-4b7766d93233
 description: "Summary: Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App."
 ---
 
-# Enable the Project Web App site collection features in Project Servers 2016 or 2019
+# Enable the Project Web App site collection features in Project Servers Subscription Edition, 2019, or 2016
 
  **Summary:** Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2019
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
 
 Enabling the Project Web App site collection features adds additional functionality to the site collection that allows you to import SharePoint list projects into Project Web App.
 
@@ -27,7 +27,7 @@ Enabling the Project Web App site collection features adds additional functional
 
 The Project Web App site collection features are enabled by using the [Enable-SPFeature](/powershell/module/sharepoint-server/enable-spfeature?view=sharepoint-ps) PowerShell cmdlet. 
 
-From the PowerShell command prompt, type the followoing syntax to enable the Project Web App site collection features.
+From the PowerShell command prompt, type the following syntax to enable the Project Web App site collection features.
 
 ```
 Enable-SPFeature pwasite -URL SiteCollectionURL
