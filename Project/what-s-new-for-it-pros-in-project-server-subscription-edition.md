@@ -135,4 +135,4 @@ In Project Server Subscription Edition, there are no major features or enhanceme
 ## See also
 <a name="PWAChanges"> </a>
 
-[New and improved features in SharePoint Server Subscription Edition](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
+[New and improved features in SharePoint Server Subscription Edition](/SharePointServer/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition)
