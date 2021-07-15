@@ -37,9 +37,8 @@ Now that both the Project Server Subscription Edition and SharePoint Server Subs
   
 There is a special case in which the base installation language for SharePoint Server Subscription Edition and Project Server Subscription Edition does not match:
   
-|||
-|:-----|:-----|
 |**SharePoint Server Subscription Edition** <br/> |**Project Server Subscription Edition** <br/> |
+|:-----|:-----|
 |Thai  <br/> |English  <br/> |
    
 **Language packs**
@@ -48,9 +47,8 @@ SharePoint Server Subscription Edition language packs will also match languages 
   
 Since Project Server Subscription Edition does not provide a matching language for all available SharePoint Server Subscription Edition language packs, an alternate language is provided. The following table lists SharePoint Server Subscription Edition language packs in which an alternate Project Server Subscription Edition language is provided.
   
-|||
-|:-----|:-----|
 |**SharePoint Server Subscription Edition language pack** <br/> |**Project Server Subscription Edition language** <br/> |
+|:-----|:-----|
 |Azeri (Latin)  <br/> |English  <br/> |
 |Basque  <br/> |Spanish  <br/> |
 |Bosnian  <br/> |English  <br/> |
@@ -81,7 +79,7 @@ Since Project Server Subscription Edition does not provide a matching language f
 
 Since Project Server Subscription Edition is now a service application in SharePoint Server Subscription Edition, the hardware, software, and browser requirements for Project Server Subscription Edition will be the ones specified for SharePoint Server Subscription Edition. Some notable requirements for this version are:
   
-|||
+|**Software**|**Software requirements**|
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server:** <br/> | Microsoft SQL Server 2019 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
@@ -90,9 +88,8 @@ Since Project Server Subscription Edition is now a service application in ShareP
  **Project client compatibility**
 You can connect to Project Server Subscription Edition with not only Project Professional 2021 and the Project Online Desktop Client, but also with Project Professional 2019. 
   
-|||
-|:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
+|:-----|:-----|
 |Project Server Subscription Edition  <br/> | Project Professional 2021  <br/>Project Professional 2019 <br/>  Project Online Desktop Client <br/> |
 |Project Server 2019  <br/> | Project Professional 2019  <br/> Project Professional 2016 <br/> Project Online Desktop Client <br/> |
 |Project Server 2016  <br/> | Project Professional 2019  <br/> Project Professional 2016 <br/> Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
