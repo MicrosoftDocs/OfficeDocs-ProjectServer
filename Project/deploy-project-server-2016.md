@@ -21,7 +21,7 @@ description: "Summary: Learn how to deploy Project Servers Subscription Edition,
   
 This series of articles describes the steps necessary to install Project Server Subscription Edition, 2019, or 2016. Before you begin, ensure that you've [planned your deployment](plan-for-project-server-2016.md) and reviewed the:
 
-- [software requirements for Project Server Subscription Edition](software-requirements-for-project-server-subscription-edition.md)
+- [software requirements for Project Server Subscription Edition](software-requirements-project-server-subscription-edition.md)
 - [software requirements for Project Server 2019](software-requirements-for-project-server-2019.md)
 - [software requirements for Project Server 2016](software-requirements-for-project-server-2016.md)
   
@@ -35,7 +35,7 @@ Deploying Project Server Subscription Edition, 2019, or 2016 consists of the fol
 
 ## See also
 
-[Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md)
+[Upgrade to Project Server Subscription Edition](upgrade-project-server-subscription-edition.md)
 
 [Upgrade to Project Server 2019](upgrade-to-project-server-2019.md)
 
