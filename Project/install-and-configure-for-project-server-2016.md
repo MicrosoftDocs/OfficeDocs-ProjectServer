@@ -27,35 +27,35 @@ Articles include information about deployment scenarios, step-by-step installati
 
 The following articles about installing and configuring Project Server Subscription Edition Public Preview are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server Subscription Edition](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server Subscription Edition in a server farm environment.  <br/> |
-||[Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md) <br/> |A list of articles about how to upgrade to Project Server Subscription Edition.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md) <br/> |A list of articles about how to upgrade to Project Server Subscription Edition.  <br/> |
 
 ## Articles about installing and configuring Project Server 2019 Public Preview
 
 The following articles about installing and configuring Project Server 2019 Public Preview are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2019](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2019 in a server farm environment.  <br/> |
-||[Upgrade to Project Server 2019](upgrade-to-project-server-2019.md) <br/> |A list of articles about how to upgrade to Project Server 2019.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server 2019](upgrade-to-project-server-2019.md) <br/> |A list of articles about how to upgrade to Project Server 2019.  <br/> |
   
 ## Articles about installing and configuring Project Server 2016
 
 The following articles about installing and configuring Project Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2016](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server 2016 in a server farm environment.  <br/> |
-||[Upgrade to Project Server 2016](upgrade-to-project-server-2016.md) <br/> |A list of articles about how to upgrade to Project Server 2016.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server 2016](upgrade-to-project-server-2016.md) <br/> |A list of articles about how to upgrade to Project Server 2016.  <br/> |
    
 ## Articles about installing and configuring Project Server 2013
 
 The following articles about installing and configuring Project Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
 
-||**Content**|**Description**|
+|**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server 2013](deploy-project-server-2013.md) <br/> |A list of articles about how to install Project Server 2013 in a server farm environment.  <br/> |
-||[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md) <br/> |A list of articles about how to upgrade to Project Server 2013.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server 2013](upgrade-to-project-server-2013.md) <br/> |A list of articles about how to upgrade to Project Server 2013.  <br/> |
 
