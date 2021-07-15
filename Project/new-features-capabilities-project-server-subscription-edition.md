@@ -118,7 +118,7 @@ When planning to upgrade to Project Server Subscription Edition take note of the
     
 - **Migrate your Project Server Resource Plans** -  You can migrate your Project Server Resource Plans data to Resource Engagements in Project Server Subscription Edition. 
     
-For more detailed information about the upgrade process, see [Upgrading to Project Server Subscription Edition](upgrading-to-project-server-subscription-edition.md).
+For more detailed information about the upgrade process, see [Upgrading to Project Server Subscription Edition](how-to-upgrade-project-server-subscription-edition.md).
      
 ## Project Web App changes
 <a name="PWAChanges"> </a>
