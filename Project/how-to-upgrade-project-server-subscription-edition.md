@@ -46,7 +46,8 @@ Note the following requirements for upgrading to Project Server Subscription Edi
 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
 
-    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin)
+    > [!NOTE]
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin)
 
 
 - If you are migrating your Project Server 2016 or 2019 Resource Plans to use as Resource Engagements in Project Server Subscription Edition:
@@ -148,7 +149,7 @@ Check the MSP_RESOURCE_PLANS table for the following columns:
 
 You can check to see if a specific PWA site you are migrating has an associated resource plan. You use the following SQL query to do this:
 
-```
+```sql
 SELECT *
   FROM [DBName].[pjpub].[MSP_RESOURCE_PLANS] where SiteId = <SiteId>
 ```
@@ -157,7 +158,7 @@ There is a row in this table for each resource plan for the site (A project can 
 
 To get the SiteID value for your PWA site, run the following PowerShell command in the SharePoint Server Subscription Edition Management Shell:
 
-```
+```sql
 $site = get-spsite <SiteUrl>
 $site.ID
 ```
