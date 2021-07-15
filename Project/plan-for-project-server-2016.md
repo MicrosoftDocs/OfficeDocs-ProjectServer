@@ -24,7 +24,7 @@ description: "IT pros use planning and architecture content to develop conceptua
 
 The following articles about Project Server planning are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
 
-[Software requirements for Project Server Subscription Edition](software-requirements-for-project-server-subscription-edition.md)
+[Software requirements for Project Server Subscription Edition](software-requirements-project-server-subscription-edition.md)
 
 [Software requirements for Project Server 2019](software-requirements-for-project-server-2019.md)
 
