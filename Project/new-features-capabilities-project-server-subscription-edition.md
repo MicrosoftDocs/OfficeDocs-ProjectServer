@@ -21,13 +21,13 @@ description: "Summary: Learn about Project Server Subscription Edition. Find inf
   
 This article provides a brief overview of new and significantly updated functionality in Project Server Subscription Edition, with a particular emphasis on the areas of interest to IT professionals. These include the following:
     
-- [Base installation languages and language packs](what-s-new-for-it-pros-in-project-server-2019.md#Lang)
+- [Base installation languages and language packs](new-features-capabilities-project-server-subscription-edition.md#Lang)
     
-- [Hardware and software requirements](what-s-new-for-it-pros-in-project-server-2019.md#Req)
+- [Hardware and software requirements](new-features-capabilities-project-server-subscription-edition.md#Req)
     
-- [Upgrading to Project Server Subscription Edition Public Preview ](what-s-new-for-it-pros-in-project-server-2019.md#Upgra)
+- [Upgrading to Project Server Subscription Edition Public Preview ](new-features-capabilities-project-server-subscription-edition.md#Upgra)
     
-- [Project Web App changes](what-s-new-for-it-pros-in-project-server-2019.md#PWAChanges)
+- [Project Web App changes](new-features-capabilities-project-server-subscription-edition.md#PWAChanges)
     
    
 ## Base installation languages and language packs
