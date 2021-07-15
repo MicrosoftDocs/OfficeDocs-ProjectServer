@@ -30,7 +30,7 @@ The following articles about installing and configuring Project Server Subscript
 |**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](images/mod_icon_buildingblock_M.png)|[Deploy Project Server Subscription Edition](deploy-project-server-2016.md) <br/> |A list of articles about how to install Project Server Subscription Edition in a server farm environment.  <br/> |
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server Subscription Edition](upgrade-to-project-server-subscription-edition.md) <br/> |A list of articles about how to upgrade to Project Server Subscription Edition.  <br/> |
+|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrade to Project Server Subscription Edition](upgrade-project-server-subscription-edition.md) <br/> |A list of articles about how to upgrade to Project Server Subscription Edition.  <br/> |
 
 ## Articles about installing and configuring Project Server 2019 Public Preview
 
