@@ -69,6 +69,6 @@ In the following example, Contoso is using Project Server 2016 or 2019 and has t
 
 | **PWA site**                         |  **Content database** |
 |:-------------------------------------|:----------------------|
-| <https://contoso/sites/PWA_A>  <br/> |  ContentDB-A  <br/>   |
-| <https://contoso/sites/PWA_B>  <br/> |  ContentDB-A  <br/>   |
-| <https://contoso/sites/PWA_C>  <br/> |  ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_A`  <br/> |  ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_B`  <br/> |  ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_C`  <br/> |  ContentDB-A  <br/>   |
