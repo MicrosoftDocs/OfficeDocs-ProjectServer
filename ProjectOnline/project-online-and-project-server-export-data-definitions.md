@@ -247,12 +247,14 @@ Engagements contains data about resource engagements that the user created or mo
 |ReviewedDate  <br/> |Date the engagement was reviewed.  <br/> |
 |LastModifiedDate  <br/> |Date the engagement was last modified.  <br/> |
 |SubmitterResourceUID  <br/> |Unique identifier for the resource that submitted the engagement.  <br/> |
-|SumitterResourceName  <br/> |Resource name of the submitter.  <br/> |
+|SubmitterResourceName  <br/> |Resource name of the submitter.  <br/> |
 |ReviewerResourceUID  <br/> |Unique identifier for the resource that reviewed the engagement.  <br/> |
 |ReviewerResourceName  <br/> |Display name of the resource that reviewed the engagement request.  <br/> |
 |LastModifiedByResourceUID  <br/> |Unique identifier of the resource that last modified the engagement request.  <br/> |
 |LastModifiedByResourceName  <br/> |Display name of the resource that last modified the engagement request.  <br/> |
 |EngagementStatus  <br/> | Status of the engagement request:  <br/>  0- Committed  <br/>  1- Proposed  <br/>  2- Draft  <br/>  3- Rejected  <br/> |
+|ProposedCustomContour  <br/> | Proposed contour which is not flat. <br/> |
+|CommittedCustomContour  <br/> | Committed contour which is not flat.  <br/> |
 
    
 Each **Engagements** object can contain multiple **EngagementSegments**, which may have the following properties:
@@ -593,10 +595,8 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentResourcePlanWork  <br/> |The total time that is scheduled for an assignment in the resource plan.  <br/> |
 |TaskIsActive  <br/> |True if the task for the assignment timephased data is active.  <br/> |
 |TimesheetClassUid  <br/> |GUID of the timesheet class.  <br/> |
-|ProjectName  <br/> |The name of a project.  <br/> |
-|AssignmentActualStartDate  <br/> |The date and time that the assignment actually began.  <br/> |
-|AssignmentActualFinishDate <br/> |The date and time when an assignment was actually completed.  <br/> |
-   
+
+
 ### Resource
 <a name="Resource"> </a>
 
@@ -1238,7 +1238,7 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentOvertimeWork  <br/> |The scheduled overtime work for the assignment.  <br/> |
 |AssignmentActualOvertimeWork  <br/> |The actual amount of overtime work incurred on the assignment.  <br/> |
 |AssignmentRemainingOvertimeWork  <br/> |The remaining overtime work scheduled to complete the assignment.  <br/> |
-|AssignmentOvertimeCost  <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
+|AssignmentOvertimeCost  <br/> |The actual overtime cost of the assignment.  <br/> |
 |AssignmentOvertimeCost1  <br/> |The sum of the actual and remaining overtime cost of the assignment.  <br/> |
 |AssignmentRemainingOvertimeCost  <br/> |The remaining projected overtime cost of completing the assignment.  <br/> |
 |AssignmentRTFNotes  <br/> |Represents notes that are associated with the specified assignment, and that are stored in Rich Text Format.  <br/> |
@@ -2708,7 +2708,7 @@ Reporting_Resources contains the properties that define the reporting data for r
 |ResourceModifiedRevisionCounter  <br/> |Count of how many times resource was modified.  <br/> |
 |ResourceCreatedDate  <br/> |The date and time that a resource was created in the project.  <br/> |
 |ResourceModifiedDate  <br/> |The date that information about a resource was last modified.  <br/> |
-|ResourceRequiresEngagement  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
+|ResourceRequiresEngagements  <br/> |True if the resource can only be requested through an engagement request.  <br/> |
 |LCID  <br/> |Resource's Language Code ID.  <br/> |
 |UserClaimsAccount  <br/> |Login name for the user.  <br/> |
    
