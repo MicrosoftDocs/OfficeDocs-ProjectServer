@@ -16,7 +16,7 @@ description: "Summary: Change settings for security groups by using the Manage G
 # Modify security groups in Project Server
  
  **Summary:** Change settings for security groups by using the Manage Groups page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Server permission mode, you can modify the information associated with any security group in Project Web App. For example, you may have to modify the group for changes to users or categories, or for changes to the Active Directory group to which it is currently being synchronized.
   

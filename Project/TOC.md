@@ -1,6 +1,6 @@
 ﻿
   
-# [Project Servers 2013, 2016, and 2019](project-server-2013-and-2016.md)
+# [Project Servers Subscription Edition, 2019, 2016, and 2013](project-server-2013-and-2016.md)
 ## [Explore](explore-project-server-2016.md)
 ### [What's new for IT pros in Project Server Subscription Edition](new-features-capabilities-project-server-subscription-edition.md)
 ### [What's new for IT pros in Project Server 2019](what-s-new-for-it-pros-in-project-server-2019.md)
@@ -44,8 +44,8 @@
 ### [Project Server 2019 architecture](project-server-2019-architecture.md)
 ### [Project Server 2016 architecture](project-server-2016-architecture.md)
 ## [Install and configure](install-and-configure-for-project-server-2016.md)
-### [Deploy Project Servers 2016 or 2019 or Subscription Edition](deploy-project-server-2016.md)
-#### [Install and configure Project Servers 2016 or 2019 or Subscription Edition](install-and-configure-project-server-2016.md)
+### [Deploy Project Servers Subscription Edition or 2019 or 2016](deploy-project-server-2016.md)
+#### [Install and configure Project Servers Subscription Edition, 2019 or 2016](install-and-configure-project-server-2016.md)
 #### [Deploy Project Web App](deploy-project-web-app.md)
 ##### [Deploy Project Web App with a new site collection (Project Server 2016 or 2019)](deploy-project-web-app-with-a-new-site-collection-project-server-2016.md)
 ##### [Deploy Project Web App in an existing site collection (Project Server 2016 or 2019)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
