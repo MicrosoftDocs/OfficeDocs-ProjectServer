@@ -33,7 +33,7 @@ Some of the key software requirements for SharePoint Server Subscription Edition
 
 |**Software**|**Software requirements**|
 |:-----|:-----|
-|**Supported Server Operating Systems:**  <br/> | Windows Server 2019 Standard or Datacenter <br/> |
+|**Supported Server Operating Systems:**  <br/> | Windows Server 2019 Standard or Datacenter <br/> Windows Server 2022 Standard or Datacenter <br/> |
 |**Supported Database Server:**  <br/> | Microsoft SQL Server 2019 RTM for Windows Services<br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
 |**Supported browsers:**  <br/> | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) <br/> |
     

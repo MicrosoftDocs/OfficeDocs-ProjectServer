@@ -61,6 +61,5 @@ Perform the following procedure to delete a group in Project Web App.
   
 ## See also
 
-#### 
 
 [Manage users in Project Server](manage-users-in-project-server.md)

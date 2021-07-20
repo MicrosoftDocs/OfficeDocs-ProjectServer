@@ -55,7 +55,6 @@ Perform the following procedure to modify an existing template in Project Web Ap
     
 ## See also
 
-#### 
 
 [Manage security templates in Project Server](manage-security-templates-in-project-server.md)
   

@@ -64,7 +64,6 @@ Use this procedure to deactivate an active Project Web App user account. After t
     
 ## See also
 
-#### 
 
 [Reactivate a user account in Project Server](reactivate-a-user-account-in-project-server.md)
   

@@ -57,7 +57,6 @@ To manage categories in Project Web App, you can perform the following procedure
     
 ## See also
 
-#### 
 
 [Plan user access in Project Server](plan-user-access-in-project-server.md)
   

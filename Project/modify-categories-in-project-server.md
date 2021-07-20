@@ -55,7 +55,6 @@ Perform the following procedure to modify an existing category in Project Web Ap
     
 ## See also
 
-#### 
 
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
   

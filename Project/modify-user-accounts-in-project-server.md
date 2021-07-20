@@ -54,7 +54,6 @@ Use this procedure to modify an existing Project Web App user account.
     
 ## See also
 
-#### 
 
 [Manage users in Project Server](manage-users-in-project-server.md)
   

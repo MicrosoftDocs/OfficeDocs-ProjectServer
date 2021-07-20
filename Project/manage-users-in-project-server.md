@@ -42,7 +42,6 @@ To manage users in Project Web App, you can perform the following procedures:
     
 ## See also
 
-#### 
 
 [Determine the number and types of users that require access to Project Server 2016](determine-the-number-and-types-of-users-that-require-access-to-project-server-20.md)
   

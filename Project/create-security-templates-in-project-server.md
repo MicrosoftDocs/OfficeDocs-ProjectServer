@@ -66,7 +66,6 @@ Perform the following procedure to create a template in Project Web App.
     
 ## See also
 
-#### 
 
 [Manage security templates in Project Server](manage-security-templates-in-project-server.md)
   

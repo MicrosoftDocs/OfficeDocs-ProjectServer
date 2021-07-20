@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 11/15/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -173,7 +173,6 @@ The options in the tables above can be configured when you create or modify a Ca
 ## See also
 <a name="section5"> </a>
 
-#### 
 
 [Video series: How security permissions work in Project Server](https://go.microsoft.com/fwlink/p/?LinkId=618509)
 

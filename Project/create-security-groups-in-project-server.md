@@ -112,7 +112,6 @@ For a complete list of global permissions in Project Server 2013, see [Global pe
   
 ## See also
 
-#### 
 
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
   

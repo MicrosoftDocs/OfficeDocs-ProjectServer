@@ -60,7 +60,6 @@ Perform the following procedure to delete an existing category in Project Web Ap
     
 ## See also
 
-#### 
 
 [Manage categories in Project Server](manage-categories-in-project-server.md)
   

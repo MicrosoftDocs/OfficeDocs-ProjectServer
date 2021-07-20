@@ -55,6 +55,5 @@ Perform the following procedure to modify an existing group in Project Web App.
     
 ## See also
 
-#### 
 
 [Manage security groups in Project Server](manage-security-groups-in-project-server.md)

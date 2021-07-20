@@ -131,7 +131,6 @@ For a complete list of category permissions, see [Category permissions in Projec
   
 ## See also
 
-#### 
 
 [Manage categories in Project Server](manage-categories-in-project-server.md)
   

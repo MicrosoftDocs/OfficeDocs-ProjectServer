@@ -63,7 +63,6 @@ To manage security templates in Project Web App, you can perform the following p
     
 ## See also
 
-#### 
 
 [Manage users, groups, and categories in Project Server](manage-users-groups-and-categories-in-project-server-2013.md)
   
