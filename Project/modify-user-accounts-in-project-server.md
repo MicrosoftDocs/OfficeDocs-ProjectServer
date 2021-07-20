@@ -15,7 +15,7 @@ description: "Summary: Edit user accounts by using the Manage Users page in Proj
 # Modify user accounts in Project Server
  
  **Summary:** Edit user accounts by using the Manage Users page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Server permission mode, you can modify existing account information for any user. You might want to do this, for example, if a resource name is changed or if a resource changes roles in your organization. 
   
@@ -54,7 +54,6 @@ Use this procedure to modify an existing Project Web App user account.
     
 ## See also
 
-#### 
 
 [Manage users in Project Server](manage-users-in-project-server.md)
   

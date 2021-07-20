@@ -16,7 +16,7 @@ description: "Summary: Delete custom security categories by using the Manage Cat
 # Delete a category (Project Server permission mode)
  
  **Summary:** Delete custom security categories by using the Manage Categories page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Web App, you can delete any existing custom category from the Manage Categories page in Project Web App.
   
@@ -60,7 +60,6 @@ Perform the following procedure to delete an existing category in Project Web Ap
     
 ## See also
 
-#### 
 
 [Manage categories in Project Server](manage-categories-in-project-server.md)
   

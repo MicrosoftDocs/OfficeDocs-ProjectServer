@@ -16,7 +16,7 @@ description: "Summary: Edit security categories by using the Manage Categories p
 # Modify categories in Project Server
  
  **Summary:** Edit security categories by using the Manage Categories page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Web App, you can modify an existing category from the Manage Categories page on the Project Web App Server Settings page. You might want to do this, for example, if an existing category has to be updated for new projects and resources.
   
@@ -55,7 +55,6 @@ Perform the following procedure to modify an existing category in Project Web Ap
     
 ## See also
 
-#### 
 
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
   
