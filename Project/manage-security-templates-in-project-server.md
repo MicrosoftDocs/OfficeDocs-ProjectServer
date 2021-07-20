@@ -16,7 +16,7 @@ description: "Summary: Administrators can use security templates in Project Web 
 # Manage security templates in Project Server
  
  **Summary:** Administrators can use security templates in Project Web App to standardize the granting of user permissions by role.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Security templates provide a means for you to quickly apply or reset predefined permission profiles to new or existing users, groups, and categories. By applying security templates, you can easily standardize the permissions that you assign according to user's role in the organization. A number of predefined security templates are available in each Project Web App instance. These align with the predefined groups. You can customize these security templates or create new security templates according to your needs.
   
@@ -63,7 +63,6 @@ To manage security templates in Project Web App, you can perform the following p
     
 ## See also
 
-#### 
 
 [Manage users, groups, and categories in Project Server](manage-users-groups-and-categories-in-project-server-2013.md)
   

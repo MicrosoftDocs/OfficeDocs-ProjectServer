@@ -16,7 +16,7 @@ description: "Summary: Add custom security categories by using the Manage Catego
 # Create security categories in Project Server
  
  **Summary:** Add custom security categories by using the Manage Categories page in Project Web App Settings.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Web App, you can add custom security categories as necessary to create a security model that meets the specific needs of users and groups in your organization. 
   
@@ -131,7 +131,6 @@ For a complete list of category permissions, see [Category permissions in Projec
   
 ## See also
 
-#### 
 
 [Manage categories in Project Server](manage-categories-in-project-server.md)
   

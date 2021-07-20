@@ -15,7 +15,7 @@ description: "Summary: Reactivate deactivated user accounts by using the Manage 
 # Reactivate a user account in Project Server
  
  **Summary:** Reactivate deactivated user accounts by using the Manage Users page in Project Web App Settings.<br/>
-**Applies to:** PProject Server 2019, Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 After you deactivate a user account, you may need to reactivate it at some later time. Because the user information still exists in the Project Server database, you simply need to change the account status from **Inactive** to **Active**.
   
@@ -51,7 +51,6 @@ Use this procedure to reactivate a deactivated Project Web App user account. Aft
     
 ## See also
 
-#### 
 
 [Deactivate user accounts in Project Server](deactivate-user-accounts-in-project-server.md)
   

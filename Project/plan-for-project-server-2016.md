@@ -12,18 +12,20 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: a0ada5d4-fc5f-4334-b5cc-44b7fb069b90
-description: "Summary: IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Servers 2016 or 2019 features, servers, and topologies."
+description: "IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Servers 2016 or 2019 features, servers, and topologies."
 ---
 
 # Plan for Project Server
  
- **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Servers 2016 or 2019 features, servers, and topologies.<br/>
-**Applies to:** Project Server 2019, Project Server 2016, Project Server 2013
+ **Summary:** IT pros use planning and architecture content to develop conceptual, logical, and physical designs for configuring Project Servers Subscription Edition, 2019, or 2016 features, servers, and topologies.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 ##  Articles about Project Server planning
 
 The following articles about Project Server planning are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
-  
+
+[Software requirements for Project Server Subscription Edition](software-requirements-project-server-subscription-edition.md)
+
 [Software requirements for Project Server 2019](software-requirements-for-project-server-2019.md)
 
 [Software requirements for Project Server 2016](software-requirements-for-project-server-2016.md)
@@ -39,5 +41,3 @@ The following articles about Project Server planning are available to view onlin
 [IT Pro Planning for Project Server 2016](it-pro-planning-for-project-server-2016.md)
   
 [Project Server 2016 architecture](project-server-2016-architecture.md)
-  
-
