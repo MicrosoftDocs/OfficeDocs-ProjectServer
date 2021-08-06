@@ -229,6 +229,7 @@
 #### [Delete user data from Project Server](delete-user-data-from-project-server.md)
 #### [Export user data from Project Server 2019](export-user-data-in-project-server-2019.md)
 #### [Delete user data from Project Server 2019](delete-user-data-in-project-server-2019.md)
+#### [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md)
 ## [Scenarios and solutions](scenarios-and-solutions-for-project-server.md)
 ### [Transitioning projects from SharePoint to Project Server 2013](transitioning-projects-from-sharepoint-to-project-server-2013.md)
 ### [Using workflow for demand management in Project Server](using-workflow-for-demand-management-in-project-server.md)
