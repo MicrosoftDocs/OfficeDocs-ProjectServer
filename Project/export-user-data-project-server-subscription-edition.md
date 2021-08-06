@@ -14,8 +14,7 @@ description: "Learn how your organization can export a specific user's content f
 
 > **Important!**: The process to export user data from Project Server Subscription Edition is different from previous Project Server releases. To learn how to export user data from previous versions, see <br/>1. [Export user data from Project Server 2019](Export-user-data-in-Project-Server-2019.md) <br/>2. [Export user data from Project Server 2016/2013/2010](export-user-data-from-project-server.md)
 
-Process Overview
-----------------
+## Process Overview
 
 <span id="Overview" class="anchor"></span>The following is an overview of the process to export a specific user's information from a Project Web App site in Project Server Subscription Edition:
 
@@ -37,8 +36,7 @@ Process Overview
 
 9.  **Data you need to manually export**: Look for user data not included in the export.
 
-Step 1 - Download the export script files
------------------------------------------
+## Step 1 - Download the export script files
 
 <span id="DownloadScripts" class="anchor"></span>Download the export scripts from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=871966).
 
@@ -64,8 +62,7 @@ Important notes about running the export scripts:
 
 <span id="bkmk_lookuptheusersresourceid" class="anchor"></span>
 
-Step 2 - Find the Project Web App instances in your SharePoint Server farm
---------------------------------------------------------------------------
+## Step 2 - Find the Project Web App instances in your SharePoint Server farm
 
 <span id="FindPWA" class="anchor"></span>Use the **Get-SPProjectWebInstance** cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
 
@@ -108,8 +105,7 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 <span id="bkmk_runtheexportpowershellscript" class="anchor"></span>
 
-Step 3 - Export workspace items for the user
---------------------------------------------
+## Step 3 - Export workspace items for the user
 
 Run the **ExportWorkspaceItemsByDisplayName.sql** script and search for data using possible display names of the user (partial name searches).
 
@@ -138,8 +134,7 @@ Provide values for the following parameters in the script:
 </tbody>
 </table>
 
-Step 4 - Find the user's Resource ID or Claims Account on each PWA site
------------------------------------------------------------------------
+## Step 4 - Find the user's Resource ID or Claims Account on each PWA site
 
 <span id="FindResID" class="anchor"></span>After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
 
@@ -174,8 +169,7 @@ For example, if you want to find the userID for Adam Barr on the Contoso PWA1 si
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
 
-Step 5 - Export your user's data from the PWA site
---------------------------------------------------
+## Step 5 - Export your user's data from the PWA site
 
 Next, you will need to run the **ExportProjectUserContent** PowerShell script to export your user's data from each PWA site in your Project Server environment. To run the script, you need to make sure you and your environment meet the prerequisites.
 
@@ -372,8 +366,7 @@ Using the -Options parameter can be helpful if you want to export user data from
 
 This will allow you to export the three json files that contain your user's data that pertains to the Portfolio Analysis feature (BusinessDrivers.json, DriverPrioritizations.json, PortfolioAnalyses.json).
 
-Step 6 - Review your exported content
--------------------------------------
+## Step 6 - Review your exported content
 
 After you run the ExportProjectUserContent PowerShell script successfully, you will have the following output in the output directory you specified when running the command:
 
@@ -698,8 +691,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 
 **Note**: To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](https://support.office.com/en-us/article/project-online-and-project-server-export-data-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7?ui=en-US&rs=en-US&ad=US#projspecmeta) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
 
-Step 7 - Timephased Data
-------------------------
+## Step 7 - Timephased Data
 
 Run the **ExportReportingTimephasedData.sql** script to export timephased data stored in reporting database that is related to the resource. The script exports the following timephased information:
 
@@ -708,8 +700,7 @@ Run the **ExportReportingTimephasedData.sql** script to export timephased data s
 3. AssignmentTimephased
 4. AssignmentBaselineTimephased
 
-Step 8 - Archived items
------------------------
+## Step 8 - Archived items
 
 <span id="ArchivedItems" class="anchor"></span>**ExportArchievdData.sql** will return the following data that is stored in the archived database that is related to the resource.
 
@@ -766,20 +757,17 @@ Archived Non-Project Data:
 
 3.  Export the user related data.
 
-Step 9 - Find and save custom views, custom filters, attachments, and macros
------------------------
+## Step 9 - Find and save custom views, custom filters, attachments, and macros
 
 After receiving the exported user content, you can use your data to find the user's custom views, custom filters, custom tables, attachments, and macros. To find these, you will need to have the MPP and XML file for each project in which you want to search. For more information on how to do this, see [*Find customized user items in Project Online and Project Server user export data*](https://support.office.com/en-us/article/find-customized-user-items-in-project-online-and-project-server-user-export-data-d40ede2b-22e5-4fa4-b789-007c9a36d5f1).
 
-Considerations for master and inserted projects
------------------------------------------------
+### Considerations for master and inserted projects
 
 As noted earlier, the export script will only export projects that the user was a part of as an owner, has an assigned task, is an assignment owner of a task, or is the status manager of a task. When the user is part of an inserted project, but not the master project, only the inserted project will be exported. Similarly, if the user is only part of a master project and not any of the inserted projects, only the master project will be exported.
 
 When saving a master project that a user was a part of, you will not need to save any associated inserted projects if you are prompted.
 
-Step 10 – Data you need to manually export
-------------------------------------------
+## Step 10 – Data you need to manually export
 
 ### Project Author
 
