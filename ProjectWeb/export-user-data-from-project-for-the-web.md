@@ -19,7 +19,7 @@ description: "Learn how your organization can export a specific user's content f
 
 This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. 
 
-Project for the web data is stored in [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
+Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
 - View a specific user’s Project for the web data by using the Advanced Find function in Dynamics 365.  
 - Use a PowerShell script to export data about specific projects that your user was a part of.   
@@ -80,7 +80,7 @@ To view entities for a Dynamics 365 solution:
 
 ### Use Advanced Find to search for user data
 
-Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
+Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
@@ -156,16 +156,16 @@ To run the ExportProjectContent function:
     a. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
    ![Dataverse Instance](media/CDSInstance.png) </br>
-    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>.
+    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
 
     ![Find the instance Unique Name](media/DynamicsOrgid.png)</br>
 
     
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
 
 
-    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"
 
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
@@ -197,10 +197,10 @@ The XML file contains a number of properties pertaining to the specific project.
 
 ## See Also
 
-[Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
+[Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search)
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
-[Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
+[Export user data from Project Online](/projectonline/export-user-data-from-project-online)
   
   
