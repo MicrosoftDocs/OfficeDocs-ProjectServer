@@ -28,7 +28,7 @@ Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-s
 ## Requirements
   
 You will need the following in order to look for data on a specific user through the Advanced Find search feature: 
-- You need the Azure Active Directory ID (AAD ID) of the user. You can find it in the Azure Active Directory Admin Center.  
+- You need the Azure Active Directory Object ID (AAD ID) of the user. You can find it in the Azure Active Directory Admin Center.  
 - You need to be a global admin in your Microsoft 365 tenant. You need this to access the Dynamics 365 Admin Center.  
 
 If you also want to export and view information on specific projects: 
@@ -107,7 +107,7 @@ You can then review the results to determine what data you'd like to provide to 
 
 ## Use the export script to see details on specific projects
 
-If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  Powershell script to get more information on each project. With the script, you can get the following files for a specific project:
+If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  PowerShell script to get more information on each project. With the script, you can get the following files for a specific project:
 
 - Project files (.MPP) for the project.
 - An XML file that contains project details and settings.
