@@ -34,7 +34,7 @@ You will need the following in order to look for data on a specific user through
 If you also want to export and view information on specific projects: 
 - You need to be a tenant admin.
 - You need to have a Project Plan 1, Project Plan 3, or Project Plan 5 license.
-- You need the Project Online Desktop Client if you want to view your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
+- You need the Project Online Desktop Client if you want to export your user’s projects.  If you do not have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US). 
   
 
 ## Methods for finding your user's data
