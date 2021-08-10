@@ -181,7 +181,7 @@ Next, you will need to run the **ExportProjectUserContent** PowerShell script t
 
 > To connect your Project client to your Project PWA instance:
 
-1.  Click the **File **tab to open the Backstage view. Click **Info**, and then click **Manage** Accounts.
+1.  Click the **File** tab to open the Backstage view. Click **Info**, and then click **Manage** Accounts.
 
 2.  In the **Project Web App Accounts** dialog box, click **Add**.
 
