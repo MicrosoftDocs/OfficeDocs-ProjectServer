@@ -585,6 +585,7 @@ ReportingResourcePlan contains data about reporting resource plans. It may have 
 |AssignmentCostVariance  <br/> |The difference between the cost and baseline cost for a resource.  <br/> |
 |AssignmentCV  <br/> |Earned value cost variance.  <br/> |
 |AssignmentSV  <br/> |Earned value schedule variance.  <br/> |
+|AssignmentVAC  <br/> |Variance at completion.  <br/> |
 |AssignmentIsOverallocated  <br/> |True if any assigned resources are overallocated.  <br/> |
 |AssignmentPeakUnits  <br/> |Maximum number of units that a resource is assignmed for a task.  <br/> |
 |AssignmentCreatedDate  <br/> |Date and time the assignment was created.  <br/> |
@@ -741,8 +742,6 @@ A **ResourcePlan** object can have a collection of **ResourcePlanAssignments**. 
 |AssignmentResumeDate  <br/> |The date the assignment was resumed.  <br/> |
 |CreatedDate  <br/> |The date that the assignment was created.  <br/> |
 |ModDate  <br/> |The date that the assignment was last updated.  <br/> |
-|CreatedRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
-|ModRevCounter  <br/> |Internal property describing number of revisions.  <br/> |
    
 A **ResourcePlanAssignments** object can have a collection of **Assignments**. Each **Assignments** object may contain the following properties: 
 
@@ -1283,7 +1282,6 @@ Each **Tasks** object may have a collection of **Assignments** objects, which ma
 |AssignmentOtherType  <br/> | Indicates the type of assignment:  <br/>  0 - Regular  <br/>  1 - TaskOnlyWork  <br/>  2 - FixedCosts  <br/>  3 - FixedCostsAndTaskOnly  <br/>  4 - RegularUnassigned  <br/> |
 |AssignmentUpdatesConflict  <br/> |True if there are conflicting updates for assignment  <br/> |
 |DeletedFlag  <br/> |Indicates if the assignment was deleted.  <br/> |
-|AssignmentVAC  <br/> |The difference between baseline cost and total cost.  <br/> |
 |AssignmentSV  <br/> |Earned value schedule variance, through the project status date.  <br/> |
 |AssignmentWorkVariance  <br/> |The variance of assignment work from the baseline work as minutes x 1000.  <br/> |
 |AssignmentCostVariance  <br/> |The difference between the cost and baseline cost for a resource.  <br/> |
@@ -1845,6 +1843,7 @@ UserViewSettings contains data about custom view settings that the user created.
 |:-----|:-----|
 |WebControl  <br/> |Web control type (for example, resourcecenter).  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
+|ProjectId  <br/> |Unique identifier for the project.  <br/> |
 |ProjectName  <br/> |Name of the project.  <br/> |
 |PropertyValue  <br/> |Value of the property.  <br/> |
    
@@ -1871,7 +1870,6 @@ UserViewSettings contains data about custom view settings that the user created.
   
 | Property | Description |
 |:-----|:-----|
-|ProjectId  <br/> |The unique identifier for the project.  <br/> |
 |SettingKey  <br/> |Key of the user setting stored in the database.  <br/> |
 |PropertyString  <br/> |String representing value of the property  <br/> |
 |PropertyName  <br/> |Name of the property.  <br/> |
@@ -2395,7 +2393,6 @@ Reporting_AssignmentBaselineTimephased contains the properties that define the r
 
 | Object | Description |
 |:-----|:-----|
-|SiteId  <br/> |Unique identifier for the PWA site.  <br/> |
 |BaselineNumber  <br/> |An integer number that identifies a baseline in a project.  <br/> |
 |AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
