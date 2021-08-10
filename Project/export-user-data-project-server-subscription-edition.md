@@ -30,11 +30,13 @@ description: "Learn how your organization can export a specific user's content f
 
 6.  **Review your exported content**: Look through the exported data for information about your user.
 
-7.  **Archived items:** Look for data about your user in the Archived database.
+7.  **Timephased Data**: Export timephased reporting data for a user's tasks &amp; assignments
 
-8.  **Find and save custom views, custom filters, attachments, and macros:** Locate custom items.
+8.  **Archived items**: Look for data about your user in the Archived database.
 
-9.  **Data you need to manually export**: Look for user data not included in the export.
+9.  **Find and save custom views, custom filters, attachments, and macros**: Locate custom items.
+
+10.  **Data you need to manually export**: Look for user data not included in the export.
 
 ## Step 1 - Download the export script files
 
@@ -695,10 +697,10 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 
 Run the **ExportReportingTimephasedData.sql** script to export timephased data stored in reporting database that is related to the resource. The script exports the following timephased information:
 
-1. TaskTimephased
-2. TaskBaselineTimephased
-3. AssignmentTimephased
-4. AssignmentBaselineTimephased
+1. [TaskTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#tasktimephaseddataset)
+2. [TaskBaselineTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#taskbaselinetimephaseddataset)
+3. [AssignmentTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#assignmenttimephaseddataset)
+4. [AssignmentBaselineTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#assignmentbaselinetimephaseddataset)
 
 ## Step 8 - Archived items
 
