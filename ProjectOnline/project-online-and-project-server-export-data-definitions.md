@@ -2370,7 +2370,7 @@ There can be a collection of **ListItemAssociations** objects that have the foll
 ### TaskTimephasedDataset
 <a name="TaskTimephasedDataset"> </a>
 
-TaskTimephasedDataset contains the properties that define the reporting data for task timephased data in the ProjectData service. It has the following properties:
+TaskTimephasedDataset contains the properties that define the reporting data for task timephased data in the reporting schema. It has the following properties:
 
 | Property | Description |
 |:-----|:-----|
@@ -2395,7 +2395,7 @@ TaskTimephasedDataset contains the properties that define the reporting data for
 ### TaskBaselineTimephasedDataset
 <a name="TaskBaselineTimephasedDataset"> </a>
 
-TaskBaselineTimephasedDataset contains the properties that define the reporting data for task baseline timephased data in the ProjectData service. It has the following properties:
+TaskBaselineTimephasedDataset contains the properties that define the reporting data for task baseline timephased data in the reporting schema. It has the following properties:
 
 | Object | Description |
 |:-----|:-----|
@@ -2416,7 +2416,7 @@ TaskBaselineTimephasedDataset contains the properties that define the reporting 
 ### AssignmentTimephasedDataset
 <a name="AssignmentTimephasedDataset"> </a>
 
-AssignmentTimephasedDataset contains the properties that define the reporting data for assignment timephased data in the ProjectData service. It has the following properties:
+AssignmentTimephasedDataset contains the properties that define the reporting data for assignment timephased data in the reporting schema. It has the following properties:
 
 | Object | Description |
 |:-----|:-----|
@@ -2459,7 +2459,7 @@ AssignmentTimephasedDataset contains the properties that define the reporting da
 ### AssignmentBaselineTimephasedDataset
 <a name="AssignmentBaselineTimephasedDataset"> </a>
 
-AssignmentBaselineTimephasedDataset contains the properties that define the reporting data for assignment baseline timephased data in the ProjectData service. It has the following properties:
+AssignmentBaselineTimephasedDataset contains the properties that define the reporting data for assignment baseline timephased data in the reporting schema. It has the following properties:
 
 | Object | Description |
 |:-----|:-----|
