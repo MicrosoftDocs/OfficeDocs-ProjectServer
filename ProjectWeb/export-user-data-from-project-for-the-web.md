@@ -19,7 +19,7 @@ description: "Learn how your organization can export a specific user's content f
 
 This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. 
 
-Project for the web data is stored in [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
+Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
 - View a specific user’s Project for the web data by using the Advanced Find function in Dynamics 365.  
 - Use a PowerShell script to export data about specific projects that your user was a part of.   
@@ -28,7 +28,7 @@ Project for the web data is stored in [Dataverse](https://docs.microsoft.com/pow
 ## Requirements
   
 You will need the following in order to look for data on a specific user through the Advanced Find search feature: 
-- You need the Azure Active Directory ID (AAD ID) of the user. You can find it in the Azure Active Directory Admin Center.  
+- You need the Azure Active Directory Object ID (AAD ID) of the user. You can find it in the Azure Active Directory Admin Center.  
 - You need to be a global admin in your Microsoft 365 tenant. You need this to access the Dynamics 365 Admin Center.  
 
 If you also want to export and view information on specific projects: 
@@ -52,9 +52,8 @@ Project for the web user information that resides in Dataverse - such as roadmap
 
 When looking for a specific user's Project for the web data in Dynamics 365 Dataverse, it is located in these five Dynamics 365 solutions:
 
-|||
+|**Name**|**Display Name**|
 |:-----|:-----|
-|**Name** <br/> |**Display Name** <br/> |
 |PortfolioService  <br/> |Portfolio Service  <br/> |
 |msdyn_ProjectServiceCore <br/> |Project <br/> |
 |MicrosoftDynamicsScheduling  <br/> |Universal Resource Scheduling <br/> |
@@ -67,7 +66,7 @@ To view entities for a Dynamics 365 solution:
 1. In the Microsoft 365 admin center, under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![Dataverse Instance](media/CDSInstance.png) 
+   ![Screenshot of Dataverse instance Open button](media/CDSInstance.png) 
 3. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 4. On the All Solutions page, click on the Display Name of the solution that you are interested in.
 
@@ -80,18 +79,18 @@ To view entities for a Dynamics 365 solution:
 
 ### Use Advanced Find to search for user data
 
-Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
+Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1.	In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 3.	Click the **Advance Find** button.
 
-    ![Advanced Find](media/AdvancedFind.png)
+    ![Advanced Find button](media/AdvancedFind.png)
 4.	In Advanced Find, in the **Look for** menu, select the objects that you want to search for, such as your user's projects or roadmaps.
     
     For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
 
-    ![Advanced Find](media/AdvancedFindLookForRoadmap1.png)
+    ![Advanced Find results menu](media/AdvancedFindLookForRoadmap1.png)
 5.	To begin building your query, click **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You will need the users AAD ID or account name.  
 
     For example:
@@ -108,7 +107,7 @@ You can then review the results to determine what data you'd like to provide to 
 
 ## Use the export script to see details on specific projects
 
-If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  Powershell script to get more information on each project. With the script, you can get the following files for a specific project:
+If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  PowerShell script to get more information on each project. With the script, you can get the following files for a specific project:
 
 - Project files (.MPP) for the project.
 - An XML file that contains project details and settings.
@@ -144,9 +143,8 @@ To run the ExportProjectContent function:
 
     You will need to configure the following parameters when running the script:
 
-    |||
+    |**Parameter**|**Description**|
     |:-----|:-----|
-    |**Parameter** <br/> |**Description** <br/> |
     |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
     |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
     |InstanceId   <br/> |The identifier of the Dynamics 365 instance you are using. <br/> |
@@ -155,17 +153,17 @@ To run the ExportProjectContent function:
 
     a. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![Dataverse Instance](media/CDSInstance.png) </br>
-    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>.
+   ![Screenshot of Open button for Dataverse instance](media/CDSInstance.png) </br>
+    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
 
     ![Find the instance Unique Name](media/DynamicsOrgid.png)</br>
 
     
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>, you would run the script like this:
+    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
 
 
-    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId <spam><spam>https://orgde6d15d8.crm.dynamics.com<spam><spam>"
+    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"
 
 
 2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
@@ -197,10 +195,10 @@ The XML file contains a number of properties pertaining to the specific project.
 
 ## See Also
 
-[Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
+[Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search)
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
-[Export user data from Project Online](https://docs.microsoft.com/projectonline/export-user-data-from-project-online)
+[Export user data from Project Online](/projectonline/export-user-data-from-project-online)
   
   
