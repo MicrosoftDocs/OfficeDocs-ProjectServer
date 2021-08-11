@@ -320,7 +320,7 @@ Some of the exported user content you receive will include a number of json form
 <p>You will also receive one of each of the following for each project that the user was a part of:</p>
 <p>Project_projName_draft.json, Project_projName_draft.mpp, Project_projName_draft.xml,</p>
 <p>Project_projName_published.json, Project_projName_ published.mpp, Project_projName_ published.xml,</p>
-<p>Project_projName_reporting.json, Project_projName_reporting_Tasks, Project_projName_reporting_Assignments, Project_projName_reporting_Resources, Project_projName_reporting_Baselines, Project_projName_reporting_TaskTimephased, Project_projName_reporting_AssignmentTimephased, Project_projName_reporting_TaskBaselineTimephased, Project_projName_reporting_ AssignmentBaselineTimephased</p></td>
+<p>Project_projName_reporting.json, Project_projName_reporting_Tasks, Project_projName_reporting_Assignments, Project_projName_reporting_Resources, Project_projName_reporting_Baselines</p></td>
 </tr>
 <tr class="even">
 <td align="left">ResourcePlans</td>
@@ -631,7 +631,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 </tbody>
 </table>
 
-> **Note:** You can open the .mpp file with Project Professional 2016, Project Professional 2019, or the Project Online Desktop client.
+> **Note:** You can open the .mpp file with Project Professional 2021, Project Professional 2019, or the Project Online Desktop client.
 >
 > - Four .json files for the project from the reporting schema:
 
@@ -695,7 +695,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 
 ## Step 7 - Timephased Data
 
-Run the **ExportReportingTimephasedData.sql** script to export timephased data stored in reporting database that is related to the resource. The script exports the following timephased information:
+Run the **ExportReportingTimephasedData.sql** script to export timephased data stored in reporting schema that is related to the resource. The script exports the following timephased information:
 
 1. [TaskTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#tasktimephaseddataset)
 2. [TaskBaselineTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#taskbaselinetimephaseddataset)
