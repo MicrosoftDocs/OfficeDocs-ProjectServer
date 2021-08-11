@@ -2397,7 +2397,7 @@ TaskTimephasedDataset contains the properties that define the reporting data for
 
 TaskBaselineTimephasedDataset contains the properties that define the reporting data for task baseline timephased data in the reporting schema. It has the following properties:
 
-| Object | Description |
+| Property | Description |
 |:-----|:-----|
 |BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
 |ProjectUID  <br/> |Unique identifier for the project.  <br/> |
@@ -2418,7 +2418,7 @@ TaskBaselineTimephasedDataset contains the properties that define the reporting 
 
 AssignmentTimephasedDataset contains the properties that define the reporting data for assignment timephased data in the reporting schema. It has the following properties:
 
-| Object | Description |
+| Property | Description |
 |:-----|:-----|
 |AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
 |TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
@@ -2461,7 +2461,7 @@ AssignmentTimephasedDataset contains the properties that define the reporting da
 
 AssignmentBaselineTimephasedDataset contains the properties that define the reporting data for assignment baseline timephased data in the reporting schema. It has the following properties:
 
-| Object | Description |
+| Property | Description |
 |:-----|:-----|
 |BaselineNumber  <br/> |An integer number that identifies a baseline in a project.  <br/> |
 |AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
