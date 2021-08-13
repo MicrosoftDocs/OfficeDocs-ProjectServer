@@ -104,7 +104,11 @@ The feature areas for both Project Online and Project Server include the followi
 |[UserViewSettings](project-online-and-project-server-export-data-definitions.md#UserProp) <br/> |User view settings data.  <br/> |
 |[Workflow](project-online-and-project-server-export-data-definitions.md#Workflow) <br/> |Project workflow data.  <br/> |
 |[WorkspaceItems](project-online-and-project-server-export-data-definitions.md#WSS) <br/> |Data about SharePoint items from project sites.  <br/> |
-   
+|[TaskTimephasedDataset](#tasktimephaseddataset) <br/> |Timephased reporting data for tasks (Applies to only Project Server Subscription Edition).  <br/> |
+|[TaskBaselineTimephasedDataset](#taskbaselinetimephaseddataset) <br/> |Timephased reporting data for tasks baselines (Applies to only Project Server Subscription Edition). <br/> |
+|[AssignmentTimephasedDataset](#assignmenttimephaseddataset) <br/> |Timephased reporting data for assignments (Applies to only Project Server Subscription Edition). <br/> |
+|[AssignmentBaselineTimephasedDataset](#assignmentbaselinetimephaseddataset) <br/> |Timephased reporting data for assignments baselines (Applies to only Project Server Subscription Edition). <br/> |
+
 ### AdminAudit
 <a name="AdminAudit"> </a>
 
@@ -2363,6 +2367,119 @@ There can be a collection of **ListItemAssociations** objects that have the foll
 |RelationshipTypeId  <br/> |Identifier of the relationship type  <br/> |
 |RelationshipDescription  <br/> |Description of the relationship between list item and related item.  <br/> |
    
+### TaskTimephasedDataset
+<a name="TaskTimephasedDataset"> </a>
+
+TaskTimephasedDataset contains the properties that define the reporting data for task timephased data in the reporting schema. It has the following properties:
+
+| Property | Description |
+|:-----|:-----|
+|TaskUID  <br/> |Unique identifier for the task.  <br/> |
+|TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
+|FiscalPeriodUID  <br/> |The identifier of the fiscal period.  <br/> |
+|ProjectUID  <br/> |Unique identifier for the project.  <br/> |
+|TaskIsActive  <br/> |True if the task is active.  <br/> |
+|TaskIsProjectSummary  <br/> |True if the task is a project summary task.  <br/> |
+|TaskCost  <br/> |The total scheduled or projected cost for a task.  <br/> |
+|TaskActualCost  <br/> |The costs incurred for work that is already performed by all resources on a task, along with any other recorded costs.  <br/> |
+|TaskWork  <br/> |The total time that is scheduled for a task for all assigned resources.  <br/> |
+|TaskOvertimeWork  <br/> |The amount of overtime work that is scheduled to be performed by all resources that are assigned to a task.  <br/> |
+|TaskActualWork  <br/> |The actual work that is already performed by resources on a task, usually expressed as percent complete.  <br/> |
+|TaskBudgetCost  <br/> |The scheduled costs for a task.  <br/> |
+|TaskBudgetWork  <br/> |The scheduled work for a task.  <br/> |
+|TaskResourcePlanWork  <br/> |The total time that is scheduled for the task in the resource plan.  <br/> |
+|TaskModifiedDate  <br/> |Date and time the task was last modified.  <br/> |
+|TaskName  <br/> |Name of the task.  <br/> |
+|ProjectName  <br/> |Name of the project.  <br/> |
+
+### TaskBaselineTimephasedDataset
+<a name="TaskBaselineTimephasedDataset"> </a>
+
+TaskBaselineTimephasedDataset contains the properties that define the reporting data for task baseline timephased data in the reporting schema. It has the following properties:
+
+| Property | Description |
+|:-----|:-----|
+|BaselineNumber  <br/> |A number that identifies a project baseline.  <br/> |
+|ProjectUID  <br/> |Unique identifier for the project.  <br/> |
+|TaskUID  <br/> |Unique identifier for the task.  <br/> |
+|TimeByDay  <br/> |A primary key that identifies the day along a timeline. The granularity is in days only.  <br/> |
+|TaskBaselineCost  <br/> |The total planned cost for a task. The baseline cost is also known as budget at completion (BAC) for earned value.  <br/> |
+|TaskBaselineFixedCost  <br/> |A set task cost that is projected in the baseline and that remains constant regardless of the task duration or the work performed by a resource.  <br/> |
+|TaskBaselineWork  <br/> |The total planned hours that are scheduled for a task in the baseline projection.  <br/> |
+|TaskBaselineBudgetCost  <br/> |The cost of the planned, budgeted amount of work on a task.  <br/> |
+|TaskBaselineBudgetWork  <br/> |The planned, budgeted amount of work on a task.  <br/> |
+|TaskBaselineModifiedDate  <br/> |The date and time the task was last updated.  <br/> |
+|FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
+|TaskName  <br/> |Name of the task.  <br/> |
+|ProjectName  <br/> |Name of the project.  <br/> |
+
+### AssignmentTimephasedDataset
+<a name="AssignmentTimephasedDataset"> </a>
+
+AssignmentTimephasedDataset contains the properties that define the reporting data for assignment timephased data in the reporting schema. It has the following properties:
+
+| Property | Description |
+|:-----|:-----|
+|AssignmentUID  <br/> |Unique identifier for the assignment.  <br/> |
+|TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
+|ProjectUID  <br/> |Unique identifier for the project for the assignment timephased data.  <br/> |
+|TaskUID  <br/> |Unique identifier for the task for the assignment timephased data.  <br/> |
+|FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
+|ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
+|TaskName  <br/> |Name of the task.  <br/> |
+|ProjectName  <br/> |Name of the project.  <br/> |
+|AssignmentRegularCost  <br/> |The total cost for regular, nonovertime assignment work that has already been performed, in addition to remaining nonovertime work.  <br/> |
+|AssignmentRegularWork  <br/> |The total amount of non-overtime work scheduled to be performed by a resource assigned to a task.  <br/> |
+|AssignmentRemainingCost  <br/> |The costs associated with completing all remaining scheduled work by any resources on a specific task.  <br/> |
+|AssignmentRemainingOvertimeCost  <br/> |The remaining scheduled overtime expense for an assignment.  <br/> |
+|AssignmentRemainingOvertimeWork  <br/> |The amount of overtime work that remains on an assignment.  <br/> |
+|AssignmentRemainingRegularCost  <br/> |The expense that will be incurred by completing the remaining regular, nonovertime work for an assignment.  <br/> |
+|AssignmentRemainingRegularWork  <br/> |The amount of time, such as person-hours or days, that is still required to complete the regular, nonovertime work for an assignment.  <br/> |
+|AssignmentRemainingWork  <br/> |The amount of time required by a resource assigned to a task to complete an assignment.  <br/> |
+|AssignmentCombinedWork  <br/> |The work for the assignment, from both the project plan and the resource plan.  <br/> |
+|AssignmentActualRegularCost  <br/> |The cost of the nonovertime work that has already been performed on an assignment.  <br/> |
+|AssignmentActualRegularWork  <br/> |The actual amount of regular, nonovertime work that has already been performed on an assignment.  <br/> |
+|AssignmentCost  <br/> |The total cost for an assignment, based on costs already incurred, in addition to costs that are planned for the remaining work.  <br/> |
+|AssignmentOvertimeCost  <br/> |The total overtime cost for an assignment, including costs for overtime work that has already been performed, in addition to remaining overtime costs.  <br/> |
+|AssignmentActualCost  <br/> |The costs incurred for work that has already been performed on an assignment, along with any other associated costs.  <br/> |
+|AssignmentActualOvertimeCost  <br/> |The costs incurred for overtime work that has already been performed on an assignment.  <br/> |
+|AssignmentWork  <br/> |The total amount of time, such as person-hours or days, that is scheduled for an assignment.  <br/> |
+|AssignmentOvertimeWork  <br/> |The total overtime work for an assignment, including overtime work that has already been performed, in addition to remaining overtime work.  <br/> |
+|AssignmentActualWork  <br/> |The amount of work that has already been performed on an assignment.  <br/> |
+|AssignmentActualOvertimeWork  <br/> |The actual amount of overtime work that has already been performed on an assignment.  <br/> |
+|AssignmentMaterialWork  <br/> |The total work time scheduled for a material resource.  <br/> |
+|AssignmentMaterialActualWork  <br/> |The actual amount of work that has already been performed with the use of a material resource, usually expressed as a percentage of the scheduled amount of material resource work.  <br/> |
+|AssignmentBudgetCost  <br/> |The total projected cost of an assignment.  <br/> |
+|AssignmentBudgetWork  <br/> |The total projected amount of work that is planned for an assignment.  <br/> |
+|AssignmentBudgetMaterialWork  <br/> |The total projected amount of use on the assignment of material resources.  <br/> |
+|AssignmentResourcePlanWork  <br/> |The total time that is scheduled for an assignment in the resource plan.  <br/> |
+|TaskIsActive  <br/> |True if the task for the assignment timephased data is active.  <br/> |
+|AssignmentModifiedDate  <br/> |Date and time the assignment was last updated.  <br/> |
+
+### AssignmentBaselineTimephasedDataset
+<a name="AssignmentBaselineTimephasedDataset"> </a>
+
+AssignmentBaselineTimephasedDataset contains the properties that define the reporting data for assignment baseline timephased data in the reporting schema. It has the following properties:
+
+| Property | Description |
+|:-----|:-----|
+|BaselineNumber  <br/> |An integer number that identifies a baseline in a project.  <br/> |
+|AssignmentUID  <br/> |Unique identifier of the assignment.  <br/> |
+|TimeByDay  <br/> |A primary key that identifies a day along a timeline. The granularity is in days only.  <br/> |
+|ProjectUID  <br/> |The GUID of the project that is associated with the assignment baseline timephased data.  <br/> |
+|TaskUID  <br/> |The GUID of the task that is associated with the assignment baseline timephased data.  <br/> |
+|AssignmentBaselineCost  <br/> |The planned cost of the assignment.  <br/> |
+|AssignmentBaselineWork  <br/> |The total planned person-hours scheduled for an assignment.  <br/> |
+|AssignmentBaselineMaterialWork  <br/> |The planned number of units of supplies or other consumable items that are to be used to complete an assignment.  <br/> |
+|AssignmentBaselineBudgetCost  <br/> |The planned cost of an assignment.  <br/> |
+|AssignmentBaselineBudgetWork  <br/> |The planned total amount of time that is needed to complete an assignment.  <br/> |
+|AssignmentBaselineBudgetMaterialWork  <br/> |The planned number of units of the supplies or other consumable items that are to be used to complete an assignment.  <br/> |
+|AssignmentBaselineModifiedDate  <br/> |Date and time the assignment baseline was last modified.  <br/> |
+|FiscalPeriodUID  <br/> |Unique identifier for the fiscal period.  <br/> |
+|ResourceUID  <br/> |Unique identifier for the resource.  <br/> |
+|TaskName  <br/> |Name of the task.  <br/> |
+|ProjectName  <br/> |Name of the project.  <br/> |
+
 ## Project-specific user data from the reporting data
 <a name="projectspec"> </a>
 
