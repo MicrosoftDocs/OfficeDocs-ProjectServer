@@ -617,7 +617,7 @@ After you run the `ExportProjectUserContent` PowerShell script successfully, you
     </tbody>
     </table>
 
-    > [!Note] 
+    > [!Note]
     > To learn more about the objects contained in each of the `.json` files, see the [Project-specific data files](https://support.office.com/en-us/article/projectspecific-data-files-ce5faeae-9af4-4696-b847-a1f4f20327c7)section of [Project Online export json object definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
 
     Three `.json` files with the project's metadata from the draft, published, and reporting schemas:
@@ -647,7 +647,8 @@ After you run the `ExportProjectUserContent` PowerShell script successfully, you
 
     <span id="findviews" class="anchor"></span>
 
-    > [!Note] To learn more about the objects contained in each of the `.json` files, see the [Project-specific Metadata files](https://support.office.com/en-us/article/project-online-and-project-server-export-data-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7?ui=en-US&rs=en-US&ad=US#projspecmeta) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
+    > [!Note]
+    > To learn more about the objects contained in each of the `.json` files, see the [Project-specific Metadata files](https://support.office.com/en-us/article/project-online-and-project-server-export-data-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7?ui=en-US&rs=en-US&ad=US#projspecmeta) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
 
 ## Step 7 - Timephased Data
 
