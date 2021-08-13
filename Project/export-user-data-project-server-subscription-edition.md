@@ -12,31 +12,25 @@ description: "Learn how your organization can export a specific user's content f
 
 # Export user data from Project Server Subscription Edition
 
-> **Important!**: The process to export user data from Project Server Subscription Edition is different from previous Project Server releases. To learn how to export user data from previous versions, see <br/>1. [Export user data from Project Server 2019](Export-user-data-in-Project-Server-2019.md) <br/>2. [Export user data from Project Server 2016/2013/2010](export-user-data-from-project-server.md)
+> [!Important] 
+> The process to export user data from Project Server Subscription Edition is different from previous Project Server releases. To learn how to export user data from previous versions, see <br/>1. [Export user data from Project Server 2019](Export-user-data-in-Project-Server-2019.md) <br/>2. [Export user data from Project Server 2016/2013/2010](export-user-data-from-project-server.md)
 
 ## Process Overview
 
 <span id="Overview" class="anchor"></span>The following is an overview of the process to export a specific user's information from a Project Web App site in Project Server Subscription Edition:
 
-1.  **Download the export scripts**: Download the .sql and Microsoft PowerShell scripts for exporting user data.
-
-2.  **Find the PWA sites in your environment**: Find a listing of Project Web App instances in your Project Server farm.
-
-3.  **Export workspace items for the user**: Look for user data in project sites.
-
-4.  **Find the user's resource ID**: On each Project Web App instance, find the unique Resource ID for the user. You can also choose to specify the user claim.
-
-5.  **Perform an export of the user's data**: Export the information that you want to review by using the scripts.
-
-6.  **Review your exported content**: Look through the exported data for information about your user.
-
-7.  **Timephased Data**: Export timephased reporting data for a user's tasks &amp; assignments
-
-8.  **Archived items**: Look for data about your user in the Archived database.
-
-9.  **Find and save custom views, custom filters, attachments, and macros**: Locate custom items.
-
-10.  **Data you need to manually export**: Look for user data not included in the export.
+| Steps | Process | Description|
+|-------|---------|------------|
+|1.|Download the export scripts|Download the `.sql` and Microsoft PowerShell scripts for exporting user data.|
+|2.|Find the PWA sites in your environment|Find a listing of Project Web App instances in your Project Server farm.|
+|3.|Export workspace items for the user|Look for user data in project sites.|
+|4.|Find the user's resource ID|On each Project Web App instance, find the unique Resource ID for the user. You can also choose to specify the user claim.|
+|5.|Perform an export of the user's data|Export the information that you want to review by using the scripts.|
+|6.|Review your exported content|Look through the exported data for information about your user.|
+|7.|Timephased Data|Export timephased reporting data for a user's tasks &amp; assignments.|
+|8.|Archived items|Look for data about your user in the Archived database.|
+|9.|Find and save custom views, custom filters, attachments, and macros|Locate custom items.|
+|10.|Data you need to manually export|Look for user data not included in the export.|
 
 ## Step 1 - Download the export script files
 
@@ -46,7 +40,7 @@ The download contains a zip file with separate folder for each version. Use scri
 
 Important notes about running the export scripts:
 
--   Run the .sql script in the context of the database where the information resides. You must have db\_datareader permissions on the database.
+-   Run the `.sql` script in the context of the database where the information resides. You must have `db\_datareader` permissions on the database.
 
 -   You may need to "unblock" the zip file because by default, executing scripts downloaded from the Internet is not allowed. Do the following to unblock your files:
 
@@ -54,13 +48,14 @@ Important notes about running the export scripts:
 
     2.  Right click on the zip file, and click **Properties**.
 
-    3.  On the **General** tab, select **Unblock**. 
+    3.  On the **General** tab, select **Unblock**.
 
-    4.  Click **OK.**
+    4.  Click **OK**.
 
-> All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer appears in the **General** tab of the file's **Properties** page.
->
-> **Note**: If you only have access to unzipped files, you can also unblock each file individually.
+All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer appears in the **General** tab of the file's **Properties** page.
+
+> [!Note] 
+>If you only have access to unzipped files, you can also unblock each file individually.
 
 <span id="bkmk_lookuptheusersresourceid" class="anchor"></span>
 
@@ -68,7 +63,9 @@ Important notes about running the export scripts:
 
 <span id="FindPWA" class="anchor"></span>Use the **Get-SPProjectWebInstance** cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
 
-> Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer
+```powershell
+Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer
+```
 
 You will need the information for each site when you delete the user's personal data in a later step.
 
@@ -109,186 +106,132 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 ## Step 3 - Export workspace items for the user
 
-Run the **ExportWorkspaceItemsByDisplayName.sql** script and search for data using possible display names of the user (partial name searches).
+Run the `ExportWorkspaceItemsByDisplayName.sql` script and search for data using possible display names of the user (partial name searches).
 
-**Note**: You need to run the ExportWorkspaceItemsByDisplayName.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database.
+> [!Note] 
+> Run the `ExportWorkspaceItemsByDisplayName.sql` script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database.
 
 Run the script on the database for the related PWA site. In the example results provided in Step 1, the database for all three Project Web App instances is *WSS\_Content*.
 
 Provide values for the following parameters in the script:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Parameter</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">@siteID</td>
-<td align="left">The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1. </td>
-</tr>
-<tr class="even">
-<td align="left">@searchName </td>
-<td align="left">The display name of the Project Server user. </td>
-</tr>
-</tbody>
-</table>
+| Parameter | Description |
+|-----------|-------------|
+|`@siteID`|The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1.|
+|`@searchName` |The display name of the Project Server user.|
 
 ## Step 4 - Find the user's Resource ID or Claims Account on each PWA site
 
 <span id="FindResID" class="anchor"></span>After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
 
-Run the FindUser.sql SQL script to find the user's Resource ID or claims account.
+Run the `FindUser.sql` script to find the user's Resource ID or claims account.
 
 Provide values for the following parameters in the script:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Parameter</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">@siteID</td>
-<td align="left">The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1. </td>
-</tr>
-<tr class="even">
-<td align="left">@searchName </td>
-<td align="left">The display name of the Project Server user. </td>
-</tr>
-</tbody>
-</table>
+| Parameter | Description |
+|-----------|-------------|
+|`@siteID`|The PWA site ID for the site in which you want to find the user's Resource ID. You found the PWA site ID values for your PWA sites in Step 1.|
+|`@searchName` |The display name of the Project Server user.|
 
 For example, if you want to find the userID for Adam Barr on the Contoso PWA1 site you found in the example in Step 1, you would edit the values for the parameters in the script like this:
 
-> DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
->
-> DECLARE @searchName nvarchar(255) = 'Adam Barr'
+```powershell
+
+DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
+
+DECLARE @searchName nvarchar(255) = 'Adam Barr'
+```
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
 
 ## Step 5 - Export your user's data from the PWA site
 
-Next, you will need to run the **ExportProjectUserContent** PowerShell script to export your user's data from each PWA site in your Project Server environment. To run the script, you need to make sure you and your environment meet the prerequisites.
+Next, you will need to run the **ExportProjectUserContent** PowerShell script to export your user's data from each PWA site in your Project Server environment. To run the script, ensure you and your environment meet the prerequisites.
 
 ### Prerequisites
 
 -   **Project Online Desktop Client or Project Professional 2021/2019**: You will need the Project Online Desktop Client or Project Professional 2021/2019 and be connected to the Project PWA instance.
 
-> To connect your Project client to your Project PWA instance:
+    To connect your Project client to your Project PWA instance:
 
-1.  Click the **File** tab to open the Backstage view. Click **Info**, and then click **Manage** Accounts.
+    1.  Click the **File** tab to open the Backstage view. Click **Info**, and then click **Manage** Accounts.
+    
+    2.  In the **Project Web App Accounts** dialog box, click **Add**.
+    
+    3.  In the **Account Properties** dialog box, type a name for this account in the **Account Name** box.
+    
+    4.  Enter the URL of the PWA site you are connecting to in the **Project Server URL** box.
+    
+    5.  Click **OK**.
+    
+    6.  In the **Project Web App Accounts** dialog box, select **Set as Default,** and then click **OK**.
+    
+    7.  Restart Project, and log on to the PWA site.
 
-2.  In the **Project Web App Accounts** dialog box, click **Add**.
+-   **Permissions:**  To have the required permissions to run the script, add yourself as a site collection admin to the PWA Site for which you are running the script.
 
-3.  In the **Account Properties** dialog box, type a name for this account in the **Account Name** box.
+### Run the `ExportProjectUserContent` script
 
-4.  Enter the URL of the PWA site you are connecting to in the **Project Server URL** box.
-
-5.  Click **OK**.
-
-6.  In the **Project Web App Accounts** dialog box, select **Set as Default,** and then click **OK**.
-
-7.  Restart Project, and log on to the PWA site.
-
--   **Permissions:**   In order to have the required permissions to run the script, you need to do at least one of the following:
-
-    1.  Add yourself as a site collection admin to the PWA Site for which you are running the script.
-
-### Run the ExportProjectUserContent script
-
-Use the **ExportProjectUserContent.ps1** PowerShell script to export your user's data.
+Use the `ExportProjectUserContent.ps1` PowerShell script to export your user's data.
 
 You will need to configure four parameters when running the script.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">-URL</th>
-<th align="left">URL of the PWA site</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">-ResourceID</td>
-<td align="left">Resource ID of the user.</td>
-</tr>
-<tr class="even">
-<td align="left">-ClaimsAccount</td>
-<td align="left">Claims account of the user</td>
-</tr>
-<tr class="odd">
-<td align="left">-OutputDirectory</td>
-<td align="left">Location to store the export files.</td>
-</tr>
-</tbody>
-</table>
+|Parameter |Description|
+|----------|-----------|
+|`-URL` |URL of the PWA site|
+|`-ResourceID` |Resource ID of the user.|
+|`-ClaimsAccount` |Claims account of the user|
+|`-OutputDirectory` |Location to store the export files.|
 
 You will also need to choose the authentication method.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Parameter</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-<table>
-<tbody>
-<tr class="odd">
-<td align="left">Authentication Parameter</td>
-<td align="left"><strong>Description</strong></td>
-</tr>
-<tr class="even">
-<td align="left">[nothing passed in]</td>
-<td align="left">Authenticate using NTLM and the Kerberos protocol as the current user.</td>
-</tr>
-<tr class="odd">
-<td align="left">-PromptForCredential</td>
-<td align="left">Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.</td>
-</tr>
-<tr class="even">
-<td align="left">-UseWebLogin</td>
-<td align="left">Authenticate using Forms and ADFS/SAML protocol.</td>
-</tr>
-</tbody>
-</table>
+|Authentication Parameter |Description|
+|-------------------------|-----------|
+|[nothing passed in] |Authenticate using NTLM and the Kerberos protocol as the current user.|
+|`-PromptForCredential` |Authenticate using Basic or digest protocol or using NTLM and/or Kerberos with a different user.|
+|`-UseWebLogin` |Authenticate using Forms and ADFS/SAML protocol.|
 
 You can choose to run the script either by specifying the user's Resource ID or login Name.
 
-#### **To run the ExportProjectUser script using the users Resource ID**
+#### **To run the `ExportProjectUser` script using the users Resource ID**
 
 You would use the following command in PowerShell with the parameters listed above:
 
-> .\\ExportProjectUserContent.ps1 -Url \<PwaSiteURL\> -ResourceUid \<UsersResourceID\> -OutputDirectory \<LocationToStoreOutput\>
+```powershell
 
-For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Resource ID of cb5c91cf-fd6b-e711-80d0-00155da4a406, and have the export files save to c:\\pwa1siteOutput, you would enter:
+ .\\ExportProjectUserContent.ps1 -Url \<PwaSiteURL\> -ResourceUid \<UsersResourceID\> -OutputDirectory \<LocationToStoreOutput\>
 
-> .\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -ResourceUid cb5c91cf-fd6b-e711-80d0-00155da4a406 -OutputDirectory c:\\pwa1siteOutput
+```
 
-#### **To run the ExportProjectUser script using the users Claim Account**
+For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Resource ID of cb5c91cf-fd6b-e711-80d0-00155da4a406, and have the export files save to `c:\\pwa1siteOutput`, you would enter:
+
+```powershell
+
+ .\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -ResourceUid cb5c91cf-fd6b-e711-80d0-00155da4a406 -OutputDirectory c:\\pwa1siteOutput
+
+ ```
+
+#### **To run the `ExportProjectUser` script using the users Claim Account**
 
 You would use the following command in PowerShell with the parameters listed above:
 
-> .\\ExportProjectUserContent.ps1 -Url \<PwaSiteURL\> -ClaimAccount \<UsersClaimAccount\> -OutputDirectory \<LocationToStoreOutput\>
+```powershell
 
-For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Login Name of AdamB@contoso.onmicrosoft.com, and have the export files save to c:\\pwa1siteOutput, you would enter:
+ .\\ExportProjectUserContent.ps1 -Url \<PwaSiteURL\> -ClaimAccount \<UsersClaimAccount\> -OutputDirectory \<LocationToStoreOutput\>
 
-> .\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -LoginName AdamB@contoso.onmicrosoft.com -OutputDirectory c:\\pwa1siteOutput
+```
 
-After the script runs successfully, all exported data will be stored in the -OutputDirectory you specified.
+For example, if you want to export user data from the Costoso PWA1 site (site URL of https://contoso/sites/pwa1) for a user with a Login Name of AdamB@contoso.onmicrosoft.com, and have the export files save to `c:\\pwa1siteOutput`, you would enter:
+
+```powershell
+.\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -LoginName AdamB@contoso.onmicrosoft.com -OutputDirectory c:\\pwa1siteOutput
+```
+
+After the script runs successfully, all exported data will be stored in the `-OutputDirectory` you specified.
 
 ### Select specific feature-related user data files to export
 
-Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the Security.json file contains data about the user's security groups, categories, and permissions settings. These [*feature-related json files*](https://support.office.com/en-us/article/export-user-data-from-project-online-27f3838d-3dbe-4b98-80dc-df55f851154d) are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the ExportProjectUserContent script. However, you can use the **-Options** parameter to select specific json files to download. These include the following:
+Some of the exported user content you receive will include a number of json formatted files that includes feature-specific user information. For example, the `Security.json` file contains data about the user's security groups, categories, and permissions settings. These [*feature-related json files*](https://support.office.com/en-us/article/export-user-data-from-project-online-27f3838d-3dbe-4b98-80dc-df55f851154d) are described in more detail in the next section. By default, you will receive all 27 feature-related json files when you run the `ExportProjectUserContent` script. However, you can use the `-Options` parameter to select specific json files to download. These include the following:
 
 <table>
 <thead>
@@ -362,214 +305,219 @@ Some of the exported user content you receive will include a number of json form
 </tbody>
 </table>
 
-Using the -Options parameter can be helpful if you want to export user data from the PWA site for specific features. For example, if you are only concerned with your user's data in the Portfolio Analysis feature, you can run the -Options parameter with the value of *Portfolio*:
+Using the `-Options` parameter can be helpful if you want to export user data from the PWA site for specific features. For example, if you are only concerned with your user's data in the Portfolio Analysis feature, you can run the `-Options` parameter with the value of *Portfolio*:
 
-> .\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -ResourceUid cb5c91cf-fd6b-e711-80d0-00155da4a406 -OutputDirectory c:\\pwa1siteOutput -Options Portfolio
+```powershell
 
-This will allow you to export the three json files that contain your user's data that pertains to the Portfolio Analysis feature (BusinessDrivers.json, DriverPrioritizations.json, PortfolioAnalyses.json).
+.\\ExportProjectUserContent.ps1 -Url https://contoso/sites/pwa1 -ResourceUid cb5c91cf-fd6b-e711-80d0-00155da4a406 -OutputDirectory c:\\pwa1siteOutput -Options Portfolio
+
+```
+
+This will allow you to export the three json files that contain your user's data that pertains to the Portfolio Analysis feature (`BusinessDrivers.json`, `DriverPrioritizations.json`, `PortfolioAnalyses.json`).
 
 ## Step 6 - Review your exported content
 
-After you run the ExportProjectUserContent PowerShell script successfully, you will have the following output in the output directory you specified when running the command:
+After you run the `ExportProjectUserContent` PowerShell script successfully, you will have the following output in the output directory you specified when running the command:
 
--   **Project list files** - You will receive three .xml files that provide a list of projects contained in the Project Draft and Published schemas in which the user was a part of. This means the user was involved in the project as at least one of the following:
+-   **Project list files** - You will receive the following three `.xml` files that provide a list of projects contained in the Project Draft and Published schemas of which the user was a part of.
+    
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">DraftProjectList.xml</td>
+    <td align="left">List of projects from the Draft schema that corresponds to the conditions above.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">PublishedProjectList.xml</td>
+    <td align="left">List of projects from the Published schema that corresponds to the conditions above.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">ReportingProjectList.xml</td>
+    <td align="left">List of projects from the Reporting schema that corresponds to the conditions above.</td>
+    </tr>
+    </tbody>
+    </table>
 
-    -   Was the project owner.
+    This means the user was involved in the project as at least one of the following:
+    
+    - Was the project owner.
 
-    -   Has a task assigned to him or her in the project.
+    - Has a task assigned to him or her in the project.
 
-    -   Is an assignment owner of a task in the project.
+    - Is an assignment owner of a task in the project.
 
-    -   Is the status manager of a task in the project.
+    - Is the status manager of a task in the project.
 
-> These three .xml files are:
+    The list of projects may differ slightly for each of the three `.xml` files. For example, a user can save the project but not publish, meaning that it will appear in the` DraftProjectList.xml` file, but not the `PublishedProjectList.xml` or `ReportingProjectList.xml` files.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">DraftProjectList.xml</td>
-<td align="left">List of projects from the Draft schema that corresponds to the conditions above.</td>
-</tr>
-<tr class="even">
-<td align="left">PublishedProjectList.xml</td>
-<td align="left">List of projects from the Published schema that corresponds to the conditions above.</td>
-</tr>
-<tr class="odd">
-<td align="left">ReportingProjectList.xml</td>
-<td align="left">List of projects from the Reporting schema that corresponds to the conditions above.</td>
-</tr>
-</tbody>
-</table>
+    A project admin can use the Project list .xml files to give them information about which project-specific export files they be interested in analyzing to decide how much of the exported content should be shared with the user.
 
-> The list of projects may differ slightly for each of the three .xml files. For example, a user can save the project but not publish, meaning that it will appear in the DraftProjectList.xml file, but not the PublishedProjectList.xml or ReportingProjectList.xml files.
->
-> A project admin can use the Project list .xml files to give them information about which project-specific export files they be interested in analyzing to decide how much of the exported content should be shared with the user.
->
-> All three of the ProjectList.xml files will have the following properties for each project listed:
+    All three of the `ProjectList.xml` files will have the following properties for each project listed:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Property</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">SiteId</td>
-<td align="left">The unique identifier for the PWA site in which the project exists.</td>
-</tr>
-<tr class="even">
-<td align="left">Proj_UID</td>
-<td align="left">The unique identifier for the project.</td>
-</tr>
-<tr class="odd">
-<td align="left">Proj_Name</td>
-<td align="left">Name of the project.</td>
-</tr>
-</tbody>
-</table>
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Property</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">SiteId</td>
+    <td align="left">The unique identifier for the PWA site in which the project exists.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">Proj_UID</td>
+    <td align="left">The unique identifier for the project.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">Proj_Name</td>
+    <td align="left">Name of the project.</td>
+    </tr>
+    </tbody>
+    </table>
 
--   **Feature-related files** - For each PWA site that the user is part of, the following feature-specific .json files will be exported to the specified output directory. The feature-specific files will contain user data as it pertains to the feature use throughout the PWA site. For example, the Drivers.json file will include data about Portfolio Analysis business drivers the user created or owned. If the user has no data relating to the feature on the specific PWA site, the file will contain no data.
+-  **Feature-related files** - For each PWA site that the user is part of, the following feature-specific `.json` files will be exported to the specified output directory. The feature-specific files will contain user data as it pertains to the feature use throughout the PWA site. For example, the `Drivers.json` file will include data about Portfolio Analysis business drivers the user created or owned. If the user has no data relating to the feature on the specific PWA site, the file will contain no data.
 
-> The feature-specific .json files include:
+    The feature-specific `.json` files include:
+    
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/adminaudit-ce5faeae-9af4-4696-b847-a1f4f20327c7#adminaudit"><em>AdminAudit</em></a></td>
+    <td align="left">Project Web App server settings change data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/businessdrivers-ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers"><em>BusinessDrivers</em></a></td>
+    <td align="left">Portfolio analysis business drivers data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/calendars-ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars"><em>Calendars</em></a></td>
+    <td align="left">Enterprise calendar data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/customfields-ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields"><em>CustomFields</em></a></td>
+    <td align="left">Custom field data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/delegations-ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations"><em>Delegations</em></a></td>
+    <td align="left">Delegation data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/driverprioritizations-ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations"><em>DriverPrioritizations</em></a></td>
+    <td align="left">Business driver prioritizations data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/engagements-ce5faeae-9af4-4696-b847-a1f4f20327c7#engagements"><em>Engagements</em></a></td>
+    <td align="left">Resource engagement data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/lookuptables-ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables"><em>LookupTables</em></a></td>
+    <td align="left">Lookup table data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/portfolioanalysis-ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses"><em>PortfolioAnalysis</em></a></td>
+    <td align="left">Portfolio analyses data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/queuejobs-ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs"><em>QueueJobs</em></a></td>
+    <td align="left">Data about user jobs process through the Queue Service.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/reminderemails-ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails"><em>ReminderEmails</em></a></td>
+    <td align="left">Reminder email data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/reportingresourceplans-ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource"><em>ReportingResourcePlans</em></a></td>
+    <td align="left">Resource reporting data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/resource-ce5faeae-9af4-4696-b847-a1f4f20327c7#resource"><em>Resource</em></a></td>
+    <td align="left">Resource data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/resourceplans-ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan"><em>ResourcePlans</em></a></td>
+    <td align="left">Resource plan data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/rules-ce5faeae-9af4-4696-b847-a1f4f20327c7#rules"><em>Rules</em></a></td>
+    <td align="left">Rules data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/security-ce5faeae-9af4-4696-b847-a1f4f20327c7#security"><em>Security</em></a></td>
+    <td align="left">Data about security groups, categories, and permissions.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/statusreports-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports"><em>StatusReports</em></a></td>
+    <td align="left">Status report data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/subscribedreminders-ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders"><em>SubscribedReminders</em></a></td>
+    <td align="left">Subscribed reminders data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis"><em>TaskStatus_AssignmentsHistory</em></a></td>
+    <td align="left">Statusing assignments history data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentssaved-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved"><em>TaskStatus_AssignmentsSaved</em></a></td>
+    <td align="left">Statusing assignments save data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentssubmitted-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsub"><em>TaskStatus_AssignmentsSubmitted</em></a></td>
+    <td align="left">Statusing assignments submit data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/timesheets-ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets"><em>Timesheets</em></a></td>
+    <td align="left">Data about timesheets.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/timesheetsreporting-ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting"><em>Timesheets_Reporting</em></a></td>
+    <td align="left">Reporting data about timesheets.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/unsubscribedalerts-ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts"><em>UnsubscribedAlerts</em></a></td>
+    <td align="left">Unsubscribed alerts data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/userviewsettings-ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop"><em>UserViewSettings</em></a></td>
+    <td align="left">User view settings data.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/workflow-ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow"><em>Workflow</em></a></td>
+    <td align="left">Project workflow data.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/workspaceitems-ce5faeae-9af4-4696-b847-a1f4f20327c7#wss"><em>WorkspaceItems</em></a></td>
+    <td align="left">Data about SharePoint items from project sites.</td>
+    </tr>
+    </tbody>
+    </table>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/adminaudit-ce5faeae-9af4-4696-b847-a1f4f20327c7#adminaudit"><em>AdminAudit</em></a></td>
-<td align="left">Project Web App server settings change data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/businessdrivers-ce5faeae-9af4-4696-b847-a1f4f20327c7#drivers"><em>BusinessDrivers</em></a></td>
-<td align="left">Portfolio analysis business drivers data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/calendars-ce5faeae-9af4-4696-b847-a1f4f20327c7#calendars"><em>Calendars</em></a></td>
-<td align="left">Enterprise calendar data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/customfields-ce5faeae-9af4-4696-b847-a1f4f20327c7#customfields"><em>CustomFields</em></a></td>
-<td align="left">Custom field data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/delegations-ce5faeae-9af4-4696-b847-a1f4f20327c7#delegations"><em>Delegations</em></a></td>
-<td align="left">Delegation data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/driverprioritizations-ce5faeae-9af4-4696-b847-a1f4f20327c7#prioritizations"><em>DriverPrioritizations</em></a></td>
-<td align="left">Business driver prioritizations data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/engagements-ce5faeae-9af4-4696-b847-a1f4f20327c7#engagements"><em>Engagements</em></a></td>
-<td align="left">Resource engagement data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/lookuptables-ce5faeae-9af4-4696-b847-a1f4f20327c7#lookuptables"><em>LookupTables</em></a></td>
-<td align="left">Lookup table data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/portfolioanalysis-ce5faeae-9af4-4696-b847-a1f4f20327c7#analyses"><em>PortfolioAnalysis</em></a></td>
-<td align="left">Portfolio analyses data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/queuejobs-ce5faeae-9af4-4696-b847-a1f4f20327c7#queuejobs"><em>QueueJobs</em></a></td>
-<td align="left">Data about user jobs process through the Queue Service.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/reminderemails-ce5faeae-9af4-4696-b847-a1f4f20327c7#reminderemails"><em>ReminderEmails</em></a></td>
-<td align="left">Reminder email data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/reportingresourceplans-ce5faeae-9af4-4696-b847-a1f4f20327c7#reportingresource"><em>ReportingResourcePlans</em></a></td>
-<td align="left">Resource reporting data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/resource-ce5faeae-9af4-4696-b847-a1f4f20327c7#resource"><em>Resource</em></a></td>
-<td align="left">Resource data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/resourceplans-ce5faeae-9af4-4696-b847-a1f4f20327c7#resourceplan"><em>ResourcePlans</em></a></td>
-<td align="left">Resource plan data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/rules-ce5faeae-9af4-4696-b847-a1f4f20327c7#rules"><em>Rules</em></a></td>
-<td align="left">Rules data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/security-ce5faeae-9af4-4696-b847-a1f4f20327c7#security"><em>Security</em></a></td>
-<td align="left">Data about security groups, categories, and permissions.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/statusreports-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusreports"><em>StatusReports</em></a></td>
-<td align="left">Status report data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/subscribedreminders-ce5faeae-9af4-4696-b847-a1f4f20327c7#subscribedreminders"><em>SubscribedReminders</em></a></td>
-<td align="left">Subscribed reminders data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentshistory-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignhis"><em>TaskStatus_AssignmentsHistory</em></a></td>
-<td align="left">Statusing assignments history data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentssaved-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsaved"><em>TaskStatus_AssignmentsSaved</em></a></td>
-<td align="left">Statusing assignments save data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/taskstatusassignmentssubmitted-ce5faeae-9af4-4696-b847-a1f4f20327c7#statusassignsub"><em>TaskStatus_AssignmentsSubmitted</em></a></td>
-<td align="left">Statusing assignments submit data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/timesheets-ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets"><em>Timesheets</em></a></td>
-<td align="left">Data about timesheets.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/timesheetsreporting-ce5faeae-9af4-4696-b847-a1f4f20327c7#timesheets_reporting"><em>Timesheets_Reporting</em></a></td>
-<td align="left">Reporting data about timesheets.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/unsubscribedalerts-ce5faeae-9af4-4696-b847-a1f4f20327c7#unsubscribedalerts"><em>UnsubscribedAlerts</em></a></td>
-<td align="left">Unsubscribed alerts data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/userviewsettings-ce5faeae-9af4-4696-b847-a1f4f20327c7#userprop"><em>UserViewSettings</em></a></td>
-<td align="left">User view settings data.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/workflow-ce5faeae-9af4-4696-b847-a1f4f20327c7#workflow"><em>Workflow</em></a></td>
-<td align="left">Project workflow data.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/workspaceitems-ce5faeae-9af4-4696-b847-a1f4f20327c7#wss"><em>WorkspaceItems</em></a></td>
-<td align="left">Data about SharePoint items from project sites.</td>
-</tr>
-</tbody>
-</table>
+    Certain feature-specific json files have the possibility of being large, so to improve performance, the following json files will spawn across multiple files:
+   
+    - `Engagements.json`
 
-> Certain feature-specific json files have the possibility of being large, so to improve performance, the following json files will spawn across multiple files:
+    - `ResourcePlans.json`
 
--   Engagements.json
+    - `Timesheets.json`
 
--   ResourcePlans.json
+    - `TaskStatus\_AssignmentHistory.json`
 
--   Timesheets.json
-
--   TaskStatus\_AssignmentHistory.json
-
-> **Note**: To learn more about the objects contained in each of the feature-specific .json files, see the [Feature-specific data](https://support.office.com/en-us/article/featurespecific-data-ce5faeae-9af4-4696-b847-a1f4f20327c7) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
+    > [!Note] 
+    > To learn more about the objects contained in each of the feature-specific `.json` files, see the [Feature-specific data](https://support.office.com/en-us/article/featurespecific-data-ce5faeae-9af4-4696-b847-a1f4f20327c7) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
 
 -   **Project-specific files** - If the user is part of any project, then for each of those projects, several individual files will be exported to the output directory. This will happen if the user is part of the specific project as one of the following:
 
@@ -581,121 +529,129 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
 
     -   Is the status manager of a task in the project
 
-> Project-specific data differs from the Feature-related data in that the data is specific to a single project. Feature-related data can include user data across many projects in the PWA site that the user was a part of, but pertaining to a single feature.  
->   
-> **Note**: For all project-specific files you receive, they will be prefixed with the specific project's **Project Name**. For example, if a project has a Project Name of **Project1**, all project-specific files we describe in this section will be prefixed with **Project1**.
->
-> For each project the user is a part of, you will received the following three sets of files:
->
-> - An .xml file for the project from the draft and published databases:
+    Project-specific data differs from the Feature-related data in that the data is specific to a single project. Feature-related data can include user data across many projects in the PWA site that the user was a part of, but pertaining to a single feature.  
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">&lt;projectName&gt;_draft.xml</td>
-<td align="left">The project file from the draft schema saved as .xml format.</td>
-</tr>
-<tr class="even">
-<td align="left">&lt;projectName&gt;_published.xml</td>
-<td align="left">The project file from the published schema saved as .xml format.</td>
-</tr>
-</tbody>
-</table>
+    > [!Note] 
+    > For all project-specific files you receive, they will be prefixed with the specific project's **Project Name**. For example, if a project has a Project Name of **Project1**, all project-specific files we describe in this section will be prefixed with **Project1**.
 
-> **Note:** See the [Project XML Data Interchange Scheme Reference](/office-project/xml-data-interchange/project-xml-data-interchange-schema-reference) to understand the Project XML data contained in these files.
->
-> - An .mpp file for the project from the draft and published databases:
+    For each project the user is a part of, you will received the following three sets of files:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">&lt;projectName&gt;_draft.mpp</td>
-<td align="left">The project file from the draft schema saved as a Project .mpp file.</td>
-</tr>
-<tr class="even">
-<td align="left">&lt;projectName&gt;_published.mpp</td>
-<td align="left">The project file from the published schema saved as a Project .mpp file.</td>
-</tr>
-</tbody>
-</table>
+    - An `.xml` file for the project from the draft and published databases:
 
-> **Note:** You can open the .mpp file with Project Professional 2021, Project Professional 2019, or the Project Online Desktop client.
->
-> - Four .json files for the project from the reporting schema:
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">&lt;projectName&gt;_draft.xml</td>
+    <td align="left">The project file from the draft schema saved as .xml format.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">&lt;projectName&gt;_published.xml</td>
+    <td align="left">The project file from the published schema saved as .xml format.</td>
+    </tr>
+    </tbody>
+    </table>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingprojectbaselinejson-ce5faeae-9af4-4696-b847-a1f4f20327c7#projectbaseline">Project_&lt;projectName&gt;_reporting_ProjectBaseline.json</a></td>
-<td align="left">Project Baseline data for the project from the reporting schema.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingtasksjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#projecttasks">Project_&lt;projectName&gt;_reporting_Tasks.json</a></td>
-<td align="left">Project tasks data for the project from the reporting schema.</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingassignmentsjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#assignments">Project_&lt;projectName&gt;_reporting_Assignments.json</a></td>
-<td align="left">Assignment resources data for the project from the reporting schema.</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingresourcesjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#reporting_resources">Project_&lt;projectName&gt;_reporting_Resources.json</a></td>
-<td align="left">Resources data for the project from the reporting schema.</td>
-</tr>
-</tbody>
-</table>
+    > [!Note] 
+    > See the [Project XML Data Interchange Scheme Reference](/office-project/xml-data-interchange/project-xml-data-interchange-schema-reference) to understand the Project XML data contained in these files.
 
-> **Note:** To learn more about the objects contained in each of the .json files, see the [Project-specific data files](https://support.office.com/en-us/article/projectspecific-data-files-ce5faeae-9af4-4696-b847-a1f4f20327c7)section of [Project Online export json object definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
->
-> - Three .json files with the project's metadata from the draft, published, and reporting schemas:
+    <br>
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">&lt;projectName&gt;_draft.json</td>
-<td align="left">Project metadata file from the Draft schema</td>
-</tr>
-<tr class="even">
-<td align="left">&lt;projectName&gt;_published.json</td>
-<td align="left">Project metadata file from the Published schema</td>
-</tr>
-<tr class="odd">
-<td align="left">&lt;projectName&gt;_reporting.json</td>
-<td align="left">Project metadata file from the Reporting schema</td>
-</tr>
-</tbody>
-</table>
+    - An .mpp file for the project from the draft and published databases:
 
-<span id="findviews" class="anchor"></span>
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">&lt;projectName&gt;_draft.mpp</td>
+    <td align="left">The project file from the draft schema saved as a Project .mpp file.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">&lt;projectName&gt;_published.mpp</td>
+    <td align="left">The project file from the published schema saved as a Project .mpp file.</td>
+    </tr>
+    </tbody>
+    </table>
 
-**Note**: To learn more about the objects contained in each of the .json files, see the [Project-specific Metadata files](https://support.office.com/en-us/article/project-online-and-project-server-export-data-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7?ui=en-US&rs=en-US&ad=US#projspecmeta) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
+    > [!Note]
+    > You can open the .mpp file with Project Professional 2021, Project Professional 2019, or the Project Online Desktop client.
+
+    <br>
+
+    - Four `.json` files for the project from the reporting schema:
+
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingprojectbaselinejson-ce5faeae-9af4-4696-b847-a1f4f20327c7#projectbaseline">Project_&lt;projectName&gt;_reporting_ProjectBaseline.json</a></td>
+    <td align="left">Project Baseline data for the project from the reporting schema.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingtasksjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#projecttasks">Project_&lt;projectName&gt;_reporting_Tasks.json</a></td>
+    <td align="left">Project tasks data for the project from the reporting schema.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingassignmentsjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#assignments">Project_&lt;projectName&gt;_reporting_Assignments.json</a></td>
+    <td align="left">Assignment resources data for the project from the reporting schema.</td>
+    </tr>
+    <tr class="even">
+    <td align="left"><a href="https://support.office.com/en-us/article/projectprojectnamereportingresourcesjson-ce5faeae-9af4-4696-b847-a1f4f20327c7#reporting_resources">Project_&lt;projectName&gt;_reporting_Resources.json</a></td>
+    <td align="left">Resources data for the project from the reporting schema.</td>
+    </tr>
+    </tbody>
+    </table>
+
+    > [!Note] 
+    > To learn more about the objects contained in each of the `.json` files, see the [Project-specific data files](https://support.office.com/en-us/article/projectspecific-data-files-ce5faeae-9af4-4696-b847-a1f4f20327c7)section of [Project Online export json object definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
+
+    Three `.json` files with the project's metadata from the draft, published, and reporting schemas:
+
+    <table>
+    <thead>
+    <tr class="header">
+    <th align="left">Name</th>
+    <th align="left">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">&lt;projectName&gt;_draft.json</td>
+    <td align="left">Project metadata file from the Draft schema</td>
+    </tr>
+    <tr class="even">
+    <td align="left">&lt;projectName&gt;_published.json</td>
+    <td align="left">Project metadata file from the Published schema</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">&lt;projectName&gt;_reporting.json</td>
+    <td align="left">Project metadata file from the Reporting schema</td>
+    </tr>
+    </tbody>
+    </table>
+
+    <span id="findviews" class="anchor"></span>
+
+    > [!Note] To learn more about the objects contained in each of the `.json` files, see the [Project-specific Metadata files](https://support.office.com/en-us/article/project-online-and-project-server-export-data-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7?ui=en-US&rs=en-US&ad=US#projspecmeta) section of [Project Online and Project Server export data definitions](https://support.office.com/en-us/article/project-online-export-json-object-definitions-ce5faeae-9af4-4696-b847-a1f4f20327c7).
 
 ## Step 7 - Timephased Data
 
-Run the **ExportReportingTimephasedData.sql** script to export timephased data stored in reporting schema that is related to the resource. The script exports the following timephased information:
+Run the `ExportReportingTimephasedData.sql` script to export timephased data stored in reporting schema that is related to the resource. The script exports the following timephased information:
 
 1. [TaskTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#tasktimephaseddataset)
 2. [TaskBaselineTimephased](/ProjectOnline/project-online-and-project-server-export-data-definitions#taskbaselinetimephaseddataset)
@@ -704,7 +660,9 @@ Run the **ExportReportingTimephasedData.sql** script to export timephased data s
 
 ## Step 8 - Archived items
 
-<span id="ArchivedItems" class="anchor"></span>**ExportArchievdData.sql** will return the following data that is stored in the archived database that is related to the resource.
+<span id="ArchivedItems" class="anchor"></span>
+
+`ExportArchievdData.sql` will return the following data that is stored in the archived database that is related to the resource.
 
 <table>
 <thead>
@@ -773,23 +731,9 @@ When saving a master project that a user was a part of, you will not need to sav
 
 ### Project Author
 
-The author of the project is not exported using the above steps. You can run ExportProjectAuthor.sql to get the list of projects whose author matches the user display name or the users claims.
+The author of the project is not exported using the above steps. You can run `ExportProjectAuthor.sql` to get the list of projects whose author matches the user display name or the users claims.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Parameter</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">@siteID</td>
-<td align="left">The PWA site ID for the site in which you want to find if the user is author of a project. </td>
-</tr>
-<tr class="even">
-<td align="left">@searchName </td>
-<td align="left">The display name or claims of the Project Server user. </td>
-</tr>
-</tbody>
-</table>
+|Parameter |Description|
+|----------|-----------|
+|`@siteID` |The PWA site ID for the site in which you want to find if the user is author of a project.|
+|`@searchName` |The display name or claims of the Project Server user. |
