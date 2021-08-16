@@ -42,8 +42,7 @@ This article describes:
 
 -   Step 9 - Clear the cache for Project Professional users connecting to the Project Server instance.
 
-What user information is deleted?
----------------------------------
+## What user information is deleted?
 
 <span id="user-content-Whatdata" class="anchor"></span>In Project Server, admins can use the steps detailed in this article to delete a user's personal data and personal identifying data (data that can be used to identify the user), such as:
 
@@ -59,8 +58,8 @@ User personal information contained in Project sites, issues, and risks are stor
 
 **IMPORTANT:** We recommend running the SharePoint Server user information delete process before deleting the same user's information from Project Server. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
 
-Delete scenarios  
----------------------------------
+## Delete scenarios  
+
 Depending on your needs, this process allows you to delete your user's personal information listed above, but also allows some control of in regards to deleting the users display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
 
 
@@ -82,8 +81,7 @@ In this scenario, all of the user's personal information is deleted, except in t
 
 You might choose this scenario if you need to do further review of timesheet records in which the user appears as either a submitter or approver.
 
-Process Overview
-----------------
+## Process Overview
 
 <span id="user-content-Overview" class="anchor"></span>The following is an overview of the process to delete a specific user's information in Project Web App:
 
@@ -107,8 +105,7 @@ Process Overview
 
 10. **Clear the cache for Project client users connecting to the PWA site**:
 
-Step 1 - Download the export script files
------------------------------------------
+## Step 1 - Download the export script files
 
 <span id="DownloadScripts" class="anchor"></span>Click [here](https://go.microsoft.com/fwlink/?linkid=871966) to download the export scripts.
 
@@ -130,8 +127,7 @@ All files contained in the zip file should now be Unblocked. You can verify this
 
 **Note**: If you only have access to unzipped files, you can also unblock each file individually.
 
-Step 2 - Find the Project Web App instances in your SharePoint Server farm
---------------------------------------------------------------------------
+## Step 2 - Find the Project Web App instances in your SharePoint Server farm
 
 <span id="FindPWA" class="anchor"></span>Use the Get-SPProjectWebInstance cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
 
@@ -174,8 +170,7 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 <span id="bkmk_runtheexportpowershellscript" class="anchor"></span>
 
-Step 3 - Find the user's Resource ID or Claims Account on each PWA site
------------------------------------------------------------------------
+## Step 3 - Find the user's Resource ID or Claims Account on each PWA site
 
 <span id="FindResID" class="anchor"></span>After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
 
@@ -214,8 +209,7 @@ For example, if you want to find the userID for Adam Barr on the Contoso PWA1 si
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
 
-Step 4 - Close all the user's projects
---------------------------------------
+## Step 4 - Close all the user's projects
 
 <span id="user-content-Step4" class="anchor"></span>You need to ensure that all of the user's projects are closed in your Project Server environment. This will ensure that changes made by the delete script are not overwritten.
 
@@ -223,23 +217,20 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 
 1.  On the **Server Settings** page, in the **Queue and Database Administration** section, click **Force Check-in Enterprise Objects**.
 
-2.  ﻿On the **Force Check-in Enterprise Objects** page, from the project list, select the checkbox next to the project that needs to be checked, and then click **Check-In**.
+2.  On the **Force Check-in Enterprise Objects** page, from the project list, select the checkbox next to the project that needs to be checked, and then click **Check-In**.
 
-3.  ﻿A message will display asking if you are sure you want to force-checkin. Click **OK.**
+3.  A message will display asking if you are sure you want to force-checkin. Click **OK.**
 
-Step 5 - Sync workspace items into Project Server  
----------------------------------------------------
+## Step 5 - Sync workspace items into Project Server  
 
 <span id="user-content-SyncWorkspaceItems" class="anchor"></span>The Sync-ProjectWorkspace2019.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can find out the projects relating to the user by doing an export of the WorkspaceItems [Export user data from Project Server 2019 Public Preview](export-user-data-from-project-server-2019 Public Preview.md). [Confirm that the queue jobs have completed](manage-queue-jobs-project-server-2013.md) before proceeding with additional steps.
 
   
-Step 6 - Export the users data
-------------------------------
+## Step 6 - Export the users data
 
 <span id="user-content-Step3" class="anchor"></span>Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in Export user data from Project Server 2019 Public Preview.
 
-Step 7- Delete user personal data for Issues and Risks
-------------------------------------------------------
+## Step 7- Delete user personal data for Issues and Risks
 
 <span id="user-content-DeletePersonalData" class="anchor"></span>Issues and Risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
 
@@ -247,8 +238,7 @@ If you delete user information from a Project Site after they have already been 
 
 You can use the FindUserClaims2019.sql script to find claims accounts for all issues risks in the reporting database.
 
-Step 8 - Delete your user's data from the PWA site
---------------------------------------------------
+## Step 8 - Delete your user's data from the PWA site
 
 On the Project Server, as a SharePoint farm admin, execute the Invoke-SPProjectRedactUser cmdlet to remove user data from the PWA site and to optionally update the display name of the user.
 
@@ -394,8 +384,7 @@ When running this command, a message will display asking you to confirm if you w
 
 After you confirm and the script successfully completes, a message will display stating: All data for resource \<user's login name\> has been removed and the name of the resource has been changed to \<updated display name\> everywhere except for timesheet records.
 
-Step 9 - Redact resource information from archived objects  
-------------------------------------------------------------
+## Step 9 - Redact resource information from archived objects  
 
 ### **Archived project data**
 
@@ -419,10 +408,7 @@ Project Server only keeps a single version of the following archived items:
 
 Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
-  
-
-Step 10 - Clear the cache for Project client users connecting to the PWA site
------------------------------------------------------------------------------
+## Step 10 - Clear the cache for Project client users connecting to the PWA site
 
 On all devices on which Project Professional or the Project Online Desktop Client connected to the Project Online instance, an IT admin needs to clear the cache. Clearing the cache will prevent projects in which user information was deleted from being updated from cached data that remains on the system. You also need to make sure that none of the user's projects are open on the client before clearing the cache.
 
