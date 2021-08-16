@@ -15,7 +15,7 @@ description: "Summary: Use the New Custom Field page in Project Web App settings
 # Add or edit enterprise custom fields in Project Server
  
  **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom field.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Use the following procedure to create a new enterprise custom field or edit an existing one.
   
@@ -70,7 +70,7 @@ The **Type** selection defines the data type of the custom field. The value that
 |**Duration** <br/> |Use custom duration fields to define a duration. These are frequently defined as calculations that use custom formulas. For example, a custom duration field can enable your organization to define a way for a project manager to show and store the difference between a project's original schedule and the actual schedule.  <br/> |
 |**Flag** <br/> |Use custom flag fields to define anything that can have only two choices for defining the data. For example, you might use a flag field to determine whether to display a field or to enable a macro that controls whether a particular set of data is available in the project.  <br/> |
 |**Number** <br/> |Use custom number fields to define any numeric set of data or to perform a custom calculation by using a custom formula. For example, you might use a task-level field to record the estimated lines of code in a software development project or to compare a project's actual cost to its proposed cost.  <br/> |
-|**Text** <br/> |Use custom text fields to define simple, non-hierarchical, alphanumeric data. For example, you can create a custom text field that is named Project Status that includes options such as Initiated, Approved, In-Progress, Suspended, Cancelled, and Closed.  <br/> |
+|**Text** <br/> |Use custom text fields to define simple, non-hierarchical, alphanumeric data. For example, you can create a custom text field that is named Project Status that includes options such as Initiated, Approved, In-Progress, Suspended, Canceled, and Closed.  <br/> |
    
 ## Custom attributes
 

@@ -15,7 +15,7 @@ description: "Summary: You can configure Project Server security groups in Proje
 
 # Manage security group synchronization with Active Directory in Project Server
   **Summary:** You can configure Project Server security groups in Project Web App to synchronize with security or distribution groups in Active Directory.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 > [!NOTE]
 > To configure Active Directory synchronization to Project Web App security groups, your Project Server instance must be in Project Server Permission Mode. The settings are not available in SharePoint Permission Mode. For more information about Project Server Permission Mode, see [Plan user access in Project Server](plan-user-access-in-project-server.md). 
@@ -119,7 +119,7 @@ You can schedule the frequency that Active Directory synchronization to PWA secu
     > [!NOTE]
     > You can click **Run Now** at any time to run the timer job immediately.
   
-Notice that several options provide you a period of execution time to run the job instead of an exact time or frequency. Selecting an option that provides a period of execution time allows the timer service to select a random time within the parameters specified in order to run the job on each application server. Using an option with a period of execution time is appropriate for high-load jobs which run on multiple servers in the farm. Running this type of job on all servers of the servers simultaneously might place an unreasonable load on the farm.
+Notice that several options provide you a period of execution time to run the job instead of an exact time or frequency. Selecting an option that provides a period of execution time allows the timer service to select a random time within the parameters specified in order to run the job on each application server. Using an option with a period of execution time is appropriate for high-load jobs that run on multiple servers in the farm. Running this type of job on all servers of the servers simultaneously might place an unreasonable load on the farm.
   
 Various factors may help you determine the frequency in which you choose to run the **Project Server: Synchronization of AD with security groups** timer job. You may want to choose to run this timer job more frequently if, in your environment, users frequently move to different groups, or if your company frequently hires or releases employees. You may also want to choose to run the job more frequently if your Project Server users are working with sensitive data.
   

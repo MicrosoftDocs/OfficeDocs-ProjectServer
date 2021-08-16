@@ -15,9 +15,9 @@ description: "Summary: You can force the check-in an enterprise project by using
 # Check-in enterprise projects in Project Server
  
  **Summary:** You can force the check-in an enterprise project by using Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
-You can force the check-in of an enterprise project that is checked out. Note that forcing a check-in of a project that is being modified by a user may result in the loss of those changes. We highly recommend that users check in projects in the typical manner and that you use force check-in only when it is absolutely necessary.
+You can force the check-in of an enterprise project that is checked out. Note that forcing a check-in of a project that is being modified by a user may result in the loss of those changes. We highly recommend that users check in projects in the typical manner and that you use force check-in only when it is necessary.
   
 Use the following procedure to force check-in enterprise projects.
   
