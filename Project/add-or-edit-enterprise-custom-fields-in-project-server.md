@@ -252,10 +252,8 @@ The following table describes the options for configuring custom field behavior.
 |**Behavior controlled by workflow** <br/> |Select this check box if you want the custom field behavior to be controlled by workflow.  <br/> |
 |**Allow editing on Project Detail pages for SharePoint Task List Projects** <br/> |Select this option if you want this custom field to be available to users editing SharePoint task list projects.  <br/> |
 |**Require that this field has information** <br/> |Choose whether you want this to be a required field (that is, the field cannot be left blank). This option is not available if the **Behavior controlled by workflow** option is selected. <br/> |
-   
-## See also
 
-#### 
+## See also
 
 [Add or edit enterprise custom lookup tables in Project Server](add-or-edit-enterprise-custom-lookup-tables-in-project-server.md)
 
