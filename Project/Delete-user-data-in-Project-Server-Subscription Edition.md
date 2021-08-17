@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal
 
-description: "Learn how an Farm admin can delete a specific user's data from a Project Server Subscription Edition Public Preview environment."
+description: "Learn how a Farm admin can delete a specific user's data from a Project Server Subscription Edition Public Preview environment."
 ---
 # Delete user data from Project Server Subscription Edition Public Preview
 
@@ -33,7 +33,7 @@ This article describes:
 
 -   Step 4 - Sync workspace items into Project Server
 
--   Step 5 - Export the users data
+-   Step 5 - Export the user's data
 
 -   Step 6 - Delete user personal data for Issues and Risks
 
@@ -49,7 +49,7 @@ This article describes:
 
 -   **Display name, phonetic name, GUIDs** - You can choose to delete or rename the user Display Name (details in how to run the script).
 
--   **Users specific view settings** - For example, if the user has customizations on their view settings (views, filters, groups, tables, maps, drawing, reports) ﻿on top of grid pages with views (such as the Resource Center, Project Center, Schedule webpart, etc.), these are deleted.
+-   **Users specific view settings** - For example, if the user has customizations on their view settings (views, filters, groups, tables, maps, drawing, reports) ﻿on top of grid pages with views (such as the Resource Center, Project Center, Schedule web part, etc.), these are deleted.
 
 -   **Calendar exception details** - For example, if the user was out for a week in January because he or she was sick or on vacation, the name of the exception needs to be manually deleted. The dates will remain the same.
 
@@ -62,7 +62,7 @@ User personal information contained in Project sites, issues, and risks are stor
 
 ## Delete scenarios  
 
-Depending on your needs, this process allows you to delete your user's personal information listed above, but also allows some control of in regards to deleting the users display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
+Depending on your needs, this process allows you to delete your user's personal information listed above, but also allows some control of regarding deleting the users display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
 
 
 ### **Scenario 1: Delete user's information from a Project Web App instance except for the display name**
@@ -97,7 +97,7 @@ You might choose this scenario if you need to do further review of timesheet rec
 
 5.  **Sync workspace items into Project Server**.
 
-6.  **Perform an export of the user's data**: This procedures is described in [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md).
+6.  **Perform an export of the user's data**: This procedure is described in [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md).
 
 7.  **Delete user personal data from Issues and Risks**.
 
@@ -113,7 +113,7 @@ You might choose this scenario if you need to do further review of timesheet rec
 
 Important notes about running the export scripts:
 
--   Run the .sql script in the context of the database where the information resides. You must have db\_datareader permissions on the database.
+-   Run the `.sql` script in the context of the database where the information resides. You must have db\_datareader permissions on the database.
 
 -   You may need to "unblock" the zip file because by default, executing scripts downloaded from the Internet is not allowed. Do the following to unblock your files:
 
@@ -132,10 +132,10 @@ All files contained in the zip file should now be Unblocked. You can verify this
 
 ## Step 2 - Find the Project Web App instances in your SharePoint Server farm
 
-<span id="FindPWA" class="anchor"></span>Use the Get-SPProjectWebInstance cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
+<span id="FindPWA" class="anchor"></span>Use the `Get-SPProjectWebInstance` cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
 
 ```
-*Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer*
+Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer
 ```
 
 You will need the information for each site when you delete the user's personal data in a later step.
@@ -177,14 +177,14 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 ## Step 3 - Find the user's Resource ID or Claims Account on each PWA site
 
-<span id="FindResID" class="anchor"></span>After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites your discovered in Step 1 (since ResIDs differ in each PWA instance).
+<span id="FindResID" class="anchor"></span>After getting information all PWA sites on your Project Server farm, next you need to find the Resource ID (ResID) or Claims account of the user whose personal data you want to delete. Do this on each of the PWA sites you discovered in Step 1 (since ResIDs differ in each PWA instance).
 
-Run the FindUser.sql SQL script to find the user's Resource ID or claims account.  
+Run the `FindUser.sql` SQL script to find the user's Resource ID or claims account.  
   
 > [!Note] 
-> You need to run the FindUser.sql SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database.
+> You need to run the `FindUser.sql` SQL script in SQL Server Management Studio and must have farm admin permissions to have access to the appropriate database.
 
-Run the script on the database for the related PWA site. In the example results provided in Step 1, the database for all three Project Web App instances is *WSS\_Content* .
+Run the script on the database for the related PWA site. In the example results provided in Step 1, the database for all three Project Web App instances is `WSS\_Content`.
 
 Provide values for the following parameters in the script:
 
@@ -210,9 +210,9 @@ Provide values for the following parameters in the script:
 For example, if you want to find the userID for Adam Barr on the Contoso PWA1 site you found in the example in Step 1, you would edit the values for the parameters in the script like this:
 
 ```
-*DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'*
+DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 
-*DECLARE @searchName nvarchar(255) = 'Adam Barr'*
+DECLARE @searchName nvarchar(255) = 'Adam Barr'
 ```
 
 The script returns the Resource Name, Resource ID, email address, and Claims Account values for the user.
@@ -231,9 +231,9 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 
 ## Step 5 - Sync workspace items into Project Server  
 
-<span id="user-content-SyncWorkspaceItems" class="anchor"></span>The Sync-ProjectWorkspace.ps1 script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can find out the projects relating to the user by doing an export of the WorkspaceItems [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md). Confirm that the queue jobs have completed from **Manage Queue Jobs** in **Project Web App Settings Page** before proceeding with additional steps.
+<span id="user-content-SyncWorkspaceItems" class="anchor"></span>The `Sync-ProjectWorkspace.ps1` script creates a queue job in Project Server to do a project workspace full sync. Run this script for each project that contains the user that you're looking for. (You will need the Project ID for each project. You can find out the projects relating to the user by doing an export of the WorkspaceItems [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md). Confirm that the queue jobs have completed from **Manage Queue Jobs** in **Project Web App Settings Page** before proceeding with additional steps.
   
-## Step 6 - Export the users data
+## Step 6 - Export the user's data
 
 <span id="user-content-Step3" class="anchor"></span>Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md).
 
@@ -243,13 +243,13 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 
 If you delete user information from a Project Site after they have already been deleted from Project Server (or for users who never had a Project Server account), you must use their claims account because Resource ID isn't available once they've been deleted from Project Server.
 
-You can use the FindUserClaims.sql script to find claims accounts for all issues risks in the reporting database.
+You can use the `FindUserClaims.sql` script to find claims accounts for all issues risks in the reporting database.
 
 ## Step 8 - Delete your user's data from the PWA site
 
-On the Project Server, as a SharePoint farm admin, execute the Invoke-SPProjectRedactUser cmdlet to remove user data from the PWA site and to optionally update the display name of the user.
+On the Project Server, as a SharePoint farm admin, execute the `Invoke-SPProjectRedactUser` cmdlet to remove user data from the PWA site and to optionally update the display name of the user.
 
-The **Invoke** cmdlet uses the following paramaters:
+The `Invoke` cmdlet uses the following parameters:
 
 <table>
 <thead>
@@ -288,7 +288,7 @@ The **Invoke** cmdlet uses the following paramaters:
 </tbody>
 </table>
 
-You can use the Invoke cmdlet and parameters in the following ways:
+You can use the `Invoke` cmdlet and parameters in the following ways:
 
 ### **Scenario 1: Delete user's information from a Project Web App site except for the display name**
 
@@ -304,7 +304,7 @@ Use the cmdlet the following way if you are specifying the user by Claims Accoun
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>
 ```
 
-For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name.
+For example, the following remove all data for the user with the claim: 0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name.
 
 ```
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
