@@ -155,8 +155,6 @@ In the next article, we'll look at how to [add an additional approval option to 
 ## See also
 <a name="proc2"> </a>
 
-#### 
-
 [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md)
   
 [Have a workflow wait for a Project Web App event](have-a-workflow-wait-for-a-project-web-app-event.md)

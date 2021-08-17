@@ -184,8 +184,6 @@ In the next article, we'll take a look at [assigning an approval task in a workf
 ## See also
 <a name="ver"> </a>
 
-#### 
-
 [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md)
   
 [Have a workflow wait for a Project Web App event](have-a-workflow-wait-for-a-project-web-app-event.md)

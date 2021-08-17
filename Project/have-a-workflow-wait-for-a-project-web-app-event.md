@@ -103,8 +103,6 @@ In the next article, we'll look at [how to use the workflow status information t
 ## See also
 <a name="proc2"> </a>
 
-#### 
-
 [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md)
   
 [Set the stage status in a Project Web App workflow](set-the-stage-status-in-a-project-web-app-workflow.md)

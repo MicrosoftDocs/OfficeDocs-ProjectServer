@@ -15,7 +15,7 @@ description: "Summary: You can force the check-in of a lookup table for enterpri
 # Check-in lookup tables for enterprise custom fields in Project Server
  
  **Summary:** You can force the check-in of a lookup table for enterprise custom fields by using Project Web App Settings.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 You can force the check-in of an enterprise lookup table that is checked out. Note that forcing a check-in of a lookup table that is being modified by a user may result in the loss of those changes.
   
