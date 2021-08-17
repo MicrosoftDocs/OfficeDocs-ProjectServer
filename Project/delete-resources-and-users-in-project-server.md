@@ -15,7 +15,7 @@ description: "Summary: When a resource or user is no longer needed, you can dele
 # Delete resources and users in Project Server
  
  **Summary:** When a resource or user is no longer needed, you can delete it from Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 > [!IMPORTANT]
 > We recommend not deleting resources from Project Web App as this can affect the reporting of actuals. Instead, deactivate resources that are no longer needed. 

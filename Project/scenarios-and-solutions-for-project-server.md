@@ -14,7 +14,8 @@ description: "Summary Learn about using Project Server to create solutions for p
 
 # Scenarios and solutions for Project Server
  
- **Summary** Learn about using Project Server to create solutions for project management.
+**Summary** Learn about using Project Server to create solutions for project management.
+**Applies to**: Project Server Subscription Edition, Project Server 2019
   
 The articles in this section help you apply and integrate Project Server and Project Web App to solve your project management needs.
   

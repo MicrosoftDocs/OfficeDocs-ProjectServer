@@ -30,7 +30,7 @@ We'll create the following stages:
 |1 - Propose idea  <br/> |Create  <br/> |
 |2 - Request review  <br/> |Select  <br/> |
 |3 - Execute  <br/> |Manage  <br/> |
-|4 - Canceled  <br/> |Finished  <br/> |
+|4 - Cancelled  <br/> |Finished  <br/> |
    
 Use the following procedure to create each of the stages in the table above. Follow the procedure once for each stage.
   

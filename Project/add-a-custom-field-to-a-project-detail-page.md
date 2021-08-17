@@ -14,9 +14,9 @@ description: "Summary: Learn how to add a custom field to a project detail page.
 
 # Add a custom field to a project detail page
  **Summary:** Learn how to add a custom field to a project detail page.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
-By adding a custom field to a project detail page, you can collect customized project information as part of a Project Web App workflow. In this article we'll look at an example of collecting a cost estimate in the first stage of the workflow.
+By adding a custom field to a project detail page, you can collect customized project information as part of a Project Web App workflow. In this article, we'll look at an example of collecting a cost estimate in the first stage of the workflow.
   
 ## Before you begin
 <a name="begin"> </a>
@@ -67,7 +67,7 @@ Once the field has been created in Project Web App, we need to add it to the pro
     
 6. Under **Displayed Project Fields**, click **Modify**.
     
-7. In the **Project Fields** list, find the **Project Cost** field that you just created, and then click the add ( **>**) button to add it to the **Selected Project Fields** list.
+7. In the **Project Fields** list, find the **Project Cost** field that you created, and then click the add ( **>**) button to add it to the **Selected Project Fields** list.
     
 8. Click **OK**.
     

@@ -15,11 +15,11 @@ description: "Summary: Learn how to have a workflow wait for a Project Web App e
 # Have a workflow wait for a Project Web App event
  
  **Summary:** Learn how to have a workflow wait for a Project Web App event.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 You can set a Project Web App workflow to pause and wait for a Project event before proceeding. The workflow can be set to wait for when the project is checked in, committed, or submitted.
   
-In this article we'll take a look at configuring a workflow to pause until the associated project is submitted. This is useful if you want to gather project information and then have the project sent for approval after the information gathering is complete.
+In this article, we'll take a look at configuring a workflow to pause until the associated project is submitted. This is useful if you want to gather project information and then have the project sent for approval after the information gathering is complete.
   
 ## Before you begin
 <a name="begin"> </a>
@@ -41,7 +41,7 @@ We'll be using the Sample Workflow that you created in [Create a sample Project 
   
 If you've completed the procedures in other articles in this series, you may already have part of this workflow in place. The complete steps for creating this workflow are in the following procedure.
   
-### To have a workflow wait for a Project event
+### To have a workflow, wait for a Project event
 
 1. Start SharePoint Designer.
     
