@@ -60,6 +60,7 @@ The following enterprise applications are to be enabled, by default.
 |Microsoft Flow     |      7df0a125-d3be-4c96-aa54-591f83ff541c    |
 |Microsoft PowerApps    |  475226c6-020e-4fb2-8a90-7a972cbfc1d4        |
 |Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
+|Project Online   |     f53895d3-095d-408f-8e93-8f94b391404e     |
 
 **Verifying status of Enterprise applications**
 
@@ -95,82 +96,85 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 **Verifying status of required Enterprise applications using Azure Active Directory PowerShell for Graph**
 
-For administrators who prefer [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled:
+For administrators who prefer using [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled. In addition, it also checks to ensure that the required Enterprise Apps exist and the AppRoleAssignmentRequired property is correctly set:
 
 ```powershell
 Connect-AzureAd
 
-Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
+$ProjectRequiredApps = Get-AzureADServicePrincipal -Filter " 
+		                    AppId    eq '00000007-0000-0000-c000-000000000000'   
+		                    or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
+		                    or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
+		                    or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
+		                    or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
+		                    or AppId eq 'f53895d3-095d-408f-8e93-8f94b391404e'
+		                    "
+		
+$ProjectRequiredApps | Select DisplayName, AppID, ObjectID, AccountEnabled, AppRoleAssignmentRequired, ReplyURLs | ft
+		
+#Check that all required Enterprise Apps are present. Create hashtable to check that app exists and if so remove from list. Entries left behind means it's missing.  
+[hashtable]$EntApps = [ordered]@{"Dataverse"                          = "00000007-0000-0000-c000-000000000000"
+                                 "Microsoft Flow Service"             = "7df0a125-d3be-4c96-aa54-591f83ff541c"
+                                 "Dynamics Provision"                 = "39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f"
+                                 "Dynamics CRM Online Administration" = "637fcc9f-4a9b-4aaa-8713-a2a3cfda1505"
+                                 "PowerApps Service"                  = "475226c6-020e-4fb2-8a90-7a972cbfc1d4"
+                                 "Portfolios"                         = "f53895d3-095d-408f-8e93-8f94b391404e"
+                                 }
 
-$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
+Foreach ($App in $ProjectRequiredApps) #Remove from hashtable if app exist. 
+{
+    If ($EntApps.Item($App.DisplayName)) 
+    {
+        $EntApps.Remove($App.DisplayName)
+    }
+}
 
-                            AppId    eq '00000007-0000-0000-c000-000000000000'   
-                            or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
-                            or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
-                            or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
-                            or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
-                            " | ? {$_.AccountEnabled -eq $false}
+If ($EntApps.Count -gt 0)
+{
+   Write-Host "Check#1: One or more required Enterprise Apps are missing." -ForegroundColor Red
+   Write-Host "Please check that you have 1 or more of the following subscriptions: Project Plan 1, Project Plan 3 or Project Plan 5." -ForegroundColor Red
+   $EntApps | ft -a 
+}
+else
+{
+    Write-Host "Check#1: All required Enterprise Apps are present." -ForegroundColor Yellow 
+}
 
-If ($ProjectRequiredAppsThatAreDisabled) 
 
+#Check that required apps are enabled (AccountEnabled=True) if not display message to enable the required Enterprise Apps.
+If ($ProjectRequiredApps | ? {$_.AccountEnabled -eq $false}) 
 { 
-    Write-Host "Required Azure AD Apps that have been disabled: " 
-    $ProjectRequiredAppsThatAreDisabled | Select AppId, DisplayName, AccountEnabled, ObjectId | ft -a 
+	Write-Host "Check#2: The following required AAD Enterprise App is disabled." 
+	Write-Host "Instructions on how to enable the required app via Azure Active Directory Admin Center are at: https://docs.microsoft.com/project-for-the-web/deploying-project" -ForegroundColor Red
+	Write-Host "If you prefer using Powershell, for each App in the list use the Powershell cmdlet ""Set-AzureADServicePrincipal"" to enable the app." -ForegroundColor Red
+	Write-Host "Example:`n" -ForegroundColor Red
+	Write-Host "    Set-AzureADServicePrincipal -ObjectId "“ObjectId GUID from below output."”-AccountEnabled `$true" -ForegroundColor Red
+	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
+    $ProjectRequiredApps | Select DisplayName, AppID, ObjectID, AccountEnabled | ? {$_.AccountEnabled -eq $false} | ft
 } 
 Else 
 { 
-    Write-Host "All Azure AD Applications required for Project for the web functionality has been enabled." -ForegroundColor Yellow 
+	Write-Host "Check#2: All required Enterprise Apps are enabled." -ForegroundColor Yellow 
+}
+
+
+#Check that AppRoleAssignmentRequired for all required apps is set to False (AppRoleAssignmentRequired=False).
+If ($ProjectRequiredApps | ? {$_.AppRoleAssignmentRequired -eq $true}) 
+{ 
+	Write-Host "Check#3: The AppRoleAssignmentRequired property for the specified Enterprise App is set to True." -ForegroundColor Red
+	Write-Host "Out of box this setting should be set to False. If set to True, it can prevent Project for the Web from working correctly." -ForegroundColor Red
+	Write-Host "This setting can only be modified via Powershell, for each App in the list use the Powershell cmdlet ""Set-AzureADServicePrincipal"" to change the AppRoleAssignmentRequired to False." -ForegroundColor Red
+	Write-Host "Example:`n" -ForegroundColor Red
+	Write-Host "    Set-AzureADServicePrincipal -ObjectId "“ObjectId GUID from below output."”-AppRoleAssignmentRequired `$false" -ForegroundColor Red
+	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
+	$ProjectRequiredApps | Select DisplayName, AppID, ObjectID, AccountEnabled, AppRoleAssignmentRequired | ? {$_.AppRoleAssignmentRequired -eq $true} | ft -a
+} 
+Else 
+{ 
+	Write-Host "Check#3: The AppRoleAssignmentRequired property for all required Enterprise Applications are set correctly." -ForegroundColor Yellow 
 }
 ```
 
-The following script does the same as above and in addition, for each disabled application, it prompts the administrators if they want it enabled:
-
-```powershell
-Connect-AzureAd
-
-Write-Host "Detecting required Azure AD Applications that have been disabled..." -ForegroundColor Yellow 
-
-$ProjectRequiredAppsThatAreDisabled = Get-AzureADServicePrincipal -Filter " 
-
-                                AppId    eq '00000007-0000-0000-c000-000000000000'  
-                                or AppId eq '475226c6-020e-4fb2-8a90-7a972cbfc1d4'  
-                                or AppId eq '637fcc9f-4a9b-4aaa-8713-a2a3cfda1505' 
-                                or AppId eq '7df0a125-d3be-4c96-aa54-591f83ff541c' 
-                                or AppId eq '39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f' 
-                                " | ? {$_.AccountEnabled -eq $false}
-
-If ($ProjectRequiredAppsThatAreDisabled) 
-{ 
-    Write-Host "Required Azure AD Apps that have been disabled: " 
-    $ProjectRequiredAppsThatAreDisabled | Select AppId, DisplayName, AccountEnabled, ObjectId | ft -a 
-
-  
-
-    #For each detected App that has been disabled, reenable it.  
-    foreach ($DisabledApp in $ProjectRequiredAppsThatAreDisabled) 
-    { 
-    Write-Host "`nProcessing Application: $($DisabledApp.DisplayName) with Application Id: $($DisabledApp.AppId) and AccountEnabled state of: $($DisabledApp.AccountEnabled)" -ForegroundColor Yellow 
-
-    $ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]" 
-    while("Yes","No" -notcontains $ResponseToEnableApp){$ResponseToEnableApp = Read-Host "Do you want to enable this application? [Yes or No]"} 
-
-    if ($ResponseToEnableApp -ieq "Yes") 
-    { 
-        Set-AzureADServicePrincipal -ObjectId $DisabledApp.ObjectId -AccountEnabled $True 
-        Write-Host "App: $($DisabledApp.DisplayName) has been enabled." 
-    } 
-    else 
-    { 
-        Write-Host "AccountEnabled state for app: $($DisabledApp.DisplayName) left as is at the current state of: $($DisabledApp.AccountEnabled)" 
-    } 
-  }
-} 
-Else 
-
-{ 
-    Write-Host "All Azure AD Applications required for Project for the web functionality has been enabled." -ForegroundColor Yellow 
-} 
-```
 
 ### Deploying to the Default environment
 
