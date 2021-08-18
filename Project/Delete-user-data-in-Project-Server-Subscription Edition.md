@@ -62,7 +62,7 @@ User personal information contained in Project sites, issues, and risks are stor
 
 ## Delete scenarios  
 
-Depending on your needs, this process allows you to delete your user's personal information listed above, but also allows some control of regarding deleting the users display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
+Depending on your needs, this process allows you to delete your user's personal information listed above, but also allows some control regarding deletion of user's display name in shared items, such as timesheets, projects, and assignments. There are three delete scenarios that you can do:
 
 
 ### **Scenario 1: Delete user's information from a Project Web App instance except for the display name**
@@ -73,7 +73,7 @@ You might choose this scenario if you need to do further review of shared items 
 
 ### **Scenario 2: Delete user's information from a Project Web App instance, but update the display name everywhere**
 
-In this scenario, all of the user's personal information is deleted. In all locations where the user's display name was shown, it is replaced with a string of your choosing, such as "Deleted User." The resource ID for the user remains.
+In this scenario, all of the user's personal information is deleted. In all locations, where the user's display name was shown, it is replaced with a string of your choosing, such as "Deleted User." The resource ID for the user remains.
 
 You might choose this scenario if there is no business need to retain the user display name, even in shared records such as timesheets and projects.
 
@@ -117,15 +117,16 @@ Important notes about running the export scripts:
 
 -   You may need to "unblock" the zip file because by default, executing scripts downloaded from the Internet is not allowed. Do the following to unblock your files:
 
-1.  In File Explorer, go to the location where you saved the zip file.
+    1.  In File Explorer, go to the location where you saved the zip file.
 
-2.  Right click on the zip file, and click **Properties**.
+    2.  Right click on the zip file, and click **Properties**.
 
-3.  On the **General** tab, select **Unblock**. 
+    3.  On the **General** tab, select **Unblock**. 
 
-4.  Click **OK.**
+    4.  Click **OK.**
 
-All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer appears in the **General** tab of the file's **Properties** page.
+    All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer    
+    appears in the **General** tab of the file's **Properties** page.
 
 > [!Note] 
 > If you only have access to unzipped files, you can also unblock each file individually.
@@ -237,9 +238,9 @@ If needed, a PWA admin can force-checkin the project through the PWA Server Sett
 
 <span id="user-content-Step3" class="anchor"></span>Before deleting your user's personal data, you should know all projects the user was a part of. This will allow you to later verify if the user's data was removed and that you have the correct user to delete. Exporting user data is covered in detail in [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md).
 
-## Step 7- Delete user personal data for Issues and Risks
+## Step 7- Delete user personal data for issues and risks
 
-<span id="user-content-DeletePersonalData" class="anchor"></span>Issues and Risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
+<span id="user-content-DeletePersonalData" class="anchor"></span>Issues and risks are stored in Project Sites, which are part of SharePoint Server. We recommend deleting a user's SharePoint Server information before deleting their Project Server information. This will prevent user personal information in Project Server issues and risks from being updated by corresponding SharePoint Server data, should they still exist.
 
 If you delete user information from a Project Site after they have already been deleted from Project Server (or for users who never had a Project Server account), you must use their claims account because Resource ID isn't available once they've been deleted from Project Server.
 
@@ -247,7 +248,7 @@ You can use the `FindUserClaims.sql` script to find claims accounts for all issu
 
 ## Step 8 - Delete your user's data from the PWA site
 
-On the Project Server, as a SharePoint farm admin, execute the `Invoke-SPProjectRedactUser` cmdlet to remove user data from the PWA site and to optionally update the display name of the user.
+On the Project Server, as a SharePoint farm admin, run the `Invoke-SPProjectRedactUser` cmdlet to remove user data from the PWA site and to optionally update the display name of the user.
 
 The `Invoke` cmdlet uses the following parameters:
 
