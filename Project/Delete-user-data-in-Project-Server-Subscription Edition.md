@@ -55,9 +55,9 @@ In Project Server, admins can use the steps detailed in this article to delete a
 
 -   **Users specific view settings** - For example, customized view settings (views, filters, groups, tables, maps, drawing, reports) on top of grid pages with views (such as the Resource Center, Project Center, Schedule web part, etc.) are deleted.
 
--   **Calendar exception details** - For example, if the user was out for a week in January because he or she was sick or on vacation, the name of the exception needs to be manually deleted. The dates will remain the same.
+-   **Calendar exception details** - For example, if the user was out for a week in January because they were sick or on vacation, the name of the exception needs to be manually deleted. The dates will remain the same.
 
--   **User Permissions -** For example, if a user is associated with project server categories, groups or has been granted individual global permissions, all associations will be deleted and the user will be set as Inactive.
+-   **User Permissions -** For example, if a user is associated with project server categories, groups or has been granted individual global permissions, all associations are deleted, and the user is set as Inactive.
 
 User personal information contained in Project sites, issues, and risks are stored in SharePoint and are not deleted through this process. You will need to delete this data directly from SharePoint Server.
 
