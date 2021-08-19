@@ -132,8 +132,7 @@ Important notes about running the export scripts:
 
     4.  Click **OK.**
 
-    All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer    
-    appears in the **General** tab of the file's **Properties** page.
+    All files contained in the zip file should now be Unblocked. You can verify this in the individual files by checking to see if the **Unblocked** checkbox option no longer appears in the **General** tab of the file's **Properties** page.
 
     > [!Note] 
     > If you only have access to unzipped files, you can also unblock each file individually.
