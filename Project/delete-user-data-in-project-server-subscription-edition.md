@@ -20,9 +20,9 @@ Learn how a Farm admin can delete a specific user's data from a Project Server e
 
 This article describes:
 
--   [What user information is deleted?](Delete-user-data-in-Project-Server-Subscription Edition.md#info)
+-   [What user information is deleted?](delete-user-data-in-project-server-subscription Edition.md#info)
 
--   [Delete scenarios](Delete-user-data-in-Project-Server-Subscription Edition.md#Delete-user-data-in-Project-Server-Subscription Edition.md#delete)
+-   [Delete scenarios](Delete-user-data-in-Project-Server-Subscription Edition.md#delete)
 
 -   [Process Overview](Delete-user-data-in-Project-Server-Subscription Edition.md#process)
 
@@ -46,8 +46,9 @@ This article describes:
 
 -   [Step 10 - Clear the cache for Project client users connecting to the PWA site](Delete-user-data-in-Project-Server-Subscription Edition.md#users)
 
-<a name="info"> </a>
+
 ## What user information is deleted?
+<a name="info"> </a>
 
 In Project Server, admins can use the steps detailed in this article to delete a user's personal data and personal identifying data (data that can be used to identify the user), such as:
 
