@@ -20,9 +20,9 @@ You can turn Project for the web or Roadmap off in the Microsoft 365 admin cente
 
 To turn off Project for the web:
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Settings**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Org settings**.
 2. Click **Project**.
-3. Uncheck **Turn Project for the web on for your entire organization**.
+3. Uncheck **Turn on Project for the web**.
 4. Click **Save**.
 
 > [!NOTE]
@@ -30,21 +30,21 @@ To turn off Project for the web:
 
 To turn off Roadmap:
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Settings**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Org settings**.
 2. Click **Project**.
-3. Uncheck **Turn Roadmap on or off for your entire organization**.
+3. Uncheck **Turn on Roadmap for your organization**.
 4. Click **Save**.
 
 If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Project for the web and Roadmap data isn’t automatically deleted when your Project Online subscription ends.
 
 ## Remove Project for the web and Roadmap data
 
-You can remove all Project for the web and Roadmap data by removing the entire solution from Microsoft 365. This will delete all of the existing projects, roadmaps, and associated user data.
+You can remove all Project for the web and Roadmap data by removing the entire solution from Microsoft 365. This will delete all of the existing projects, roadmaps and associated user data.
 
-To remove Roadmap:
+To remove Roadmap (Only applies to the default org as Roadmap can only be installed on the default org):
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
-2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
+2. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 3. On the **Settings** menu, under **Customization**, click **Solutions**.
 4. Select the **PortfolioService** solution, and then click **Delete**.
 5. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
@@ -57,16 +57,14 @@ To remove Roadmap:
 
 To remove Project for the web:
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Admin centers**, click Dynamics 365.
-2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
-3. On the PowerApps page, click the Settings icon, and then click **Advanced Settings**.
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
+2. Ensure that the correct org where you want to remove Project for the web is dispalyed at the top of the page. In most cases it it'll be the default org if you have an out of box installation. 
+3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
 5. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
 6. Select the **msdyn_ProjectServiceCore_Anchor** solution, and then click **Delete**.
 7. Select the **MicrosoftDynamicsScheduling** solution, and then click **Delete**.
-8. Select the **msdynce_SchedulingPatch** solution, and then click **Delete**.
-9. Select the **msdynce_Scheduling** solution, and then click **Delete**.
-10. . Select any solutions with a naming format of **msdyn_ProjectServiceCore_Patch_(number)**, (for example, msdyn_ProjectServiceCore_Patch_1 or msdyn_ProjectServiceCore_Patch_2), and then click **Delete**.
+8. Select any solutions with a naming format of **msdyn_ProjectServiceCore_Patch_(number)**, (for example, msdyn_ProjectServiceCore_Patch_1 or msdyn_ProjectServiceCore_Patch_2), and then click **Delete**.
 ## See Also
 
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
