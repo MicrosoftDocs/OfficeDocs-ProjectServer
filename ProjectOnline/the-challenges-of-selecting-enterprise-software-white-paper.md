@@ -73,7 +73,7 @@ Now the committee is reassembled and the long spreadsheet of each committee memb
   
 Finally the combined spreadsheet that the vendors will see is complete. It has hundreds of feature requests and for each one the vendor will be expected to say "Yes", "No" or "Yes with some effort". A weighting system may also be attached to say whether this feature is a "Must-have", an "Important-to-have" or a "Nice-to-have". 
   
-![Snippet of feature selection spreadsheet](media/55e0f4bd-ab63-44f1-a5ed-d18f75c918e9.jpg)
+![Snippet of feature selection spreadsheet.](media/55e0f4bd-ab63-44f1-a5ed-d18f75c918e9.jpg)
   
 The RFP is almost ready to go. There will be a few essay questions, usually about the technical architecture of the selection and, depending on how many people were polled about these requirements, the architecture requests can be equally conflicted (e.g. The system must have all data stored centrally in the SQL Server database ¬and¬ the system must allow any data to be stored locally on the user's computer).
   
@@ -111,13 +111,13 @@ These two terms are often used synonymously, so let's start off by talking about
     
 What is most common is that someone in middle management has identified a piece of enterprise software that they hope will make their lives easier in their organization. Senior management is not at all involved, and the middle management staff have not even articulated what business challenges they are trying to overcome. It is their hope that if the solution was just in the building, that the next time someone from management would wander down the corridor, they would 'accidentally' see the solution in operation and would instantly give their blessing to an enterprise deployment. To borrow a phrase from the movie Field of Dreams, "If we build it, they will come."
   
-![Ineffective pilot phase selection](media/7b416150-04cb-4a55-bd9d-23a4b06a3305.jpg)
+![Ineffective pilot phase selection.](media/7b416150-04cb-4a55-bd9d-23a4b06a3305.jpg)
   
 It is rarely successful. The problem with enterprise software is that we need senior management's involvement to make the deployment a success. It is senior management who will be the 'clients' of the reports and analysis from this enterprise system. It is senior management who will need to invest personally to allow a range of staff the time required to design, configure and be trained in the enterprise software. It is senior management who will have to accept or even help redesign the business processes that are part of any enterprise system deployment. Without senior management giving not just their blessing but also their implicit support and direct assistance, no proof of concept will help.
   
 This is true also for a pilot phase. If the company has not committed from the highest level to solving some business problem through the use of enterprise software, then the introduction of a pilot phase is not productive. 
   
-![Effective pilot phase selection](media/a4312a65-6e3e-46da-807d-5a8350b80ce0.jpg)
+![Effective pilot phase selection.](media/a4312a65-6e3e-46da-807d-5a8350b80ce0.jpg)
   
 This is not to say that pilot phases of a deployment have no place. They do carry a critical spot in a successful deployment. That place is immediately after the purchase decision is complete and the design of the enterprise system has been concluded. Now a pilot phase makes a great place to test out our enterprise system design and fine tune it for general deployment.
   

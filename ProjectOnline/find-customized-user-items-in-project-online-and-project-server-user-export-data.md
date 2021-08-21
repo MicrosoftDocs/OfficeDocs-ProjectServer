@@ -69,7 +69,7 @@ For Project Server, you will need to save the specific project file to XML forma
     
 6. In the **More Views** window, in the Views list, select the view you are looking for, and then click **Apply**. 
     
-    ![More Filters](media/ec762973-a15d-4c92-b6d3-3b5d91413b04.png)
+    ![More Filters.](media/ec762973-a15d-4c92-b6d3-3b5d91413b04.png)
   
 7. The selected view will display. Take a screenshot of the view and save it.
     
@@ -100,7 +100,7 @@ You can repeat this procedure on each project in which you want to search for yo
     
 6. In the ** More Filters ** menu, select the filter you are looking for, and then click ** Edit **. 
     
-    ![More Filters](media/00d14151-8459-444c-bbb0-2909611a64f9.png)
+    ![More Filters.](media/00d14151-8459-444c-bbb0-2909611a64f9.png)
   
 7. The filter definition for the selected filter will display. You can take a screenshot of the filter definition and save it.
     
@@ -131,7 +131,7 @@ You can repeat this procedure on each project in which you want to search for yo
     
 6. In the **Task Information** screen, select the **Notes** tab. You should see the attachment item listed. 
     
-    ![Attachments to tasks](media/bad29b8e-889d-46df-9cdb-09911b2b783f.png)
+    ![Attachments to tasks.](media/bad29b8e-889d-46df-9cdb-09911b2b783f.png)
   
 7. Open the attachment item and save it.
     
@@ -162,7 +162,7 @@ You can repeat this procedure on each project in which you want to search for yo
     
 6. In the ** More Tables ** window, in the Tables list, select the table you are looking for, and then click **Edit**. 
     
-    ![Table definition](media/93438ffe-6cf4-44f4-a40c-c774a212dab5.png)
+    ![Table definition.](media/93438ffe-6cf4-44f4-a40c-c774a212dab5.png)
   
 7. The Table definition will display for the selected table. Take a screenshot of all the information in the definition window and save it.
     

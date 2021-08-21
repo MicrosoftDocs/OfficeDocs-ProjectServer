@@ -41,7 +41,7 @@ Let's take these three concepts one at a time. It's easy to see their similariti
 
 People can mean a lot of different things by "portfolio management," but the most meaning common is probably project selection and prioritization. The principles ultimately affect everyone in the organization, but the process is of great interest to senior executives. Management starts off with certain constraints, such as a total available budget and a need to answer the question, "What can we and should we accomplish with this amount of money?" If the portfolio management process is sufficiently mature, this analysis might include not just new ideas but also existing projects.
   
-![Dashboard showing status for several projects](media/b0f7f7c1-85f5-47df-a6a0-c4e8b28015f1.jpg)
+![Dashboard showing status for several projects.](media/b0f7f7c1-85f5-47df-a6a0-c4e8b28015f1.jpg)
   
 To create a portfolio selection and prioritization process, management must confront what business criteria drive the company and agree in advance on the metrics that will be considered when looking at new and existing projects. Should return on investment be a key metric? Perhaps we should consider effects on client satisfaction or staff retention or alignment with strategic objectives. Whatever the key metrics are, management has to weigh each project initiative with a view to how that project can advance those objectives and how each project compares with alternate initiatives on which the money could be spent. 
   
@@ -53,13 +53,13 @@ Once a project is approved, it moves into a different realm altogether. Now the 
   
 A project manager starts thinking in terms of project scope and deliverables. The project manager knows the final product that must be created, whether it is a piece of software or a building ready for occupancy. They may think of the major phases of that project and create a work breakdown structure. 
   
-![Major phases of a project depicted in a chart](media/45515b0c-f108-471b-a4ac-15cd3760da28.jpg)
+![Major phases of a project depicted in a chart.](media/45515b0c-f108-471b-a4ac-15cd3760da28.jpg)
   
 A critical path of logical steps required to complete the project gets designed. The project manager also knows that he or she will be held to account for the schedule that is produced, so he or she consults a range of subject matter experts in the project. The project manager creates a bottom-up view of the project by looking task by task and summarizing those tasks up to project phases and eventually to the project itself. At this time the project manager might also start allocating resources by skill, by department, or even by name. These resources might have costs associated with them. The result of calculating the duration of the tasks, the resources required, and their rates gives us a bottom-up estimate of the project.
   
 So far, so good.
   
-![Gantt chart view of a project](media/84ee62a2-9de9-49f8-8da3-b50ecd4e3179.jpg)
+![Gantt chart view of a project.](media/84ee62a2-9de9-49f8-8da3-b50ecd4e3179.jpg)
   
 But when we look at the top-down approach of the project portfolio selection process, there was a cost, too. In fact, the estimated cost of the project was part of the business justification that management considered when it approved the project. If we're just getting the bottom-up estimate of the project from combined expertise of the subject matter experts now, what did they use in the project selection up in the executive suite?
   
@@ -77,7 +77,7 @@ First of all, the portfolio selection committee is rarely the project management
 
 When we think of task management, we tend to think very operationally, and that most often brings us to our daily agenda and a product like Outlook.
   
-![View of a tasks list](media/35ea0da3-7c54-47bb-94dd-6c17d409ffbf.jpg)
+![View of a tasks list.](media/35ea0da3-7c54-47bb-94dd-6c17d409ffbf.jpg)
   
 Now we're working at an individual or a small team member level. We don't see the tasks in context. We see those things we've committed to or perhaps those things we've asked a team member to commit to. This is not an analytic view at all. There are tasks to do and the individual has promised to do them.
   
@@ -141,7 +141,7 @@ There is, as usual, no right answer. Some aspects of your project management sys
   
 When you keep the distinctions of what each level of the project management paradigm is for, it does become clearer to see if some of these systems should really be integrated or not. If the process and thinking of one level doesn't have direct benefit by being fully integrated from another level, then integration is not the best play. It's important to walk through how such integration would work in a real-world context and whether the frequency and detail from one level delivers any value to the other.
   
-![Diagram showing a workflow](media/677b3a2e-de4c-4409-951a-b0b702d64143.jpg)
+![Diagram showing a workflow.](media/677b3a2e-de4c-4409-951a-b0b702d64143.jpg)
   
 If, for example, a steering committee only meets once a quarter to make big-play decisions about which projects to move forward and which not, then what is the benefit to updating their view every day, every week, or even every month? 
   

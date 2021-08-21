@@ -31,7 +31,7 @@ This article assumes you have selected one of your [saved scenarios](comparing-p
 
 To commit the scenario, select the **Commit** button on the **Analysis** tab in the **Analyze Cost** or **Analyze Resources** interface.
 
-![Analyze Cost option highlighted in toolbar](media/15-image1.png)
+![Analyze Cost option highlighted in toolbar.](media/15-image1.png)
 
 ## Workflow options
 
@@ -39,7 +39,7 @@ This article assumes you have configured a workflow to support moving projects f
 
 In **SharePoint Designer**, configure the workflow stage to *Wait for a Project Event*. In the action configuration options, select *When a Project is Committed*.
 
-![Sample workflow staging](media/15-image2.png)
+![Sample workflow staging.](media/15-image2.png)
 
 After adding that step, you can insert logic based on the data captured in the fields that are populated by the commit action:
 
@@ -77,7 +77,7 @@ After adding that step, you can insert logic based on the data captured in the f
 
 Many organizations will add logic to move the **Selected** projects to the next stage of execution. If configured, **Unselected** projects may be moved to a **Parked** stage.
 
-![Sample transition to stage dialog box](media/15-image3.png)
+![Sample transition to stage dialog box.](media/15-image3.png)
 
 For more information on developing custom demand management workflows, refer to the online site for Microsoft Project Server Demand Management resources: <https://technet.microsoft.com/projectserver/ff899331>.
 

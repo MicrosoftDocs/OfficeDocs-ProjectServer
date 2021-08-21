@@ -30,7 +30,7 @@ In this chalk talk, Microsoft Program Manager Chris Boyd discusses Project Serve
   
 **Video: Project Server architecture**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## TechNet articles about planning EPM solution architecture in Project Server 2013
 
@@ -38,6 +38,6 @@ The following articles about <subject> are available to view online. Writers upd
   
 ||**Content**|
 |:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Plan the client tier in Project Server 2013](plan-the-client-tier-in-project-server-2013.md) <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Plan the client tier in Project Server 2013](plan-the-client-tier-in-project-server-2013.md) <br/> |
 ||[Plan the application tier in Project Server 2013](plan-the-application-tier-in-project-server-2013.md) <br/> |
 ||[Plan the database tier in Project Server 2013](plan-the-database-tier-in-project-server-2013.md) <br/> |

@@ -32,7 +32,7 @@ To see more articles, see ["From the Trenches" white papers](https://support.off
 
 In 1966, the original Batman TV series came on the air. It lasted only 120 episodes but it changed a culture in ways that last to this day. In the world of Batman and Robin (played by Adam West and Burt Ward), there was a 'bat' solution to everything. No matter what the problem, Batman would have the solution. The Batmobile, Batboat, Batplane, and Batcave all had their place. And if you were someone who needed help, no matter how difficult, how could you reach Batman? Well, with the Batphone of course! Pick up the Batphone and help would be on the way. 
   
-![Image of a red Batphone (from the TV series, "Batman"](media/afb659df-13e4-499e-95f6-78492e52c50d.jpg)
+![Image of a red Batphone (from the TV series, "Batman."](media/afb659df-13e4-499e-95f6-78492e52c50d.jpg)
   
 Commissioner Gordon would turn to the Batphone when things where hopeless, which occurred of course every episode. It didn't matter how difficult the challenge, pick up the Batphone and in 22 minutes (plus time for commercials) the villain would be vanquished and Gotham City returned to peaceful status. 
   

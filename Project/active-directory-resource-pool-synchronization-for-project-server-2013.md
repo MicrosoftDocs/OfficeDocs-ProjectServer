@@ -24,7 +24,7 @@ The following articles about Active Directory synchronization to your Project We
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md) <br/> |The Active Directory Resource Pool Synchronization settings in Project Server 2013 provide a method to quickly add Active Directory users as enterprise resources.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md) <br/> |The Active Directory Resource Pool Synchronization settings in Project Server 2013 provide a method to quickly add Active Directory users as enterprise resources.  <br/> |
 ||[Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization](supported-active-directory-topologies-for-project-server-2013-enterprise-resourc.md) <br/> |This article describes the Active Directory topologies that are supported for synchronization with the Enterprise Resource Pool in Project Server 2013.  <br/> |
 ||[Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md) <br/> |This article describes the prescribed method to configure your Active Directory groups for synchronization with Project Server 2013 to add resources to the Enterprise Resource Pool.  <br/> |
    

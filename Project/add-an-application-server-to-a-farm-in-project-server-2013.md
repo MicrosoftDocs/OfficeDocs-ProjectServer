@@ -36,7 +36,7 @@ This video shows the steps involved in adding an application server to an existi
   
 **Video: Add an application server to a Project Server farm**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## Configure the application server
 

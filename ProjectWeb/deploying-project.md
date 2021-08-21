@@ -38,7 +38,7 @@ Project is supported in the following types of environments
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
 
 > [!div class="mx-imgBorder"]
-> ![D365 App Toggle](media/AppToggle.png) 
+> ![D365 App Toggle.](media/AppToggle.png) 
 
 [Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
 
@@ -70,27 +70,27 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
 
-   :::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen":::
+   :::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen.":::
 
 3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**.
 
-   :::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen":::
+   :::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen.":::
 
 4. Use the textbox right below and search for the application ID listed in the table. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
-   :::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed":::
+   :::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed.":::
 
 5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
 
-   :::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen":::
+   :::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen.":::
 
 6. Click **Properties** on the left pane.
 
-   :::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed":::
+   :::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed.":::
 
 7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
 
-   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled":::
+   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled.":::
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
@@ -186,7 +186,7 @@ Deploying Project to a non-Default environment is done from within the [Power Pl
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
 
 > [!div class="mx-imgBorder"]
-> ![Project package](media/InstallProject.png) 
+> ![Project package.](media/InstallProject.png) 
 
 > [!Note]
 > If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 

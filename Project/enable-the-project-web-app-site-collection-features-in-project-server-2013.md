@@ -32,7 +32,7 @@ This video shows the steps involved in enabling the Project Web App site collect
 
 **Video: Enable the Project Web App site collection features in Project Server 2013**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
 
 ## Create a Project Web App database
 <a name="CreateAProjectWebAppDatabase"> </a>

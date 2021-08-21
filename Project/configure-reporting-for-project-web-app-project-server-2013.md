@@ -44,7 +44,7 @@ This video shows the steps involved in configuring reporting in Project Web App,
   
 **Video: Configure reporting for Project Web App**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## Configure prerequisites
 <a name="ConfigurePrerequisites"> </a>

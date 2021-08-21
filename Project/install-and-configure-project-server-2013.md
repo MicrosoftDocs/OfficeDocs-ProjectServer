@@ -34,7 +34,7 @@ This video shows the steps involved in installing Project Server 2013 and config
   
 **Video: Install and configure Project Server 2013**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## Install and configure Project Server 2013
 

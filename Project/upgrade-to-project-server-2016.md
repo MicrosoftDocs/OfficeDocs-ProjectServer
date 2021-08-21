@@ -28,9 +28,9 @@ The following articles about upgrading to Project Server 2016 are available to v
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md) <br/> |Provides an overview of the steps required to upgrade to Project Server 2016.  <br/> |
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md) <br/> |Learn about things you need to consider when planning to upgrade to Project Server 2016.  <br/> |
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> |Learn how to upgrade to Project Server 2016.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Overview of the Project Server 2016 upgrade process](overview-of-the-project-server-2016-upgrade-process.md) <br/> |Provides an overview of the steps required to upgrade to Project Server 2016.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Plan for upgrade to Project Server 2016](plan-for-upgrade-to-project-server-2016.md) <br/> |Learn about things you need to consider when planning to upgrade to Project Server 2016.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server 2016](upgrading-to-project-server-2016.md) <br/> |Learn how to upgrade to Project Server 2016.  <br/> |
    
 > [!NOTE]
 > For information about upgrading to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/get-started-with-upgrade). 

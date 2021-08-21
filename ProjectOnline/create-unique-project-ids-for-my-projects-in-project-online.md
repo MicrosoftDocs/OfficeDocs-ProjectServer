@@ -46,7 +46,7 @@ A Project admin can configure Project Online to generate a unique Project ID for
     
   - In the **Minimum Digit Padding** field, enter a number of digits that you want to have for newly generated Project IDs. For example, if you enter **3** and have a Starting Number of **1**, then the first three Project IDs that will be generated are **001**, **002**, and **003**. If you enter **5** with a Starting Number of **1**, the first three Project IDs that will be generated are **00001**, **00002**, and **00003**. 
     
-    ![Project ID settings](media/309177f7-ec57-4a67-a40e-a5dc9c0835b3.png)
+    ![Project ID settings.](media/309177f7-ec57-4a67-a40e-a5dc9c0835b3.png)
   
 For example, with the sample settings used in the procedure above, the Project IDs generated through the Finance Dept (High Risk) EPT will be:
   

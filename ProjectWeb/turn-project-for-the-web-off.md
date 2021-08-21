@@ -63,7 +63,7 @@ To turn on or off Project for the web:
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Project for the web for your organization**, and then click **Save changes**.
 
-![Select user](media/projsettingsp4w.png)
+![Select user.](media/projsettingsp4w.png)
 
 If an admin tries to access the Project settings page and receives the error message *Unable to retrieve settings*, have a licensed user go to their Project Home page (project.microsoft.com). This will initiate Project for the web on the tenant and will make the Project settings available for the admin.
 
@@ -97,11 +97,11 @@ To turn off Project for the web for a user:
 
 1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**.
 2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**.</br>
-![Select user](media/activeusers.png)
+![Select user.](media/activeusers.png)
 3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop down menu. This would be either Project Online Professional or Project Online Premium.
 4. In the list of apps that display, uncheck **Project P3**, and then click **Save changes**.</br>
 
-    ![Select user](media/p3service.png) 
+    ![Select user.](media/p3service.png) 
 
     You can repeat this procedure for each user that you don't want to use Project for the web.
 
@@ -127,7 +127,7 @@ Connect-MsolService
 Get-MsolAccountSku
 ```
 You should see a list of the licenses available on your tenant, for example:
-![AccountSKUId](media/AccountSKUID.png) </br>
+![AccountSKUId.](media/AccountSKUID.png) </br>
 3. Look for the accountSKUid values that contain **PROJECTPREMIUM** or **PROJECTPROFESSIONAL**.
    - PROJECTPREMIUM is Project Plan 5 (Project Online Premium)
    - PROJECTPROFESSIONAL is Project Plan 3 (Project Online Professional)
@@ -164,7 +164,7 @@ An admin can do the following to turn Roadmap on or off for their organization:
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Roadmap for your organization**, and then click **Save changes**.
  
-![Roadmap Setting](media/projsettingsrm.png)
+![Roadmap Setting.](media/projsettingsrm.png)
 
 4. Project Roadmap may requires the Project Roadmap connector to be added to a **[Data Policy](https://admin.powerplatform.microsoft.com/dlp)** in the Power Platform admin center.  At the moment, the [Project Roadmap connector does not show up in the GUI of the **Data Policy**](https://github.com/MicrosoftDocs/power-platform/issues/177). 
 Therefore, please follow along this guidance in order to add the Project Roadmap connector to the data group **Business** in the desired **Data Policy**.
@@ -211,11 +211,11 @@ To turn off Project Online:
 
 1. In the Microsoft 365 Admin Center, select **Users**, then select **Active Users**.
 2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**.</br>
-![Select user](media/activeusers.png)
+![Select user.](media/activeusers.png)
 3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop down menu. This would be either **Project Plan 3** or **Project Plan 5**.
 4. In the list of apps that display, uncheck **Project Online Service**, and then click **Save changes**.</br>
  
-    ![Project Online Service](media/projectonlineservice.png) 
+    ![Project Online Service.](media/projectonlineservice.png) 
 
     You can repeat this procedure for each user that you want to use only Project for the web and Roadmap.
 

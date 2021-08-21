@@ -43,7 +43,7 @@ When making a roadmap or directions, it's pretty common to have two scales. We k
 
 When making an EPM deployment roadmap, we always start with the vision or intention of where the company is heading in terms of its EPM efforts. This gives us the destination we'll need to make directions just like Microsoft Live Maps would.
   
-![Map showing the route from Seattle to Montreal](media/fabb931c-8fbe-4406-ba13-9de40bfb49bd.jpg)
+![Map showing the route from Seattle to Montreal.](media/fabb931c-8fbe-4406-ba13-9de40bfb49bd.jpg)
   
 If we were just to ask, "What do you want?" the answer almost invariably comes in terms of a solution. People are likely to say "I need a report that looks like this" or "Our firm needs portfolio analysis."
   
@@ -69,7 +69,7 @@ We have one more thing to do before we close off the destination process and tha
   
 The next thing we need for directions is a point of origin and we manage that through an inventory of where the organization is now in relation to the goals we've chosen.
   
-![Map showing the route from Seattle to Montreal](media/0292caf2-ccdc-4970-9865-0d5a4de55347.jpg)
+![Map showing the route from Seattle to Montreal.](media/0292caf2-ccdc-4970-9865-0d5a4de55347.jpg)
   
 We look at existing personnel. Are they trained in project management for their particular roles? Do we have sufficient personnel with sufficient experience to accomplish the goals that have been set? Remember that we have to look at multiple measures here because different people will have a different role in the eventual enterprise project management process. It makes no sense to train every employee to be a project scheduler if, in fact, they'll never be responsible to create schedules. By default, we think of four roles: Administrator, Project Manager, Individual Resource, and Executive. If timesheets are involved, we think also of Supervisors as fifth role. Of course, depending on what destination we've defined in our original envisioning process, the roles may be quite different. That changes the skills inventory process profoundly, which is why we always start by defining the destination before thinking about the point of origin.
   
@@ -89,7 +89,7 @@ As with any enterprise system, you'll want to plan both a production and staging
 
 When the G.P.S. unit in my car discovers that I've missed a turn, a very nice lady's voice says "Recalculating route". Moments later, the line through my map changes and I've got new directions. In an EPM deployment we need to be ready for a detour or a turn that's blocked for repairs. Perhaps we missed that freeway exit. How do we deal with replanning? There are two things to ask when you go off course: First, are you still going to the same place? Second, how do we get there from here? One of my favorite project management quotes on this subject comes from Napoleon Bonaparte, who once said, "A battle plan lasts until contact with the enemy." 
   
-![Map showing the route from Seattle to Redmond](media/7250a783-467e-4fd7-9551-b76b52bfea3b.jpg)
+![Map showing the route from Seattle to Redmond.](media/7250a783-467e-4fd7-9551-b76b52bfea3b.jpg)
   
 In an EPM deployment how do we apply this same principle? First of all, you need a measure to determine if you're no longer on course. If one team member has an emergency dentist's appointment tomorrow and is absent from the office for four hours, should we then let that discrepancy change all downstream tasks, reschedule everyone from tomorrow at noon through the end of the project, and then e-mail everyone with their new assignment times? 
   
@@ -125,7 +125,7 @@ The most common reason for a project plan review is that the organization's prio
 
 Before you set out on a long drive you probably check the Weather Channel (or weather.msn.com) to make sure no inclement weather will affect your voyage. Risks are a part of life. Remember, if there were no risks, there'd be no need for project managers! Planning for the most glaring risks is not a complicated process. Start at the beginning of the envisioning process, and as you look at each of the elements of the destination you are designing, ask the group what barriers to reaching this destination they can think of. In some cases the risks will be significant. It's not uncommon for an organization to desire a particular result, only to find that the raw data required to deliver that result has never been gathered and that there may be considerable resistance to the collecting of that data. 
   
-![MSN page showing weather forecast for Montreal](media/05b1f48a-79d8-4d4d-a34c-40bddd2b3954.jpg)
+![MSN page showing weather forecast for Montreal.](media/05b1f48a-79d8-4d4d-a34c-40bddd2b3954.jpg)
   
 In one example, we found an organization that wanted resource capacity planning. That was going to require a complete accounting of all of the resource availability of all project personnel and a complete accounting of all of the possible workloads that could be applied to those staff. When we asked if both of those were available, we were told that sure, they were available but only for two-fifths of the organization. When we then discovered that the three-fifths of the organization that the data was not available for weren't even represented at the envisioning meeting, we said, "Let us guess. The problems you're experiencing with resource capacity planning are in those three divisions." Naturally they were, and we had to identify enrolling the division leaders of those divisions as a separate phase of the project and very high risk.
   
@@ -145,7 +145,7 @@ Finally, one of the most important things you can do is to add some details on r
 
 Here's a tip on making your roadmap that may pay huge dividends: Use Project Server and the Microsoft EPM Solution to help make and manage your roadmap plan. It seems obvious perhaps, but it's rare enough for organizations to do that we mention it here. 
   
-![SharePoint site showing a list of project deliverables](media/3ecad66f-b2b8-4a35-aab7-8df75ce32466.jpg)
+![SharePoint site showing a list of project deliverables.](media/3ecad66f-b2b8-4a35-aab7-8df75ce32466.jpg)
   
 I had a senior manager once tell me that his project staff had asked him if he thought using the Microsoft EPM solution to deploy the Microsoft EPM Solution wasn't overkill. "If we built jet planes for a living, we wouldn't fly them to work," they said. "Are you kidding?" he replied. "If I could fly a jet plane to work, I'd do it every day!" 
   

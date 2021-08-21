@@ -35,7 +35,7 @@ Scheduling is never a simple component of a project; yet in the last 20 years, I
 
 When you have schedule that has more lines running north to south than left to right, you have a problem. If it takes weeks or days for stakeholders to understand your schedule, then the model is too complex. If it's too difficult to explain to executives or even to your team, then how can you expect anyone to benefit from it?
   
-![Example of project schedule that's too complex](media/58447cfa-4c7e-4189-b061-a9dbd2444cc3.jpg)
+![Example of project schedule that's too complex.](media/58447cfa-4c7e-4189-b061-a9dbd2444cc3.jpg)
   
 How do you know if your project is too complex? Ask yourself how easy it is to find the critical path in your schedule.
   
@@ -47,11 +47,11 @@ To illustrate the point, let me share an example. Suppose that you're the lumber
   
 You can build a schedule like this:
   
-![Project schedule showing subtasks](media/22967374-9c7f-4b89-80e9-b7ef75d2fe3e.jpg)
+![Project schedule showing subtasks.](media/22967374-9c7f-4b89-80e9-b7ef75d2fe3e.jpg)
   
 Or one like this:
   
-![Project schedule showing high level tasks](media/b7fca78d-097d-439a-bfb4-dac7537ec427.jpg)
+![Project schedule showing high level tasks.](media/b7fca78d-097d-439a-bfb4-dac7537ec427.jpg)
   
 If you were the builder and scheduler, which approach would you prefer to have to update and maintain your actuals? 
   

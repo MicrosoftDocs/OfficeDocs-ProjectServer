@@ -43,7 +43,7 @@ When Project for the web is first used in your Microsoft 365 tenant, a default D
 
 Admins can find the name and details of their default Dataverse instance in the PowerApps admin center (admin.powerapps.com).  
 
-![Dataverse Environment](media/PowerAppsEnvironment.png)
+![Dataverse Environment.](media/PowerAppsEnvironment.png)
 
 ### Deleting user data
 

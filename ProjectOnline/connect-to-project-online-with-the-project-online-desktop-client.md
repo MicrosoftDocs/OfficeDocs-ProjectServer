@@ -29,13 +29,13 @@ You can do the following to connect to your Project Online site in your Office 3
 
 1. After opening the Project Online Desktop Client, at the login screen, for **Profile** select **Computer**, and then select **OK**.
 
-    ![Project ID settings](media/PJOAccount.png)
+    ![Project ID settings.](media/PJOAccount.png)
 
 2. On the next screen, select **Blank project**.
 3. On the new project page, select the **File** menu.
 4. On the Backstage menu, select **Info**, and then select **Manage Accounts**.
  
-    ![Project ID settings](media/PJOManAccounts.png)
+    ![Project ID settings.](media/PJOManAccounts.png)
 
 1. On the **Project Web Apps Accounts** page, select **Add**.
 2. On the **Account Properties** page:
@@ -44,15 +44,15 @@ You can do the following to connect to your Project Online site in your Office 3
     - Select **Set as default account** if you want to use this as your default profile each time you open Project Online Desktop Client.
     - Click **OK**.
 
-    ![Project ID settings](media/PJOAccountProps.png)
+    ![Project ID settings.](media/PJOAccountProps.png)
 
 7. Your new account will now show On the **Project Web App Accounts** page.  Click **OK**.
 
-    ![Project ID settings](media/PJOPWAAccounts.png)
+    ![Project ID settings.](media/PJOPWAAccounts.png)
 
 8. Close and then reopen the Project Online Desktop Client. At the login window, select your account and click **OK** to connect to Project Online.
 
-   ![Project ID settings](media/PJOMyAccounts.png) 
+   ![Project ID settings.](media/PJOMyAccounts.png) 
 
  
  > [!NOTE]

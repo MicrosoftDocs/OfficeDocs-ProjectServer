@@ -23,7 +23,7 @@ description: "Instructions on how to set up timesheets for resources in Project 
 
 |||
 |:-----|:-----|
-|![Time Reporting Period](media/d99055d1-f683-45c1-a532-4f8d8f2cc29e.png)|Before your team members can start [Step 2: Turn in a timesheet](https://support.office.com/article/f49a8e4a-29d2-4601-ac5a-437c232c31f1), an administrator needs to set up a few things. Some things are required, and other options are there in case you want to go beyond the basics. |
+|![Time Reporting Period.](media/d99055d1-f683-45c1-a532-4f8d8f2cc29e.png)|Before your team members can start [Step 2: Turn in a timesheet](https://support.office.com/article/f49a8e4a-29d2-4601-ac5a-437c232c31f1), an administrator needs to set up a few things. Some things are required, and other options are there in case you want to go beyond the basics. |
    
 ## The easiest way to set things up
 <a name="__top"> </a>
@@ -34,17 +34,17 @@ If you don't want to do a whole lot of work to get timesheets up and running, th
   
 1. **Go to **PWA Settings**.**
     
-  - In Project Web App, choose **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
+  - In Project Web App, choose **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
     
   - Under **Time and Task Management**, choose **Time Reporting Periods**.
     
-    ![Time Reporting Periods](media/8dff6816-d38c-4d88-936b-df51e106a594.png)
+    ![Time Reporting Periods.](media/8dff6816-d38c-4d88-936b-df51e106a594.png)
   
 2. **Set a start date.**
     
     If you want timesheets turned in weekly, the only thing you need to change under **Define Bulk Period Parameters** is **Date the first period starts**.
     
-    ![Date the first period starts](media/50372cdb-c719-4277-b9e8-cd15ee9a2159.png)
+    ![Date the first period starts.](media/50372cdb-c719-4277-b9e8-cd15ee9a2159.png)
   
     > [!TIP]
     > A best practice here is to set your first week to start on the first day of the week containing the first day of your [fiscal year](set-up-your-fiscal-year.md). For example, if your organization's fiscal year starts on Tuesday, July 1, it might make sense to have your first batch of timesheets start on the Sunday or Monday before that. 
@@ -59,17 +59,17 @@ If you don't want to do a whole lot of work to get timesheets up and running, th
     
     As you add a prefix and suffix, an example name is shown.
     
-    ![Prefix and Suffix](media/64c5a4fd-98eb-4161-a1bf-3e1992e7d6c0.png)
+    ![Prefix and Suffix.](media/64c5a4fd-98eb-4161-a1bf-3e1992e7d6c0.png)
   
 4. **Create periods and save.**
     
   - Choose **Create Bulk**.
     
-    ![Create Bulk](media/d934532b-f30b-480e-8d96-a88e6f78fded.png)
+    ![Create Bulk.](media/d934532b-f30b-480e-8d96-a88e6f78fded.png)
   
   - Choose **Save**.
     
-    ![Save](media/83ba3601-24f5-4d9e-87d9-9279cdf10c93.png)
+    ![Save.](media/83ba3601-24f5-4d9e-87d9-9279cdf10c93.png)
   
 ## Need your timesheets to do more?
 <a name="__top"> </a>

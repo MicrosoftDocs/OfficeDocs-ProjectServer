@@ -77,11 +77,11 @@ Even if you are using one of these methods, one of the things you should watch o
 
 Regardless of what project management tool you're using, showing progress is often a fairly common element of the display. Here we've got an image from Microsoft Project showing one bar with 50% progress:
   
-![Gantt bar with 50 percent progress](media/5bcf72ea-0d86-4a44-9ab7-609f5be47f62.png)
+![Gantt bar with 50 percent progress.](media/5bcf72ea-0d86-4a44-9ab7-609f5be47f62.png)
   
 If that's all we're tracking, we've at least got some notion of where we're headed but modern tools like Project and Project Server can offer so much more. If we set a baseline on the project, we'll be able to compare not only how the task is progressing but how it compares against our original plan.
   
-![Gantt bar with baseline](media/8c657eea-b546-41c6-ac77-1803945a9fb3.png)
+![Gantt bar with baseline.](media/8c657eea-b546-41c6-ac77-1803945a9fb3.png)
   
 Here we can see that the task was expected to be 50% complete and it is, but it started a week late. On the right side of the bar, we can see that we've spent 50% of the time and (taking weekends into account) we've filled 50% of the bar. If we had entered resource work, we might have had 80 hours of work to day and used 40 hours. That's right on track for this task if we think of it in isolation but even though the task may progress at the pace and burn rate we expected, it is still having a negative impact on any tasks that are downstream.
   

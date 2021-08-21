@@ -247,7 +247,7 @@ We've only completed phase one and as you look at future phases you'll need to r
   
 Have you been counting the durations for each of the steps for the first phase? It adds up to 58 weeks. Here's a schedule of the summary steps defined above:
   
-![Gantt chart showing the process over 58 weeks](media/3c62e03d-863f-4631-8a80-c8b023075944.jpg)
+![Gantt chart showing the process over 58 weeks.](media/3c62e03d-863f-4631-8a80-c8b023075944.jpg)
   
 Now, every organization is different. There are many factors that affect the total duration of a project. The most significant of these is the extent to which existing enterprise project management processes are mature. Next is the size of the organization and its complexity. It is obviously simpler to deploy an EPM system into an organization that is all located in one building than it is for an organization that is spread across numerous divisions, offices, cities and even countries. 
   

@@ -41,7 +41,7 @@ As the organization's understanding of a project management process that can be 
   
 In our experience, the natural evolution of use of a project management system comes in five basic areas, although the sequencing of them has shifted in recent years thanks in large part to technology. Let's talk about the five basic areas to start with, and I'll cover some of the new shifts that we've seen over the last few years nearer the end of this article. 
   
-![5 major areas of a project management system](media/c6864a4c-2166-48f6-a0cd-f85ea27af7a1.jpg)
+![5 major areas of a project management system.](media/c6864a4c-2166-48f6-a0cd-f85ea27af7a1.jpg)
   
 > **1 - Planning**. We almost always see Planning as the first wave. Some organizations never get beyond this. They make a basic schedule, bronze the GANTT chart, and then mount it on the wall of the project team's office. People refer to the plaque from time to time nostalgically as they remember the fine state of their schedule just before the project started.
     
@@ -67,7 +67,7 @@ For Costs, we usually go from the basic budgeting to tracking actual costs along
   
 Even the Advanced area has advanced topics. The most popular among these are Monte Carlo Risk Analysis and integrating project management methodology (particularly in the IT sector).
   
-![Basic and advanced areas of a project management system](media/7b2a9bf4-a56e-49ac-bd24-0616098d4a48.jpg)
+![Basic and advanced areas of a project management system.](media/7b2a9bf4-a56e-49ac-bd24-0616098d4a48.jpg)
   
 Most organizations progress with all five of the basic elements from the left side of the graphic above in the order that I've just described before turning to any of the advanced areas. Some find that their particular project management challenge means focusing on one element ahead of others. What is extremely difficult and rarely successful is trying to be more mature than you are. 
   
@@ -97,7 +97,7 @@ Team members include those doing the work, of course, but might also include the
   
 That has caused some organizations in industries like R&amp;D and IT, for example, to look at a Project Management Systems Maturity Model that progresses quite differently: 
   
-![Elements of a project management system reordered](media/5a440662-91fb-4b34-9b28-98fcddf7e844.jpg)
+![Elements of a project management system reordered.](media/5a440662-91fb-4b34-9b28-98fcddf7e844.jpg)
   
 The first element in these organizations is to create a communications plan, and that's almost always based on collaboration technology like SharePoint Server. These organizations find that from a centralized perspective they can get more benefit from getting their extended project management team to collaborate and communicate than from any centralized planning. The meteoric rise in popularity of SharePoint Server is a testament to how much pent up desire there is for getting people to work together. 
   

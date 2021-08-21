@@ -48,7 +48,7 @@ The challenge is compounded by a couple of factors that are almost always presen
 
 That would be challenge enough but there are other aspects that are often overlooked by the client during a purchase, starting with 'What exactly is EPM?' That's a short question with a potentially long answer. In the early stages of an EPM deployment we do an envisioning workshop with the client's senior management. One slide that I always use looks like this: 
   
-![Diagram that lists different aspects of EMP solutions](media/dc4bbe45-7c0b-41c7-9d03-586ad5d95994.jpg)
+![Diagram that lists different aspects of EMP solutions.](media/dc4bbe45-7c0b-41c7-9d03-586ad5d95994.jpg)
   
 "What is EPM from your perspective?" I'll ask. The responses are often found in one of the circles on the slide. The responses might be: 
   
@@ -80,7 +80,7 @@ So, what's the right answer? They're all right. In fact, it's probably not an ex
   
 When we do this with senior management, what often happens is that there is no one of these aspects that is not desired. Yes, people want all of them. And, when they ask if all of this is possible in a Microsoft EPM Solution deployment, the honest answer is, "Yes". The problem is that each of these aspects of EPM can be considered as a vector or a direction in which you can push the EPM environment. If we decide to push on all of these vectors on the first day, the size of the project we'll end up designing will be so large, so potentially disruptive, so complex, and involve so many other corporate systems that it will have little chance of success.
   
-![An EPM deployment involves Strategy, People, Process and Technology](media/a36ac62c-4f4f-47cc-a4ba-d3c960c4b751.jpg)
+![An EPM deployment involves Strategy, People, Process and Technology.](media/a36ac62c-4f4f-47cc-a4ba-d3c960c4b751.jpg)
   
 Remember, an Enterprise Project Management deployment isn't just technology. If it were, the implementation would be over in a few days. No, an EPM deployment involves Strategy, People, Process and Technology. Successful Microsoft EPM Solution deployments virtually always consider the project a 'Change Management' project rather than a technology project. What we're looking to accomplish is to change the way the business works. How? Well, depending on which direction an envisioning exercise goes, the direction could be very different.
   
@@ -94,7 +94,7 @@ Let's talk for a moment about how many people approach an EPM deployment. There 
 
 The Big Bang theory says "Let's do it all!" The idea is that we'll spend an inordinate amount of time designing, building, rewriting and programming the ultimate enterprise project management environment. It will take a phalanx of programmers and, one day, sometime in the future, on a given weekend, we'll flip a switch and everyone will have enterprise project management. If we were to graph this as Return on Investment over time, it would look like the picture at right.
   
-![Chart showing no return on investment until the end of the project](media/6124977d-ae52-4199-b026-dc5790573694.jpg)
+![Chart showing no return on investment until the end of the project.](media/6124977d-ae52-4199-b026-dc5790573694.jpg)
   
 There are pluses and minuses to using the Big Bang theory. On the plus side, there's a better chance than with other types of approaches that the end result will be closer to the original intent. After all, the team doesn't rest until they've checked off all the desires created at the beginning of the project. 
   
@@ -104,7 +104,7 @@ There are pluses and minuses to using the Big Bang theory. On the plus side, the
 
 When we talk about the legacy of instant gratification legacy that follows Microsoft, we see a different phenomenon. Some clients will assume that deploying the Microsoft EPM Solution is just like playing a Microsoft Game. We load in the DVD and a few moments later, we're doing projects in a coordinated, collaborative fashion. The return on investment looks good for a few days or even weeks as the pilot group with the most excitement over the new system starts to use it. However, without the investment of the senior executives it is extremely difficult, if not impossible, to effect culture or behavioral change and the project rarely extends. The system stays in use for a short period of time and then is either abandoned or left in use by a tiny number of users who are often frustrated that they've been unable to entice the rest of the organization to work together.
   
-![Diagram showing small return on investment early on](media/733a7093-f647-4fe8-b84b-0d1c7c339cde.jpg)
+![Diagram showing small return on investment early on.](media/733a7093-f647-4fe8-b84b-0d1c7c339cde.jpg)
   
 #### Phased Approach
 
@@ -118,7 +118,7 @@ We've found over the years that a phased approach is the most successful method 
     
 - Finally, no matter how much time the organization spends in doing the original design, it is bound to change its mind as soon as it sees the system in operation. Getting that first phase of the deployment into production earlier lets the organization learn from it as they move forward. 
     
-![In a phased approach, return on investment is steady and incremental](media/1b321de8-f2c9-4f7f-8e95-208ff9882ed4.jpg)
+![In a phased approach, return on investment is steady and incremental.](media/1b321de8-f2c9-4f7f-8e95-208ff9882ed4.jpg)
   
 The most critical element of this plan is the first phase. We instruct our consultants to determine "the most minimal deployment possible which will return an ongoing positive return on investment." I've worded that very carefully. We want to find a first phase of the deployment that can be put into production that will provide results and that each week will give back more benefit than the effort required to produce them. If we do that, the deployment will last forever. No one would remove the deployment because they'll say, "Oh, we can't remove that, we get 'this' out of it every week." If we're successful creating that kind of deployment, we'll be able to build on it in the months to come. If we're not, the project and the deployment is still very much at risk. 
   

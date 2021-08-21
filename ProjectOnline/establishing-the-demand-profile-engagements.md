@@ -53,7 +53,7 @@ This article will focus on top down resource estimating within PWA.
 
 Resource engagements support high level resource estimating. Resource engagements can be created in Project Professional or in the Resource Request screen on the Resource Center Navigation tab.
 
-![Resources toolbar in Project Web Application](media/06-image2.png)
+![Resources toolbar in Project Web Application.](media/06-image2.png)
 
 Please see [this article for more information on resource engagements](https://support.office.com/en-us/article/overview-resource-engagements-73eefb5a-81fe-42bf-980e-9532b1bdc870).
 
@@ -63,7 +63,7 @@ Task assignments may be classified as either proposed or committed. By default, 
 
 When creating the resource analysis, you should pick the appropriate option that is aligned with how your organization is forecasting work. The default setting is that only committed work is calculated. Change the setting to support the calculation of demand from proposed resource engagements.
 
-![Resource capacity impact](media/07-image2.png)
+![Resource capacity impact.](media/07-image2.png)
 
 ## Microsoft Project Professional calculations
 
@@ -71,7 +71,7 @@ You will need to "tell" PWA how you are estimating your tasks for each of the pr
 
 To toggle the calculation method, open the schedule in Microsoft Project Professional. Navigate to the Project Information screen and toggle the option marked "Calculate Resource Utilization From..." Save and republish the project for the changes to take effect in any new resource analysis.
 
-![Resource Experiments](media/08-image3.png)
+![Resource Experiments.](media/08-image3.png)
 
 If you have an existing resource analysis, you will need to reload the resource data and trigger a recalculation.
 

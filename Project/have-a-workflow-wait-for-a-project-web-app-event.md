@@ -37,7 +37,7 @@ First, we'll create a simple workflow with two stages and have it wait for the p
   
 We'll be using the Sample Workflow that you created in [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md) to build a workflow that looks like this:
   
-![Screenshot of workflow](images/WaitForEvent.png)
+![Screenshot of workflow.](images/WaitForEvent.png)
   
 If you've completed the procedures in other articles in this series, you may already have part of this workflow in place. The complete steps for creating this workflow are in the following procedure.
   

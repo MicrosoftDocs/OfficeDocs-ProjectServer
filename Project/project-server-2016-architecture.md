@@ -27,7 +27,7 @@ The front-end tier includes Project Professional 2016, Project Web App, and thir
 
 Below is a generalized view of the Project Server 2016 architecture, including the Project Service Application and several client applications including Project Professional 2016.
   
-![Diagram of Project Server 2016 architecture](images/a6b70f8c-b293-49c1-9a53-38cec0a08068.png)
+![Diagram of Project Server 2016 architecture.](images/a6b70f8c-b293-49c1-9a53-38cec0a08068.png)
   
 The following general comments apply to the illustration above:
   

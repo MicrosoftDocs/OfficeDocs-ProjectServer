@@ -23,15 +23,15 @@ Before you can use Project Online reports in Excel Online, the tenant administra
   
 1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your admin account. 
     
-2. At the top of the page, select **Projects**. Or, select the app launcher ![Office 365 app launcher icon](media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png), and then select **Projects**.
+2. At the top of the page, select **Projects**. Or, select the app launcher ![Office 365 app launcher icon.](media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png), and then select **Projects**.
     
-3. Select **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png)\> **Site Settings**.
+3. Select **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png)\> **Site Settings**.
     
 4. Under **Site Collection Administration**, select **Site collection features**.
     
 5. Scroll down in the list to **Project Web App Permission for Excel Web App Refresh**, and then select **Activate**.
     
-    ![Project Web App Permission for Excel Web App Refresh](media/3b65c380-44e9-4377-8746-a52ae7662965.png)
+    ![Project Web App Permission for Excel Web App Refresh.](media/3b65c380-44e9-4377-8746-a52ae7662965.png)
   
     > [!TIP]
     >  If you have more than one Project Online site collection, make a note about which one has **Project Web App Permission for Excel Web App Refresh** activated. When you activate it on one site collection, it is activated for all site collections in your Office 365 tenant. However, if you ever want to deactivate it, you can only turn it off from the site collection where you activated it initially. 
