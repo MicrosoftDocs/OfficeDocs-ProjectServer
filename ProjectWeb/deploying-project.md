@@ -1,5 +1,5 @@
 ---
-title: "Deploying Project"
+title: "Deploying Project for the web"
 ms.author: alexla
 author: alexla
 manager: hocull
@@ -8,10 +8,10 @@ audience: admin
 ms.topic: article
 ms.service: project-web
 localization_priority: Normal
-description: "Learn how to deploy Project to the Dataverse."
+description: "Learn how to deploy Project for the web to both a default and non default org."
 ---
 
-# Deploying Project
+# Deploying Project for the web
 
 Project for the web is available for use in the Default Environment as well as in Sandbox and Production Dataverse environments.
 
@@ -26,27 +26,10 @@ If you are looking to deploy to additional environments, you will need to create
 
 [Learn more about Dataverse environments](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
-## Provisioning a new environment
-> [!Note]
-> This section only applies to Admins interested in deploying Project to a non-Default environment.
-
-Project is supported in the following types of environments
-* Default
-* Production
-* Sandbox
-
-To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
-
-> [!div class="mx-imgBorder"]
-> ![D365 App Toggle](media/AppToggle.png) 
-
-[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
-
-## Deploying Project for the web
-
-### System requirements
+## System requirements
 
 In order to be able to provision and use Project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
+
 
 **Enterprise applications**
 
@@ -61,6 +44,7 @@ The following enterprise applications are to be enabled, by default.
 |Microsoft PowerApps    |  475226c6-020e-4fb2-8a90-7a972cbfc1d4        |
 |Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
 |Project Online   |     f53895d3-095d-408f-8e93-8f94b391404e     |
+
 
 **Verifying status of Enterprise applications**
 
@@ -179,6 +163,24 @@ Else
 ### Deploying to the Default environment
 
 Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap are first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
+
+
+## Provisioning a new environment
+> [!Note]
+> The below sections only applies to Admins interested in deploying Project to a non-Default environment.
+
+Project is supported in the following types of environments
+* Default
+* Production
+* Sandbox
+
+To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle **must be disabled**.
+
+> [!div class="mx-imgBorder"]
+> ![D365 App Toggle](media/AppToggle.png) 
+
+[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
+
 
 ### Deploying to a non-Default environment
 Deploying Project to a non-Default environment is done from within the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com). 
