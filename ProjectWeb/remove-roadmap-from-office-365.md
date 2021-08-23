@@ -18,7 +18,7 @@ description: "Remove Roadmap from Office 365."
 
 You can turn Project for the web or Roadmap off in the Microsoft 365 admin center. This will prevent your users from using them, but will not remove any user data that currently exists. (Note that it may take a few minutes for functionality to be disabled while the setting synchronizes across your tenant.)
 
-To turn off Project for the web:
+**To turn off Project for the web:**
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Org settings**.
 2. Click **Project**.
@@ -28,7 +28,7 @@ To turn off Project for the web:
 > [!NOTE]
 > Although this setting currently displays in your Project settings, it will not be enabled until a later date (see your Message Center). You can still [turn off Project for the web for individual users](turn-project-for-the-web-off.md). 
 
-To turn off Roadmap:
+**To turn off Roadmap:**
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), under **Settings**, click **Org settings**.
 2. Click **Project**.
@@ -41,24 +41,25 @@ If your Project Online subscription ends, most of the associated data is deleted
 
 You can remove all Project for the web and Roadmap data by removing the entire solution from Microsoft 365. This will delete all of the existing projects, roadmaps and associated user data.
 
-To remove Roadmap (Only applies to the default org as Roadmap can only be installed on the default org):
+**To remove Roadmap:** (Only applies to the default org as Roadmap can only be installed on the default org)
 
 1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
-2. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
-3. On the **Settings** menu, under **Customization**, click **Solutions**.
-4. Select the **PortfolioService** solution, and then click **Delete**.
-5. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
-6. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
+2. Ensure that the default org is selected at the top of the page, if not change it to the Default Org. (As noted above, Roadmap can only be installed on the default org as such it is the only org where you can remove it from.) 
+3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
+4. On the **Settings** menu, under **Customization**, click **Solutions**.
+5. Select the **PortfolioService** solution, and then click **Delete**.
+6. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
+7. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
 
 
 > [!NOTE]
 > Removing the Roadmap solution does not affect any of the projects or tasks that the roadmaps are connected to.
 
 
-To remove Project for the web:
+**To remove Project for the web:**
 
 1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
-2. Ensure that the correct org where you want to remove Project for the web is dispalyed at the top of the page. In most cases it it'll be the default org if you have an out of box installation. 
+2. Ensure that the correct org where you want to remove Project for the web is displayed at the top of the page. In most cases it it'll be the default org if you have an out of box installation. 
 3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
 5. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
