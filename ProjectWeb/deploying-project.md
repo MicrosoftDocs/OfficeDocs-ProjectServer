@@ -3,7 +3,7 @@ title: "Deploying Project for the web"
 ms.author: alexla
 author: alexla
 manager: hocull
-ms.date: 01/07/2021
+ms.date: 08/24/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
@@ -170,9 +170,9 @@ Deployment of Project to the Default environment is done for you automatically. 
 > The below sections only applies to Admins interested in deploying Project to a non-Default environment.
 
 Project is supported in the following types of environments
-* Default
-* Production
-* Sandbox
+- Default
+- Production
+- Sandbox
 
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle **must be disabled**.
 
