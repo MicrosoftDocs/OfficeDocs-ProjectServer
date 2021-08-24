@@ -1,8 +1,8 @@
 ---
-title: "Remove Project from the Office 365 app"
+title: "Remove Project from Microsoft 365"
 ms.author: serdars
 author: serdars
-manager: pamgreen
+manager: serdars
 audience: admin
 ms.topic: article
 ms.service: project-web
@@ -11,10 +11,10 @@ ms.custom: Adm_Project
 search.appverid: 
 - PJO150
 - MET150
-description: "Remove Roadmap from Office 365."
+description: "Remove Roadmap from Microsoft 365."
 ---
 
-# Remove Project for the web or Roadmap from Office 365
+# Remove Project for the web or Roadmap from Microsoft 365
 
 You can turn Project for the web or Roadmap off in the Microsoft 365 admin center. This will prevent your users from using them, but will not remove any user data that currently exists. (Note that it may take a few minutes for functionality to be disabled while the setting synchronizes across your tenant.)
 
@@ -35,7 +35,7 @@ You can turn Project for the web or Roadmap off in the Microsoft 365 admin cente
 3. Uncheck **Turn on Roadmap for your organization**.
 4. Click **Save**.
 
-If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data Retention, Deletion, and Destruction in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Project for the web and Roadmap data isn’t automatically deleted when your Project Online subscription ends.
+If your Project Online subscription ends, most of the associated data is deleted in conformance with the [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Unlike other Project Online data, Project for the web and Roadmap data isn’t automatically deleted when your Project Online subscription ends.
 
 ## Remove Project for the web and Roadmap data
 
@@ -43,7 +43,7 @@ You can remove all Project for the web and Roadmap data by removing the entire s
 
 **To remove Roadmap:** (Only applies to the default org as Roadmap can only be installed on the default org)
 
-1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
 2. Ensure that the default org is selected at the top of the page, if not change it to the Default Org. (As noted above, Roadmap can only be installed on the default org as such it is the only org where you can remove it from.) 
 3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
@@ -58,7 +58,7 @@ You can remove all Project for the web and Roadmap data by removing the entire s
 
 **To remove Project for the web:**
 
-1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
 2. Ensure that the correct org where you want to remove Project for the web is displayed at the top of the page. In most cases it it'll be the default org if you have an out of box installation. 
 3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
