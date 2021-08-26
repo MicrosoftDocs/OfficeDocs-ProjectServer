@@ -14,7 +14,7 @@ description: "Learn how a Farm admin can delete a specific user's data from a Pr
 # Delete user data from Project Server Subscription Edition 
 
 > [!Important] 
-> The process to delete user data from Project Server Subscription Edition is different from previous Project Server releases. To learn how to delete user data from previous versions, see [Delete user data from Project Server 2019](Delete-user-data-in-Project-Server-2019.md) and [Delete user data from Project Server](delete-user-data-from-project-server.md).
+> The process to delete user data from Project Server Subscription Edition is different from previous Project Server releases. To learn how to delete user data from previous versions, see: <br/>1. [Delete user data from Project Server 2019](Delete-user-data-in-Project-Server-2019.md) <br/>2. [Delete user data from Project Server 2016/2013/2010](delete-user-data-from-project-server.md).
 
 Learn how a Farm admin can delete a specific user's data from a Project Server environment. 
 
