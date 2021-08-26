@@ -7,7 +7,7 @@ ms.date: 2/24/2017
 audience: admin
 ms.topic: get-started-article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_O365
 ms.collection: M365-subscription-management
 search.appverid:

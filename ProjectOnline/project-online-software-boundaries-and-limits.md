@@ -7,7 +7,7 @@ ms.date: 6/15/2018
 audience: admin
 ms.topic: conceptual
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 ms.collection: M365-subscription-management
 search.appverid:

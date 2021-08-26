@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: aadb7d9f-ddfd-4a80-8658-ed92891903c6
 description: "Summary Here are the hardware recommendations for a small deployment of Project Server 2013."

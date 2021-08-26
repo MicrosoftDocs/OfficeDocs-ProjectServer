@@ -11,7 +11,7 @@ f1_keywords:
 - 'O365M_GSProj'
 - 'O365E_GSProj'
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - PJO150

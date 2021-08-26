@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4ceccb50-f36d-4d1c-8a32-42c7e5b62b91
 description: "Summary: This article describes the prescribed method to configure your Active Directory groups for synchronization with Project Server 2013 to add resources to the Enterprise Resource Pool."

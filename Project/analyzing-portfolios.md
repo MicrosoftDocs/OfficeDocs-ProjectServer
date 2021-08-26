@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6a96159-f63d-4d58-bf80-d80fae62654b
 description: "Summary: Learn how to create a portfolio analysis using Project Web App."
 ---

@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 2865b7c4-099f-4f68-afcb-a95467a32dc9
 description: "Summary: Plan for the client, application, and database tiers in a Project Server solution."

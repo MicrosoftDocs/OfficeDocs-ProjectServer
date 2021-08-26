@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5dbcb4c9-9837-4508-907a-78e4b07eef81
 description: "Summary: As you plan performance and capacity of a Project Server 2013 deployment, consider the set of variables that affect your plans."

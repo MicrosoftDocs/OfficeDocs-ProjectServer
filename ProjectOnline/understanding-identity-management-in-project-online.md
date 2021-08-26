@@ -7,7 +7,7 @@ ms.date: 5/29/2015
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 ms.assetid: ec6a2c12-b179-46ca-ac3b-2f06984e4f66

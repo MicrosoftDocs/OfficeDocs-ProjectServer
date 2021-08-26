@@ -7,7 +7,7 @@ ms.date: 11/22/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 31299399-5d52-4e1b-81cf-fd85de478095
 description: "Summary: After you create a plan to upgrade your environment to Project Server 2013, you must prepare you environment before you can start the actual upgrade process."

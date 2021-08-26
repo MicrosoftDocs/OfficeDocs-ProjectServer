@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cf1a1f91-83c7-4166-8e69-52e07a9ffeb5
 description: "Summary: Add custom security categories by using the Manage Categories page in Project Web App Settings."

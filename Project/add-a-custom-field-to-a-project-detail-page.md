@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ff93279-08fc-4b1c-af3f-52d06973a78e
 description: "Summary: Learn how to add a custom field to a project detail page."
 ---

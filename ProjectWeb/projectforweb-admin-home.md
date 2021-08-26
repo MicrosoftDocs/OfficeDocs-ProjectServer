@@ -7,7 +7,7 @@ ms.date: 10/28/2019
 audience: Admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: "Learn about resources available for Project for the Web admins."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1223bffd-7e67-48cb-aee7-b6c5027ace16
 description: "Summary: Read troubleshooting information for common bottlenecks and their causes in Project Server 2013."

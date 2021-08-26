@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1ffaf65e-2d12-4059-8ded-b7d3d96375d9
 description: "Summary: This article describes the Active Directory topologies that are supported for synchronization with the Enterprise Resource Pool in Project Server 2013."

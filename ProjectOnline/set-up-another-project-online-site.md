@@ -12,7 +12,7 @@ f1_keywords:
 - 'O365M_ProjWA'
 - 'O365E_ProjWA'
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - PJO150

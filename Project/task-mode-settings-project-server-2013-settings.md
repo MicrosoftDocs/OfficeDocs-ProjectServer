@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5bfb8b64-dcbf-4ba4-b5cf-30042dcc301c
 description: "Summary: Use the Task Mode Setting in SharePoint Central Administration to define the default task mode used to schedule tasks in Project Server 2013."

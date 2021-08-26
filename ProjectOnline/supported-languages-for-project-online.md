@@ -7,7 +7,7 @@ ms.date: 11/1/2016
 audience: admin
 ms.topic: get-started-article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJO160

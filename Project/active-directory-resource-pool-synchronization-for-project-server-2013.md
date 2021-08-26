@@ -7,7 +7,7 @@ ms.date: 12/01/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: fc9662be-d2ea-4cbf-b528-cc4349bdee01
 description: "Summary: This article set describes how to manage and plan for synchronization between Active Directory groups with the Enterprise Resource Pool in Project Server 2013."

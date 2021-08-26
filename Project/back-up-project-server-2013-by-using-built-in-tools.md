@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: d016e0f7-3c61-4862-9fac-37696cfdefbe
 description: "Summary: Learn how to implement a backup strategy for Project Server farm components by using SharePoint Server 2013 and SQL Server tools."

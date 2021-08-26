@@ -7,7 +7,7 @@ ms.date: 9/8/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d89e112-4522-477e-be5d-467af1eb1060
 description: "Summary: Edit user accounts by using the Manage Users page in Project Web App Settings."
 ---

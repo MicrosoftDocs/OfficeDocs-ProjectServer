@@ -7,7 +7,7 @@ ms.date: 10/10/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40ebc380-456a-44ac-ab24-1388cb1673ab
 description: "Summary: Use the Manage Users page to add, modify, deactivate, and reactivate user accounts."
 ---

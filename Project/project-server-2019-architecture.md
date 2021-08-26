@@ -7,7 +7,7 @@ ms.date: 9/15/2018
 audience: ITPro
 ms.topic: concetpual
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 
 description: "Summary: Learn about the general architecture of Project Server 2019."

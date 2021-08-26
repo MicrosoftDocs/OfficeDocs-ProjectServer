@@ -7,7 +7,7 @@ ms.date: 01/07/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn about the security roles in Project for the web."
 ---
 # Project for the Web Security Roles

@@ -7,7 +7,7 @@ ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c14ac2d2-64d6-4fb9-93a0-dc7e1f9717ec
 description: "Summary: You can force the check-in an enterprise resource plan by using Project Web App Settings."
 ---
