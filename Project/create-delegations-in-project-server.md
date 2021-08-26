@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: cb1b1fa3-213a-4bf6-9b7a-bf0b578ddc12
 description: "Summary: How to enable one user to work on behalf of another in Project Server."

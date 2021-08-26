@@ -6,7 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 
 description: "Learn how an Farm admin can delete a specific user's data from a Project Server 2019 Public Preview environment."
 ---

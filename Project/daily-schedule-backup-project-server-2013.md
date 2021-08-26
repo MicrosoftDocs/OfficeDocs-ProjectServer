@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: db7da70b-5d6d-4e94-b15e-0922eecf93d0
 description: "Summary: Use the Daily Schedule Backup settings page in SharePoint Central Administration to schedule daily backups of Project Server 2013 objects."

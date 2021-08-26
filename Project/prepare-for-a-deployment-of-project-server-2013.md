@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba9b8053-1658-42eb-a767-cf84b80539e9
 description: "Summary: Ensure that you have access to the necessary accounts and permissions to install Project Server 2013."
 ---

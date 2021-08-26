@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc18ec20-e72b-497e-a817-2cebd15057ff
 description: "Summary: You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: e7f05b69-87f7-4739-8417-c518c7acb598
 description: "Learn about Project Server 2013 performance using various common workloads in a lab environment."

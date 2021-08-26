@@ -8,7 +8,7 @@ ms.topic: article
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how certain Office 365 users can have view access to Project for the web and Roadmap"
 ---
 

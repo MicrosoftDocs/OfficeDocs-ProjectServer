@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6608aa2b-72a3-4af3-a015-6f6506f2d382
 description: "Summary: How to set up who can have delegates assigned to them in Project Server."

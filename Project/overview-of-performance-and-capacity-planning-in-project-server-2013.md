@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97cfb11d-5ba3-469c-a52b-f8b4d014b8e8
 description: "Summary: Performance and capacity planning concepts are a vital part of planning a Project Server deployment."
 ---

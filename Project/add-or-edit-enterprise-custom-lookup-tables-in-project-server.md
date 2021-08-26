@@ -7,7 +7,7 @@ ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7fafc9e-abb0-4318-a3ce-0ba8b296f1d8
 description: "Summary: Use the New Custom Field page in Project Web App settings to specify the options for a custom lookup table."
 ---

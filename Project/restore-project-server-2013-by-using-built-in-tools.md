@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: c6f6d098-0400-446e-9e15-bf5557b4a77c
 description: "Summary: You can do specific restores of Project Server 2013 in multiple ways, whether through a planned event, or as a result of Project Server having real issues that can only be addressed by a restore of a previously known good backup."

@@ -7,7 +7,7 @@ ms.date: 7/3/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin_Top
 search.appverid:
 - PJU140

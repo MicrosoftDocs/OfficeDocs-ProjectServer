@@ -7,7 +7,7 @@ ms.date: 11/22/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: cc10a269-8dde-4d1c-b879-5c4cccf0a5bd
 

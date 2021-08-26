@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 2c8989cd-6d94-49ec-b88b-6c763036f43e
 description: "Summary: Use the Resource Plan Work Day settings in Central Administration to set full-time equivalency for resources in Project Server 2013."
