@@ -7,7 +7,7 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf2301a3-6046-4dc7-b1ac-fa6ceaafbb58
 description: "Summary: A list of articles about how to install Project Server 2013 in a server farm environment."
 ---

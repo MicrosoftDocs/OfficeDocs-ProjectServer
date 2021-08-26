@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 98a1fbd1-b630-4d45-8bd3-93bcfad9d27c
 description: "Summary: Use the Administrative Backup page in SharePoint Central Administration to back up Project Server 2013 objects."

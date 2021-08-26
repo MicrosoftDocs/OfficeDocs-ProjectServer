@@ -7,7 +7,7 @@ ms.date: 2/17/2016
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJU150

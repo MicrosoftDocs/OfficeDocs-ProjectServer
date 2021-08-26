@@ -7,7 +7,7 @@ ms.date: 01/07/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Frequently Asked Questions about Project for the Web."
 ---
 

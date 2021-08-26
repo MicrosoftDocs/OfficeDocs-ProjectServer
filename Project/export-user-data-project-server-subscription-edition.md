@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how your organization can export a specific user's content from your Project Server Subscription Edition environment."
 ---
 

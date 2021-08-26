@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: e059ba50-f789-4fd5-a6c4-342108c0c120
 description: "Summary: Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013."

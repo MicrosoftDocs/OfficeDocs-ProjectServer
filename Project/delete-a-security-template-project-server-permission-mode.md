@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cb63b6ca-2af4-4c80-bb61-17e3a9d76d34
 description: "Summary: Learn how to delete Project Web App security templates by using the Manage Templates page in Project Web App Settings."

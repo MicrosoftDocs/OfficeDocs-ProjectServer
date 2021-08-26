@@ -7,7 +7,7 @@ ms.date: 9/8/2017
 audience: admin
 ms.topic: conceptual
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid: 
 - PJO150

@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: d9c8a396-e2de-443c-8046-8e6bc20d087f
 description: "Summary: Edit security categories by using the Manage Categories page in Project Web App Settings."

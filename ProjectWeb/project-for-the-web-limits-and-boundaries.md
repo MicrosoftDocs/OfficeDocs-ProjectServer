@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/9/2020
 audience: admin
 ms.service: project-web
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJO160

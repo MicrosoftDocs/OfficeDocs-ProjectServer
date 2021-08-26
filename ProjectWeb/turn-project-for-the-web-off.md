@@ -9,7 +9,7 @@ ms.topic: article
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to turn Project for the web or Roadmap on or off for users in your organization."
 ---
 

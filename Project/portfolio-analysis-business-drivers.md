@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 41b89e0b-5fad-4172-956c-dbc7c30b241f
 description: "Summary: Learn how to use business drivers for portfolio analysis in Project Web App."
 ---
