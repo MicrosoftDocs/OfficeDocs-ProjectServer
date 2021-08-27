@@ -25,7 +25,7 @@ The Project Power App can be used by you and your organization to completely cus
 ### How can I reach the Project Power App?
 You can find the Project Power App in the [Microsoft 365 app launcher](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a). Just look for the Project app with the purple icon.
 
-![Project Power App launcher](media/PowerAppLauncher.png) 
+![Project Power App launcher.](media/PowerAppLauncher.png) 
 
 ## Customization
 ### Can I customize the Project Power App?

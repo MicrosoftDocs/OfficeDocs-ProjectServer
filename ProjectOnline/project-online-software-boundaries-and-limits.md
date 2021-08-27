@@ -96,7 +96,7 @@ Modifying or changing out the default master page template can result in unexpec
 
 Period symbols in the site name portion of a PWA site collection site address is not supported.  This is configured when your admin creates a PWA site in the SharePoint admin center.
 
-![Create a Project Web App site in the SharePoint admin center](media/createPWASite.png)
+![Create a Project Web App site in the SharePoint admin center.](media/createPWASite.png)
 
 > [!NOTE]
 > Periods are allowed in PWA site names, but not in the site name portion of the site address. 

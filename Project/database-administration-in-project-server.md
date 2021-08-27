@@ -19,7 +19,7 @@ description: "Summary: Manage your enterprise objects in the Database Administra
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Delete enterprise objects in Project Server](delete-enterprise-objects-in-project-server.md) <br/> |You can delete enterprise objects from Project Web App when they are no longer needed.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Delete enterprise objects in Project Server](delete-enterprise-objects-in-project-server.md) <br/> |You can delete enterprise objects from Project Web App when they are no longer needed.  <br/> |
 ||[Force check-in enterprise objects in Project Server](force-check-in-enterprise-objects-in-project-server.md) <br/> |You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.  <br/> |
    
 ## See also

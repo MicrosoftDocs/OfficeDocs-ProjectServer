@@ -45,7 +45,7 @@ Manual prioritization will be captured in an enterprise custom field that is cre
 
 - The field should be a number or cost field.
 
-![New Custom Field](media/10-image1.png)
+![New Custom Field.](media/10-image1.png)
 
 You will then need to assign field values for each of the projects under consideration.
 
@@ -54,22 +54,22 @@ You will then need to assign field values for each of the projects under conside
 New portfolio analyses will use the business driver prioritization mechanism by default. To use the manual prioritization mechanism:
 
 1. Select the option to prioritize using custom fields when creating a new portfolio analysis.
- ![Name and Description](media/10-image2.png)
+ ![Name and Description.](media/10-image2.png)
 
 2. Click on **Modify** in the **Analysis Tab** to open the field selection screen.
- ![Analysis tab](media/10-image3.png)
+ ![Analysis tab.](media/10-image3.png)
 
 ## Assigning prioritization parameters
 
 You can assign prioritization parameters to each of the custom fields in the Manual Prioritization screen.
 
-![Prioritization parameters](media/10-image4.png)
+![Prioritization parameters.](media/10-image4.png)
 
 Assign specific weighting to each of the fields. Click Save and PWA will normalize the weight for each of the fields to a value between 1% and 100%.
 
 By default, PWA will display the minimum and maximum values assigned to projects for each of the custom fields.
 
-![Sample minimum and maximum values](media/10-image5.png)
+![Sample minimum and maximum values.](media/10-image5.png)
 
 The ranking for each project is calculated within this range. Adjust the range to model your prioritization logic more accurately. Click on the **Next** button to review the calculated priorities.
 
@@ -77,7 +77,7 @@ The ranking for each project is calculated within this range. Adjust the range t
 
 The projects are now displayed in the order of the calculated priority.
 
-![Sample table name of project names and priority percentages](media/01-image2.png)
+![Sample table name of project names and priority percentages.](media/01-image2.png)
 
 The total sum of all projects will be 100%. This is the value of the entire portfolio.
 

@@ -28,18 +28,18 @@ If you're using Project Online, you need to activate the resource engagements fe
   
 1. Sign into your Project Online site and choose **Settings** \> **PWA Settings**.
     
-    ![Settings menu](media/da2ce443-e8b4-44bc-886f-d8c4579a33bc.png)
+    ![Settings menu.](media/da2ce443-e8b4-44bc-886f-d8c4579a33bc.png)
   
     > [!TIP]
     > If you're in the **Resource Center**, you can click **Additional Server Settings** in the yellow note at the top of the view, and then skip to Step 3. 
   
 2. Under **Operational Policies**, choose **Additional Server Settings**.
     
-    ![Additional Server Settings listed under Operational Policies](media/769252c0-2453-4a56-862f-d1877592cfde.png)
+    ![Additional Server Settings listed under Operational Policies.](media/769252c0-2453-4a56-862f-d1877592cfde.png)
   
 3. Under **New Resource Management Features Available**, select the **Activate** check box, click **OK** after reading the message about data migration, and then click **Save**.
     
-    ![Activate check box](media/2357bb06-1f55-4c33-b7eb-87262d1de3af.png)
+    ![Activate check box.](media/2357bb06-1f55-4c33-b7eb-87262d1de3af.png)
   
 ## What happens to my existing resource plans?
 

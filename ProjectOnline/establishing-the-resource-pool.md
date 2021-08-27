@@ -31,7 +31,7 @@ The PWA Resource Center is where you populate the resources that will make up yo
 
 - Importing resources from your organization's Active Directory list of user accounts
 
-![Sample portfolio of resources](media/01-image3.png)
+![Sample portfolio of resources.](media/01-image3.png)
 
 Once the data has been imported, the administrator will need to add additional fields and values to correctly define resource capacity.
 
@@ -55,7 +55,7 @@ Make a note of the field you are using to assign standard roles. You will need t
 
 ## Configuring the resource pool
 
-![Resources toolbar in Project Web Application](media/06-image2.png)
+![Resources toolbar in Project Web Application.](media/06-image2.png)
 
 To create a new resource:
 
@@ -65,7 +65,7 @@ To create a new resource:
 
 The resource pool represents the supply of available resources within the organization. The system administrator must configure the resource pool to support the portfolio analysis process.
 
-![Assignment Attributes pane](media/06-image3.png)
+![Assignment Attributes pane.](media/06-image3.png)
 
 Following are key resource settings for consideration when configuring the enterprise resource pool:
 
