@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: f26b7a86-d834-4c45-a079-df4f71bf8580
 description: "Summary: Learn how to increase the capacity of existing servers or add more servers to the topology of your Project Server 2013 installation."

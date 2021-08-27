@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 81ead545-11ef-4a45-b15c-c9835a6c05b0
 description: "Summary: Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done."

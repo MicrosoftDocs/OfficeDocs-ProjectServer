@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee070bc8-33b8-4465-9adb-2618cf1a8c7a
 description: "Summary: Learn how to prioritize your business drivers inProject Web App portfolio analysis."
 ---

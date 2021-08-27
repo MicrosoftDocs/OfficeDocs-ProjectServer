@@ -7,7 +7,7 @@ ms.date: 11/14/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: project-server-itpro
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top

@@ -7,7 +7,7 @@ ms.date: 11/22/2017
 audience: ITPro
 ms.topic: get-started-article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: e79d3ca4-7f2d-4c94-be68-a408fd3de65d
 description: "Summary: Restore your Project Server 2010 databases to the SQL Server instance that is hosting your Project Server 2013 data."

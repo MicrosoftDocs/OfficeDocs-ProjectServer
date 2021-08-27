@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6de83367-4ff3-4def-aac7-8fa7ecff9fab
 description: "Summary: How to enable users or groups to act as delegates for other people in Project Server."

@@ -7,7 +7,7 @@ ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f53bc2c1-f022-4fec-9940-97d2f6795f57
 description: "Summary: When a user delegate is no longer needed, you can delete it from Project Web App."
 ---

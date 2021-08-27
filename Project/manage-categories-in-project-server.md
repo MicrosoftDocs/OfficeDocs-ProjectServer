@@ -7,7 +7,7 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 89cf59e5-e06b-4f02-93a9-bc1ee4679789
 description: "Summary: Administrators can organize a system of categories to manage user and group access to projects, resources, and views in Project Web App."

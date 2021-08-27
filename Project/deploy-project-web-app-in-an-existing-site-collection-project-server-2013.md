@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: cbd71076-e018-41cd-a9e8-d63e8086094a
 description: "Summary: Deploy an instance of Project Web App to an existing site collection and create a Project Web App site."

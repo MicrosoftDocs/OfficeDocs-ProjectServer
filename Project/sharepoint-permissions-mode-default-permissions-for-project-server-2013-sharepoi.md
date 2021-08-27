@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: a267cbc9-16ad-4102-979d-8cb5291ec3a3
 description: "Summary: Learn about the corresponding Project Server permissions that SharePoint groups receive in SharePoint Permission Mode in Project Server 2013."

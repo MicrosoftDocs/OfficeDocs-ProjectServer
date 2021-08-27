@@ -7,7 +7,7 @@ ms.date: 1/17/2018
 audience: admin
 ms.topic: conceptual
 ms.service: project-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.custom:
 - Adm_O365
 - IT_ProjectAdmin

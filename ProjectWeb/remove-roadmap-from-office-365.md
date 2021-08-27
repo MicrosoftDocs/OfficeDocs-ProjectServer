@@ -6,7 +6,7 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_Project
 search.appverid: 
 - PJO150

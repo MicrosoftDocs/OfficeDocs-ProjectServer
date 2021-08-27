@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: a42377f2-5f83-41b7-a05b-df1db3b49411
 description: "Summary: Use the Exchange Server Details setting in SharePoint Central Administration to enable or disable Microsoft Exchange Server integration with Project Server 2013."

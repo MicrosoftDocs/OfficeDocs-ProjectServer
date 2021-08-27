@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: f736c231-33a0-43b2-9091-ff947edbd704
 description: "Summary: Learn what components of the application tier that you should plan for in a Project Server 2013 deployment."
