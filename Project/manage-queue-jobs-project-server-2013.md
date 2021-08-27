@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 72e5adfd-2d41-4589-a3c0-1e2855b6db50
 description: "Summary: Learn how to manage jobs submitted in Project Server 2013 through the Manage Queue Jobs settings."

@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: c5f826df-9b39-4494-8b5e-173e0cf9fdde
 description: "Summary: Project Server 2013 default security groups have defined global permissions to allow you to access and use features and functionality."

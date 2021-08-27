@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to create a work hours template and apply it to resources in Project for the web."
 ---
 

@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: dee8ae00-1de3-456b-8148-fe07d59e2871
 description: "Summary: Plan for Project Professional, task synchronization, and browser support in Project Server 2013."

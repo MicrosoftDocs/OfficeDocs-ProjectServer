@@ -7,7 +7,7 @@ ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa652c02-f1d0-4d4e-90e1-5f5e79dd44d4
 description: "Summary: When a project is no longer needed, you can delete it from Project Web App using the Delete Enterprise Objects option."
 ---

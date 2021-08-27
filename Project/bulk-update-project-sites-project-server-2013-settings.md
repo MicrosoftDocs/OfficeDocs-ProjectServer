@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: f7887c71-2339-4584-987e-23db26cd5b04
 description: "Summary: Use the Bulk Update Project Sites settings in SharePoint Central Administration to change site path information for project sites in Project Server 2013."

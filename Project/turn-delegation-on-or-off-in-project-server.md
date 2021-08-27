@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: eafbf21a-a6eb-4855-afbc-255ecb870142
 description: "Summary: The user delegation feature in Project Web App can be enabled or disabled globally, for all users and groups."

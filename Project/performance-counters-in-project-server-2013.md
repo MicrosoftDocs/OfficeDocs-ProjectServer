@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: c28280ca-a2d6-4474-a267-3ffeb73f1e69
 description: "Summary: Use performance counters to monitor the health of a Project Server 2013 farm."

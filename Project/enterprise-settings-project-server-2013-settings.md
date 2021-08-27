@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 111f7f1a-60f5-450c-910a-e99a03485cf3
 description: "Summary: Learn to use the Enterprise Settings options in SharePoint Central Administration to provide additional flexibility for your Project Server 2013 projects."

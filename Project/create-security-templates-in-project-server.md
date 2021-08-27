@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: d10da3ff-4b2b-499a-8c2c-b990cc1fd167
 description: "Summary: Create Project Web App security templates by using the Manage Templates page in Project Web App Settings."

@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1362d492-f27c-4891-bc0d-1a494026c1b3
 description: "Summary: Learn how to resolve alerts about Project Server in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."

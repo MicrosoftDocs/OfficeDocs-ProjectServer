@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: d24af5d0-8743-4436-acd4-bedab330648f
 description: "Use the Manage Queue Settings for Project Web App page to configure Project Queue settings in Project Server 2013."

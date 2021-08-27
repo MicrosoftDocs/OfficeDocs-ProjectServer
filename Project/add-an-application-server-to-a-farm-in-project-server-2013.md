@@ -7,7 +7,7 @@ ms.date: 11/21/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: ab894aca-5ae4-48af-8109-2cedb3f96df0
 description: "Summary: Add a new SharePoint Server 2013 application server with Project Server 2013 to an existing farm."

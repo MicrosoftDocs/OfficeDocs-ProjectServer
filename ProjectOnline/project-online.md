@@ -1,6 +1,6 @@
 ---
 title: "Project Online Admin Documentation"
-localization_priority: Normal
+ms.localizationpriority: medium
 author: serdars
 manager: samanro
 ms.service: project-online

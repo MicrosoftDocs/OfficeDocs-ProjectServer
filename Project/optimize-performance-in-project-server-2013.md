@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 67cb4e6b-6140-438c-bb0e-f5100a1e6902
 description: "Summary: Read guidelines for optimizing performance for a Project Server 2013 deployment."

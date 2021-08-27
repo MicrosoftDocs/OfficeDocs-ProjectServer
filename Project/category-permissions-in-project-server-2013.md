@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9089d58-e1cd-4a86-b4dc-1575dc7988eb
 
 description: "Summary: Project Server 2013 security categories have various permissions that allow or deny users the ability to do certain tasks with projects and resources."

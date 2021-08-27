@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6fdff6fe-13d9-44ce-823f-8767cf0c164e
 description: "Summary: Use the Resource Capacity Settings in Central Administration to help you calculate resource availability in Project Server 2013."

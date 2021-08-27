@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 1ff8d75f-637e-4474-acdc-f57b6390f59d
 description: "Summary: Delete custom security groups by using the Manage Groups page in Project Web App Settings."

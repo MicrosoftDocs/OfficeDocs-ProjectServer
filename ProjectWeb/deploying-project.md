@@ -7,7 +7,7 @@ ms.date: 08/24/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to deploy Project for the web to both a default and non default org."
 ---
 
