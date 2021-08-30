@@ -70,7 +70,7 @@ For example, you might have an "Initial Proposal" stage where you include a proj
   
 The image below shows the five phases of demand management that are included in Project Web App and how they fit together. Within each phase are example stages such as "Propose idea" and "Initial review." Each stage can have one or more associated project detail pages. The entire collection of stages represents a single workflow that can be associated with an enterprise project type.
   
-![Diagram showing phases and stages of a workflow](media/a5ab6f19-b0f6-4d0e-a0c6-73821fa7ae7a.png)
+![Diagram showing phases and stages of a workflow.](media/a5ab6f19-b0f6-4d0e-a0c6-73821fa7ae7a.png)
   
 There are four general steps to perform to create your workflow in Project Web App:
   
