@@ -35,7 +35,7 @@ These features may be combined to create specific scenarios. For example, one sc
 
 This article will teach you how to interpret and use the **Analyze Cost** screen in PWA to create these scenarios.
 
-![Analyze Cost option in toolbar](media/11-image1.png)
+![Analyze Cost option in toolbar.](media/11-image1.png)
 
 This screen is split into three components:
 
@@ -45,13 +45,13 @@ This screen is split into three components:
 
 - Project portfolio summary (depicted as a grid or scatter chart)
 
-![Sample portfolio analysis in the Project Web Application](media/01-image1.png)
+![Sample portfolio analysis in the Project Web Application.](media/01-image1.png)
 
 ## Metrics
 
 The metrics grid in the top left of the screen displays high level scenario calculations. You may also use this grid to add new constraints to the cost calculation.
 
-![Sample metrics grid](media/11-image3.png)
+![Sample metrics grid.](media/11-image3.png)
 
 1. To add constraints, click on the **Modify** link in the **Cost Limits** section of the **Metrics** grid.
 
@@ -65,7 +65,7 @@ The metrics grid in the top left of the screen displays high level scenario calc
 
 The efficient frontier is a commonly used tool in scenario modeling.
 
-![Sample efficient frontier](media/11-image4.png)
+![Sample efficient frontier.](media/11-image4.png)
 
 Each project is classified by estimated benefits and cost. The optimal combination of projects is then displayed for each cost point.
 
@@ -77,7 +77,7 @@ You can use the efficient frontier to communicate the value trade offs that take
 
 You can use the strategic alignment graphic to assess if your projects are aligned with your goals.
 
-![Sample strategic alignment](media/11-image5.png)
+![Sample strategic alignment.](media/11-image5.png)
 
 For example, you may have said that *Expanding the Customer Base* is your primary organizational goal. The strategic alignment graphic shows that most of your spending is on *Improving Customer Satisfaction*. You may wish to reconsider how your spending is allocated.
 
@@ -85,13 +85,13 @@ For example, you may have said that *Expanding the Customer Base* is your primar
 
 The project data grid is your primary interface on this screen.
 
-![Sample project data grid](media/11-image6.png)
+![Sample project data grid.](media/11-image6.png)
 
 Review the columns on this grid to understand the state of the portfolio. Your PWA administrator is responsible for modifying which columns appear on the screen.
 
 Within this grid, you can tell PWA to force a particular project in or out of the analysis. You might do this if a project must be completed to keep your organization in regulatory compliance.
 
-![Force-in highlighted in sample project data grid](media/11-image7.png)
+![Force-in highlighted in sample project data grid.](media/11-image7.png)
 
 Forcing projects in or out of a scenario often results in a sub-optimal project portfolio. Refer to the efficient frontier after recalculating your portfolio to assess the impacts of forcing in or out a project.
 
@@ -99,11 +99,11 @@ Forcing projects in or out of a scenario often results in a sub-optimal project 
 
 You may also review the portfolio on a scatter chart.
 
-![Analyze Cost option in toolbar](media/11-image8.png)
+![Analyze Cost option in toolbar.](media/11-image8.png)
 
 The scatter chart shows all projects by their total cost and total delivered value.
 
-![Sample scatter chart](media/11-image9.png)
+![Sample scatter chart.](media/11-image9.png)
 
 The scatter chart is color coded to four different possible classifications for each project:
 
@@ -138,15 +138,15 @@ The initial calculation is automatically saved as the baseline scenario. The bas
 
 You may save any created scenario for further review.
 
-![Save Portfolio Selection Scenario](media/11-image11.png)
+![Save Portfolio Selection Scenario.](media/11-image11.png)
 
 The scenario is now added to the list of scenarios available for review.
 
-![Scenarios available for review](media/11-image12.png)
+![Scenarios available for review.](media/11-image12.png)
 
 After creating a scenario model, save the scenario for further review. If you configured resource analysis during the analysis creation, saving a scenario will activate the **Analyze Resources** button.
 
-![Analyze Resources option in toolbar](media/11-image13.png)
+![Analyze Resources option in toolbar.](media/11-image13.png)
 
 This will allow you to further examine your scenario for potential resource capacity issues.
 

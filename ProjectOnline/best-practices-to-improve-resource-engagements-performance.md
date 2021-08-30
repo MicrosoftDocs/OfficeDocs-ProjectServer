@@ -27,7 +27,7 @@ When you click **Resource Request** in the ribbon of the Resource Center, it wil
   
  ** So what should I do? ** To improve performance, you should try to display resource requests for resources you are interested in as opposed to all resources in your organization. In most cases, resource managers only want to view resource requests for a small subset of resources, such as the resources that are assigned to them. In this case, a resource manager could simply select these individual resources on the Resource Center before going to the Resource Request page. 
   
-![Selected resources in the Resource Center](media/6402708d-3158-4d86-9b8a-03e27e91fe6c.png)
+![Selected resources in the Resource Center.](media/6402708d-3158-4d86-9b8a-03e27e91fe6c.png)
   
 ### Can I create a view to show only the resources that I own?
 
@@ -115,7 +115,7 @@ The Resource Request page will by default display resource requests in  *all sta
     
   - Click **OK**.
     
-    ![Configure the filter for Proposed resource requests](media/e6fde9af-5dc3-4d31-9c3f-fb9ccfd972b4.png)
+    ![Configure the filter for Proposed resource requests.](media/e6fde9af-5dc3-4d31-9c3f-fb9ccfd972b4.png)
   
 8. On the New View page, click **Save**.
     
@@ -125,7 +125,7 @@ After creating the custom view, you can select it from the View menu in the Enga
 
 If you don't really need to view your resource requests in Time-Phased view, make sure that **Timephased Data** is not selected in the Display section of the Engagements ribbon of the Resource Requests page. 
   
-![Timephased Data view](media/63da9333-895e-4105-b361-8bec07465380.png)
+![Timephased Data view.](media/63da9333-895e-4105-b361-8bec07465380.png)
   
 Loading your resource engagements in the Sheet view reduces the amount of data that needs to load to the page, reducing the amount of time it takes to display your data.
   

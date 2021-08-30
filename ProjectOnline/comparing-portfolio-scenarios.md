@@ -45,11 +45,11 @@ It is assumed that you have [created and saved several portfolio scenarios](crea
 
 Within the **Analyze Costs** or **Analyze Resources** interfaces, click on the **Compare** button in the **Analysis** tab.
 
-![The Analyze Resources option on the toolbar](media/13-image1.png)
+![The Analyze Resources option on the toolbar.](media/13-image1.png)
 
 This will take you to the **Compare Scenarios** interface.
 
-![Sample Compare Scenarios](media/13-image2.png)
+![Sample Compare Scenarios.](media/13-image2.png)
 
 The **Compare Scenarios** screen has three main components:
 
@@ -63,7 +63,7 @@ The **Compare Scenarios** screen has three main components:
 
 The **Compare Metrics** grid summarizes key metrics from all of your saved scenarios.
 
-![Sample Compare Metrics grid](media/13-image3.png)
+![Sample Compare Metrics grid.](media/13-image3.png)
 
 Specific metrics that are displayed include:
 
@@ -79,11 +79,11 @@ Specific metrics that are displayed include:
 
 The efficient frontier will display if no resource analysis has been saved. Once a resource analysis has been saved, the screen will display a scenario chart.
 
-![Sample scenario chart](media/13-image4.png)
+![Sample scenario chart.](media/13-image4.png)
 
 The efficient frontier is a commonly used calculation in scenario modeling.
 
-![Sample efficient frontier](media/13-image5.png)
+![Sample efficient frontier.](media/13-image5.png)
 
 Each project is classified by estimated benefits and cost. The optimal combination of projects is then displayed for each cost point.
 
@@ -91,19 +91,19 @@ A portfolio that is on the efficient frontier represents the most value that can
 
 When you save a resource scenario, it will appear on the **Scenario Chart**. The **Scenario Chart** is a scatter graph depicting each of the scenarios by cost and strategic value.
 
-![Sample scenario chart](media/13-image4.png)
+![Sample scenario chart.](media/13-image4.png)
 
 ## Compare project selection
 
 This grid will summarize each of the projects you have analyzed. The grid shows which projects were selected for each scenario.
 
-![Sample project selection grid](media/13-image6.png)
+![Sample project selection grid.](media/13-image6.png)
 
 Organizations often use this information to calculate which projects are most likely to be selected – across all calculated scenarios. Being selected in multiple scenarios implies the project will more likely provide value to the organization.
 
 After completing the scenario comparison, select the optimal scenario for your organization.
 
-![Scenario dropdown menu option in toolbar](media/13-image7.png)
+![Scenario dropdown menu option in toolbar.](media/13-image7.png)
 
 In the next step, we will [commit these projects to execution](committing-the-scenario.md).
 

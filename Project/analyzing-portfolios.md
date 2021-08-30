@@ -114,7 +114,7 @@ The resource analysis page allows you to move projects in and out of your portfo
 
 Use the controls in the **Portfolio Selection** section of the ribbon to save and compare different analysis scenarios, and to recalculate the resource analysis after making changes to the project budget.
   
-![Screenshot of Portfolio section of ribbon](images/ResourceAnalysis-PortfolioSelection.png)
+![Screenshot of Portfolio section of ribbon.](images/ResourceAnalysis-PortfolioSelection.png)
   
 |**Control**|**Description**|
 |:-----|:-----|
@@ -129,7 +129,7 @@ Use the controls in the **Portfolio Selection** section of the ribbon to save an
 
 Use the controls in the **Projects** section of the ribbon to change the view that you're looking at or to reload constraint values if they were changed outside the analysis.
   
-![Screenshot of Projects section of the ribbon](images/ResourceAnalysis-Projects.png)
+![Screenshot of Projects section of the ribbon.](images/ResourceAnalysis-Projects.png)
   
 |**Control**|**Description**|
 |:-----|:-----|

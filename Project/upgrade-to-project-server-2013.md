@@ -25,7 +25,7 @@ This series of articles describes the steps necessary upgrade to Project Server 
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md) <br/> |Learn about key changes and considerations when you upgrade to Project Server 2013.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md) <br/> |Learn about key changes and considerations when you upgrade to Project Server 2013.  <br/> |
 ||[Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md) <br/> |Before you plan to upgrade to Project Server 2013, you must have an understanding of the general steps required to upgrade.  <br/> |
 ||[Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md) <br/> |When you upgrade to Project Server 2013, things to consider include system requirements and your current environment.  <br/> |
 ||[Prepare your environment for upgrade (Project Server 2013)](./prepare-your-environment-for-an-upgrade-to-project-server-2013.md) <br/> |After you create a plan to upgrade your environment to Project Server 2013, you must prepare you environment before you can start the actual upgrade process.  <br/> |

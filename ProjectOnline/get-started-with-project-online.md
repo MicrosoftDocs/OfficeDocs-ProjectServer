@@ -26,21 +26,21 @@ description: "This article is the first in a series that will help you get start
 
 |||
 |:-----|:-----|
-|![Get set up](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)         [![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
+|![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)         [![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
 
-## [Overview](#tab/)
+## Overview
   
 |||
 |:-----|:-----|
-|![Project Online](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)           <br/> |**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for:** <br/>  Managing multiple projects.  <br/>  Tracking work on timesheets.  <br/>  Balancing broad resource needs.  <br/>  *(If you're looking for a hosted version of Project Server, this is it!)*  <br/> |
+|![Project Online.](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)           <br/> |**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for:** <br/>  Managing multiple projects.  <br/>  Tracking work on timesheets.  <br/>  Balancing broad resource needs.  <br/>  *(If you're looking for a hosted version of Project Server, this is it!)*  <br/> |
    
  **To be clear, Project Online is NOT a web-based version of Project Professional.** Project Online is an entirely separate service that offers full portfolio and project management tools on the web. It includes Project Web App, and can, depending on your subscription, also include Project Online Desktop Client, which is a subscription version of Project Professional. 
   
-### Got the wrong thing?
+## Got the wrong thing?
 
  **If you need to cancel and subscribe to something else,** choose **Billing** \> **Subscriptions** in the Microsoft 365 admin center, choose the subscription you want to cancel, and then click **Cancel subscription** in the pane on the right. Then, you can find the right product to subscribe to and add that to your existing Office 365 account. 
   
-### Need help?
+## Need help?
 
 Take a look through the [Project help](https://support.office.com/article/afac1e38-1219-4a88-bd22-81534778d528) on Office.com. If you're still stuck, try posting your questions and issues on the [Project Online discussion forum](https://social.technet.microsoft.com/Forums/projectserver/en-US/home?forum=projectonline).
   
