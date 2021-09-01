@@ -30,7 +30,7 @@ It is important to note the following when planning to configure your active dir
     
 The following graphic displays the method we suggest to configure your Active Directory groups to add your Project Server 2013 users both as resources and as users to their appropriate security groups.
   
-![Active Directory group configuration](images/ActiveDirectorygroupconfigurationforsynchronizatino.jpg)
+![Active Directory group configuration.](images/ActiveDirectorygroupconfigurationforsynchronizatino.jpg)
   
 In the graphic above, Active Directory is configured to contain a single "ERP Group" that also contains nested Active Directory groups for Team Members, Project Managers, and Resource Managers. Although you can synchronize up to five Active Directory Groups with the Enterprise Resource Pool, we synchronize only the single ERP group, which would include all users contained in the subgroups. User 1, User 2, User 3, User 4, User 5, and User 6 would all be synchronized to the Enterprise Resource Pool in Project Server 2013.
   

@@ -26,7 +26,7 @@ Timesheets can be used to capture all of a team member's hours during the week. 
   
 Project Web App already has categories set up for sick leave, vacation, and general administrative time, but you may also want to create categories for things like training or travel.
   
-![Default administrative time categories](media/78185956-cf54-4d59-8a8c-151a3528e7bd.png)
+![Default administrative time categories.](media/78185956-cf54-4d59-8a8c-151a3528e7bd.png)
   
 To set up Project Web App to capture different categories of non-project hours, you can create administrative time categories. 
   
@@ -36,19 +36,19 @@ To set up Project Web App to capture different categories of non-project hours, 
 ## Create an administrative time category to capture non-project work
 <a name="__top"> </a>
 
-1. In Project Web App, choose **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
+1. In Project Web App, choose **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
     
 2. Under **Time and Task Management**, choose **Administrative Time**.
     
-    ![Administrative Time](media/4896ba27-b3e7-46d4-8ce6-f473bdefbb35.png)
+    ![Administrative Time.](media/4896ba27-b3e7-46d4-8ce6-f473bdefbb35.png)
   
 3. Choose **New Category**.
     
-    ![New Category](media/0622104d-d8a5-4b21-8b89-85555df6f562.png)
+    ![New Category.](media/0622104d-d8a5-4b21-8b89-85555df6f562.png)
   
 4. Fill out the new blank row.
     
-    ![Administrative time categories](media/1e832472-4865-4ddb-be29-5befe21699b6.png)
+    ![Administrative time categories.](media/1e832472-4865-4ddb-be29-5befe21699b6.png)
   
   - **Categories** Type a name for the new category. 
     
@@ -66,13 +66,13 @@ To set up Project Web App to capture different categories of non-project hours, 
     
 5. Choose **Save**.
     
-    ![Save](media/83ba3601-24f5-4d9e-87d9-9279cdf10c93.png)
+    ![Save.](media/83ba3601-24f5-4d9e-87d9-9279cdf10c93.png)
   
 ## What if I don't want a category anymore?
 <a name="__top"> </a>
 
 If you want to make it so that an administrative time category is not longer available for team members to add to a timesheet, change the **Status** column for that category to **Closed**, and clear the check box in the **Always Display** column. 
   
-![Close an administrative time category](media/3a5b44cd-b46f-46d6-9c39-0078d229069e.png)
+![Close an administrative time category.](media/3a5b44cd-b46f-46d6-9c39-0078d229069e.png)
   
 

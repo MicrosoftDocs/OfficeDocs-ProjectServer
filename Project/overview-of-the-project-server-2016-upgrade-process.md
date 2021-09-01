@@ -25,7 +25,7 @@ description: "Summary: View a high-level overview of the steps required to upgra
   
 ## Overview of the Project Server 2016 upgrade steps
 
-![Project Server 2016 upgrade steps](images/0fdfc114-9f87-4a1d-b435-0ca18d486d72.jpg)
+![Project Server 2016 upgrade steps.](images/0fdfc114-9f87-4a1d-b435-0ca18d486d72.jpg)
   
 Upgrading to Project Server 2016 can be broken up into six steps. These include:
   

@@ -35,7 +35,7 @@ These features may be combined to create specific scenarios. For example, one sc
 
 The process of assessing these scenarios and defining an optimal selection of projects is known as portfolio analysis. Portfolio analysis is a core feature in the Project Web Application, and is available in Project Online and supported versions of Project Server.
 
-![Sample portfolio analysis in the Project Web Application](media/01-image1.png)
+![Sample portfolio analysis in the Project Web Application.](media/01-image1.png)
 
 ## **The portfolio of projects and ideas**
 
@@ -43,13 +43,13 @@ The project portfolio is defined as a centralized list of projects and proposals
 
 Cost and resource estimates may be attached to the project portfolio. These become the demand profile that is input into the portfolio analysis exercise.
 
-![Sample table name of project names and priority percentages](media/01-image2.png)
+![Sample table name of project names and priority percentages.](media/01-image2.png)
 
 ## **The portfolio of resources**
 
 Resources are collected into a portfolio of resources. Within PWA, this resource portfolio is referred to as the resource pool. The resource pool represents the available resources that can be called upon to deliver the portfolio of projects and ideas.
 
-![Sample portfolio of resources](media/01-image3.png)
+![Sample portfolio of resources.](media/01-image3.png)
 
 Members of the resource pool may be assigned specific values to support the portfolio analysis exercise. For example, resources may be assigned to specific departments, skill sets, languages, etc. These attributes generally map to the different portfolios of work defined in the project portfolio.
 
@@ -63,7 +63,7 @@ PWA provides two methods of prioritizing the project portfolio:
 
 Business drivers are a definition of the goals of the organization. Each project or idea within the project portfolio may be assessed against each of the business drivers. This will yield a prioritization of each project. For more information on defining business drivers, please click [here](portfolio-analysis-business-drivers.md).
 
-![Sample business drivers](media/01-image4.png)
+![Sample business drivers.](media/01-image4.png)
 
 Some organizations choose to use custom fields to perform prioritization. Custom fields support the use of existing prioritization processes. Custom fields may also be used to support the use of third party decision support tools. The output of those processes and tools may be entered in custom fields within PWA to support a prioritization logic aligned with the needs of the organization.
 
@@ -71,7 +71,7 @@ Some organizations choose to use custom fields to perform prioritization. Custom
 
 You may use PWA to combine portfolio data to create specific scenarios. These scenarios represent an analysis of the project portfolio, a portfolio analysis. The scenario will describe the optimal list of projects based on external constraints such as available funds, resources, and organizational priorities.
 
-![Sample portfolio analysis in the Project Web Application](media/01-image1.png)
+![Sample portfolio analysis in the Project Web Application.](media/01-image1.png)
 
 The scenario calculations do not impact the project record itself. These are hypothetical scenarios that exist outside of the main project management environment. When the scenario is committed, specific fields are populated and the project is moved into the execution stage.
 

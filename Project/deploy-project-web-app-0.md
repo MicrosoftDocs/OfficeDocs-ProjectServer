@@ -37,7 +37,7 @@ In this chalk talk, Microsoft Program Manager Chris Boyd discusses the differenc
   
 **Video: Project Web App site deployment options**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## See also
 
