@@ -44,7 +44,7 @@ The process of booking a resource to a project comprises the following tasks:
 You can schedule a booking requirement in the following ways:
 
 - [Click on an unscheduled booking and find available resources](#click-on-an-unscheduled-booking-and-find-available-resources)
-- Drag an unscheduled booking requirement from the **List** view to the schedule board
+- [Drag an unscheduled booking requirement from the **List** view to the schedule board](#drag-an-unscheduled-booking-requirement-from-the-list-view-to-the-schedule-board)
 
 ### Click on an unscheduled booking and find available resources
 
