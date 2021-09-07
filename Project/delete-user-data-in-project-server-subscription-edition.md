@@ -7,7 +7,6 @@ audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 localization_priority: Normal
-
 description: "Learn how a Farm admin can delete a specific user's data from a Project Server Subscription Edition environment."
 ---
 
