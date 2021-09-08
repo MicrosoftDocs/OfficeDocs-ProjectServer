@@ -226,7 +226,7 @@
 ### [Project Server knowledge articles](project-server-2016-preview-knowledge-articles-for-systems-center-operations-man.md)
 ### Maintain user information
 #### [Export user data from Project Server Subscription Edition](export-user-data-project-server-subscription-edition.md)
-#### [Delete user data from Project Server Subscription Edition](delete-user-data-in-project-server-subscription-edition.md)
+#### [Delete user data from Project Server Subscription Edition](delete-user-data-project-server-subscription-edition.md)
 #### [Export user data from Project Server 2019](export-user-data-in-project-server-2019.md)
 #### [Delete user data from Project Server 2019](delete-user-data-in-project-server-2019.md)
 #### [Export user data from Project Server](export-user-data-from-project-server.md)
