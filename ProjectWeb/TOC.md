@@ -14,6 +14,7 @@
 ## [Resource management]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
 ### [Create non-user resources in Project for the web](create-nonuser-resources-in-project-for-the-web.md)
+### [Overview of Universal Resource Scheduling in Project for the web](overview-universal-resource-scheduling.md#overview-of-universal-resource-scheduling-in-project-for-the-web)
 ## [Maintain user data]()
 ### [Learn about Dataverse security roles in Project for the web](project-for-the-web-security-roles.md)
 ### [Access a project in Project for the web after its Office 365 group has been deleted](access-a-project-after-group-is-deleted.md)
