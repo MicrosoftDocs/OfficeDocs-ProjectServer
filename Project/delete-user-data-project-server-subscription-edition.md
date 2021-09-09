@@ -19,31 +19,31 @@ Learn how a Farm admin can delete a specific user's data from a Project Server e
 
 This article describes:
 
--   [What user information is deleted?](delete-user-data-in-project-server-subscription-edition.md#info)
+-   [What user information is deleted?](delete-user-data-project-server-subscription-edition.md#info)
 
--   [Delete scenarios](delete-user-data-in-project-server-subscription-edition.md#delete)
+-   [Delete scenarios](delete-user-data-project-server-subscription-edition.md#delete)
 
--   [Process Overview](delete-user-data-in-project-server-subscription-edition.md#process)
+-   [Process Overview](delete-user-data-project-server-subscription-edition.md#process)
 
--   [Step 1 - Download the export script files](delete-user-data-in-project-server-subscription-edition.md#files)
+-   [Step 1 - Download the export script files](delete-user-data-project-server-subscription-edition.md#files)
 
--   [Step 2 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-in-project-server-subscription-edition.md#farm)
+-   [Step 2 - Find the Project Web App instances in your SharePoint Server farm](delete-user-data-project-server-subscription-edition.md#farm)
 
--   [Step 3 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-in-project-server-subscription-edition.md#site)
+-   [Step 3 - Find the user's Resource ID or Claims Account on each PWA site](delete-user-data-project-server-subscription-edition.md#site)
 
--   [Step 4 - Close all the user's projects](delete-user-data-in-project-server-subscription-edition.md#projects)
+-   [Step 4 - Close all the user's projects](delete-user-data-project-server-subscription-edition.md#projects)
 
--   [Step 5 - Sync workspace items into Project Server](delete-user-data-in-project-server-subscription-edition.md#server)
+-   [Step 5 - Sync workspace items into Project Server](delete-user-data-project-server-subscription-edition.md#server)
 
--   [Step 6 - Export the user's data](delete-user-data-in-project-server-subscription-edition.md#data)
+-   [Step 6 - Export the user's data](delete-user-data-project-server-subscription-edition.md#data)
 
--   [Step 7 - Delete user personal data for issues and risks](delete-user-data-in-project-server-subscription-edition.md#risks)
+-   [Step 7 - Delete user personal data for issues and risks](delete-user-data-project-server-subscription-edition.md#risks)
 
--   [Step 8 - Delete your user's data from the PWA site](delete-user-data-in-project-server-subscription-edition.md#pwa)
+-   [Step 8 - Delete your user's data from the PWA site](delete-user-data-project-server-subscription-edition.md#pwa)
 
--   [Step 9 - Redact resource information from archived objects](delete-user-data-in-project-server-subscription-edition.md#objects)
+-   [Step 9 - Redact resource information from archived objects](delete-user-data-project-server-subscription-edition.md#objects)
 
--   [Step 10 - Clear the cache for Project client users connecting to the PWA site](delete-user-data-in-project-server-subscription-edition.md#users)
+-   [Step 10 - Clear the cache for Project client users connecting to the PWA site](delete-user-data-project-server-subscription-edition.md#users)
 
 
 ## What user information is deleted?
