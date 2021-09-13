@@ -26,7 +26,7 @@ To change the scheduling mode for your organization, perform the following steps
 
 1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 
-<include the image parameter-screen.png>
+<place the image parameter-screen.png>
 
 2. Select the default scheduling mode for the organization from the **Schedule Mode** field.
 
