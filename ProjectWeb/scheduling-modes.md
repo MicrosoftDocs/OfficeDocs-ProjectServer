@@ -44,7 +44,7 @@ Administrators can also determine if project managers can override the default s
 
 ## Project Manager
 
-A project manager is the entity who is entitled to change the default scheduling mode for a project, other than an administrator.
+A project manager is the user who creates a project and is, therefore, entitled to change the default scheduling mode for that project.
 
 ### Changing the scheduling mode setting on a project
 
@@ -68,15 +68,7 @@ A project manager has the privilege to create projects by cloning it from an exi
 
 A project manager has the privilege to copy a task from one project to another. Such clones tasks inherit the scheduling mode of the destination project.
 
-
-
-
-
-
-
-
-
-The following three scheduling modes are available in project operations:
+The following three scheduling modes are available in a project:
 
 - Fixed duration (default)
 - Fixed effort
