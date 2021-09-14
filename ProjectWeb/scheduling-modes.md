@@ -16,11 +16,11 @@ description: "Learn about the various modes of scheduling in project operations.
 
 # Scheduling Modes
 
-Project for the web provides the ability for admininstrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created. For more information, see [Change your organization’s scheduling mode](#change-your-organizations-scheduling-mode).
+Project for the web provides the ability for administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created. For more information, see [Change your organization’s scheduling mode](#change-your-organizations-scheduling-mode).
 
 ## Change your organization’s scheduling mode
 
-Project for the web sets Fixed duration as the out-of-the-box default scheduling mode for all organizations. However, admins can choose a different default scheduling mode at the organizational level.
+Project for the web sets **Fixed duration** as the out-of-the-box default scheduling mode for all organizations. However, administrators can choose a different default scheduling mode at the organizational level.
 
 To change the scheduling mode for your organization, perform the following steps:
 
@@ -32,7 +32,7 @@ To change the scheduling mode for your organization, perform the following steps
 
 ## Enable project managers to override default scheduling mode
 
-Administrators can also determine if project managers can override the default scheduling mode on their projects. To do this, perform the following steps:
+Administrators can also determine if project managers can override the default scheduling mode on their projects. To do this task-, perform the following steps:
 
 1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 1. Set **Project Level Schedule Mode Override Permitted** to **Yes**.
