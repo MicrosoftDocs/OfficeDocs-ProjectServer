@@ -27,11 +27,11 @@ To change the scheduling mode for your organization, perform the following steps
 1. Log in to the **Power Apps** portal.
 1. On the bottom-left corner in the navigation pane, click **Projects**.
 
-:::image type="content" source="media/project-power-apps-screen.png" alt-text="The Power Apps screen":::
+   :::image type="content" source="media/project-power-apps-screen.png" alt-text="The Power Apps screen":::
 
 1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 
-:::image type="content" source="media/parameter-screen.png" alt-text="The Project Parameters screen":::
+   :::image type="content" source="media/parameter-screen.png" alt-text="The Project Parameters screen":::
 
 1. Select the default scheduling mode for the organization from the **Schedule Mode** field.
 1. Choose the scheduling mode that you want to apply.
