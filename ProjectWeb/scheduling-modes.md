@@ -14,9 +14,9 @@ ms.localizationpriority: medium
 description: "Learn about the various modes of scheduling in project operations."
 ---
 
-# Scheduling Modes
+# Scheduling modes
 
-Project for the web provides the ability for administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created. For more information, see [Change your organization’s scheduling mode](#change-your-organizations-scheduling-mode).
+Project for the web provides the ability for administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created.
 
 ## Change your organization’s scheduling mode
 
@@ -29,7 +29,7 @@ To change the scheduling mode for your organization, perform the following steps
 
    :::image type="content" source="media/project-power-apps-screen.png" alt-text="The Power Apps screen":::
 
-1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
+1. Navigate to **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 
    :::image type="content" source="media/parameter-screen.png" alt-text="The Project Parameters screen":::
 
@@ -38,7 +38,7 @@ To change the scheduling mode for your organization, perform the following steps
 
 ## Enable project managers to override default scheduling mode
 
-Administrators can also determine if project managers can override the default scheduling mode on their projects. To do this task-, perform the following steps:
+Administrators can also determine if project managers can override the default scheduling mode on their projects. To enable the override, perform the following steps:
 
 1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 1. Set **Project Level Schedule Mode Override Permitted** to **Yes**.
@@ -68,11 +68,11 @@ To change the default scheduling mode for a project, perform the following steps
 
 ### Copy projects
 
-A project manager has the privilege to create projects by cloning it from an existing project.  Because the project is a cloned one, the project manager can't set the scheduling mode. The destination project will always default to the mode defined at the organizational level.
+A project manager has the privilege to create projects by cloning from an existing project.  If the newly-created project is a cloned one, the project manager can't set the scheduling mode. The destination project will always default to the mode defined at the organizational level.
 
 ### Copy tasks
 
-A project manager has the privilege to copy a task from one project to another. Such clones tasks inherit the scheduling mode of the destination project.
+A project manager has the privilege to copy a task from one project to another. Such cloned tasks inherit the scheduling mode of the destination project.
 
 The following three scheduling modes are available in a project:
 
