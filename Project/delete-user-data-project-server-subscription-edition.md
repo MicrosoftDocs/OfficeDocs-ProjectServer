@@ -141,7 +141,7 @@ Important notes about running the export scripts:
 
 Use the `Get-SPProjectWebInstance` cmdlet with the following filters to get the URL, site ID, and database name for the PWA sites that exist in the SharePoint Server farm:
 
-```
+```PowerShell
 Get-SPProjectWebInstance | ft -a Url,SiteId,DatabaseName,DatabaseServer
 ```
 
@@ -176,7 +176,7 @@ Provide values for the following parameters in the script:
 
 For example, if you want to find the userID for Adam Barr on the Contoso PWA1 site you found in the example in Step 1, you would edit the values for the parameters in the script like this:
 
-```
+```PowerShell
 DECLARE @siteId uniqueidentifier = '63ed0197-3647-4279-ed5e80855fc7'
 
 DECLARE @searchName nvarchar(255) = 'Adam Barr'
@@ -244,13 +244,13 @@ Use this command to remove the user's data from the PWA site, except for the dis
 
 Use the cmdlet the following way if you are specifying the user by Claims Account
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>
 ```
 
 For example, the following removes all data for the user with the claim: 0\#.w|*contoso/bob* throughout the `https://contoso.sharepoint.com/sites/pwa` site, except for the user's display name.
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
 ```
 
@@ -262,13 +262,13 @@ After you confirm and the script successfully completes, a message displays stat
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\>
 ```
 
 For example, the following removes all user data for the user with a resource ID of *0c7cd3fb-a0be-e111-9fte-00155d022d022681* throughout the `https://contoso.sharepoint.com/sites/pwa` site, except for the user's display name
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681
 ```
 
@@ -287,13 +287,13 @@ Use this command to remove the user data of a user from the Project Web App site
 
 Use the cmdlet the following way if you are specifying the user by logon name:
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
 ```
 
 For example, the following removes all user data for *evac@contoso.onmicrosoft.com* and change the display name to "*Deleted User*" throughout the `https://contoso.sharepoint.com/sites/pwa` site.
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $true
 ```
 
@@ -305,13 +305,13 @@ After you confirm and the script successfully completes, a message displays stat
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $true
 ```
 
 For example, the following removes all user data for the user with a resource ID of *0c7cd3fb-a0be-e111-9fte-00155d022d022681* and changes the display name to "*Deleted User*" throughout the `https://contoso.sharepoint.com/sites/pwa` site.
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $true
 ```
 
@@ -330,13 +330,13 @@ Use this command to remove the user's data from the Project Web App site, and ch
 
 Use the cmdlet the following way if you are specifying the user by Claims Account:
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
 ```
 
 For example, the following removes all data for *evac@contoso.onmicrosoft.com* and changes the display name to "*Deleted User*" throughout the `https://contoso.sharepoint.com/sites/pwa` site, except in timesheet records.
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac” -UpdateDisplayName "Deleted User" -RedactTimesheet $false*
 ```
 
@@ -348,13 +348,13 @@ After you confirm and the script successfully completes, a message displays stat
 
 Use the cmdlet the following way if you are specifying the user by Resource ID:
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ResourceID \<ResourceID\> -UpdateDisplayName "\<newDisplayName\>" -RedactTimesheet $false*
 ```
 
 For example, the following removes all personal data for the user with a resource ID of 0c7cd3fb-a0be-e111-9fte-00155d022d022681 and changes the display name to "Deleted User" throughout the `https://contoso.sharepoint.com/sites/pwa` site, except in timesheet records.
 
-```
+```PowerShell
 Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ResourceId 0c7cd3fb-a0be-e111-9fte-00155d022d022681 -UpdateDisplayName "Deleted User" -RedactTimesheet $false
 ```
 
