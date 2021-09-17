@@ -33,8 +33,7 @@ To change the scheduling mode for your organization, perform the following steps
 
    :::image type="content" source="media/parameter-screen.png" alt-text="The Project Parameters screen":::
 
-1. Select the default scheduling mode for the organization from the **Schedule Mode** field.
-1. Choose the scheduling mode that you want to apply.
+1. Choose the scheduling mode that you want to apply from the **Schedule Mode** field, to make it the default one.
 
 ## Enable project managers to override default scheduling mode
 
