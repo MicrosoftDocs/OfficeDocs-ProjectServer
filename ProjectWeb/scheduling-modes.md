@@ -16,7 +16,7 @@ description: "Learn about the various modes of scheduling in project operations.
 
 # Scheduling modes
 
-Project for the web provides the ability for administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created.
+Project for the web enables administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created.
 
 ## Change your organization’s scheduling mode
 
@@ -24,7 +24,7 @@ Project for the web sets **Fixed duration** as the out-of-the-box default schedu
 
 To change the scheduling mode for your organization, perform the following steps:
 
-1. Log in to the **Power Apps** portal.
+1. Launch the **Power Apps** portal.
 1. On the bottom-left corner in the navigation pane, click **Projects**.
 
    :::image type="content" source="media/project-power-apps-screen.png" alt-text="The Power Apps screen":::
@@ -37,7 +37,7 @@ To change the scheduling mode for your organization, perform the following steps
 
 ## Enable project managers to override default scheduling mode
 
-Administrators can also determine if project managers can override the default scheduling mode on their projects. To enable the override, perform the following steps:
+Administrators can determine if project managers can override the default scheduling mode on their projects. To enable the override, perform the following steps:
 
 1. Choose **Settings > General > Parameters**, and then select the project parameter. The **Project Parameters** page appears.
 1. Set **Project Level Schedule Mode Override Permitted** to **Yes**.
@@ -49,11 +49,11 @@ Administrators can also determine if project managers can override the default s
 
 ## Project Manager
 
-A project manager is the user who creates a project and is, therefore, entitled to change the default scheduling mode for that project.
+A project manager creates a project and is, therefore, entitled to change the default scheduling mode for that project.
 
 ### Changing the scheduling mode setting on a project
 
-To change the default scheduling mode for a project, perform the following steps:
+To change a project's default scheduling mode, perform the following steps:
 
 1. Create a new project in the Project Power app. Once the project is created, its summary page appears.
 1. Navigate to the **Schedule Mode** setting.
@@ -67,7 +67,7 @@ To change the default scheduling mode for a project, perform the following steps
 
 ### Copy projects
 
-A project manager has the privilege to create projects by cloning from an existing project.  If the newly-created project is a cloned one, the project manager can't set the scheduling mode. The destination project will always default to the mode defined at the organizational level.
+A project manager has the privilege to create projects by cloning from an existing project.  If the newly created project is a cloned one, the project manager can't set the scheduling mode. The destination project will always default to the mode defined at the organizational level.
 
 ### Copy tasks
 
@@ -79,11 +79,11 @@ The following three scheduling modes are available in a project:
 - Fixed effort
 - Fixed unit
 
-The values impacted by the definition of a specific scheduling mode are determined by the following formula:
+The values affected by the definition of a specific scheduling mode are determined by the following formula:
 
 Effort = Duration x Units
 
-When you define a project’s scheduling mode, you are setting one of these values, which then can't be changed. Holding this value as a constant places a priority on that value, which notifies the system not to change it when the other two values change. The following table provides information about the impacts of selecting a specific mode:
+When you define a project’s scheduling mode, you are setting one of these values to remain unchanged. Holding this value as a constant places a priority on that value, which notifies the system not to change it when the other two values change. The following table provides information about the impacts of selecting a specific mode:
 
 
 |In this task  |If you revise units  |If your revise duration  |If you revise effort  |
