@@ -43,13 +43,16 @@ You can remove all Project for the web and Roadmap data by removing the entire s
 
 **To remove Roadmap:** (Only applies to the default org as Roadmap can only be installed on the default org)
 
-1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
-2. Ensure that the default org is selected at the top of the page, if not change it to the Default Org. (As noted above, Roadmap can only be installed on the default org as such it is the only org where you can remove it from.) 
-3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
-4. On the **Settings** menu, under **Customization**, click **Solutions**.
-5. Select the **PortfolioService** solution, and then click **Delete**.
-6. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
-7. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** (or as an alternative, you can go to [https://make.powerapps.com/](https://make.powerapps.com/).
+
+> [!TIP]
+> If you're looking up a named organization, ensure that you pick the correct **named organization**.
+
+1. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
+1. On the **Settings** menu, under **Customization**, click **Solutions**.
+1. Select the **PortfolioService** solution, and then click **Delete**.
+1. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
+1. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
 
 
 > [!NOTE]
