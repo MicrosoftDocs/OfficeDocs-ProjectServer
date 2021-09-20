@@ -43,17 +43,16 @@ You can remove all Project for the web and Roadmap data by removing the entire s
 
 **To remove Roadmap:** (Only applies to the default org as Roadmap can only be installed on the default org)
 
-1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** (or as an alternative, you can go to [https://make.powerapps.com/](https://make.powerapps.com/).
+1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** (or as an alternative, you can go to [https://make.powerapps.com/](https://make.powerapps.com/)).
 
 > [!TIP]
 > If you're looking up a named organization, ensure that you pick the correct **named organization**.
 
-1. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
-1. On the **Settings** menu, under **Customization**, click **Solutions**.
-1. Select the **PortfolioService** solution, and then click **Delete**.
-1. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
-1. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
-
+2. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
+3. On the **Settings** menu, under **Customization**, click **Solutions**.
+4. Select the **PortfolioService** solution, and then click **Delete**.
+5. Select the **PortfolioService_Anchor** solution, and then click **Delete**.
+6. Select any solutions with a naming format of **PortfolioService_Patch_(number)**, (for example, PortfolioService_Patch_1 or PortfolioService_Patch_2), and then click **Delete**.
 
 > [!NOTE]
 > Removing the Roadmap solution does not affect any of the projects or tasks that the roadmaps are connected to.
