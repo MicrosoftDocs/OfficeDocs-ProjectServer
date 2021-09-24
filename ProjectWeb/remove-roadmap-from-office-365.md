@@ -64,7 +64,7 @@ You can remove all Project for the web and Roadmap data by removing the entire s
 **To remove Project for the web:**
 
 1. In the [Microsoft 365 App Launcher](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a), click **Power Apps** or you can browse directly to it by going to: [https://make.powerapps.com/](https://make.powerapps.com/).
-2. Ensure that the correct org where you want to remove Project for the web is displayed at the top of the page. In most cases, it'll be the default org if you have an out of box installation. 
+2. Ensure that the correct org where you want to remove Project for the web is displayed at the top of the page. In most cases, it will be the default org if you have an out-of-box installation. 
 3. Click on the settings icon on the top right of the page and go to **Advanced Settings**.
 4. On the **Settings** menu, under **Customization**, click **Solutions**.
 5. Select the **msdyn_ProjectServiceCore** solution, and then click **Delete**.
