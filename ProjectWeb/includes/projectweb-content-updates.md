@@ -2,6 +2,14 @@
 
 
 
+## Week of September 20, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/24/2021 | [Remove Project from Microsoft 365](/project-for-the-web/remove-roadmap-from-office-365) | modified |
+
+
 ## Week of September 13, 2021
 
 
