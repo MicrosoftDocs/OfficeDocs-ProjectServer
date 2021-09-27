@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_Project
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
 ---
@@ -23,7 +23,7 @@ To find a user's Azure AD Object ID in the Azure Active Directory Admin Center:
 1. In the Azure Active Directory Admin Center, click on **Users** to see a list of all users in your organization.
 2. Click on the name of the user.
 3. On the user profile page, in the **Identity** section, you can find the user's Azure AD Object ID value in the **Object ID** field.</br>
-![PowerApps menu](media/AzureUserProfile.png)
+![PowerApps menu.](media/AzureUserProfile.png)
 
 ## To find and delete a user's roadmaps
 
@@ -101,7 +101,7 @@ To delete or edit a users project, do the following:
 
 1. From the Advanced Find search results list, note the project you want to delete or update.
 2. On the PowerApps admin page, click the drop-down menu and select **Project**.</br>
-![PowerApps menu](media/PowerAppsProject.png)
+![PowerApps menu.](media/PowerAppsProject.png)
 3. On the Project page, in the **System Views** menu, select **All Projects**.
 4. Click on the project you are interested in deleted or redacting.
 5. On the project page, you can choose to:

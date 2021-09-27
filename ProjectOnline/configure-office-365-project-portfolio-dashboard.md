@@ -7,7 +7,7 @@ ms.date: 3/9/2018
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJO160

@@ -11,7 +11,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 
 ---
 # Connect to Project data through Power BI Desktop
@@ -38,11 +38,11 @@ To use the template, you need the following:
 
 3. In the **PWA URL** field, type the URL of your Project Online Project Web App site, for example, https://<spam><spam>contoso.sharepoint<spam><spam>.com/sites/PWA. Then click **Load**.
 
-   ![Parameters](media/MSPowerBIProject.png)
+   ![Parameters.](media/MSPowerBIProject.png)
 
 4.  Power BI Desktop will prompt you to authenticate with your Office 365 account. Select **Organizational account**, click **Sign In**, and enter your credentials.
 
-    ![Dataverse environment](media/OrgSignin.png)
+    ![Dataverse environment.](media/OrgSignin.png)
 
 A message will be displayed, telling you that your data is loading. Depending on the number of projects, tasks, and resources in your system, this may take some time. 
 
@@ -61,7 +61,7 @@ If you receive an error during the load process stating that access to a resourc
 6. Try to load your data again.
 
 > [!div class="mx-imgBorder"]
-> ![Data source settings](media/data-source-settings.png)
+> ![Data source settings.](media/data-source-settings.png)
 
 ### How to determine your Dataverse URL
 
@@ -81,7 +81,7 @@ The following sections will tell you how to find the *environment_name* and the 
 3. On the **All apps** page, click **Business Apps** tab and select the project application of the organization you want to build your reports on.
 The Apps URL will give you the environment and region value. 
 
-    ![Default Dataverse environment](media/powerappsen.png)
+    ![Default Dataverse environment.](media/powerappsen.png)
 
 **To determine the region value of the URL**:
 
@@ -103,7 +103,7 @@ The region value will usually be associated to the data center that is close to 
 
 If you are not sure, check with your Office 365 administrator and have them check for the value in the [Power Platform Admin Center](https://docs.microsoft.com/power-platform/admin/admin-guide).
 
-![PowerPlatform Admin Center](media/PowerPlatformAdminCenter.png)
+![PowerPlatform Admin Center.](media/PowerPlatformAdminCenter.png)
 
 ### How to determine your Project Web App (PWA) URL
 
@@ -117,7 +117,7 @@ You can get to your PWA site by implementing the following steps:
 
 3. Copy the URL in your browser and use this value for the **PWA URL** field in the Project template.
 
-   ![Project Web App Site URL](media/PWASiteURL.png) 
+   ![Project Web App Site URL.](media/PWASiteURL.png) 
 
 If you are still not sure, check with your Office 365 admin and have them check for the value in the SharePoint admin center.
 
@@ -140,56 +140,56 @@ After connecting to your data, the following key "out-of-the-box" reports are av
 
 The Portfolio Dashboard report gives you a roll-up of all projects, and lets you know the total number of projects, effort completed, and effort remaining. It lets you filter your project data by project progress or project manager.
 
-![Portfolio Dashboard](media/portfolio-dashboard.png) 
+![Portfolio Dashboard.](media/portfolio-dashboard.png) 
 
 ### Portfolio Timeline
 
 The Portfolio Timeline reports shows visually where all projects fall on a timeline, including their duration and progress to date. 
 
-![Portfolio Timeline](media/portfolio-timeline.png) 
+![Portfolio Timeline.](media/portfolio-timeline.png) 
 
 ### Portfolio Milestones
 
 The Portfolio Milestones report summarizes all milestones completed and are yet to complete in the past 30 days, as well as the milestones planned for the next 30 days.
 
-![Portfolio Milestones](media/portfolio-milestones.png) 
+![Portfolio Milestones.](media/portfolio-milestones.png) 
 
 ### Resource Dashboard
 The Resource Dashboard gives a resource manager an overview of how his or her resources are allocated to projects, showing details about each resources total effort, tasks remaining, and task status.
  
-![Resource Dashboard](media/resource-dashboard.png) 
+![Resource Dashboard.](media/resource-dashboard.png) 
 
 ### Resource Assignments
 
 The Resource Assignments report lets you focus on task and project data for your resources.  You can drill into a resources task progress, total effort, effort distribution across projects, and project and task details.
 
-![Resource Assignments](media/resource-assignments.png) 
+![Resource Assignments.](media/resource-assignments.png) 
 
 ### Task Overview
 
 The Task Overview report looks at task details across projects.  
 
-![Task Overview](media/task-overview.png) 
+![Task Overview.](media/task-overview.png) 
 
 ### Project Timeline
 
 The Project Timeline shows each project with details on its tasks and status.  
 
-![Project Timeline](media/project-timeline.png) 
+![Project Timeline.](media/project-timeline.png) 
 
 ### My Work
 
 The My Work report lets an individual team member see a  detailed task list of all their work across projects, and gives others visibility into their work. 
 
 
-![My Work](media/my-work.png) 
+![My Work.](media/my-work.png) 
 
 ### My Timeline
 
 The My Timeline report lets team member see their personal timeline of work across and within projects.​
  
 
-![My Timeline](media/my-timeline.png) 
+![My Timeline.](media/my-timeline.png) 
 
 ## See also
 

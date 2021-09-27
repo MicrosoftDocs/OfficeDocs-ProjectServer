@@ -7,7 +7,7 @@ ms.date: 11/29/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5f5110f0-2a72-4509-97a4-6896838bed1e
 description: "Summary: Read articles about how to plan for performance and capacity in Project Server 2013."
@@ -26,7 +26,7 @@ The following articles about planning for performance and capacity for Project S
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md) <br/> |This chapter is about how to determine the hardware requirements for a single Project Server 2013 farm.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md) <br/> |This chapter is about how to determine the hardware requirements for a single Project Server 2013 farm.  <br/> |
 ||[Capacity planning strategy for Project Server 2013](capacity-planning-strategy-for-project-server-2013.md) <br/> |Performance and capacity planning strategy is a vital part of planning a Project Server 2013 deployment.  <br/> |
 ||[How datasets affect performance and capacity in Project Server 2013](how-datasets-affect-performance-and-capacity-in-project-server-2013.md) <br/> |As you plan performance and capacity of a Project Server 2013 deployment, consider the set of variables that affect your plans.  <br/> |
 ||[Scaled-up and scaled-out topologies in Project Server 2013](scaled-up-and-scaled-out-topologies-in-project-server-2013.md) <br/> |Read information and recommendations for how to scale-up or scale-out a Project Server 2013 farm.  <br/> |

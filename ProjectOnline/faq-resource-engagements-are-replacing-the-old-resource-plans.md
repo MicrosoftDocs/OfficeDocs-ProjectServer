@@ -7,7 +7,7 @@ ms.date: 7/11/2017
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -55,7 +55,7 @@ After the feature has been activated, you will no longer be able to access the o
 
 Once the Project Online administrator has activated the feature, there will be a section in **Additional Server Settings** that shows the progress. 
   
-![Project Online: Additional Server Settings dialog shows progress of the migration of resource plan data](media/9a8e203e-9eb7-4e79-80c5-43527e36bf92.png)
+![Project Online: Additional Server Settings dialog shows progress of the migration of resource plan data.](media/9a8e203e-9eb7-4e79-80c5-43527e36bf92.png)
   
 After migration is complete, the **New Resource Management Features Available** section will disappear. You should now be able to visit the **Resource Requests** page and view the newly created engagements that were based on your old resource plans. 
   

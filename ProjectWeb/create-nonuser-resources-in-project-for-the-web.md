@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150 
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to add a non-user resource and make it available to assign to tasks in Project for the web."
 ---
 
@@ -51,7 +51,7 @@ You first need to go to the Dynamics 365 Project Resources page:
 When you get to the resources page, do the following:
 1. On the Resources page, click **New**.
 2. On the New Bookable Resource page, click in the **Resource Type** field, and select the resource type you need to create.
-![Resource types](media/resourcetypes.png)
+![Resource types.](media/resourcetypes.png)
 3. Provide the information needed for the resource type you selected.
 4. In the **Name** field, type the name your want to give the resource.
 6. When you’re done, click **Save and Close**.

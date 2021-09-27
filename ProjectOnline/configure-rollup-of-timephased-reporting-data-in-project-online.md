@@ -7,7 +7,7 @@ ms.date: 5/16/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -57,7 +57,7 @@ With broader levels of granularity, publish times will be a lot faster since pro
     
   - **By fiscal period**
     
-![Timephased Data settings](media/79613178-72d6-4e94-8c5f-333bfe4fd318.jpg)
+![Timephased Data settings.](media/79613178-72d6-4e94-8c5f-333bfe4fd318.jpg)
   
 Tip: If you don't use any of the timephased Odata feeds, we highly recommend setting the Timephased Data option to "Never" which provides the added benefit of much faster Reporting Publish queue jobs.
   

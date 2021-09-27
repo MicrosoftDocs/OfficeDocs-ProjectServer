@@ -7,7 +7,7 @@ ms.date: 7/11/2017
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -42,21 +42,21 @@ Sometimes, more than one person needs to approve a timesheet. An example of this
   
 ||||
 |:-----|:-----|:-----|
-|![Team Member](media/d7c268ca-1a2f-49b1-8ea0-bd35c44d3e06.png) **Bob** <br/> Bob is a team member, and Jill is his timesheet manager.  <br/> Bob fills out his timesheet and submits it to Jill.  <br/> |![Project Manager](media/e3f6031e-015a-40e6-bcb2-b0123225bb27.png) **Jill** <br/> Jill is a team lead, and Frank is her timesheet manager.  <br/> Jill approves Bob's timesheet, and it is automatically submitted to Frank for approval.  <br/> |![Payroll Specialist](media/07def6e4-4072-4716-862f-14fcea78f191.png) **Frank** <br/> Frank is in payroll, and is his own timesheet manager.  <br/> When Frank approves Bob's timesheet, the hours Bob entered are applied to the corresponding project plan.  <br/> |
+|![Team Member.](media/d7c268ca-1a2f-49b1-8ea0-bd35c44d3e06.png) **Bob** <br/> Bob is a team member, and Jill is his timesheet manager.  <br/> Bob fills out his timesheet and submits it to Jill.  <br/> |![Project Manager](media/e3f6031e-015a-40e6-bcb2-b0123225bb27.png) **Jill** <br/> Jill is a team lead, and Frank is her timesheet manager.  <br/> Jill approves Bob's timesheet, and it is automatically submitted to Frank for approval.  <br/> |![Payroll Specialist](media/07def6e4-4072-4716-862f-14fcea78f191.png) **Frank** <br/> Frank is in payroll, and is his own timesheet manager.  <br/> When Frank approves Bob's timesheet, the hours Bob entered are applied to the corresponding project plan.  <br/> |
    
 Only those people listed on the **Timesheet Managers** page can approve timesheets. 
   
  **To add someone as an approver**
   
-1. Choose **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**. 
+1. Choose **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**. 
     
 2. Under **Time and Task Management**, choose **Timesheet Managers**.
     
-    ![Timesheet Managers](media/8b87dc18-8e5d-4c97-9f6e-12f573f3cfc8.png)
+    ![Timesheet Managers.](media/8b87dc18-8e5d-4c97-9f6e-12f573f3cfc8.png)
   
 3. Choose **Managers** \> **Add Manager**.
     
-    ![Add Manager](media/fe2c56b5-56df-4927-a94e-0f5fa94f22f7.png)
+    ![Add Manager.](media/fe2c56b5-56df-4927-a94e-0f5fa94f22f7.png)
   
 4. Choose the person you want to add as an approver, and then choose **OK**.
     
@@ -70,9 +70,9 @@ Remember that [Step 3: Update progress](https://support.office.com/article/ca5c3
   
 ## What other options are there?
 
-There are a couple of other options that might be appropriate for approvals in your organization. Both of these options are set by going to **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**. From there, some of the settings will be under **Timesheet Settings and Defaults**.
+There are a couple of other options that might be appropriate for approvals in your organization. Both of these options are set by going to **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**. From there, some of the settings will be under **Timesheet Settings and Defaults**.
   
-![Timesheet Settings and Defaults](media/4b39ea36-c7ed-4dd4-aece-56f4e959af2a.png)
+![Timesheet Settings and Defaults.](media/4b39ea36-c7ed-4dd4-aece-56f4e959af2a.png)
   
 ### Can managers approve timesheets line by line?
 

@@ -7,7 +7,7 @@ ms.date: 6/17/2021
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
@@ -25,7 +25,7 @@ description: "Summary: View a high-level overview of the steps required to upgra
   
 ## Overview of the Project Server Subscription Edition upgrade steps
 
-![Project Server Subscription Edition upgrade steps](images/Update-for---Create-a-SharePoint-Server.png)
+![Project Server Subscription Edition upgrade steps.](images/Update-for---Create-a-SharePoint-Server.png)
   
 Upgrading to Project Server Subscription Edition can be broken up into four steps. These include:
   

@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to define project interdependencies that may impact the portfolio analysis calculations."
@@ -73,11 +73,11 @@ PWA supports the following dependency types.
 
 Navigate to the **Portfolio Analyses** screen and click on the **Project Dependencies** button in the Analyses tab.
 
-![Menu bar showing Analysis options](media/04-image2.png)
+![Menu bar showing Analysis options.](media/04-image2.png)
 
 This will open the screen to create project dependencies.
 
-![New Dependency option in the Dependencies tab](media/09-image2.png)
+![New Dependency option in the Dependencies tab.](media/09-image2.png)
 
 ## Including dependencies in the portfolio analysis calculations
 
@@ -91,7 +91,7 @@ By default, dependencies are not included in the portfolio analysis calculations
 
 2. Click on the **Recalculate** button in the **Analysis** tab.
 
-![The Options tab](media/09-image3.png)
+![The Options tab.](media/09-image3.png)
 
 You are now ready to run a portfolio analysis.
 

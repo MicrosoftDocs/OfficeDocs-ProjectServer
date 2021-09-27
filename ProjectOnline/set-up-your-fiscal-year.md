@@ -7,7 +7,7 @@ ms.date: 6/1/2017
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -24,27 +24,27 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
   
 |||
 |:-----|:-----|
-|![Fiscal Period](media/cedefa92-b4d5-4c11-a58f-66a1bc6fb6f8.png)|Most organizations have a fiscal year (FY) that is used to calculate finances on an annual basis. Within that fiscal year, there are typically quarters, months, or other periods used to evenly distribute financial plans. By setting up fiscal periods in Project Web App, you can map project work against your overall financial plans. |
+|![Fiscal Period.](media/cedefa92-b4d5-4c11-a58f-66a1bc6fb6f8.png)|Most organizations have a fiscal year (FY) that is used to calculate finances on an annual basis. Within that fiscal year, there are typically quarters, months, or other periods used to evenly distribute financial plans. By setting up fiscal periods in Project Web App, you can map project work against your overall financial plans. |
    
  **What do I need to do?**
   
 1. **Go to **PWA Settings**.**
     
-  - In Project Web App, choose **Settings**![Settings icon](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
+  - In Project Web App, choose **Settings**![Settings icon.](media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png) \> **PWA Settings**.
     
   - Under **Time and Task Management**, choose **Fiscal Periods**.
     
-    ![Fiscal Periods](media/4beb4d3c-2744-43fe-8c4f-94ff9bcb7d5e.png)
+    ![Fiscal Periods.](media/4beb4d3c-2744-43fe-8c4f-94ff9bcb7d5e.png)
   
 2. **Set a start date.**
     
   - Under **Manage Fiscal Period**, choose a year, and then choose **Define**.
     
-    ![Define](media/5fd9b1ca-45df-4549-bb8d-0ddc2c506dc2.png)
+    ![Define.](media/5fd9b1ca-45df-4549-bb8d-0ddc2c506dc2.png)
   
   - Under **Define Fiscal Period Start Date**, type or choose the first date of your fiscal year.
     
-    ![Fiscal period start date](media/9e853483-0e76-4ac6-96a4-1276e8873769.png)
+    ![Fiscal period start date.](media/9e853483-0e76-4ac6-96a4-1276e8873769.png)
   
 3. **Choose how you want periods set up.**
     
@@ -54,7 +54,7 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
     
     The numbers in these methods have to do with how many weeks you want in each fiscal period during each quarter. For example, here's what one quarter in the 4,5,4 Method looks like:
     
-    ![4,5,4 Method](media/9f179450-ec04-4eda-a1aa-3ec73d10cbd3.png)
+    ![4,5,4 Method.](media/9f179450-ec04-4eda-a1aa-3ec73d10cbd3.png)
   
     If you choose the 4,5,4 Method, it will configure four quarters, with three fiscal periods in each quarter. The first period will be 4 weeks long, the second will be 5 weeks, and the third 4 weeks.
     
@@ -76,15 +76,15 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
     
     As you add a prefix and suffix, an example name is shown.
     
-    ![Prefix and Suffix](media/612faf61-89e8-4f79-8730-55f02cf2ff2a.png)
+    ![Prefix and Suffix.](media/612faf61-89e8-4f79-8730-55f02cf2ff2a.png)
   
 5. **Choose **Create and Save**.**
     
-    ![Create and Save](media/bf250d0e-c6b2-4a45-bb70-1146b197895f.png)
+    ![Create and Save.](media/bf250d0e-c6b2-4a45-bb70-1146b197895f.png)
   
     After saving, you can change the information or delete rows in the table to refine your fiscal year.
     
-    ![Adjust fiscal periods](media/000f1c8e-b145-4001-a6a3-bc744852c3e1.png)
+    ![Adjust fiscal periods.](media/000f1c8e-b145-4001-a6a3-bc744852c3e1.png)
   
 ||
 |:-----|

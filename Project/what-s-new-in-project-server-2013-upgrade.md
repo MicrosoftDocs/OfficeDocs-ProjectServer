@@ -7,7 +7,7 @@ ms.date: 11/21/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 1722bfce-85a3-477a-8d13-680f22284671
 description: "Summary: Learn about key changes and considerations when you upgrade to Project Server 2013."

@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0bac34fa-d058-413c-a8ad-e0cec58d8946
 description: "Summary: Use the Project Site Provisioning Settings in Central Administration to configure the automatic creation of project sites for projects in Project Server 2013."

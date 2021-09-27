@@ -7,7 +7,7 @@ ms.date: 3/28/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-subscription-management
 ms.custom: Adm_Project
 search.appverid:
@@ -98,11 +98,11 @@ A better approach, if you decide to use project sites, is either letting the use
   
 SharePoint Online currently [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498) the number of subsites that can be created for each site collection. An EPT allows you to define which site collection to create new project sites in. This will allow you to create a project site for each project as you can span them across multiple site collections. 
   
-![Project Sites across PWA site collections](media/b17ddfd2-c049-42b5-b0aa-d76590c524c4.png)
+![Project Sites across PWA site collections.](media/b17ddfd2-c049-42b5-b0aa-d76590c524c4.png)
   
 For example, if you have a site collection dedicated to your IT department, you can configure your  *IT Projects*  EPT to create Project sites off of  *https://contoso.sharepoint.com/sites/IT*  . 
   
-![Project site creation location](media/704d4513-eba8-43a8-9303-fcc5ea8078a8.png)
+![Project site creation location.](media/704d4513-eba8-43a8-9303-fcc5ea8078a8.png)
   
  **Recommendation:**
   
@@ -116,7 +116,7 @@ For each EPT, you can configure this option by:
     
 3. In the EPT settings page, in the **Project Site** section, select **Allow users to choose**.
     
-   ![Project site creation options](media/15f744a9-23d5-4295-8cdb-39230d174530.png)
+   ![Project site creation options.](media/15f744a9-23d5-4295-8cdb-39230d174530.png)
   
    Create project sites in their own site collection by the EPT. Keep the number of project sites in a site collection below the SharePoint Online [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498).
   
@@ -169,7 +169,7 @@ For each EPT, you can turn on Sync User Permisssions by:
     
 3. In the EPT settings page, in the **Synchronize** section, select **User Permission Sync**.
     
-   ![User Permission Sync](media/0f3b699f-529d-44c1-a752-2445be6c732a.png)
+   ![User Permission Sync.](media/0f3b699f-529d-44c1-a752-2445be6c732a.png)
   
 ### Sync SharePoint Tasks Lists for Enterprise projects
 
@@ -190,7 +190,7 @@ This option is turned off by default. Only turn SharePoint Tasks Lists sync on i
     
 3. In the EPT settings page, in the **Synchronize** section, select **Sync SharePoint Tasks Lists**.
     
-   ![Sync SharePoint Tasks Lists](media/a6dd40fc-f81e-4650-bc2b-95e2a1b402dd.png)
+   ![Sync SharePoint Tasks Lists.](media/a6dd40fc-f81e-4650-bc2b-95e2a1b402dd.png)
   
 ## Active Directory Resource Pool sync
 
@@ -243,7 +243,7 @@ Users can configure different ways to have the view rendered to them including h
   
 Unless the user needs to see the rolled up values, disable the **Rollup** option in the ribbon. 
   
-![Rollup option](media/7ec5e00b-c453-4d90-afde-40c7b8da8593.png)
+![Rollup option.](media/7ec5e00b-c453-4d90-afde-40c7b8da8593.png)
   
 #### Project Center: Gantt Chart
 
@@ -253,7 +253,7 @@ The chart portion of the Gantt Chart view displays each project as a summary Gan
   
 Unless the user needs to see the Gantt, disable the **Gantt Chart** option in the ribbon. 
   
-![Gantt Chart option](media/899b22d5-ec11-4248-acec-a732d0b002ed.png)
+![Gantt Chart option.](media/899b22d5-ec11-4248-acec-a732d0b002ed.png)
   
 ## Custom Project Detail Pages and Workflows
 
@@ -317,7 +317,7 @@ If the developer confirms the add-in is ready for the change, you then need to e
 
 2. In the **Asynchronous event handling for After events** section, make sure that **Turn on asynchronous After event processing** is selected.
 
-   ![Asynchronous event handling for After events setting](media/PJOAsEventHandlerSetting.png)
+   ![Asynchronous event handling for After events setting.](media/PJOAsEventHandlerSetting.png)
 
 3. Select **Save**.
 

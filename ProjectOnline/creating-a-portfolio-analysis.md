@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to combine the project portfolio, resource pool, and prioritization mechanism into a single analysis of the project portfolio using the Project Web Application."
@@ -31,7 +31,7 @@ These features may be combined to create specific scenarios. For example, one sc
 
 The process of assessing these scenarios and defining an optimal selection of projects is known as portfolio analysis. Portfolio analysis is a core feature in the Project Web Application, and is available in Project Online and supported versions of Project Server.
 
-![Sample portfolio analysis in the Project Web Application](media/01-image1.png)
+![Sample portfolio analysis in the Project Web Application.](media/01-image1.png)
 
 ## Planning for a portfolio analysis
 
@@ -49,7 +49,7 @@ The following steps should be performed before starting a portfolio analysis.
 
 ## Create a portfolio analysis
 
-![Menu bar showing Analysis options](media/04-image2.png)
+![Menu bar showing Analysis options.](media/04-image2.png)
 
 To get started creating a portfolio analysis:
 
@@ -63,7 +63,7 @@ To get started creating a portfolio analysis:
 
 5. Move to the next screen to assign project priorities.
 
-![New Portfolio Analysis Form](media/04-image3.png)
+![New Portfolio Analysis Form.](media/04-image3.png)
 
 Complete the **New Portfolio Analysis Form** as follows:
 
@@ -78,7 +78,7 @@ Complete the **New Portfolio Analysis Form** as follows:
 | Resource Planning (optional)                 | Select this check box if you want to include resource planning in this portfolio analysis. Your projects must include resource assignments for this to work.                                                        |
 | Alias project Force-in and Force-out options | Use the options in this section to customize force in/out options.                                                                                                                                                  |
 
-![Resource Planning options for Portfolio Analysis Form](media/04-image4.png)
+![Resource Planning options for Portfolio Analysis Form.](media/04-image4.png)
 
 If the Resource Planning option is checked, the form will expand with the following fields:
 
@@ -94,7 +94,7 @@ If the Resource Planning option is checked, the form will expand with the follow
 
 Later in this process, you will be able to force projects into and out of the portfolio analysis. For example, an organization may decide that a project is required to meet newly defined regulatory requirements. That organization may "force in" the project into the portfolio. Regardless of scenario constraints that project will be selected.
 
-![Force-in and force-out options](media/04-image5.png)
+![Force-in and force-out options.](media/04-image5.png)
 
 Similarly, the organization may also "force out" projects from the portfolio. For example, an executive has declared that we will not do this project as part of the current annual planning. We would then force out the project.
 
@@ -106,7 +106,7 @@ To rename force in/force out options, the user will need to create a look up tab
 
 If business driver prioritization was selected when the portfolio analysis was created, this screen will display all of the selected projects against each of the selected business drivers. Some projects may have already been mapped to business drivers. You can use this screen to confirm that each project has been mapped appropriately.
 
-![Business drivers prioritization map](media/04-image6.png)
+![Business drivers prioritization map.](media/04-image6.png)
 
 Visually scan each row to confirm that each project is aligned with at least one business driver. Scan each column to confirm visually that each business driver is represented appropriately:
 
@@ -134,7 +134,7 @@ This step will calculate the relative priority of each of the projects within th
 
 The projects are now displayed in the order of the calculated priority. The overall value of the portfolio is calculated as 100%. Each of the projects represent a fraction of the 100% portfolio value.
 
-![Sample table name of project names and priority percentages](media/01-image2.png)
+![Sample table name of project names and priority percentages.](media/01-image2.png)
 
 The portfolio analysis process will help you determine the maximum value that can be delivered for the available financial and resource investments.
 
@@ -144,7 +144,7 @@ You are now ready to analyze the portfolio cost.
 
 Use the controls in the **Navigate** section of the Analysis ribbon to move between the pages of the portfolio analysis wizard and change the settings that you chose when you created the portfolio analysis.
 
-![Screenshot of navigation options](media/04-image8.png)
+![Screenshot of navigation options.](media/04-image8.png)
 
 | **Control**             | **Description**                                                                                                                                                                                                                          |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

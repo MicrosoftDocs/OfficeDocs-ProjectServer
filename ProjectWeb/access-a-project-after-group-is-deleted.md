@@ -6,11 +6,11 @@ manager: pamgreen
 ms.date: 11/28/2019
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to regain access to a project in Project for the web after its associated Office 365 group has been deleted."
 ---
 
@@ -53,13 +53,13 @@ Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/c
 2.	On the PowerApps Settings page, select **Dynamics 365 Custom**.
 3.	On the **Projects** page, click the filter icon in the menu bar and then select **Advance Find**.
 
-    ![Advanced Find](media/AdvancedFind.png)
+    ![Advanced Find.](media/AdvancedFind.png)
 4.	In Advanced Find, in the **Look for** menu, select **Projects**.  In the **Use Saved View** menu, select **All projects**.
    
  
 5.	Click **Select**, and from the menu, select **Name**.  From the next menu, select **Equals**, and then in the **Enter text** box type the name of the project you are looking for. </br>
 
-     ![Advanced Find Filter](media/AdvancedFindFilter.png)
+     ![Advanced Find Filter.](media/AdvancedFindFilter.png)
 
 6. Click **Results** to run the query. The project you are looking for should display in the Projects tab.
 
@@ -74,13 +74,13 @@ To reassign a project to a user:
 1. Select the checkbox next to the project name.
 2. In the ribbon, click **Assign Projects**.</br>
 
-     ![Assign project](media/AssignProject.png)
+     ![Assign project.](media/AssignProject.png)
 3. On the **Assign Project** screen, click in the **Assign to** box to change it to **User or team**.
 4. Click in the **User or team** box, and then click the magnifying glass icon. Then scroll to the bottom of the results and click on **Look up more records**.
 5.  On the **Lookup Record** screen, select **User** in the **Look for** menu, select the user from the user list, and then click **Add**.
 
 
-     ![Lookup Record](media/LookupRecordUser.png)
+     ![Lookup Record.](media/LookupRecordUser.png)
 
 The user that you added will now be able to access the project in Project for the web. The user can also choose to associate a new Office 365 group with the project and add users to it if others also need to access the project.
 

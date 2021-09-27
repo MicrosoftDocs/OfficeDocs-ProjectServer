@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to prioritize your portfolio analysis business drivers in the Project Web Application."
@@ -33,7 +33,7 @@ PWA provides two main features to support the prioritization of the project port
 
 This article will discuss how to create a set of prioritized business drivers within PWA. Other articles will discuss how to prioritize the project portfolio manually using custom fields.
 
-![Sample portfolio analysis in the Project Web Application](media/01-image1.png)
+![Sample portfolio analysis in the Project Web Application.](media/01-image1.png)
 
 This article assumes you have already created business drivers.
 
@@ -43,7 +43,7 @@ A set of business drivers is a collection of business drivers that have been pri
 
 Each business driver can be in multiple prioritization sets simultaneously. In the above example, this allows the Marketing Department to prioritize a business driver such as "Increase market share" differently than the Accounting Department.
 
-![Menu bar showing prioritization options](media/03-image2.png)
+![Menu bar showing prioritization options.](media/03-image2.png)
 
 To get started creating a driver prioritization set:
 
@@ -63,7 +63,7 @@ Now that you have created a set of drivers, you can assign relative priorities. 
 
 - Driver B: Enhance employee satisfaction.
 
-![Sample business drivers](media/01-image4.png)
+![Sample business drivers.](media/01-image4.png)
 
 You must choose as an organization which driver is most important. You may select from the following options:
 
@@ -87,7 +87,7 @@ You will need to prioritize each driver and click on the Next Driver button.
 
 Upon completion of the driver prioritization activity, PWA will calculate a driver priority score.
 
-![Sample table of driver priority scores](media/03-image4.png)
+![Sample table of driver priority scores.](media/03-image4.png)
 
 Note that it is common for organizations to introduce logical errors into the driver prioritization exercise. PWA will calculate a consistency ratio for all driver prioritizations. The consistency ratio measures how many logical conflicts may exist in the driver prioritization. For example, the system allows you to perform the following calculations:
 
@@ -99,7 +99,7 @@ Note that it is common for organizations to introduce logical errors into the dr
 
 In this example, we are saying Driver A is both as important as Driver B and more important than Driver B. The consistency ratio assesses how many of these logical flaws exist in our prioritization.
 
-![Sample consistency ratio](media/03-image5.png)
+![Sample consistency ratio.](media/03-image5.png)
 
 A consistency ratio of 80% or higher is generally considered acceptable for most organizations.
 

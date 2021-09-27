@@ -7,7 +7,7 @@ ms.date: 11/22/2017
 audience: ITPro
 ms.topic: get-started-article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: c2964c5e-a2a4-4113-b72a-0f2abc1871cf
 description: "Summary: Install and configure Project Server 2013 language packs so that users can select their preferred language for their PWA user interface."

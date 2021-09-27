@@ -7,7 +7,7 @@ ms.date: 7/11/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150

@@ -1,17 +1,17 @@
 ---
-title: "Deploying Project"
+title: "Deploying Project for the web"
 ms.author: alexla
 author: alexla
 manager: hocull
-ms.date: 01/07/2021
+ms.date: 08/24/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
-localization_priority: Normal
-description: "Learn how to deploy Project to the Dataverse."
+ms.localizationpriority: medium
+description: "Learn how to deploy Project for the web to both a default and non default org."
 ---
 
-# Deploying Project
+# Deploying Project for the web
 
 Project for the web is available for use in the Default Environment as well as in Sandbox and Production Dataverse environments.
 
@@ -38,7 +38,7 @@ Project is supported in the following types of environments
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle *must* be disabled.
 
 > [!div class="mx-imgBorder"]
-> ![D365 App Toggle](media/AppToggle.png) 
+> ![D365 App Toggle.](media/AppToggle.png) 
 
 [Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
 
@@ -47,6 +47,7 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 ### System requirements
 
 In order to be able to provision and use Project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
+
 
 **Enterprise applications**
 
@@ -62,6 +63,7 @@ The following enterprise applications are to be enabled, by default.
 |Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
 |Project Online   |     f53895d3-095d-408f-8e93-8f94b391404e     |
 
+
 **Verifying status of Enterprise applications**
 
 To verify whether the required Enterprise applications are enabled, perform the following steps:
@@ -70,27 +72,27 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
 
-   :::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen":::
+   :::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen.":::
 
 3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**.
 
-   :::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen":::
+   :::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen.":::
 
 4. Use the textbox right below and search for the application ID listed in the table. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
-   :::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed":::
+   :::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed.":::
 
 5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
 
-   :::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen":::
+   :::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen.":::
 
 6. Click **Properties** on the left pane.
 
-   :::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed":::
+   :::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed.":::
 
 7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
 
-   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled":::
+   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled.":::
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
@@ -180,13 +182,31 @@ Else
 
 Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap are first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
 
+
+## Provisioning a new environment
+> [!Note]
+> The below sections only applies to Admins interested in deploying Project to a non-Default environment.
+
+Project is supported in the following types of environments
+- Default
+- Production
+- Sandbox
+
+To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle **must be disabled**.
+
+> [!div class="mx-imgBorder"]
+> ![D365 App Toggle](media/AppToggle.png) 
+
+[Learn more about creating and managing environments](https://docs.microsoft.com/power-platform/admin/create-environment).
+
+
 ### Deploying to a non-Default environment
 Deploying Project to a non-Default environment is done from within the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com). 
 
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
 
 > [!div class="mx-imgBorder"]
-> ![Project package](media/InstallProject.png) 
+> ![Project package.](media/InstallProject.png) 
 
 > [!Note]
 > If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 

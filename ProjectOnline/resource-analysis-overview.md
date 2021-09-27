@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn what a resource analysis is and how to get started doing resource analyses in the Project Web Application (PWA)."
@@ -31,13 +31,13 @@ There are several tasks required to perform resource analysis:
 
 The resource analysis is performed within a specific cost analysis scenario. Once you have completed the cost analysis, you can start performing a resource analysis. Resource analysis is a core feature in the Project Web Application, and is available in Project Online and supported versions of Project Server.
 
-![Resource Analysis](media/05-image1.png)
+![Resource Analysis.](media/05-image1.png)
 
 ## Configuring the resource pool
 
 The resource analysis process compares the project demand for resources with the available supply of resources.
 
-![Sample portfolio of resources](media/01-image3.png)
+![Sample portfolio of resources.](media/01-image3.png)
 
 The available supply is defined by the PWA resource administrators in the resource pool. Each resource in the resource pool may be assigned one or more of the following attributes:
 
@@ -55,7 +55,7 @@ The available supply is defined by the PWA resource administrators in the resour
 
 If you are using an existing cost analysis, confirm that the Resource Planning option was in the Define Properties screen. If using a new analysis, ensure that the Resource Planning option has been selected. This will allow the user to define specific variables that will impact the resource analysis function.
 
-![Menu bar showing Analysis options](media/04-image2.png)
+![Menu bar showing Analysis options.](media/04-image2.png)
 
 To get started creating a portfolio analysis:
 
@@ -67,11 +67,11 @@ To get started creating a portfolio analysis:
 
 4. Select the option to *Analyze project resource requirements against resource capacity.*
 
-![New Portfolio Analysis Form](media/04-image3.png)
+![New Portfolio Analysis Form.](media/04-image3.png)
 
 The following settings may be found in the Define Properties screen of the Portfolio Analyses menu.
 
-![Resource Planning options for Portfolio Analysis Form](media/04-image4.png)
+![Resource Planning options for Portfolio Analysis Form.](media/04-image4.png)
 
 These settings impact the resource analysis calculations.
 

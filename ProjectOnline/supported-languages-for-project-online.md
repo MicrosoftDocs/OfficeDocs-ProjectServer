@@ -7,7 +7,7 @@ ms.date: 11/1/2016
 audience: admin
 ms.topic: get-started-article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJO160
@@ -73,11 +73,11 @@ However, Project Online does not support all of the languages that SharePoint On
   
 If you select a language that is supported by Project Online, the Project Online and SharePoint Online interface provided through the site will display in the selected language. For example, in the graphic below, Spanish was the selected language, and all components on the Project Online page (SharePoint Online and Project Online) will display in Spanish.
   
-![Project Online in Spanish](media/7d09f8dc-f75d-4db7-a88d-d4304a43b34c.jpg)
+![Project Online in Spanish.](media/7d09f8dc-f75d-4db7-a88d-d4304a43b34c.jpg)
   
 If you select a language that is not supported by Project Online, the Project Online interface will be displayed in an alternate language, and the SharePoint Online interface will display in the selected language. For example in the graphic below, Thai was the selected language when creating the Project Online site. Since Thai is not supported by Project Online, Project Online components and data will display in the alternate language specified for Thai, which is English. SharePoint Online components will still display in Thai.
   
-![Project Center with Bulgarian](media/6a4b2d3d-5140-4c02-811a-e2ac29436130.jpg)
+![Project Center with Bulgarian.](media/6a4b2d3d-5140-4c02-811a-e2ac29436130.jpg)
   
 The following table lists SharePoint Online supported languages in which an alternate Project Online language is provided. 
   

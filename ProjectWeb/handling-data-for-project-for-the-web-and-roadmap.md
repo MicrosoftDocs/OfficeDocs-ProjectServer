@@ -6,11 +6,11 @@ manager: pamgreen
 ms.date: 12/5/2019
 audience: admin
 ms.topic: article
-ms.service: 
+ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how Project for the web uses Dataverse to store and manage data."
 ---
 
@@ -43,7 +43,7 @@ When Project for the web is first used in your Microsoft 365 tenant, a default D
 
 Admins can find the name and details of their default Dataverse instance in the PowerApps admin center (admin.powerapps.com).  
 
-![Dataverse Environment](media/PowerAppsEnvironment.png)
+![Dataverse Environment.](media/PowerAppsEnvironment.png)
 
 ### Deleting user data
 

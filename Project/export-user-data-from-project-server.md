@@ -6,7 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c85c548f-4406-4663-8487-192ee065a803
 description: "Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:"
 ---
@@ -86,7 +86,7 @@ Important notes about running the export scripts:
 2. Right click on the zip file, and click **Properties**. 
 
 3. On the **General** tab, select **Unblock**. 
-    ![Unblocking the file](images/845d5e02-d062-4806-8fdb-c8c0cdd0aa08.png)
+    ![Unblocking the file.](images/845d5e02-d062-4806-8fdb-c8c0cdd0aa08.png)
 
 4. Click **OK.**
 

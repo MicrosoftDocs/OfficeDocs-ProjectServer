@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 41b5c036-6647-4daf-89cb-e56d6c2300ff
 description: "Summary: Enable the Project Web App site collection features to allow the import of SharePoint list projects into Project Web App."
@@ -32,7 +32,7 @@ This video shows the steps involved in enabling the Project Web App site collect
 
 **Video: Enable the Project Web App site collection features in Project Server 2013**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
 
 ## Create a Project Web App database
 <a name="CreateAProjectWebAppDatabase"> </a>

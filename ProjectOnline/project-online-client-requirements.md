@@ -7,7 +7,7 @@ ms.date: 1/17/2018
 audience: admin
 ms.topic: conceptual
 ms.service: project-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.custom:
 - Adm_O365
 - IT_ProjectAdmin
@@ -73,25 +73,25 @@ If you do not readily know what you are using, it can be easy to confuse Project
     
   - You will see **Project Online Desktop Client** if you are using the Project Online Desktop Client. 
     
-    ![Project Information for Project Online Desktop Client](media/e143db0d-2364-4d2d-8e12-74c88636d7f6.png)
+    ![Project Information for Project Online Desktop Client.](media/e143db0d-2364-4d2d-8e12-74c88636d7f6.png)
   
   - You will see **Microsoft Project Professional 2016** if you are using Project Professional 2016. 
     
-    ![Product Information - Project Professional 2016](media/dd82c53a-3c04-4056-9aaa-fe5e83d0d734.jpg)
+    ![Product Information - Project Professional 2016.](media/dd82c53a-3c04-4056-9aaa-fe5e83d0d734.jpg)
   
 4. Select **About Project**.
     
-    ![About Project](media/3e6dff29-1dcb-47c2-a0de-db2f523f7926.png)
+    ![About Project.](media/3e6dff29-1dcb-47c2-a0de-db2f523f7926.png)
   
 5. On the next page that displays, you will see the build number for the Project Professional client you are using at the top of the page. 
     
   - For example, if Product Information shows that you are using the Project Online Desktop Client, 16.0.7629.1000 might display as the build number.
     
-    ![Project Online Desktop Client build number](media/e651b86d-52cb-4e09-b534-97801d8ab17e.png)
+    ![Project Online Desktop Client build number.](media/e651b86d-52cb-4e09-b534-97801d8ab17e.png)
   
   - As another example, if Product Information shows that you are using Project Professional 2016, 16.0.4266.1001 might display as the build number.
     
-    ![Project Professional 2016 build number](media/1d90220d-d919-4ab5-8ebd-6f1c4a19f711.jpg)
+    ![Project Professional 2016 build number.](media/1d90220d-d919-4ab5-8ebd-6f1c4a19f711.jpg)
   
 ## See also
 

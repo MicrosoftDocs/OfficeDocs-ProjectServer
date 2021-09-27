@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 6a279309-9a6f-4b46-b56f-076b59403345
 description: "Summary: Install Project Server 2013 on a SharePoint Server 2013 farm and create a Project Server service application."
@@ -34,7 +34,7 @@ This video shows the steps involved in installing Project Server 2013 and config
   
 **Video: Install and configure Project Server 2013**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## Install and configure Project Server 2013
 

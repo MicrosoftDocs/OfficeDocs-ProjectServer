@@ -7,7 +7,7 @@ ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 0bd0ef33-e1f1-4b46-94c2-4469f0554c7c
 
@@ -27,7 +27,7 @@ The following articles provide information about backing up and restoring Projec
 
 The following articles about backing up and restoring Project Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-|**        ![Building blocks](images/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**        ![Building blocks.](images/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|
 |[Back up Project Server 2013 by using built-in tools](back-up-project-server-2013-by-using-built-in-tools.md) <br/> |Describes how to implement a backup strategy for Project Server farm components by using SharePoint Server and SQL Server tools.  <br/> |
 |[Restore Project Server 2013 by using built-in tools](restore-project-server-2013-by-using-built-in-tools.md) <br/> |Describes how you can do specific restores of Project Server 2013 in multiple ways, whether through a planned event, or as a result of Project Server having real issues that can only be addressed by a restore of a previously known good backup.  <br/> |

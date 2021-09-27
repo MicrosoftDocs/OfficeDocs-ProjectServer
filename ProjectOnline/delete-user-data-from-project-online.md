@@ -7,7 +7,7 @@ ms.date: 5/25/2018
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_Project
 search.appverid: 
 - PJO150
@@ -180,13 +180,13 @@ If you want to find the user's resource ID, PWA admins need to do the following 
     
 2. On the **Resource Center** page, in the **Resource Name** column, locate the user's name then look in that row to see if you can find a value in the **Unique ID** column. This value is the user's Resource ID. For example, in the graphic below, you can see Aaron Painter's Resource ID value listed in the Unique ID column. 
     
-    ![User's Resource ID in the Unique ID column](media/1dee114a-2efc-4368-9e7c-6ecd614f1409.png)
+    ![User's Resource ID in the Unique ID column.](media/1dee114a-2efc-4368-9e7c-6ecd614f1409.png)
   
     In some cases, your table may be customized so that the Unique ID column is not available. If so, select the checkbox to the left of the user name and then click **Edit** located in the **Resources** tab in the ribbon, and then go to the next step. 
     
 3. On the **Edit Resource** page for the specific user, go to the **System Identification Data** section and find the value listed for the **GUID**. The GUID is the users resource ID for this PWA site.
     
-    ![Finding a users Resource ID](media/5d716343-d912-46f8-a5b1-42e994644fbb.png)
+    ![Finding a users Resource ID.](media/5d716343-d912-46f8-a5b1-42e994644fbb.png)
   
 > [!NOTE]
 > If you have multiple PWA sites, each PWA site will have a different Resource ID for the same user. Make sure to pair the Resource ID your find for the user with the specific PWA site URL. 

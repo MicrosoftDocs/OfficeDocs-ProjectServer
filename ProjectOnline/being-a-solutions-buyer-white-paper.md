@@ -7,7 +7,7 @@ ms.date: 11/19/2015
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -64,7 +64,7 @@ Next you'll need to look a little deeper into what this means in terms of softwa
   
 Here's an effective way to do this: Put the key personnel into a room with a big whiteboard. Divide the whiteboard into 4 columns: Start with a heading in only the far right column. Call it "Business Decision." 
   
-![Whiteboard with four columns, including a Business Decision column](media/a19f2de4-c30e-47d4-9f52-e7b2ebedd95f.jpg)
+![Whiteboard with four columns, including a Business Decision column.](media/a19f2de4-c30e-47d4-9f52-e7b2ebedd95f.jpg)
   
 In the right column you are going to list business decisions you hope to make by using the new system you are considering. When we do this with a client, the first thing people want to do is to list a lot of features, so you'll have to insist that the answers which are important are business decisions. For example, a participant may immediately say, "I need a list of all resources and their workload." That may be true, of course, but what you need to find out is what business decision they will make with that list. 
   
@@ -74,7 +74,7 @@ Some examples of business decisions might be:
     
 - Making a go or no-go decision on a project
     
-![Whiteboard with Business Decision column and a list of business decisions](media/518ecc89-4e77-4ef6-9b17-0481359208e7.jpg)
+![Whiteboard with Business Decision column and a list of business decisions.](media/518ecc89-4e77-4ef6-9b17-0481359208e7.jpg)
   
 Once you've got a decent list of business decisions, pause. Now is a good time to review the business decision list and identify the top priority decisions. You might want to ask yourselves this question: If you could only get answers for one of these business decisions, which would deliver the most value to the organization? Picking the top three decisions is always easiest at this point in the process. 
   
@@ -84,7 +84,7 @@ Next, look at each decision and ask, "In order to make that business decision, w
   
 For example, we might say that to determine whether to hire or fire personnel for a particular department, we need a report by department showing the resource capacity planning data. This includes a forward forecast of expected workload, expected resource availability, and schedule. If you are a mid-sized business, the cash flow might also be a concern. You might, for example, have a need for additional personnel but not be able to find the cash to hire them. The cash flow report would include estimated incomes and outflows of money with a running balance.
   
-![Whiteboard with a Report and Business Decision column](media/6d60ed33-ff3c-461b-a52d-4cfb4a4eb0d8.jpg)
+![Whiteboard with a Report and Business Decision column.](media/6d60ed33-ff3c-461b-a52d-4cfb4a4eb0d8.jpg)
   
 If we fill in the Report column for each of the decisions we've identified as our priorities, the shape of what we'll require is already starting to become clear. Once you're done, you've got a list of physical output that you require from your prospective system.
   
@@ -92,7 +92,7 @@ Pause again here to find out if there are already reports of the type you've ide
   
 With the key reports now identified, we can move to the elements of a system required to generate those reports. Add the heading "Analysis" to the 2nd column of the chart. For each report, identify the analyses or algorithms that are required to generate the report. For example, for a resource capacity planning report, we might require a critical path schedule from the project management system and a resource leveling analysis.
   
-![Whiteboard with Analysis, Report, and Business Decision columns](media/2b4a0b17-7d39-4951-94d7-afbb613d87a5.jpg)
+![Whiteboard with Analysis, Report, and Business Decision columns.](media/2b4a0b17-7d39-4951-94d7-afbb613d87a5.jpg)
   
 These analyses will often be marketed by vendors on the basis of the myriad of features that each includes. (Yes, feature-by-feature selling is still alive and well!) What you need to be able to determine is the minimal functionality that will deliver the reports you require with which you can then make or improve the business decision that you have identified. You may be surprised at how basic is the functionality that you require in order to fulfill your actual business requirements. For some reports, no analysis or calculations will be required at all; the reports need only to be simple aggregates that can be generated right out of the new system's data.
   
@@ -102,7 +102,7 @@ Add the heading "Input" to the 1st column of your chart.
   
 In the example we've been using, we might require a complete list of tasks for each project implicated in the department's work. This might very well be every project in the organization. We'll also need a complete profile of the availability of each resource along with the workload defined on each task such that when the task moves in the schedule analysis, the workload moves in the resource leveling analysis. Also, remember how we started with the decision of hiring or firing in a particular department? We'll also need to be able to identify the resources by department. 
   
-![Whiteboard with Input, Analysis, Report, and Business Decision columns](media/078d2686-a9cd-493e-8d0a-0296c4a9a60b.jpg)
+![Whiteboard with Input, Analysis, Report, and Business Decision columns.](media/078d2686-a9cd-493e-8d0a-0296c4a9a60b.jpg)
   
 We can move like this from the outputs on the right to the inputs on the left until we have identified everything we'll need in our new enterprise system. 
   

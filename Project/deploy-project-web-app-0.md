@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 5c2227b8-6cf0-4397-9348-bb876a59e89c
 description: "Summary: Learn about the two ways to deploy a Project Web App site."
@@ -37,7 +37,7 @@ In this chalk talk, Microsoft Program Manager Chris Boyd discusses the differenc
   
 **Video: Project Web App site deployment options**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## See also
 

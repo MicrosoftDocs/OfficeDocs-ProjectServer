@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to define and configure the portfolio analysis business drivers that support project prioritization in the Project Web Application."
@@ -43,7 +43,7 @@ Your organization will benefit from business drivers. The process of defining bu
 
 PWA will support the mapping of each project and proposed project to a set of business drivers. This will allow PWA to calculate the optimal mix of projects based on organizational priorities and constraints.
 
-![Menu bar showing Driver options](media/02-image1.png)
+![Menu bar showing Driver options.](media/02-image1.png)
 
 To get started creating business drivers:
 
@@ -63,7 +63,7 @@ To get started creating business drivers:
 
 Enter a description that clearly describes the driver. The description should also provide a suggested measure for how to assess performance against the driver.
 
-![Driver description dialog box](media/02-image2.png)
+![Driver description dialog box.](media/02-image2.png)
 
 For example, a driver called "Enhance Customer Satisfaction" may be tied to a specific survey that is performed over time to assess customer satisfaction.
 
@@ -71,7 +71,7 @@ For example, a driver called "Enhance Customer Satisfaction" may be tied to a sp
 
 Impact statements should be measurable. For example, a "Strong" impact on the Enhance Customer Satisfaction driver may include an increase of 10 percentage points on an annual customer satisfaction survey.
 
-![Project impact statements display](media/02-image3.png)
+![Project impact statements display.](media/02-image3.png)
 
 Project impact statements should be written in a positive way that describes a desirable outcome. For example, if the organization wishes to decrease its exposure to risk, a strong impact statement may be written as, "The project will reduce our corporate exposure to IT risk by closing at least 2 high profile findings from our last audit."
 

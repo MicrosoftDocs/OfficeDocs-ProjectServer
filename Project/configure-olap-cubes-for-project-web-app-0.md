@@ -7,7 +7,7 @@ ms.date: 11/21/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: f64d7cd6-8795-4c79-baec-eefdb5be1a61
 description: "Summary: Set up OLAP cubes for Project Web App."

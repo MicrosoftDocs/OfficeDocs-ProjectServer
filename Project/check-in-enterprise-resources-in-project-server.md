@@ -7,7 +7,7 @@ ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4284926b-3558-4d2f-8061-bb4b6970531e
 description: "Summary: You can force the check-in of an enterprise resource by using Project Web App."
 ---

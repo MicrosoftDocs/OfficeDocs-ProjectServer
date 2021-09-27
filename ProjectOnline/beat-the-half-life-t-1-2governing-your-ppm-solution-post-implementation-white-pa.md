@@ -7,7 +7,7 @@ ms.date: 1/4/2017
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJU140
@@ -129,7 +129,7 @@ Some of the other key components for a successful governance strategy include, b
 
 Let's take all the components discussed above as part of building a governance strategy, and build a process around it. Here it how it might look (could vary based on organizational requirements).
   
-![Governance strategy diagram showing how a user submits a request and it is routed for review and approval through the governance committee](media/947f328e-1187-4dbe-95b7-387b2ca98caf.jpg)
+![Governance strategy diagram showing how a user submits a request and it is routed for review and approval through the governance committee.](media/947f328e-1187-4dbe-95b7-387b2ca98caf.jpg)
   
 ### Conclusion
 

@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Get a high-level overview of the Project logical architecture."
 ---
 
@@ -20,7 +20,7 @@ This article gives you an overview of the logical architecture that exists for k
 
 
 
-![Project logical architecture diagram](media/project-architecture-overview-early-version.png)
+![Project logical architecture diagram.](media/project-architecture-overview-early-version.png)
 
 
 
@@ -46,9 +46,9 @@ The key Project apps described in this article are available in the following Pr
 
 |**Plan**|**Project Plan 1**|**Project Plan 3**|**Project Plan 5**|
 |:-----|:-----|:-----|:----|
-|Project or the web  <br/> |Available  <br/> |Available  |Available|
+|Project for the web  <br/> |Available  <br/> |Available  |Available|
 |Roadmap <br/>| Read-Only | Available|Available |
-|Project Online <br/> |Not Available  <br/> |Available| Available|
+|Project Online <br/> |Team member access  <br/> |Available| Available|
 |Project Online Desktop Client<br/> |  Not Available<br/> |Available | Available|
 
 
@@ -72,7 +72,7 @@ Project for the web  data is saved in entities in [Solutions](/powerapps/maker/c
 
 
 ### Reporting
-You can use PowerBI Desktop to import and analyze not only your Project Online data, but also your Project for the web data as well. You can use the same [Project Power BI template](/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data.
+You can use PowerBI Desktop to import and analyze your Project for the web and Project Online data. You can use the same [Project Power BI template](/project-for-the-web/connect-to-project-for-the-web-data-through-powerbi-desktop) to view a Portfolio dashboard of reports that can be helpful in analyzing your data.
 
 
 ## Roadmap

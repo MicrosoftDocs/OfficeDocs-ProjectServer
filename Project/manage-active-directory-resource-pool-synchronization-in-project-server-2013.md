@@ -7,7 +7,7 @@ ms.date: 11/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 8f7ef435-af46-4575-baef-4f36d7debf24
 
@@ -175,7 +175,7 @@ By default, People Picker only returns users, groups, and claims from the domain
   
 For example, the Contoso.com domain has a two-way trust with Litware.com and Fabrikam.com. The Project Server 2013 ERP synchronization defined in the Contoso.com domain in which the Project Server 2013 farm resides is configured to include Bob (from the Fabrikam.com domain) and Mindy (from the Litware.com domain). People Picker finds both groups in which both Bob and Mindy reside in their domain's Active Directory, the Project Server 2013 ERP synchronization will synchronize the group and both users successfully. If no trust or a one-way trust existed between the Contoso.com domain and the other domains, the users would not be able to synchronize to the Project Server 2013 ERP.
   
-![People Picker - Domains with Two-Way Trust](images/ADSyncPeoplePickerTrustDomain.jpg)
+![People Picker - Domains with Two-Way Trust.](images/ADSyncPeoplePickerTrustDomain.jpg)
   
 ## See also
 <a name="PP"> </a>

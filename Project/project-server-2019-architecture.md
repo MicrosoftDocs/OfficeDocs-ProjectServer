@@ -7,7 +7,7 @@ ms.date: 9/15/2018
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 
 description: "Summary: Learn about the general architecture of Project Server 2019."
@@ -27,7 +27,7 @@ The front-end tier includes Project Professional 2016, Project Professional 2019
 
 Below is a generalized view of the Project Server 2019 architecture, including the Project Service Application and several client applications.
   
-![Diagram of Project Server 2019 architecture](images/ProjServ2019_arch.png)
+![Diagram of Project Server 2019 architecture.](images/ProjServ2019_arch.png)
   
 The following general comments apply to the illustration above:
   

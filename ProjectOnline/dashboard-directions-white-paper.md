@@ -7,7 +7,7 @@ ms.date: 12/30/2016
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -32,7 +32,7 @@ To see more articles, see ["From the Trenches" white papers](https://support.off
 
 There's no doubt about it. Dashboards are all the rage. Whether it's a bar chart, a histogram, a pie chart or a traffic light warning view, executives seem addicted to the instant response of a dashboard. 
   
-![Business Intelligence Center site in SharePoint Server 2010](media/cc526bde-7615-49b8-b160-34322586b435.jpg)
+![Business Intelligence Center site in SharePoint Server 2010.](media/cc526bde-7615-49b8-b160-34322586b435.jpg)
   
 With more and more pressure in our business culture to deliver faster and faster results, the demand for dashboards is not likely to abate anytime soon.
   
@@ -68,7 +68,7 @@ Dashboards are so visually stimulating, we often forget that they are supposed t
 
 Remember the Wizard of Oz when they finally pulled back the curtain and found just a regular guy who was pulling the levers and turning the dials to generate all the impressive "magic"? 
   
-![Reporting Services scorecard showing project status](media/fc5c2735-d016-46c3-a3a6-09c87cbd4243.jpg)
+![Reporting Services scorecard showing project status.](media/fc5c2735-d016-46c3-a3a6-09c87cbd4243.jpg)
   
 Beautiful displays that are driven by human intervention are something we see all the time in dashboards. A great deal of work goes into the design and presentation, including great graphics, great icons, great colors and even animation and sound effects. The problem is that no one has traced a path between the data and the dashboard and the result is that someone has to sit at a desk and decide manually what indicator to make which color. 
   
@@ -80,7 +80,7 @@ The same principle holds if you're designing a dashboard. For every indicator, t
 
 "If we can measure it, we will put it on the dashboard," seems to be the mantra of some dashboard designers.
   
-![Scorecard showing status for several projects](media/9b79658d-0a9e-4d67-b754-6b6c7a02617f.jpg)
+![Scorecard showing status for several projects.](media/9b79658d-0a9e-4d67-b754-6b6c7a02617f.jpg)
   
 It's easy to get caught up in the technology of dashboarding and there's a certain visceral thrill when you locate some data that seems measurable and understandable and you make an indicator out of it. Suddenly instead of a boring old list of costs, you've got thermometers filling up with red or tachometers revving into the red-zone or arrows in different colors. Don't think this is fun? Give it a try in Excel for a half-hour by using the new Conditional Formatting functionality of Excel 2010 (or Excel 2013).
   
@@ -94,17 +94,17 @@ Here's a basic rule that should make for fewer displays: Every indicator needs a
 
 You wouldn't eat a cake that only had half the ingredients, especially if you didn't know which half were missing. On a dashboard, how do you know you have all the data?
   
-![Status indicators for several project metrics (Cost, Health, Quality, Resource, and Schedule)](media/b9a8f52f-6caa-4f22-9ae0-265ae3424953.jpg)
+![Status indicators for several project metrics (Cost, Health, Quality, Resource, and Schedule).](media/b9a8f52f-6caa-4f22-9ae0-265ae3424953.jpg)
   
 Let's take an example of looking at resource capacity reporting. The resource traffic light has become red for IT (isn't it always?) Now management wants to look at the problem and when they look at the detail, they see the obvious answer. The indicator must be red because IT is so over-staffed! 
   
-![Histogram showing projects compared to organizational capacity](media/8ca0f0d0-ae60-4cba-9857-796298963903.jpg)
+![Histogram showing projects compared to organizational capacity.](media/8ca0f0d0-ae60-4cba-9857-796298963903.jpg)
   
 This first histogram shows the problem. The red line shows the capacity of the organization. The stacked histograms show the combined requirements projected by adding the requirements of all projects together. If this is the dashboard that we present to management, the decision to either accept a lot more work or to reduce our staffing levels immediately would be obvious.
   
 Ah, but hold on a moment. Just before the reduction in staffing levels plan goes into effect, it occurs to someone to check to see if all projects were represented in the dashboard view. 
   
-![Adjusted histogram showing project status with staffing reduction taken into account](media/3ccf9af1-bf05-4131-9a56-4509092677d9.jpg)
+![Adjusted histogram showing project status with staffing reduction taken into account.](media/3ccf9af1-bf05-4131-9a56-4509092677d9.jpg)
   
 They were not.
   
@@ -124,7 +124,7 @@ It's not uncommon to do an audit of a dashboard indicator only to find that the 
   
 Identical indicators mean either that things haven't changed (unlikely in most project environments) or that the data hasn't been updated (much more likely in a lot of organizations). For those in Finance who often live and die from the results of their spreadsheet, or a massive spreadsheet farm made up of many sub-ledgers, this is a common error. Project managers and those who look at project data may be less likely to catch such errors without stringent care.
   
-![Stacked bar chart showing cost information for one year over different departments](media/ca9b2575-2c3a-4203-9cc9-29f34bc375cd.jpg)
+![Stacked bar chart showing cost information for one year over different departments.](media/ca9b2575-2c3a-4203-9cc9-29f34bc375cd.jpg)
   
 The worst case scenario is one where some of the data has been updated and is current and some of the data has not been updated at all. So, perhaps the forward plan was updated on half the projects, and the actuals for the last period were posted to those projects but the other half of the projects did not have actuals posted or have their plan updated. If decisions are going to be made on the dashboard view or the resulting data that it came from, how current that data is should be displayed somewhere.
   
@@ -146,7 +146,7 @@ Data that is going to show up on an indicator on a dashboard has to have some pr
 
 Let's go back to that dashboard traffic light report and look at the IT line again. 
   
-![Project metrics (Cost, Health, Quality, Resource, and Schedule) for IT department](media/14a1f3c0-ea30-47cc-810a-2fdeca5404ea.jpg)
+![Project metrics (Cost, Health, Quality, Resource, and Schedule) for IT department.](media/14a1f3c0-ea30-47cc-810a-2fdeca5404ea.jpg)
   
 Let's imagine that IT has red lights for both the schedule and cost indicators on a particular year-long project because it's June and both indicators are off by more than 20%! 
   

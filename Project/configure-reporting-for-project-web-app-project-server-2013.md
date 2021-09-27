@@ -7,7 +7,7 @@ ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 400e26f1-b21d-489a-8c6e-a1bc30e6e0c7
 
@@ -44,7 +44,7 @@ This video shows the steps involved in configuring reporting in Project Web App,
   
 **Video: Configure reporting for Project Web App**
 
-![Video (play button) icon](images/mod_icon_video_M.png)
+![Video (play button) icon.](images/mod_icon_video_M.png)
   
 ## Configure prerequisites
 <a name="ConfigurePrerequisites"> </a>

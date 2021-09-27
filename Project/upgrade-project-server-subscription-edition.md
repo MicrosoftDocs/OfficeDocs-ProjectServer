@@ -7,7 +7,7 @@ ms.date: 6/21/2021
 audience: ITPro
 ms.topic: hub-page
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
@@ -28,9 +28,9 @@ The following articles about upgrading to Project Server Subscription Edition ar
   
 |**Icon**|**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Overview of the Project Server Subscription Edition upgrade process](overview-project-server-subscription-edition-upgrade-process.md) <br/> |Provides an overview of the steps required to upgrade to Project Server Subscription Edition.  <br/> |
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Plan for upgrade to Project Server Subscription Edition](plan-upgrade-project-server-subscription-edition.md) <br/> |Learn about things you need to consider when planning to upgrade to Project Server Subscription Edition.  <br/> |
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server Subscription Edition](how-to-upgrade-project-server-subscription-edition.md) <br/> |Learn how to upgrade to Project Server Subscription Edition.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Overview of the Project Server Subscription Edition upgrade process](overview-project-server-subscription-edition-upgrade-process.md) <br/> |Provides an overview of the steps required to upgrade to Project Server Subscription Edition.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Plan for upgrade to Project Server Subscription Edition](plan-upgrade-project-server-subscription-edition.md) <br/> |Learn about things you need to consider when planning to upgrade to Project Server Subscription Edition.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Upgrading to Project Server Subscription Edition](how-to-upgrade-project-server-subscription-edition.md) <br/> |Learn how to upgrade to Project Server Subscription Edition.  <br/> |
 
 > [!NOTE]
 > For information about upgrading to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition).

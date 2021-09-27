@@ -7,7 +7,7 @@ ms.date: 11/19/2015
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -119,23 +119,23 @@ Modern project management has extended the concepts originally created for mega 
   
 Let's take this example:
   
-![Microsoft Project view showing Chris overbooked](media/c6451d16-c678-48e8-8ada-7ea89cfd94f0.jpg)
+![Microsoft Project view showing Chris overbooked.](media/c6451d16-c678-48e8-8ada-7ea89cfd94f0.jpg)
   
 I've got a simple project here in Project Professional 2007. I've started the project with a milestone and added two tasks which are to start right after the milestone is complete. As soon as I assign Chris to both tasks, I've got a resource leveling problem. As you can see by the split screen, Chris is allocated to twice his availability which makes perfect sense.
   
 Now let's level the project using Project's Resource Leveling algorithm: 
   
-![Microsoft Project view showing Chris's consecutive tasks so he's not overbooked](media/d7a565f5-5ee2-429e-ab5f-c90726bd4e32.jpg)
+![Microsoft Project view showing Chris's consecutive tasks so he's not overbooked.](media/d7a565f5-5ee2-429e-ab5f-c90726bd4e32.jpg)
   
 Again, things are perfect. Chris's tasks have been spread over a two week period instead of one, showing how one of the tasks has to be delayed to a second week in order to get it all accomplished. Also, Chris is shown to be working continuously from week one to week two.
   
 All's well it seems until we add another resource to the calculation. Let's go back to our first situation and add a couple of additional tasks to the project but assign them to someone else:
   
-![Microsoft Project view showing Chris's and John's tasks](media/713f38f5-6dbe-4934-ad08-331fb025bac3.jpg)
+![Microsoft Project view showing Chris's and John's tasks.](media/713f38f5-6dbe-4934-ad08-331fb025bac3.jpg)
   
 Now I've got two people working at once. Chris is back to his over-allocated situation (you can see both of his tasks in week one and we've added three tasks for John who will start at the same time. John's tasks, though, are already resource leveled because there is some sequence to them. If we're looking just at John's situation, it looks fine. John is working continuously from week one into week two, but what happens when we apply the resource leveling algorithm now?
   
-![Microsoft Project view showing Chris's and John's tasks and a one-week gap for John](media/b61edbf9-f47d-4bbd-b719-4d0aad5517c4.jpg)
+![Microsoft Project view showing Chris's and John's tasks and a one-week gap for John.](media/b61edbf9-f47d-4bbd-b719-4d0aad5517c4.jpg)
   
 Project levels Chris's time just the way it did the first time and Chris's work is continuous from week one to week two. John, however, is going to have a full week's gap in his work as he waits for Chris to complete his second task. It's unlikely that we'll want to have John reading the newspaper and staying idle in his cubicle for an entire week, so it will now be up to John and Chris's supervisor(s) to manually manage how they should schedule their time. 
   

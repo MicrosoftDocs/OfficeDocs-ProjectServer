@@ -7,7 +7,7 @@ ms.date: 12/30/2016
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -38,7 +38,7 @@ Organizations were huge silos of departments ruled by strong department leaders.
   
 In a projectized matrix, we establish a second axis to our organization and we give some responsibility to that part of the organization that manages projects. The result has organizational departments along one side of the display and project managers delivering projects or products down the other.
   
-![Departments share in project management responsibilities](media/13b37df1-4ddb-4642-b369-eebe1adb1f91.jpg)
+![Departments share in project management responsibilities.](media/13b37df1-4ddb-4642-b369-eebe1adb1f91.jpg)
   
 Why talk about this while talking about Enterprise Project Management? Because this model has become the cornerstone of virtually every Microsoft EPM Solution deployment. If you're now working on deployment of Project Server then you're sure to run into this model in your travels. There are exceptions to the Matrix Management model which I'll discuss before I'm done here, but suffice it to say that it is close to universal if we look at technology organizations. 
   

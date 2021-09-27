@@ -7,7 +7,7 @@ ms.date: 12/30/2016
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJU150
@@ -37,7 +37,7 @@ If you're using Project Web App, you might be wondering what tools you can use t
 The sections below provide more information about reporting options for project data. To download a poster that summarizes all of these tools, see [Business intelligence for Project in Office and SharePoint](https://download.microsoft.com/download/8/d/6/8d65bb82-828e-4202-8829-89353b4ed12f/AF104195754_en-us_projectbi_handout_2014.pdf
 ). 
   
-[![BI for Project in Office and SharePoint](media/88a9ea4a-fa1e-45df-b3e0-1f7b6771e03d.png)](https://download.microsoft.com/download/8/d/6/8d65bb82-828e-4202-8829-89353b4ed12f/AF104195754_en-us_projectbi_handout_2014.pdf
+[![BI for Project in Office and SharePoint.](media/88a9ea4a-fa1e-45df-b3e0-1f7b6771e03d.png)](https://download.microsoft.com/download/8/d/6/8d65bb82-828e-4202-8829-89353b4ed12f/AF104195754_en-us_projectbi_handout_2014.pdf
 )
   
 ## Sample reports in Project Web App
@@ -79,7 +79,7 @@ Many other BI features are available, including Power Query, Power Pivot, Power 
 
 If you're using Project 2013, you have a wide variety of reports available on the **Report** tab. 
   
-![Report tab in Project 2013](media/fabe0d1b-4a78-47be-b0b1-3259ccab86de.jpg)
+![Report tab in Project 2013.](media/fabe0d1b-4a78-47be-b0b1-3259ccab86de.jpg)
   
 See [Pick the right report in Project 2013](https://support.office.com/article/61324235-aaec-4eef-acab-4c5245fedaeb) for an overview of the different reports that are available. 
   

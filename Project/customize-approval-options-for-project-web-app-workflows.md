@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cf2625c-858d-4f98-a77a-3e566cb63a22
 description: "Summary: Learn how to add additional approval options to a Project Web App workflow approval task."
 ---
@@ -56,7 +56,7 @@ The first thing that we need to do is to add the new Revise and Resubmit option 
 
 We'll be using the Sample Workflow that you created in [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md) to build a workflow that looks like this:
   
-![Screenshot of workflow in SharePoint Designer](images/WorkflowCustomizeApprovalOptions.png)
+![Screenshot of workflow in SharePoint Designer.](images/WorkflowCustomizeApprovalOptions.png)
   
 If you've completed the procedures in other articles in this series, you may already have part of this workflow in place. The complete steps for creating this workflow are in the following procedure.
   

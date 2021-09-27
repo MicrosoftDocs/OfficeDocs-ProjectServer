@@ -7,7 +7,7 @@ ms.date: 12/20/2016
 audience: ITPro
 ms.topic: overview
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
@@ -203,7 +203,7 @@ In Project Server 2016, note that there are several changes to the way timelines
   
 In Project Server 2016, you can easily create a new project through the Get Started with Project Web App window that displays on the Project Web App home page. Selecting **Create or Import project** will start the Create a new project wizard that will help guide your user through the required steps.
   
-![Create or import projects wizard](images/c55966f3-893a-484a-ada9-548019d651df.png)
+![Create or import projects wizard.](images/c55966f3-893a-484a-ada9-548019d651df.png)
   
 > [!NOTE]
 > For more information, see [Create a project in Project Web App](https://go.microsoft.com/fwlink/p/?LinkId=746895). 

@@ -7,7 +7,7 @@ ms.date: 7/24/2018
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
@@ -25,7 +25,7 @@ description: "Summary: View a high-level overview of the steps required to upgra
   
 ## Overview of the Project Server 2019 upgrade steps
 
-![Project Server 2019 upgrade steps](images/Update-for---Create-a-SharePoint-Server.png)
+![Project Server 2019 upgrade steps.](images/Update-for---Create-a-SharePoint-Server.png)
   
 Upgrading to Project Server 2019 can be broken up into four steps. These include:
   

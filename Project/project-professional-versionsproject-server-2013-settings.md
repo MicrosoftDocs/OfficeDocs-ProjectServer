@@ -7,7 +7,7 @@ ms.date: 12/01/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4b04ada0-efbd-4fb2-a690-0ced8dd2a32d
 description: "Summary: Use the Project Professional Versions setting to define which builds of Project Professional 2013 can connect to Project Server 2013."

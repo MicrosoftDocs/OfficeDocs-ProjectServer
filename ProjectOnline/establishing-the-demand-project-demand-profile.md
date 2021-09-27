@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to define the resource demand through task assignments within the project schedule."
@@ -62,19 +62,19 @@ This article will focus on bottom up estimating within PWA.
 
 Task assignments may be classified as either proposed or committed. Many organizations use these booking types to drive logic within the resource analysis calculations. The resource administrator may assign a default booking type to each of the resources listed in the PWA Resource Center.
 
-![Assignment Attributes pane](media/06-image3.png)
+![Assignment Attributes pane.](media/06-image3.png)
 
 The booking type also impacts some of the resource capacity calculations in the Resource Center. For example, some organizations decide not to review the demand assigned to proposed bookings. It is assumed that these assignments have not been confirmed, and thus should not count towards forecast resource demand.
 
 When creating the resource analysis, you should pick the appropriate option that is aligned with how your organization is forecasting work. The default setting is that only committed work is calculated.
 
-![Resource capacity impact](media/07-image2.png)
+![Resource capacity impact.](media/07-image2.png)
 
 ## Configuring the schedule
 
 You will need to "tell" PWA how you are estimating your tasks for each of the projects in the project portfolio. You can designate that the schedule should use the task assignments or associated resource engagements. (By default, project task assignments are calculated within the resource analysis.)
 
-![Project Information scheduling](media/07-image3.png)
+![Project Information scheduling.](media/07-image3.png)
 
 To toggle the calculation method, open the schedule in Microsoft Project Professional. Navigate to the Project Information screen and toggle the option marked "Calculate Resource Utilization From..." Save and republish the project for the changes to take effect in any new resource analysis.
 

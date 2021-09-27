@@ -7,7 +7,7 @@ ms.date: 6/1/2017
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJO150
@@ -27,11 +27,11 @@ Project Web App can be set up to send email notifications, helping people stay o
   
  **To turn on notifications**
   
-1. In Project Web App, choose **Settings**![Settings (Gear icon)](media/3230fc19-41c8-41a6-a48c-0c482d23e20f.png) \> **PWA Settings**.
+1. In Project Web App, choose **Settings**![Settings (Gear icon).](media/3230fc19-41c8-41a6-a48c-0c482d23e20f.png) \> **PWA Settings**.
     
 2. Under **Operational Policies**, choose **Additional Server Settings**.
     
-    ![Additional Server Settings](media/dfdb2807-b9b7-407b-a5f1-f848e53f83b0.png)
+    ![Additional Server Settings.](media/dfdb2807-b9b7-407b-a5f1-f848e53f83b0.png)
   
 3. Under **Notification Email Settings** (at the bottom of the page), select the **Turn on notifications** check box, and then choose **Save**.
     

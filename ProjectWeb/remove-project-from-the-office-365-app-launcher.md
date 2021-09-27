@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to remove the Project tile from the Office 365 App Launcher for your users."
 ---
 
@@ -19,7 +19,7 @@ description: "Learn how to remove the Project tile from the Office 365 App Launc
 
 If you have users with one of the [Office 365 User view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md#office-365-user-view-access-to-project-and-roadmap), a Project tile will display in the Office 365 App Launcher.  
 
-![Project tile](media/applauncher.png)
+![Project tile.](media/applauncher.png)
 
 An admin may want to keep the Project tile from displaying for the user in some situations, such as: 
 
@@ -37,7 +37,7 @@ To remove the Project tile from the App Launcher for a user, an admin needs to r
 
 2. From the **Active users** list, select the checkbox next to the user, and then click **Manage product licenses**. 
 
-   ![Select user](media/activeusers.png)
+   ![Select user.](media/activeusers.png)
 
 3. On the user information page, select the **licenses and apps** tab, in the **Apps** section, select the user's Microsoft 365 or Office 365 license from the **Show apps for** drop-down menu.  
 

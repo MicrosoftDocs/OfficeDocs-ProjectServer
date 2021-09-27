@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to use the PWA portfolio analysis functionality to model resource scenarios."
@@ -33,7 +33,7 @@ Three inputs are required to perform resource analysis in PWA:
 
 This article will teach you how to interpret and use the **Analyze Resources** screen in PWA. This screen will become available after [you have saved a scenario](perform-cost-optimization.md) in the **Analyze Cost** screen.
 
-![Analyze Resources option on toolbar](media/12-image1.png)
+![Analyze Resources option on toolbar.](media/12-image1.png)
 
 This Analyze Resources screen is split into three components:
 
@@ -49,19 +49,19 @@ Additional features are available using the various reports available from the r
 
 The metrics grid in the top left of the screen displays high level scenario calculations.
 
-![Sample metrics grid](media/12-image2.png)
+![Sample metrics grid.](media/12-image2.png)
 
 You may add custom fields to the **Totals** section. These fields will provide calculated indicators of the variables impacting your portfolio.
 
 The various calculation options may be controlled through the **Options** tab. The primary control on this tab is the **Units** field. **Units** may be set as either FTE or Cost.
 
-![Options tab](media/12-image3.png)
+![Options tab.](media/12-image3.png)
 
 If you set the **Units** option in the **Options** tab to "*FTE*," the **Hire Resources** cell in the **Resource Constraints** section is editable. You can enter the number of additional resources you expect to hire to support the portfolio. The system will calculate the cost of these additional resources.
 
 If you set the **Units** option in the **Options** tab to "Cost," Additional Resources are displayed in the Resource Constraints section. You can enter additional funding for resources in this field. The system will calculate the number of additional resources that may be hired with these funds.
 
-![Sample resources metrics grid](media/12-image4.png)
+![Sample resources metrics grid.](media/12-image4.png)
 
 The **Options** tab controls several other calculation variables:
 
@@ -109,17 +109,17 @@ The **Options** tab controls several other calculation variables:
 
 PWA can assess the impact of adding resources on the overall portfolio. Simply type the number of resources that you want to add in the **Hire Resources** box, and then click **Recalculate** on the ribbon. These calculations are affected by the settings in the **Options** tab.
 
-![Analyze Resources option on toolbar](media/12-image1.png)
+![Analyze Resources option on toolbar.](media/12-image1.png)
 
 The resource analysis view will update to show you how many projects you can deliver, and the **Hired Resources Report** (under **Reports** on the ribbon) will update to show which resource roles need to be hired.
 
-![Reports on toolbar](media/12-image5.png)
+![Reports on toolbar.](media/12-image5.png)
 
 ## Scenario chart
 
 When you save a resource scenario, it will appear on the **Scenario Chart**.
 
-![Sample scenario chart](media/12-image6.png)
+![Sample scenario chart.](media/12-image6.png)
 
 The **Scenario Chart** is a scatter graph depicting each of the scenarios by cost and strategic value. Note that the cost depicted on this chart is the additional cost required to hire more resources (i.e., the **Additional Resource** cost).
 
@@ -127,7 +127,7 @@ The **Scenario Chart** is a scatter graph depicting each of the scenarios by cos
 
 The Resource Analysis functionality allows the user to perform what-if analysis on the projects within the scenario.
 
-![Sample Gantt chart view](media/12-image7.png)
+![Sample Gantt chart view.](media/12-image7.png)
 
 The following variables may be modified to assess the impact on the overall portfolio:
 
@@ -142,7 +142,7 @@ The following variables may be modified to assess the impact on the overall port
 
 Projects may be forced in or out of the calculation in the Gantt Chart view.
 
-![Sample Gantt chart with forced-in highlighted](media/12-image8.png)
+![Sample Gantt chart with forced-in highlighted.](media/12-image8.png)
 
 This feature works much like the similar function in the Cost Analysis module. You may force projects out of the calculation. This will free the resources from those projects to support other projects. You may also force projects into the calculation. Forcing a project in may divert resources from other projects.
 
@@ -150,7 +150,7 @@ This feature works much like the similar function in the Cost Analysis module. Y
 
 You can move projects forward or backward on the calendar to see how this affects your resource allocation.
 
-![Sample chart with dates highlighted](media/12-image9.png)
+![Sample chart with dates highlighted.](media/12-image9.png)
 
 Experimenting with various project schedules may help you fit more projects into the portfolio.
 
@@ -162,23 +162,23 @@ Changing the start date in the Resource Analysis Gantt chart does not affect the
 
 PWA provides several ways to analyze the impact of scenarios on your resource pool.
 
-![Requirements Details option highlighted on Analysis tab](media/12-image10.png)
+![Requirements Details option highlighted on Analysis tab.](media/12-image10.png)
 
 The Requirements Details view lets you examine the calculated scenario in more detail.
 
-![Sample requirements details view](media/12-image11.png)
+![Sample requirements details view.](media/12-image11.png)
 
 The **Resource Availability** section at the top of the page displays a summary of the resources defined in the **Enterprise Resource Pool**.
 
-![Sample resource availability view](media/12-image12.png)
+![Sample resource availability view.](media/12-image12.png)
 
 Toggle the **Highlight Deficits** option on the top right of the page to highlight those roles that are overcommitted to the project portfolio.
 
-![Sample Highlight Deficits view](media/12-image13.png)
+![Sample Highlight Deficits view.](media/12-image13.png)
 
 The **Project Requirements** grid displays a number of useful fields.
 
-![Sample project requirements grid](media/12-image14.png)
+![Sample project requirements grid.](media/12-image14.png)
 
 | Field          | Description                                                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------- |
@@ -197,11 +197,11 @@ Click on the **Reports** button on the **Analysis** tab to access the two report
 
 - The Hired Resources Report.
 
-![Reports option highlighted on the Analysis tab](media/12-image15.png)
+![Reports option highlighted on the Analysis tab.](media/12-image15.png)
 
 The Deficit and Surplus Report displays a summary of the resource pool.
 
-![Sample deficit and surplus report](media/12-image16.png)
+![Sample deficit and surplus report.](media/12-image16.png)
 
 Positive numbers show where you have more resources than needed. Negative numbers indicate that you do not have enough resources. These numbers are based on all the projects in your cost analysis scenario.
 
@@ -209,11 +209,11 @@ Positive numbers show where you have more resources than needed. Negative number
 
 Run the Hired Resource Report to see the impact of the resource analysis recalculation.
 
-![Reports option highlighted on the Analysis tab](media/12-image15.png)
+![Reports option highlighted on the Analysis tab.](media/12-image15.png)
 
 This report displays key details about the resource the system is proposing to be hired to fill those the deficits.
 
-![Sample hired resources report](media/12-image17.png)
+![Sample hired resources report.](media/12-image17.png)
 
 The Hired Resource Report displays the following fields and calculations:
 

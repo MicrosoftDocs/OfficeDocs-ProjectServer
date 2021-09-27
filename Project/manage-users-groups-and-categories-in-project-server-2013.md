@@ -7,7 +7,7 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f290faa-8b71-4b98-9621-72e14551b784
 description: "Summary: Manage users, groups, and categories in Project Server permission mode."
 ---
@@ -35,7 +35,7 @@ The following are the tasks for managing security in Project Server permission m
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Manage users in Project Server](manage-users-in-project-server.md) <br/> |Use the Manage Users page in Project Web App to add, modify, deactivate, and reactivate user accounts.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Manage users in Project Server](manage-users-in-project-server.md) <br/> |Use the Manage Users page in Project Web App to add, modify, deactivate, and reactivate user accounts.  <br/> |
 ||[Manage security groups in Project Server](manage-security-groups-in-project-server.md) <br/> |Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings.  <br/> |
 ||[Manage categories in Project Server](manage-categories-in-project-server.md) <br/> |Administrators can organize a system of categories to manage user and group access to projects, resources, and views in Project Web App.  <br/> |
 ||[Manage security templates in Project Server](manage-security-templates-in-project-server.md) <br/> |Administrators can use security templates in Project Web App to standardize the granting of user permissions by role.  <br/> |

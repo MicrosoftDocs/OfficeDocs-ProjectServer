@@ -7,7 +7,7 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf2301a3-6046-4dc7-b1ac-fa6ceaafbb58
 description: "Summary: A list of articles about how to install Project Server 2013 in a server farm environment."
 ---
@@ -27,7 +27,7 @@ The following articles about deploying Project Server 2013 to a server farm envi
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](images/mod_icon_buildingblock_M.png)|[Installation and deployment overview for Project Server 2013](installation-and-deployment-overview-for-project-server-2013.md) <br/> |Learn about the steps involved in installing Project Server 2013 in a server farm environment.  <br/> |
+|![Building blocks.](images/mod_icon_buildingblock_M.png)|[Installation and deployment overview for Project Server 2013](installation-and-deployment-overview-for-project-server-2013.md) <br/> |Learn about the steps involved in installing Project Server 2013 in a server farm environment.  <br/> |
 ||[Prepare for deployment](./prepare-for-a-deployment-of-project-server-2013.md) <br/> |Ensure that you have access to the necessary accounts and permissions to install Project Server 2013.  <br/> |
 ||[Configure SQL Server and Analysis Services in Project Server 2013](configure-sql-server-and-analysis-services-in-project-server-2013-0.md) <br/> |Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013.  <br/> |
 ||[Install SharePoint Server 2016 (Project Server 2013)](install-sharepoint-server-2013-project-server-2013.md) <br/> |Install SharePoint Server 2013 and create a server farm prior to installing Project Server 2013.  <br/> |

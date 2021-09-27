@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b857e56c-9964-4fc4-9da6-125736e8f7a4
 description: "Summary: Create sample workflow components to use in learning about Project Web App workflows."
 ---

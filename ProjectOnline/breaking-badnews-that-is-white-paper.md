@@ -7,7 +7,7 @@ ms.date: 12/30/2016
 audience: admin
 ms.topic: overview
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: IT_ProjectAdmin
 search.appverid:
 - PJU140
@@ -96,11 +96,11 @@ It's important to not let the urgency of the moment or the concern over how shar
   
 Here's the CFO view:
   
-![CFO view showing high level information](media/75e0d287-8d2f-4172-b584-91b4e4386b98.jpg)
+![CFO view showing high level information.](media/75e0d287-8d2f-4172-b584-91b4e4386b98.jpg)
   
 And here's the project manager's view:
   
-![Project Manager's view showing project status over a longer period of time](media/0c6437d9-492b-4934-b08c-dbcee0b8144d.jpg)
+![Project Manager's view showing project status over a longer period of time.](media/0c6437d9-492b-4934-b08c-dbcee0b8144d.jpg)
   
 The first chart is of a project which has overspent its expected budget to date. The planned budget was agreed upon by all parties and as of today, the Chief Financial Officer is having a very bad day. The project is clearly way over its expected budget as of today. He would like to take action immediately and is demanding a project review, a halt of the project, cutting of staff and other drastic measures to try to bring this runaway train back under controls 
   

@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4d9fd5f9-669b-4b60-bc6f-1696ca4c15fe
 description: "Summary: You can configure Project Server security groups in Project Web App to synchronize with security or distribution groups in Active Directory."

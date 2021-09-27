@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f3844e1-36c6-47b2-9617-080b5b5083be
 description: "Summary: Learn how to set the stage status in a Project Web App workflow to leave a message for your users."
 ---
@@ -33,7 +33,7 @@ Before starting, make sure:
 
 We'll be using the Sample Workflow that you created in [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md) to build a workflow that looks like this:
   
-![Screenshot of workflow in SharePoint Designer](images/ProjectWorkflowSetStageStatus.png)
+![Screenshot of workflow in SharePoint Designer.](images/ProjectWorkflowSetStageStatus.png)
   
 If you've completed the procedures in other articles in this series, you may already have part of this workflow in place. The complete steps for creating this workflow are in the following procedure.
   

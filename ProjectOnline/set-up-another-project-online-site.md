@@ -12,7 +12,7 @@ f1_keywords:
 - 'O365M_ProjWA'
 - 'O365E_ProjWA'
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - PJO150
@@ -35,9 +35,9 @@ You may decide that you want to set up an additional Project Online site, to man
   
 1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and choose **Admin**.
+2. Select the app launcher icon ![The app launcher icon in Office 365.](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and choose **Admin**.
     
-    ![The Office 365 app launcher with the Admin app highlighted](media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![The Office 365 app launcher with the Admin app highlighted.](media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
     > [!TIP]
     > The **Admin** tile appears only to Office 365 administrators. 
@@ -49,7 +49,7 @@ You may decide that you want to set up an additional Project Online site, to man
 5. On the **Active sites** page, select **Create**, and on the **Create a site** page, select **Other options**.
 6. On the **Other options** page, from the **Choose a template** menu, select **Project Web App site**. 
 
-    ![Selecting the Project Web App site template](media/PWASiteTemplate.jpg) 
+    ![Selecting the Project Web App site template.](media/PWASiteTemplate.jpg) 
 
 7. Give the site a name, type the name or email address of the site's Primary administrator, select a time zone, and select a language.
 8. Select **Finish**.

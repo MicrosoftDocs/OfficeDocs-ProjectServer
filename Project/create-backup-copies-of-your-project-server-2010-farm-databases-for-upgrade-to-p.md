@@ -7,7 +7,7 @@ ms.date: 11/22/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: a2570ae9-dfb4-43be-8ef4-940b2f9a072a
 description: "Summary: Learn how to back up Project Server 2010 databases by using SQL Server 2005, SQL Server 2008 or SQL Server 2008 R2, or SQL Server 2012."

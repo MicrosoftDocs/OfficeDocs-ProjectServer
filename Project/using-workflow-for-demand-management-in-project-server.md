@@ -7,7 +7,7 @@ ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4abc4e3a-5fc9-4419-8cce-c6a233eef503
 description: "Summary: Learn about phases, stages, enterprise project types, and workflows in Project Server 2013 and Project Server 2016 demand management."
 ---
@@ -65,7 +65,7 @@ For example, you might have an "Initial Proposal" stage where you include a proj
   
 The image below shows the five phases of demand management that are included in Project Web App and how they fit together. Within each phase are example stages such as "Propose idea" and "Initial review." Each stage can have one or more associated project detail pages. The entire collection of stages represents a single workflow that can be associated with an enterprise project type.
   
-![Graphic of workflow phases and stages](images/WorkflowPhasesAndStages.png)
+![Graphic of workflow phases and stages.](images/WorkflowPhasesAndStages.png)
   
 There are four general steps to perform to create your workflow in Project Web App:
   

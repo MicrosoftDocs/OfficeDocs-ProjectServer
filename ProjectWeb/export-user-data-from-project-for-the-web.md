@@ -10,7 +10,7 @@ ms.service: project-web
 search.appverid: 
 - PJO150
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
 description: "Learn how your organization can export a specific user's content from your Project for the web environment."
 ---
@@ -66,16 +66,16 @@ To view entities for a Dynamics 365 solution:
 1. In the Microsoft 365 admin center, under **Admin centers**, click **Dynamics 365**.
 2. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![Screenshot of Dataverse instance Open button](media/CDSInstance.png) 
+   ![Screenshot of Dataverse instance Open button.](media/CDSInstance.png) 
 3. On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 4. On the All Solutions page, click on the Display Name of the solution that you are interested in.
 
-    ![Dataverse solutions](media/CDSsolutions.png) 
+    ![Dataverse solutions.](media/CDSsolutions.png) 
 5.  On the solution information page, expand **Entities** to view them.
 
-    ![Dataverse solutions entities](media/CDSSolutionEntities.png) 
+    ![Dataverse solutions entities.](media/CDSSolutionEntities.png) 
 6. Under each entity, you can select specific objects to get more details about its properties.
-![Solutions entities descriptions](media/CDSEntitiesDesc.png)
+![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
 
 ### Use Advanced Find to search for user data
 
@@ -85,19 +85,19 @@ Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/
 2.	On the Dynamics 365 Settings page, click the **Settings** menu, and in the **Customization** section, select **Solutions**.
 3.	Click the **Advance Find** button.
 
-    ![Advanced Find button](media/AdvancedFind.png)
+    ![Advanced Find button.](media/AdvancedFind.png)
 4.	In Advanced Find, in the **Look for** menu, select the objects that you want to search for, such as your user's projects or roadmaps.
     
     For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
 
-    ![Advanced Find results menu](media/AdvancedFindLookForRoadmap1.png)
+    ![Advanced Find results menu.](media/AdvancedFindLookForRoadmap1.png)
 5.	To begin building your query, click **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You will need the users AAD ID or account name.  
 
     For example:
     -	To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
     -	To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
 
-        ![Create query in Advanced Find](media/AdvancedFindBuildQueryRM.png)
+        ![Create query in Advanced Find.](media/AdvancedFindBuildQueryRM.png)
 6. When you are done with selecting your search criteria, in the ribbon, select **Edit Columns**.
 7. On the Edit columns page, select **Add columns**, and then select the columns you want to include in the query.  When done, click **OK**.
 8. Click **Results** to run your query.
@@ -120,7 +120,7 @@ Assuming you've used Advanced Find search to query for the user's projects and h
 
 After you unhide the columns in the spreadsheet, look for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
-![Dataverse Instance](media/projectIDs.png)
+![Dataverse Instance.](media/projectIDs.png)
 
 ### Run the Export script
 
@@ -153,10 +153,10 @@ To run the ExportProjectContent function:
 
     a. In the Dynamics 365 Administration Center, select the default instance, and then click **Open**.
 
-   ![Screenshot of Open button for Dataverse instance](media/CDSInstance.png) </br>
+   ![Screenshot of Open button for Dataverse instance.](media/CDSInstance.png) </br>
     b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
 
-    ![Find the instance Unique Name](media/DynamicsOrgid.png)</br>
+    ![Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
 
     
 

@@ -7,7 +7,7 @@ ms.date: 2/16/2016
 audience: ITPro
 ms.topic: hub-page
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top

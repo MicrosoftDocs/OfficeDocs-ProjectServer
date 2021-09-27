@@ -7,7 +7,7 @@ ms.date: 9/24/2019
 audience: admin
 ms.topic: article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom: IT_ProjectAdmin
 description: "Learn how to progress your selected portfolio scenario into execution."
@@ -29,11 +29,11 @@ This article assumes you have selected one of your [saved scenarios](comparing-p
 
 To commit the scenario, navigate to the scenario selected by your organization.
 
-![Scenario dropdown menu option in toolbar](media/14-image1.png)
+![Scenario dropdown menu option in toolbar.](media/14-image1.png)
 
 Click on the **Commit** button on the **Analysis** tab in the **Analyze Cost** or **Analyze Resources** interface.
 
-![Analyze Cost option highlighted in toolbar](media/14-image2.png)
+![Analyze Cost option highlighted in toolbar.](media/14-image2.png)
 
 When you click on the **Commit** button, two actions are triggered:
 

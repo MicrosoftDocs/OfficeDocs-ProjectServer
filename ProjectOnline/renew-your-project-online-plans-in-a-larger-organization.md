@@ -7,7 +7,7 @@ ms.date: 2/24/2017
 audience: admin
 ms.topic: get-started-article
 ms.service: project-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_O365
 ms.collection: M365-subscription-management
 search.appverid:
@@ -75,7 +75,7 @@ If you open the log file, it will contain the output displayed in the module whe
   
 If you open the License Report CSV file in Excel, you will see a listing of your users and the SKUs that are assigned to them:
   
-![License Report](media/67f9e937-0506-4223-bc34-635bf1ef0777.png)
+![License Report.](media/67f9e937-0506-4223-bc34-635bf1ef0777.png)
   
 For example, in the graphic above, you can tell that each user listed has both a Project Online Premium and an Office 365 Enterprise E5 sku assigned to them.  *MOD385910*  is the org id. 
   

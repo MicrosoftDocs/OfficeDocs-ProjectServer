@@ -7,7 +7,7 @@ ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 30267248-e652-4fba-bb36-5ecdb2981132
 description: "Summary: Change settings for security groups by using the Manage Groups page in Project Web App Settings."
