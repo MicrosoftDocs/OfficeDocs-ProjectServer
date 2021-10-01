@@ -15,7 +15,7 @@ description: "Summary: Use the New Custom Field page in Project Web App settings
 # Add or edit enterprise custom fields in Project Server
  
  **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom field.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Use the following procedure to create a new enterprise custom field or edit an existing one.
   
@@ -252,10 +252,8 @@ The following table describes the options for configuring custom field behavior.
 |**Behavior controlled by workflow** <br/> |Select this check box if you want the custom field behavior to be controlled by workflow.  <br/> |
 |**Allow editing on Project Detail pages for SharePoint Task List Projects** <br/> |Select this option if you want this custom field to be available to users editing SharePoint task list projects.  <br/> |
 |**Require that this field has information** <br/> |Choose whether you want this to be a required field (that is, the field cannot be left blank). This option is not available if the **Behavior controlled by workflow** option is selected. <br/> |
-   
-## See also
 
-#### 
+## See also
 
 [Add or edit enterprise custom lookup tables in Project Server](add-or-edit-enterprise-custom-lookup-tables-in-project-server.md)
 

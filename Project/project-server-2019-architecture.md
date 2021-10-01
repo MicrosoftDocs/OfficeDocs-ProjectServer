@@ -5,7 +5,7 @@ author: serdars
 manager: pamgreen
 ms.date: 9/15/2018
 audience: ITPro
-ms.topic: concetpual
+ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
@@ -16,7 +16,7 @@ description: "Summary: Learn about the general architecture of Project Server 20
 # Project Server 2019 architecture
  
  **Summary:** Learn about the general architecture of Project Server 2019.<br/>
-**Applies to:** Project Server 2019
+**Applies to:** Project Server Subscription Edition, Project Server 2019
   
 Project Server 2019 architecture includes association of the Project Application Service with SharePoint site collections, the client-side object model (CSOM) for remote access, an OData interface for reporting, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM and OData interfaces.
   
@@ -43,7 +43,7 @@ The following general comments apply to the illustration above:
     
 - **Workflows:** Declarative workflows are offloaded to Workflow Manager for processing. Workflow Manager can run on a separate server in the SharePoint farm, on Microsoft Azure in the cloud, or on a single Project Server computer for testing or demonstrations. Coded workflows that are developed with Visual Studio are processed in the workflow runtime within SharePoint.
     
-- **Perimeter network (DMZ):** The illustration above does not show that an on-premises front end server can be isolated by an additional firewall in a perimeter network (also known as a "demilitarized zone" or DMZ). A perimeter network can allow Internet clients to access SharePoint and Project Server across a firewall.
+- **Perimeter network (DMZ):** The illustration above does not show that an on-premises front-end server can be isolated by an additional firewall in a perimeter network (also known as a "demilitarized zone" or DMZ). A perimeter network can allow Internet clients to access SharePoint and Project Server across a firewall.
     
 - **SharePoint Web Services:** The illustration above does not show the SharePoint infrastructure, such as the back-end SharePoint Web Services application, which is part of SharePoint Server 2019. When you install Project Server, the Project Service Application is added to the SharePoint Web Services.
     
