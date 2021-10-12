@@ -1,8 +1,8 @@
 ---
 title: 'Connect to Project data through Power BI Desktop'
 description: 'Connect to Project for the web data through Power BI Desktop'
-author: serdars
-ms.author: serdars
+author: v-smandalika
+ms.author: v-smandalika
 manager: pamgreen
 ms.date: 10/29/2019
 audience: admin
