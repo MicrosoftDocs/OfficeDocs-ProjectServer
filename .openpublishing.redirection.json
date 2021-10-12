@@ -34,6 +34,12 @@
       "source_path": "ProjectWeb/index.md",
       "redirect_url": "projectforweb-admin-home",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "projectweb/connect-to-project-for-the-web-data-through-powerbi-desktop",
+      "redirect_url": "projectforweb-admin-home",
+      "redirect_document_id": false
     }
+
   ]
 }
