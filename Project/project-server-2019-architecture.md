@@ -52,3 +52,4 @@ The front-end tier includes third-party applications, Project Professional, and 
 The Project Web App components of Project Server use the SharePoint Server 2019 configuration database for project site setup and the content database for all other information. There is no longer a separate Project Server database.
   
 
+
