@@ -135,6 +135,4 @@ Similarly, lookup tables with large numbers of values can have a noticeable perf
 ## See also
 <a name="CustomFields"> </a>
 
-#### 
-
 [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
