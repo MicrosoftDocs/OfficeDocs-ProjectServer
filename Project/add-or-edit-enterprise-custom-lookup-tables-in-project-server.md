@@ -13,9 +13,9 @@ description: "Summary: Use the New Custom Field page in Project Web App settings
 ---
 
 # Add or edit enterprise custom lookup tables in Project Server
- 
- **Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom lookup table.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** Use the New Custom Field page in Project Web App settings to specify the options for a custom lookup table.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Use the following procedure to create or edit an enterprise custom lookup table.
   

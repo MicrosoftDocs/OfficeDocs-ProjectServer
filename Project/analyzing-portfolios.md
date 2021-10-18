@@ -13,9 +13,9 @@ description: "Summary: Learn how to create a portfolio analysis using Project We
 ---
 
 # Analyzing portfolios
- 
- **Summary:** Learn how to create a portfolio analysis using Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** Learn how to create a portfolio analysis using Project Web App.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Creating a portfolio analysis is the process of selecting a group of project ideas and, using the business drivers that you have defined, determining which are the best projects to do given your budget.
   

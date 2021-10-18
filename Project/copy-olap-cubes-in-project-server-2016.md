@@ -16,9 +16,9 @@ description: "Summary: Copy Project Web App OLAP cube settings for use in creati
 ---
 
 # Copy OLAP cubes in Project Server 2016
- 
- **Summary:** Copy Project Web App OLAP cube settings for use in creating a new cube.<br/>
-**Applies to:** Project Server 2016
+
+**Summary:** Copy Project Web App OLAP cube settings for use in creating a new cube.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 OLAP cubes are managed on the OLAP Database Management page in Server Settings in the SharePoint Central Administration website.
   

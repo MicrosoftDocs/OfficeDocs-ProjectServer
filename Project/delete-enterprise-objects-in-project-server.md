@@ -13,9 +13,9 @@ description: "Summary: You can delete enterprise objects from Project Web App wh
 ---
 
 # Delete enterprise objects in Project Server
- 
- **Summary:** You can delete enterprise objects from Project Web App when they are no longer needed.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** You can delete enterprise objects from Project Web App when they are no longer needed.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 You can delete the following types of objects from Project Web App:
   

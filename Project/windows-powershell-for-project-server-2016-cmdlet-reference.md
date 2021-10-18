@@ -17,7 +17,8 @@ description: "Summary: A list of Windows PowerShell cmdlets for Project Server."
 
 # Microsoft PowerShell for Project Server cmdlet reference
 
- **Summary:** A list of Microsoft PowerShell cmdlets for Project Server 2016.
+**Summary:** A list of Microsoft PowerShell cmdlets for Project Server 2016.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 The following table describes the PowerShell cmdlets available in Project Server.
   

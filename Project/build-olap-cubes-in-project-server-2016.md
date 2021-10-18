@@ -16,9 +16,9 @@ description: "Summary: Build OLAP cubes by using the OLAP Database Management pa
 ---
 
 # Build OLAP cubes in Project Server 2016
- 
- **Summary:** Build OLAP cubes by using the OLAP Database Management page in Central Administration.<br/>
-**Applies to:** Project Server 2016
+
+**Summary:** Build OLAP cubes by using the OLAP Database Management page in Central Administration.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 OLAP cubes can be scheduled to be built on a regular basis. For more information, see [Configure an OLAP cube in Project Server 2016](configure-an-olap-cube-in-project-server-2016.md). You can also start the build process manually.
   

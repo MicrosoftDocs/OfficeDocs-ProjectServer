@@ -13,9 +13,9 @@ description: "Summary: When a user delegate is no longer needed, you can delete 
 ---
 
 # Delete user delegates in Project Server
- 
- **Summary:** When a user delegate is no longer needed, you can delete it from Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** When a user delegate is no longer needed, you can delete it from Project Web App.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Use the following procedure to delete user delegates from Project Web App.
   
