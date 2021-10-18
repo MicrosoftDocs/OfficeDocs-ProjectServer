@@ -52,7 +52,4 @@ See the articles in this section for procedures to check-in each type of object:
     
 ## See also
 
-#### 
-
 [Delete enterprise objects in Project Server](delete-enterprise-objects-in-project-server.md)
-

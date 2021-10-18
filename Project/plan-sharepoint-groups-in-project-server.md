@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 7/31/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -60,7 +60,4 @@ Because users in Active Directory groups do not appear on the list of Project We
   
 ## See also
 
-#### 
-
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
-

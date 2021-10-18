@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:

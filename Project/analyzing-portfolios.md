@@ -35,7 +35,7 @@ Before you start, be sure you've [created your business drivers](portfolio-analy
     
 3. Complete the form as follows:
     
-|||
+| | |
 |:-----|:-----|
 |**Name and Description** <br/> |Type a name and description for this portfolio analysis.  <br/> |
 |**Department** <br/> |Optional. If you select a department, only custom fields and resources for that department will be available for the analysis. If you don't select a department, all fields and resources will be available.  <br/> |

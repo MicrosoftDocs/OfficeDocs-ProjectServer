@@ -98,7 +98,7 @@ Cindy will be required to enter data into ProjectCustomText2 and ProjectCustomTe
 By default, departments filter the list of custom fields that John Woods and Cindy White see. But the filter does not prevent them from viewing custom fields assigned to the other departments.
   
 Departmental fields are not tied into security. You cannot use them with security categories and groups to enable or disable fields and their functions. Instead, their main purpose is to filter out fields which are not useful for the target user.
-  
+ 
 **Department considerations for cubes**
 
 |**Which cubes are filtered by which value**|**No project department specified**|**Project department specified**|
@@ -186,8 +186,6 @@ Resources who own things that have separate dimensions (that is, Assignment Owne
     
 ## See also
 
-#### 
-
 [Create OLAP cubes in Project Server 2016](create-olap-cubes-in-project-server-2016.md)
   
 [Configure an OLAP cube in Project Server 2016](configure-an-olap-cube-in-project-server-2016.md)
@@ -197,4 +195,3 @@ Resources who own things that have separate dimensions (that is, Assignment Owne
 [Delete OLAP cubes in Project Server 2016](delete-olap-cubes-in-project-server-2016.md)
   
 [Build OLAP cubes in Project Server 2016](build-olap-cubes-in-project-server-2016.md)
-

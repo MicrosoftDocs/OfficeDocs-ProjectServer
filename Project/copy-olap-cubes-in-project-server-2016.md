@@ -50,8 +50,6 @@ Use the following procedure to copy an OLAP cube.
   
 ## See also
 
-#### 
-
 [Create OLAP cubes in Project Server 2016](create-olap-cubes-in-project-server-2016.md)
   
 [Configure an OLAP cube in Project Server 2016](configure-an-olap-cube-in-project-server-2016.md)
@@ -59,4 +57,3 @@ Use the following procedure to copy an OLAP cube.
 [Delete OLAP cubes in Project Server 2016](delete-olap-cubes-in-project-server-2016.md)
   
 [Build OLAP cubes in Project Server 2016](build-olap-cubes-in-project-server-2016.md)
-

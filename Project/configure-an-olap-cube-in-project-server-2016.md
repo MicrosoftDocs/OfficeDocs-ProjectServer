@@ -94,8 +94,6 @@ Perform the following procedure to configure the build settings of an existing O
     
 ## See also
 
-#### 
-
 [Create OLAP cubes in Project Server 2016](create-olap-cubes-in-project-server-2016.md)
   
 [Delete OLAP cubes in Project Server 2016](delete-olap-cubes-in-project-server-2016.md)

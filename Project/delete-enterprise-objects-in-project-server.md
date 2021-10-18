@@ -43,7 +43,4 @@ See the articles in this section for procedures to delete each type of object:
     
 ## See also
 
-#### 
-
 [Force check-in enterprise objects in Project Server](force-check-in-enterprise-objects-in-project-server.md)
-

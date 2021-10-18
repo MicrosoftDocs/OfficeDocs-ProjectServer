@@ -39,8 +39,6 @@ To delete an OLAP cube, you must be a Project Server service application adminis
   
 ## See also
 
-#### 
-
 [Create OLAP cubes in Project Server 2016](create-olap-cubes-in-project-server-2016.md)
   
 [Configure an OLAP cube in Project Server 2016](configure-an-olap-cube-in-project-server-2016.md)

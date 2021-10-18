@@ -53,9 +53,6 @@ For example, you might create a custom text field that is associated with Resour
   
 ## See also
 
-#### 
-
 [Add or edit enterprise custom fields in Project Server](add-or-edit-enterprise-custom-fields-in-project-server.md)
   
 [Add or edit enterprise custom lookup tables in Project Server](add-or-edit-enterprise-custom-lookup-tables-in-project-server.md)
-

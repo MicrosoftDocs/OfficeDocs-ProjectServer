@@ -86,7 +86,4 @@ The following table describes the options for creating lookup table values.
    
 ## See also
 
-#### 
-
 [Add or edit enterprise custom fields in Project Server](add-or-edit-enterprise-custom-fields-in-project-server.md)
-
