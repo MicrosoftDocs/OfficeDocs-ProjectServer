@@ -1,5 +1,5 @@
 ---
-title: "Project for the web get started guide for admins"
+title: "Project for the web get started guide for administrators"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -11,10 +11,10 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
-description: "Resources for admins who want to learn more about managing Project for the web."
+description: "Resources for administrators who want to learn more about managing Project for the web."
 ---
 
-# Project for the web get started guide for admins
+# Project for the web get started guide for administrators
 
 Project for the web is a new service that is now available to Office 365 users.  You can make it available to your users through the following licenses:
 
@@ -24,7 +24,7 @@ Project for the web is a new service that is now available to Office 365 users. 
 
 If your users are currently using Project Online Professional or Project Online Premium licenses, Project for the web is available to them now. 
 
-This article provides admins information to help them better understand and manage the service. 
+This article provides administrators with information to help them better understand and manage the service. 
 
 ## Learn more about Project for the web
 
@@ -40,7 +40,7 @@ The follow can be helpful to you if you are an admin who wants to learn more abo
 
 ## Turn off Project for the web for specific users
 
-If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, you can turn it off. Learn how to do this in [Turn off Project for the web](turn-project-for-the-web-off.md).
+If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, you can turn it off. Learn how to turn off Project for the web in [Turn off Project for the web](turn-project-for-the-web-off.md).
 
 ## Help your users 
 
@@ -62,7 +62,7 @@ Project for the web data is stored in your Dynamics 365 Dataverse default instan
 ## Dataverse
 Your Project for the web and Roadmap data is stored in [Dataverse (formerly Common Data Service)](/powerapps/maker/common-data-service/data-platform-intro). 
 
-Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Admins have the option to deploy Project to additional environments.
+Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Administrators have the option to deploy Project to more environments.
 ## Resource setup in PowerApps
 
 While sharing and access to your project in Project for the web is done through Office 365 groups, it is important to note that Project for the web uses the PowerApps platform.  Some resource setup tasks such as [adding non-user resources](create-nonuser-resources-in-project-for-the-web.md) or [creating a work schedule template and applying it to resources](create-and-apply-a-work-calendar.md) are done in PowerApps. 
