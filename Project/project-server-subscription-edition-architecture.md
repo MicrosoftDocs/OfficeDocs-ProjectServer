@@ -18,7 +18,7 @@ description: "Summary: Learn about the general architecture of Project Server Su
  **Summary:** Learn about the general architecture of Project Server Subscription Edition.<br/>
 **Applies to:** Project Server Subscription Edition
   
-Project Server Subscription Edition architecture includes association of the Project Application Service with SharePoint site collections, the client-side object model (CSOM) for remote access, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM and OData interfaces.
+Project Server Subscription Edition architecture includes association of the Project Application Service with SharePoint site collections, the client-side object model (CSOM) for remote access, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM.
   
 The front-end tier includes Project Professional 2019, Project Professional 2021, the Project Online Desktop Client, Project Web App, and third-party apps. Client applications communicate with the middle tier through the Project Server Interface (PSI) or through the CSOM endpoints, which in turn communicate with the PSI and the business object layer. Database access is integrated in the business objects. The Project Server Eventing System can access both local event handlers and remote event receivers. The Project Calculation Service implements the Project scheduling engine within Project Server.
   
@@ -33,7 +33,7 @@ The following general comments apply to the illustration above:
   
 - **Event receivers:** Event receivers can also be called event handlers. Project Online supports registration of remote Project Server event receivers, which can be used by a Project Web App instance in the cloud or by an on-premises Project Server installation. An on-premises Project Server installation supports remote event receivers and local full-trust event handlers.
     
-- **Programmatic interfaces:** For third-party client applications that are on-premises (on the Intranet), you can use the WCF interface for the PSI, or you can use the CSOM, OData, and REST interfaces through HTTP. The Project Web App and Project Professional 2019/2021 clients both use the WCF interface. In a single-server installation, the front-end ASMX web services, CSOM, and REST internally call the back-end WCF services.
+- **Programmatic interfaces:** For third-party client applications that are on-premises (on the Intranet), you can use the WCF interface for the PSI, or you can use the CSOM and REST interfaces through HTTP. The Project Web App and Project Professional 2019/2021 clients both use the WCF interface. In a single-server installation, the front-end ASMX web services, CSOM, and REST internally call the back-end WCF services.
 
     > [!NOTE]
     > OData service for reporting is removed in Project Server Subscription edition.
