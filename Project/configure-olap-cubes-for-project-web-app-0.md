@@ -1,5 +1,5 @@
 ---
-title: "Configure OLAP cubes for Project Web App"
+title: "Configure OLAP cubes for Project Web App in Project Server 2013"
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid: f64d7cd6-8795-4c79-baec-eefdb5be1a61
 description: "Summary: Set up OLAP cubes for Project Web App."
 ---
 
-# Configure OLAP cubes for Project Web App
+# Configure OLAP cubes for Project Web App in Project Server 2013
  
  **Summary:** Set up OLAP cubes for Project Web App.<br/>
 **Applies to:** Project Server 2013

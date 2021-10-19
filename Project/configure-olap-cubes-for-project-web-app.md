@@ -17,8 +17,8 @@ description: "Summary: Set up OLAP cubes for Project Web App in Project Server 2
 
 # Configure OLAP cubes for Project Web App
  
- **Summary:** Set up OLAP cubes for Project Web App in Project Server 2016.<br/>
-**Applies to:** Project Server 2016
+ **Summary:** Set up OLAP cubes for Project Web App in Project Server Subscription Edition, Project Server 2019, and Project Server 2016.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 This article describes how to configure a SQL Server Analysis Services cube for Project Web App. You must follow the procedures in this article for each instance of Project Web App that you create.
   
@@ -41,8 +41,13 @@ Before you begin:
     
 - Ensure that the SharePoint system account is an [OLAP Administrator](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15) on that instance of SQL Server Analysis Services.
     
-- You must have installed the SQL Server 2014 Analysis Management Objects (AMO) on each Application and Front-end role servers in the farm. ([Download the SQL Server 2014 Analysis Management Objects](https://go.microsoft.com/fwlink/?LinkId=722556).)
-    
+- You must have installed the following versions of SQL Server Analysis Management Objects (AMO) on each Application and Front-end role servers in the respective farms:
+
+    | Project Server 2016 | Project Server 2019 | Project Server Subscription Edition |
+    |---------|---------|---------|
+    | [SQL Server 2014 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?LinkId=722556) | [SQL Server 2016 Analysis Management Objects (AMO)](https://www.microsoft.com/download/details.aspx?id=56833) | SQL Server AMO is usually already installed with SQL Server 2019 and Analysis Services 2019. If not already installed, download the [SQL Server 2019 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?linkid=829578). |
+
+
 ## Configure the Analysis Services service account
 <a name="proc1"> </a>
 
@@ -79,7 +84,7 @@ Once the login has been created, you must grant the login access to the SharePoi
     
 4. In the **Select a page** section, click **User Mapping**.
     
-5. Select the **Map** check box for the SharePoint content database where your Project Web App site is located, and then, in the **Database role membership for: <database>** section, select the **PSDataAccess** check box.
+5. Select the **Map** check box for the SharePoint content database where your Project Web App site is located, and then, in the **Database role membership for: \<database\>** section, select the **PSDataAccess** check box.
     
 6. Click **OK**.
     
@@ -155,7 +160,5 @@ Use the following procedure to grant users access to the OLAP cube.
     
 ## See also
 <a name="proc3"> </a>
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
