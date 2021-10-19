@@ -14,9 +14,9 @@ description: "Summary: Project Web App global and category permissions can be di
 ---
 
 # Manage Project Web App permissions (Project Server permission mode)
- 
- **Summary:** Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done.<br/>
-**Applies to:** Project Server 2013
+
+**Summary:** Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In Project Server permission mode, you can use the Project Web App Permissions page to control which global and category permissions are enabled on a given Project Web App instance. An administrator can use the Project Web App Permissions page to deny access to all Project Web App users for a particular feature in Project Professional or a Project Web App instance. If a Project Web App permission is disabled on this page, the equivalent global or category permission is disabled for users throughout Project Web App. All permissions on this page are enabled by default.
   
@@ -26,7 +26,7 @@ In Project Server permission mode, you can use the Project Web App Permissions p
 For example, if you deny the **Delete project** permission, users throughout Project Web App cannot delete projects, regardless of whether they have the Delete project category permission.
   
 > [!IMPORTANT]
-> Before disabling a Project Web App permission, thoroughly consider the effects on your organization of doing so. If you want to turn off a permission for only some Project Web App users, verify whether you can do it by creating a custom group and denying the permissions you want to restrict. 
+> Before disabling a Project Web App permission, thoroughly consider the effects on your organization of doing so. If you want to turn off a permission for only some Project Web App users, verify whether you can do it by creating a custom group and denying the permissions you want to restrict.
   
 ## Task requirements
 
@@ -42,8 +42,6 @@ To manage Project Web App organizational permissions in Project Web App, you can
     
 ## See also
 
-#### 
-
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
   
 [Manage users, groups, and categories in Project Server 2013](manage-users-groups-and-categories-in-project-server-2013.md)
@@ -53,4 +51,3 @@ To manage Project Web App organizational permissions in Project Web App, you can
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
 
 [Permissions in Project Web App](plan-groups-categories-and-rbs-in-project-server.md#section2)
-
