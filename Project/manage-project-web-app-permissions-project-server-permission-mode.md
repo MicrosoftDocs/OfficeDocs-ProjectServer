@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 81ead545-11ef-4a45-b15c-c9835a6c05b0
-description: "Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done."
+description: "Project Web App global and category permissions (Project Server permission mode) can be disabled, but this action should be examined carefully before it is done."
 ---
 
 # Manage Project Web App permissions (Project Server permission mode)
