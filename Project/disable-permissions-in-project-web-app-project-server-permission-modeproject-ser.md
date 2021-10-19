@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4916dd91-cc55-4a08-a882-83ea0a166d66
-description: "Summary: Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done."
+description: "Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done."
 ---
 
 # Disable permissions in Project Web App (Project Server permission mode) (Project Server 2013)
@@ -60,8 +60,6 @@ Perform the following procedure to disable a Project Web App permission.
     > Enabling a previously disabled permission is simply done by selecting the **Enable** check box next to the permission that has been disabled.
   
 ## See also
-
-#### 
 
 [Manage Project Web App permissions (Project Server permission mode)](manage-project-web-app-permissions-project-server-permission-mode.md)
   
