@@ -45,7 +45,7 @@ Before you begin:
 
     | Project Server 2016 | Project Server 2019 | Project Server Subscription Edition |
     |---------|---------|---------|
-    | [SQL Server 2014 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?LinkId=722556) | [SQL Server 2016 Analysis Management Objects (AMO)](https://www.microsoft.com/download/details.aspx?id=56833) | SQL Server AMO is usually already installed with SQL Server 2019 and Analysis Services 2019. If not already installed, download the [SQL Server 2019 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?linkid=829578). |
+    | [SQL Server 2014 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?LinkId=722556) | [SQL Server 2016 Analysis Management Objects (AMO)](https://www.microsoft.com/download/details.aspx?id=56833) | SQL Server Analysis Services AMO is usually already installed with SQL Server 2019 and Analysis Services 2019. If not already installed, download the [SQL Server 2019 Analysis Management Objects (AMO)](https://go.microsoft.com/fwlink/?linkid=829578). |
 
 
 ## Configure the Analysis Services service account
