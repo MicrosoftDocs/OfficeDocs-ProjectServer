@@ -26,6 +26,6 @@ description: "Learn what has been deprecated or removed in Project Server Subscr
 
 The Project OData Service for reporting has been removed in Project Server Subscription Edition.
 
-The alternative is to access database (only reporting schema - pjrep)) through SQL Server Database Snapshots/SQL Server Integration Services. Accessing anything outside the reporting schema might lead to product out of support.
+The alternative is to access database (only reporting schema - pjrep) through SQL Server Database Snapshots/SQL Server Integration Services. Accessing anything outside the reporting schema might lead to product out of support.
 
 The OData service remains available in Project Server 2019, 2016, and 2013.
