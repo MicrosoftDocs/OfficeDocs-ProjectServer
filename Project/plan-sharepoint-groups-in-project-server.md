@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 7/31/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -16,9 +16,9 @@ description: "Summary: Plan users and groups for Project Server in SharePoint pe
 ---
 
 # Plan SharePoint groups in Project Server
- 
- **Summary:** Plan users and groups for Project Server in SharePoint permission mode.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** Plan users and groups for Project Server in SharePoint permission mode.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 SharePoint permissions mode creates SharePoint groups that directly correspond to the default security groups found in Project Server permission mode.
   
@@ -60,7 +60,4 @@ Because users in Active Directory groups do not appear on the list of Project We
   
 ## See also
 
-#### 
-
 [Plan groups, categories, and RBS in Project Server](plan-groups-categories-and-rbs-in-project-server.md)
-

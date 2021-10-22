@@ -15,7 +15,7 @@ description: "Summary: You can force the check-in of an enterprise resource by u
 # Check-in enterprise resources in Project Server
  
  **Summary:** You can force the check-in of an enterprise resource by using Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 You can force the check-in of an enterprise resource that is checked out. Note that forcing a check-in of a resource that is being modified by a user may result in the loss of those changes.
   
