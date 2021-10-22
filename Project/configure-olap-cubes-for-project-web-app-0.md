@@ -1,5 +1,5 @@
 ---
-title: "Configure OLAP cubes for Project Web App"
+title: "Configure OLAP cubes for Project Web App in Project Server 2013"
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid: f64d7cd6-8795-4c79-baec-eefdb5be1a61
 description: "Summary: Set up OLAP cubes for Project Web App."
 ---
 
-# Configure OLAP cubes for Project Web App
+# Configure OLAP cubes for Project Web App in Project Server 2013
  
  **Summary:** Set up OLAP cubes for Project Web App.<br/>
 **Applies to:** Project Server 2013
@@ -90,7 +90,7 @@ Once the login has been created, you must grant the login access to the Project 
     
 4. In the **Select a page** section, click **User Mapping**.
     
-5. Select the **Map** check box for the Project Web App database that you want to provide access to, and then, in the **Database role membership for: <database>** section, select the **PSDataAccess** check box.
+5. Select the **Map** check box for the Project Web App database that you want to provide access to, and then, in the **Database role membership for: \<database\>** section, select the **PSDataAccess** check box.
     
 6. Click **OK**.
     
@@ -169,10 +169,7 @@ Use the following procedure to grant users access to the OLAP cube.
 ## See also
 <a name="proc3"> </a>
 
-#### 
-
 [Active Directory Resource Pool Synchronization for Project Server 2013](active-directory-resource-pool-synchronization-for-project-server-2013.md)
-#### 
 
 [Configure reporting for Project Web App (Project Server 2013)](./configure-reporting-for-project-web-app-project-server-2013.md)
   
