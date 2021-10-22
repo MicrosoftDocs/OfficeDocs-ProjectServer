@@ -13,9 +13,9 @@ description: "Summary: You can force the check-in of enterprise projects, resour
 ---
 
 # Force check-in enterprise objects in Project Server
- 
- **Summary:** You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 If an enterprise object is checked out and the user who checked it out is unavailable or unable to check it back in, you can force a check-in.
   
@@ -52,7 +52,4 @@ See the articles in this section for procedures to check-in each type of object:
     
 ## See also
 
-#### 
-
 [Delete enterprise objects in Project Server](delete-enterprise-objects-in-project-server.md)
-
