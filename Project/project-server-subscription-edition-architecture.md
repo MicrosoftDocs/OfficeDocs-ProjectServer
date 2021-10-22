@@ -27,7 +27,7 @@ The front-end tier includes Project Professional 2019, Project Professional 2021
 
 Below is a generalized view of the Project Server Subscription Edition architecture, including the Project Service Application and several client applications.
   
-![Diagram of Project Server Subscription Edition architecture.](images/ProjServ2021_arch.png)
+![Diagram of Project Server Subscription Edition architecture.](images/projserv2021-arch.png)
   
 The following general comments apply to the illustration above:
   
