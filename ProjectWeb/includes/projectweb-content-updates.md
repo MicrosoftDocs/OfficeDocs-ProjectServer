@@ -2,17 +2,11 @@
 
 
 
-## Week of September 20, 2021
+## Week of October 25, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/24/2021 | [Remove Project from Microsoft 365](/project-for-the-web/remove-roadmap-from-office-365) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/17/2021 | [Scheduling modes](/project-for-the-web/scheduling-modes) | added |
+| 10/27/2021 | Connect to Project data through Power BI Desktop | removed |
+| 10/27/2021 | [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins) | modified |
+| 10/27/2021 | [Project for the Web admin help](/project-for-the-web/projectforweb-admin-home) | modified |
