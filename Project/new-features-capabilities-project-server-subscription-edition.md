@@ -131,7 +131,7 @@ In Project Server Subscription Edition, there are no major features or enhanceme
 ## Known Issues
 <a name="Issues"> </a>
 
-There is a known issue in Project Web App in RTM release. Non Site admin users are unable to attach issues/risks/deliverables to tasks. In order to overcome you can use [SharePoint CSOM RelatedItemManager](/dotnet/api/microsoft.sharepoint.client.relateditemmanager) library to achieve the same. The sample snippet below is an example.
+There is a known issue in the Project Web App in RTM release. Users who aren't site admins can't attach issues, risks, or deliverables to tasks. Use the [SharePoint CSOM RelatedItemManager](/dotnet/api/microsoft.sharepoint.client.relateditemmanager) library as a workaround. The sample snippet below is an example.
 
 ```csharp
 // Starting with ClientContext, the constructor requires a URL to the
