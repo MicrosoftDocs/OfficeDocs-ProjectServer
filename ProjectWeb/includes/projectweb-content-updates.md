@@ -2,6 +2,14 @@
 
 
 
+## Week of November 15, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2021 | [Project for the Web Security Roles](/project-for-the-web/project-for-the-web-security-roles) | modified |
+
+
 ## Week of October 25, 2021
 
 
