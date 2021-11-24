@@ -8,12 +8,12 @@ audience: admin
 ms.topic: article
 ms.service: project-web
 ms.localizationpriority: medium
-description: "Learn how to deploy Project for the web to both a default and non default org."
+description: "Learn how to deploy Project for the web to both a default and non-default org."
 ---
 
 # Deploying Project for the web
 
-Project for the web is available for use in the Default Environment as well as in Sandbox and Production Dataverse environments.
+Project for the web is available for use in the Default Environment and in Sandbox and Production Dataverse environments.
 
 Project for the web in the Default environment enables customers to quickly get started creating projects, managing schedules, and sharing them with other users in the organization. Because everyone is a member of this environment by default, enabling users to create and manage Projects only requires that you assign a Project license to them.
 
@@ -46,7 +46,7 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 
 ### System requirements
 
-In order to be able to provision and use Project for the web, there are system prerequisites which are expected to be on, by default. The details of these system prerequisites are provided in the table below.
+In order to be able to provision and use Project for the web, there are system prerequisites that are expected to be on, by default. The details of these system prerequisites are provided in the table below.
 
 
 **Enterprise applications**
@@ -98,7 +98,7 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 **Verifying status of required Enterprise applications using Azure Active Directory PowerShell for Graph**
 
-For administrators who prefer using [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications are enabled. In addition, it also checks to ensure that the required Enterprise Apps exist and the AppRoleAssignmentRequired property is correctly set:
+For administrators who prefer using [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications is enabled. In addition, it also checks to ensure that the required Enterprise Apps exist and the AppRoleAssignmentRequired property is correctly set:
 
 ```powershell
 Connect-AzureAd
@@ -180,7 +180,7 @@ Else
 
 ### Deploying to the Default environment
 
-Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap are first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
+Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap is first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
 
 
 ## Provisioning a new environment
@@ -227,4 +227,4 @@ There is no additional configuration needed to enable users to manage Projects i
 
 ## Creating and managing projects in non-Default environments
 
-In non-Default environments, projects are created and managed via the Project Power App. Users with the Project User and Project Common roles will see the Project app tile appear in [Dynamics Home](https://home.dynamics.com).
+In non-Default environments, projects are created and managed via the Project Power App. Users with the Project User and Project Common roles will see the Project app tile appears in [Dynamics Home](https://home.dynamics.com).
