@@ -25,7 +25,7 @@ For some situations, you should consider deploying Project to additional environ
 
 If you are looking to deploy to additional environments, you will need to create the environments, deploy Project, and configure access for users.
 
-[Learn more about Dataverse environments.](/power-platform/admin/environments-overview)
+[Learn more about Dataverse environments](/power-platform/admin/environments-overview).
 
 ### Deploying to the Default environment
 
@@ -35,7 +35,7 @@ Deployment of Project to the Default environment is done for you automatically. 
 > [!Note]
 > This section only applies to Admins interested in deploying Project to a non-Default environment.
 
-Project is supported in the following types of environments
+Project is supported in the following types of environments:
 * Default
 * Production
 * Sandbox
@@ -71,7 +71,7 @@ Sandbox and Production environments require additional configuration. Assign the
 
 There is no additional configuration needed to enable users to manage Projects in the Default environment. Users in the Default environment only need a Project license to be able to create and manage Projects. 
 
-[Learn more about Project’s security roles.](/project-for-the-web/project-for-the-web-security-roles).
+[Learn more about Project’s security roles](/project-for-the-web/project-for-the-web-security-roles).
 
 > [!Note]
 > Project-related roles are only available after the Project Service Core package has been deployed to the environment.
@@ -90,7 +90,7 @@ All environments will be created in the geography where the tenant was initially
 
 ### System requirements
 
-To provision and use Project for the web, there are system prerequisites which are expected to be on. These pre-requisites are enabled by default. The details of these system prerequisites are provided in the table below.
+To provision and use Project for the web, there are system prerequisites that are expected to be on. These pre-requisites are enabled by default. The details of these system prerequisites are provided in the table below.
 
 **Enterprise applications**
 
@@ -135,7 +135,7 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
 7. Ensure that **Enabled for users to sign-in** is set to **Yes**.
 
-   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign in for Dynamics Provision is enabled.":::
+   :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign-in for Dynamics Provision is enabled.":::
 
 8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
 
