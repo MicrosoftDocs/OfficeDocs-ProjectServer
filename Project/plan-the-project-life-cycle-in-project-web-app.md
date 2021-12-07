@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -107,4 +107,3 @@ To allow only certain users to view a retired project, you can create a special 
 
 Deleting unused enterprise objects when a project is completed can help to prevent degradation of server performance. It is particularly beneficial for long term server performance to delete assignments. It is also a good idea to delete resources if they are no longer being used in the enterprise. Deleting unused enterprise objects when a project is completed also saves disk space on your database server.
   
-
