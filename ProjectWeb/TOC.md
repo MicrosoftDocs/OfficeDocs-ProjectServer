@@ -13,7 +13,6 @@
 ## [Resource management]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
 ### [Create non-user resources in Project for the web](create-nonuser-resources-in-project-for-the-web.md)
-### [Book a resource to a project](book-resource-to-project.md#book-a-resource-to-a-project)
 ### [Overview of Universal Resource Scheduling in Project for the web](overview-universal-resource-scheduling.md#overview-of-universal-resource-scheduling-in-project-for-the-web)
 ## [Maintain user data]()
 ### [Learn about Dataverse security roles in Project for the web](project-for-the-web-security-roles.md)
