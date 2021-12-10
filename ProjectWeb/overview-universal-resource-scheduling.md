@@ -3,7 +3,7 @@ title: "Overview of Universal Resource Scheduling in Project for the web"
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
-ms.date: 09/06/2021
+ms.date: 12/10/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
@@ -16,21 +16,72 @@ description: "Provides an overview of the Universal Resource Scheduling in Proje
 
 # Overview of Universal Resource Scheduling in Project for the web
 
-The **Universal Resource Scheduling** option in the **Resource Scheduling** app enables booking of resources to projects. A booked resource is ensured of a balanced workload, with its **booked** status indicating that it won't be used for too much work from projects.
+The **Universal Resource Scheduling** option in the **Resource Scheduling** app enables booking of resources to projects. The bookings enable you to book resources to a project and to ensure resources are not overloaded with too much work from too many projects.
 
 ## Prerequisites
 
 Before you can use the **Universal Resource Scheduling** option, ensure you have:
 
 - Project for the web. For information on specific licensing needs, see [service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
-    - User credentials with the necessary permissions. See below for more information.
+    - User credentials with the necessary permissions.
 
-### Update your environment
+## Book a resource to a project
+
+The process of booking a resource to a project comprises the following tasks:
+
+- [Create a resource requirement](#create-a-resource-requirement)
+- [Schedule the booking requirement](#schedule-the-booking-requirement)
+
+### Create a resource requirement
+
+> [!IMPORTANT]
+> Before you create a resource requirement, ensure you devise a project schedule that clearly presents your resource needs.
+
+1. Launch the Resource Scheduling app.
+   > [!NOTE]
+   > To find Resource Scheduling app, launch [https://make.powerapps.com](https://make.preview.powerapps.com/). In the top-right corner, ensure that the desired environment is listed.
+   > The desired environment is referred to one in which you can create the chosen resource requirement.
+1. Click **Apps** in the left navigation pane.
+1. Click on **Resource Scheduling**.
+1. On the left navigation pane, click **Resource Requirements**.
+1. Click **New** in the toolbar on top of the screen. The **New Resource Requirement** screen appears.
+1. Use the tooltips to fill in the required information. For more information, see [Allocation Method](/dynamics365/project-operations/resource-management/booking-allocation-methods).
+1. Click **Save**. 
+
+### Schedule the booking requirement
+
+You can schedule a booking requirement in the following ways:
+
+- [Click on an unscheduled booking and find available resources](#click-on-an-unscheduled-booking-and-find-available-resources)
+- [Drag an unscheduled booking requirement from the **List** view to the schedule board](#drag-an-unscheduled-booking-requirement-from-the-list-view-to-the-schedule-board)
+
+#### Click on an unscheduled booking and find available resources
+
+1. From the **Resource Scheduling** home screen, click **Schedule Board**.
+1. From the **Booking Requirement** list, click on an unscheduled booking.
+1. From the list of resources on the schedule board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
+   > [!NOTE]
+   > When you use the **Find availability** option, you are presented with a list of options related to the chosen booking requirement. If the options are not displayed, try adjusting the filters.
+1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**.
+   OR
+1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
+
+#### Drag an unscheduled booking requirement from the List view to the schedule board
+
+1. From the **Resource Scheduling** home screen, click **Schedule Board**.
+1. Select an unscheduled booking requirement from the booking requirement list at the bottom of the screen.
+1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
+
+If the resource was soft booked or proposed, the resources availability won’t be affected. Find more information [here](/dynamics365/field-service/schedule-board-utilization). The project manager can accept a resource booking proposal or change a booking status through the Bookings table at **Resource Scheduling > Bookings**.
+
+Once the resource is booked to the project, the resource shows up in the resource list and can be assigned to tasks. To ensure the project manager doesn’t use the resource more than its booking  limit, we recommend you create a report to review the booking versus total assignments.
+
+## Update your environment
 
 Before you can use Bookings with Project for the web, we recommend some updates to the Project Power App. You will need the [Environment Maker role](/power-platform/admin/database-security) on the environment to make these updates.
 If you want to be able to search for resources based off skills or roles, you will need to show these fields on the resource form so the information can be entered.
 
-See [this](/dynamics365/project-operations/resource-management/skills-proficiency-models) article for more information on how to set up skills and proficiency models although note the experience within Project for the web will be a bit different. Once you have created skills and ensured the proficiency model meets your needs, you need to update your resources with the skills they have. Therefore, when trying to find a resource that meets a requirement, you can ensure you are staffing the correct person for the work.
+See [this](/dynamics365/project-operations/resource-management/skills-proficiency-models) article for more information on how to set up skills and proficiency models although the experience within Project for the web will be a bit different. Once you have created skills and ensured the proficiency model meets your needs, you need to update your resources with the skills they have. Therefore, when trying to find a resource that meets a requirement, you can ensure you are staffing the correct person for the work.
 
 You can also use roles to help further define your resource needs. Roles can be defined through the the **Settings** option in the **Resource Scheduling**. You can use roles in addition to skills (for example, have a developer role and then skills based off more specific coding needs) or just use roles or skills for resource searching. Once roles are defined, you will then need to update resources similar to skills.
 
@@ -64,7 +115,7 @@ It is also recommended to turn on the **Team** tab, too, for projects. This acti
 1. Click **Views** in the **Project Team Members** row.
 1. Click the **pencil** icon to the right of **Team Members** (or whatever view you want to edit).
 1. Click **Column Attributes Primary Entity**.
-1. Drag the columns that you want to add to the table. We recommend **Hard Booked Hours** but you may also want to add Soft Booked Hours.
+1. Drag the columns that you want to add to the table. We recommend the **Hard Booked Hours** column but you may also want to add the **Soft Booked Hours** column.
 1. Click **Save** in the top-right corner.
 1. Click **Publish** in the top-right corner.
 
@@ -74,7 +125,7 @@ You will need to update permissions for people who need to use the schedule boar
 
 To create a resource requirement, a user may need the following privileges:
 > [!IMPORTANT]
-> The exact needs depend on which fields you decide to use around resource requests and your processes. A user may also need additional privileges if you have edited other security roles.
+> The exact needs depend on which fields you decide to use around resource requests and on your processes. A user may also need additional privileges if you have edited other security roles.
 
 - Custom Entities
     - Requirement characteristic
@@ -93,7 +144,7 @@ To accept a booking proposal, the user will additionally need:
 - Service
     - Booking Status
 
-To use the schedule board and manage resource properties, the user will additionally need:
+To use the schedule board and manage resource properties, the user will additionally need to have the Environment maker role in addition to the following roles:
 
 - Service
     - Bookable Resource Booking
@@ -112,8 +163,3 @@ To use the schedule board and manage resource properties, the user will addition
     - Fulfillment Preference
     - Schedule Board Setting
     - System User Scheduler Setting
-
-
-
-
-

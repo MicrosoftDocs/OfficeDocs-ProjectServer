@@ -3,7 +3,7 @@ title: "Book a resource to a project"
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
-ms.date: 09/03/2021
+ms.date: 12/10/2021
 audience: admin
 ms.topic: article
 ms.service: project-web
@@ -26,17 +26,15 @@ The process of booking a resource to a project comprises the following tasks:
 > [!IMPORTANT]
 > Before you create a resource requirement, ensure you devise a project schedule that clearly presents your resource needs.
 
-1. Launch the Resource Scheduling app by:
-    1. Launching [https://make.powerapps.com](https://make.preview.powerapps.com/).
-    1. Selecting the environment in which the resource requirement is to be created, on the top-right corner of the **Power Apps** home screen.
-    1. Clicking **Apps** in the left navigation pane.
-    1. Clicking on **Resource Scheduling**.
+1. Launch the Resource Scheduling app.
+   > [!NOTE]
+   > To find Resource Scheduling app, launch [https://make.powerapps.com](https://make.preview.powerapps.com/). In the top-right corner, ensure that the desired environment is listed.
+   > The desired environment is referred to one in which you can create the chosen resource requirement.
+1. Click **Apps** in the left navigation pane.
+1. Click on **Resource Scheduling**.
 1. On the left navigation pane, click **Resource Requirements**.
 1. Click **New** in the toolbar on top of the screen. The **New Resource Requirement** screen appears.
-1. Use the tooltips to fill in the required information.
-> [!NOTE]
-> Creation of a resource to a project involves an important role played by booking allocation methods, one of which is used in creation of a resource to a project. For more information, see [Allocation Method](/dynamics365/project-operations/resource-management/booking-allocation-methods).
-
+1. Use the tooltips to fill in the required information. For more information, see [Allocation Method](/dynamics365/project-operations/resource-management/booking-allocation-methods).
 1. Click **Save**. 
 
 ## Schedule the booking requirement
@@ -50,18 +48,20 @@ You can schedule a booking requirement in the following ways:
 
 1. From the **Resource Scheduling** home screen, click **Schedule Board**.
 1. From the **Booking Requirement** list, click on an unscheduled booking.
-1. Click **Find availability** to find available resources that meet the requirement from the list of resources on the schedule board.
-> [!NOTE]
-> When you do this, the filters will show the options for the selected booking requirement. If you can't find an available resource for the booking, try adjusting the filters.
-1. When you see the available slot, right-click on the time slot on the schedule board and click **Book Here**, Or, drag and drop the booking requirement to the available time slot.
+1. From the list of resources on the schedule board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
+   > [!NOTE]
+   > When you use the **Find availability** option, you are presented with a list of options related to the chosen booking requirement. If the options are not displayed, try adjusting the filters.
+1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**.
+   OR
+1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
 
 ### Drag an unscheduled booking requirement from the List view to the schedule board
 
 1. From the **Resource Scheduling** home screen, click **Schedule Board**.
-1. Select an unscheduled booking requirement from the list at the bottom of the screen.
+1. Select an unscheduled booking requirement from the booking requirement list at the bottom of the screen.
 1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
 
-If the resource was soft booked or proposed, the resources availability won’t be affected. Find more information [here](/dynamics365/field-service/schedule-board-utilization). The project manager can then accept a resource booking proposal or change a booking status through the **Bookings** table at Resource **Scheduling > Bookings**.
+If the resource was soft booked or proposed, the resources availability won’t be affected. Find more information [here](/dynamics365/field-service/schedule-board-utilization). The project manager can accept a resource booking proposal or change a booking status through the Bookings table at **Resource Scheduling > Bookings**.
 
 Once the resource is booked to the project, the resource shows up in the resource list and can be assigned to tasks. To ensure the project manager doesn’t use the resource more than its booking  limit, we recommend you create a report to review the booking versus total assignments.
 
