@@ -23,7 +23,7 @@ The **Universal Resource Scheduling** option in the **Resource Scheduling** app 
 Before you can use the **Universal Resource Scheduling** option, ensure you have:
 
 - Project for the web. For information on specific licensing needs, see [service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
-    - User credentials with the necessary permissions.
+- User credentials with the necessary permissions.
 
 ## Book a resource to a project
 
@@ -86,38 +86,38 @@ See [this](/dynamics365/project-operations/resource-management/skills-proficienc
 You can also use roles to help further define your resource needs. Roles can be defined through the the **Settings** option in the **Resource Scheduling**. You can use roles in addition to skills (for example, have a developer role and then skills based off more specific coding needs) or just use roles or skills for resource searching. Once roles are defined, you will then need to update resources similar to skills.
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com/).
-1. Ensure that you have set the precise environment in which you want to make edits, and that which is assigned to a project.
-1. On the left navigation pane, click **Apps**.
-1. Select the radio button of the project that you want to edit, and click **Edit**.
-> [!NOTE]
-> Refer to [these](/powerapps/maker/model-driven-apps/) documents for more information on working with Power App model-driven apps. This article just covers the basic changes needed for bookings. We do recommend putting these changes in a new layer.
-1. Click **Forms** in the **Bookable Resource** row. This action sets the right pane to **Bookable Resource** and results in display of the forms.
-1. Click the **pencil** icon which is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
-1. In the tree view, scroll to **Project Service** and un-hide it.
-> [!NOTE]
-> You can also rename the section, if you wish.
-1. Make any additional changes of choice to the form.
-1. Click **Save** in the top-right corner.
-1. Click **Publish** in the top-right corner.
-1. Click **X** on the top-right corner to exit the window.
+2. Ensure that you have set the precise environment in which you want to make edits, and that which is assigned to a project.
+3. On the left navigation pane, click **Apps**.
+4. Select the radio button of the project that you want to edit, and click **Edit**.
+    > [!NOTE]
+    > Refer to [these](/powerapps/maker/model-driven-apps/) documents for more information on working with Power App model-driven apps. This article just covers the basic changes needed for bookings. We do recommend putting these changes in a new layer.
+5. Click **Forms** in the **Bookable Resource** row. This action sets the right pane to **Bookable Resource** and results in display of the forms.
+6. Click the **pencil** icon which is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
+7. In the tree view, scroll to **Project Service** and un-hide it.
+    > [!NOTE]
+    > You can also rename the section, if you wish.
+8. Make any additional changes of choice to the form.
+9. Click **Save** in the top-right corner.
+10. Click **Publish** in the top-right corner.
+11. Click **X** on the top-right corner to exit the window.
 
 It is also recommended to turn on the **Team** tab, too, for projects. This action enables your project managers to understand their resource needs and compare those to the bookings so that they can stay within their resource budgets.
 
 1. Execute Steps 1-4 from the previous section.
-1. Click **Forms** in the **Project** row. This action sets the right pane to **Project** and results in the display of the forms. 
-1. Click the **pencil** icon to the right of **Information**. This action results in a pop up of the Power Apps form editor.
-1. In the tree view, scroll to **Team** and un-hide it.
-> [!NOTE]
-> If you are using the Project Accelerator, the **Team** view has already been un-hidden and is called **Resources**.
-1. Click **Save** in the top-right corner.
-1. Click **Publish** in the top-right corner.
-1. Click **X** on the top-right corner to exit the window.
-1. Click **Views** in the **Project Team Members** row.
-1. Click the **pencil** icon to the right of **Team Members** (or whatever view you want to edit).
-1. Click **Column Attributes Primary Entity**.
-1. Drag the columns that you want to add to the table. We recommend the **Hard Booked Hours** column but you may also want to add the **Soft Booked Hours** column.
-1. Click **Save** in the top-right corner.
-1. Click **Publish** in the top-right corner.
+2. Click **Forms** in the **Project** row. This action sets the right pane to **Project** and results in the display of the forms. 
+3. Click the **pencil** icon to the right of **Information**. This action results in a pop up of the Power Apps form editor.
+4. In the tree view, scroll to **Team** and un-hide it.
+   > [!NOTE]
+   > If you are using the Project Accelerator, the **Team** view has already been un-hidden and is called **Resources**.
+5. Click **Save** in the top-right corner.
+6. Click **Publish** in the top-right corner.
+7. Click **X** on the top-right corner to exit the window.
+8. Click **Views** in the **Project Team Members** row.
+9. Click the **pencil** icon to the right of **Team Members** (or whatever view you want to edit).
+10. Click **Column Attributes Primary Entity**.
+11. Drag the columns that you want to add to the table. We recommend the **Hard Booked Hours** column but you may also want to add the **Soft Booked Hours** column.
+12. Click **Save** in the top-right corner.
+13. Click **Publish** in the top-right corner.
 
 ### Update permissions/privileges
 
