@@ -15,7 +15,7 @@ description: "Summary: Learn how to add an approval task to a Project Web App wo
 # Assign an approval task in a workflow
  
  **Summary:** Learn how to add an approval task to a Project Web App workflow.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 By including an approval task in your Project Web App workflow, you can ensure that your projects receive proper approval before they get underway. In this article, we'll look at an example of using an approval task in a workflow to allow selected users to approve or reject a project.
   
@@ -154,8 +154,6 @@ In the next article, we'll look at how to [add an additional approval option to 
   
 ## See also
 <a name="proc2"> </a>
-
-#### 
 
 [Create a sample Project Web App workflow](create-a-sample-project-web-app-workflow.md)
   

@@ -9,7 +9,6 @@
 ### [Project for the web limits and boundaries](project-for-the-web-limits-and-boundaries.md)
 ### [Office 365 user view access to Project for the web and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)
 ### [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)
-### [Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
 ### [Frequently Asked Questions](faq.md)
 ## [Resource management]()

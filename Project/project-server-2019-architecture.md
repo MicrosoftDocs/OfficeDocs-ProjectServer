@@ -5,7 +5,7 @@ author: serdars
 manager: pamgreen
 ms.date: 9/15/2018
 audience: ITPro
-ms.topic: concetpual
+ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
@@ -43,7 +43,7 @@ The following general comments apply to the illustration above:
     
 - **Workflows:** Declarative workflows are offloaded to Workflow Manager for processing. Workflow Manager can run on a separate server in the SharePoint farm, on Microsoft Azure in the cloud, or on a single Project Server computer for testing or demonstrations. Coded workflows that are developed with Visual Studio are processed in the workflow runtime within SharePoint.
     
-- **Perimeter network (DMZ):** The illustration above does not show that an on-premises front end server can be isolated by an additional firewall in a perimeter network (also known as a "demilitarized zone" or DMZ). A perimeter network can allow Internet clients to access SharePoint and Project Server across a firewall.
+- **Perimeter network (DMZ):** The illustration above does not show that an on-premises front-end server can be isolated by an additional firewall in a perimeter network (also known as a "demilitarized zone" or DMZ). A perimeter network can allow Internet clients to access SharePoint and Project Server across a firewall.
     
 - **SharePoint Web Services:** The illustration above does not show the SharePoint infrastructure, such as the back-end SharePoint Web Services application, which is part of SharePoint Server 2019. When you install Project Server, the Project Service Application is added to the SharePoint Web Services.
     
@@ -51,4 +51,5 @@ The front-end tier includes third-party applications, Project Professional, and 
   
 The Project Web App components of Project Server use the SharePoint Server 2019 configuration database for project site setup and the content database for all other information. There is no longer a separate Project Server database.
   
+
 

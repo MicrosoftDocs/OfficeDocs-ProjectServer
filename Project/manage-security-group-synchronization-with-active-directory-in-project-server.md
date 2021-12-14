@@ -15,7 +15,7 @@ description: "Summary: You can configure Project Server security groups in Proje
 
 # Manage security group synchronization with Active Directory in Project Server
   **Summary:** You can configure Project Server security groups in Project Web App to synchronize with security or distribution groups in Active Directory.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 > [!NOTE]
 > To configure Active Directory synchronization to Project Web App security groups, your Project Server instance must be in Project Server Permission Mode. The settings are not available in SharePoint Permission Mode. For more information about Project Server Permission Mode, see [Plan user access in Project Server](plan-user-access-in-project-server.md). 
@@ -94,7 +94,7 @@ You can schedule the frequency that Active Directory synchronization to PWA secu
     
 2. On the Monitoring page, in the **Timer Job** section, click **Review job definitions**.
     
-3. On the Job Definitions page, find and click **Project Server: Synchronization of AD with security groups for <PWAIntanceName>**. 
+3. On the Job Definitions page, find and click **Project Server: Synchronization of AD with security groups for PWAIntanceName**. 
     
     For example: Project Server: Synchronization of AD with security groups for https://contoso/pwa.
     
@@ -104,28 +104,26 @@ You can schedule the frequency that Active Directory synchronization to PWA secu
     
    - **Hourly**: Allows you to specify an interval in which the job will randomly run — **Starting every hour between x minutes past the hour and no later than y minutes past the hour**.
     
-   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between <time of day> and no later than <time of day>**.
+   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between x time of day and no later than y time of day**.
     
-   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between <day of week and time of day> and no later than <day of week and time of day>**.
+   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between x day of week and x time of day and no later than y day of week and y time of day**.
     
    - **Monthly**: Provides two options:
     
-   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between <time of day and day of month> and no later than <time of day and day of month>**.
+   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between x time of day and x day of month and no later than y time of day and y day of month**.
     
-   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month**. For example, **12:00AM on the first Sunday**.
+   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month x time of day, y day of the week, and z week of the month**. For example, **12:00AM on the first Sunday**.
     
 5. Click **OK** to save your configuration changes.
     
     > [!NOTE]
     > You can click **Run Now** at any time to run the timer job immediately.
   
-Notice that several options provide you a period of execution time to run the job instead of an exact time or frequency. Selecting an option that provides a period of execution time allows the timer service to select a random time within the parameters specified in order to run the job on each application server. Using an option with a period of execution time is appropriate for high-load jobs which run on multiple servers in the farm. Running this type of job on all servers of the servers simultaneously might place an unreasonable load on the farm.
+Notice that several options provide you a period of execution time to run the job instead of an exact time or frequency. Selecting an option that provides a period of execution time allows the timer service to select a random time within the parameters specified in order to run the job on each application server. Using an option with a period of execution time is appropriate for high-load jobs that run on multiple servers in the farm. Running this type of job on all servers of the servers simultaneously might place an unreasonable load on the farm.
   
 Various factors may help you determine the frequency in which you choose to run the **Project Server: Synchronization of AD with security groups** timer job. You may want to choose to run this timer job more frequently if, in your environment, users frequently move to different groups, or if your company frequently hires or releases employees. You may also want to choose to run the job more frequently if your Project Server users are working with sensitive data.
   
 ## See also
-
-#### 
 
 [Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md)
   

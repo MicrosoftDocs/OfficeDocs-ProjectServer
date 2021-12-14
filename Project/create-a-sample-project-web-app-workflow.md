@@ -15,7 +15,7 @@ description: "Summary: Create sample workflow components to use in learning abou
 # Create a sample Project Web App workflow
  
  **Summary:** Create sample workflow components to use in learning about Project Web App workflows.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 In this article, we're going to set up some basic workflow infrastructure that we can use to demonstrate workflow functionality. We'll be creating some sample workflow stages, an empty workflow that we can build on later, and a sample enterprise project type. We can then use these items in the articles that follow to demonstrate some of the workflow capabilities available for Project Web App.
   
@@ -90,7 +90,7 @@ With the workflow published, we can create a sample enterprise project type.
     
 4. Type Sample Project Type for the name.
     
-5. Choose **Sample Workflow** (the workflow that we just created) from the **Site Workflow Association** dropdown list.
+5. Choose **Sample Workflow** (the workflow that we created) from the **Site Workflow Association** dropdown list.
     
 6. Choose **Project Information** from the **New Project Page** dropdown list.
     

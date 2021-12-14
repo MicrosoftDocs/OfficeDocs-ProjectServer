@@ -2,17 +2,27 @@
 
 
 
-## Week of September 13, 2021
+## Week of December 06, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/17/2021 | [Scheduling modes](/project-for-the-web/scheduling-modes) | added |
+| 12/9/2021 | [Plan reporting and business intelligence in Project Web App](/Project/plan-reporting-and-business-intelligence-in-project-web-app) | modified |
+| 12/9/2021 | [Plan the project life cycle in Project Web App](/Project/plan-the-project-life-cycle-in-project-web-app) | modified |
+| 12/9/2021 | [Project Server 2016 architecture](/Project/project-server-2016-architecture) | modified |
 
 
-## Week of September 13, 2021
+## Week of November 29, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/16/2021 | [Delete user data from Project Server Subscription Edition](/Project/delete-user-data-project-server-subscription-edition) | added |
+| 12/3/2021 | [Deploying Project for the web](/project-for-the-web/deploying-project) | modified |
+
+
+## Week of November 15, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2021 | [Project for the Web Security Roles](/project-for-the-web/project-for-the-web-security-roles) | modified |

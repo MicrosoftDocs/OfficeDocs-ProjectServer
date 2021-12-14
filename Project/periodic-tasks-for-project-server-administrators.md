@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 5/16/2017
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -16,13 +16,10 @@ description: "This article describes periodic checks Project Server admins shoul
 ---
 
 # Periodic tasks for Project Server administrators
- 
 
-**Applies to:** Project Server 2016, Project Server 2013 <br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
 
 This article describes periodic checks Project Server admins should perform to maintain their environments. It was contributed by Microsoft Senior Premier Field Engineer [Brooks White](https://go.microsoft.com/fwlink/p/?linkid=848903). (To access this link you will need a LinkedIn account)
-  
-## 
 
 Project Server administrators should perform the following periodic checks to their environment as an important part of their job:
   
