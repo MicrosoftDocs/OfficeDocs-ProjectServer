@@ -2,17 +2,17 @@
 
 
 
-## Week of September 20, 2021
+## Week of November 29, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/24/2021 | [Remove Project from Microsoft 365](/project-for-the-web/remove-roadmap-from-office-365) | modified |
+| 12/3/2021 | [Deploying Project for the web](/project-for-the-web/deploying-project) | modified |
 
 
-## Week of September 13, 2021
+## Week of November 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/17/2021 | [Scheduling modes](/project-for-the-web/scheduling-modes) | added |
+| 11/16/2021 | [Project for the Web Security Roles](/project-for-the-web/project-for-the-web-security-roles) | modified |

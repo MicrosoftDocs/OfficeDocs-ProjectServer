@@ -16,7 +16,7 @@ description: "Summary: Learn about the general architecture of Project Server 20
 # Project Server 2019 architecture
  
  **Summary:** Learn about the general architecture of Project Server 2019.<br/>
-**Applies to:** Project Server Subscription Edition, Project Server 2019
+**Applies to:** Project Server 2019
   
 Project Server 2019 architecture includes association of the Project Application Service with SharePoint site collections, the client-side object model (CSOM) for remote access, an OData interface for reporting, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM and OData interfaces.
   
@@ -51,4 +51,5 @@ The front-end tier includes third-party applications, Project Professional, and 
   
 The Project Web App components of Project Server use the SharePoint Server 2019 configuration database for project site setup and the content database for all other information. There is no longer a separate Project Server database.
   
+
 
