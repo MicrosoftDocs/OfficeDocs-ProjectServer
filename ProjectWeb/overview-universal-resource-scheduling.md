@@ -11,12 +11,12 @@ search.appverid:
 - PJO150
 - MET150 
 ms.localizationpriority: medium
-description: "Provides an overview of the Universal Resource Scheduling in Project for the web, and its prerequisites."
+description: "This article provides an overview of the Universal Resource Scheduling in Project for the web, and its prerequisites."
 ---
 
 # Overview of Universal Resource Scheduling in Project for the web
 
-The **Universal Resource Scheduling** option in the **Resource Scheduling** app enables booking of resources to projects. The bookings enable you to book resources to a project and to ensure resources are not overloaded with too much work from too many projects.
+The **Universal Resource Scheduling** option in the **Resource Scheduling** app enables booking of resources to projects that helps ensure that resources are not overloaded with too much work from too many projects.
 
 ## Prerequisites
 
@@ -37,16 +37,16 @@ The process of booking a resource to a project comprises the following tasks:
 > [!IMPORTANT]
 > Before you create a resource requirement, ensure you devise a project schedule that clearly presents your resource needs.
 
-1. Launch the Resource Scheduling app.
+1. Launch the **Resource Scheduling** app.
    > [!NOTE]
    > To find Resource Scheduling app, launch [https://make.powerapps.com](https://make.preview.powerapps.com/). In the top-right corner, ensure that the desired environment is listed.
    > The desired environment is referred to one in which you can create the chosen resource requirement.
-1. Click **Apps** in the left navigation pane.
-1. Click on **Resource Scheduling**.
-1. On the left navigation pane, click **Resource Requirements**.
-1. Click **New** in the toolbar on top of the screen. The **New Resource Requirement** screen appears.
+1. Select **Apps** in the left navigation pane.
+1. Select **Resource Scheduling**.
+1. In the left navigation pane, select **Resource Requirements**.
+1. Select **New** in the toolbar on top of the screen. The **New Resource Requirement** screen appears.
 1. Use the tooltips to fill in the required information. For more information, see [Allocation Method](/dynamics365/project-operations/resource-management/booking-allocation-methods).
-1. Click **Save**. 
+1. Select **Save**. 
 
 ### Schedule the booking requirement
 
@@ -55,18 +55,16 @@ You can schedule a booking requirement in the following ways:
 - [Click on an unscheduled booking and find available resources](#click-on-an-unscheduled-booking-and-find-available-resources)
 - [Drag an unscheduled booking requirement from the **List** view to the schedule board](#drag-an-unscheduled-booking-requirement-from-the-list-view-to-the-schedule-board)
 
-#### Click on an unscheduled booking and find available resources
+#### Select an unscheduled booking and find available resources
 
-1. From the **Resource Scheduling** home screen, click **Schedule Board**.
-1. From the **Booking Requirement** list, click on an unscheduled booking.
+1. From the **Resource Scheduling** home screen, select **Schedule Board**.
+1. From the **Booking Requirement** list, select on an unscheduled booking.
 1. From the list of resources on the schedule board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
    > [!NOTE]
    > When you use the **Find availability** option, you are presented with a list of options related to the chosen booking requirement. If the options are not displayed, try adjusting the filters.
-1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**.
-   OR
-1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
+1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**. Alternatively, you can drag unscheduled booking requirement to an available resource/time slot on the schedule board.
 
-#### Drag an unscheduled booking requirement from the List view to the schedule board
+#### Drag an unscheduled booking requirement from the List view to the Schedule Board
 
 1. From the **Resource Scheduling** home screen, click **Schedule Board**.
 1. Select an unscheduled booking requirement from the booking requirement list at the bottom of the screen.
@@ -78,7 +76,7 @@ Once the resource is booked to the project, the resource shows up in the resourc
 
 ## Update your environment
 
-Before you can use Bookings with Project for the web, we recommend some updates to the Project Power App. You will need the [Environment Maker role](/power-platform/admin/database-security) on the environment to make these updates.
+Before you can use Bookings with Project for the web, we recommend some updates to the Project Power App. To make these updates in the environment, you need [Environment Maker role](/power-platform/admin/database-security).
 If you want to be able to search for resources based off skills or roles, you will need to show these fields on the resource form so the information can be entered.
 
 See [this](/dynamics365/project-operations/resource-management/skills-proficiency-models) article for more information on how to set up skills and proficiency models although the experience within Project for the web will be a bit different. Once you have created skills and ensured the proficiency model meets your needs, you need to update your resources with the skills they have. Therefore, when trying to find a resource that meets a requirement, you can ensure you are staffing the correct person for the work.
@@ -87,41 +85,41 @@ You can also use roles to help further define your resource needs. Roles can be 
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com/).
 2. Ensure that you have set the precise environment in which you want to make edits, and that which is assigned to a project.
-3. On the left navigation pane, click **Apps**.
-4. Select the radio button of the project that you want to edit, and click **Edit**.
+3. In the left navigation pane, select **Apps**.
+4. Select the radio button of the project that you want to edit, and select **Edit**.
     > [!NOTE]
     > Refer to [these](/powerapps/maker/model-driven-apps/) documents for more information on working with Power App model-driven apps. This article just covers the basic changes needed for bookings. We do recommend putting these changes in a new layer.
-5. Click **Forms** in the **Bookable Resource** row. This action sets the right pane to **Bookable Resource** and results in display of the forms.
-6. Click the **pencil** icon which is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
+5. Select **Forms** in the **Bookable Resource** row. This action sets the right pane to **Bookable Resource** and results in display of the forms.
+6. Select the **pencil** icon which is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
 7. In the tree view, scroll to **Project Service** and un-hide it.
     > [!NOTE]
     > You can also rename the section, if you wish.
 8. Make any additional changes of choice to the form.
-9. Click **Save** in the top-right corner.
-10. Click **Publish** in the top-right corner.
-11. Click **X** on the top-right corner to exit the window.
+9. Select **Save** in the top-right corner.
+10. Select **Publish** in the top-right corner.
+11. Select **X** on the top-right corner to exit the window.
 
 It is also recommended to turn on the **Team** tab, too, for projects. This action enables your project managers to understand their resource needs and compare those to the bookings so that they can stay within their resource budgets.
 
 1. Execute Steps 1-4 from the previous section.
-2. Click **Forms** in the **Project** row. This action sets the right pane to **Project** and results in the display of the forms. 
-3. Click the **pencil** icon to the right of **Information**. This action results in a pop up of the Power Apps form editor.
+2. Select **Forms** in the **Project** row. This action sets the right pane to **Project** and results in the display of the forms. 
+3. Select the **pencil** icon to the right of **Information**. This action results in a pop up of the Power Apps form editor.
 4. In the tree view, scroll to **Team** and un-hide it.
    > [!NOTE]
    > If you are using the Project Accelerator, the **Team** view has already been un-hidden and is called **Resources**.
-5. Click **Save** in the top-right corner.
-6. Click **Publish** in the top-right corner.
-7. Click **X** on the top-right corner to exit the window.
-8. Click **Views** in the **Project Team Members** row.
-9. Click the **pencil** icon to the right of **Team Members** (or whatever view you want to edit).
-10. Click **Column Attributes Primary Entity**.
+5. Select **Save** in the top-right corner.
+6. Select **Publish** in the top-right corner.
+7. Select **X** on the top-right corner to exit the window.
+8. Select **Views** in the **Project Team Members** row.
+9. Select the **pencil** icon to the right of **Team Members** (or whatever view you want to edit).
+10. Select **Column Attributes Primary Entity**.
 11. Drag the columns that you want to add to the table. We recommend the **Hard Booked Hours** column but you may also want to add the **Soft Booked Hours** column.
-12. Click **Save** in the top-right corner.
-13. Click **Publish** in the top-right corner.
+12. Select **Save** in the top-right corner.
+13. Select **Publish** in the top-right corner.
 
 ### Update permissions/privileges
 
-You will need to update permissions for people who need to use the schedule board. For an overview of how permissions work and how to update them, see [this](/dynamics365/customerengagement/on-premises/admin/security-roles-privileges) article.
+You will need to update permissions for people who need to use the Schedule Board. For an overview of how permissions work and how to update them, see [Security roles and privileges](/dynamics365/customerengagement/on-premises/admin/security-roles-privileges)    article.
 
 To create a resource requirement, a user may need the following privileges:
 > [!IMPORTANT]
@@ -144,7 +142,7 @@ To accept a booking proposal, the user will additionally need:
 - Service
     - Booking Status
 
-To use the schedule board and manage resource properties, the user will additionally need to have the Environment maker role in addition to the following roles:
+To use the Schedule Board and manage resource properties, the user will additionally need to have the Environment maker role in addition to the following roles:
 
 - Service
     - Bookable Resource Booking
