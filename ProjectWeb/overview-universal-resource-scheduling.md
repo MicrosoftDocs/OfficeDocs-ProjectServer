@@ -52,23 +52,23 @@ The process of booking a resource to a project comprises the following tasks:
 
 You can schedule a booking requirement in the following ways:
 
-- [Click on an unscheduled booking and find available resources](#click-on-an-unscheduled-booking-and-find-available-resources)
-- [Drag an unscheduled booking requirement from the **List** view to the schedule board](#drag-an-unscheduled-booking-requirement-from-the-list-view-to-the-schedule-board)
+- [Select an unscheduled booking and find available resources](#select-an-unscheduled-booking-and-find-available-resources)
+- [Drag an unscheduled booking requirement from the List view to the Schedule Board](#drag-an-unscheduled-booking-requirement-from-the-list-view-to-the-schedule-board)
 
 #### Select an unscheduled booking and find available resources
 
 1. From the **Resource Scheduling** home screen, select **Schedule Board**.
 1. From the **Booking Requirement** list, select on an unscheduled booking.
-1. From the list of resources on the schedule board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
+1. From the list of resources on the Schedule Board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
    > [!NOTE]
    > When you use the **Find availability** option, you are presented with a list of options related to the chosen booking requirement. If the options are not displayed, try adjusting the filters.
-1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**. Alternatively, you can drag unscheduled booking requirement to an available resource/time slot on the schedule board.
+1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**. Alternatively, you can drag unscheduled booking requirement to an available resource/time slot on the Schedule Board.
 
 #### Drag an unscheduled booking requirement from the List view to the Schedule Board
 
-1. From the **Resource Scheduling** home screen, click **Schedule Board**.
+1. From the **Resource Scheduling** home screen, select **Schedule Board**.
 1. Select an unscheduled booking requirement from the booking requirement list at the bottom of the screen.
-1. Drag the unscheduled booking requirement to an available resource/time slot on the schedule board.
+1. Drag the unscheduled booking requirement to an available resource/time slot on the Schedule Board.
 
 If the resource was soft booked or proposed, the resources availability won’t be affected. Find more information [here](/dynamics365/field-service/schedule-board-utilization). The project manager can accept a resource booking proposal or change a booking status through the Bookings table at **Resource Scheduling > Bookings**.
 
