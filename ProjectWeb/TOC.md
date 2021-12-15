@@ -3,6 +3,7 @@
 ## [Get started]()
 ### [Project for the web get started guide for admins](project-for-the-web-get-started-guide-for-admins.md)
 ### [Deploying Project for the web](deploying-project.md)
+### [Scheduling modes](scheduling-modes.md)
 ### [Turn Project for the web or Roadmap on or off](turn-project-for-the-web-off.md)
 ### [Project architecture overview](project-architecture-overview.md)
 ### [Project for the web limits and boundaries](project-for-the-web-limits-and-boundaries.md)
