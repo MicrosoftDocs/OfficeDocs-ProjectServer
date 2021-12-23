@@ -59,7 +59,7 @@ You can schedule a booking requirement in the following ways:
 
 1. From the **Resource Scheduling** home screen, select **Schedule Board**.
 1. From the **Booking Requirement** list, select on an unscheduled booking.
-1. From the list of resources on the Schedule Board, select **Find availability**. This option enables you to find the list of resources that are available and those that fit your requirement from the list.
+1. From the list of resources on the Schedule Board, select **Find availability**. This option enables you to find the list of resources that are available and those resources that fit your requirement from the list.
    > [!NOTE]
    > When you use the **Find availability** option, you are presented with a list of options related to the chosen booking requirement. If the options are not displayed, try adjusting the filters.
 1. When you find an apt available time slot for your booking requirement, right-click on it and choose **Book Here**. Alternatively, you can drag unscheduled booking requirement to an available resource/time slot on the Schedule Board.
@@ -88,23 +88,23 @@ You can also use roles to help further define your resource needs. Roles can be 
 3. In the left navigation pane, select **Apps**.
 4. Select the radio button of the project that you want to edit, and select **Edit**.
     > [!NOTE]
-    > Refer to [these](/powerapps/maker/model-driven-apps/) documents for more information on working with Power App model-driven apps. This article just covers the basic changes needed for bookings. We do recommend putting these changes in a new layer.
+    > See [these](/powerapps/maker/model-driven-apps/) documents for more information on working with Power App model-driven apps. This article just covers the basic changes needed for bookings. We do recommend putting these changes in a new layer.
 5. Select **Forms** in the **Bookable Resource** row. This action sets the right pane to **Bookable Resource** and results in display of the forms.
-6. Select the **pencil** icon which is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
-7. In the tree view, scroll to **Project Service** and un-hide it.
+6. Select the **pencil** icon that is at the right of **Information**. This action results in a pop up of the Power Apps form editor.
+7. In the tree view, scroll to **Project Service** and unhide it.
     > [!NOTE]
     > You can also rename the section, if you wish.
-8. Make any additional changes of choice to the form.
+8. Make more changes of choice to the form.
 9. Select **Save** in the top-right corner.
 10. Select **Publish** in the top-right corner.
 11. Select **X** on the top-right corner to exit the window.
 
-It is also recommended to turn on the **Team** tab, too, for projects. This action enables your project managers to understand their resource needs and compare those to the bookings so that they can stay within their resource budgets.
+It is also recommended to turn on the **Team** tab, too, for projects. This action enables your project managers to understand their resource needs and compare those needs to the bookings so that they can stay within their resource budgets.
 
 1. Execute Steps 1-4 from the previous section.
 2. Select **Forms** in the **Project** row. This action sets the right pane to **Project** and results in the display of the forms. 
 3. Select the **pencil** icon to the right of **Information**. This action results in a pop up of the Power Apps form editor.
-4. In the tree view, scroll to **Team** and un-hide it.
+4. In the tree view, scroll to **Team** and unhide it.
    > [!NOTE]
    > If you are using the Project Accelerator, the **Team** view has already been un-hidden and is called **Resources**.
 5. Select **Save** in the top-right corner.
