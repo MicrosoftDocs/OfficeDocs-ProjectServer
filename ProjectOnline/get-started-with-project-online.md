@@ -11,6 +11,7 @@ f1_keywords:
 - 'O365M_GSProj'
 - 'O365E_GSProj'
 ms.service: project-online
+ms.custom: intro-get-started
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -24,15 +25,23 @@ description: "This article is the first in a series that will help you get start
 
 # Get started with Project Online
 
-|||
-|:-----|:-----|
-|![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)         [![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
+![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)
+
+[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)
+
+[![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)](step-2-add-people-to-project-online.md)    
+
+[![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) 
 
 ## Overview
   
-|||
-|:-----|:-----|
-|![Project Online.](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)           <br/> |**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for:** <br/>  Managing multiple projects.  <br/>  Tracking work on timesheets.  <br/>  Balancing broad resource needs.  <br/>  *(If you're looking for a hosted version of Project Server, this is it!)*  <br/> |
+![Project Online.](media/276154dc-3e4e-49db-9a4d-67f037094c25.png)
+
+**[Project Online](https://go.microsoft.com/fwlink/p/?linkid=402127) is web-based, and is great for:** 
+- Managing multiple projects
+- Tracking work on timesheets
+- Balancing broad resource needs
+- *(If you're looking for a hosted version of Project Server, this is it!)*
    
  **To be clear, Project Online is NOT a web-based version of Project Professional.** Project Online is an entirely separate service that offers full portfolio and project management tools on the web. It includes Project Web App, and can, depending on your subscription, also include Project Online Desktop Client, which is a subscription version of Project Professional. 
   
