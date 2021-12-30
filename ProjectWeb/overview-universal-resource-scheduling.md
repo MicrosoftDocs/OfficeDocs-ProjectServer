@@ -81,7 +81,7 @@ If you want to be able to search for resources based off skills or roles, you wi
 
 See [this](/dynamics365/project-operations/resource-management/skills-proficiency-models) article for more information on how to set up skills and proficiency models although the experience within Project for the web will be a bit different. Once you have created skills and ensured the proficiency model meets your needs, you need to update your resources with the skills they have. Therefore, when trying to find a resource that meets a requirement, you can ensure you are staffing the correct person for the work.
 
-You can also use roles to help further define your resource needs. Roles can be defined through the the **Settings** option in the **Resource Scheduling**. You can use roles in addition to skills (for example, have a developer role and then skills based off more specific coding needs) or just use roles or skills for resource searching. Once roles are defined, you will then need to update resources similar to skills.
+You can also use roles to help further define your resource needs. Roles can be defined through the **Settings** option in the **Resource Scheduling**. You can use roles in addition to skills (for example, have a developer role and then skills based off more specific coding needs) or just use roles or skills for resource searching. Once roles are defined, you will then need to update resources similar to skills.
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com/).
 2. Ensure that you have set the precise environment in which you want to make edits, and that which is assigned to a project.
