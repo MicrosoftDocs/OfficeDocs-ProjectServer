@@ -28,7 +28,7 @@ Project for the web is built on the [Microsoft Power Platform](https://powerplat
 
 ## Data retention
 
-Since Project for the web data is stored in CDS, data retention policies differ from Project Online (whose data is stored in Office 365).  When your Project Online subscription ends, your data is retained for 90 days before it is automatically deleted (in accordance to [Office 365 data retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)).  However, if you use Project for the web (which is included in Project Plan 1, Project Plan 3, and Project Plan 5 licenses), that data is not automatically deleted 90 days after your subscription ends. 
+Since Project for the web data is stored in Common Data Service (CDS), data retention policies differ from Project Online (whose data is stored in Office 365).  When your Project Online subscription ends, your data is retained for 90 days before it’s automatically deleted (in accordance to [Office 365 data retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)).  However, if you use Project for the web (which is included in Project Plan 1, Project Plan 3, and Project Plan 5 licenses), that data isn’t automatically deleted 90 days after your subscription ends. 
 
 You can remove all Project for the web or Roadmap data by [removing the entire solution from from Microsoft 365](https://docs.microsoft.com/project-for-the-web/remove-roadmap-from-office-365).
 
@@ -60,7 +60,7 @@ An admin can choose to either [turn off Project for the web to your organization
 
 ## Turn off Roadmap 
 
-Although Roadmap is a Project for the web feature, it is possible that some organizations may want to use Roadmap, but may want their users to access Project for the web at a later time.
+Although Roadmap is a Project for the web feature, it’s possible that some organizations may want to use Roadmap, but may want their users to access Project for the web at a later time.
 
 The **Turn Roadmap on for your organization** control on the Project Settings page allows you to [turn Roadmap on or off in your organization](https://docs.microsoft.com/project-for-the-web/turn-roadmap-on-or-off). </br>
  
