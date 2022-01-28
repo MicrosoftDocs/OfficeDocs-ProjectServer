@@ -52,7 +52,7 @@ This article describes how admins can do the following to address similar scenar
 An admin can turn Project for the web on or off for all users in their organization through the Project settings page in the Microsoft 365 admin center.
 
 > [!Important]
-> This setting is only available in the [new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide#participate-in-the-new-admin-center). If you are using the classic admin center, you will need to switch to the new Microsoft 365 admin center to access this setting.</br>
+> This setting is only available in the [new Microsoft 365 admin center](/microsoft-365/admin/microsoft-365-admin-center-preview). If you are using the classic admin center, you will need to switch to the new Microsoft 365 admin center to access this setting.</br>
 
 To turn on or off Project for the web:
 
@@ -60,7 +60,7 @@ To turn on or off Project for the web:
 2. Select **Project**.
 3. On the **Project** settings page, select or deselect **Turn on Project for the web for your organization**, and then select **Save changes**.
 
-![Select user.](media/projsettingsp4w.png)
+![Project for the web for your organization](media/projsettingsp4w.png)
 
 If an admin tries to access the Project settings page and receives the error message *Unable to retrieve settings*, have a licensed user go to their Project Home page (project.microsoft.com). This will initiate Project for the web on the tenant and will make the Project settings available for the admin.
 
@@ -94,11 +94,11 @@ To turn off Project for the web for a user:
 
 1. In the Microsoft 365 admin center, select **Users**, then choose **Active Users**.
 2. From the **Active users** list, select the checkbox next to the user, and then choose **Manage product licenses**.</br>
-![Select user.](media/activeusers.png)
+![Active users](media/activeusers.png)
 3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop-down menu. This would be either Project Online Professional or Project Online Premium.
 4. In the list of apps that display, uncheck **Project P3**, and then choose **Save changes**.</br>
 
-    ![Select user.](media/p3service.png) 
+    ![Project P3](media/p3service.png) 
 
     You can repeat this procedure for each user that you don't want to use Project for the web.
 
@@ -111,7 +111,7 @@ To turn off Project for the web for a user:
 If you need to turn off Project for the web for a large number of users, it may be easier for an admin to do this through Windows PowerShell instead of through the Microsoft 365 admin center.
 
 > [!Note]
-> Before attempting this, you first need to [install the required modules](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) and be a global admin on your tenant. </br>
+> Before attempting this, you first need to [install the required modules](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) and be a global admin on your tenant. </br>
 > Also, when you open Windows PowerShell, make sure to run as an administrator. 
 
 
@@ -151,7 +151,7 @@ ForEach ($UPN in $UPNList)
     Set-MsolUserLicense -UserPrincipalName $UPN -LicenseOptions $LicenseOptionsPremium    
 }
 ```
-For more information about disabling services through Office 365 PowerShell, see [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). 
+For more information about disabling services through Office 365 PowerShell, see [Disable access to services with Office 365 PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell). 
 
 ## Turn Roadmap on or off
 
@@ -208,7 +208,7 @@ To turn off Project Online:
 
 1. In the Microsoft 365 admin center, select **Users**, then select **Active Users**.
 2. From the **Active users** list, select the checkbox next to the user, and then choose **Manage product licenses**.</br>
-![Select user.](media/activeusers.png)
+![Active users view](media/activeusers.png)
 3.  On the user information page, select the **licenses and app** tab, in the **Apps** section,  select the user's Project Online license from the **Show apps for** drop-down menu. This would be either **Project Plan 3** or **Project Plan 5**.
 4. In the list of apps that display, uncheck **Project Online Service**, and then choose **Save changes**.</br>
  

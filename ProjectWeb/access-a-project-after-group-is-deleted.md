@@ -35,7 +35,7 @@ If you’re the owner of an Office 365 group, you can restore the group yourself
 After you've restored the group, members of the group should be able to access the associated project in Project for the web.
 
 > [!Note]
-> To learn more about deleting an Office 365 group, see [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide)
+> To learn more about deleting an Office 365 group, see [Restore a deleted Office 365 Group](/office365/admin/create-groups/restore-deleted-group)
 
 ## Reassign the project
 
@@ -48,7 +48,7 @@ The admin will need to:
 
 ### Find the project in Advanced Find search
 
-Use [Dynamics 365 Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for the project you need.
+Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for the project you need.
 
 1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 2. On the PowerApps Settings page, select **Dynamics 365 Custom**.

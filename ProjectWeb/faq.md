@@ -37,11 +37,11 @@ You can find the Project Power App in the [Microsoft 365 app launcher](https://s
 
 ### Can I customize the Project Power App?
 
-Yes! It’s a [model-driven Power App](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview), which means you [use the Power Apps designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) to edit the look and feel of Project.
+Yes! It’s a [model-driven Power App](/powerapps/maker/model-driven-apps/model-driven-app-overview), which means you [use the Power Apps designer](/powerapps/maker/model-driven-apps/model-driven-app-overview) to edit the look and feel of Project.
 
 ### How can I add custom fields at the Project level?
 
-[Use the Power Apps designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) to add columns to the Tables, Views, and Forms in the Project Power App.
+[Use the Power Apps designer](/powerapps/maker/model-driven-apps/model-driven-app-overview) to add columns to the Tables, Views, and Forms in the Project Power App.
 
 ### I need to use more than five custom tables with Project for the web, how can I do that? 
 
@@ -49,11 +49,11 @@ Create a new Power App and add any tables you need into it. You can have all the
 
 ### How can I change the access rights for users of Project data in the Dataverse?
 
-The Project Team Member role is customizable and can be used to manage the access rights of users. Learn how to customize roles [here](https://docs.microsoft.com/power-platform/admin/wp-security-cds#:~:text=Dataverse%20uses%20role%2Dbased%20security,Dataverse%20teams%20and%20business%20units.).
+The Project Team Member role is customizable and can be used to manage the access rights of users. Learn how to customize roles [here](/power-platform/admin/wp-security-cds#:~:text=Dataverse%20uses%20role%2Dbased%20security,Dataverse%20teams%20and%20business%20units.).
 
 ### How can I use Power BI with Project for the web?
 
-You can use the [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) to create reports on Project for the Web data. Users will need the appropriate license to be able to view these reports. Refer to other guidance in this FAQ, as well as in the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+You can use the [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) to create reports on Project for the Web data. Users will need the appropriate license to be able to view these reports. Refer to other guidance in this FAQ, as well as in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
 ### Can I build apps or reports that include local custom fields?
 
@@ -98,4 +98,4 @@ You can use many of the tables in the Project Solution to customize the look and
 
 ### How many Dataverse environments can I provision with a Project license?
 
-The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).

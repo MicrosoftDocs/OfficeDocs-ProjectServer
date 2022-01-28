@@ -5,6 +5,7 @@ author: serdars
 manager: pamgreen
 ms.date: 12/9/2019
 audience: admin
+ms.topic: article
 ms.service: project-web
 ms.localizationpriority: medium
 search.appverid:

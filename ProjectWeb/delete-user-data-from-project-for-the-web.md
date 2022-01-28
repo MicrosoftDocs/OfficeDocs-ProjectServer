@@ -17,7 +17,7 @@ description: "Learn how an Office 365 global administrator can delete a user's i
 
 # Delete user data from Project for the web
 
-To delete user data from Project for the web, you need the user's Azure AD (Azure AD) Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser).
+To delete user data from Project for the web, you need the user's Azure AD (Azure AD) Object ID. You can get this by checking the user's profile properties in Azure AD or by using [Get-AzureADUser](/powershell/module/azuread/get-azureaduser).
 
 To find a user's Azure AD Object ID in the Azure AD Admin Center:
 
@@ -56,7 +56,7 @@ To find a user's Azure AD Object ID in the Azure AD Admin Center:
 
 From your Advanced Find search results, make note of the Office 365 Group Azure AD ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
 
-To add yourself as a group owner, use [Add-AzureADGroupOwner](https://docs.microsoft.com/powershell/module/azuread/add-azureadgroupowner):
+To add yourself as a group owner, use [Add-AzureADGroupOwner](/powershell/module/azuread/add-azureadgroupowner):
 
 `Add-AzureADGroupOwner -ObjectId <GroupID> -RefObjectId <YourAADObjectID>`
 
@@ -100,7 +100,7 @@ To delete or edit a user's project, perform the following steps:
 
 1. From the Advanced Find search results list, note the project you want to delete or update.
 2. On the PowerApps admin page, select the drop-down menu and select **Project**.</br>
-![PowerApps menu.](media/PowerAppsProject.png)
+![PowerApps menu item](media/PowerAppsProject.png)
 3. On the Project page, in the **System Views** menu, select **All Projects**.
 4. Choose the project you’re interested in deleted or redacting.
 5. On the project page, you can choose:
@@ -113,11 +113,8 @@ To delete or edit a user's project, perform the following steps:
 
 ## See Also
 
-[Create, edit, or save an Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
+[Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search)
 
 [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 
-[Delete user data from Project Online](https://docs.microsoft.com/projectonline/delete-user-data-from-project-online)
-  
-  
-
+[Delete user data from Project Online](/projectonline/delete-user-data-from-project-online)

@@ -27,22 +27,21 @@ While users in Azure Active Directory (Azure AD) are available to assign to proj
 
 Some of the more commonly used non-user resources you’ll be able to add include:
 
-|||
+| Name | Description |
 |:-----|:-----|
-|**Name** <br/> |**Description** <br/> |
 |Contact or Account   <br/> |The resource isn’t directly a part of your organization, but needs to be scheduled. A common example is subcontractors.  <br/> |
 |Equipment <br/> |The resource is a piece of equipment, tool, or machine that must be scheduled.  <br/> |
 
 > [!Note]
 > You will only be able to assign user, contact, account, or equipment resource types to project tasks in Project for the web.
 
-For more information about non-user resources, see [Set up a bookable resource](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#add-work-hours).
+For more information about non-user resources, see [Set up a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).
 
 ## Create a non-user resource
 
 You first need to go to the Dynamics 365 Project Resources page:
 
-1. While logged into Office 365, open a browser window and go to **https://<spam><spam>make.powerapps<spam><spam>.com**.
+1. While logged into Office 365, open a browser window and go to `https://make.powerapps.com`.
 2. On the PowerApps page, select **Apps**.
 3. On the Apps page, in the Org Apps tab, select **Project**.
 4. On the Project page, in the left pane, select **Resources**.
@@ -60,4 +59,4 @@ The new resource will display in the Bookable Resources page and can be assigned
 
 ## See Also
 
-[Set up a bookable resource](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#add-work-hours)
+[Set up a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours)
