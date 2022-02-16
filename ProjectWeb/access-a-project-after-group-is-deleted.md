@@ -39,7 +39,7 @@ After you've restored the group, members of the group should be able to access t
 
 ## Reassign the project
 
-If the Office 365 group has been deleted for longer than 30 days, it isn’t restorable and an admin in your tenant will need to  reassigning the project to either the user who needs to access it or someone who can add a new Office 365 group in Project for the web.
+If the Office 365 group has been deleted for longer than 30 days, it isn’t restorable and an admin in your tenant will need to reassign the project to either the user who needs to access it or someone who can add a new Office 365 group in Project for the web.
 
 The admin will need to:
 
