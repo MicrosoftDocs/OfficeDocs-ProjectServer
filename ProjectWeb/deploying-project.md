@@ -13,17 +13,17 @@ description: "Learn how to deploy Project for the web to both a default and non-
 
 # Deploying Project for the web
 
-Project for the web is available for use in the Default Environment and in Sandbox and Production Dataverse environments.
+Project for the web is available for use in the Default environment and in Sandbox and Production Dataverse environments.
 
 Project for the web in the Default environment enables customers to quickly get started creating projects, managing schedules, and sharing them with other users in the organization. Because everyone is a member of this environment by default, enabling users to create and manage Projects only requires that you assign a Project license to them.
 
 For some situations, you should consider deploying Project to additional environments. These are:
 
- - Customizing Project to behave differently for different business units
+- Customizing Project to behave differently for different business units
 
- - Application Lifecycle management (Development/Test/Production)
+- Application Lifecycle management (Development/Test/Production)
 
-If you are looking to deploy to additional environments, you will need to create the environments, deploy Project, and configure access for users.
+If you’re looking to deploy to additional environments, you’ll need to create the environments, deploy Project, and configure access for users.
 
 [Learn more about Dataverse environments](/power-platform/admin/environments-overview).
 
@@ -32,10 +32,12 @@ If you are looking to deploy to additional environments, you will need to create
 Deployment of Project to the Default environment is done for you automatically. When Project for the web or Roadmap is first used in an Office 365 tenant, a Default Dataverse instance is provisioned for the tenant and the solutions are deployed.
 
 ## Provisioning a new environment
+
 > [!Note]
 > This section only applies to Admins interested in deploying Project to a non-Default environment.
 
 Project is supported in the following types of environments:
+
 * Default
 * Production
 * Sandbox
@@ -52,7 +54,7 @@ To be able to deploy to Sandbox and Production environments, the environment nee
 
 ### Deploying Project to the environment
 
-Once the environment is created, you can deploy Project to the environment from within the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com). 
+Once the environment is created, you can deploy Project to the environment from within the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com).
 
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
 
@@ -60,8 +62,7 @@ Open the **Resources > Dynamics 365 apps** page from the left-hand navigation me
 > ![Project package.](media/InstallProject.png) 
 
 > [!Note]
-> If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled. 
-
+> If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled.
 
 [Learn more about using the PPAC to deploy applications](/power-platform/admin/manage-apps).
 
@@ -69,7 +70,7 @@ Open the **Resources > Dynamics 365 apps** page from the left-hand navigation me
 
 Sandbox and Production environments require additional configuration. Assign the **Project Common** and **Project User** roles to anyone who will be creating Projects in the environment. Also, ensure these users have the appropriate Project license.
 
-There is no additional configuration needed to enable users to manage Projects in the Default environment. Users in the Default environment only need a Project license to be able to create and manage Projects. 
+There’s no additional configuration needed to enable users to manage Projects in the Default environment. Users in the Default environment only need a Project license to be able to create and manage Projects.
 
 [Learn more about Project’s security roles](/project-for-the-web/project-for-the-web-security-roles).
 
@@ -82,7 +83,7 @@ In non-Default environments, projects are created and managed via the Project Po
 
 ## Deploying an environment to a different Geography
 
-All environments will be created in the geography where the tenant was initially created. To create an environment in a different geography, you will need to contact your Microsoft Sales Representative or Reseller to get this enabled.
+All environments will be created in the geography where the tenant was initially created. To create an environment in a different geography, you’ll need to contact your Microsoft Sales Representative or Reseller to get this enabled.
 
 [Learn more about managing multiple environments.](/power-platform/admin/multiple-online-environments-tenants#add-a-multi-tenant-deployment-under-volume-licensing)
 
@@ -90,12 +91,11 @@ All environments will be created in the geography where the tenant was initially
 
 ### System requirements
 
-To provision and use Project for the web, there are system prerequisites that are expected to be on. These pre-requisites are enabled by default. The details of these system prerequisites are provided in the table below.
+To provision and use Project for the web, there are system prerequisites that are expected to be on. These pre-requisites are enabled by default. The details of these system prerequisites are provided in the following table.
 
-**Enterprise applications**
+### Enterprise applications
 
 The following enterprise applications should be enabled:
-
 
 |Application Name  |Application ID  |
 |---------|---------|
@@ -106,30 +106,29 @@ The following enterprise applications should be enabled:
 |Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
 |Project Online   |     f53895d3-095d-408f-8e93-8f94b391404e     |
 
-
-**Verifying status of Enterprise applications**
+### Verifying status of Enterprise applications
 
 To verify whether the required Enterprise applications are enabled, perform the following steps:
 
 1. Sign in to as the tenant admin using https://aad.portal.azure.com/  
 
-2. Click **Enterprise Applications**. The **Enterprise applications** screen appears.
+2. Select **Enterprise Applications**. The **Enterprise applications** screen appears.
 
    :::image type="content" source="media/enterprise-applications-screen.png" alt-text="The Enterprise applications screen.":::
 
-3. From the **Application Type** dropdown, choose **All Applications** and click **Apply**.
+3. From the **Application Type** dropdown, choose **All Applications** and select **Apply**.
 
    :::image type="content" source="media/choosing-all-applications-value.png" alt-text="The screen on which the All Applications value is chosen.":::
 
-4. Use the textbox right below and search for the application ID listed in the table. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
+4. Use the textbox shown here and search for the application ID listed in the table. For example, **39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f**. The application **Dynamics Provision** is displayed in the result pane.
 
    :::image type="content" source="media/application-id-and-result.png" alt-text="The screen on which the text box for application ID to be entered is displayed.":::
 
-5. Click **Dynamics Provision**. The **Dynamics Provision** screen appears.
+5. Select **Dynamics Provision**. The **Dynamics Provision** screen appears.
 
    :::image type="content" source="media/dynamics-provision-screen.png" alt-text="The Dynamics Provision screen.":::
 
-6. Click **Properties** on the left pane.
+6. Select **Properties** on the left pane.
 
    :::image type="content" source="media/dynamics-provision-properties.png" alt-text="The screen on which the Properties option for Dynamics Provision is displayed.":::
 
@@ -137,9 +136,9 @@ To verify whether the required Enterprise applications are enabled, perform the 
 
    :::image type="content" source="media/configure-status-of-user-sign-in.png" alt-text="The screen on which the user ensures that user sign-in for Dynamics Provision is enabled.":::
 
-8. Repeat Steps 1-7 for each of the Enterprise applications listed above.
+8. Repeat Steps 1-7 for each of the Enterprise applications listed earlier.
 
-**Verifying status of required Enterprise applications using Azure Active Directory PowerShell for Graph**
+### Verifying status of required Enterprise applications using Azure Active Directory PowerShell for Graph
 
 For administrators who prefer using [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) instead of the above manual steps, they can use the following script to check if the above list of Applications is enabled. In addition, it also checks to ensure that the required Enterprise Apps exist and the AppRoleAssignmentRequired property is correctly set:
 
