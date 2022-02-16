@@ -14,7 +14,7 @@ description: "Learn about the security roles in Project for the web."
 
 Project for the web includes several security roles that enable users to work with Project. Some of these security roles can also be customized by Administrators to control access of data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-Project Common and Project User roles need to be assigned to each user to create/manage projects within a non-default environment. These roles are needed in addition to roles required to login and access a Dataverse environment. For more information, see [Security roles and privileges](/power-platform/admin/assign-security-roles).
+Project Common and Project User roles need to be assigned to each user to create/manage projects within a non-default environment. These roles are needed in addition to roles required to sign in and access a Dataverse environment. For more information, see [Security roles and privileges](/power-platform/admin/assign-security-roles).
 
 **Microsoft Project** (also maybe shown as **Microsoft Portfolios**) is an application user that is provisioned in the environments that is used by Project for the web to interact with Dataverse. The **Microsoft Project** application user must be assigned to the following roles for the service to function correctly:
    * Portfolio User (deprecated) 
@@ -24,54 +24,59 @@ Project Common and Project User roles need to be assigned to each user to create
    * Roadmap user (Default Dataverse organization only)
 
 
-## Behavior with AAD Groups
-When a project is shared with an AAD Office Group, the Microsoft Project Application user will:
+## Behavior with Microsoft Azure Active Directory (Azure AD) Groups
 
-1.	Create a Team that is backed by the AAD Group (if a team with the AAD group doesn’t already exists). The name of the team will be the same as the AAD Office group when possible.
+When a project is shared with an Azure AD Office Group, the Microsoft Project Application user will:
+
+1. Create a Team that is backed by the Azure AD Group (if a team with the Azure AD Group doesn’t already exist). The name of the team will be the same as the Azure AD Office Group when possible.
+
 > [!Note] 
 > Changes to the name of the O365 group will not update the name of the Dataverse team.
 
-2.	The team is given the following security roles:
+2. The team is given the following security roles:
+
 * Project Team Member
 * Project Common
+
 > [!Note] 
 > In the Default org, the team was given Project User role for older project.
 
-3.	Ownership of the project and related tables is changed from the current owning user to the newly created team. Project for the web only supports adding more security roles to the Microsoft Project Application user. Other changes/modification are not supported and can cause the service not to function. The Project Common role can modify to support least privilege and customization.
+3.	Ownership of the project and related tables is changed from the current owning user to the newly created team. Project for the web only supports adding more security roles to the Microsoft Project Application user. Other changes/modification aren’t supported and can cause the service not to function. The Project Common role can modify to support least privilege and customization.
 
 ## Project Common
-* Can be customized and used to support extensibility, see [Behavior with AAD Groups](#behavior-with-aad-groups) to understand how this permission is assigned to AAD Groups.
-* Default org: Users are automatically given this role
+
+* Can be customized and used to support extensibility, see [Behavior with Microsoft Azure Active Directory (Azure AD) Groups](#behavior-with-microsoft-azure-active-directory-azure-ad-groups) to understand how this permission is assigned to Azure AD Groups.
+* Default org: Users are automatically given this role.
 * Non-default: Administrators need to assign to users to support the creation of projects when the environment has been customized.
-* The AAD Office Group team created at the project-sharing stage is given this role so that members have enough permissions to log into and interact with the environment.
+* The Azure AD Office Group team created at the project-sharing stage is given this role so that members have enough permissions to log into and interact with the environment.
 
 ## Portfolio User
 * Deprecated as of 0.8.7.59
-* Internal use by Project for the web. Provides user scoped permissions to create, read, update, and delete portfolio and related entities.
-* Users should not be assigned this role.
+* Internal use by Project for the web. Provides user-scoped permissions to create, read, update, and delete portfolio and related entities.
+* Users shouldn’t be assigned this role.
 
 ## Project System
 * Internal use by Project for the web
 * Provides all organization scoped permissions to create, read, update, and delete project and related entities.
-* Users should not be assigned this role.
+* Users shouldn’t be assigned this role.
 
 ## Project Team Member
-* Provides user scoped permissions to read, update, and delete project and related entities.
-* The AAD Office Group team created at the project-sharing stage is given this role so that member can interact with the project.
-* Users should not be assigned this role.
+* Provides user-scoped permissions to read, update, and delete project and related entities.
+* The Azure AD Office Group team created at the project-sharing stage is given this role so that member can interact with the project.
+* Users shouldn’t be assigned this role.
 
 ## Project User
-* Provides user scoped permissions to create, read, update, and delete project and related entities.
+* Provides user-scoped permissions to create, read, update, and delete project and related entities.
 * Default org: Users are automatically given this role
 * Non-default: Administrators need to assign to users to support the creation of projects.
 
 ## Roadmap System 
 * Internal use by Project for the web. Provides all organization scoped permissions to create, read, update, and delete portfolio and related entities.
 * Exists in the default organization only
-* Users should not be assigned this role.
+* Users shouldn’t be assigned this role.
 
 ## Roadmap User
-* Provides user scoped permissions to create, read, update, and delete portfolio and related entities.
+* Provides user-scoped permissions to create, read, update, and delete portfolio and related entities.
 * Exists in the default organization only
 * Users in the default organization are automatically given this role.
 
