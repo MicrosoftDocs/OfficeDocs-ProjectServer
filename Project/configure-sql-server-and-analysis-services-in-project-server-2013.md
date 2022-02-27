@@ -1,5 +1,5 @@
 ---
-title: "Configure SQL Server and Analysis Services in Project Server 2013"
+title: "How to configure SQL Server and Analysis Services in Project Server 2013"
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid: e059ba50-f789-4fd5-a6c4-342108c0c120
 description: "Summary: Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013."
 ---
 
-# Configure SQL Server and Analysis Services in Project Server 2013
+# How to configure SQL Server and Analysis Services in Project Server 2013
  
  **Summary:** Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013.
   

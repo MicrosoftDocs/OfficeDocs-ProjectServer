@@ -1,5 +1,5 @@
 ---
-title: "Deploy Project Web App"
+title: "How to deploy Project Web App"
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid: 5c2227b8-6cf0-4397-9348-bb876a59e89c
 description: "Summary: Learn about the two ways to deploy a Project Web App site."
 ---
 
-# Deploy Project Web App
+# How to deploy Project Web App
  
  **Summary:** Learn about the two ways to deploy a Project Web App site.<br/>
 **Applies to:** Project Server 2013
