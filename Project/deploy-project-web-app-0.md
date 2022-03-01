@@ -41,7 +41,5 @@ In this chalk talk, Microsoft Program Manager Chris Boyd discusses the differenc
   
 ## See also
 
-#### 
-
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 
