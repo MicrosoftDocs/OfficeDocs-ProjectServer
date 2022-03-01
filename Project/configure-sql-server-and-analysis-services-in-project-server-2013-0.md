@@ -95,7 +95,5 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 ## See also
 <a name="section4"> </a>
 
-#### 
-
 [Install SharePoint Server 2016 (Project Server 2016)](install-sharepoint-server-2016-project-server-2016.md)
 

@@ -85,10 +85,7 @@ As a rule, create an additional TempDB file for each processor (core) in the com
 ## See also
 <a name="section4"> </a>
 
-#### 
-
 [Install SharePoint Server 2016 (Project Server 2016)](install-sharepoint-server-2016-project-server-2016.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

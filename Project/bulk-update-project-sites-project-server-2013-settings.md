@@ -109,6 +109,4 @@ The **Project Site Permissions** setting allows you to synchronize permissions t
     
 ## See also
 
-#### 
-
 [Operational Policies (Project Server 2013)](./project-server-2013-and-2016.md)
