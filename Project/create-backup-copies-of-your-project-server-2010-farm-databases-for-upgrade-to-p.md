@@ -124,8 +124,6 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 ## See also
 
-#### 
-
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   
 [Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)

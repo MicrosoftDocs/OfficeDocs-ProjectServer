@@ -146,7 +146,7 @@ The following table describes the security category configuration options for a 
 |:----------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Available Categories** <br/>          | The **Available Categories** list contains the categories that the user is not a member of. <br/>                                                                                                             |
 | **Selected Categories** <br/>           | The **Selected Categories** list contains the categories that the user is a member of. <br/>                                                                                                                  |
-| **Permissions for <category>** <br/>    | The **Permissions for <category>** area lets you configure category permissions for this user for the selected category. <br/>                                                                                |
+| **Permissions for \<category>** <br/>    | The **Permissions for \<category>** area lets you configure category permissions for this user for the selected category. <br/>                                                                                |
 | **Set permissions with Template** <br/> | The **Set permissions with Template** option can be used to prepopulate a set of category permissions based on a predefined template for the user's role (such as Portfolio Viewer or Project Manager). <br/> |
 
 ## Global Permissions

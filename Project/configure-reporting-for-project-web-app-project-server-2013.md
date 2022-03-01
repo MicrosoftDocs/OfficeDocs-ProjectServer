@@ -96,7 +96,7 @@ Perform the following procedure on the computer where your Project Web App datab
   
 ### To add a login for the report authors group
 
-1. Click **Start**, **All Programs**, **Microsoft SQL Server** <version>, **SQL Server Management Studio**.
+1. Click **Start**, **All Programs**, **Microsoft SQL Server** \<version>, **SQL Server Management Studio**.
     
 2. Select the instance of the SQL Server database engine where your Project Server 2013 database resides, and then click **Connect**.
     
@@ -277,7 +277,5 @@ If you plan to use SQL Server Analysis Services OLAP cubes with Project Web App,
   
 ## See also
 <a name="PopulateADGroups"> </a>
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
