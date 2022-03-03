@@ -559,7 +559,7 @@ Project Server only keeps a single version of the following archived items:
 - Enterprise Custom Fields
 - Enterprise Global
 
-Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
+Take a new [administrative backup](/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013) ([2010](/previous-versions/office/project-server-2010/dd207304(v%3doffice.14))). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
 ## Step 10 - Clear the cache for Project Professional users connecting to the Project Online instance
 <a name="step6"> </a>

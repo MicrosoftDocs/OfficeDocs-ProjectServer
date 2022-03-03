@@ -68,8 +68,6 @@ As noted in the procedure, the number of versions that are backed up for project
   
 ## See also
 
-#### 
-
 [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md)
   
 [Restore item-level objects through Administrative Restore (Project Server 2013)](restore-item-level-objects-through-administrative-restore-project-server-2013.md)

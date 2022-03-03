@@ -112,8 +112,6 @@ The following are global permissions that were available in Project Server 2010 
     
 ## See also
 
-#### 
-
 [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md)
   
 [Default categories in Project Server 2013](default-categories-in-project-server-2013.md)

@@ -24,7 +24,7 @@ Creating a Project Web App site with a new site collection creates a Project Web
 > If your organization requires databases to be created manually by a database administrator, have your database administrator see [New-SPProjectDatabase](/powershell/module/sharepoint-server/) and create the Project Web App database before you proceed with the procedures in this article.
   
 ## Video demonstration
-<iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=e37c691c-1696-40b6-a6c9-30b51b3588eb&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>
+<iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=e37c691c-1696-40b6-a6c9-30b51b3588eb&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" scrolling= "no" allowfullscreen= "" ></iframe>
 
 This video shows the steps involved in creating a Project Web App site with a new site collection in a Project Server 2013 farm, as described in this article.
   
@@ -73,13 +73,13 @@ After you have created the top-level web site, you must grant users access to th
   
 ### To set Read permissions on the top-level Web site
 
-1. Navigate to the root site (that is, https://<servername>).
+1. Navigate to the root site (that is, https://\<servername>).
     
 2. At the top of the page, click **Share**.
     
 3. On the Share dialog box, click **Show Options**.
     
-4. From the Select a group or permission level, choose **<site> Visitors [Read]**.
+4. From the Select a group or permission level, choose **\<site> Visitors [Read]**.
     
 5. In the **Enter names or email addresses** text box, type **Everyone**.
     
@@ -190,7 +190,7 @@ After the Project Web App site has been provisioned, verify that it was created 
     
 5. From the Microsoft PowerShell command prompt (that is, PS C:\\>), type the following command and then press ENTER:
     
-    **Get-SPSite -ContentDatabase** *<ContentDatabaseName>*
+    **Get-SPSite -ContentDatabase** *\<ContentDatabaseName>*
     
     The command should return the URL for your Project Web App site and no other URLs.
     
@@ -223,9 +223,6 @@ You can now access the new Project Web App site.
 ## See also
 <a name="VideoDemo"> </a>
 
-#### 
-
 [Deploy Project Web App in an existing site collection (Project Server 2016)](deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
