@@ -165,7 +165,7 @@ You can use Microsoft PowerShell to back up your Project Server 2013 farm manual
     
 5. Once you have identified the Project Server service application to back up, and confirmed with the **-ShowTree** command , you can remove the **-ShowTree** command to perform the backup.
     
-    **Backup-SPFarm -Directory** *<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *\<Project Server Web Application Name>*
+    **Backup-SPFarm -Directory** *\<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *\<Project Server Web Application Name>*
     
 6. Click **Enter**. If you add the **-Verbose** parameter, detailed information is provided about the backup status. If you do not, then a "successful" or error message appears at the end of the backup process.
     
