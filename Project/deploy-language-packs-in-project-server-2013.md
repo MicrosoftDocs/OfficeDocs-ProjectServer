@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 11/22/2017
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: how-to
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
@@ -311,7 +311,5 @@ If you no longer want to make a language available for a site, clear the languag
     
 ## See also
 <a name="fifth_section"> </a>
-
-#### 
 
 [Install or uninstall language packs for SharePoint 2013](/SharePoint/install/install-or-uninstall-language-packs-0)
