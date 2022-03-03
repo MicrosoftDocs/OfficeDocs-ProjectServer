@@ -180,7 +180,7 @@ After the Project Web App site has been provisioned, verify that it was created 
   
 ### To verify the Project Web App site location
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
     
 2. On the **Start** menu, click **All Programs**.
     
