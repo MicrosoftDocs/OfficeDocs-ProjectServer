@@ -31,7 +31,7 @@ description: "The second step in getting started with Project Online is adding t
 |:-----|:-----|
 |![Add user.](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Microsoft 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step.<br/>**IMPORTANT!** **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!** Additionally, **changing User Principal Names (UPN) after you’ve added users is not supported!** |      
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Arrow.](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**When you're ready to add someone to Project Online, start by adding users:** <br/> 1. Choose **Users \> Active Users** from the left menu on the Microsoft 365 Admin Center.<br/> 2. At the top of the list of users, choose **+ Add a user**.<br/>3.  Fill out the account information.<br/> 4. Under Product licenses, make sure a Project Online license is assigned, and then choose **Add**. <br/> 5. Choose whether to send the new user's password in email, and then add another user. <br/>For more information, see [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec) <br/> |
    
@@ -40,10 +40,10 @@ description: "The second step in getting started with Project Online is adding t
 ## 2. Next, group people by what they'll be doing with Project Online
 <a name="__top"> </a>
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Share.](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to divide them into groups by how they'll be using it.  <br/> **Not everyone needs access to everything** available in Project Online. Usually, your organization can be sorted ino the following roles:</br>|
-|||
+|&nbsp;|&nbsp;|
 |**Role**  <br/> |**Description**  <br/> |**Permission name**  <br/> |
 |Admins  <br/> |People who need full control over your Project Online subscription. Admins manage your user list, who gets what level of access, and also manage all the main project settings.  <br/> |**Administrators for Project Web App [Full Control]** <br/> |
 |Project managers  <br/> |People who will create and manage project files. Project managers will create projects and tasks, assign resources, manage timesheets, and otherwise be in charge of projects and project files.  <br/> |**Project Managers for Project Web App [Design, Manage Subsites]** <br/> |
@@ -51,11 +51,11 @@ description: "The second step in getting started with Project Online is adding t
    
 For the full list of permissions available with Project Online, see [Plan SharePoint groups in Project Online](plan-sharepoint-groups-in-project-online.md).  <br/> 
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Arrow.](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**To more easily manage people in Project Online, create a security group for each of the roles you need:** <br/> 1. Choose **Groups \> Groups** from the left menu on the Microsoft 365 Admin Center. <br/> 2. At the top of the list of groups, choose **+ Add a group**.<br/> 3. For type, choose **Security group**. There are other group types in Office 365, but this is the one that can most easily manage your Project Online users. For more information on different types of groups, see [Compare groups](/microsoft-365/admin/create-groups/compare-groups).<br/>4. Type a name for your group. It might be easiest to pick a name that refers to the permission level. For an organization named Contoso, you could name your group "Contoso admins" or "Contoso team members".<br/>5. Choose **Add**. |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Arrow.](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**Then, add users to groups.**  <br/> To add users to groups:  <br/> 1. Choose **Users \> Active users**.<br/>2. Select the check box for each user you want to add to your first security group, and choose **+ Add to group** in the **Bulk actions** pane.<br/>3. Choose a group from the **Group memberships** list, and then choose **Save \> Close**. |
    
@@ -64,12 +64,12 @@ For the full list of permissions available with Project Online, see [Plan ShareP
 ## 3. Then, add people as resources
 <a name="__top"> </a>
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |![Add user.](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |**Not every user needs to be a resource.** Sometimes, people like higher-level executives only need access to Project Online to keep an eye on how projects are going across the organization.  <br/> |![Users and resources](media/2cc5476a-68eb-4f42-8ca4-6e1c672f2c0c.png)           <br/> |
 
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Arrow.](media/2005a697-28c3-44a3-9194-3a1e2af483ac.png)           <br/> |**If you know a person will work on projects and tasks, make that user a resource:** <br/>
 1. On the Office 365 app launcher , choose **Project**.
@@ -91,7 +91,7 @@ For the full list of permissions available with Project Online, see [Plan ShareP
 ## 4. Finally, share Project Online with the people you added
 <a name="__top"> </a>
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Share.](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)<br/> |Now that you've added people to Project Online, the next step is to share the site with them so they can actually get in!  <br/>| 
 **When you share the Project Online site with a user, you also decide what they can do in Project Online:** <br/> In Project Online, choose Share, just below your name in the top-right portion of the page. You can share with individuals or security groups. Share by security group if you've created security groups for each permission level you want to use. Type either the name of the security group or the name of the individual user in the top box, and then choose Show Options. Under Select a group or permission level, choose the permission level that matches what the security group or person's role is in your organization. For example, for the Contoso admins security group, choose Administrators for Project Web App [Full Control]. Choose Share. Repeat this process for all additional groups or individuals you want to use Project Online. |
@@ -103,6 +103,6 @@ Next, learn about [Step 3: Set up shop in Project Online](step-3-set-up-shop-in-
   
 [![Step 1: Sign up for Project Online.](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)![Step 2: Add people to Project Online](media/be1ca863-defe-4156-a5b1-68cea288476f.png)[![Step 3: Set up shop in Project Online](media/e002dacf-722f-4af8-9d22-b606d22a8051.png)](step-3-set-up-shop-in-project-online.md)
   
-||
+|&nbsp;|
 |:-----|
 |[Top of Page](step-1-sign-up-for-project-online.md#__top)|

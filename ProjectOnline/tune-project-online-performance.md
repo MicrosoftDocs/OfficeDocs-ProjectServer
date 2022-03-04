@@ -25,11 +25,8 @@ With the launch of Project Online a few years ago, organizations of all sizes ha
 Although one of the obvious benefits of using a cloud-based service is avoiding having to deal with deployment, setup, and hardware and software tuning, there are still some steps you can take to ensure your organization gets the best performance out of Project Online.
   
 Project Online offers many configuration and customization settings, but customizations can have a performance impact. This article highlights the performance impact and tradeoffs of some of the most common Project Online settings, so you can make informed decisions when it comes to customizing and configuring Project Online.
-  
-||
-|:-----|
-||
-|This article is part of the [Network planning and performance tuning for Office 365](/microsoft-365/enterprise/network-planning-and-performance) project. ||
+
+This article is part of the [Network planning and performance tuning for Office 365](/microsoft-365/enterprise/network-planning-and-performance) project.
    
 ## Office 365 and SharePoint Online best practices
 
