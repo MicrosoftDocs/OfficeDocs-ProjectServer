@@ -54,6 +54,4 @@ The first step, prior to installation, is to make sure you have the needed permi
   
 ## See also
 
-#### 
-
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
