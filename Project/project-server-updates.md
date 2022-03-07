@@ -107,8 +107,6 @@ Starting with the April 2015 release, all Office 2013 updates will only apply if
    
 ## See also
 
-#### 
-
 [Office Updates](/officeupdates/office-updates-msi)
   
 [SharePoint Updates](/officeupdates/sharepoint-updates)

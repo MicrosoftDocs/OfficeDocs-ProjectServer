@@ -52,7 +52,7 @@ If you're willing to do some additional integration, you can build a hybrid busi
   
 The following table compares how you can use on-premises and online business intelligence services with Project Server and Project Online.
   
-| |**Project Server**|**Project Online**|
+|&nbsp;|**Project Server**|**Project Online**|
 |:-----|:-----|:-----|
 |Cloud business intelligence  <br/> |Use Power BI Desktop to access your on-premises Project Server data.  <br/> This requires Power BI and may require some configuration by your IT department.  <br/> |Use OData in Excel or a custom application to access your Project Online data for general reporting. Add Power BI for Office 365 for scheduled data refresh, [Power BI Q&amp;A](/power-bi/consumer/end-user-q-and-a), and other advanced features.  <br/> |
 |On-premises business intelligence  <br/> |Use SQL Server Reporting Services or PerformancePoint Services for your corporate reporting needs. Use Excel for self-service business intelligence and ad-hoc reporting.  <br/> Both work without additional configuration needed beyond writing the report.  <br/> |Bring your Project Online data into a data warehouse on-premises or in Microsoft Azure where you can use standard corporate business intelligence reporting tools, such as SQL Server Reporting Services.  <br/> This requires configuration and customization by your IT department.  <br/> |

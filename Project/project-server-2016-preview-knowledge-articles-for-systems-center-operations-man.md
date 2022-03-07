@@ -148,8 +148,6 @@ Check standard connectivity on the faulty computers:
 ## See also
 <a name="ProjectApp2"> </a>
 
-#### 
-
 [Operations for Project Server 2016](operations-for-project-server-2016.md)
 
 [Plan for monitoring in SharePoint 2013](/SharePoint/administration/monitoring-planning)
