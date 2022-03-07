@@ -385,7 +385,7 @@ In Project Server 2013, big improvements have been made to synchronization and t
 
 The result of these changes is marked improvements in the time required for synchronization jobs to run. The following table compares recent test results for Active Directory synchronization job times for a large group of users between Project Server 2010 SP1 and Project Server 2013:
 
-||**Project Server 2010 SP1 Sync Job time**|**Project Server 2013 Sync Job time**|
+|&nbsp;|**Project Server 2010 SP1 Sync Job time**|**Project Server 2013 Sync Job time**|
 |:-----|:-----|:-----|
 |Initial Synchronization  <br/> |20:01  <br/> |7:43  <br/> |
 |Recurring Synchronization  <br/> |14:07  <br/> |00:24  <br/> |

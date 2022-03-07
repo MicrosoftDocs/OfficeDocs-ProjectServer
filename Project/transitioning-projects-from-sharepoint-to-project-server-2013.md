@@ -434,7 +434,6 @@ The Project Web App site is now available at the URL that you specified.
 ## See also
 <a name="AddProjectWebAppSite"> </a>
 
-#### 
 
 [Create a PWA site in an existing site collection](create-a-pwa-site-in-an-existing-site-collection.md)
 

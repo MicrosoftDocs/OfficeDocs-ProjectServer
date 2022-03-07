@@ -40,7 +40,6 @@ When user delegation is turned on, you can set permissions to control the specif
     
 ## See also
 
-#### 
 
 [Create delegations in Project Server](create-delegations-in-project-server.md)
 
