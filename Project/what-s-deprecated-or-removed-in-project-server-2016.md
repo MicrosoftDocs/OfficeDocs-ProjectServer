@@ -92,7 +92,7 @@ In Project Servers 2016, the following PSI members have been removed:
 |:-----|:-----|
 |**Microsoft.Office.Project.Server.WebServiceProxy** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
-|LoginWindows  <br/> |<all>  <br/> |
+|LoginWindows  <br/> |\<all>  <br/> |
    
 |&nbsp;|&nbsp;|
 |:-----|:-----|
