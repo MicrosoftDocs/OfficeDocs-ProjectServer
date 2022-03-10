@@ -31,7 +31,7 @@ Since Project Server 2016 is part of the SharePoint Server 2016 installation, re
   
 Some of the key software requirements for SharePoint Server 2016 are:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2019 Standard or Datacenter <br/> Windows Server 2016 Standard or Datacenter <br/> Windows Server 2012 R2 <br/> |
 |**Supported Database Server** **:** <br/> | Microsoft SQL Server 2017 RTM for Windows <br/> Microsoft SQL Server 2016 RTM <br/> The 64-bit edition of SQL Server 2014 with Service Pack 1 (SP1) <br/> SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2016. <br/> |
@@ -46,7 +46,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
   
 Also note that you will be able to use Project Professional 2016 and the Project Online Desktop Client, as well as Project Professional 2013, to connect to Project Server 2013
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2016  <br/> | Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
@@ -71,7 +71,6 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
   
 ## See also
 
-#### 
 
 [Deploy Project Server 2016](deploy-project-server-2016.md)
 

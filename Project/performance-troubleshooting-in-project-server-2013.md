@@ -38,8 +38,6 @@ The following table lists some common bottlenecks and describes their causes and
    
 ## See also
 
-#### 
-
 [Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md)
   
 [Capacity planning strategy for Project Server 2013](capacity-planning-strategy-for-project-server-2013.md)
@@ -53,6 +51,5 @@ The following table lists some common bottlenecks and describes their causes and
 [Performance counters in Project Server 2013](performance-counters-in-project-server-2013.md)
   
 [Performance troubleshooting in Project Server 2013](performance-troubleshooting-in-project-server-2013.md)
-#### 
 
 [Typical Datasets (Project Server 2013)](./project-server-2013-and-2016.md)

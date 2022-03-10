@@ -16,7 +16,7 @@ ms.author: serdars
 
 Learn how to plan, deploy, manage users in Project Server.
 
-|               |               |               |               |               |               |
+|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![a task checklist.](/office/media/icons/tasks-planner.png)  | [Plan for Project Server](plan-for-project-server-2016.md) | ![Deploy](/office/media/icons/deploy-planner.png)  | [Install and Configure Project Server](install-and-configure-for-project-server-2016.md) | ![user account](/office/media/icons/user-accounts.png)  | [Plan user access in Project Server](plan-user-access-in-project-server.md) |
 

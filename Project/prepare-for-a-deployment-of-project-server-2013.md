@@ -42,8 +42,6 @@ To configure SQL Server and Analysis Services, follow the procedures in [Configu
   
 ## See also
 
-#### 
-
 [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
