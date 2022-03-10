@@ -14,7 +14,7 @@ search.appverid:
 - PJO160
 - MET150
 ms.assetid: 567b2415-5973-4e38-b796-dd20ebcb00c8
-description: 
+description: Supporting your Project Online adoption with a Project Management Office (PMO)
 ---
 
 # Supporting your Project Online adoption with a Project Management Office (PMO)

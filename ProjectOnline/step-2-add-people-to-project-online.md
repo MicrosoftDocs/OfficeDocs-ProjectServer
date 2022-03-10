@@ -20,14 +20,14 @@ description: "The second step in getting started with Project Online is adding t
 
 # Step 2: Add people to Project Online
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)          ![Step 2: Add people to Project Online](media/1e3028cb-08d7-482c-b57c-c2f24a4951a0.png)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
    
 ## 1. First, add people to Office 365
 <a name="__top"> </a>
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Add user.](media/adf53af3-c248-4fd8-95fd-26c2a7cdb3e4.png)           <br/> |Start by adding users in the Microsoft 365 admin center. If you are adding Project Online to an existing Office 365 subscription, you may have already added all the users you need and can skip this step.<br/>**IMPORTANT!** **Planning to use your own domain (like contoso.com)?** [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611) before adding your Project Online users. **Changing domains after you've added users is not supported!** Additionally, **changing User Principal Names (UPN) after you’ve added users is not supported!** |      
    

@@ -15,7 +15,7 @@ search.appverid:
 - MET150
 ms.assetid: 15703ad4-08a9-40f3-9487-063a369e8f2b
 
-description: 
+description: How to add Project Online to your Office 365 account
 ---
 
 # Add Project Online to your Office 365 account
