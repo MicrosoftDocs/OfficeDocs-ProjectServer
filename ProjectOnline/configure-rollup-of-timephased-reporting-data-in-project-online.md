@@ -72,11 +72,8 @@ Tip: If you don't use any of the timephased Odata feeds, we highly recommend set
   
 This table summarizing the considerations and recommended options:
     
-
-    
-|&nbsp;|&nbsp;|
-|:-----|:-----|
 |**Setting** <br/> |**Considerations** <br/> |
+|:-----|:-----|
 |**Never** <br/> | For customers who do not use the Timephased Odata feeds and Portfolio Analyses feature, and do not need resource demand data for capacity planning.  <br/>  This is the default setting for new Project Online instances.  <br/>  Much faster Reporting Publish queue jobs.  <br/>  No additional quota consumed (timephased data consumes the most space).  <br/> **Note**: For more information about the interaction of this setting with the Portfolio Analyses feature is available in the blog post [Project Online: Reporting and Portfolio Analysis](https://go.microsoft.com/fwlink/?linkid=868427).           |
 |**Daily** <br/> | Largest performance impact for publishing/reporting.  <br/>  Generates largest dataset which results in slower downloads of timephased Odata feeds and largest DB quota usage.  <br/>  Recommended only if you need your current/historical reports on a by day basis.  <br/> |
 |**Weekly** <br/> | Timephased dataset is about **one seventh smaller than the Daily option.** <br/>  Recommended only if you need your current/historical reports on a weekly basis.  <br/> |
