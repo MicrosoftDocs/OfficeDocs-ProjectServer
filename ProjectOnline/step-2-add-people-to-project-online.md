@@ -22,7 +22,7 @@ description: "The second step in getting started with Project Online is adding t
 
 |&nbsp;|&nbsp;|
 |:-----|:-----|
-|![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)          ![Step 2: Add people to Project Online](media/1e3028cb-08d7-482c-b57c-c2f24a4951a0.png)          [![Step 3: Set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
+|![Get set up.](media/6b503a9c-4ef0-409b-ab56-09e804cfe0c3.png)           <br/> |[![Step 1: Sign up for Project Online](media/f82f0100-dc58-47d6-960a-28db901de6d8.png)](step-1-sign-up-for-project-online.md)          ![Step 2: Next, add people to Project Online](media/1e3028cb-08d7-482c-b57c-c2f24a4951a0.png)          [![Step 3: Now you can set up shop in Project Online](media/e27ceef5-1c39-43e4-92ac-300d58fb65c8.png)](step-3-set-up-shop-in-project-online.md) <br/> |
    
 ## 1. First, add people to Office 365
 <a name="__top"> </a>
@@ -43,11 +43,14 @@ description: "The second step in getting started with Project Online is adding t
 |&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Share.](media/94aea025-98ff-4a16-af99-3f91e31ed1e9.png)           <br/> |Now that you've added people to Project Online, the next step is to divide them into groups by how they'll be using it.  <br/> **Not everyone needs access to everything** available in Project Online. Usually, your organization can be sorted ino the following roles:</br>|
-|&nbsp;|&nbsp;|
+
+|&nbsp;|&nbsp;|&nbsp;|
+|:-----|:-----|:-----|
 |**Role**  <br/> |**Description**  <br/> |**Permission name**  <br/> |
 |Admins  <br/> |People who need full control over your Project Online subscription. Admins manage your user list, who gets what level of access, and also manage all the main project settings.  <br/> |**Administrators for Project Web App [Full Control]** <br/> |
 |Project managers  <br/> |People who will create and manage project files. Project managers will create projects and tasks, assign resources, manage timesheets, and otherwise be in charge of projects and project files.  <br/> |**Project Managers for Project Web App [Design, Manage Subsites]** <br/> |
 |Team members:  <br/> |People who perform project tasks. Team members receive assignments and fill out progress and timesheets.  <br/> |**Team Members for Project Web App [Read]** <br/> |
+
    
 For the full list of permissions available with Project Online, see [Plan SharePoint groups in Project Online](plan-sharepoint-groups-in-project-online.md).  <br/> 
    
