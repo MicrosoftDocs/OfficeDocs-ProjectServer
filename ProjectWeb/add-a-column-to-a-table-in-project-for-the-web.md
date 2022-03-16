@@ -88,3 +88,7 @@ Ready to start allocating funds, at the bottom of the pane, Anita selects **Done
 :::image type="content" source="media/AddColumn-SaveTable.png" alt-text="Select Save Table after adding a column.":::
 
 The *Budget* column is now visible in the *Project* table. Anita selects **Save Table**.
+
+After saving, Anita notices there's another new column, right under *Budget*: *Budget (Base)*. It's an automatic column that shows the value of *Budget* in terms of the base currency defined for her app. Power Platform adds one when you [add a column with the Currency data type](/powerapps/maker/data-platform/types-of-fields#using-currency-columns).
+
+:::image type="content" source="media/AddColumn-CurrencyAutoBase.png" alt-text="Automatic new column showing the Budget in terms of the app's base currency.":::
