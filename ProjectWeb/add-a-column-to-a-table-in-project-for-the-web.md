@@ -44,9 +44,6 @@ To create a custom table column in Project Power App, you have two choices:
    :::image type="content" source="media/CommandBar-ItemFilter.png" alt-text="Choose the type of items you see.":::
 
 1. On the command bar, select **+ Add column**.
-
-   :::image type="content" source="media/AddColumn-OpenDialog.png" alt-text="Choose a table to add a column.":::
-
 1. In the **Column properties** pane, set the [column properties](column-properties) as needed. Properties that require a value have an asterisk next to their name.
 
    :::image type="content" source="media/ColumnPropertyQuickInfo.png" alt-text="Get quick info about a property.":::
@@ -68,12 +65,12 @@ To create a custom table column in Project Power App, you have two choices:
 > [!NOTE]
 > Other properties may become available when you set a value for **Data type**.
 
-## Example: Add a *Budget* column to the Business Unit table
+## Example: Add a *Budget* column to the *Project* table
 
-Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Business Unit level. She checked and didn't see a built-in column for this, so she's making the change in the Power Apps portal.
+Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Project level. She checked and didn't see a built-in column for this, so she's changing the Project Power App in the Power Apps portal.
 
-She opens the Business Unit table and verifies it's not a Managed or a System table. If it were, she'd have to reconsider her plan.
+She opens the Project table and verifies it's not a Managed or a System table. If it were, she'd have to reconsider her plan.
 
-:::image type="content" source="media/AddColumn-BudgetExample.png" alt-text="The Business Unit table isn't Managed or a System table.":::
+:::image type="content" source="media/AddColumn-BudgetExample.png" alt-text="The Project table isn't Managed or a System table.":::
 
-She adds the new column, names it *Budget*, and sets the Data type to Currency
+She adds the new column, names it *Budget*, and sets the Data type to Currency.
