@@ -43,6 +43,8 @@ To create a custom table column for Project Power App, you have two choices:
 
    :::image type="content" source="media/ColumnPropertyQuickInfo.png" alt-text="Get quick info about a property.":::
 
+1. After you set all the properties you need, select **Done** at the bottom of the **Column properties** pane to save the new column.
+
 ### Column properties
 
 | **Property** | **Description** |
