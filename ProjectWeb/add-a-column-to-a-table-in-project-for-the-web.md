@@ -76,3 +76,15 @@ She opens the Project table and verifies it's not a Managed or a System table. I
 She adds the new column, names it *Budget*, and sets **Data type** to *Currency*.
 
 :::image type="content" source="media/AddColumn-ExampleCurrencyDataType.png" alt-text="The Currency data type supports calculations.":::
+
+Because there are already some projects underway, she sets **Required** to *Recommended*. She leaves **Searchable** selected so she can easily find projects that don't have a value for *Budget* yet, and so people can use the column in Advanced Find operations. Although calculations will be done using the value of *Budget*, the column itself isn't calculated or a roll-up: Anita will use it to set the total amount of funds allocated to a project. She's planning to add other fields that will use *Budget* in calculations.
+
+Anita selects **Advanced Options**, considers the choices, and sets them accordingly.
+
+:::image type="content" source="media/AdvancedOptions-BudgetColumnExample.png" alt-text="Advanced Options for a column with the Currency data type.":::
+
+Ready to start allocating funds, at the bottom of the pane, Anita selects **Done**.
+
+:::image type="content" source="media/AddColumn-SaveTable.png" alt-text="Select Save Table after adding a column.":::
+
+The *Budget* column is now visible in the *Project* table. Anita selects **Save Table**.
