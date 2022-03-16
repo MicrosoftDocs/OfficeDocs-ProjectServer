@@ -35,10 +35,7 @@ For information on creating a Project Web App site in an existing site collectio
   
 ## See also
 
-#### 
-
 [Deploy Project Web App with a new site collection (Project Server 2013)](deploy-project-web-app-with-a-new-site-collection-project-server-2013.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

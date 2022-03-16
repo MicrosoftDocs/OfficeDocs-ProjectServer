@@ -65,8 +65,6 @@ Use the procedure to restore the following project items:
     
 ## See also
 
-#### 
-
 [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md)
   
 [Queue and Database Administration (Project Server 2013)](queue-and-database-administration-project-server-2013.md)

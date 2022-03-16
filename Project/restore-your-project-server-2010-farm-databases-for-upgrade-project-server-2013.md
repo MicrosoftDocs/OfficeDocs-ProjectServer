@@ -5,7 +5,7 @@ author: serdars
 manager: serdars
 ms.date: 11/22/2017
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
@@ -106,7 +106,6 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 ## See also
 
-#### 
 
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   

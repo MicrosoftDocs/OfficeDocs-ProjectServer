@@ -120,7 +120,7 @@ If you want to automatically run synchronization for your project sites, see the
     
 2. On the Monitoring page, in the Timer Job section, click **Review job definitions**.
     
-3. On the Job Definitions page, find and click **Project Server: Synchronization of SharePoint Server permission to Project Web App permissions for job <PWAInstance>**. 
+3. On the Job Definitions page, find and click **Project Server: Synchronization of SharePoint Server permission to Project Web App permissions for job \<PWAInstance>**. 
     
     For example: Project Server: Synchronization of SharePoint Server permission to Project Web App permissions job for https://contoso/pwa.
     
@@ -130,15 +130,15 @@ If you want to automatically run synchronization for your project sites, see the
     
    - **Hourly**: Allows you to specify an interval in which the job will randomly run — **Starting every hour between x minutes past the hour and no later than y minutes past the hour**.
     
-   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between <time of day> and no later than <time of day>**.
+   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between \<time of day> and no later than \<time of day>**.
     
-   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between <day of week and time of day> and no later than <day of week and time of day>**.
+   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between \<day of week and time of day> and no later than \<day of week and time of day>**.
     
    - **Monthly**: Provides you two options:
     
-   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between <time of day and day of month> and no later than <time of day and day of month>**.
+   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between \<time of day and day of month> and no later than \<time of day and day of month>**.
     
-   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month**. For example, **12:00 AM on the first Sunday**.
+   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month>**. For example, **12:00 AM on the first Sunday**.
     
 5. Click **OK** to save your configuration changes.
     

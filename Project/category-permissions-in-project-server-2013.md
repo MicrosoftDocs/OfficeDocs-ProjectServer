@@ -70,8 +70,6 @@ The table includes columns with the following information:
   
 ## See also
 
-#### 
-
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
   
 [Default categories in Project Server 2013](default-categories-in-project-server-2013.md)

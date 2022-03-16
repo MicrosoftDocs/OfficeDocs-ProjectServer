@@ -1,6 +1,6 @@
 ---
 title: "Export user data from Project Server Subscription Edition"
-ms.author: v-benzyd
+ms.author: serdars
 author: benzicald
 manager: serdars
 audience: ITPro

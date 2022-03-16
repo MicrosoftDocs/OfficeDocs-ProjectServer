@@ -162,6 +162,5 @@ The next step is to determine how you want to deploy Project Web App. Go to the 
   
 ## See also
 
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

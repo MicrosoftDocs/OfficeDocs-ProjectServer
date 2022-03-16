@@ -417,7 +417,7 @@ Project Server only keeps a single version of the following archived items:
 
 -   Enterprise Global
 
-Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
+Take a new [administrative backup](/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
   
 

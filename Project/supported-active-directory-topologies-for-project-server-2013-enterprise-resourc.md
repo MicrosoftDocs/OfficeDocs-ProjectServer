@@ -103,7 +103,6 @@ All topologies not mentioned in this article as supported topologies are not sup
     
 ## See also
 
-#### 
 
 [Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md)
   

@@ -26,7 +26,6 @@ To download this white paper, click the following link: [Project Server 2013 Per
   
 ## See also
 
-#### 
 
 [Plan for performance and capacity in Project Server 2013](plan-for-performance-and-capacity-in-project-server-2013.md)
   

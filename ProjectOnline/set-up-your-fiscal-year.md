@@ -22,7 +22,7 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
 # Set up your fiscal year
 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Fiscal Period.](media/cedefa92-b4d5-4c11-a58f-66a1bc6fb6f8.png)|Most organizations have a fiscal year (FY) that is used to calculate finances on an annual basis. Within that fiscal year, there are typically quarters, months, or other periods used to evenly distribute financial plans. By setting up fiscal periods in Project Web App, you can map project work against your overall financial plans. |
    
@@ -86,7 +86,7 @@ description: "Instructions for setting up fiscal periods in Project Web App so y
     
     ![Adjust fiscal periods.](media/000f1c8e-b145-4001-a6a3-bc744852c3e1.png)
   
-||
+|&nbsp;|
 |:-----|
 ||
    
@@ -103,7 +103,7 @@ While you're getting set up, here are some other things you might want to do:
     
 - [Change other settings](set-up-how-time-and-task-progress-are-captured.md) that affect how time and task progress is captured and handled in your organization. 
     
-||
+|&nbsp;|
 |:-----|
 ||
    

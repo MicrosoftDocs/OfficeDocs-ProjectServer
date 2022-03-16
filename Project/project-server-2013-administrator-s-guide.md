@@ -44,45 +44,45 @@ The Microsoft Project Server 2013 Administrator's Guide contains the following c
 > Introduction
 > 
 > Part 1: Project Web App Settings in Project Server 2013
+
+   - Chapter 1, "Personal Settings"
     
-    - Chapter 1, "Personal Settings"
+   - Chapter 2, "Enterprise Data"
     
-    - Chapter 2, "Enterprise Data"
+   - Chapter 3, "Queue and Database Administration"
     
-    - Chapter 3, "Queue and Database Administration"
+   - Chapter 4, "Look and Feel"
     
-    - Chapter 4, "Look and Feel"
+   - Chapter 5, "Time and Task Management"
     
-    - Chapter 5, "Time and Task Management"
+   - Chapter 6, "Operational Policies"
     
-    - Chapter 6, "Operational Policies"
+   - Chapter 7, "Workflow and Project Detail Pages"
     
-    - Chapter 7, "Workflow and Project Detail Pages"
-    
-    - Chapter 8, "Security"
+   - Chapter 8, "Security"
 
     
 > Part 2: Project Web App Settings in SharePoint Central Administration
     
-    - Chapter 9, "Queue and Database Administration"
+   - Chapter 9, "Queue and Database Administration"
     
-    - Chapter 10, "Operational Policies"
+   - Chapter 10, "Operational Policies"
     
-    - Chapter 11, "Workflow and Project Detail Pages"
+   - Chapter 11, "Workflow and Project Detail Pages"
     
-    - Chapter 12, "Manage Queue Settings"
+   - Chapter 12, "Manage Queue Settings"
     
 > Appendices
 
-    - Appendix A, "Project Server 2013 Category Permissions"
+   - Appendix A, "Project Server 2013 Category Permissions"
     
-    - Appendix B, "Project Server 2013 Global Permissions"
+   - Appendix B, "Project Server 2013 Global Permissions"
     
-    - Appendix C, "Project Server 2013 Default Security Groups"
+   - Appendix C, "Project Server 2013 Default Security Groups"
     
-    - Appendix D, "Project Server 2013 Default Categories"
+   - Appendix D, "Project Server 2013 Default Categories"
     
-    - Appendix E, "SharePoint Permission Mode Default Permissions for Project Server 2013 SharePoint groups"
+   - Appendix E, "SharePoint Permission Mode Default Permissions for Project Server 2013 SharePoint groups"
     
  
     
