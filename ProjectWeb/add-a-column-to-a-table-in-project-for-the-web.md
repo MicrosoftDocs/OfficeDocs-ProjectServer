@@ -73,4 +73,6 @@ She opens the Project table and verifies it's not a Managed or a System table. I
 
 :::image type="content" source="media/AddColumn-BudgetExample.png" alt-text="The Project table isn't Managed or a System table.":::
 
-She adds the new column, names it *Budget*, and sets the Data type to Currency.
+She adds the new column, names it *Budget*, and sets **Data type** to *Currency*.
+
+:::image type="content" source="media/AddColumn-ExampleCurrencyDataType.png" alt-text="The Currency data type supports calculations.":::
