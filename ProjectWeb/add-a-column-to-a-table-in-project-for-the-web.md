@@ -32,7 +32,7 @@ To create a custom table column in Project Power App, you have two choices:
 > [!NOTE]
 > Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in Project for the web.
 
-## Add a column to a table in Project Power App
+## Add a custom column to a table in Project Power App
 
 1. Open the [Power Apps portal](https://make.powerapps.com/).
 1. In the navigation pane, select **Dataverse** > **Tables**.
@@ -92,3 +92,17 @@ The *Budget* column is now visible in the *Project* table. Anita selects **Save 
 After saving, Anita notices there's another new column, right under *Budget*: *Budget (Base)*. It's an automatic column that shows the value of *Budget* in terms of the base currency defined for her app. Power Platform adds one when you [add a column with the Currency data type](/powerapps/maker/data-platform/types-of-fields#using-currency-columns).
 
 :::image type="content" source="media/AddColumn-CurrencyAutoBase.png" alt-text="Automatic new column showing the Budget in terms of the app's base currency.":::
+
+## Add a new column to its table's forms
+
+After you add a custom column to a table in Project Power App, you probably want to make it available to people who use Project for the web in your environment. Most people won't be using the tables directly&mdash;they'll use forms to work with their projects. Here's how to add your new column to a Project Power App form using the Power App portal.
+
+1. After you save the table, select the Forms area.
+1. Select the form where you want to make the new column available. You might have to adjust the view's filter to see the form you want.
+
+   :::image type="content" source="media/AddColumn-PutItOnAForm.png" alt-text="Select a form for making the new column available.":::
+
+1. On the command bar, select **+ Form field**.
+1. Drag the new field from the **Table columns** pane onto the form. If you want it in a specific place, drop it there&mdash;otherwise it appears in the **General** section.
+
+   :::image type="content" source="media/AddColumn-DragFieldToForm.png" alt-text="Drag a field onto the form.":::
