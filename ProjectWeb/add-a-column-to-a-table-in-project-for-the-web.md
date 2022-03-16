@@ -11,21 +11,23 @@ search.appverid:
 - PJO150
 - PJO160
 - MET150
-description: "Learn how to add a custom column to a table in Project for the web and make it available on the associated form."
+description: "Learn how to add a custom column to a table in the Project Power App and make it available on the associated form to people in your environment using Project for the web."
 ---
 
-# Add a custom column to a table in Project for the web
+# Add a custom column to Project for the web
 
-When you need all the projects created in your Dataverse environment to accommodate a new piece of information, add a column to the appropriate table in Project Power App. If possible, [use an available built-in column](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form#create-a-new-column-on-the-table-when-editing-a-form). This article provides steps to add a column that isn't built-in: a custom column.
+When you need all the projects created in your Dataverse environment to accommodate a new piece of information, add a column to the appropriate table in Project Power App. After you make the new column available on the associated form, people using Project for the web will be able to use the column in their projects.
+
+If possible, [use an available built-in column](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form#create-a-new-column-on-the-table-when-editing-a-form). This article provides steps to add a column that isn't built-in: a custom column.
 
 [!INCLUDE [p4w-required-roles.md](includes/p4w-required-roles.md)]
 
 [!INCLUDE [p4w-solution-layers.md](includes/p4w-solution-layers.md)]
 
-To create a custom table column for Project Power App, you have two choices:
+To create a custom table column in Project Power App, you have two choices:
 
-- The Easy Way: Use the Power Apps portal, which has a nice, friendly UI. This article provides steps to use the Power Apps portal to add a custom column to a Dataverse table for Project Power App. However, some options aren't available.
-- The Hard Way: If you need to use an option that's not available using the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
+- The Convenient method: Use the Power Apps portal, which has a nice, friendly UI. This article provides steps to use the Power Apps portal to add a custom column to a Dataverse table for Project Power App. It's convenient and suitable most of the time, but a few options aren't available.
+- The Full Control method: If you need an option that's not available with the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
 
 > [!NOTE]
 > Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in Project for the web.
@@ -35,6 +37,12 @@ To create a custom table column for Project Power App, you have two choices:
 1. Open the [Power Apps portal](https://make.powerapps.com/).
 1. In the navigation pane, select **Dataverse** > **Tables**.
 1. Find and select the table that needs a custom column.
+
+   > [!TIP]
+   > You might not see the table you want by default. Use the item filter on the command bar to choose the type of items you see.
+
+   :::image type="content" source="media/CommandBar-ItemFilter.png" alt-text="Choose the type of items you see.":::
+
 1. On the command bar, select **+ Add column**.
 
    :::image type="content" source="media/AddColumn-OpenDialog.png" alt-text="Choose a table to add a column.":::
