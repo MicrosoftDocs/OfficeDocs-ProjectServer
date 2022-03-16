@@ -59,3 +59,13 @@ To create a custom table column for Project Power App, you have two choices:
 
 > [!NOTE]
 > Other properties may become available when you set a value for **Data type**.
+
+## Example: Add a *Budget* column to the Business Unit table
+
+Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Business Unit level. She checked and didn't see a built-in column for this, so she's making the change in the Power Apps portal.
+
+She opens the Business Unit table and verifies it's not a Managed or a System table. If it were, she'd have to reconsider her plan.
+
+:::image type="content" source="media/AddColumn-BudgetExample.png" alt-text="The Business Unit table isn't Managed or a System table.":::
+
+She adds the new column, names it *Budget*, and sets the Data type to Currency
