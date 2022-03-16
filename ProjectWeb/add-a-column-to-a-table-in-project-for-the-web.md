@@ -24,21 +24,24 @@ When you need all the projects created in your Dataverse environment to accommod
 
 To create a custom table column for Project Power App, you have two choices:
 
-- Use the Power Apps portal, which provides an easy way to create and edit custom table columns. This article provides steps to use the Power Apps portal to add a custom column to Project Power App.
-- Some options aren't available using the Power Apps portal. If you need such options, you can use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
+- The Easy Way: Use the Power Apps portal, which has a nice, friendly UI. This article provides steps to use the Power Apps portal to add a custom column to a Dataverse table for Project Power App. However, some options aren't available.
+- The Hard Way: If you need to use an option that's not available using the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
 
 > [!NOTE]
 > Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in Project for the web.
 
-## Open Project Power App on the Power Apps portal
-
-1. Open the [Power Apps portal](https://make.powerapps.com/).
-1. 
-
 ## Add a column to a table in Project Power App
 
-1. follow the steps in Create and edit columns for Microsoft Dataverse using Power Apps portal.
-1. Set [column properties](column-properties) as needed.
+1. Open the [Power Apps portal](https://make.powerapps.com/).
+1. In the navigation pane, select **Dataverse** > **Tables**.
+1. Find and select the table that needs a custom column.
+1. On the command bar, select **+ Add column**.
+
+   :::image type="content" source="media/AddColumn-OpenDialog.png" alt-text="Choose a table to add a column.":::
+
+1. In the Set [column properties](column-properties) as needed. Properties that require a value have an asterisk next to their name.
+
+   :::image type="content" source="media/ColumnPropertyQuickInfo.png" alt-text="Get quick info about a property.":::
 
 ### Column properties
 
