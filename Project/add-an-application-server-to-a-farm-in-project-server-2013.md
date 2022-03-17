@@ -129,7 +129,5 @@ Once SharePoint Server 2013 and Project Server 2013 are installed on the compute
     
 ## See also
 
-#### 
-
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

@@ -77,7 +77,7 @@ Project Professional 2013 has the following installation requirements:
   
 **Project Professional 2013 Installation requirements**
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Computer and processor  <br/> |1 GHz or faster x86/x64 processor with SSE2 instruction set  <br/> |
 |Memory  <br/> | 1 GB RAM (32-bit) <br/>  2 GB RAM (64-bit) <br/> |
@@ -220,9 +220,7 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 ## See also
 
-#### 
 
 [Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
-#### 
 
 [Prepare your environment for upgrade (Project Server 2013)](./prepare-your-environment-for-an-upgrade-to-project-server-2013.md)

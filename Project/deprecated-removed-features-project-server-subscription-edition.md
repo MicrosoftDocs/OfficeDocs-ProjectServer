@@ -1,6 +1,6 @@
 ---
 title: "What's deprecated or removed in Project Server Subscription Edition"
-ms.author: v-benzyd
+ms.author: serdars
 author: benzicald
 manager: serdars
 ms.date: 6/24/2021

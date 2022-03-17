@@ -63,12 +63,12 @@ After restoring your Project Server 2010 databases and the SharePoint content da
 
 ## SharePoint upgrade phase
 
-||**Steps**|**Required Microsoft PowerShell cmdlet**|
+|&nbsp;|**Steps**|**Required Microsoft PowerShell cmdlet**|
 |:-----|:-----|:-----|
 |1  <br/> |Check the SharePoint content database that contains your Project Site data for errors that can cause upgrade to fail.  <br/> |[Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase) <br/> |
 |2  <br/> |Attach and upgrade the SharePoint content database.  <br/> |[Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase) <br/> |
 |3  <br/> |Take ownership of the site collection you want to upgrade.  <br/> |[Set-SPSite](/powershell/module/sharepoint-server/Set-SPSite) <br/> |
-|4  <br/> |Migrate users from Windows Classic authentication to claims-based authentication (optional).  <br/> > [!NOTE]> This step is only required if your Project Server 2010 web application is using Classic Windows authentication, and your Project Server 2013 web application is using claims-based authentication.           |([Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication) <SPWebAppPipeBind>).MigrateUsers($true) <br/> |
+|4  <br/> |Migrate users from Windows Classic authentication to claims-based authentication (optional).  <br/>  Note: This step is only required if your Project Server 2010 web application is using Classic Windows authentication, and your Project Server 2013 web application is using claims-based authentication.           |([Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication) \<SPWebAppPipeBind>).MigrateUsers($true) <br/> |
 |5  <br/> |Check the SharePoint site collection for issues that can cause upgrade to fail.  <br/> |[Test-SPSite](/powershell/module/sharepoint-server/Test-SPSite) <br/> |
 |6  <br/> |Upgrade the SharePoint site.  <br/> |[Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite)Upgrade-SPSite  <br/> |
 
@@ -219,7 +219,7 @@ Upgrade-SPSite -Identity https://contoso/pwa -versionupgrade
 
 After you complete the SharePoint Upgrade phase, you will be able to connect to the PWA site, but will be unable to view any project data because the Project Server 2010 database have not been connected and upgraded yet. Use the following steps in the Project Server upgrade phase to complete the upgrade.
 
-||**Steps**|**Required Microsoft PowerShell cmdlet**|
+|&nbsp;|**Steps**|**Required Microsoft PowerShell cmdlet**|
 |:-----|:-----|:-----|
 |1  <br/> |Consolidate your Project Server 2010 databases to a Project Project Web App database  <br/> |Convertto-SPProjectDatabase  <br/> |
 |2  <br/> |Attach your Project Web App database to the web application.  <br/> |Mount-SPProjectDatabase  <br/> |
@@ -296,7 +296,7 @@ For example:
 Test-SPProjectDatabase -Name ContosoProjectWebApp1 -DatabaseServer SQLServer1
 ```
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |-Name  <br/> |Specifies the name of your Project Web App database.  <br/> |
 |-Databaseserver  <br/> |Specifies the instance of the database service on which the Project Web App database is located.  <br/> The type must be a valid GUID, such as 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a SQL Server instance (for example, DBSvrInstance1); or an instance of a valid SPDatabaseServiceInstance object.  <br/> |
@@ -431,7 +431,6 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 
 ## See also
 
-#### 
 
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
 

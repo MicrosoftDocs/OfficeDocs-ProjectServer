@@ -92,7 +92,7 @@ The following table describes the categories options for a group.
 |:-----|:-----|
 |**Available Categories** <br/> |The categories that are not associated with this group.  <br/> |
 |**Selected Categories** <br/> |The categories that are associated with this group.  <br/> |
-|**Permissions for** <category> <br/> |The permissions that members of this group have within the selected category. This option appears when you select a category in the **Available Categories** list. <br/> |
+|**Permissions for** \<category> <br/> |The permissions that members of this group have within the selected category. This option appears when you select a category in the **Available Categories** list. <br/> |
 |**Set permissions with Template** <br/> |To set the category permissions for the selected category from a template — such as Project Manager or Team Member — select the desired template from the list, and then click **Apply**.  <br/> |
    
 ## Global permissions

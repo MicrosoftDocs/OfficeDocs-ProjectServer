@@ -36,7 +36,5 @@ Categories are used in Project Web App to determine which users or groups can ha
     
 ## See also
 
-#### 
-
 [Set up which users and groups can act as delegates in Project Server](set-up-which-users-and-groups-can-act-as-delegates-in-project-server.md)
 

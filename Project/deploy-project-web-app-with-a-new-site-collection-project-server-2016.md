@@ -44,13 +44,13 @@ After you have created the top-level web site, you must grant users access to th
 
 ### To set Read permissions on the top-level Web site
 
-1. Navigate to the root site (that is, https://<servername>).
+1. Navigate to the root site (that is, https://\<servername>).
 
 2. At the top of the page, click **Share**.
 
 3. On the Share dialog box, click **Show Options**.
 
-4. From the Select a group or permission level, choose **<site> Visitors [Read]**.
+4. From the Select a group or permission level, choose **\<site> Visitors [Read]**.
 
 5. In the **Enter names or email addresses** text box, typeEveryone.
 

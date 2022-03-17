@@ -47,7 +47,6 @@ description: "Summary: Use the Resource Plan Work Day settings in Central Admini
     
 ## See also
 
-#### 
 
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 

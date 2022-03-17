@@ -21,7 +21,7 @@ description: "Instructions on how to set up timesheets for resources in Project 
 
 # Set up timesheets
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Time Reporting Period.](media/d99055d1-f683-45c1-a532-4f8d8f2cc29e.png)|Before your team members can start [Step 2: Turn in a timesheet](https://support.office.com/article/f49a8e4a-29d2-4601-ac5a-437c232c31f1), an administrator needs to set up a few things. Some things are required, and other options are there in case you want to go beyond the basics. |
    

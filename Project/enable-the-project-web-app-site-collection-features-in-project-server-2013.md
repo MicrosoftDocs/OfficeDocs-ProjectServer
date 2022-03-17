@@ -84,8 +84,6 @@ If you want to add a Project Web App site to the site collection, see [Create a 
 ## See also
 <a name="EnableTheProjectWebAppSiteCollectionFeatures"> </a>
 
-#### 
-
 [New-SPProjectDatabase](/powershell/module/sharepoint-server/)
 
 [Enable-SPFeature](/powershell/module/sharepoint-server/Enable-SPFeature)

@@ -122,12 +122,10 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 ## See also
 <a name="section4"> </a>
 
-#### 
 
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
 
 [Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md)
-#### 
 
 [Plan for upgrade (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/plan-for-upgrade)
 

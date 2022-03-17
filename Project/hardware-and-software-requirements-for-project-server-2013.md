@@ -335,7 +335,7 @@ Project Professional 2013 has the following installation requirements:
   
 **Project Professional 2013 installation requirements**
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Computer and Processor  <br/> |1 GHz or faster x86/x64 processor with SSE2 instruction set  <br/> |
 |Memory  <br/> | 1 GB RAM (32-bit) <br/>  2 GB RAM (64-bit) <br/> |
@@ -380,6 +380,5 @@ You can install Project Server 2013 and SharePoint Server 2013 on the Azure plat
 ## See also
 <a name="section8"> </a>
 
-#### 
 
 [Support and licensing for Azure in SharePoint 2013](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)

@@ -97,7 +97,5 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 ## See also
 
-#### 
-
 [Upgrade to Project Server 2013](upgrade-to-project-server-2013.md)
 

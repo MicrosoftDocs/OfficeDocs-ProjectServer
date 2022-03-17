@@ -1,5 +1,5 @@
 ---
-title: "Create a PWA site in an existing site collection"
+title: "How to create a PWA site in an existing site collection"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -15,7 +15,7 @@ ms.assetid: bd4e7c9f-79f7-45c4-8cbe-8dbe75c72370
 description: "Add a Project Web App site to an existing site collection."
 ---
 
-# Create a PWA site in an existing site collection
+# How to create a PWA site in an existing site collection
 
  **Summary:** Add a Project Web App site to an existing site collection.<br/>
 **Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016

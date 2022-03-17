@@ -55,7 +55,6 @@ Manually scheduled tasks (also known as "User-Controlled Scheduling") were intro
     
 ## See also
 
-#### 
 
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 

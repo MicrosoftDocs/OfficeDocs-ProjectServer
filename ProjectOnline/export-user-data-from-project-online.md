@@ -155,7 +155,7 @@ Use the ExportProjectUserContent.ps1 PowerShell script to export your user's dat
   
 1. In the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=867805), run the ExportProjectUserContent script. You will need to configure the following parameters when running the script:
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Parameter** <br/> |**Description** <br/> |
 |-URL  <br/> |URL of the PWA site  <br/> |
@@ -237,7 +237,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
     
     These three .xml files are:
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Name** <br/> |**Description** <br/> |
 |DraftProjectList.xml  <br/> |List of projects from the Draft schema that corresponds to the conditions above.  <br/> |
@@ -250,7 +250,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
     
    All three of the ProjectList.xml files will have the following properties for each project listed:
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Property** <br/> |**Description** <br/> |
 |SiteId  <br/> |The unique identifier for the PWA site in which the project exists.  <br/> |
@@ -323,7 +323,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
     
     **- An .xml file for the project from the draft and published databases:**
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Name** <br/> |**Description** <br/> |
 |\<projectName\>_draft.xml  <br/> |The project file from the draft schema saved as .xml format.  <br/> |
@@ -334,7 +334,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
   
   **- An .mpp file for the project from the draft and published databases:**
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Name** <br/> |**Description** <br/> |
 |\<projectName\>_draft.mpp  <br/> |The project file from the draft schema saved as a Project .mpp file.  <br/> |
@@ -361,7 +361,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
   
    **- Three .json files with the project's metadata from the draft, published, and reporting schemas:**
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Name** <br/> |**Description** <br/> |
 |\<projectName\>_draft.json  <br/> |Project metadata file from the Draft schema  <br/> |
