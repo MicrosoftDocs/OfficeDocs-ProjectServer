@@ -17,7 +17,7 @@ description: "Frequently Asked Questions about Project for the Web."
 
 ### Does Project for the web include a way to record timesheets?
 
-No. If this is something that you need, let us know at the [Project for the web User Voice site](https://microsoftproject.uservoice.com/forums/914203-project-for-the-web)!
+No. If this is something that you need, let us know at the Project for the web User Voice site!
 
 ### Why is the Tasks tab in the Project Power App blank?
 
