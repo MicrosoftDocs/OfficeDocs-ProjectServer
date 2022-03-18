@@ -1,5 +1,5 @@
 ---
-title: "Add a custom column to Project for the web"
+title: "Add a custom column to the Project Power App"
 ms.author: v-stthomas
 author: v-stthomas
 manager: alexla
@@ -11,14 +11,12 @@ search.appverid:
 - PJO150
 - PJO160
 - MET150
-description: "Learn how to add a custom column to a table in the Project Power App and make it available on the associated form to people in your environment using Project for the web."
+description: "Learn how to add a custom column in the Project Power App that can be used across all your projects."
 ---
 
-# Add a custom column to Project for the web
+# Add a custom column to the Project Power App
 
-When you need all the projects created in your Dataverse environment to accommodate a new piece of information, add a column to the appropriate table in Project Power App. After you make the new column available on the associated form, people using Project for the web will be able to use the column in their projects.
-
-If possible, [use an available built-in column](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form#create-a-new-column-on-the-table-when-editing-a-form). This article provides steps to add a column that isn't built-in: a custom column.
+When you need to add a column to use in your projects but none of the [available built-in columns](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form#create-a-new-column-on-the-table-when-editing-a-form) meet your need, create a custom column.
 
 [!INCLUDE [p4w-required-roles.md](includes/p4w-required-roles.md)]
 
@@ -30,23 +28,23 @@ To create a custom table column in Project Power App, you have two choices:
 - The Full Control method: If you need an option that's not available with the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
 
 > [!NOTE]
-> Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in Project for the web.
+> Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in the Tasks tab of the Project Power App.
 
-## Add a custom column to a table in Project Power App
+## Add a custom column using the Power App portal
 
 1. Open the [Power Apps portal](https://make.powerapps.com/).
 1. In the navigation pane, select **Dataverse** > **Tables**.
 1. Find and select the table that needs a custom column.
 
    > [!TIP]
-   > You might not see the table you want by default. Use the item filter on the command bar to choose the type of items you see.
+   > The table you want might not be listed by default. Use the item filter on the command bar to choose the type of items Power Apps lists.
 
-   :::image type="content" source="media/CommandBar-ItemFilter.png" alt-text="Choose the type of items you see.":::
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-06.png" alt-text="Use the item filter on the command bar to choose the type of items Power Apps lists.":::
 
 1. On the command bar, select **+ Add column**.
 1. In the **Column properties** pane, set the [column properties](column-properties) as needed. Properties that require a value have an asterisk next to their name.
 
-   :::image type="content" source="media/ColumnPropertyQuickInfo.png" alt-text="Get quick info about a property.":::
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-03.png" alt-text="For a quick reminder of a property’s effect, select the info icon beside its name.":::
 
 1. After you set all the properties you need, select **Done** at the bottom of the **Column properties** pane to save the new column.
 
@@ -67,42 +65,40 @@ To create a custom table column in Project Power App, you have two choices:
 
 ## Example: Add a *Budget* column to the *Project* table
 
-Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Project level. She checked and didn't see a built-in column for this, so she's changing the Project Power App in the Power Apps portal.
+Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Project level. She checked and didn't see a built-in column for this, so she's changing the Project Power App using the [Power Apps portal](https://make.powerapps.com/).
 
 She opens the Project table and verifies it's not a Managed or a System table. If it were, she'd have to reconsider her plan.
 
-:::image type="content" source="media/AddColumn-BudgetExample.png" alt-text="The Project table isn't Managed or a System table.":::
+:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-04.png" alt-text="Make changes in your Development environment first, so you can ensure they work as expected before you deploy them in your Production environment. Make sure that a table isn’t a Managed or System table before you try to make arbitrary changes to it.":::
 
 She adds the new column, names it *Budget*, and sets **Data type** to *Currency*.
 
-:::image type="content" source="media/AddColumn-ExampleCurrencyDataType.png" alt-text="The Currency data type supports calculations.":::
+:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-05.png" alt-text="The Currency data type supports financial calculations.":::
 
-Because there are already some projects underway, she sets **Required** to *Recommended*. She leaves **Searchable** selected so she can easily find projects that don't have a value for *Budget* yet, and so people can use the column in Advanced Find operations. Although calculations will be done using the value of *Budget*, the column itself isn't calculated or a roll-up: Anita will use it to set the total amount of funds allocated to a project. She's planning to add other fields that will use *Budget* in calculations.
-
-Anita selects **Advanced Options**, considers the choices, and sets them accordingly.
-
-:::image type="content" source="media/AdvancedOptions-BudgetColumnExample.png" alt-text="Advanced Options for a column with the Currency data type.":::
+Because there are already some projects underway, she sets **Required** to *Recommended*. She leaves **Searchable** selected so she can easily find projects that don't have a value for *Budget* yet, and so people can use the column in Advanced Find operations.
 
 Ready to start allocating funds, at the bottom of the pane, Anita selects **Done**.
 
-:::image type="content" source="media/AddColumn-SaveTable.png" alt-text="Select Save Table after adding a column.":::
+:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-08.png" alt-text="Select Save Table after adding a column.":::
 
 The *Budget* column is now visible in the *Project* table. Anita selects **Save Table**.
 
 After saving, Anita notices there's another new column, right under *Budget*: *Budget (Base)*. It's an automatic column that shows the value of *Budget* in terms of the base currency defined for her app. Power Platform adds one when you [add a column with the Currency data type](/powerapps/maker/data-platform/types-of-fields#using-currency-columns).
 
-:::image type="content" source="media/AddColumn-CurrencyAutoBase.png" alt-text="Automatic new column showing the Budget in terms of the app's base currency.":::
+:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-09.png" alt-text="When you add a column with the Currency data type, Power Platform adds another column that holds the calculation of the value in the column you added, in terms of the base currency for your app.":::
 
-## Add a new column to its table's forms
+## Add a form field for a new column
 
-After you add a custom column to a table in Project Power App, you probably want to make it available to people who use Project for the web in your environment. Most people won't be using the tables directly&mdash;they'll use forms to work with their projects. Here's how to add your new column to a Project Power App form using the Power App portal.
+After you add a custom column to the Project Power App, you should add it to a form as a field. Most people won't be using the tables directly&mdash;they'll use form fields to work with project data.
 
-1. After you save the table, select the Forms area.
-1. Select the form where you want to make the new column available. You might have to adjust the view's filter to see the form you want.
+1. After you save the table, select the **Forms** area.
+1. Select the form where you want to make the new column available. You might have to adjust the view's filter to find the form you want.
 
-   :::image type="content" source="media/AddColumn-PutItOnAForm.png" alt-text="Select a form for making the new column available.":::
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-10.png" alt-text="Switch to the Forms area after you add a custom column. Select the form where you want to make the column available.":::
 
 1. On the command bar, select **+ Form field**.
 1. Drag the new field from the **Table columns** pane onto the form. If you want it in a specific place, drop it there&mdash;otherwise it appears in the **General** section.
 
-   :::image type="content" source="media/AddColumn-DragFieldToForm.png" alt-text="Drag a field onto the form.":::
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-11.png" alt-text="When you select + Form field, the Table columns pane opens. By default, unused columns appear in the Table columns pane.":::
+
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-12.png" alt-text="When you drag a field onto a form, it’s added to the General section unless you drop it somewhere else.":::
