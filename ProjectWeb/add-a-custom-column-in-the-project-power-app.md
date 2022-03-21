@@ -24,8 +24,8 @@ When you need to add a column to use in your projects but none of the [available
 
 To create a custom table column in Project Power App, you have two choices:
 
-- The Convenient method: Use the Power Apps portal, which has a nice, friendly UI. This article provides steps to use the Power Apps portal to add a custom column to a Dataverse table for Project Power App. It's convenient and suitable most of the time, but a few options aren't available.
-- The Full Control method: If you need an option that's not available with the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer).
+- The [Power Apps portal](https://make.powerapps.com/) has a nice, friendly UI. This article provides steps to use the Power Apps portal to add a custom column to a Dataverse table for Project Power App. It's convenient and suitable most of the time, but a few options aren't available.
+- The [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer) provides advanced options that aren't available on the Power Apps portal.
 
 > [!NOTE]
 > Don't add a custom column to the Task table in Dataverse. Columns added to the Task table in Dataverse aren't available in the Tasks tab of the Project Power App.
@@ -87,18 +87,32 @@ After saving, Anita notices there's another new column, right under *Budget*: *B
 
 :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-09.png" alt-text="When you add a column with the Currency data type, Power Platform adds another column that holds the calculation of the value in the column you added, in terms of the base currency for your app.":::
 
-## Add a form field for a new column
+## Add a form field to the *Information* form
 
-After you add a custom column to the Project Power App, you should add it to a form as a field. Most people won't be using the tables directly&mdash;they'll use form fields to work with project data.
+After you add a custom column to the Project Power App, you should add it the *Information* form as a field. Most people won't be using the tables directly&mdash;they'll use the *Information* form to work with project data.
 
 1. After you save the table, select the **Forms** area.
-1. Select the form where you want to make the new column available. You might have to adjust the view's filter to find the form you want.
+1. Select the *Information* form. You might have to adjust the view's filter to find it.
 
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-10.png" alt-text="Switch to the Forms area after you add a custom column. Select the form where you want to make the column available.":::
 
 1. On the command bar, select **+ Form field**.
-1. Drag the new field from the **Table columns** pane onto the form. If you want it in a specific place, drop it there&mdash;otherwise it appears in the **General** section.
 
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-11.png" alt-text="When you select + Form field, the Table columns pane opens. By default, unused columns appear in the Table columns pane.":::
 
+1. Drag the new field from the **Table columns** pane onto the form. If you want it in a specific place, drop it there&mdash;otherwise it appears in the **General** section.
+
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-12.png" alt-text="When you drag a field onto a form, it’s added to the General section unless you drop it somewhere else.":::
+
+1. On the command bar, select **Save**.
+1. When you are ready to roll out your changes to the environment you're in, on the command bar, select **Publish**.
+
+   :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-13.png" alt-text="After you publish your changes, the new field appears in every project in the same environment.":::
+
+## Next Steps
+
+- Consider whether you should create or adjust any [business process flows](/power-automate/business-process-flows-overview) for your new column.
+- If the new form field requires it, add or change [business rules](/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
+- If the new column will require associated Dataverse actions when its values change, implement them using [Power Automate](/power-automate/connection-cds).
+- Consider [adding the new column to your Power BI template for Project](https://support.microsoft.com/office/extend-the-power-bi-template-for-project-for-the-web-23fb86a7-e1b2-45fc-b82b-8f64ae44c51c). Adding it to your Power BI template makes it part of reports that use the template.
+- If you added the column in your Development environment (as recommended). Test it as needed, then propagate the update to your Production environment.
