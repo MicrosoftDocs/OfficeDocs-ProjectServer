@@ -53,8 +53,8 @@ To create a custom table column in Project Power App, you have two choices:
 | **Property** | **Description** |
 | --: | --: |
 | **Display Name** | Text that appears next to and identifies the column in the user interface. |
-| **Name** | Provides a unique name for the column across your environment. An automatically-generated name appears when you enter a display name, but you can edit the value before you save the column properties. After you save the column properties when you create the column, its name cannot be changed. The name always has the customization prefix for your Dataverse Default Publisher. |
-| **Data type** | Controls how values are stored, and in some applications how they are formatted. After you save the column properties, you can't change the data type. Exception: you can convert text columns to autonumber columns. |
+| **Name** | Provides a unique name for the column across your environment. An automatically generated name appears when you enter a display name, but you can edit the value before you save the column properties. After you save the column properties when you create the column, its name can’t be changed. The name always has the customization prefix for your Dataverse Default Publisher. |
+| **Data type** | Controls how values are stored, and in some applications how they're formatted. After you save the column properties, you can't change the data type. Exception: you can convert text columns to autonumber columns. |
 | **Required** | A row can't be saved without data in this column. For more information, see [Saving rows programmatically for required columns](/powerapps/maker/data-platform/create-edit-field-portal#saving-rows-programmatically-for-required-columns). |
 | **Searchable** | Controls whether the column appears in Advanced Find and is available when customizing views. |
 | **Calculated or Rollup** | Use to automate manual calculations. Use values, dates, or text. |
@@ -65,9 +65,9 @@ To create a custom table column in Project Power App, you have two choices:
 
 ## Example: Add a *Budget* column to the *Project* table
 
-Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Project level. She checked and didn't see a built-in column for this, so she's changing the Project Power App using the [Power Apps portal](https://make.powerapps.com/).
+Anita Montero has determined that her business has grown complex enough to require more granular accounting. She needs to start allocating funds at the Project level. There's no built-in column that works for her, so she's adding a custom column to the Project Power App using the [Power Apps portal](https://make.powerapps.com/).
 
-She opens the Project table and verifies it's not a Managed or a System table. If it were, she'd have to reconsider her plan.
+She opens the *Project* table and verifies it's not a Managed or a System table, so it's safe to change.
 
 :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-04.png" alt-text="Make changes in your Development environment first, so you can ensure they work as expected before you deploy them in your Production environment. Make sure that a table isn’t a Managed or System table before you try to make arbitrary changes to it.":::
 
@@ -85,7 +85,7 @@ The *Budget* column is now visible in the *Project* table. Anita selects **Save 
 
 After saving, Anita notices there's another new column, right under *Budget*: *Budget (Base)*. It's an automatic column that shows the value of *Budget* in terms of the base currency defined for her app. Power Platform adds one when you [add a column with the Currency data type](/powerapps/maker/data-platform/types-of-fields#using-currency-columns).
 
-:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-09.png" alt-text="When you add a column with the Currency data type, Power Platform adds another column that holds the calculation of the value in the column you added, in terms of the base currency for your app.":::
+:::image type="content" source="media/add-a-custom-column-in-the-project-power-app-09.png" alt-text="When you add a column with the Currency data type, Power Platform adds another column that calculates the column’s values in the base currency for your app.":::
 
 ## Add a form field to the *Information* form
 
@@ -105,7 +105,7 @@ After you add a custom column to the Project Power App, you should add it the *I
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-12.png" alt-text="When you drag a field onto a form, it’s added to the General section unless you drop it somewhere else.":::
 
 1. On the command bar, select **Save**.
-1. When you are ready to roll out your changes to the environment you're in, on the command bar, select **Publish**.
+1. When you're ready to roll out your changes to the environment you're in, on the command bar, select **Publish**.
 
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-13.png" alt-text="After you publish your changes, the new field appears in every project in the same environment.":::
 
