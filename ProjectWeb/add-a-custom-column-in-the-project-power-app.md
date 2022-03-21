@@ -6,6 +6,7 @@ manager: alexla
 ms.date: 3/15/2022
 audience: admin
 ms.service: project-web
+ms.topic: how-to
 ms.localizationpriority: medium
 search.appverid: 
 - PJO150
