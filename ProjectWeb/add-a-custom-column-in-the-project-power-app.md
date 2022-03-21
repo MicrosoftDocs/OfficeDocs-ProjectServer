@@ -42,7 +42,7 @@ To create a custom table column in Project Power App, you have two choices:
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-06.png" alt-text="Use the item filter on the command bar to choose the type of items Power Apps lists.":::
 
 1. On the command bar, select **+ Add column**.
-1. In the **Column properties** pane, set the [column properties](column-properties) as needed. Properties that require a value have an asterisk next to their name.
+1. In the **Column properties** pane, set the [column properties](#column-properties) as needed. Properties that require a value have an asterisk next to their name.
 
    :::image type="content" source="media/add-a-custom-column-in-the-project-power-app-03.png" alt-text="For a quick reminder of a property’s effect, select the info icon beside its name.":::
 
