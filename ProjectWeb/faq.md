@@ -45,7 +45,7 @@ Yes! It’s a [model-driven Power App](/powerapps/maker/model-driven-apps/model-
 
 ### I need to use more than five custom tables with Project for the web, how can I do that? 
 
-Create a new Power App and add any tables you need into it. You can have all the core Project tables, views, and forms, as well as any additional custom tables that you need. Users of this new Power App will need at least a Project Plan 3 or Plan 5 license, as well as a license to PowerApps. If you intend to use tables from other applications, be sure to follow any licensing guidelines for those apps.
+Create a new Power App and add any tables you need into it. You can have all the core Project tables, views, and forms, as well as any additional custom tables that you need. Users of this new Power App will need at least a Project Plan 1, Plan 3, or Plan 5 license, as well as a license to PowerApps. If you intend to use tables from other applications, be sure to follow any licensing guidelines for those apps.
 
 ### How can I change the access rights for users of Project data in the Dataverse?
 
@@ -75,7 +75,7 @@ Project can be deployed to Dataverse environments that have the “Enable D365 A
 
 ### Can I build a standalone Power App and include Project tables in it?
 
-Yes, you can. All users of this Power App will need a Project Plan 3 license as well as a Power Apps license.
+Yes, you can. All users of this Power App will need a Project Plan 1, Plan 3, or Plan 5 license as well as a Power Apps license.
 
 ### Is Power BI included?
 
