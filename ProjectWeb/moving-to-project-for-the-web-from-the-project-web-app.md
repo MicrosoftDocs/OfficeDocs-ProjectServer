@@ -42,8 +42,12 @@ The following table lists the main components that provide various functionality
 
 ## Views and forms in Project for the web
 
-- The Information form
-- 
+:::image type="content" source="media/moving-to-project-for-the-web-from-the-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
+
+### The Information form
+
+:::image type="content" source="{source}" alt-text="{alt-text}":::
+
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
 1. <!-- Step n -->
