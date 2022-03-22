@@ -1,21 +1,21 @@
 ---
-
-title: Moving to Project for the web from the Project Web App
-description: Understand the differences between project management in Project for the web and in the Project Web App. Learn about requirements for different roles in Project for the web. Find steps for moving projects from the Project Web App to Project for the web. 
+title: Move to Project for the web from Project Web App
+description: Understand the differences between Project for the web and the Project Web App. Learn about security roles in Project for the web. Move projects from the Project Web App to Project for the web.
 author: v-stthomas
-ms.author: v -stthomas
-ms.manager: alexla
+ms.author: v-stthomas
+manager: alexla
 ms.service: project-web
 ms.topic: how-to
 ms.date: 3/21/2022
 ms.custom: template-how-to
+audience: ITPro
 ---
 
-# Moving to Project for the web from the Project Web App
+# Move to Project for the web from Project Web App
 
-Project for the web is the interface for people working with projects created using the Project Power App. This article can help you understand how projects in Project for the web differ from projects in the Project Web App, and provides steps for moving projects from the Project Web App to Project for the web.
+Project for the web is the interface for people who work with projects created using the Project Power App. This article explains how projects in Project for the web differ from projects in the Project Web App, and how to move projects from the Project Web App to Project for the web.
 
-The following table lists the main components that provide various functionality in the two products, and a summary of the differences between them.
+The following table lists the main components in the two products, and a summary of the differences between them.
 
 | Functionality | Project Web App component | Project for the web component | Summary of differences |
 | :-- | :-- | :-- | :-- |
@@ -42,7 +42,7 @@ The following table lists the main components that provide various functionality
 
 ## Views and forms in Project for the web
 
-:::image type="content" source="media/moving-to-project-for-the-web-from-the-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
+:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
 
 ### The Information form
 
