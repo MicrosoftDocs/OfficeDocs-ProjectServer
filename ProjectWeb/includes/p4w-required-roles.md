@@ -1,0 +1,2 @@
+> [!NOTE]
+> Most changes to the Project Power App can be made with only the System Customizer security role. Some changes such as configuring the Option Set require that you have privileges that are part of the System Administrator security role. [Learn more about Project Power App security roles](../project-for-the-web-security-roles.md).
