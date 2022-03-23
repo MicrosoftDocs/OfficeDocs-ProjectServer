@@ -116,4 +116,3 @@ After you add a custom column to the Project Power App, you should add it the *I
 - If the new form field requires it, add or change [business rules](/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 - If the new column will require associated Dataverse actions when its values change, implement them using [Power Automate](/power-automate/connection-cds).
 - Consider [adding the new column to your Power BI template for Project](https://support.microsoft.com/office/extend-the-power-bi-template-for-project-for-the-web-23fb86a7-e1b2-45fc-b82b-8f64ae44c51c). Adding it to your Power BI template makes it part of reports that use the template.
-- If you added the column in your Development environment (as recommended). Test it as needed, then propagate the update to your Production environment.
