@@ -44,9 +44,15 @@ The following table lists the main components in the two products, and a summary
 
 :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
 
-### The Information form
+### The Information form: the default Main form of the Project Power App
 
-:::image type="content" source="{source}" alt-text="{alt-text}":::
+When you open a project in Project for the web, the browser displays the Main form&mdash;typically the *Information* form, which is the default in Project for the web. All projects created in Project for the web in the same environment display the same Main form.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-03.png" alt-text="The Information form of a project opened in Project for the web.":::
+
+When you open the Project Power App in an environment, you can set a different default Main form, and you can also edit forms. Both changes affect all projects in that environment, providing centralized control over the functionality of projects.
+  
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04.png" alt-text="The Information form of the Project Power App.":::
 
 1. <!-- Step 1 -->
 1. <!-- Step 2 -->
