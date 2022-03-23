@@ -1,6 +1,6 @@
 ---
-title: Move to Project for the web from Project Web App
-description: Understand the differences between Project for the web and the Project Web App. Learn about security roles in Project for the web. Move projects from the Project Web App to Project for the web.
+title: Begin using Project for the web while supporting Project Web App
+description: Understand how Project for the web differs from Project Web App. Learn to administer and customize the Project Power App to control projects in Project for the web. Start supporting Project for the web for new projects.
 author: v-stthomas
 ms.author: v-stthomas
 manager: alexla
@@ -8,40 +8,44 @@ ms.service: project-web
 ms.topic: how-to
 ms.date: 3/21/2022
 ms.custom: template-how-to
-audience: ITPro
+audience: admin
 ---
 
-# Move to Project for the web from Project Web App
+# Begin using Project for the web while supporting Project Web App
 
-Project for the web is the interface for people who work with projects created using the Project Power App. This article explains how projects in Project for the web differ from projects in the Project Web App, and how to move projects from the Project Web App to Project for the web.
-
-The following table lists the main components in the two products, and a summary of the differences between them.
-
-| Functionality | Project Web App component | Project for the web component | Summary of differences |
-| :-- | :-- | :-- | :-- |
-| Storing project data | SharePoint tables | Dataverse tables and columns |  |
-| Presentation of project data | Project Detail Pages | Views and Forms |  |
-| Logical flow of projects | SharePoint workflows | Power Automate |  |
+Project for the web is the interface for projects that are based on the Project Power App. This article explains how projects in Project for the web differ from projects in the Project Web App, and provides links to help you decide which projects will work better in Project for the web.
 
 ## Prerequisites
 
-- Make sure you have the [appropriate licenses](/power-platform/admin/powerapps-flow-licensing-faq).
-- Check your [security role](project-for-the-web-security-roles.md).
-- [Learn the basics of the Power Apps portal](/learn/paths/get-started-power-apps-portals).
+- Ensure you have [appropriate licenses](/power-platform/admin/powerapps-flow-licensing-faq).
+- Understand [the basics of the Power Apps portal](/learn/paths/get-started-power-apps-portals).
 
-## Move data from SharePoint to Dataverse
+## Summary of differences between Project Web App and Project for the web
 
-1. Open the [Power Apps portal](https://make.powerapps.com).
-1. In the navigation pane, select **Data** > **Entities**.
-1. Select **Get data**.
-1. Select **OData**.
-1. Enter your information into the dialog.
-1. When your data appears, select **Next**.
-1. Specify whether to use the existing entity or create a new one.
-1. Complete the remaining fields and finish the import process.
+Project for the web offers some substantial benefits over Project Web App, but doesn't yet offer full feature parity. The following table can help you understand the differences.
 
-## Views and forms in Project for the web
+| Functionality | In Project Web App | In Project for the web | Summary of differences |
+| :-- | :-- | :-- | :-- |
+| **Storing project data** | SharePoint tables | Dataverse tables and columns |  |
+| **Presentation of project data** | Project Detail Pages | Views and Forms |  |
+| **Logical flow of projects** | SharePoint workflows | Power Automate |  |
+| **Securing access to projects** |  | [Security roles](project-for-the-web-security-roles.md) |  |
 
+## Storing project data
+
+
+
+## Presentation of project data
+
+Both Project Web App and Project for the web projects present data using instances of project templates that you customize. People working on projects use a browser-based interface. But the interfaces and the design experience are different.
+
+### Project Detail Pages in Project Web App
+
+For Project Web App projects, you control and customize data presentation with Project Detail Pages by using Project Online or the Project Desktop client. Changes you make to Project Detail Pages affect all the projects in the same tenant.
+
+### Views and forms in Project for the web
+
+For projects in Project for the web, you use the Power Apps Portal to edit the Project Power App
 :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
 
 ### The Information form: the default Main form of the Project Power App
@@ -58,6 +62,7 @@ When you open the Project Power App in an environment, you can set a different d
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
+<<<<<<< Updated upstream
 ## [Section n heading]
 <!-- Introduction paragraph -->
 1. <!-- Step 1 -->
@@ -78,3 +83,12 @@ context so the customer can determine why they would click the link.
 Remove all the comments in this template before you sign-off or merge to the 
 main branch.
 -->
+=======
+## Next steps
+
+Blah blah blah
+
+- unordered list
+- of 2 or
+- 3 items
+>>>>>>> Stashed changes
