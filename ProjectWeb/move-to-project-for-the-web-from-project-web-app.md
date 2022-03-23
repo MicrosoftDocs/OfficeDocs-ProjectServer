@@ -11,7 +11,7 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Begin using Project for the web while supporting Project Web App
+# Start using Project for the web while supporting Project Web App
 
 Project for the web is the interface for projects that are based on the Project Power App. This article explains how projects in Project for the web differ from projects in the Project Web App, and provides links to help you decide which projects will work better in Project for the web.
 
