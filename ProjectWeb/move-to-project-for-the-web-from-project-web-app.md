@@ -29,32 +29,64 @@ The following table summarizes the differences between Project Web App and Proje
 
 | Functionality | In Project Web App | In Project for the web | Comparison |
 | :-- | :-- | :-- | :-- |
-| [Storing project data](#storing-project-data) | SharePoint | Dataverse | [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap)  |
-| [Project data presentation](#project-data-presentation) | Project Detail Pages | Views and Forms | [Edit project details in Project Online](https://support.microsoft.com/office/edit-project-details-in-project-online-9ea8d54f-d46e-4de7-a503-93095d83095d) / [Customizing the Project Power App](/project-for-the-web/faq#customization) |
-| [Logical flow of projects](#logical-flow-of-projects) | SharePoint workflows | Power Automate | [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows) |
-| [Securing access to projects](#securing-access-to-projects) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) | See section below, [securing access to project](#securing-access-to-projects) |
+|[Data components](#data-components) | SharePoint | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |   |
+|[UI components](#ui-components) | Project Detail Pages | Views and Forms |  |
+|[Logic components](#logic-components) | SharePoint workflows | Power Automate | [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows) |
+|[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) | See section below, [security](#security) |
+|[Visualizations](#visualizations) | [Various options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Charts, Dashboards, and Power BI](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |  |
 
-## Storing project data
+## Data components
 
-Project data for Project Web App is stored in SharePoint lists. Project for the web data is stored in Dataverse tables. While suitable for many scenarios, SharePoint lists do have some limitations compared to Dataverse tables.
+Project data for Project Web App is stored in SharePoint lists. Project for the web data is stored in Dataverse tables. While suitable for many scenarios, SharePoint lists do have some limitations compared to Dataverse tables. For a comparison, see [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap).
 
-## Project data presentation
+### Dataverse in the Project Power App
 
-Both Project Web App and Project for the web projects present data using instances of project templates that you customize. People working on projects use a browser-based interface. But the interfaces and the design experience are different.
+The Project Power App stores data in your environment's Dataverse, in three classes of tables.
 
-### Project Detail Pages in Project Web App
+1. Core scenario tables hold data used for projects in Project for the web. You can modify these tables if needed to support special functionality in your environment, with some caveats. For example, you can [add a custom column](add-custom-column-project-power-app.md) to make it available to all projects in your environment.
 
-For Project Web App projects, you control and customize data presentation with Project Detail Pages by using Project Online or the Project Online Desktop client. Changes you make to Project Detail Pages affect all the projects in the same tenant.
+   | Table name | What it stores | Caveats |
+   | :-- | :-- | :-- |
+   | *Project* | Summary project information. | None. |
+   | *Task* | Tasks that can be assigned. | Modification not recommended. Changes won't display correctly in Project for the web. |
+   | *Bookable Resource* |  |  |
+   | *Project Team* |  |  |
+   | *Bucket* |  |  |
+   | *Task Assignment* |  |  |
+   | *Checklist* |  |  |
+   | *Label* |  |  |
+   | *Task Attachment* |  |  |
+   | *Task Conversation* |  |  |
+   | *Work template* |  |  |
+   | *Task Dependency* |  |  |
+   | *Resource Requirement* |  |  |
+   | *Resource Requirement Detail* |  |  |
+   | *Role Competency requirement* |  |  |
+   | *Requirement Resource Category* |  |  |
+   | *Project Import Staging* |  |  |
+   | *Project Parameter* |  |  |
+   | *User* |  |  |
 
-### Views and forms in Project for the web
+1. Project Accelerator tables
+1. System tables
 
-For projects in Project for the web, you use the [Power Apps Portal](https://make.powerapps.com) to edit the Project Power App.
+## UI components
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
+Both Project Web App and Project for the web provide a UI for data entry using instances of project templates that you customize. Both UIs use a web browser. But the specifics are different. For a comparison of the design experiences, see [Edit project details in Project Online](https://support.microsoft.com/office/edit-project-details-in-project-online-9ea8d54f-d46e-4de7-a503-93095d83095d) and [Customizing the Project Power App](/project-for-the-web/faq#customization).
 
-### The Information form: the default Main form of the Project Power App
+To customize the Project for the web UI, you modify or create views and forms in the Project Power App. Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters. Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects.
 
-When you open a project in Project for the web, the browser displays the Main form&mdash;typically the *Information* form, which is the default in Project for the web. All projects created in Project for the web in the same environment display the same Main form.
+### Views in the Project Power App
+
+To customize Project Power App views, use the [Power Apps Portal](https://make.powerapps.com). You use a view to customize the display of data from a table (such as the Project table, the main table used in Project for the web). To work with views, you first select a table, then you select the **Views** tab.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab for the Project table in the Project Power app.":::
+
+For more information about Power Apps views, see [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views).
+
+### Forms in the Project Power App
+
+When users open a project in Project for the web, the browser displays the default Main form&mdash;the *Information* form in Project for the web, unless you select a different default for your environment. All projects created in Project for the web in the same environment display the same Main form.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-03.png" alt-text="The Information form of a project opened in Project for the web.":::
 
@@ -62,7 +94,9 @@ When you open the Project Power App in an environment, you can set a different d
   
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04-closeup.png" alt-text="The Information form of the Project Power App." lightbox="media/move-to-project-for-the-web-from-project-web-app-04.png":::
 
-## Logical flow of projects
+For more information about Power Apps forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
+
+## Logic components
 
 Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate.
 
@@ -76,7 +110,7 @@ Project for the web projects use Power Automate flows. You create these flows on
 1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
 1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
 
-## Securing access to projects
+## Security
 
 Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions. Project for the web uses Dataverse security based on roles, and can use Dataverse column security to provide more granular control by letting you control who can edit specific fields.
 
@@ -89,6 +123,9 @@ To control user access to projects in Project for the web, you use Power Platfor
 1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
 1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
+## Visualizations
+
 ## Next steps
 
 - If you’re looking for portfolio management, consider deploying the free, [Project for the Web Accelerator solution](https://aka.ms/projaccelerator) in any environment that has Project for the web.
+- To learn more about Power App development, see [Understand model-driven app components](/powerapps/maker/model-driven-apps/model-driven-app-components).
