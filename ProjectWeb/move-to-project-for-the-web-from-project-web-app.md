@@ -48,8 +48,9 @@ For Project Web App projects, you control and customize data presentation with P
 
 ### Views and forms in Project for the web
 
-For projects in Project for the web, you use the Power Apps Portal to edit the Project Power App
-:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
+For projects in Project for the web, you use the [Power Apps Portal](https://make.powerapps.com) to edit the Project Power App.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab in the Project Power app.":::
 
 ### The Information form: the default Main form of the Project Power App
 
