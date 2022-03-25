@@ -63,6 +63,18 @@ When you open the Project Power App in an environment, you can set a different d
 
 ## Logical flow of projects
 
+Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate.
+
+### Control logical flow of projects using Power Automate
+
+Project for the web projects use Power Automate flows. You create these flows on the Power Apps portal. It's a good idea to follow a design and deploy process with the following broad steps.
+
+1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
+1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
+1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
+1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
+1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
+
 ## Securing access to projects
 
 Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions. Project for the web uses Dataverse security based on roles, and can use Dataverse column security to provide more granular control by letting you control who can edit specific fields.
