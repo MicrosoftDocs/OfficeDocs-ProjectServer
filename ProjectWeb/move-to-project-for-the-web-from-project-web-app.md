@@ -27,13 +27,13 @@ Project for the web offers some substantial benefits over Project Web App, but i
 
 The following table summarizes the differences between Project Web App and Project for the web. The exact functionality of each depends on your plan and subscription. For a full comparison of all available Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
-| Functionality | In Project Web App | In Project for the web | Comparison |
+| Functionality | In Project Web App | In Project for the web |
 | :-- | :-- | :-- | :-- |
-|[Data components](#data-components) | SharePoint | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |   |
-|[UI components](#ui-components) | Project Detail Pages | Views and Forms |  |
-|[Logic components](#logic-components) | SharePoint workflows | Power Automate | [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows) |
-|[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) | See section below, [security](#security) |
-|[Visualizations](#visualizations) | [Various options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Charts, Dashboards, and Power BI](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |  |
+|[Data components](#data-components) | SharePoint | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |
+|[UI components](#ui-components) | Project Detail Pages | Views and Forms |
+|[Logic components](#logic-components) | SharePoint workflows | Power Automate |
+|[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
+|[Visualizations](#visualizations) | [Various options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Charts, Dashboards, and Power BI](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
 
 ## Data components
 
@@ -98,7 +98,7 @@ For more information about Power Apps forms, see [Create and design model-driven
 
 ## Logic components
 
-Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate.
+Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate. For a comparison, see [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows).
 
 ### Control logical flow of projects using Power Automate
 
