@@ -59,7 +59,7 @@ When you open a project in Project for the web, the browser displays the Main fo
 
 When you open the Project Power App in an environment, you can set a different default Main form, and you can also edit forms. Both changes affect all projects in that environment, providing centralized control over the functionality of projects.
   
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04.png" alt-text="The Information form of the Project Power App.":::
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04-closeup.png" alt-text="The Information form of the Project Power App." lightbox="media/move-to-project-for-the-web-from-project-web-app-04.png":::
 
 ## Logical flow of projects
 
