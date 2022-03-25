@@ -28,7 +28,7 @@ Project for the web offers some substantial benefits over Project Web App, but i
 The following table summarizes the differences between Project Web App and Project for the web. The exact functionality of each depends on your plan and subscription. For a full comparison of all available Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
 | Functionality | In Project Web App | In Project for the web |
-| :-- | :-- | :-- | :-- |
+| :-- | :-- | :-- |
 |[Data components](#data-components) | SharePoint | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |
 |[UI components](#ui-components) | Project Detail Pages | Views and Forms |
 |[Logic components](#logic-components) | SharePoint workflows | Power Automate |
