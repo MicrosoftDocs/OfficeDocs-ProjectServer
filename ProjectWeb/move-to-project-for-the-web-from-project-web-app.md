@@ -19,6 +19,7 @@ Project for the web is the interface for projects that are based on the Project 
 
 - Ensure you have [appropriate licenses](/power-platform/admin/powerapps-flow-licensing-faq).
 - Understand [the basics of the Power Apps portal](/learn/paths/get-started-power-apps-portals).
+- See the [FAQ about supporting projects in Project Web App and Project for the web](https://support.microsoft.com/office/project-for-the-web-and-project-online-6569170c-5c8e-474e-a7f0-642872f62f8a).
 
 ## Differences between Project Web App and Project for the web
 
@@ -26,12 +27,12 @@ Project for the web offers some substantial benefits over Project Web App, but i
 
 The following table summarizes the differences between Project Web App and Project for the web. The exact functionality of each depends on your plan and subscription. For a full comparison of all available Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
-| Functionality | In Project Web App | In Project for the web | Links to more information |
+| Functionality | In Project Web App | In Project for the web | Comparison |
 | :-- | :-- | :-- | :-- |
-| [Storing project data](#storing-project-data) | SharePoint | Dataverse |  |
-| [Project data presentation](#project-data-presentation) | Project Detail Pages | Views and Forms |  |
-| [Logical flow of projects](#logical-flow-of-projects) | SharePoint workflows | Power Automate |  |
-| [Securing access to project](#securing-access-to-projects) |  | [Security roles](project-for-the-web-security-roles.md) |  |
+| [Storing project data](#storing-project-data) | SharePoint | Dataverse | [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap)  |
+| [Project data presentation](#project-data-presentation) | Project Detail Pages | Views and Forms | [Edit project details in Project Online](https://support.microsoft.com/office/edit-project-details-in-project-online-9ea8d54f-d46e-4de7-a503-93095d83095d) / [Customizing the Project Power App](/project-for-the-web/faq#customization) |
+| [Logical flow of projects](#logical-flow-of-projects) | SharePoint workflows | Power Automate | [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows) |
+| [Securing access to projects](#securing-access-to-projects) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) | See section below, [securing access to project](#securing-access-to-projects) |
 
 ## Storing project data
 
@@ -64,14 +65,16 @@ When you open the Project Power App in an environment, you can set a different d
 
 ## Securing access to projects
 
+Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions. Project for the web uses Dataverse security based on roles, and can use Dataverse column security to provide more granular control by letting you control who can edit specific fields.
+
 ### Set up security roles in Project for the web
 
 To control user access to projects in Project for the web, you use Power Platform security roles. This lets you allow some users to work with existing projects, some to create new projects, and some to make design changes to the Project Power App.
 
 1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
-1. If needed, you can [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
+1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
 1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
-(/power-platform/admin/set-up-security-permissions-field).
+1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Next steps
 
