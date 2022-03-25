@@ -78,4 +78,4 @@ To control user access to projects in Project for the web, you use Power Platfor
 
 ## Next steps
 
-- If you’re looking for portfolio management, consider deploying the free, [Project for the Web Accelerator solution](https://aka.ms/projaccelerator) in any environment with Project for the web in it.
+- If you’re looking for portfolio management, consider deploying the free, [Project for the Web Accelerator solution](https://aka.ms/projaccelerator) in any environment that has Project for the web.
