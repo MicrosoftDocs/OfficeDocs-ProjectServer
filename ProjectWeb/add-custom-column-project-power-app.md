@@ -99,9 +99,9 @@ After you add a custom column to the Project Power App, you should add it the *I
 
 1. On the command bar, select **+ Form field**.
 
-   :::image type="content" source="media/add-custom-column-project-power-app-11.png" alt-text="When you select + Form field, the Table columns pane opens. By default, unused columns appear in the Table columns pane.":::
+   :::image type="content" source="media/add-custom-column-project-power-app-11.png" alt-text="When you select + Form field, the Table columns pane opens. By default, only unused columns appear in the Table columns pane.":::
 
-1. Drag the new field from the **Table columns** pane onto the form. If you want it in a specific place, drop it there&mdash;otherwise it appears in the **General** section.
+1. Because you haven't added the column to a form yet, it's listed in the **Table columns** pane. Drag it from the pane onto the form to add it as a field in the **General** section. If you want it in a specific place, drop it where you want it to appear. You can adjust the size and position of the new filed as needed.
 
    :::image type="content" source="media/add-custom-column-project-power-app-12.png" alt-text="When you drag a field onto a form, it’s added to the General section unless you drop it somewhere else.":::
 
