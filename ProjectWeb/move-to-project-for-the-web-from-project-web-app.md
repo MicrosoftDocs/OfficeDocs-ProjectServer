@@ -27,11 +27,11 @@ Project for the web offers some substantial benefits over Project Web App, but i
 
 The following table summarizes the differences between Project Web App and Project for the web. The exact functionality of each depends on your plan and subscription. For a full comparison of all available Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
-| Functionality | In Project Web App | In Project for the web |
+| Component (links to sections, below) | In Project Web App | In Project for the web |
 | :-- | :-- | :-- |
-|[Data components](#data-components) | SharePoint | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |
-|[UI components](#ui-components) | Project Detail Pages | Views and Forms |
-|[Logic components](#logic-components) | SharePoint workflows | Power Automate |
+|[Data](#data-components) | SharePoint lists | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |
+|[UI](#ui-components) | Project Detail Pages | Views and Forms |
+|[Logic](#logic-components) | SharePoint workflows | Power Automate |
 |[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
 |[Visualizations](#visualizations) | [Various options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Charts, Dashboards, and Power BI](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
 
@@ -67,8 +67,26 @@ The Project Power App stores data in your environment's Dataverse, in three clas
    | *Project Parameter* |  |  |
    | *User* |  |  |
 
-1. Project Accelerator tables
-1. System tables
+1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. The Risks and Issues tables are part of the same scenario and shouldn't be changed separately. Other scenario components rely on these tables, such as Power Automate flows.
+
+   | Table name | Scenario it supports |
+   | :-- | :-- |
+   | *Project Requests* | Create a list of ideas for Projects that include a business case and expected impact. The included Power Automate flow will create projects whenever the state of requests is set to Approved. |
+   | *Programs*  | Create a hierarchy of programs and projects to see how work fits into the bigger picture. |
+   | *Risks*  | Manage the surprises that accompany every project. Create and assign risks to minimize impacts to a project's schedule. Works in conjunction with the Issues table. |
+   | *Issues*  | Manage the surprises that accompany every project. Create and assign issues to minimize impacts to a project's schedule. Works in conjunction with the Risks table. |
+   | *Changes*  | Use change tracking processes to help understand the history of a project. |
+   | *Status Report* | Centralize recording of project status to keep stakeholders up-to-date. |
+
+1. System tables provide the basic framework of the Project Power App. Some can be safely customized, some can't.
+
+   | Table name | What it stores | Safe to change |
+   | :-- | :-- | :-- |
+   | *Document Header* |  | Yes |
+   | *Document Section*  |  | Yes |
+   | *Long Running Job Status*  |  | No |
+   | *OperationSet* |  | No |
+   | *OperationSet Detail*  |  | No |
 
 ## UI components
 
