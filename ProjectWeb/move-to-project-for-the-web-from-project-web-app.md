@@ -49,7 +49,7 @@ The Project Power App stores data in your environment's Dataverse, in three clas
 
   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
 
-1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes.  Other scenario components rely on these tables, such as Power Automate flows.
+1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. Other scenario components rely on these tables, such as Power Automate flows.
 
    > [!NOTE]
    > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
@@ -61,7 +61,7 @@ The Project Power App stores data in your environment's Dataverse, in three clas
    - *Changes*
    - *Status Report*
 
-1. System tables provide the basic framework of the Project Power App. Some can be safely customized, some can't.
+1. System tables provide the basic framework of the Project Power App. Don't try to change these if you're not a Power Platform expert.
 
    - *Document Header*
    - *Document Section*
@@ -133,6 +133,10 @@ Project for the web includes built-in visualizations that you can customize. You
   > [!TIP]
   > For an overview of visualizations in model-driven Power Apps, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
 
+To create and customize visualizations for Project for the web, you add or modify them in the Project Power App. As with other components, visualizations you work on using the Project Power App affect all projects using Project for the web in your environment.
+
+#### Use charts to summarize data
+
 Charts show summary column data for a table. For example, the *Project* table comes with the *Project by Estimated Vs Actual hours* chart that summarizes data from the *Effort (hours)* and *Effort Completed (hours)*.
 
 In Project for the web, when you select **Projects** in the navigation pane, you can select **Show Charts** on the command bar to display charts that summarize projects.
@@ -152,11 +156,18 @@ A new browser tab opens where you can work on charts that summarize the table's 
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The chart design surface for Power Apps.":::
 
-For steps to work on charts, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
+For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
-Dashboards show status for projects using charts and reports. Interactive dashboards also include charts and reports, and add filtering, sorting, and other interactions.
+#### Create and customize dashboards
 
-Power BI templates support arbitrary reporting. You can embed Power BI reports in dashboards.
+Dashboards contain other visualizations to present a bigger picture. Project Power App supports two kinds of dashboards:
+
+- Standard dashboards contain other components such as charts or lists. For help working with standard dashboards, see [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards).
+- Interactive dashboards let users to act on a particular row directly from the dashboard. For help working with interactive dashboards, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards)
+
+#### Work with Power BI visualizations
+
+Power BI [supports several kinds of visualizations](/power-bi/visuals/power-bi-report-visualizations). You can embed Power BI reports in dashboards.
 
 ## Next steps
 
