@@ -71,7 +71,7 @@ The Project Power App stores data in your environment's Dataverse, in three clas
 
 ## UI components
 
-Both Project Web App and Project for the web provide a UI for data entry using instances of project templates that you customize. Both UIs use a web browser. But the specifics are different. For a comparison of the design experiences, see [Edit project details in Project Online](https://support.microsoft.com/office/edit-project-details-in-project-online-9ea8d54f-d46e-4de7-a503-93095d83095d) and [Customizing the Project Power App](/project-for-the-web/faq#customization).
+Both Project Web App and Project for the web provide a UI for data entry using instances of project templates that you customize. Both UIs use a web browser, but differ in the details. For a comparison of the design experiences, see [Edit project details in Project Online](https://support.microsoft.com/office/edit-project-details-in-project-online-9ea8d54f-d46e-4de7-a503-93095d83095d) and [Customizing the Project Power App](/project-for-the-web/faq#customization).
 
 To customize the Project for the web UI, you modify or create views and forms in the Project Power App. Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters. Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects.
 
@@ -123,6 +123,7 @@ To control user access to projects in Project for the web, you use Power Platfor
 1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Visualizations
+
 
 ## Next steps
 
