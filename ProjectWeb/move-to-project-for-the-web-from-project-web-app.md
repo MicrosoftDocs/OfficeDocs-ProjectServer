@@ -128,12 +128,35 @@ Stakeholders need a way to check the status and results of projects. Project Web
 
 ### Customize charts, dashboards, and Power BI reports for Project for the web
 
-Project for the web includes built-in visualizations that you can customize. You can also create new visualizations for your environment. For an overview, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
+Project for the web includes built-in visualizations that you can customize. You can also create new visualizations.
 
-- Charts show progress for a specific subject.
-- Dashboards show status for a project via predefined charts and reports.
-- Interactive dashboards also include charts and reports, and add filtering, sorting, and other interactions.
-- Power BI templates support arbitrary reporting. You can embed Power BI reports in dashboards.
+  > [!TIP]
+  > For an overview of visualizations in model-driven Power Apps, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
+
+Charts show summary column data for a table. For example, the *Project* table comes with the *Project by Estimated Vs Actual hours* chart that summarizes data from the *Effort (hours)* and *Effort Completed (hours)*.
+
+In Project for the web, when you select **Projects** in the navigation pane, you can select **Show Charts** on the command bar to display charts that summarize projects.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-07.png" alt-text="Use the controls above the chart to change the view (which projects to list), and to select a chart.  To choose which project the chart summarizes, select the table name in the list.":::
+
+   1. Use the controls above the chart to change the view (which projects to list), and to select a chart.
+   1. To expand the chart, select the vertical dots next to the chart title.
+   1. To choose which project the chart summarizes, select the table name in the list.
+
+To create or customize a chart, open the Power App portal, select the table you want to summarize, then select the Charts area, and then do one of the following:
+
+- To create a new chart based on the table, on the command bar select **Add chart**.
+- To customize an existing chart, select the name of the chart.
+
+A new browser tab opens where you can work on charts that summarize the table's data. For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The chart design surface for Power Apps.":::
+
+For steps to work on charts, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
+
+Dashboards show status for projects using charts and reports. Interactive dashboards also include charts and reports, and add filtering, sorting, and other interactions.
+
+Power BI templates support arbitrary reporting. You can embed Power BI reports in dashboards.
 
 ## Next steps
 
