@@ -45,20 +45,23 @@ The Project Power App stores data in your environment's Dataverse, in three clas
 
 1. Core scenario tables hold data used for projects in Project for the web. You can modify these tables if needed to support special functionality in your environment, with some caveats. For example, you can [add a custom column](add-custom-column-project-power-app.md) to make it available to all projects in your environment.
 
+   > [!NOTE]
+   > Customizing or deleting existing columns is not recommended, especially after your organization is using Project for the web to create projects.
+
    | Table name | What it stores | Caveats |
    | :-- | :-- | :-- |
-   | *Project* | Summary project information. | None. |
-   | *Task* | Tasks that can be assigned. | Modification not recommended. Changes won't display correctly in Project for the web. |
-   | *Bookable Resource* |  |  |
-   | *Project Team* |  |  |
+   | *Project* | Summary project information. | You can safely add columns. |
+   | *Task* | A piece of work for a project. | Customization not recommended. Changes won't display correctly in Project for the web. |
+   | *Bookable Resource* | Resources that users can book for working on tasks. | Plan any customization carefully&mdash;this table is the parent in relationships to other tables. |
+   | *Project Team* | The users assigned to a project. | You can safely add columns. |
    | *Bucket* |  |  |
-   | *Task Assignment* |  |  |
+   | *Task Assignment* | Which user owns a task. | You can safely add columns. |
    | *Checklist* |  |  |
    | *Label* |  |  |
-   | *Task Attachment* |  |  |
-   | *Task Conversation* |  |  |
+   | *Task Attachment* |  | You can safely add columns. |
+   | *Task Conversation* |  | You can safely add columns. |
    | *Work template* |  |  |
-   | *Task Dependency* |  |  |
+   | *Task Dependency* |  | Customization not recommended. |
    | *Resource Requirement* |  |  |
    | *Resource Requirement Detail* |  |  |
    | *Role Competency requirement* |  |  |
