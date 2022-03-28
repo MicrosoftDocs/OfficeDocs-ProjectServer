@@ -99,9 +99,9 @@ For more information about Power Apps forms, see [Create and design model-driven
 
 Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate. For a comparison, see [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows).
 
-### Control logical flow of projects using Power Automate
+### Control the logical flow of projects using Power Automate
 
-Project for the web projects use Power Automate flows. You create these flows on the Power Apps portal. It's a good idea to follow a design and deploy process with the following broad steps.
+Power Automate provides logical flows for projects in  Project for the web. You create Power Automate flows on the Power Apps portal, using the following design and deploy process.
 
 1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
 1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
@@ -113,7 +113,7 @@ Project for the web projects use Power Automate flows. You create these flows on
 
 Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions. Project for the web uses Dataverse security based on roles, and can use Dataverse column security to provide more granular control by letting you control who can edit specific fields.
 
-### Set up security roles in Project for the web
+### Set up security roles for Project for the web
 
 To control user access to projects in Project for the web, you use Power Platform security roles. This lets you allow some users to work with existing projects, some to create new projects, and some to make design changes to the Project Power App.
 
@@ -124,8 +124,18 @@ To control user access to projects in Project for the web, you use Power Platfor
 
 ## Visualizations
 
+Stakeholders need a way to check the status and results of projects. Project Web App comes with some built-in reports, and you can create your own visualizations using SharePoint, Excel, and Power BI (depending on which plan and subscriptions you have). Project for the web uses the Power Platform visualization components: charts, dashboards, interactive dashboards, and embedded Power BI reports.
+
+### Customize charts, dashboards, and Power BI reports for Project for the web
+
+Project for the web includes built-in visualizations that you can customize. You can also create new visualizations for your environment. For an overview, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
+
+- Charts show progress for a specific subject.
+- Dashboards show status for a project via predefined charts and reports.
+- Interactive dashboards also include charts and reports, and add filtering, sorting, and other interactions.
+- Power BI templates support arbitrary reporting. You can embed Power BI reports in dashboards.
 
 ## Next steps
 
-- If you’re looking for portfolio management, consider deploying the free, [Project for the Web Accelerator solution](https://aka.ms/projaccelerator) in any environment that has Project for the web.
+- If you’re looking for portfolio management, consider deploying the free [Project for the Web Accelerator solution](https://aka.ms/projaccelerator) in any environment that has Project for the web.
 - To learn more about Power App development, see [Understand model-driven app components](/powerapps/maker/model-driven-apps/model-driven-app-components).
