@@ -43,60 +43,31 @@ Project data for Project Web App is stored in SharePoint lists. Project for the 
 
 The Project Power App stores data in your environment's Dataverse, in three classes of tables.
 
-> [!TIP]
-> To review these tables, search for tables on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
-> :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
+1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment.
 
-1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment. See the following table for specific advice. 
+   To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
-   > [!NOTE]
-   > Customizing or deleting existing columns is not recommended, especially after your organization is using Project for the web to create projects.
-
-   | Table name | What it stores | Caveats |
-   | :-- | :-- | :-- |
-   | *Project* | Summary project information. | You can safely add columns. |
-   | *Task* | A piece of work for a project. | Customization not recommended. Changes won't display correctly in Project for the web. |
-   | *Bookable Resource* | Resources that users can book for working on tasks. | Plan any customization carefully&mdash;this table is the parent in relationships to other tables. |
-   | *Project Team* | The users assigned to a project. | You can safely add columns. |
-   | *Bucket* |  |  |
-   | *Task Assignment* | Which user owns a task. | You can safely add columns. |
-   | *Checklist* |  |  |
-   | *Label* |  |  |
-   | *Task Attachment* |  | You can safely add columns. |
-   | *Task Conversation* |  | You can safely add columns. |
-   | *Work template* |  |  |
-   | *Task Dependency* |  | Customization not recommended. |
-   | *Resource Requirement* |  |  |
-   | *Resource Requirement Detail* |  |  |
-   | *Role Competency requirement* |  |  |
-   | *Requirement Resource Category* |  |  |
-   | *Project Import Staging* |  |  |
-   | *Project Parameter* |  |  |
-   | *User* |  |  |
+  :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
 
 1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes.  Other scenario components rely on these tables, such as Power Automate flows.
 
    > [!NOTE]
    > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
 
-   | Table name | Scenario it supports |
-   | :-- | :-- |
-   | *Project Requests* | Create a list of ideas for Projects that include a business case and expected impact. The included Power Automate flow will create projects whenever the state of requests is set to Approved. |
-   | *Programs*  | Create a hierarchy of programs and projects to see how work fits into the bigger picture. |
-   | *Risks*  | Manage the surprises that accompany every project. Create and assign risks to minimize impacts to a project's schedule. Works in conjunction with the Issues table. |
-   | *Issues*  | Manage the surprises that accompany every project. Create and assign issues to minimize impacts to a project's schedule. Works in conjunction with the Risks table. |
-   | *Changes*  | Use change tracking processes to help understand the history of a project. |
-   | *Status Report* | Centralize recording of project status to keep stakeholders up-to-date. |
+   - *Project Requests*
+   - *Programs*
+   - *Risks*
+   - *Issues*
+   - *Changes*
+   - *Status Report*
 
 1. System tables provide the basic framework of the Project Power App. Some can be safely customized, some can't.
 
-   | Table name | What it stores | Safe to change |
-   | :-- | :-- | :-- |
-   | *Document Header* |  | Yes |
-   | *Document Section*  |  | Yes |
-   | *Long Running Job Status*  |  | No |
-   | *OperationSet* |  | No |
-   | *OperationSet Detail*  |  | No |
+   - *Document Header*
+   - *Document Section*
+   - *Long Running Job Status*
+   - *OperationSet*
+   - *OperationSet Detail*
 
 ## UI components
 
