@@ -43,7 +43,11 @@ Project data for Project Web App is stored in SharePoint lists. Project for the 
 
 The Project Power App stores data in your environment's Dataverse, in three classes of tables.
 
-1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment. See the following table for specific advice.
+> [!TIP]
+> To review these tables, search for tables on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
+> :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
+
+1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment. See the following table for specific advice. 
 
    > [!NOTE]
    > Customizing or deleting existing columns is not recommended, especially after your organization is using Project for the web to create projects.
