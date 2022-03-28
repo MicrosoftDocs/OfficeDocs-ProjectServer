@@ -43,7 +43,7 @@ Project data for Project Web App is stored in SharePoint lists. Project for the 
 
 The Project Power App stores data in your environment's Dataverse, in three classes of tables.
 
-1. Core scenario tables hold data used for projects in Project for the web. You can modify these tables if needed to support special functionality in your environment, with some caveats. For example, you can [add a custom column](add-custom-column-project-power-app.md) to make it available to all projects in your environment.
+1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment. See the following table for specific advice.
 
    > [!NOTE]
    > Customizing or deleting existing columns is not recommended, especially after your organization is using Project for the web to create projects.
@@ -70,7 +70,10 @@ The Project Power App stores data in your environment's Dataverse, in three clas
    | *Project Parameter* |  |  |
    | *User* |  |  |
 
-1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. The Risks and Issues tables are part of the same scenario and shouldn't be changed separately. Other scenario components rely on these tables, such as Power Automate flows.
+1. Project Accelerator tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes.  Other scenario components rely on these tables, such as Power Automate flows.
+
+   > [!NOTE]
+   > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
 
    | Table name | Scenario it supports |
    | :-- | :-- |
