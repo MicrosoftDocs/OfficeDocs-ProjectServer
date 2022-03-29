@@ -151,8 +151,10 @@ Project for the web includes built-in visualizations that you can customize. You
 
 To create and customize charts and dashboards for Project for the web, you add or modify them in the Project Power App. To customize reports, you work in [Power BI](/powerapps/maker/model-driven-apps/use-power-bi). As with other components, visualizations you create or customize in the Project Power App affect all projects using Project for the web in your environment.
 
+To use Power BI reports on Project for the web data, you need to be a licensed user of Power BI Desktop or Power BI Pro. See [Power BI Pricing](https://powerbi.microsoft.com/en-us/pricing/) for more information.
+
 > [!NOTE]
-> To use Power BI reports on Project for the web data, you need to be a licensed user of Power BI Desktop or Power BI Pro. See [Power BI Pricing](https://powerbi.microsoft.com/en-us/pricing/) for more information.
+> 
 
 #### Use charts to summarize data
 
@@ -183,13 +185,13 @@ For help customizing charts in the Project Power App, see [Create a new chart](/
 
 #### Create a dashboard in the Project Power App
 
-Dashboards contain other components to help you provide a role-specific interface. For example, you might create one dashboard for project users and another one for organization managers. Project for the web doesn't have any pre-built dashboards, but you can create them for your environment in the Project Power App.
+Dashboards contain other components to help you provide a role-specific interface. For example, you might create one dashboard for project users and another one for organization managers. Project for the web doesn't have any pre-built dashboards, but you can create them for your environment in the Project Power App. However, the [Project for the web Power App Accelerator](https://aka.ms/projaccelerator) includes a pre-built dashboard that you can use as-is or customize as needed.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Create or customize the components you want to include on your dashboard first. Otherwise, they won't be available when you design your dashboard.
 
 1. Open the Power Apps Portal.
-1. In the navigation pane, select Apps.
+1. In the navigation pane, select **Apps**.
 1. Select the Project Power App, and then on the command bar select **Edit**.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-12.png" alt-text="Select the Project app to edit it.":::
@@ -198,29 +200,29 @@ Dashboards contain other components to help you provide a role-specific interfac
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-13.png" alt-text="Add a dashboard to the Project app using the App Designer.":::
 
-1. Select **Create New**, then select the type of dashboard you want:
+1. Select **Create New**, and then select **Classic Dashboards**.
 
-   - Classic dashboards display visualizations and other components to provide a bigger picture of projects.
-   - Interactive dashboards let users edit data directly in the dashboard. For steps, see [create an interactive dashboard](#create an interactive dashboard).
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-14.png" alt-text="Choose a classic dashboard.":::
+
+   > [!NOTE]
+   > Classic dashboards display visualizations and other components to provide a bigger picture of projects.Interactive dashboards let users edit data directly in the dashboard, and require significant expertise to create. For more information, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards).
 
 1. Choose the layout you want and then select **Create**.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-15.png" alt-text="Choosing a layout for a Classic Dashboard.":::
 
-1. Enter a value for **Name**, then add components by selecting the icons in each tile.
+1. The new dashboard opens in a new window. Enter a value for **Name**, then add components by selecting the icons in each tile.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-16.png" alt-text="Add components to a Classic dashboards":::
 
-1. Make any other changes you want, and then on the ribbon select **Save**.
-
-#### Create an interactive dashboard
+1. Make any other changes you want. Then on the ribbon select **Save** and then **Close**.
 
 #### Create and customize reports
 
 > [!TIP]
-> Project for the web users can [use Excel to create reports for their projects](https://support.microsoft.com/office/create-a-project-report-6e74dc79-0e2d-480b-b600-3a466bf289a3##ID0EBBD=Web). However, these reports are produced as Excel files, and aren't available as visualizations inside Project for the web.
+> The [Project for the web Power App Accelerator](https://aka.ms/projaccelerator) includes reports that use the Power BI Service.
 
-You can use Power BI Desktop to [create reports using your Project for the web data](https://support.microsoft.com/en-us/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a).
+You can use Power BI Desktop to [create reports using your Project for the web data](https://support.microsoft.com/en-us/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a). 
 
 ## Next steps
 
