@@ -158,12 +158,12 @@ A new browser tab opens where you can work on charts that summarize the table's 
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
-#### Create and customize dashboards
+#### Create dashboards to present a bigger picture
 
-Dashboards contain other visualizations to present a bigger picture. Project Power App supports two kinds of dashboards:
+Dashboards contain other components to help you provide a role-specific interface. For example, you might create one dashboard for project users and another one for organization managers. Project for the web doesn't have any pre-built dashboards, but you can create them for your environment in the Project Power App.
 
-- Standard dashboards contain other components such as charts or lists. For help working with standard dashboards, see [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards).
-- Interactive dashboards let users to act on a particular row directly from the dashboard. For help working with interactive dashboards, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards)
+- Standard dashboards contain other components such as charts or lists. For help creating standard dashboards, see [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards).
+- Interactive dashboards let users to act on a particular row directly from the dashboard. For help working with interactive dashboards, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards).
 
 #### Work with Power BI visualizations
 
