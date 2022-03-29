@@ -133,7 +133,9 @@ Project for the web includes built-in visualizations that you can customize. You
   > [!TIP]
   > For an overview of visualizations in model-driven Power Apps, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
 
-To create and customize visualizations for Project for the web, you add or modify them in the Project Power App. As with other components, visualizations you work on using the Project Power App affect all projects using Project for the web in your environment.
+To create and customize charts and dashboards for Project for the web, you add or modify them in the Project Power App. As with other components, visualizations you create or customize in the Project Power App affect all projects using Project for the web in your environment.
+
+To customize Power BI reports, you work in Power BI. The Power BI service lets you [quickly create a simple report](/power-bi/create-reports/service-quick-create-report#create-a-quick-report), and supports .
 
 #### Use charts to summarize data
 
@@ -152,9 +154,13 @@ To create or customize a chart, open the Power App portal, select the table you 
 - To create a new chart based on the table, on the command bar select **Add chart**.
 - To customize an existing chart, select the name of the chart.
 
-A new browser tab opens where you can work on charts that summarize the table's data. For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
+A new browser tab opens where you can work on charts that summarize the table's data.
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The chart design surface for Power Apps.":::
+:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-09.png" alt-text="The design surface for a new chart based on the Project table.":::
+
+The types of chart you can create change when you add series (aggregated column data) and categories (horizontal axis labels). For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
+
+:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The existing series only support ":::
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
@@ -162,8 +168,11 @@ For help customizing charts in the Project Power App, see [Create a new chart](/
 
 Dashboards contain other components to help you provide a role-specific interface. For example, you might create one dashboard for project users and another one for organization managers. Project for the web doesn't have any pre-built dashboards, but you can create them for your environment in the Project Power App.
 
-- Standard dashboards contain other components such as charts or lists. For help creating standard dashboards, see [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards).
-- Interactive dashboards let users to act on a particular row directly from the dashboard. For help working with interactive dashboards, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards).
+> [!NOTE]
+> Project for the web doesn't support user-created dashboards.
+
+- Standard dashboards contain other components such as charts or embedded Power BI reports. For steps to create standard dashboards, see [Create a new standard dashboard](/powerapps/maker/model-driven-apps/create-edit-dashboards#create-a-new-standard-dashboard).
+- Interactive dashboards let users edit project data directly from the dashboard. For help working with interactive dashboards, see [Create and configure model-driven app interactive experience dashboards](/powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards).
 
 #### Work with Power BI visualizations
 
