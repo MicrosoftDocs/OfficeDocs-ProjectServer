@@ -39,43 +39,80 @@ The following table provides a comparison between the components of Project Web 
 
 | Component (links to sections, below) | In Project Web App | In Project for the web |
 | :-- | :-- | :-- |
+|[Permissions and security](#permissions-and-security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
 |[Data](#data-components) and [Logic](#logic-components) | SharePoint lists and workflows | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) and Power Automate |
-|[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
 |[UI](#ui-components) and [Visualizations](#visualizations) | Project Detail Pages and [Options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Views, Forms](/powerapps/maker/model-driven-apps/model-driven-app-components#ui-components), [Charts, and Dashboards](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
+
+## Permissions and security
+
+Project Web App uses SharePoint-based permissions by default, but you can configure Project Online permissions separately. The two security models are different, but are based on groups and permissions.
+
+Project for the web uses [Teams Groups](/microsoftteams/office-365-groups) and [policies](/microsoftteams/policy-assignment-overview) to determine who has permissions required for various activities.
+
+The Project Power App lets you use Dataverse security roles to control access to specific tables, and Dataverse column security to restrict access for specific fields.
+
+### Set up Project for the web security
+
+1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
+1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
+1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
+1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
+
+### Add Dataverse security in the Project Power App
+
+1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
+1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
+1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
+1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Data components
 
-Project data for Project Web App is stored in SharePoint lists. Project for the web data is stored in Dataverse tables. While suitable for many scenarios, SharePoint lists do have some limitations compared to Dataverse tables. For a comparison, see [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap).
+Project data for Project Web App is stored in SharePoint lists. Project for the web data is stored in Dataverse tables. For a comparison, see [Handling data for Project](/project-for-the-web/handling-data-for-project-for-the-web-and-roadmap).
 
 ### Dataverse in the Project Power App
 
-The Project Power App stores data in your environment's Dataverse, in three classes of tables.
+The Project Power App stores data in Dataverse tables for three purposes.
 
-1. Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment.
+- Core scenario tables hold data used for projects in Project for the web. You can modify some of these tables if needed to support special functionality in your environment. For example, you can [add a custom column](add-custom-column-project-power-app.md) to the *Project* table to make it available to all projects in your environment.
 
    To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
-  :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
 
-1. Project Accelerator tables support the [Project for the web Power App Accelerator](https://aka.ms/projaccelerator). These tables only exist if you've deployed the Project Accelerator in your environment. You can customize them to change the implementation of the scenarios the Project Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. Other scenario components rely on these tables, such as Power Automate flows.
+- Project Accelerator tables support the [Project for the web Power App Accelerator](https://aka.ms/projaccelerator). These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. Other scenario components rely on these tables, such as Power Automate flows.
 
    > [!NOTE]
    > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
 
-   - *Project Requests*
-   - *Programs*
-   - *Risks*
-   - *Issues*
-   - *Changes*
-   - *Status Report*
+  - *Project Requests*
+  - *Programs*
+  - *Risks*
+  - *Issues*
+  - *Changes*
+  - *Status Report*
 
-1. System tables provide the basic framework of the Project Power App. Don't try to change them if you're not a Power Platform expert.
+- System tables provide the basic framework of the Project Power App. Don't try to change them if you're not a Power Platform expert.
 
-   - *Document Header*
-   - *Document Section*
-   - *Long Running Job Status*
-   - *OperationSet*
-   - *OperationSet Detail*
+  - *Document Header*
+  - *Document Section*
+  - *Long Running Job Status*
+  - *OperationSet*
+  - *OperationSet Detail*
+
+## Logic components
+
+Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate. For a comparison, see [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows).
+
+### Control the logical flow of projects using Power Automate
+
+Power Automate provides logical flows for projects in  Project for the web. You create Power Automate flows on the Power Apps portal, using the following design and deploy process.
+
+1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
+1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
+1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
+1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
+1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
+
 
 ## UI components
 
@@ -116,42 +153,6 @@ When you open the Project Power App in an environment, you can set a different d
 
 For more information about Power Apps forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
 
-## Logic components
-
-Project Web App uses SharePoint workflows to control the logical flow of projects. In Project for the web, you use Power Automate. For a comparison, see [Classic SharePoint workflows and Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows).
-
-### Control the logical flow of projects using Power Automate
-
-Power Automate provides logical flows for projects in  Project for the web. You create Power Automate flows on the Power Apps portal, using the following design and deploy process.
-
-1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
-1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
-1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
-1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
-1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
-
-## Security
-
-Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions.
-
-Project for the web uses [Teams Groups](/microsoftteams/office-365-groups) and [policies](/microsoftteams/policy-assignment-overview) to determine which users in your organization can create or work on projects.
-
-The Project Power App lets you use Dataverse security roles to control access to specific tables, and Dataverse column security to restrict access for specific fields.
-
-### Set up Project for the web security
-
-1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
-1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
-1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
-1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
-
-### Add Dataverse security in the Project Power App
-
-1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
-1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
-1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
-1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
-
 ## Visualizations
 
 Stakeholders need a way to check the status and results of projects. Project Web App comes with some built-in reports, and you can create your own visualizations using SharePoint, Excel, and Power BI (depending on your plan and subscriptions). Project for the web uses the Power Platform visualization components: charts and dashboards.
@@ -160,12 +161,7 @@ Stakeholders need a way to check the status and results of projects. Project Web
 
 Project for the web includes built-in visualizations that you can customize. You can also create new visualizations.
 
-To create and customize charts and dashboards for Project for the web, you add or modify them in the Project Power App. To customize reports, you work in [Power BI](/powerapps/maker/model-driven-apps/use-power-bi). As with other components, visualizations you create or customize in the Project Power App affect all projects using Project for the web in your environment.
-
-To use Power BI reports on Project for the web data, you need to be a licensed user of Power BI Desktop or Power BI Pro. See [Power BI Pricing](https://powerbi.microsoft.com/en-us/pricing/) for more information.
-
-> [!NOTE]
-> 
+To create and customize charts and dashboards for Project for the web, you add or modify them in the Project Power App. As with other components, visualizations you create or customize in the Project Power App affect all projects in Project for the web in your environment.
 
 #### Use charts to summarize data
 
@@ -234,6 +230,7 @@ Dashboards contain other components to help you provide a role-specific interfac
 > The [Project for the web Power App Accelerator](https://aka.ms/projaccelerator) includes reports that use the Power BI Service.
 
 You can use Power BI Desktop to [create reports using your Project for the web data](https://support.microsoft.com/en-us/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a). 
+
 
 ## Next steps
 
