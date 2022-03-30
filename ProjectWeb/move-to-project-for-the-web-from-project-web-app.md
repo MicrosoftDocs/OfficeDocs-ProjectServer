@@ -132,11 +132,20 @@ Power Automate provides logical flows for projects in  Project for the web. You 
 
 ## Security
 
-Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions. Project for the web uses Dataverse security based on roles, and Dataverse column security to provide more granular control over who may edit specific fields.
+Project Web App uses SharePoint-based security by default, but you can configure Project Online security separately. The two security models are different, but are based on groups and permissions.
 
-### Set up security roles for Project for the web
+Project for the web uses [Teams Groups](/microsoftteams/office-365-groups) and [policies](/microsoftteams/policy-assignment-overview) to determine which users in your organization can create or work on projects.
 
-To control user access to projects in Project for the web, you use Power Platform security roles. This lets you allow some users to work with existing projects, some to create new projects, and some to make design changes to the Project Power App.
+The Project Power App lets you use Dataverse security roles to control access to specific tables, and Dataverse column security to restrict access for specific fields.
+
+### Set up Project for the web security
+
+1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
+1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
+1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
+1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
+
+### Add Dataverse security in the Project Power App
 
 1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
 1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
@@ -145,14 +154,11 @@ To control user access to projects in Project for the web, you use Power Platfor
 
 ## Visualizations
 
-Stakeholders need a way to check the status and results of projects. Project Web App comes with some built-in reports, and you can create your own visualizations using SharePoint, Excel, and Power BI (depending on your plan and subscriptions). Project for the web uses the Power Platform visualization components: charts, dashboards, interactive dashboards, and embedded Power BI reports.
+Stakeholders need a way to check the status and results of projects. Project Web App comes with some built-in reports, and you can create your own visualizations using SharePoint, Excel, and Power BI (depending on your plan and subscriptions). Project for the web uses the Power Platform visualization components: charts and dashboards.
 
-### Customize charts, dashboards, and reports for Project for the web
+### Customize charts and dashboards in Project for the web
 
 Project for the web includes built-in visualizations that you can customize. You can also create new visualizations.
-
-  > [!TIP]
-  > For an overview of visualizations in model-driven Power Apps, see [Reporting overview for model-driven apps](/powerapps/maker/model-driven-apps/reporting-overview).
 
 To create and customize charts and dashboards for Project for the web, you add or modify them in the Project Power App. To customize reports, you work in [Power BI](/powerapps/maker/model-driven-apps/use-power-bi). As with other components, visualizations you create or customize in the Project Power App affect all projects using Project for the web in your environment.
 
