@@ -1,6 +1,6 @@
 ---
-title: Start using Project for the web while supporting Project Web App
-description: Understand how Project for the web differs from Project Web App. Learn to administer and customize the Project Power App to control projects in Project for the web. Start supporting Project for the web for new projects.
+title: Integrate Project for the web into your project management processes  
+description: Learn how Project for the web differs from Project Web App. Decide which projects can use default Project for the web features, and how to customize the Project Power App to conform Project. Deploy the Project for the web Accelerator and Power BI template to gain .
 author: v-stthomas
 ms.author: v-stthomas
 manager: alexla
@@ -11,32 +11,37 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Start using Project for the web while supporting Project Web App
+# Integrate Project for the web into your project management processes
 
-Project for the web is the interface for projects that are based on the Project Power App. This article explains how projects in Project for the web differ from projects in the Project Web App, and provides links to help you decide which projects will work better in Project for the web.
+Project for the web is the interface for projects based on the Project Power App. The default configuration makes it easy to quickly get started creating projects, assigning tasks, and tracking progress. It uses familiar components available with Microsoft 365 subscriptions, such as Teams and SharePoint. And because it's built on the Power Platform, it uses scalable, secure, components that support application lifecycle management and sophisticated new design and development paradigms.
 
-> [!IMPORTANT]
+If you currently use Project Online, you might find Project for the web somewhat lighter than your current project management processes. Because of its simplicity relative to Project Online, some people will use it to track efforts instead of Planner. Meanwhile, you can customize the Project Power App to support management processes that you've implemented on Project Online. As the Project Power App gains features, you can rely less on Project Online, and your teams will be comfortable using Project for the web to track progress for more of their efforts.
+
+This article compares Project for the web and the Project Web App to help you support Project for the web adoption. It explains how to customize the Project Power App to support processes you've implemented in Project Online, and introduces the Project for the web Accelerator&mdash;a free solution that adds numerous project management scenarios to the Project Power App, saving you time on customizing the Project Power App to help Project for the web meet your business process requirements.
+
+> [!NOTE]
 > To customize Project for the web, you need an account with [the right security role](/powerapps/maker/model-driven-apps/privileges-required-customization#system-administrator-and-system-customizer-security-roles).
 
 ## Prerequisites
 
 - Ensure you have [appropriate licenses](/power-platform/admin/powerapps-flow-licensing-faq).
 - Understand [the basics of the Power Apps portal](/learn/paths/get-started-power-apps-portals).
-- See the [FAQ about supporting projects in Project Web App and Project for the web](https://support.microsoft.com/office/project-for-the-web-and-project-online-6569170c-5c8e-474e-a7f0-642872f62f8a).
 
-## Differences between Project Web App and Project for the web
+## Compare Project Web App and Project for the web
 
-Project for the web offers some substantial benefits over Project Web App, but it doesn't yet offer full feature parity. For a detailed list of project for the web features, see [What is Project for the web?](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+- For a basic comparison of the two products, see the [FAQ about supporting projects in Project Web App and Project for the web](https://support.microsoft.com/office/project-for-the-web-and-project-online-6569170c-5c8e-474e-a7f0-642872f62f8a).
+- For a detailed list of Project for the web features, see [What is Project for the web?](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+- The exact differences between Project Web App and Project for the web depend on your plan and subscription. For a full comparison of all Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
-The following table summarizes the differences between Project Web App and Project for the web. The exact functionality of each depends on your plan and subscription. For a full comparison of all available Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+### Table of architectural differences
+
+The following table provides a comparison between the components of Project Web App and Project for the web.
 
 | Component (links to sections, below) | In Project Web App | In Project for the web |
 | :-- | :-- | :-- |
-|[Data](#data-components) | SharePoint lists | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) |
-|[UI](#ui-components) | Project Detail Pages | Views and Forms |
-|[Logic](#logic-components) | SharePoint workflows | Power Automate |
+|[Data](#data-components) and [Logic](#logic-components) | SharePoint lists ands workflows | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) and Power Automate |
 |[Security](#security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
-|[Visualizations](#visualizations) | [Various options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Charts, Dashboards, and Power BI](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
+|[UI](#ui-components) and [Visualizations](#visualizations) | Project Detail Pages and [Options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Views, Forms](/powerapps/maker/model-driven-apps/model-driven-app-components#ui-components), [Charts, and Dashboards](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
 
 ## Data components
 
