@@ -13,14 +13,17 @@ audience: admin
 
 # Integrate Project for the web into your project management processes
 
-This article compares Project for the web and the Project Web App to help you support Project for the web adoption. It explains how to customize the Project Power App to support processes you've implemented in Project Online, and introduces the Project for the web Accelerator&mdash;a free solution that adds numerous project management scenarios to the Project Power App, saving you time on customizing the Project Power App to help Project for the web meet your business process requirements.
+Project Online and Project Server use key SharePoint features such as web parts, collaborative sites, and SharePoint security groups. If you administer either product, you've spent time customizing them to control access and ensure that projects meet your organization's standards.
 
-> [!NOTE]
-> To customize Project for the web, you need an account with [the right security role](/powerapps/maker/model-driven-apps/privileges-required-customization#system-administrator-and-system-customizer-security-roles).
+Project for the web runs on the Project Power App, using the Microsoft Power Platform: [PowerApps](/powerapps/powerapps-overview), [Power Automate](/power-automate/getting-started), [Power BI](/power-bi/fundamentals/power-bi-overview), and [Dataverse](/powerapps/maker/common-data-service/data-platform-intro). These flexible, scalable components are easy to customize, and enable advanced analytics and reporting for project data. You can even use [AI](/ai-builder/) to help you refine and automate business processes, glean insights from project data, and predict outcomes based on historical examples.
 
-Project for the web is for projects based on the Project Power App. It's easy to quickly get started creating projects, assigning tasks, and tracking progress. It uses familiar components available with Microsoft 365 subscriptions, such as Teams and SharePoint. And it's built on the Power Platform, with scalable, secure components that support [solutions](/power-platform/alm/solution-concepts-alm).
+This article helps you customize the Project Power App to meet the standards that you've implemented in Project Online or Project Server. Like the Project Web App, users access Project for the web from [Project Home](https://project.microsoft.com/). They can begin working on projects in Project for the web, and you can easily introduce customizations via Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
-Project for the web's simplicity relative to Project Online will encourage some people to use it in lieu of Planner. Meanwhile, you can customize the Project Power App to support your management processes, and your teams will become comfortable using Project for the web to track progress for more of their efforts.
+> [!TIP]
+> Want a head start? [Deploy the Project for the web Accelerator and Power BI template](deploy-project-for-web-accelerator-power-bi-template.md), a free solution that adds numerous project management scenarios and visualizations to the Project Power App.
+
+> [!IMPORTANT]
+> To customize the Project Power App, you need an account with [the right security role](/powerapps/maker/model-driven-apps/privileges-required-customization#system-administrator-and-system-customizer-security-roles).
 
 ## Prerequisites
 
@@ -33,11 +36,9 @@ Project for the web's simplicity relative to Project Online will encourage some 
 - For a detailed list of Project for the web features, see [What is Project for the web?](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 - The exact differences between Project Web App and Project for the web depend on your plan and subscription. For a full comparison of all Project plans and subscriptions, see the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
-### Table of architectural differences
+### Architectural differences between Project Web App and Project for the web
 
-The following table provides a comparison between the components of Project Web App and Project for the web.
-
-| Component (links to sections, below) | In Project Web App | In Project for the web |
+| Components | Project Web App | Project for the web |
 | :-- | :-- | :-- |
 |[Permissions and security](#permissions-and-security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
 |[Data](#data-components) and [Logic](#logic-components) | SharePoint lists and workflows | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) and Power Automate |
@@ -57,6 +58,9 @@ The Project Power App lets you use Dataverse security roles to control access to
 1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
 1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
 1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
+
+> [!IMPORTANT]
+> When you customize Project for the web in an environment, 
 
 ### Add Dataverse security in the Project Power App
 
@@ -112,7 +116,6 @@ Power Automate provides logical flows for projects in  Project for the web. You 
 1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
 1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
 1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
-
 
 ## UI components
 
@@ -229,8 +232,7 @@ Dashboards contain other components to help you provide a role-specific interfac
 > [!TIP]
 > The [Project for the web Power App Accelerator](https://aka.ms/projaccelerator) includes reports that use the Power BI Service.
 
-You can use Power BI Desktop to [create reports using your Project for the web data](https://support.microsoft.com/en-us/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a). 
-
+You can use Power BI Desktop to [create reports using your Project for the web data](https://support.microsoft.com/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a).
 
 ## Next steps
 
