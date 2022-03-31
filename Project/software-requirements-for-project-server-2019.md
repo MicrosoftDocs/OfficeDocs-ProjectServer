@@ -69,4 +69,4 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016)
   
-[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-0)
+[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-2016-2019)
