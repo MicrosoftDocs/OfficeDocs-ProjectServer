@@ -138,11 +138,9 @@ For more information about Power Apps forms, see [Create and design model-driven
 
 Stakeholders need a way to check the status and results of projects. Project for the web uses the Power Platform visualization components: charts and dashboards.
 
-### Customize charts and dashboards in Project for the web
-
 Project for the web includes built-in visualizations that you can customize in the Project Power App. You can also create new visualizations. As with other components, visualizations you create or customize in the Project Power App affect all projects in Project for the web in your environment.
 
-#### Use charts to summarize data
+### Use charts to summarize data
 
 Charts show summary column data for a table. For example, the *Project* table comes with the *Project by Estimated Vs Actual hours* chart that summarizes data from the *Effort (hours)* and *Effort Completed (hours)*.
 
@@ -169,14 +167,17 @@ The types of chart you can create change when you add series (aggregated column 
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
-#### Create a dashboard in the Project Power App
+### Create a dashboard in the Project Power App
 
-Dashboards contain other components to help you provide a role-specific interface. For example, you might create one dashboard for project users and another one for organization managers. You can create a dashboard in the Project Power App, and the [Project for the web Power App Accelerator](deploy-project-for-web-accelerator-power-bi-template.md) includes a dashboard that you can use and customize as needed.
+Dashboards contain other components to provide a role-specific big picture. For example, you might create one dashboard for project users that summarizes progress on their projects and another dashboard for organization managers that shows per-project and per-user information.
+
+> [!TIP]
+> The [Project for the web Power App Accelerator](deploy-project-for-web-accelerator-power-bi-template.md) includes a dashboard that you can use and customize as needed.
 
 > [!IMPORTANT]
 > Create or customize the components you want to include on your dashboard first. Otherwise, they won't be available when you design your dashboard.
 
-1. Open the Power Apps Portal.
+1. Open the [Power Apps Portal](https://make.powerapps.com).
 1. In the navigation pane, select **Apps**.
 1. Select the Project Power App, and then on the command bar select **Edit**.
 
