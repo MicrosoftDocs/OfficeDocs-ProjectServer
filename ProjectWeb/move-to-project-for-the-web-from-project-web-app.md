@@ -17,6 +17,10 @@ Project Online and Project Server use key SharePoint features such as web parts,
 
 Project for the web uses the Microsoft Power Platform: [PowerApps](/powerapps/powerapps-overview), [Power Automate](/power-automate/getting-started), [Power BI](/power-bi/fundamentals/power-bi-overview), and [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
+The following diagram shows how the two apps fit into the overall Project architecture.
+
+:::image type="content" source="media/projarchoverview-stet.png" alt-text="Project architecture":::
+
 This article helps you customize the Project Power App to meet the standards that you've implemented in Project Online or Project Server. Like the Project Web App, users access Project for the web from [Project Home](https://project.microsoft.com/). They can begin working on projects in Project for the web, and you can easily introduce customizations via Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
 | Components | Project Web App | Project for the web |
