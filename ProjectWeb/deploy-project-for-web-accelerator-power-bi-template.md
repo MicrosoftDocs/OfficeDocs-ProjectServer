@@ -54,37 +54,53 @@ When deployment succeeds, the Project Power App will look like this:
 
 ## Create a custom solution to add to the Accelerator
 
-Like the Project Power App, the Accelerator is a [managed solution](https://docs.microsoft.com/en-us/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
+Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
 
 To customize the Project Power App after deploying the Accelerator, create a separate solution that contains the customizations and deploy it to the environment where you deployed the Accelerator. Your custom solution is deployable in other environments that have the Project Power App and the Accelerator.
 
-For more information about managed solutions, see [Application lifecycle management (ALM) with Microsoft Power Platform](https://docs.microsoft.com/en-us/power-platform/alm/). For steps to create a custom solution, see [Create a solution](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/create-solution).
+For more information about managed solutions, see [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/). For steps to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
 
 ## Scenario: Project Requests
 
-The Accelerator includes a Project Request table that your teams can use to propose projects, and a Power Automate flow to create a project when a proposal is approved.
-<!-- Resume here. -->
-To get started, create a new Project Request. All requests start of in a _New_ state. 
+The Accelerator includes a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
 
-![Project request in a new state](images/new-state.png)
+> [!NOTE]
+> Be sure the cloud flow is on.
+>
+> :::image type="content" source="media/p4w-accelerator-flow-is-on.png" alt-text="Check the command bar to see whether the flow is turned on":::
 
-To create a project, change the state to _Approved_ and press the _Save_ button to save the record. In a few moments, a new project will appear in the list of projects.
+- To propose a project, create and save a new record in *Project Request*. Note that it's *Request State* is *New*.
 
-### Customizing the flow
+  :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
 
-The flow included with the Accelerator is very simple: it creates a project from a request in an _Approved_ state. This can be customized to support scenarios such as including steps to send a notification to Teams. Customizing the flow starts in the Power Platform makers portal.
+- To approve a proposed project, open the record and change *Request State* to *Approved* and save the record.
 
-1. Open the Project for the Web Accelerator solution in [Power Apps](https://make.powerapps.com)
-1. Look for the _When the request state is updated to Approved_ cloud flow
-![Cloud Flow in the solution](images/cloud-flow-in-solution.png) 
-1. Click on the label to open the flow in flow.microsoft.com
-1. Edit the flow to support the workflows of your team
-1. Save the Flow and close the browser tab
-1. In the Power Apps makers portal, press the _Publish all customizations- button to persist changes to the flow
-![Publish customizations button](images/publish-customizations.png)
+  :::image type="content" source="media/p4w-accelerator-approve-request.png" alt-text="Approve a Project Request to turn it into a Project":::
+
+- In a few moments, the project appears as a new record in *Project*.
+
+  :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
+
+### Customize the flow
+
+The flow included with the Accelerator is very simple: it creates a project from a request where *Request State* is *Approved* state. You can add new actions to the flow, such as sending a notification to Teams.
+
+1. Open the [Power Apps Portal](https://make.powerapps.com).
+1. In the list of solutions, select **Project for the Web Accelerator**.
+1. In the navigation pane, select **Cloud Flows**.
+
+  :::image type="content" source="media/cloud-flow-in-solution.png" alt-text="{alt-text}":::
+
+1. Select **When the request state is updated to Approved** to open it.
+1. Edit the flow to support the workflows of your team.
+1. Save and close the flow.
+1. On the command bar, select **Publish all customizations**.
+
+  :::image type="content" source="media/publish-customizations.png" alt-text="Publish your changes to the flow to make them functional":::
 
 ### Disabling the flow
-The flow can be disabled from within the solution explorer.
+
+You can disable the flow.
 Open the Project for the Web Accelerator solution in [Power Apps](https://make.powerapps.com)
 1. Look for the _When the request state is updated to Approved_ cloud flow 
 1. Press the "..." to open the menu for the flow
