@@ -70,7 +70,7 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
 
-- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. Other scenario components rely on these tables, such as Power Automate flows.
+- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy it on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
 
    > [!NOTE]
    > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
