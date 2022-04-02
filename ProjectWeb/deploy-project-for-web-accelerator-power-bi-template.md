@@ -60,30 +60,11 @@ To customize the Project Power App after deploying the Accelerator, create a sep
 
 For more information about managed solutions, see [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/). For steps to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
 
-## Scenario: Project Requests
+## Example ideas for a solution to layer on top of the Accelerator
 
-The Accelerator includes a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
+### Customize the **When the request state is updated to Approved** cloud flow
 
-> [!NOTE]
-> Be sure the cloud flow is on.
->
-> :::image type="content" source="media/p4w-accelerator-flow-is-on.png" alt-text="Check the command bar to see whether the flow is turned on":::
-
-- To propose a project, create and save a new record in *Project Request*. Note that it's *Request State* is *New*.
-
-  :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
-
-- To approve a proposed project, open the record and change *Request State* to *Approved* and save the record.
-
-  :::image type="content" source="media/p4w-accelerator-approve-request.png" alt-text="Approve a Project Request to turn it into a Project":::
-
-- In a few moments, the project appears as a new record in *Project*.
-
-  :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
-
-### Customize the flow
-
-The flow included with the Accelerator is very simple: it creates a project from a request where *Request State* is *Approved* state. You can add new actions to the flow, such as sending a notification to Teams.
+The cloud flow included with the Project Requests scenario is very simple: it creates a project from a request where *Request State* is *Approved* state. You can add new actions to the flow, such as sending a notification to Teams.
 
 1. Open the [Power Apps Portal](https://make.powerapps.com).
 1. In the list of solutions, select **Project for the Web Accelerator**.
@@ -100,37 +81,32 @@ The flow included with the Accelerator is very simple: it creates a project from
 
 ### Disabling the flow
 
-You can disable the flow.
-Open the Project for the Web Accelerator solution in [Power Apps](https://make.powerapps.com)
-1. Look for the _When the request state is updated to Approved_ cloud flow 
-1. Press the "..." to open the menu for the flow
-1. Select the _Turn Off_ menu option
-1. At the top of the window, press the _Publish all customizations- button to persist changes to the flow
-![Turn off flow](images/disabling-the-flow.png)
+1. Open the [Power Apps Portal](https://make.powerapps.com).
+1. In the navigation pane, select **Solutions**, and then select **Project for the Web Accelerator**.
+1. In the navigation pane, select **Cloud Flows**, and then select **When the request state is updated to Approved**.
+1. Select **...** to open the flow menu, then select **Turn Off**.
+1. On the command bar, select **Publish all customizations**.
 
-## Using the Power BI template
-
-### Prerequisites
-
-- An environment with Project for the web and the Project Accelerator in it.
-- Admin rights to the environment
+  :::image type="content" source="media/disabling-the-flow.png" alt-text="Turn off the flow":::
 
 ## Deploy the Power BI template
 
-1. Download the [Power BI template](https://github.com/OfficeDev/Project-Accelerator/blob/main/releases/Project_for_the_Web_Accelerator_report_v1.1.pbit?raw=true) for the Accelerator.
-2. Deploy it using Power BI Desktop or in the [PowerBI.com service](https://www.powerbi.com).
-3. When prompted for the environment url, use the base url of your environment. For example: `https://myenvironment.crm.dynamics.com`
+> [!NOTE]
+> The Accelerator will work without the Power BI template, but we recommend you deploy the template for the best experience.
+
+1. Download the [Power BI template](/OfficeDev/Project-Accelerator#heres-the-latest-version-of-the-power-bi-template-for-the-accelerator).
+1. [Install the template](/power-bi/connect-data/service-template-apps-install-distribute#install-a-template-app).
+1. When prompted for the environment url, use the base url of your environment. For example: `https://myenvironment.crm.dynamics.com`
 
 When you deploy the report, ensure that your team will have access to it. [Learn more about sharing in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-share-dashboards).
 
 ### Modify the Project Accelerator – Reports menu to use the deployed template or any Power BI report
 
-#### Prerequisites
+> [!IMPORTANT]
+> You must first deploy the Power BI report to PowerBI.com
+> To preserve your ability to upgrade the Accelerator, [create a solution](/powerapps/maker/data-platform/create-solution) to contain your customizations.
 
-1.	Power BI report has been deployed to PowerBI.com
-2.	A customized solution has been created to include the changes. To create a solution please review [Create a solution](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/create-solution).
-
-The Report menu currently points at a web resource file containing HTML with instructions on how to get the Power BI Template with the Accelerator. Since the Accelerator is managed, the web resource cannot be edited. There are two options to have the report bring up the Power BI report:
+The Report menu currently points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the Power BI report:
 
 #### Updating the report menu via Power BI embedded report
 
