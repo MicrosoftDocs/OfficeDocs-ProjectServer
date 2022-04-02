@@ -68,8 +68,6 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
    To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
-
 - *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy it on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
 
    > [!NOTE]
@@ -115,9 +113,6 @@ Create a view to customize the display of data from a single table.
 1. In the view selector on the command bar, select **All**, then search for *Project*.
 1. In the search results, sort **Customizable** by **True then False** to list customizable tables first.
 1. Find the table you want, select its name to open it, and then select the **Views** tab.
-
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab for the Project table in the Project Power app.":::
-
 1. On the command bar, select **+Add view**.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-10.png" alt-text="The Add view command for a single Project Power App table.":::
@@ -130,11 +125,7 @@ For more information about Power Apps views, see [Understand model-driven app vi
 
 When users open a project in Project for the web, the browser displays the default Main form&mdash;the *Information* form in Project for the web, unless you select a different default for your environment. All projects created in Project for the web in the same environment display the same Main form.
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-03.png" alt-text="The Information form of a project opened in Project for the web.":::
-
 When you open the Project Power App in an environment, you can set a different default Main form, and you can also edit forms. Both changes affect all projects in that environment, providing centralized control over the functionality of projects.
-  
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04-closeup.png" alt-text="The Information form of the Project Power App." lightbox="media/move-to-project-for-the-web-from-project-web-app-04.png":::
 
 For more information about Power Apps forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
 
@@ -163,11 +154,9 @@ To create or customize a chart, open the Power App portal, select the table you 
 
 A new browser tab opens where you can work on charts that summarize the table's data.
 
-:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-09.png" alt-text="The design surface for a new chart based on the Project table.":::
+:::image type="content" source="/power-apps/maker/model-driven-apps/media/add-and-customize-visualizations-in-model-driven%20apps/add-and-customize-visualizations-in-model-driven-apps-3.png" alt-text="The design surface for a Power Apps chart.":::
 
 The types of chart you can create change when you add series (aggregated column data) and categories (horizontal axis labels). For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
-
-:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The existing series only support ":::
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
