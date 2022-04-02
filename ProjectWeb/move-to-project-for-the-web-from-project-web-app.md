@@ -154,8 +154,6 @@ To create or customize a chart, open the Power App portal, select the table you 
 
 A new browser tab opens where you can work on charts that summarize the table's data.
 
-:::image type="content" source="/power-apps/maker/model-driven-apps/media/add-and-customize-visualizations-in-model-driven%20apps/add-and-customize-visualizations-in-model-driven-apps-3.png" alt-text="The design surface for a Power Apps chart.":::
-
 The types of chart you can create change when you add series (aggregated column data) and categories (horizontal axis labels). For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
