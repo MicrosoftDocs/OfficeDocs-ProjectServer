@@ -55,7 +55,7 @@ The Accelerator includes a *Project Request* table that your teams can use to pr
 1. Enter a value for **Name**, then provide as much additional information about the request as you can. The person who can approve proposals will use it to decide whether to approve this one.
 1. After you finish adding more data, on the command bar select **Save and Close**.
 
-   :::image type="content" source="media/p4w-accelerator-new-project-request_form.png" alt-text="Project Request with plenty of decision-support data":::
+  :::image type="content" source="media/p4w-accelerator-new-project-request_form.png" alt-text="Project Request with plenty of decision-support data":::
 
 ### Approve a project request
 
@@ -74,11 +74,38 @@ The Accelerator includes a *Project Request* table that your teams can use to pr
 
 ## Scenario: Programs
 
+The Accelerator adds a Program table that enables summary tracking of related projects. This creates a hierarchy so your organization can review ongoing work without opening each project to review the details.
+
+:::image type="content" source="media/p4w-accelerator-programs.png" alt-text="The Active Programs view lists key fields for listed programs. 1, Set the checkmark at the left edge of the row to choose a program. 2, Select the arrow at the right edge to open the program. 3, Or, choose an action on the command bar to apply the action to the selected program.":::
+
+1. Set the checkmark to select a program.
+1. Select the arrow to open the selected program.
+1. Or, use the command bar to choose an action for the selected program.
+
+> [!NOTE]
+> After you create a project, you need to activate it before it starts monitoring the projects it includes.
+
+### Create a program
+
+#### Add stakeholders (project managers, program owners)
+
+#### Add projects to a program
+
+### Refresh program data
+
+### Reporting
+
 ## Scenario: Risks and Issues
+
+The Accelerator adds two columns to the *Project* table for this scenario: *Risks* and *Issues*.
 
 ## Scenario: Changes
 
+The Accelerator adds a *Changes* columns to the *Project* table for this scenario.
+
 ## Scenario: Status
+
+The Accelerator adds a *Status* columns to the *Project* table for this scenario.
 
 ## Next steps
 
