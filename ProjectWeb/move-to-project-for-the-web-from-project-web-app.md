@@ -19,7 +19,7 @@ Project for the web uses the Microsoft Power Platform: [PowerApps](/powerapps/po
 
 The following diagram shows how the two apps fit into the overall Project architecture.
 
-:::image type="content" source="media/projarchoverview-stet.png" alt-text="Project architecture":::
+:::image type="content" source="media/projarchoverview.png" alt-text="Project architecture":::
 
 This article helps you customize the Project Power App to meet the standards that you've implemented in Project Online or Project Server. Like the Project Web App, users access Project for the web from [Project Home](https://project.microsoft.com/). They can begin working on projects in Project for the web, and you can easily introduce customizations via Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
