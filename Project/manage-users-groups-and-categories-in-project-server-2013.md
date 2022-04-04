@@ -33,7 +33,7 @@ For complete lists of Project Web App permissions in Project Server 2013, see [C
 
 The following are the tasks for managing security in Project Server permission mode:
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Manage users in Project Server](manage-users-in-project-server.md) <br/> |Use the Manage Users page in Project Web App to add, modify, deactivate, and reactivate user accounts.  <br/> |
 ||[Manage security groups in Project Server](manage-security-groups-in-project-server.md) <br/> |Administrators can manage security permissions for groups by using the Manage Groups page in Project Web App Settings.  <br/> |

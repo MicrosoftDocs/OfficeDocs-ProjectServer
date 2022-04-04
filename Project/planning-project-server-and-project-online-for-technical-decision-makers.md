@@ -16,9 +16,9 @@ description: "Summary: Learn about the technical planning decisions you have to 
 ---
 
 # Planning Project Server and Project Online for technical decision makers
- 
- **Summary:** Learn about the technical planning decisions you have to make when deploying Project Server or Project Online.<br/>
-**Applies to:** Project Server 2016
+
+**Summary:** Learn about the technical planning decisions you have to make when deploying Project Server or Project Online.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 Project Web App in Project Server 2016 and Project Web App in Project Online are very similar, but there are some key differences that you should think about when deciding whether to use Project Server or Project Online.
   
@@ -82,7 +82,7 @@ Beyond this, you can combine cloud and on-premises BI solutions by copying your 
   
 The following table shows a high-level comparison of how on-premises and online BI services can be used with Project Server and Project Online.
   
-||**Project Server**|**Project Online**|
+|&nbsp;|**Project Server**|**Project Online**|
 |:-----|:-----|:-----|
 |Cloud BI  <br/> |Use Power BI Desktop to write reports by accessing Project Web App data in the content database or using the OData feed. These reports can be shared by publishing them to the cloud.  <br/> |Use Excel to access the Project Online OData feeds. Save reports for your users to your Project Online reporting library.  <br/> Optionally, use Power BI reports and data visualizations.  <br/> |
 |On-premises BI  <br/> |For corporate BI, use SQL Server Reporting Services or PerformancePoint Services to report directly on the reporting data in the content database or online analytical processing (OLAP) cubes. (Requires no more than one instance of Project Web App per content database.)  <br/> For self-service BI, use Excel to access the Project Server OData feeds or OLAP cubes.  <br/> |Use SQL Server Integration Services to [create a data warehouse on-premises or in Microsoft Azure](/previous-versions/office/project-odata/dn720853(v=office.15)). Use SQL Server Reporting Services or PerformancePoint Services to report from that.  <br/> |
@@ -134,7 +134,5 @@ Similarly, lookup tables with large numbers of values can have a noticeable perf
   
 ## See also
 <a name="CustomFields"> </a>
-
-#### 
 
 [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)

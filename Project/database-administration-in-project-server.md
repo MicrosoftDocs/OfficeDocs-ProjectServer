@@ -13,18 +13,15 @@ description: "Summary: Manage your enterprise objects in the Database Administra
 ---
 
 # Database administration in Project Server
- 
- **Summary:** Manage your enterprise objects in the Database Administration section of Project Server Settings.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** Manage your enterprise objects in the Database Administration section of Project Server Settings.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
-||**Content**|**Description**|
+| &nbsp; |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Delete enterprise objects in Project Server](delete-enterprise-objects-in-project-server.md) <br/> |You can delete enterprise objects from Project Web App when they are no longer needed.  <br/> |
-||[Force check-in enterprise objects in Project Server](force-check-in-enterprise-objects-in-project-server.md) <br/> |You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.  <br/> |
+| |[Force check-in enterprise objects in Project Server](force-check-in-enterprise-objects-in-project-server.md) <br/> |You can force the check-in of enterprise projects, resources, custom fields, calendars, lookup tables, and resource plans in Project Web App.  <br/> |
    
 ## See also
 
-#### 
-
 [Use Project Server](use-project-server.md)
-

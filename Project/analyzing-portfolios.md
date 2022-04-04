@@ -13,9 +13,9 @@ description: "Summary: Learn how to create a portfolio analysis using Project We
 ---
 
 # Analyzing portfolios
- 
- **Summary:** Learn how to create a portfolio analysis using Project Web App.<br/>
-**Applies to:** Project Server 2016, Project Server 2013
+
+**Summary:** Learn how to create a portfolio analysis using Project Web App.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016, Project Server 2013
   
 Creating a portfolio analysis is the process of selecting a group of project ideas and, using the business drivers that you have defined, determining which are the best projects to do given your budget.
   
@@ -35,20 +35,20 @@ Before you start, be sure you've [created your business drivers](portfolio-analy
     
 3. Complete the form as follows:
     
-|||
-|:-----|:-----|
-|**Name and Description** <br/> |Type a name and description for this portfolio analysis.  <br/> |
-|**Department** <br/> |Optional. If you select a department, only custom fields and resources for that department will be available for the analysis. If you don't select a department, all fields and resources will be available.  <br/> |
-|**Prioritization Type** <br/> |Choose whether to use business drivers (recommended) or custom fields to prioritize your projects. If you choose business drivers, then choose the prioritization that you want to use from the drop-down list.  <br/> |
-|**Prioritize these projects** <br/> |Click **Select Projects** to choose the projects that you want to include in this portfolio analysis. <br/> |
-|**Analysis Primary Cost Constraint** <br/> |Choose the custom field that you want to use for the project's overall budget.  <br/> |
-|**Time-phased Resource Planning** <br/> |Select this check box if you want to include resource planning in this portfolio analysis. Your projects must include resource assignments for this to work.  <br/> |
-|**Planning Horizon and Granularity** <br/> |Choose the date range for which resource scheduling information will be available for the portfolio analysis.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
-|**Resource role custom field** <br/> |Choose the custom field that defines the resource's role.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
-|**Resource filtering** <br/> |Specify if you want to filter the resources that are available to this portfolio analysis by department or RBS value.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
-|**Resource capacity impact for projects outside the analysis** <br/> |Choose if you want proposed assignments to affect resource availability in this portfolio.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
-|**Project start and finish dates** <br/> |Choose if you want to use the project schedule for project start and finish dates, or custom fields.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
-|**Alias project Force-in and Force-out options** <br/> |Use the options in this section to [Customizing the force in and out options](analyzing-portfolios.md#CustomizeForceInAndOut).  <br/> |
+   |Field | Action|
+   |:-----|:-----|
+   |**Name and Description** <br/> |Type a name and description for this portfolio analysis.  <br/> |
+   |**Department** <br/> |Optional. If you select a department, only custom fields and resources for that department will be available for the analysis. If you don't select a department, all fields and resources will be available.  <br/> |
+   |**Prioritization Type** <br/> |Choose whether to use business drivers (recommended) or custom fields to prioritize your projects. If you choose business drivers, then choose the prioritization that you want to use from the drop-down list.  <br/> |
+   |**Prioritize these projects** <br/> |Click **Select Projects** to choose the projects that you want to include in this portfolio analysis. <br/> |
+   |**Analysis Primary Cost Constraint** <br/> |Choose the custom field that you want to use for the project's overall budget.  <br/> |
+   |**Time-phased Resource Planning** <br/> |Select this check box if you want to include resource planning in this portfolio analysis. Your projects must include resource assignments for this to work.  <br/> |
+   |**Planning Horizon and Granularity** <br/> |Choose the date range for which resource scheduling information will be available for the portfolio analysis.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
+   |**Resource role custom field** <br/> |Choose the custom field that defines the resource's role.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
+   |**Resource filtering** <br/> |Specify if you want to filter the resources that are available to this portfolio analysis by department or RBS value.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
+   |**Resource capacity impact for projects outside the analysis** <br/> |Choose if you want proposed assignments to affect resource availability in this portfolio.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
+   |**Project start and finish dates** <br/> |Choose if you want to use the project schedule for project start and finish dates, or custom fields.  <br/> (This option is only available if you selected **Time-phased Resource Planning**.)  <br/> |
+   |**Alias project Force-in and Force-out options** <br/> |Use the options in this section to [Customizing the force in and out options](analyzing-portfolios.md#CustomizeForceInAndOut).  <br/> |
    
 4. Click **Next: Prioritize Projects**.
     

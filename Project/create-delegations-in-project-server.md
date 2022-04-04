@@ -38,7 +38,5 @@ Creating a new delegation in Project Web App enables one user to work on behalf 
     
 ## See also
 
-#### 
-
 [Turn delegation on or off in Project Server](turn-delegation-on-or-off-in-project-server.md)
 

@@ -81,14 +81,13 @@ Once SharePoint Server 2013 is installed, the next step is to install Project Se
 9. On the warning dialog box, click **Yes**.
 10. On the **Configuration Successful** page, click **Finish**.
  
-    When the SharePoint Products Configuration Wizard finishes, the system will automatically create a PWA site. This may take several minutes. When the site has been created, it can be accessed at https://<servername>/pwa.
+    When the SharePoint Products Configuration Wizard finishes, the system will automatically create a PWA site. This may take several minutes. When the site has been created, it can be accessed at https://\<servername>/pwa.
 
 > [!NOTE]
 > The account that you used to install Project Server is automatically added to the Project Server Administrators group.
 
 ## See also
 
-#### 
 
 [Install SharePoint 2013 on a single server with a built-in database](/SharePoint/install/single-server-with-a-built-in-database)
   

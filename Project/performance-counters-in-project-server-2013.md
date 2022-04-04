@@ -25,8 +25,7 @@ To help you determine when you have to scale up or scale out your Project Server
 - Database servers
     
 - Project Application Server performance counters
-    
-## 
+   
 
 The following table shows performance counters and processes to monitor for Web servers in your Project Server 2013 farm.
   
@@ -84,7 +83,6 @@ The following table shows performance counters and processes to monitor for your
    
 ## See also
 
-#### 
 
 [Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md)
   

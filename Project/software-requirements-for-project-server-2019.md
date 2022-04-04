@@ -31,7 +31,7 @@ Since Project Server 2019 is part of the SharePoint Server 2019  installation, r
   
 Some of the key software requirements for SharePoint Server 2019 are:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Supported Server Operating Systems:**  <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server:**  <br/> | Microsoft SQL Server 2017 RTM for Windows Services<br/> Microsoft SQL Server 2016 with Service Pack 1 <br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019. <br/> |
@@ -45,7 +45,7 @@ Some of the key software requirements for SharePoint Server 2019 are:
 You can connect to Project Server 2019 with not only Project Professional 2019 and the Project Online Desktop Client, but also with Project Professional 2016.
   
  
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2019<br/> |Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/> <br/> |
@@ -64,8 +64,6 @@ SQL Server 2016 Analysis Services must also be installed on your SQL Server 2016
 For charts to render correctly in your browser when using Portfolio Analysis in Project Server 2019, the State Service needs to be running in your SharePoint farm. 
   
 ## See also
-
-#### 
 
 [Deploy Project Servers 2016 or 2019](deploy-project-server-2016.md)
 

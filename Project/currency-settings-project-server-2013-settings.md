@@ -85,7 +85,5 @@ Use the following procedure in Project Professional 2013 to change the currency 
     
 ## See also
 
-#### 
-
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 

@@ -128,6 +128,33 @@ In Project Server Subscription Edition, there are no major features or enhanceme
 |:-----|:-----|
 |**Building cubes** - New software requirement <br/> | Use SQL Server Analysis Services AMO Client - 2019 <br/> |
 
+## Known Issues
+<a name="Issues"> </a>
+
+There is a known issue in the Project Web App in RTM release. Users who aren't site admins can't attach issues, risks, or deliverables to tasks. Use the [SharePoint CSOM RelatedItemManager](/dotnet/api/microsoft.sharepoint.client.relateditemmanager) library as a workaround. The sample snippet below is an example.
+
+```csharp
+// Starting with ClientContext, the constructor requires a URL to the
+// server running SharePoint.
+ClientContext context = new ClientContext("https://{pwa_site_url}");
+
+// Add credentials
+string userName, passWord;
+Console.WriteLine("Please enter your username for PWA");
+userName = Console.ReadLine();
+Console.WriteLine("Please enter your password for PWA");
+passWord = Console.ReadLine();
+context.Credentials = new NetworkCredential(userName, passWord);
+
+// Add RelatedItem Issue/Risk to a task. Add the target item (issue/risk/etc) url to the pwa_connected_site url to create doc url of related item you want to add.
+// For eg : Lists/Issues/1_.000 corresponds to the url for the first issue in Issues list.
+// See <https://docs.microsoft.com/previous-versions/office/sharepoint-server/jj169493(v=office.15)> for AddSingleLinkToUrl method details.
+RelatedItemManager.AddSingleLinkToUrl(context,"Tasks", 1, "<pwa_connected_site_relative_url>/Lists/Issues/1_.000", true);
+
+// Execute the query to the server.
+context.ExecuteQuery();
+```
+
 ## See also
 <a name="PWAChanges"> </a>
 

@@ -113,7 +113,5 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
 ## See also
 
-#### 
-
 [Manage connected SharePoint sites in Project Server 2013](manage-connected-sharepoint-sites-in-project-server-2013.md)
 

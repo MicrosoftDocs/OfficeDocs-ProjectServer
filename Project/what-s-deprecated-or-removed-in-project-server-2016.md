@@ -50,7 +50,7 @@ The My Tasks and associated Exchange Task Sync features have been removed in Sha
 
 The Project class in the PSI is not supported in Project Servers 2016. For all new development, use the [Project Client Side Object Model (CSOM)](/previous-versions/office/project-class/jj236068(v=office.15)).
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcProject** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
@@ -71,7 +71,7 @@ In Project Servers 2016, the following PSI members have been removed:
 > [!NOTE]
 > For more information about the Project Server Interface, see [Project Server 2013 class library and web service reference](/previous-versions/office/project-class/ee767707(v=office.15))
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Microsoft.Office.Project.Server.Library** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
@@ -88,44 +88,44 @@ In Project Servers 2016, the following PSI members have been removed:
 |Security  <br/> |PROPOSAL_APPROVERS_GROUP_UID  <br/> |
 |ViewConstants.ViewType  <br/> |VISION  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Microsoft.Office.Project.Server.WebServiceProxy** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
-|LoginWindows  <br/> |<all>  <br/> |
+|LoginWindows  <br/> |\<all>  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Microsoft.Office.Project.Server.Workflow** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |WorkflowStringIds  <br/> |SEND_EMAIL_PROJECT_COMPLETED_BODY  <br/> STATUS_INITIALIZE_FAILED_INVALID_PROJECT  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcCubeAdmin** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |CubeAdmin  <br/> |SetCubeBuiIdingSettings  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcEvents** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |PSEventID  <br/> |Deprecated8  <br/> Deprecated9  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcPortfolioAnalyses** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |AnalysisDataSet.AnalysisProjectsDataTable  <br/> |AddAnalysisProjectsRow (AnalysisDataSet.AnalysisRow, Guid, String, Double, Double, DateTime, DateTime, DateTime, Int32, DateTime, DateTime, Byte)  <br/> |
 |AnalysisDataSet.AnalysisProjectsRow  <br/> |FNLT  <br/> SNET  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcStatusing** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
 |ProjectDataSet.TaskRow  <br/> |DurationType  <br/> PROJ_OPT_CURRENCY_DIGITS  <br/> PROJ_OPT_CURRENCY_POSITION  <br/> PROJ_OPT_CURRENCY_SYMBOL  <br/> |
    
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**WebSvcTimeSheet** <br/> | |
 | *Type*  <br/> | *Removed members*  <br/> |
@@ -142,7 +142,6 @@ In Project Servers 2016, Project Server Interface (PSI) extension scenarios are 
 ## See also
 <a name="PSIext"> </a>
 
-#### 
 
 
 [New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)

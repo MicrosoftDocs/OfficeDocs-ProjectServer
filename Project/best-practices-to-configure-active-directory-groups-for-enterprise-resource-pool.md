@@ -52,8 +52,6 @@ A benefit of this configuration is that any changes to Active Directory can be m
   
 ## See also
 
-#### 
-
 [Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md)
   
 [Manage security group synchronization with Active Directory in Project Server](manage-security-group-synchronization-with-active-directory-in-project-server.md)

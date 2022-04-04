@@ -17,9 +17,9 @@ description: "Summary: Configure OLAP cube settings by using the OLAP Database M
 ---
 
 # Configure an OLAP cube in Project Server 2016
- 
- **Summary:** Configure OLAP cube settings by using the OLAP Database Management page in Central Administration.<br/>
-**Applies to:** Project Server 2016
+
+**Summary:** Configure OLAP cube settings by using the OLAP Database Management page in Central Administration.<br/>
+**Applies to:** Project Server Subscription Edition, Project Server 2019, Project Server 2016
   
 You can configure OLAP cube dimensions and measures, or you can configure the build settings of a cube.
   
@@ -93,8 +93,6 @@ Perform the following procedure to configure the build settings of an existing O
 7. Click **Save**.
     
 ## See also
-
-#### 
 
 [Create OLAP cubes in Project Server 2016](create-olap-cubes-in-project-server-2016.md)
   

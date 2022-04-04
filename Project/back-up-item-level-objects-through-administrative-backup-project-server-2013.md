@@ -62,8 +62,6 @@ All Project Server 2013 items backed up through the Administrative Backup page c
   
 ## See also
 
-#### 
-
 [Restore item-level objects through Administrative Restore (Project Server 2013)](restore-item-level-objects-through-administrative-restore-project-server-2013.md)
   
 [Daily Schedule Backup (Project Server 2013)](daily-schedule-backup-project-server-2013.md)

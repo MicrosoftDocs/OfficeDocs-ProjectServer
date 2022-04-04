@@ -1,0 +1,2 @@
+> [!TIP]
+> Make all changes to the Project Power App inside of a new solution. This will make it easier to backup and deploy any changes you make. [Learn more about solutions](/power-platform/alm/solution-concepts-alm).

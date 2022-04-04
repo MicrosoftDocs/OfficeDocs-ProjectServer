@@ -62,7 +62,5 @@ In Project Web App, there are user- or group-level permissions that enable you t
     
 ## See also
 
-#### 
-
 [Set up which users and groups can have delegates in Project Server](set-up-which-users-and-groups-can-have-delegates-in-project-server.md)
 

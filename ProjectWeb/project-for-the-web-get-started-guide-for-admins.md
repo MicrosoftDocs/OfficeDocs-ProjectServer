@@ -1,5 +1,5 @@
 ---
-title: "Project for the web get started guide for admins"
+title: "Project for the web get started guide for administrators"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -11,10 +11,10 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
-description: "Resources for admins who want to learn more about managing Project for the web."
+description: "Resources for administrators who want to learn more about managing Project for the web."
 ---
 
-# Project for the web get started guide for admins
+# Project for the web get started guide for administrators
 
 Project for the web is a new service that is now available to Office 365 users.  You can make it available to your users through the following licenses:
 
@@ -24,23 +24,23 @@ Project for the web is a new service that is now available to Office 365 users. 
 
 If your users are currently using Project Online Professional or Project Online Premium licenses, Project for the web is available to them now. 
 
-This article provides admins information to help them better understand and manage the service. 
+This article provides administrators with information to help them better understand and manage the service. 
 
 ## Learn more about Project for the web
 
-The follow can be helpful to you if you are an admin who wants to learn more about Project for the web. It can be especially helpful if your organization currently uses Project Online or the Project Online Desktop Client.
+The follow can be helpful to you if you’re an admin who wants to learn more about Project for the web. It can be especially helpful if your organization currently uses Project Online or the Project Online Desktop Client.
 
-- [What is Project for the web? ](https://go.microsoft.com/fwlink/?linkid=2108301)
-- [What can you do with Project for the web? ](https://go.microsoft.com/fwlink/?linkid=2108303)
+- [What is Project for the web?](https://go.microsoft.com/fwlink/?linkid=2108301)
+- [What can you do with Project for the web?](https://go.microsoft.com/fwlink/?linkid=2108303)
 - [Project for the web and Project Online](https://go.microsoft.com/fwlink/?linkid=2108305)
-- [Project for the web and Project Online desktop client ](https://go.microsoft.com/fwlink/?linkid=2108306)
+- [Project for the web and Project Online desktop client](https://go.microsoft.com/fwlink/?linkid=2108306)
 - [Deploying Project for the web](deploying-project.md)
-- [Customizing Project for the web ](https://go.microsoft.com/fwlink/?linkid=2108401)
-- [Microsoft Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
+- [Customizing Project for the web](https://go.microsoft.com/fwlink/?linkid=2108401)
+- [Microsoft Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
 ## Turn off Project for the web for specific users
 
-If your organization currently uses Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5), users with these licenses will automatically get Project for the web. If you are not ready to make Project for the web available to some of these users, you can turn it off. Learn how to do this in [Turn off Project for the web](turn-project-for-the-web-off.md).
+Users with Project Online Professional (renamed to Project Plan P3) or Project Online Premium (renamed to Project Plan P5) licenses will automatically get Project for the web. If you aren’t ready to make Project for the web available to some of these users, you can turn it off. Learn how to turn off Project for the web in [Turn off Project for the web](turn-project-for-the-web-off.md).
 
 ## Help your users 
 
@@ -52,21 +52,21 @@ Project for the web is designed to be easy-to-use and intuitive. You can use the
  - [Share a project in Project for the web](https://support.office.com/article/share-a-project-885758f0-c216-4129-a53d-6e2406977469)
  - [Project training](https://support.office.com/article/project-training-63f1db89-1ee0-4113-bedc-03fc5ec6223a)
 
-
 ## Reporting information on Project for the web data
 
 Project for the web data is stored in your Dynamics 365 Dataverse default instance. You can view Power BI reports by connecting to the data with Power BI Desktop, which is described in the following article:
 
-[Connect to Project data through Power BI Desktop](connect-to-project-for-the-web-data-through-powerbi-desktop.md)
+[Connect to Project data through Power BI Desktop](https://support.microsoft.com/office/use-power-bi-desktop-to-connect-with-your-project-data-df4ccca1-68e9-418c-9d0f-022ac05249a2).
 
 ## Dataverse
-Your Project for the web and Roadmap data is stored in [Dataverse (formerly Common Data Service)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
 
-Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Admins have the option to deploy Project to additional environments.
+Your Project for the web and Roadmap data is stored in [Dataverse (formerly Common Data Service)](/powerapps/maker/common-data-service/data-platform-intro). 
+
+Initial use of Project for the web or Roadmap in your tenant will automatically create the default Dataverse instance. Administrators have the option to deploy Project to more environments.
+
 ## Resource setup in PowerApps
 
-While sharing and access to your project in Project for the web is done through Office 365 groups, it is important to note that Project for the web uses the PowerApps platform.  Some resource setup tasks such as [adding non-user resources](https://docs.microsoft.com/project-for-the-web/create-nonuser-resources-in-project-for-the-web) or [creating a work schedule template and applying it to resources](https://docs.microsoft.com/project-for-the-web/create-and-apply-a-work-calendar) are done in PowerApps. 
-
+While sharing and access to your project in Project for the web is done through Office 365 groups, it’s important to note that Project for the web uses the PowerApps platform. Some resource setup tasks such as [adding non-user resources](create-nonuser-resources-in-project-for-the-web.md) or [creating a work schedule template and applying it to resources](create-and-apply-a-work-calendar.md) are done in PowerApps.
 
 ## Searching for user data for Project for the web
 

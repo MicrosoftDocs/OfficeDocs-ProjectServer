@@ -46,6 +46,5 @@ Project Server 2013 provides a complete Software Development Kit (SDK).
   
 ## See also
 
-#### 
 
 [Volume activation of Office 2013](/DeployOffice/vlactivation/plan-volume-activation-of-office)

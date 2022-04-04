@@ -2,6 +2,7 @@
 title: "Add SharePoint task list data to Project Server 2013"
 ms.author: serdars
 author: serdars
+manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
@@ -50,8 +51,6 @@ If you add a SharePoint Tasks list to Project Server 2013 that has an associated
 > The MPP file will be completely disconnected from Project Server, but will still exist in the site asset library or might still be viewed in Project Professional 2013 as a recently accessed project. You can choose to delete or rename the MPP file to avoid confusion. 
   
 ## See also
-
-#### 
 
 [Work with a task list](https://go.microsoft.com/fwlink/p/?LinkId=255328)
   

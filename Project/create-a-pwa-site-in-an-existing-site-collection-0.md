@@ -48,8 +48,6 @@ The Project Web App site is now available at the URL that you specified.
   
 ## See also
 
-#### 
-
 [New-SPWeb](/powershell/module/sharepoint-server/New-SPWeb)
   
 [Upgrade-SPProjectWebInstance](/powershell/module/sharepoint-server/)
