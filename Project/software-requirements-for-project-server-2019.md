@@ -46,7 +46,7 @@ You can connect to Project Server 2019 with not only Project Professional 2019 a
  
 | **Version** | **Compatible with** |
 |:-----|:-----|
-|Project Server 2019 |Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/> <br/> | 
+|Project Server 2019 |Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client | 
 
 ## Cube Building Service requirements
 
