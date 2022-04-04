@@ -83,7 +83,9 @@ The Accelerator adds a Program table that enables summary tracking of related pr
 1. Or, use the command bar to choose an action for the selected program.
 
 > [!NOTE]
-> After you create a project, you need to activate it before it starts monitoring the projects it includes.
+> After you create a project, you need to activate it before it will start monitoring the projects it includes.
+>
+> :::image type="content" source="media/p4w-accelerator-activate-program.png" alt-text="Select Activate on the command bar.":::
 
 ### Create a program
 
@@ -97,15 +99,39 @@ The Accelerator adds a Program table that enables summary tracking of related pr
 
 ## Scenario: Risks and Issues
 
-The Accelerator adds two columns to the *Project* table for this scenario: *Risks* and *Issues*.
+For this scenario, the Accelerator adds two tables:
+
+- *Risk* lets you track risks associated with completing a project.
+- *Issue* lets you track issues that hinder the completion of a project.
+
+The Accelerator also creates relationships between these tables and the *Project* table, so that each becomes a lookup column. It adds them to the Information form as tabs where you can add and edit risks and issues for the open project.
+
+### Add or edit a risk or issue
+
+1. Open the relevant project.
+1. Select the relevant tab:
+
+   - To flag an issue that is or could be blocking the project's progress, select **Issues**.
+   - To flag a risk that could result from the completion of a project, select **Risks**.
+
+1. A list of related risks or issues appears on the tab.
+
+    On the list's command bar, you can do any of the following actions. If the command isn't displayed, select the vertical dots on the right edge of the command bar to see a menu:
+    - To create a new item, select **+ New Risk** or **+ New Issue**.
+    - To add an item that already exists (a common risk or issue), select **Add Existing Risk** or **Add Existing Issue**.
+    - You can select an existing risk or issue to open the record, but you can only edit the record if it's *State* is  *Active*. To select an item, select the left edge of its row in the list. The **Edit** command will appear on the command bar.
+
+   :::image type="content" source="media/p4w-accelerator-edit-risk.png" alt-text="Select a list item and then select Edit on the command bar.":::
+
+1. Add details to the risk or issue. When you are done, on the command bar select **Save** or **Save and Close**.
 
 ## Scenario: Changes
 
-The Accelerator adds a *Changes* columns to the *Project* table for this scenario.
+The Accelerator adds a *Change* table, and creates a relationship between it and the *Project* table. It also adds a **Changes** tab to the *Project* table's Information form.
 
 ## Scenario: Status
 
-The Accelerator adds a *Status* columns to the *Project* table for this scenario.
+The Accelerator adds a *Status* table, and creates a relationship between it and the *Project* table. It also adds a **Status** tab to the *Project* table's Information form.
 
 ## Next steps
 
