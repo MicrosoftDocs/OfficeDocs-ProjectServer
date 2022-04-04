@@ -55,7 +55,7 @@ The Accelerator includes a *Project Request* table that your teams can use to pr
 1. Enter a value for **Name**, then provide as much additional information about the request as you can. The person who can approve proposals will use it to decide whether to approve this one.
 1. After you finish adding more data, on the command bar select **Save and Close**.
 
-  :::image type="content" source="media/p4w-accelerator-new-project-request_form.png" alt-text="Project Request with plenty of decision-support data":::
+  :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
 
 ### Approve a project request
 
