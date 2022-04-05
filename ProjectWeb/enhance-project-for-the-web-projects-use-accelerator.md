@@ -3,8 +3,8 @@ title: Enhance your projects with the Project for the web Accelerator
 description: The Project for the web Accelerator is a managed solution your admin can deploy to your Project environment. It adds five scenarios - Project Requests, Programs, Risks and Issues, Changes, and Status. Read this topic to learn how to use them.
 author: v-stthomas
 ms.author: v-stthomas
-manager: alexla
-ms.service: Project
+manager: deniseb
+ms.service: project-web
 ms.topic: how-to 
 ms.date: 04/01/2022
 ms.custom: template-how-to 
@@ -34,7 +34,7 @@ Project for the web is convenient and easy-to-use. Because it's based on the Mic
 
 ## Scenario: Project Requests
 
-The Accelerator includes a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
+The Accelerator adds a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
 
 > [!NOTE]
 > Your admin must turn the cloud flow on so the approval of a request will create a new project. However, you can still add project ideas to the Project Request table. When the cloud flow is turned on, your ideas can be approved and become projects.
@@ -74,7 +74,7 @@ The Accelerator includes a *Project Request* table that your teams can use to pr
 
 ## Scenario: Programs
 
-The Accelerator adds a Program table that enables summary tracking of related projects. This creates a hierarchy so your organization can review ongoing work without opening each project to review the details.
+The Accelerator adds a *Program* table that enables summary tracking of related projects. This creates a hierarchy so your organization can review ongoing work without opening each project to review the details. Various tabs on the Information form let your organization prioritize efforts on projects on the basis of such things as expected financial returns and current status.
 
 :::image type="content" source="media/p4w-accelerator-programs.png" alt-text="The Active Programs view lists key fields for listed programs. 1, Set the checkmark at the left edge of the row to choose a program. 2, Select the arrow at the right edge to open the program. 3, Or, choose an action on the command bar to apply the action to the selected program.":::
 
@@ -83,11 +83,26 @@ The Accelerator adds a Program table that enables summary tracking of related pr
 1. Or, use the command bar to choose an action for the selected program.
 
 > [!NOTE]
-> After you create a project, you need to activate it before it will start monitoring the projects it includes.
->
-> :::image type="content" source="media/p4w-accelerator-activate-program.png" alt-text="Select Activate on the command bar.":::
+> When you resize your browser, the command bar changes: it only displays as many commands as it can legibly render. To see more commands, select the vertical dots on the right edge of the command bar to open a menu.
+> :::image type="content" source="media/p4w-accelerator-more-commands.png" alt-text="Find more commands on the vertical dot menu.":::
 
 ### Create a program
+
+1. Open Project for the web.
+1. In the navigation pane, select **Program**.
+1. The default main form opens (Information) and displays the default view of programs (Active Programs). You might want to switch to a different view.
+
+  > [!NOTE]
+  > Your admin can change both defaults, so you might not see exactly what's depicted here. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
+
+1. On the command bar, select **+ New**.
+
+  :::image type="content" source="media/p4w-accelerator-new-program.png" alt-text="Create a new program.":::
+
+1. Provide as much data as you can, and then on the command bar, select **Save and Close**.
+1. After you create a project, you need to activate it before it will start monitoring the projects it includes. Your business process may require that someone else reviews each program before it's activated. Either way, the process is simple: set the *State* to *Active*. It's possible to edit the data directly, but there's also a button on the command bar.
+
+:::image type="content" source="media/p4w-accelerator-activate-program.png" alt-text="Select Activate on the command bar.":::
 
 #### Add stakeholders (project managers, program owners)
 
