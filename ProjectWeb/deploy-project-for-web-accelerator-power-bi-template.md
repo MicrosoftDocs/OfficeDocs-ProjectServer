@@ -1,9 +1,9 @@
 ---
-title: Deploy the Project for the web Accelerator and Power BI template
-description: Deploying the Accelerator to your Project for the web environment adds project management scenarios such as Project Requests, Changes, and Status. Add a Power BI template for extra reporting options. Customize the Accelerator to use the Power BI template.   
+title: Deploy the Project for the web Accelerator
+description: Deploying the Accelerator to your Project for the web environment adds improved project management scenarios such as Project Requests, Changes, and Status.   
 author: v-stthomas
 ms.author: v-stthomas
-manager: alexla
+manager: deniseb
 ms.service: project-web
 ms.topic: how-to
 ms.date: 3/21/2022
@@ -11,16 +11,15 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Deploy the Project for the web Accelerator and Power BI template
+# Deploy the Project for the web Accelerator
 
-Although people in your organization can start using Project for the web as soon as you subscribe to Microsoft 365, you'll probably want to customize the environment to meet your specific business needs. Save time with several common scenarios by deploying the Project for the web Accelerator and Power BI template.
+Although people in your organization can start using Project for the web as soon as you subscribe to Microsoft 365, you'll probably want to customize the environment to meet your specific business needs. Save time with several common scenarios by deploying the Project for the web Accelerator.
 
 ## Prerequisites
 
 - Admin rights in an environment with the [deployed Project for the web solution](https://docs.microsoft.com/project-for-the-web/deploying-project)
 - Rights to create Power Automate flows using the [Common Data Service connector](/connectors/commondataserviceforapps/).
-- The appropriate privileges to deploy the Power BI content pack to powerbi.com.
-<!-- Rights, permissions, and privileges? Three different things? -->
+
 ## Scenarios added by the Accelerator
 
 💡 **Project Requests**. Create a list for project ideas that include a business case and expected impact. The included Power Automate flow creates a project when a request is set to *Approved*.
@@ -30,7 +29,6 @@ Although people in your organization can start using Project for the web as soon
 🔥 **Risks and Issues**. Manage the surprises that accompany every project. Create and assign risks and issues to minimize impacts to a project's schedule.
 
 🚧 **Changes**. Use change tracking processes to help understand the history of a project.
-<!-- Does this scenario enable rollbacks? -->
 
 📝 **Status**. Centralize recording of project status to keep stakeholders up-to-date.
 
@@ -45,178 +43,27 @@ Although people in your organization can start using Project for the web as soon
 1. On the navigation pane, select **Solutions**.
 1. On the command bar, select **Import**.
 1. In the **Import a solution** dialog, select **Browse**, then find and select the Accelerator file you downloaded.
-1. Select **Next**, then select an existing connection to a Power Automate flow or create a new one.
+1. Select **Next**, then select an existing connection to a Power Automate flow, or create a new connection.
 1. Select **Next** and then select **Import**.
 
-When deployment succeeds, the Project Power App will look like this:
+When deployment succeeds, the Project Power App will resemble this:
 
 :::image type="content" source="media/project-with-the-accelerator.png" alt-text="The Project Power App after the Project for the web Accelerator is deployed.":::
 
-## Create a custom solution to add to the Accelerator
-
-Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
-
-To customize the Project Power App after deploying the Accelerator, create a separate solution that contains the customizations and deploy it to the environment where you deployed the Accelerator. Your custom solution is deployable in other environments that have the Project Power App and the Accelerator.
-
-For more information about managed solutions, see [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/). For steps to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
-
-## Example ideas for a solution to layer on top of the Accelerator
-
-### Customize the **When the request state is updated to Approved** cloud flow
-
-The cloud flow included with the Project Requests scenario is very simple: it creates a project from a request where *Request State* is *Approved* state. You can add new actions to the flow, such as sending a notification to Teams.
-
-1. Open the [Power Apps Portal](https://make.powerapps.com).
-1. In the list of solutions, select **Project for the Web Accelerator**.
-1. In the navigation pane, select **Cloud Flows**.
-
-  :::image type="content" source="media/cloud-flow-in-solution.png" alt-text="{alt-text}":::
-
-1. Select **When the request state is updated to Approved** to open it.
-1. Edit the flow to support the workflows of your team.
-1. Save and close the flow.
-1. On the command bar, select **Publish all customizations**.
-
-  :::image type="content" source="media/publish-customizations.png" alt-text="Publish your changes to the flow to make them functional":::
-
-### Disabling the flow
-
-1. Open the [Power Apps Portal](https://make.powerapps.com).
-1. In the navigation pane, select **Solutions**, and then select **Project for the Web Accelerator**.
-1. In the navigation pane, select **Cloud Flows**, and then select **When the request state is updated to Approved**.
-1. Select **...** to open the flow menu, then select **Turn Off**.
-1. On the command bar, select **Publish all customizations**.
-
-  :::image type="content" source="media/disabling-the-flow.png" alt-text="Turn off the flow":::
-
-## Deploy the Power BI template
-
-> [!NOTE]
-> The Accelerator will work without the Power BI template, but we recommend you deploy the template for the best experience.
-
-1. Download the [Power BI template](/OfficeDev/Project-Accelerator#heres-the-latest-version-of-the-power-bi-template-for-the-accelerator).
-1. [Install the template](/power-bi/connect-data/service-template-apps-install-distribute#install-a-template-app).
-1. When prompted for the environment url, use the base url of your environment. For example: `https://myenvironment.crm.dynamics.com`
-
-When you deploy the report, ensure that your team will have access to it. [Learn more about sharing in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-share-dashboards).
-
-### Modify the Project Accelerator – Reports menu to use the deployed template or any Power BI report
-
-> [!IMPORTANT]
-> You must first deploy the Power BI report to PowerBI.com
-> To preserve your ability to upgrade the Accelerator, [create a solution](/powerapps/maker/data-platform/create-solution) to contain your customizations.
-
-The Report menu currently points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the Power BI report:
-
-#### Updating the report menu via Power BI embedded report
-
-1.	Sign into [powerapps.com](https://make.powerapps.com)
-2.	Select the environment containing the Accelerator
-3.	Select solutions -> the customized solution -> Edit
-4.	Select the Objects option
-5.	New -> Dashboard -> Power BI embedded
-
-![Add embedded report to solution](images/add-embedded-report.png)
-
-6.	Give the report a name and choose the workspace/report and save
-
-![Choose Power BI Report](images/choose_report.png)
-
-7.	If not already added, add the site map to the custom solution
-* Add existing -> more-> Site Map
-* Choose Project – msdyn_ProjectServiceCore 
-* Click add
-10.	Select the site map and click edit
-11.	Select the Reports option under Reporting
-* Select Type = Dashboard
-* Default Dashboard = choose the report from the drop down
-* Save and close
-
-![Set Sitemap embedded report](images/new-embedded-report-site-map.png)
-
-10.	Click Publish
-11.	Go back to the Project app and click Report
-12.	The report will now show up along other reports in the environment
-
-![Power BI reports in the Project Power App](images/powerbi-in-app-dashboard.png)
-
-#### Updating the report menu via Web resource (full frame)
-
-The Accelerator already contains a placeholder for the Power BI template. Once you've deployed the Accelerator and the Power BI template, follow these steps to have the Power BI report appear in the Accelerator.
-
-1. Once you've deployed the Power BI template, open the report in [PowerBI.com](https://www.powerbi.com).
-2. Press the file -> Embed Report -> Website or portal
-
-![The website or portal menu option under the share button](images/share-powerbi-report.png)
-
-3.	Copy the link in the top box ("Here's a link you can use to embed content") and keep it handy.
-
-![Embed link](images/reports-link-code.png)
-
-4.	Sign into [Power Apps](https://make.powerapps.com)
-5.	Select the environment containing the Accelerator
-6.	Select solutions -> the customized solution -> Edit
-7.	Select the Objects option
-8.	New -> more -> Web resource 
-9.	Set
-*	Display Name: Accelerator Power BI report
-* Name: Accelerator_report
-* Type: Webpage HTML
-
-
-
-10.	Create a new html file to upload with the follow text. Update the “REPLACE THIS” with the embedded string copied earlie
-
-```
-  <html>
-  <head>
-    </head>
-    <body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
-      <iframe width="100%" height="100%" src="REPLACE THIS" frameborder="0" allowfullscreen="true"></iframe>
-    </body>
-  </html>
-```
-
-11.	Press OK to save the changes and close the dialog.
-12.	If not already added, add the site map to the custom solution
-* Add existing -> more-> Site Map
-* Choose Project – msdyn_ProjectServiceCore 
-* Click add
-13.	Select the site map and click edit
-14.	Select the Reports option under Reporting
-* Select Type = Web Resource
-* URL = Accelerator Power BI report
-
-![Set Sitemap web resource](images/set-report-web-resource-site-map.png)
-
-* Save and close
-15.	Click Publish
-16.	Go back to the Project app and click Report
-17.	The report will now show up taking up the entire section
-
-![Power BI reports in the Project Power App](images/powerbi-in-app.png)
-
 ## Licensing
 
-The Accelerator solution and Power BI template are distributed free of charge under the MIT license.
-However, using them in your environments to work with _Project for the web_ has certain licensing implications.
+The Accelerator solution is distributed free of charge under the MIT license.
+However, using them in your environments to work with Project for the web has certain licensing implications.
 
-Refer to the [Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description) for details about Project licensing.
+> [!NOTE]
+> The [Project Service Description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description) provides details about Project licensing.
 
-### Using the Accelerator without the Power BI content pack
+Using the Accelerator requires a **Project Plan 1** license. This applies to your project managers who also need to do such things as organize programs, track issues and risks, manage the business caseS and finances, or edit the custom columns such as corporate sponsor of the project.
 
-Using all the customizations -except the reports- requires a **Project Plan 1** license. This applies to your project managers who also need to do things like organize programs, track issues and risks, manage the business case and financials, or edit the custom columns such as corporate sponsor of the project.
-
-Users who don't need to make any changes to the project and only need to view things like risks and issues need a **Microsoft 365 license**.
-
-### Using the Accelerator with the Power BI content pack
-
-Users who need to view the Power BI reports in the Project Accelerator need the following
-1.  an M365 or Project Plan 1 license
-2.  a Power BI license
+Users who only need to view projects (not add or change any data or components) need a **Microsoft 365 license**.
 
 ### Using the Accelerator without using Project for the web
-
+<!-- Is this really practical? There seem to be a lot of hooks to Dynamics/Dataverse built-in. This heading suggests we're going to tell them how. -->
 All the content on this site is completely free for you to reuse in your own applications. Refer to the [LICENSE](LICENSE) file for details. It is only when using the Accelerator with the Project Power App or when using the Project for the web tables that there are additional licensing implications.
 
 ## Support and Troubleshooting
