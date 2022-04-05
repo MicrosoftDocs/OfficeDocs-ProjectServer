@@ -50,15 +50,11 @@ The Project Power App also lets you use Dataverse security roles to control acce
 
 1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
 1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
-1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
 1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
 
 ### Add Dataverse security in the Project Power App
 
-1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
-1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
-1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
-1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
+- If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Data in Project for the web
 
@@ -68,10 +64,8 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
    To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
-- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy it on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
-
-   > [!NOTE]
-   > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
+- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables are customized when you deploy the Accelerator in your environment. You can customize them yourself if you don't deploy the Accelerator.
+- It's possible to customize them after you deploy the Accelerator, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy the new solution on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
 
   - *Project Requests*
   - *Programs*
@@ -90,14 +84,25 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
 ## Logical flow
 
-Power Automate provides logical flows for projects in  Project for the web. You create Power Automate flows on the Power Apps portal, using the following design and deploy process.
+Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in one table when a value in a row of another table changes.
 
-1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
-1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
-1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
-1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
-1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
+1. In the navigation pane, select **Flows**.
+1. On the command bar, select **+ New flow**.
+1. On the menu that appears, select **Automated cloud flow**.
+1. In the dialog that opens, optionally add a name.
+1. For **Choose your flow's trigger**, enter *Dataverse* to filter the list, then select **When a row is added, modified, or deleted. Microsoft Dataverse**, and then select **Create**.
 
+  :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-choose-flow-trigger.png" alt-text="Choose a Dataverse trigger for Project data flows.":::
+
+1. The trigger you chose appears in your new flow. Next steps depend on exactly what you want to automate - which data is involved, etc.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-edit-flow-trigger.png" alt-text="Dataverse trigger in a new Project Power App flow.":::
+
+1. After you add a trigger, select **New** below the trigger to set up the automated data change.
+
+For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
+
+Aside from creating Projects, customers can only edit project data via the Project Scheduling API
 ## UI components
 
 To customize the Project for the web UI, you modify or create views and forms in the Project Power App.

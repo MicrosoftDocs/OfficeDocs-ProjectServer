@@ -88,7 +88,7 @@ After saving, Anita notices there's another new column, right under *Budget*: *B
 
 ## Add a form field to the *Information* form
 
-After you add a custom column to the Project Power App, you should add it the *Information* form as a field. Most people won't be using the tables directly&mdash;they'll use the *Information* form to work with project data.
+After you add a custom column to the Project Power App, you should add it to the *Information* form as a field. Most people won't be using the tables directly&mdash;they'll use the *Information* form to work with project data.
 
 1. After you save the table, select the **Forms** area.
 1. Select the *Information* form. You might have to adjust the view's filter to find it.
