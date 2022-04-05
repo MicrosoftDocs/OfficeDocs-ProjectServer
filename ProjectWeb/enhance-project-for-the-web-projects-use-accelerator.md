@@ -92,25 +92,60 @@ The Accelerator adds a *Program* table that enables summary tracking of related 
 1. In the navigation pane, select **Program**.
 1. The default main form opens (Information) and displays the default view of programs (Active Programs). You might want to switch to a different view.
 
-  > [!NOTE]
-  > Your admin can change both defaults, so you might not see exactly what's depicted here. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
+   > [!NOTE]
+   > Your admin can change both defaults, so your experience may differ somewhat. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
 
 1. On the command bar, select **+ New**.
 
-  :::image type="content" source="media/p4w-accelerator-new-program.png" alt-text="Create a new program.":::
+   :::image type="content" source="media/p4w-accelerator-new-program.png" alt-text="Create a new program.":::
 
 1. Provide as much data as you can, and then on the command bar, select **Save and Close**.
+
+   :::image type="content" source="media/p4w-accelerator-new-program-details.png" alt-text="Add details to a new program before you save and close it.":::
+
 1. After you create a project, you need to activate it before it will start monitoring the projects it includes. Your business process may require that someone else reviews each program before it's activated. Either way, the process is simple: set the *State* to *Active*. It's possible to edit the data directly, but there's also a button on the command bar.
 
-:::image type="content" source="media/p4w-accelerator-activate-program.png" alt-text="Select Activate on the command bar.":::
+   :::image type="content" source="media/p4w-accelerator-activate-program.png" alt-text="Select Activate on the command bar.":::
 
-#### Add stakeholders (project managers, program owners)
+### Add projects to a program
 
-#### Add projects to a program
+1. Open the program where you want to add a new project, and then select the **Projects** tab.
+1. On the command bar of the list on the **Projects** tab, do one of the following:
 
-### Refresh program data
+   - To create a new project for the program, select **+ New Project**.
+   - To add a project that already exists, select **Add Existing Project**. If you don't see the command you want, select the vertical dots on the right edge of the command bar to open the menu of available commands.
+
+   :::image type="content" source="media/p4w-accelerator-add-project-to-program.png" alt-text="Add a project to a program using the list on the Projects tab.":::
+
+### Refresh a program's project data
+
+When you review a program, it might not display all the latest project information. Refresh it to get the most recent data.
+
+1. With the program open, select the **Projects** tab.
+1. On the list's command bar, select **Refresh**.
+
+   :::image type="content" source="media/p4w-accelerator-refresh-program-projects.png" alt-text="Refresh the projects in a program.":::
 
 ### Reporting
+
+Each program you create has charts depicting various aspects of the program's status and value.
+
+1. With the Program open, on the command bar, select **Show Chart**.
+1. The charts appear in a pane to the left of the main form. Several charts are available&mdash;to choose a different one, select the drop-down on the chart's name.
+
+   :::image type="content" source="media/p4w-accelerator-program-chart.png" alt-text="Choose another chart.":::
+
+1. Select the vertical dots just right of the chart name to open a menu of available actions.
+
+   :::image type="content" source="media/p4w-accelerator-program-charts-menu.png" alt-text="Open the chart menu to select an available chart command.":::
+
+The Home Dashboard also has two charts that summarize your programs.
+
+1. In the navigation pane, under **My Workplace**, select **Home**.
+1. Review the tiles labeled **Program Health**.
+
+> [!TIP]
+> If your admin has deployed the Power BI template for the Accelerator, in the navigation pane, select **Reports** to see what's available.
 
 ## Scenario: Risks and Issues
 
