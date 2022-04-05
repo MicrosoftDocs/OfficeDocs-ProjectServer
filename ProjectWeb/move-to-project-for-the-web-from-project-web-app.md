@@ -93,7 +93,7 @@ Power Automate provides logical flows for data in Project for the web. To automa
 1. In the dialog that opens, optionally add a name.
 1. For **Choose your flow's trigger**, enter *Dataverse* to filter the list, then select **When a row is added, modified, or deleted. Microsoft Dataverse**, and then select **Create**.
 
-  :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-choose-flow-trigger.png" alt-text="Choose a Dataverse trigger for Project data flows.":::
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-choose-flow-trigger.png" alt-text="Choose a Dataverse trigger for Project data flows.":::
 
 1. The trigger you chose appears in your new flow. Next steps depend on exactly what you want to automate - which data is involved, etc.
 
