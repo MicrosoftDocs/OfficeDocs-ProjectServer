@@ -65,7 +65,8 @@ The Project Power App stores data in Dataverse tables for three purposes.
    To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
 - *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables are customized when you deploy the Accelerator in your environment. You can customize them yourself if you don't deploy the Accelerator.
-- It's possible to customize them after you deploy the Accelerator, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy the new solution on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
+
+  It's possible to customize them after you deploy the Accelerator, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy the new solution on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
 
   - *Project Requests*
   - *Programs*
