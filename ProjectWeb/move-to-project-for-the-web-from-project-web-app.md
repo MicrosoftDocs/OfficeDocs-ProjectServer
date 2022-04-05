@@ -103,7 +103,9 @@ Power Automate provides logical flows for data in Project for the web. To automa
 
 For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
 
-Aside from creating Projects, customers can only edit project data via the Project Scheduling API
+> [!NOTE]
+> It's also possible to edit project data via the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
+
 ## UI components
 
 To customize the Project for the web UI, you modify or create views and forms in the Project Power App.
