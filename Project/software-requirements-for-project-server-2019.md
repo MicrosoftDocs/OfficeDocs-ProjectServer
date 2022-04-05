@@ -17,7 +17,7 @@ description: "Summary: Learn about installation requirements for Project Server 
 
 # Software requirements for Project Server 2019
  
- **Summary:** Learn about installation requirements for Project Server 2019.<br/>
+**Summary:** Learn about installation requirements for Project Server 2019. 
 **Applies to:** Project Server 2019 
   
 ## Key Requirements
@@ -31,7 +31,7 @@ Since Project Server 2019 is part of the SharePoint Server 2019  installation, r
   
 Some of the key software requirements for SharePoint Server 2019 are:
   
-|&nbsp;|&nbsp;|
+|Component|Software requirements|
 |:-----|:-----|
 |**Supported Server Operating Systems:**  <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server:**  <br/> | Microsoft SQL Server 2017 RTM for Windows Services<br/> Microsoft SQL Server 2016 with Service Pack 1 <br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019. <br/> |
@@ -43,21 +43,14 @@ Some of the key software requirements for SharePoint Server 2019 are:
 ## Client Compatibility
 
 You can connect to Project Server 2019 with not only Project Professional 2019 and the Project Online Desktop Client, but also with Project Professional 2016.
-  
  
-|&nbsp;|&nbsp;|
+| **Version** | **Compatible with** |
 |:-----|:-----|
-|**Version** <br/> |**Compatible with** <br/> |
-|Project Server 2019<br/> |Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client <br/> <br/> |
-
-
-   
+|Project Server 2019 |Project Professional 2019 <br/> Project Professional 2016 <br/>  Project Online Desktop Client | 
 
 ## Cube Building Service requirements
 
 SQL Server 2016 Analysis Services must also be installed on your SQL Server 2016 database server for your SharePoint Server 2019 Enterprise deployment if you plan to use the Cube Building Service in Project Server 2019.
-  
-
   
 ## Portfolio Analysis Requirements
 
@@ -69,4 +62,4 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016)
   
-[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-0)
+[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-2016-2019)
