@@ -11,6 +11,7 @@
 ### [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
 ### [Add a custom column to the Project Power App](add-custom-column-project-power-app.md)
+### [Integrate Project for the web into your project management processes](move-to-project-for-the-web-from-project-web-app.md)
 ### [Frequently Asked Questions](faq.md)
 ## [Resource management]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
