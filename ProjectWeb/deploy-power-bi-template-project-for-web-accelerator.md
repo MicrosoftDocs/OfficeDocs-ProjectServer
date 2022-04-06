@@ -11,61 +11,75 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Create a managed solution to deploy the Power BI template for the Project for the web Accelerator
+# Create a managed solution to add the Power BI template to the Project for the web Accelerator
 
 The Project for the web Accelerator solution gives you a head start customizing Project for the web to support common project management scenarios. It's a managed solution, making it easy to deploy new versions as updates.
 
-We encourage you to further customize Project for the web to better meet your specific business needs, and we advise that you do so by creating your own solution to layer on top of the deployed Accelerator.
+We encourage you to further customize Project for the web to better meet your specific business needs, and we advise that you do so by creating your own solution to layer on top of the deployed Accelerator. One enhancement that's ready to go is the Power BI template for the Project for the web Accelerator. This article provides guidance for adding the Power BI template to your managed solution to deploy on top of the Accelerator.
 
-One enhancement that's ready to go is the Power BI template for the Project for the web Accelerator. This article provides guidance for adding the Power BI template to your managed solution to deploy on top of the Accelerator.
+> [!IMPORTANT]
+> The order of events in this process is critical:
+>
+>  1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
+>  2. Download the Power BI template and deploy it to that development environment.
+>  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template (along with any other customizations you might want.).
+>  4. Export the solution, and then import it into your production Project+Accelerator environment.
 
 ## Prerequisites
 
-- Admin rights in an environment with the Project for the web Accelerator deployed
+- Admin rights in an development environment with the Project for the web Accelerator deployed
 - Power BI Desktop and a Power BI Pro account
 - Rights to use the Common Data Service connector
 - An understanding of [managed solution layers](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution)
 - (Optional, but recommended) A [Developer plan](/power-apps/maker/developer-plan) so you can export your solution to easily deploy in other environments.
 
-## Create a custom solution to add to the Accelerator
+## Create a managed solution for customizing Project for the web and the Accelerator
 
-Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
+To customize the Project Power App after deploying the Accelerator, create a new managed solution that contains the customizations, and then layer that solution over the Accelerator.
 
-To customize the Project Power App after deploying the Accelerator, create a separate solution that contains the customizations and deploy it to the environment where you deployed the Accelerator. Your custom solution is deployable in other environments that have the Project Power App and the Accelerator.
+Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update. 
 
-1. Make sure you're working in a development environment. Ideally, you can create one for making custom solutions&mdash;otherwise, you won't be able to export managed solutions to layer on top of the Accelerator and will have to settle for unmanaged solutions, precluding real ALM.
-1. In the navigation pane, select **Solutions**, and then on the command bar select **+ New Solution**.
+> [!TIP]
+> If you're a beginner to managed solutions, visit [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/) to prepare before your first try.
+
+1. Select or create a development environment with Project for the web and the Accelerator deployed.
+1. In the navigation pane of that environment, select **Solutions**, and then on the command bar select **+ New Solution**.
 
    :::image type="content" source="media/customize-project-accelerator-new-solution.png" alt-text="Start a new solution.":::
 
-1. Add a Display Name (the name the solution will have in the list of solutions). Accept the Name that appears (it's based on the Display Name but has invalid characters stripped).
-1. If you don't already have a [solution publisher for your custom solutions](/power-apps/maker/data-platform/create-solution#create-a-solution-publisher), create one. In the **New Solution** dialog, under **Publisher** select **+ New publisher**, complete the dialog that opens and then select **Create**.
+1. Add a **Display Name**&mdash;the solution will bear this name in environments where it's deployed.
+1. A value for **Name** will then appear. It's safe to accept this value, but you can change it provided you don't use any invalid characters.
+1. If you already have a [solution publisher for your custom solutions](/power-apps/maker/data-platform/create-solution#create-a-solution-publisher), use it for **Publisher**. If not, create one to use:
+
+   - In the **New Solution** dialog, under **Publisher** select **+ New publisher**, complete the dialog that opens and then select **Create**.
 
    :::image type="content" source="media/customize-project-accelerator-new-publisher.png" alt-text="Add a new publisher for your custom solutions.":::
-1. Set a value for **Publisher**, adjust the **Version** if you want, and then select **Create**. Your new solution opens.
-1. Add or modify the components you want to add to the Accelerator
 
+1. Adjust the **Version** if you want, and then select **Create**. Your new solution opens.
 
-For more information about managed solutions, see [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/). For steps to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
+For additional options to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
 
-## Example ideas for a solution to layer on top of the Accelerator
+### Example customization: add an action to send email when a Project Request is approved
 
-### Customize the **When the request state is updated to Approved** cloud flow
+The cloud flow included with the *Project Requests* scenario is very simple: it creates a project from a request when *Request State* is set to *Approved*. By adding an action to the cloud flow, you can make it also send an email notification.
 
-The cloud flow included with the Project Requests scenario is very simple: it creates a project from a request where *Request State* is *Approved* state. You can add new actions to the flow, such as sending a notification to Teams.
-
-1. Open the [Power Apps Portal](https://make.powerapps.com).
+1. Open the [Power Apps Portal](https://make.powerapps.com) and select your development environment.
 1. In the list of solutions, select **Project for the Web Accelerator**.
 1. In the navigation pane, select **Cloud Flows**.
 
-  :::image type="content" source="media/cloud-flow-in-solution.png" alt-text="{alt-text}":::
+   :::image type="content" source="media/cloud-flow-in-solution.png" alt-text="{alt-text}":::
 
 1. Select **When the request state is updated to Approved** to open it.
-1. Edit the flow to support the workflows of your team.
+1. On the command bar, select **Edit**.
+1. Select **+ New step**.
+1. Under **Choose an operation**, enter *Out* and then select **Office 365 Outlook**.
+
+   :::image type="content" source="media/customize-project-accelerator-add-ol-connector.png" alt-text="Add the Outlook connector to your new flow step.":::
+<!-- Resume here -->
 1. Save and close the flow.
 1. On the command bar, select **Publish all customizations**.
 
-  :::image type="content" source="media/publish-customizations.png" alt-text="Publish your changes to the flow to make them functional":::
+   :::image type="content" source="media/publish-customizations.png" alt-text="Publish your changes to the flow to make them functional":::
 
 ### Disabling the flow
 
