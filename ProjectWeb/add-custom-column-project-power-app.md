@@ -86,11 +86,9 @@ The *Budget* column is now visible in the *Project* table. Anita selects **Save 
 
 After saving, Anita notices there's another new column, right under *Budget*: *Budget (Base)*. It's an automatic column that shows the value of *Budget* in terms of the base currency defined for her app. Power Platform adds one when you [add a column with the Currency data type](/powerapps/maker/data-platform/types-of-fields#using-currency-columns).
 
-:::image type="content" source="media/add-custom-column-project-power-app-09.png" alt-text="When you add a column with the Currency data type, Power Platform adds another column that calculates the column’s values in the base currency for your app.":::
-
 ## Add a form field to the *Information* form
 
-After you add a custom column to the Project Power App, you should add it the *Information* form as a field. Most people won't be using the tables directly&mdash;they'll use the *Information* form to work with project data.
+After you add a custom column to the Project Power App, you should add it to the *Information* form as a field. Most people won't be using the tables directly&mdash;they'll use the *Information* form to work with project data.
 
 1. After you save the table, select the **Forms** area.
 1. Select the *Information* form. You might have to adjust the view's filter to find it.
@@ -101,7 +99,7 @@ After you add a custom column to the Project Power App, you should add it the *I
 
    :::image type="content" source="media/add-custom-column-project-power-app-11.png" alt-text="When you select + Form field, the Table columns pane opens. By default, only unused columns appear in the Table columns pane.":::
 
-1. Because you haven't added the column to a form yet, it's listed in the **Table columns** pane. Drag it from the pane onto the form to add it as a field in the **General** section. If you want it in a specific place, drop it where you want it to appear. You can adjust the size and position of the new filed as needed.
+1. Because you haven't added the column to a form yet, it's listed in the **Table columns** pane. Drag it from the pane onto the form to add it as a field in the **General** section. If you want it in a specific place, drop it where you want it to appear. You can adjust the size and position of the new field as needed.
 
    :::image type="content" source="media/add-custom-column-project-power-app-12.png" alt-text="When you drag a field onto a form, it’s added to the General section unless you drop it somewhere else.":::
 

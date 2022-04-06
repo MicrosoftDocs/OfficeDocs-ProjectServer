@@ -23,6 +23,8 @@ The following diagram shows how the two apps fit into the overall Project archit
 
 This article helps you customize the Project Power App to meet the standards that you've implemented in Project Online or Project Server. Like the Project Web App, users access Project for the web from [Project Home](https://project.microsoft.com/). They can begin working on projects in Project for the web, and you can easily introduce customizations via Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
+## Table that compares components
+
 | Components | Project Web App | Project for the web |
 | :-- | :-- | :-- |
 |[Permissions and security](#permissions-and-security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
@@ -30,7 +32,7 @@ This article helps you customize the Project Power App to meet the standards tha
 |[UI](#ui-components) and [Visualizations](#visualizations) | Project Detail Pages and [Options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Views, Forms](/powerapps/maker/model-driven-apps/model-driven-app-components#ui-components), [Charts, and Dashboards](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
 
 > [!TIP]
-> Want a head start? [Deploy the Project for the web Accelerator and Power BI template](deploy-project-for-web-accelerator-power-bi-template.md), a free solution that adds numerous project management scenarios and visualizations to the Project Power App.
+> Want a head start? [Deploy the Project for the web Accelerator and Power BI template](https://github.com/OfficeDev/Project-Accelerator#heres-the-latest-version-of-the-accelerator), a free solution that adds numerous project management scenarios and visualizations to the Project Power App.
 
 > [!IMPORTANT]
 > To customize the Project Power App, you need an account with [the right security role](/powerapps/maker/model-driven-apps/privileges-required-customization#system-administrator-and-system-customizer-security-roles).
@@ -44,21 +46,11 @@ This article helps you customize the Project Power App to meet the standards tha
 
 Project for the web uses [Teams Groups](/microsoftteams/office-365-groups) and [policies](/microsoftteams/policy-assignment-overview) to determine who has permissions required for various activities.
 
-The Project Power App also lets you use Dataverse security roles to control access to specific tables, and Dataverse column security to restrict access for specific fields.
-
 ### Set up Project for the web security
 
 1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
 1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
-1. If needed, [assign policies to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users) to grant them specific privileges.
 1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
-
-### Add Dataverse security in the Project Power App
-
-1. Review the [predefined security roles](/power-platform/admin/database-security#environments-with-a-dataverse-database). In most cases, you can meet all of your users' access needs by assigning them to one or more of these roles.
-1. If needed, [create custom security roles](/power-platform/admin/database-security#create-or-configure-a-custom-security-role).
-1. [Assign security roles to users](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database).
-1. If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Data in Project for the web
 
@@ -68,12 +60,9 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
    To review these tables, search on the Power App portal using the search term *Project*. Then, select each table to review the existing columns and app components for the selected table.
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-06.png" alt-text="In the navigation pane, under Dataverse select Tables. Set the view filter to All, then search using the term Project.":::
+- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables are customized when you deploy the Accelerator in your environment. You can customize them yourself if you don't deploy the Accelerator.
 
-- *Project Accelerator* tables support the Project for the web Power App Accelerator. These tables only exist if you've deployed the Accelerator in your environment. You can customize them to change the implementation of the scenarios the Accelerator provides. Be sure you know what you're doing and have a plan before you make changes. Other scenario components rely on these tables, such as Power Automate flows.
-
-   > [!NOTE]
-   > The Risks and Issues tables are part of the same scenario and shouldn't be changed separately.
+  It's possible to customize them after you deploy the Accelerator, but you should do so in a [new solution](/power-platform/alm/use-solutions-for-your-customizations), and then [deploy the new solution on top](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution) of the Accelerator&mdash;it's a managed solution, so if you customize the environment directly after you deploy it, you'll be unable to deploy updates of the Accelerator solution.
 
   - *Project Requests*
   - *Programs*
@@ -92,20 +81,33 @@ The Project Power App stores data in Dataverse tables for three purposes.
 
 ## Logical flow
 
-Power Automate provides logical flows for projects in  Project for the web. You create Power Automate flows on the Power Apps portal, using the following design and deploy process.
+Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in one table when a value in a row of another table changes.
 
-1. [Plan](/power-automate/guidance/planning/planning-phase): Identify the who, what, when, and why.
-1. [Design](/power-automate/guidance/planning/process-design): Design your new automated process "on paper," and consider various methods of automation.
-1. [Make](/power-automate/guidance/planning/making-phase): Create the Power Automate flows.
-1. [Test](/power-automate/guidance/planning/testing-strategy): Try out the automation you created.
-1. [Deploy and refine](/power-automate/guidance/planning/deploy-to-production): Start using the automation in production, identify processes that can be refined, and decide what to change or add.
+1. In the navigation pane, select **Flows**.
+1. On the command bar, select **+ New flow**.
+1. On the menu that appears, select **Automated cloud flow**.
+1. In the dialog that opens, optionally add a name.
+1. For **Choose your flow's trigger**, enter *Dataverse* to filter the list, then select **When a row is added, modified, or deleted. Microsoft Dataverse**, and then select **Create**.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-choose-flow-trigger.png" alt-text="Choose a Dataverse trigger for Project data flows.":::
+
+1. The trigger you chose appears in your new flow. Next steps depend on exactly what you want to automate - which data is involved, etc.
+
+   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-edit-flow-trigger.png" alt-text="Dataverse trigger in a new Project Power App flow.":::
+
+1. After you add a trigger, select **New** below the trigger to set up the automated data change.
+
+For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
+
+> [!IMPORTANT]
+> The Dataverse connector cannot edit project data or create rows, except in the *project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## UI components
 
 To customize the Project for the web UI, you modify or create views and forms in the Project Power App.
 
-- Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters.
-- Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects.
+- Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters. For example, **My Active Projects** only displays projects for the current user where the project's *State* is *Active*.
+- Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects. For example, the *Information* form is the default main form&mdash;it displays details about a project. A form can have tabs to help organize the data into subjects, such as Tasks or Resources.
 
 ### Create a view in the Project Power App
 
@@ -115,9 +117,6 @@ Create a view to customize the display of data from a single table.
 1. In the view selector on the command bar, select **All**, then search for *Project*.
 1. In the search results, sort **Customizable** by **True then False** to list customizable tables first.
 1. Find the table you want, select its name to open it, and then select the **Views** tab.
-
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-02.png" alt-text="The Views tab for the Project table in the Project Power app.":::
-
 1. On the command bar, select **+Add view**.
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-10.png" alt-text="The Add view command for a single Project Power App table.":::
@@ -130,11 +129,7 @@ For more information about Power Apps views, see [Understand model-driven app vi
 
 When users open a project in Project for the web, the browser displays the default Main form&mdash;the *Information* form in Project for the web, unless you select a different default for your environment. All projects created in Project for the web in the same environment display the same Main form.
 
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-03.png" alt-text="The Information form of a project opened in Project for the web.":::
-
 When you open the Project Power App in an environment, you can set a different default Main form, and you can also edit forms. Both changes affect all projects in that environment, providing centralized control over the functionality of projects.
-  
-   :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-04-closeup.png" alt-text="The Information form of the Project Power App." lightbox="media/move-to-project-for-the-web-from-project-web-app-04.png":::
 
 For more information about Power Apps forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
 
@@ -161,13 +156,7 @@ To create or customize a chart, open the Power App portal, select the table you 
 - To create a new chart based on the table, on the command bar select **Add chart**.
 - To customize an existing chart, select the name of the chart.
 
-A new browser tab opens where you can work on charts that summarize the table's data.
-
-:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-09.png" alt-text="The design surface for a new chart based on the Project table.":::
-
-The types of chart you can create change when you add series (aggregated column data) and categories (horizontal axis labels). For example, here's the same *Project by Estimated Vs Actual hours* chart opened in the Project Power App.
-
-:::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-08.png" alt-text="The existing series only support ":::
+A new browser tab opens where you can work on charts that summarize the table's data. The types of chart you can create change when you add series (aggregated column data) and categories (horizontal axis labels).
 
 For help customizing charts in the Project Power App, see [Create a new chart](/powerapps/maker/model-driven-apps/create-edit-system-chart#create-a-new-chart).
 
@@ -176,7 +165,7 @@ For help customizing charts in the Project Power App, see [Create a new chart](/
 Dashboards contain other components to provide a role-specific big picture. For example, you might create one dashboard for project users that summarizes progress on their projects and another dashboard for organization managers that shows per-project and per-user information.
 
 > [!TIP]
-> The [Project for the web Power App Accelerator](deploy-project-for-web-accelerator-power-bi-template.md) includes a dashboard that you can use and customize as needed.
+> The Project for the web Power App Accelerator includes a dashboard that you can use and customize as needed.
 
 > [!IMPORTANT]
 > Create or customize the components you want to include on your dashboard first. Otherwise, they won't be available when you design your dashboard.

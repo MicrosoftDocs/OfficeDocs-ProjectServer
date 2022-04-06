@@ -2,6 +2,15 @@
 
 
 
+## Week of March 21, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/21/2022 | [Frequently Asked Questions](/project-for-the-web/faq) | modified |
+| 3/23/2022 | [Add a custom column to the Project Power App](/project-for-the-web/add-custom-column-project-power-app) | added |
+
+
 ## Week of March 14, 2022
 
 

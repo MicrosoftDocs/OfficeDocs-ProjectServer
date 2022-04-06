@@ -75,11 +75,11 @@ Project can be deployed to Dataverse environments that have the “Enable D365 A
 
 ### Can I build a standalone Power App and include Project tables in it?
 
-Yes, you can. All users of this Power App will need a Project Plan 1, Plan 3, or Plan 5 license as well as a Power Apps license.
+Yes, you can. All users of this Power App will need a Project Plan 1 license or higher as well as a Power Apps license.
 
 ### Is Power BI included?
 
-The [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) is free to download. However, users will need a Project Plan 3 license as well as a Power BI license to build or view reports.
+The [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) is free to download. However, users will need a Project Plan 1 license or higher as well as a Power BI license to build reports.
 
 ### Can embedded canvas apps in model-driven apps be used with a Project Plan license?
 
@@ -98,4 +98,4 @@ You can use many of the tables in the Project Solution to customize the look and
 
 ### How many Dataverse environments can I provision with a Project license?
 
-The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-web-service-description).
