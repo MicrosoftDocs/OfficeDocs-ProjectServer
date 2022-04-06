@@ -23,6 +23,8 @@ The following diagram shows how the two apps fit into the overall Project archit
 
 This article helps you customize the Project Power App to meet the standards that you've implemented in Project Online or Project Server. Like the Project Web App, users access Project for the web from [Project Home](https://project.microsoft.com/). They can begin working on projects in Project for the web, and you can easily introduce customizations via Power Platform [solutions](/power-platform/alm/solution-concepts-alm).
 
+## Table that compares components
+
 | Components | Project Web App | Project for the web |
 | :-- | :-- | :-- |
 |[Permissions and security](#permissions-and-security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
@@ -44,17 +46,11 @@ This article helps you customize the Project Power App to meet the standards tha
 
 Project for the web uses [Teams Groups](/microsoftteams/office-365-groups) and [policies](/microsoftteams/policy-assignment-overview) to determine who has permissions required for various activities.
 
-The Project Power App also lets you use Dataverse security roles to control access to specific tables, and Dataverse column security to restrict access for specific fields.
-
 ### Set up Project for the web security
 
 1. If you haven't already, [set up Teams Groups](/microsoftteams/office-365-groups#how-microsoft-365-groups-work-with-teams) for people in your organization.
 1. [Assign policies to groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-a-group) to establish things all group members can do.
 1. If needed, set up [external access](/microsoftteams/manage-external-access) to let people outside your organization work on projects.
-
-### Add Dataverse security in the Project Power App
-
-- If needed, [restrict access to specific fields](/power-platform/admin/set-up-security-permissions-field).
 
 ## Data in Project for the web
 
@@ -103,15 +99,15 @@ Power Automate provides logical flows for data in Project for the web. To automa
 
 For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
 
-> [!NOTE]
-> It's also possible to edit project data via the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
+> [!IMPORTANT]
+> The Dataverse connector cannot edit project data or create rows, except in the *project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## UI components
 
 To customize the Project for the web UI, you modify or create views and forms in the Project Power App.
 
-- Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters.
-- Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects.
+- Views define how to display a list of rows for a specific table in your application. Each view definition contains which columns to display, the width of each column, and default row sorting behavior and filters. For example, **My Active Projects** only displays projects for the current user where the project's *State* is *Active*.
+- Forms present a set of data-entry columns for a given table, and provide the interface for people working with projects. For example, the *Information* form is the default main form&mdash;it displays details about a project. A form can have tabs to help organize the data into subjects, such as Tasks or Resources.
 
 ### Create a view in the Project Power App
 
