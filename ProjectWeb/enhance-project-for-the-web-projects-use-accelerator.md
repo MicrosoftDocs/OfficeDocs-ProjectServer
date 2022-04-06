@@ -50,7 +50,7 @@ The Accelerator adds a *Project Request* table that your teams can use to propos
 
 1. The proposal's *Request State* is *New*.
 
-  :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
+   :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
 
 1. Enter a value for **Name**, then provide as much additional information about the request as you can. The person who can approve proposals will use it to decide whether to approve this one.
 1. After you finish adding more data, on the command bar select **Save and Close**.
