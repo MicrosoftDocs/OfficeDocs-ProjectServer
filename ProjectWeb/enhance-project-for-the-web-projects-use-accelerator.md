@@ -38,8 +38,6 @@ The Accelerator adds a *Project Request* table that your teams can use to propos
 
 > [!NOTE]
 > Your admin must turn the cloud flow on so the approval of a request will create a new project. However, you can still add project ideas to the Project Request table. When the cloud flow is turned on, your ideas can be approved and become projects.
->
-> :::image type="content" source="media/p4w-accelerator-flow-is-on.png" alt-text="Check the command bar to see whether the flow is turned on":::
 
 ### Propose a project
 
@@ -57,20 +55,33 @@ The Accelerator adds a *Project Request* table that your teams can use to propos
 
   :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
 
-### Approve a project request
+### Review a project request
 
 1. In the navigation pane, select **Project Request**.
-1. Select the request, then select the arrow on the right edge of its record to open the form.
+1. Switch to the **New Project Requests** view.
 
-   :::image type="content" source="media/p4w-accelerator-open-request.png" alt-text="Select a new request and open it":::
+   :::image type="content" source="media/p4w-accelerator-review-new-project-request.png" alt-text="Use the view selector to display only new requests.":::
 
-1. Set **Request State** to *Approved* and save the record.
+1. Select the request, and then on the command bar select **Edit**.
 
-  :::image type="content" source="media/p4w-accelerator-approve-request.png" alt-text="Approve a Project Request to turn it into a Project":::
+   :::image type="content" source="media/p4w-accelerator-edit-project-request.png" alt-text="Select a project request and open it for editing.":::
 
-1. In a few moments, the project appears as a new record in *Project*.
+1. Set **Request State** to *In Review*, and then on the command bar select **Save**. The request stops appearing in the New Project Requests view, so others won't think it still needs reviewing.
 
-  :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
+   :::image type="content" source="media/p4w-accelerator-set-request-status-to-in-review.png" alt-text="Approve a Project Request to turn it into a Project":::
+
+1. Review the Project Request's details, and then act accordingly:
+
+    - To ask the requestor for more details, set **Request Status** back to *New*, and specify what details are missing by editing **Details**. Then on the command bar select **Assign**, assign it to the person listed in **Requested By**, and then select **Save and Close**.
+
+       :::image type="content" source="media/p4w-accelerator-send-back-project-request.png" alt-text="Send a project request back to get more details.":::
+
+    - To have someone else decide, select **Assign** on the command bar, choose the new reviewer, and then select **Save and Close**
+    - If you've got enough detail and can make the decision, set **Request Status** to *Approved* or *Rejected* per your decision, and then select **Save and Close**.
+
+1. If you approved the request, in a few moments, the project request appears as a new record in *Project* with *Stage* set to *Create*. You can sort projects by the value of *Stage* or even create a view that filters by that value.
+
+   :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
 
 ## Scenario: Programs
 
@@ -154,7 +165,7 @@ For this scenario, the Accelerator adds two tables:
 - *Risk* lets you track risks associated with completing a project.
 - *Issue* lets you track issues that hinder the completion of a project.
 
-The Accelerator also creates relationships between these tables and the *Project* table, so that each becomes a lookup column. It adds them to the Information form as tabs where you can add and edit risks and issues for the open project.
+The Accelerator also creates relationships between these tables and the *Project* table, where each becomes a lookup column. It adds them to the Information form as tabs containing lists so you can add and edit risks and issues for the open project.
 
 ### Add or edit a risk or issue
 
