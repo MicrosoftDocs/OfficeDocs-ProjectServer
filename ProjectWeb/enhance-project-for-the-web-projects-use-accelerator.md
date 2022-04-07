@@ -170,11 +170,13 @@ Four Accelerator scenarios add depth&mdash;they provide deeper functionality wit
 
 ### Project tabs and list views
 
-For the depth scenarios, the Accelerator adds a tab to the Project Information form, and puts a list view on the tab where you can add items that provide a deeper perspective on the project. For Risks, Issues, and Changes, these work basically the same. For Status, the tab displays additional fields above the list view.
-
-:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
+For the depth scenarios, the Accelerator adds a tab to the Project Information form, and puts a list view on the tab where you can add items that provide a deeper perspective on the project. For Risks, Issues, and Changes, these work basically the same.
 
 :::image type="content" source="media/p4w-accelerator-depth-tabs.png" alt-text="Work on items directly in the list view.":::
+
+For Status, the tab displays additional fields above the list view.
+
+:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
 
 - The view selector lets you choose a different view that lists different items, such as *My Active Risks*.
 - The list displays key fields for each item, and lets you sort the listed items by field values.
