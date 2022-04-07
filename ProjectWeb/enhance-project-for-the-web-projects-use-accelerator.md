@@ -20,23 +20,15 @@ Project for the web is convenient and easy-to-use. Because it's based on the Mic
 - Your environment must have the Project for the web Accelerator solution deployed and enabled by your admin.
 - You'll need to belong to a group that has the security roles required for creating or editing projects in Project for the web.
 
-## Scenarios added by the Accelerator
+## Accelerator breadth scenarios
 
-💡 **Project Requests** &mdash; Capture ideas for potential new projects, . flow creates a project when a request is set to *Approved*.
+Three of the scenarios added by the Accelerator add breadth&mdash;they extend functionality beyond projects.
 
-💼 **Programs** &mdash; Create groups of related projects to improve coordination of resources and efforts, and clarify the bigger picture.
+💡 **Project Requests** Adds an idea incubator: You can capture ideas for potential new projects, and spend some time developing a business case for turning them into projects. Change the *State* to advance the request.When *State* is set to *Active* a flow automatically creates a new project with *Stage* set to *Create*.
 
-🔥 **Risks** &mdash; Create and assign project threats that have financial implications so you can develop mitigation strategies and contingency plans.
+💼 **Programs** Adds a level at the top of the hierarchy: You can add projects to a program to improve coordination of resources and efforts, and to create a bigger picture of your organizational initiatives.
 
- **Issues** &mdash; Capture disruptions that pop-up and assign them to minimize impacts to a project's schedule.
 
-🚧 **Changes**. Use change tracking processes to manage changes and help understand the history of a project.
-
-📝 **Status**. Centralize recording of project status to keep stakeholders up-to-date.
-
-## Scenario features
-
-All the Accelerator scenarios have features in common, especially *Risks*, *Issues*, and *Changes*
 
 ## Scenario: Project Requests
 
@@ -164,42 +156,39 @@ The Home Dashboard also has two charts that summarize your programs.
 > [!TIP]
 > If your admin has deployed the Power BI template for the Accelerator, in the navigation pane, select **Reports** to see what's available.
 
-## Scenario: Risks and Issues
+## Accelerator depth scenarios: track more details about each project
 
-For this scenario, the Accelerator adds two tables:
+Four Accelerator scenarios add depth&mdash;they provide deeper functionality within projects.
 
-- *Risk* lets you track risks associated with completing a project.
-- *Issue* lets you track issues that hinder the completion of a project.
+🔥 **Risks** Adds tracking for significant project threats with financial implications. You can then review them periodically with the right stakeholders to develop mitigation strategies and contingency plans, and decide when it's time to implement them.
 
-The Accelerator also creates relationships between these tables and the *Project* table, where each becomes a lookup column. It adds them to the Information form as tabs containing lists so you can add and edit risks and issues for the open project.
+**Issues** Adds management of unexpected obstacles that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
 
-### Add or edit a risk or issue
+🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history how the project changed over time.
 
-1. Open the relevant project.
-1. Select a tab:
+📝 **Status** Adds detailed status information, and lets you create reports about a project to keep stakeholders up-to-date.
 
-   - To flag an issue that threatens the project's progress, select **Issues**.
-   - To flag a risk that could result from the completion of a project, select **Risks**.
+### Project tabs and list views
 
-1. A list of related risks or issues appears on the tab.
+For the depth scenarios, the Accelerator adds a tab to the Project Information form, and puts a list view on the tab where you can add items that provide a deeper perspective on the project. For Risks, Issues, and Changes, these work basically the same. For Status, the tab displays additional fields above the list view.
 
-    On the list's command bar, you can do any of the following actions. If the command isn't displayed, select the vertical dots on the right edge of the command bar to see a menu:
-    - To create a new item, select **+ New Risk** or **+ New Issue**.
-    - To add an item that already exists (a common risk or issue), select **Add Existing Risk** or **Add Existing Issue**.
-    - You can open a listed risk or issue, but you can only edit the record if it's *State* is *Active*. To open an item, set the checkmark at the left edge of its row.
+:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
 
-    :::image type="content" source="media/p4w-accelerator-edit-risk.png" alt-text="Select a list item and then select Edit on the command bar.":::
+:::image type="content" source="media/p4w-accelerator-depth-tabs.png" alt-text="Work on items directly in the list view.":::
 
+- The view selector lets you choose a different view that lists different items, such as *My Active Risks*.
+- The list displays key fields for each item, and lets you sort the listed items by field values.
+- The row of letters lets you filter the items using their names' first letter.
+- The list command bar offers commands for creating and working with listed items.
 
-## Scenario: Changes
+#### Create a new item in a list view
 
-For this scenario, the Accelerator adds a *Changes* tab to the *Project* table's Information form. The tab holds a list where you can add, edit, and review changes for that project.
-
-### Add a change
+> [!NOTE]
+> For clarity, this procedure assumes you are creating a new change. For risks or issues, the UI will depict Risks or Issues instead of Changes.
 
 1. Open the relevant project.
 1. Select the **Changes** tab.
-1. A list appears on the tab. If there aren't any changes yet, the list is empty.
+1. On the view selector select **All Changes**.
 
     The list's command bar displays available commands. If the command you want isn't displayed, select the vertical dots at the right edge of the command bar to open a menu:
 
@@ -208,8 +197,22 @@ For this scenario, the Accelerator adds a *Changes* tab to the *Project* table's
     - To create a new item, select **+ New Change**.
     - To add a change that already exists in another project, select **Add Existing Change**.
 
+#### Edit an item in a list view
 
-## Scenario: Status
+1. Open the project and select the relevant tab.
+1. Switch views if needed, and then select the item's row in the list.
+1. On the list's command bar, select **Edit**.
+1. If the item isn't Activated, the record will be read-only. To edit, select **Activate** on the command bar.
+
+    :::image type="content" source="media/p4w-accelerator-activate-risk.png" alt-text="Activate an item to enable editing.":::
+
+### Scenario: Risks
+<!--Specific advice for the Risks main form-->
+### Scenario: Issues
+<!--Specific advice for the Issues main form-->
+### Scenario: Changes
+<!--Specific advice for the Changes main form-->
+### Scenario: Status
 
 The Accelerator adds a *Status* table, and creates a relationship between it and the *Project* table. It also adds a **Status** tab to the *Project* table's Information form.
 
