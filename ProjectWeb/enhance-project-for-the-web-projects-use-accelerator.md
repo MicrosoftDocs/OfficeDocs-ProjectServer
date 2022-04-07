@@ -20,24 +20,20 @@ Project for the web is convenient and easy-to-use. Because it's based on the Mic
 - Your environment must have the Project for the web Accelerator solution deployed and enabled by your admin.
 - You'll need to belong to a group that has the security roles required for creating or editing projects in Project for the web.
 
-## Accelerator breadth scenarios
-
-Three of the scenarios added by the Accelerator add breadth&mdash;they extend functionality beyond projects.
+## Accelerator scenarios for extending overall project management
 
 💡 **Project Requests** Adds an idea incubator: You can capture ideas for potential new projects, and spend some time developing a business case for turning them into projects. Change the *State* to advance the request.When *State* is set to *Active* a flow automatically creates a new project with *Stage* set to *Create*.
 
 💼 **Programs** Adds a level at the top of the hierarchy: You can add projects to a program to improve coordination of resources and efforts, and to create a bigger picture of your organizational initiatives.
 
-
-
 ## Scenario: Project Requests
 
-The Accelerator adds a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
+The Accelerator uses a *Project Request* table that your teams can use to propose new projects, and a Power Automate cloud flow to create a project when a project request is approved.
 
 > [!NOTE]
 > Your admin must turn the cloud flow on so the approval of a request will create a new project. However, you can still add project ideas to the Project Request table. When the cloud flow is turned on, your ideas can be approved and become projects.
 
-### Propose a project
+### Add a project request
 
 1. In the navigation pane, select **Project Request**.
 1. On the command bar, select **New**.
@@ -83,7 +79,7 @@ The Accelerator adds a *Project Request* table that your teams can use to propos
 
 ## Scenario: Programs
 
-The Accelerator adds a *Program* table that enables summary tracking of related projects. This creates a hierarchy so your organization can review ongoing work without opening each project to review the details. Various tabs on the Information form let your organization prioritize efforts on projects on the basis of such things as expected financial returns and current status.
+The Accelerator uses a *Program* table that enables summary tracking of related projects. You can thereby create a hierarchy for your organization to review ongoing related projects without opening each project to review the details. You can then prioritize efforts across projects on the basis of such things as expected financial returns and current status.
 
 :::image type="content" source="media/p4w-accelerator-programs.png" alt-text="The Active Programs view lists key fields for listed programs. 1, Set the checkmark at the left edge of the row to choose a program. 2, Select the arrow at the right edge to open the program. 3, Or, choose an action on the command bar to apply the action to the selected program.":::
 
@@ -99,10 +95,10 @@ The Accelerator adds a *Program* table that enables summary tracking of related 
 
 1. Open Project for the web.
 1. In the navigation pane, select **Program**.
-1. The default main form opens (Information) and displays the default view of programs (Active Programs). You might want to switch to a different view.
+1. The default main form opens (Information) and displays the default view of programs (Active Programs). You can switch to a different view if you aren't finding the program you want.
 
    > [!NOTE]
-   > Your admin can change both defaults, so your experience may differ somewhat. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
+   > Your admin can change both the default form and the default view, so your experience may differ somewhat. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
 
 1. On the command bar, select **+ New**.
 
@@ -135,7 +131,7 @@ When you review a program, it might not display all the latest project informati
 
    :::image type="content" source="media/p4w-accelerator-refresh-program-projects.png" alt-text="Refresh the projects in a program.":::
 
-### Reporting
+### Program Reporting
 
 Each program you create has charts depicting various aspects of the program's status and value.
 
@@ -156,7 +152,7 @@ The Home Dashboard also has two charts that summarize your programs.
 > [!TIP]
 > If your admin has deployed the Power BI template for the Accelerator, in the navigation pane, select **Reports** to see what's available.
 
-## Accelerator depth scenarios: track more details about each project
+## Accelerator scenarios to track more details about each project
 
 Four Accelerator scenarios add depth&mdash;they provide deeper functionality within projects.
 
@@ -168,25 +164,25 @@ Four Accelerator scenarios add depth&mdash;they provide deeper functionality wit
 
 📝 **Status** Adds detailed status information, and lets you create reports about a project to keep stakeholders up-to-date.
 
-### Project tabs and list views
+### Project tabs and list views for Risks, Issues, Changes, and Status
 
-For the depth scenarios, the Accelerator adds a tab to the Project Information form, and puts a list view on the tab where you can add items that provide a deeper perspective on the project. For Risks, Issues, and Changes, these work basically the same.
+For each of these scenarios, the Accelerator adds a tab to the Project Information form, with a list view on the tab. There, you can add items that provide a focused perspective on project progress. For the **Risks**, **Issues**, and **Changes** tabs these work basically the same.
 
 :::image type="content" source="media/p4w-accelerator-depth-tabs.png" alt-text="Work on items directly in the list view.":::
-
-For Status, the tab displays additional fields above the list view.
-
-:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
 
 - The view selector lets you choose a different view that lists different items, such as *My Active Risks*.
 - The list displays key fields for each item, and lets you sort the listed items by field values.
 - The row of letters lets you filter the items using their names' first letter.
 - The list command bar offers commands for creating and working with listed items.
 
-#### Create a new item in a list view
+The **Status** tab displays additional fields above the list view.
+
+:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
+
+#### Create a new item in a tab's list view
 
 > [!NOTE]
-> For clarity, this procedure assumes you are creating a new change. For risks or issues, the UI will depict Risks or Issues instead of Changes.
+> To save you time reading, this procedure uses the **Changes** tab as an example.
 
 1. Open the relevant project.
 1. Select the **Changes** tab.
@@ -201,12 +197,12 @@ For Status, the tab displays additional fields above the list view.
 
 #### Edit an item in a list view
 
-1. Open the project and select the relevant tab.
+1. Open the project and select the **Changes** tab.
 1. Switch views if needed, and then select the item's row in the list.
 1. On the list's command bar, select **Edit**.
 1. If the item isn't Activated, the record will be read-only. To edit, select **Activate** on the command bar.
 
-    :::image type="content" source="media/p4w-accelerator-activate-risk.png" alt-text="Activate an item to enable editing.":::
+    :::image type="content" source="media/p4w-accelerator-activate-change.png" alt-text="Activate an item to enable editing.":::
 
 ### Scenario: Risks
 <!--Specific advice for the Risks main form-->
