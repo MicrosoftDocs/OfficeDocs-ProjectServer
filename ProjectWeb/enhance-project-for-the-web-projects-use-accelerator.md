@@ -158,13 +158,13 @@ Four Accelerator scenarios add depth&mdash;they provide deeper functionality wit
 
 🔥 **Risks** Adds tracking for significant project threats with financial implications. You can then review them periodically with the right stakeholders to develop mitigation strategies and contingency plans, and decide when it's time to implement them.
 
-**Issues** Adds management of unexpected obstacles that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
+🐛 **Issues** Adds management of unexpected obstacles that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
 
 🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history how the project changed over time.
 
 📝 **Status** Adds detailed status information, and lets you create reports about a project to keep stakeholders up-to-date.
 
-### Project tabs and list views for Risks, Issues, Changes, and Status
+### Project tabs with list views: Risks, Issues, Changes, and Status
 
 For each of these scenarios, the Accelerator adds a tab to the Project Information form, with a list view on the tab. There, you can add items that provide a focused perspective on project progress. For the **Risks**, **Issues**, and **Changes** tabs these work basically the same.
 
@@ -179,10 +179,10 @@ The **Status** tab displays additional fields above the list view.
 
 :::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
 
-#### Create a new item in a tab's list view
+#### Add an item in a tab's list view
 
 > [!NOTE]
-> To save you time reading, this procedure uses the **Changes** tab as an example.
+> To save you time reading, this procedure uses the **Changes** tab as an example, but it also works on the **Risks** and **Issues**, and **Status** tabs&mdash;the command text will reflect the type of item you add.
 
 1. Open the relevant project.
 1. Select the **Changes** tab.
@@ -197,6 +197,9 @@ The **Status** tab displays additional fields above the list view.
 
 #### Edit an item in a list view
 
+> [!NOTE]
+> To save you time reading, this procedure uses the **Changes** tab as an example, but it also works on the **Risks**, **Issues**, and **Status** tabs&mdash;the command text will reflect the type of item you edit.
+
 1. Open the project and select the **Changes** tab.
 1. Switch views if needed, and then select the item's row in the list.
 1. On the list's command bar, select **Edit**.
@@ -205,14 +208,54 @@ The **Status** tab displays additional fields above the list view.
     :::image type="content" source="media/p4w-accelerator-activate-change.png" alt-text="Activate an item to enable editing.":::
 
 ### Scenario: Risks
-<!--Specific advice for the Risks main form-->
+
+Risks can wreak havoc on a project's budget or schedule. That's why it's vital to identify significant risks early, track them, and develop mitigation and contingency plans. The Information form for Risks helps you do just that.
+
+:::image type="content" source="media/p4w-accelerator-risk-info-form.png" alt-text="The Information form for Risks.":::
+
+#### Create a new risk
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+
+    - For **Impact**, you should perform some analysis to arrive at a defensible value. Don't just guess, because other fields use this value in calculations, and decision-makers use it to justify mitigation and contingency plans.
+    - By creating the risk, you are listed as **Owner**, but you can change that to someone who is a valid delegate.
+
+    :::image type="content" source="media/p4w-accelerator-new-risk-info-form.png" alt-text="{alt-text}":::
+
+1. Fill out as much additional information as you can support with data or documentation. Try to select the most appropriate value for **Category** or just leave it empty. Views might include **Category** as a means of filtering or sorting lists of risks.
+
+    :::image type="content" source="media/p4w-accelerator-risk-info-form-category.png" alt-text="Pick the best category or leave it blank":::
+
+    > [!TIP]
+    > To create a risk "template", when you're done editing a risk, on the command bar select **Save** and then select **New**. A new risk opens with no value for **Project**. Add values for the required fields and any others you want in your "template", and then on the command bar select **Save and Close**. Your "template" risk will be available as an existing risk you can add to projects.
+
 ### Scenario: Issues
-<!--Specific advice for the Issues main form-->
+
+Sometimes things don't go as planned: a resource might suddenly become unavailable, a planned change to one thing breaks something else&mdash;issues pop-up. If a problem wasn't anticipated, you track it as an issue to minimize the impact it might have on your project. The Information form for Issues can help.
+
+#### Create a new issue
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+
 ### Scenario: Changes
-<!--Specific advice for the Changes main form-->
+
+During project execution, you might need to adjust something, perhaps because of a newly-identified risk or a sudden issue, or perhaps because of a new related opportunity. Changes give you a way to propose and develop modifications to meet these new circumstances. They also provide a history, a way for you to examine your project post-completion and learn how you might adjust your methods and practices.
+  
+#### Create a new change
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+
 ### Scenario: Status
 
 The Accelerator adds a *Status* table, and creates a relationship between it and the *Project* table. It also adds a **Status** tab to the *Project* table's Information form.
+
+#### Create a new status report
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
 
 ## Next steps
 
