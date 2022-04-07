@@ -22,15 +22,21 @@ Project for the web is convenient and easy-to-use. Because it's based on the Mic
 
 ## Scenarios added by the Accelerator
 
-💡 **Project Requests**. Create a list for project ideas that include a business case and expected impact. The included Power Automate flow creates a project when a request is set to *Approved*.
+💡 **Project Requests** &mdash; Capture ideas for potential new projects, . flow creates a project when a request is set to *Approved*.
 
-💼 **Programs**. Create a hierarchy of programs and projects see how work fits into the bigger picture.
+💼 **Programs** &mdash; Create groups of related projects to improve coordination of resources and efforts, and clarify the bigger picture.
 
-🔥 **Risks and Issues**. Manage the surprises that accompany every project. Create and assign risks and issues to minimize impacts to a project's schedule.
+🔥 **Risks** &mdash; Create and assign project threats that have financial implications so you can develop mitigation strategies and contingency plans.
+
+ **Issues** &mdash; Capture disruptions that pop-up and assign them to minimize impacts to a project's schedule.
 
 🚧 **Changes**. Use change tracking processes to manage changes and help understand the history of a project.
 
 📝 **Status**. Centralize recording of project status to keep stakeholders up-to-date.
+
+## Scenario features
+
+All the Accelerator scenarios have features in common, especially *Risks*, *Issues*, and *Changes*
 
 ## Scenario: Project Requests
 
@@ -170,9 +176,9 @@ The Accelerator also creates relationships between these tables and the *Project
 ### Add or edit a risk or issue
 
 1. Open the relevant project.
-1. Select the relevant tab:
+1. Select a tab:
 
-   - To flag an issue that is or could be blocking the project's progress, select **Issues**.
+   - To flag an issue that threatens the project's progress, select **Issues**.
    - To flag a risk that could result from the completion of a project, select **Risks**.
 
 1. A list of related risks or issues appears on the tab.
@@ -180,15 +186,28 @@ The Accelerator also creates relationships between these tables and the *Project
     On the list's command bar, you can do any of the following actions. If the command isn't displayed, select the vertical dots on the right edge of the command bar to see a menu:
     - To create a new item, select **+ New Risk** or **+ New Issue**.
     - To add an item that already exists (a common risk or issue), select **Add Existing Risk** or **Add Existing Issue**.
-    - You can select an existing risk or issue to open the record, but you can only edit the record if it's *State* is  *Active*. To select an item, select the left edge of its row in the list. The **Edit** command will appear on the command bar.
+    - You can open a listed risk or issue, but you can only edit the record if it's *State* is *Active*. To open an item, set the checkmark at the left edge of its row.
 
-   :::image type="content" source="media/p4w-accelerator-edit-risk.png" alt-text="Select a list item and then select Edit on the command bar.":::
+    :::image type="content" source="media/p4w-accelerator-edit-risk.png" alt-text="Select a list item and then select Edit on the command bar.":::
 
-1. Add details to the risk or issue. When you are done, on the command bar select **Save** or **Save and Close**.
 
 ## Scenario: Changes
 
-The Accelerator adds a *Change* table, and creates a relationship between it and the *Project* table. It also adds a **Changes** tab to the *Project* table's Information form.
+For this scenario, the Accelerator adds a *Changes* tab to the *Project* table's Information form. The tab holds a list where you can add, edit, and review changes for that project.
+
+### Add a change
+
+1. Open the relevant project.
+1. Select the **Changes** tab.
+1. A list appears on the tab. If there aren't any changes yet, the list is empty.
+
+    The list's command bar displays available commands. If the command you want isn't displayed, select the vertical dots at the right edge of the command bar to open a menu:
+
+    :::image type="content" source="media/p4w-accelerator-changes-tab.png" alt-text="The Changes tab with no changes listed and the list's command bar menu open.":::
+
+    - To create a new item, select **+ New Change**.
+    - To add a change that already exists in another project, select **Add Existing Change**.
+
 
 ## Scenario: Status
 
