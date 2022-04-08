@@ -274,9 +274,6 @@ The Accelerator uses the *Status* table to add a **Status** tab to the *Project*
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
-
-    :::image type="content" source="media/p4w-accelerator-new-status-report.png" alt-text="A blank new Status Report.":::
-
 1. Much of the value of the report is its narrative quality, so you might want to complete it during several editing sessions. If so, on the command bar select **Save** if you plan to begin composing now, or **Save and Close** if you have a more immediate task at hand.
 1. When you have completed your report, choose a value for **Submitted To**, and then on the command bar select **Save and Close**.
 
