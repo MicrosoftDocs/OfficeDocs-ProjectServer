@@ -22,7 +22,7 @@ Project for the web is convenient and easy-to-use. Because it's based on the Mic
 
 ## Accelerator scenarios for extending overall project management
 
-💡 **Project Requests** Adds an idea incubator: You can capture ideas for potential new projects, and spend some time developing a business case for turning them into projects. Change the *State* to advance the request.When *State* is set to *Active* a flow automatically creates a new project with *Stage* set to *Create*.
+💡 **Project Requests** Adds an idea incubator: You can capture ideas for potential new projects, and spend some time developing a business case for turning them into projects. Change the *State* to advance the request. When *State* is set to *Active* a flow automatically creates a new project with *Stage* set to *Create*.
 
 💼 **Programs** Adds a level at the top of the hierarchy: You can add projects to a program to improve coordination of resources and efforts, and to create a bigger picture of your organizational initiatives.
 
@@ -156,9 +156,9 @@ The Home Dashboard also has two charts that summarize your programs.
 
 Four Accelerator scenarios add depth&mdash;they provide deeper functionality within projects.
 
-🔥 **Risks** Adds tracking for significant project threats with financial implications. You can then review them periodically with the right stakeholders to develop mitigation strategies and contingency plans, and decide when it's time to implement them.
+🔥 **Risks** Adds tracking for significant potential threats with financial implications. Periodically review these risks with the right stakeholders to develop mitigation and contingency plans, and decide when it's time to implement them.
 
-🐛 **Issues** Adds management of unexpected obstacles that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
+🐛 **Issues** Adds management of unexpected problems that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
 
 🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history how the project changed over time.
 
@@ -207,13 +207,13 @@ The **Status** tab displays additional fields above the list view.
 
     :::image type="content" source="media/p4w-accelerator-activate-change.png" alt-text="Activate an item to enable editing.":::
 
-### Scenario: Risks
+## Scenario: Risks
 
 Risks can wreak havoc on a project's budget or schedule. That's why it's vital to identify significant risks early, track them, and develop mitigation and contingency plans. The Information form for Risks helps you do just that.
 
 :::image type="content" source="media/p4w-accelerator-risk-info-form.png" alt-text="The Information form for Risks.":::
 
-#### Create a new risk
+### Add a risk to a project
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
@@ -228,34 +228,57 @@ Risks can wreak havoc on a project's budget or schedule. That's why it's vital t
     :::image type="content" source="media/p4w-accelerator-risk-info-form-category.png" alt-text="Pick the best category or leave it blank":::
 
     > [!TIP]
-    > To create a risk "template", when you're done editing a risk, on the command bar select **Save** and then select **New**. A new risk opens with no value for **Project**. Add values for the required fields and any others you want in your "template", and then on the command bar select **Save and Close**. Your "template" risk will be available as an existing risk you can add to projects.
+    > If your projects are prone to a certain variety of risk, consider creating a risk "template": When you're done editing a risk, on the command bar select **Save** and then select **New**. A new risk opens with no value for **Project**. Add values for the required fields and any others you want in your "template", and then on the command bar select **Save and Close**. Your "template" risk will be available as an existing risk you can add to projects.
 
-### Scenario: Issues
+## Scenario: Issues
 
-Sometimes things don't go as planned: a resource might suddenly become unavailable, a planned change to one thing breaks something else&mdash;issues pop-up. If a problem wasn't anticipated, you track it as an issue to minimize the impact it might have on your project. The Information form for Issues can help.
+Sometimes things don't go as planned: a resource might suddenly become unavailable, a planned change to one thing breaks something else&mdash;issues pop-up. When an unpleasant surprise arrives, track it as an issue to minimize the impact to your project.
 
-#### Create a new issue
+> [!NOTE]
+> Risks and Issues may seem quite alike, but there are some key differences:
+>
+> - An issue has already happened, whereas a risk is a possibility.
+> - A risk involves some degree of financial threat, whereas any costs associated with an issue have either already been incurred or are insignificant.
+> - Risks are usually broader in scope than issues.
+
+### Add an issue to a project
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
-1. Enter values in all the required fields (they're marked with asterisks).
+1. Enter a value for **Name**.
+1. By creating the risk, you are listed as **Owner**, but you can change that to someone who is a valid delegate.
+1. Although you can save an issue with just a name and an owner, you should enter a **Description** sufficient for suggesting the eventual **Resolution**.
+1. If you have suitable delegates, you can choose values for **AssignedTo** and **Due Date**, set **State** to **Active**, and then on the command bar select **Save and Close**.
 
-### Scenario: Changes
+    :::image type="content" source="media/p4w-accelerator-activate-issue.png" alt-text="Set an issue's State to Active.":::
 
-During project execution, you might need to adjust something, perhaps because of a newly-identified risk or a sudden issue, or perhaps because of a new related opportunity. Changes give you a way to propose and develop modifications to meet these new circumstances. They also provide a history, a way for you to examine your project post-completion and learn how you might adjust your methods and practices.
+## Scenario: Changes
+
+During project execution, you might need to change course&mdash;perhaps a spark of inspiration hits (or maybe a grim realization). The Changes scenario provides an incubator for ideas within projects (somewhat like the Project Request scenario).
+
+Changes also provide a history of the execution of a project, a way for you to examine your project post-completion and learn how you might adjust your methods and practices.
   
-#### Create a new change
+### Propose a change to a project
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
 
-### Scenario: Status
+<!-- I need some guidance because I could really rabbit-hole here-->
 
-The Accelerator adds a *Status* table, and creates a relationship between it and the *Project* table. It also adds a **Status** tab to the *Project* table's Information form.
+## Scenario: Status
 
-#### Create a new status report
+The Accelerator uses the *Status* table to add a **Status** tab to the *Project* table's Information form. Various indicators occupy the upper portion of the tab, and the lower portion contains a list view for Status Reports.
+
+:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="The Status tab has various project health indicators at the top, and a list view of Status Reports at the bottom.":::
+
+### Create a new status report
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
+
+    :::image type="content" source="media/p4w-accelerator-new-status-report.png" alt-text="A blank new Status Report.":::
+
+1. Much of the value of the report is its narrative quality, so you might want to complete it during several editing sessions. If so, on the command bar select **Save** if you plan to begin composing now, or **Save and Close** if you have a more immediate task at hand.
+1. When you have completed your report, choose a value for **Submitted To**, and then on the command bar select **Save and Close**.
 
 ## Next steps
 
