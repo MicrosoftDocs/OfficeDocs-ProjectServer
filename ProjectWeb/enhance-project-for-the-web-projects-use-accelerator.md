@@ -177,7 +177,7 @@ For each of these scenarios, the Accelerator adds a tab to the Project Informati
 
 The **Status** tab displays additional fields above the list view.
 
-:::image type="content" source="media/p4w-accelerator-status-tab.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
+:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
 
 #### Add an item in a tab's list view
 
