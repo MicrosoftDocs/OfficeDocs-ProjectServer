@@ -24,6 +24,8 @@
 ### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 ### [Handling data for Project](handling-data-for-project-for-the-web-and-roadmap.md)
 ### [Remove Project for the web or Roadmap from Office 365](remove-roadmap-from-office-365.md)
+## [Project for the web Accelerator solution]()
+### [Enhance your projects with the Project for the web Accelerator](enhance-project-for-the-web-projects-use-accelerator.md)
 ## [Release notes]()
 ### [Project Service Core solution version history](project-service-core-solution-version-history.md)
 ### [Roadmap's Portfolio service solution version history](roadmap-version-history.md)

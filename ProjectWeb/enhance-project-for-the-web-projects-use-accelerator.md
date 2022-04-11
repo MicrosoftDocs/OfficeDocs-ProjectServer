@@ -13,7 +13,10 @@ audience: end user
 
 # Enhance your projects with the Project for the web Accelerator
 
-Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds five project management scenarios&mdash;the Project for the web Accelerator. This article shows you how to use it to enhance your projects in Project for the web.
+Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds six project management scenarios&mdash;the Project for the web Accelerator. This article explains how to use it to enhance your projects in Project for the web.
+
+> [!NOTE]
+> This article is intended for people using Project for the web to work on projects. 
 
 ## Prerequisites
 
@@ -47,7 +50,7 @@ The Accelerator uses a *Project Request* table that your teams can use to propos
 1. Enter a value for **Name**, then provide as much additional information about the request as you can. The person who can approve proposals will use it to decide whether to approve this one.
 1. After you finish adding more data, on the command bar select **Save and Close**.
 
-  :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
+   :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
 
 ### Review a project request
 
@@ -261,7 +264,7 @@ Changes also provide a history of the execution of a project, a way for you to e
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
-1.Add as much detail as you can, then save and close.
+1. Add as much detail as you can, then save and close.
 
 ## Scenario: Status
 
