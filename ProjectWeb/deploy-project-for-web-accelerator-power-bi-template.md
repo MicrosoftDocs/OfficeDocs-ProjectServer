@@ -17,7 +17,7 @@ Although people in your organization can start using Project for the web as soon
 
 ## Prerequisites
 
-- Admin rights in an environment with the [deployed Project for the web solution](/project-for-the-web/deploying-project)
+- Admin rights in an environment with the [deployed Project for the web solution](/project-for-the-web/deploying-project).
 - Rights to create Power Automate flows using the [Common Data Service connector](/connectors/commondataserviceforapps/).
 
 ## Scenarios added by the Accelerator
