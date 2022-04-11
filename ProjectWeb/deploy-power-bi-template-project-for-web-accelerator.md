@@ -31,7 +31,7 @@ We encourage you to further customize Project for the web to better meet your sp
 - Power BI Desktop and a Power BI Pro account
 - Rights to use the Common Data Service connector
 - An understanding of [managed solution layers](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution)
-- (Optional, but recommended) A [Developer plan](/power-apps/maker/developer-plan) so you can export your solution to easily deploy in other environments.
+- (Optional, but recommended) A [Developer plan](/power-apps/maker/developer-plan) so you can export your solution to easily deploy in other environments
 
 ## Deploy the Power BI template
 
@@ -39,7 +39,7 @@ We encourage you to further customize Project for the web to better meet your sp
 1. Open Power BI Desktop.
 1. Select **File** > **Import**, then select the downloaded template.
 1. When prompted for the environment url, use the base url of your development environment. For example: `https://mydevenvironment.crm.dynamics.com`
-1. Not the workspace where you save the report.
+1. Note the workspace where you save the report.
 1. To [ensure that your team will have access to the report, share it](/power-bi/collaborate-share/service-share-dashboards).
 
      - On the [Power BI portal](https://app.powerbi.com/), in the navigation pane select **Workplace** and then select the workspace where you put the report.
@@ -53,7 +53,7 @@ We encourage you to further customize Project for the web to better meet your sp
          :::image type="content" source="media/customize-project-accelerator-sharing-options-pbi-rpt.png" alt-text="Sharing options for granting access to the Power BI report":::
 
          > [!NOTE]
-         > You might want to repeat this process for several different groups, to control who can do what with the report in Project for the web.
+         > You might want to repeat this process for several different groups to control who can do what with the report in Project for the web.
 
 ## Create a managed solution for customizing Project for the web and the Accelerator
 
@@ -84,7 +84,7 @@ Like the Project Power App, the Accelerator is a [managed solution](/power-platf
 
 ### Example customization: add an action to send email when a Project Request is approved
 
-The cloud flow included with the *Project Requests* scenario is very simple: it creates a project from a request when *Request State* is set to *Approved*. By adding an action to the cloud flow, you can make it also send an email notification.
+The cloud flow included with the *Project Requests* scenario is very simple; it creates a project from a request when *Request State* is set to *Approved*. By adding an action to the cloud flow, you can make it also send an email notification.
 
 1. Open the [Power Apps Portal](https://make.powerapps.com) and select your development environment.
 1. In the list of solutions, select **Project for the Web Accelerator**.
@@ -112,7 +112,7 @@ The cloud flow included with the *Project Requests* scenario is very simple: it 
 1. Open the [Power Apps Portal](https://make.powerapps.com).
 1. In the navigation pane, select **Solutions**, and then select **Project for the Web Accelerator**.
 1. In the navigation pane, select **Cloud Flows**.
-1. Select the **When the request state is updated to Approved** flow. Then, on the command bar select **...** and then select **Turn Off**.
+1. Select the **When the request state is updated to Approved** flow. Then, on the command bar select the ellipses (**...**) and then select **Turn Off**.
 
     :::image type="content" source="media/customize-project-accelerator-turn-off-flow.png" alt-text="Turn off the flow":::
 
@@ -142,17 +142,17 @@ When you deploy the Accelerator, the Report menu points to a web resource file w
 1. In the **New Power BI embedded Dashboard** dialog, enter a **Display Name**, then select a **Power BI workspace** and **Power BI report**, and then select **Save**.
 1. Add the *Project* site map to your custom solution.
 
-     - On the command bar, select **Add existing** > **More** > **Site Map**
+     - On the command bar, select **Add existing** > **More** > **Site Map**.
      - Select the item with the **Name** *msdyn_ProjectServiceCore*, and then at the bottom of the dialog select **Add**.
 
 1. Select the **Project** site map, and then on the command bar select **Edit**.
 1. Select **Reporting** > **Reports**.
 
-     - Set **Type** to **Dashboard**
+     - Set **Type** to **Dashboard**.
      - For **Default Dashboard**, select the Power BI report, and then on the command bar select **Save and close**.
 
 1. Select **Publish**.
-1. Open Project for the web, and in the navigation pane select **Reports**
+1. Open Project for the web, and in the navigation pane select **Reports**.
 1. The Power BI embedded dashboard now appears.
 
     :::image type="content" source="media/powerbi-in-app-dashboard.png" alt-text="The Power BI report for the Accelerator, displayed in Project for the web.":::
@@ -190,7 +190,7 @@ The Accelerator includes a placeholder for the Power BI template. Once you've de
 1. Select **OK**.
 1. If it's not already there, add the *Project* site map to your custom solution.
 
-     - On the command bar, select **Add existing** > **More** > **Site Map**
+     - On the command bar, select **Add existing** > **More** > **Site Map**.
      - Select the item with the **Name** *msdyn_ProjectServiceCore*, and then at the bottom of the dialog select **Add**.
 
 1. On the command bar, select **Publish all Customizations**.

@@ -70,8 +70,8 @@ The following table lists known errors that sometimes appear while you are deplo
 | Error message | Fix |
 | :-- | :-- |
 | **There are missing dependencies. Install the following solutions before installing this one: "msdyn_ProjectServiceCore (1.0.0.87)".** | In the environment where you're deploying the Accelerator, select **Solutions** in the navigation pane. Find the *Project Service Core* solution, and then select **Update** next to the solution name. After the update is complete, deploy the Accelerator solution. |
-| **Failed to activate component(s). Flow save failed with code OpenApiOperationParameterValidationFailed and message Input parameter item validation failed in workflow operation...** | [Resolve flow errors](#resolve-flow-errors) |
-| **Flow save failed with code OpenApiOperationParameterValidationFailed and message Input parameter item validation failed in workflow operation Create_a_new_record: The API operation 'CreateRecord' is missing required property item/msdyn_schedulemode.** | [Resolve flow errors](#resolve-flow-errors) |
+| **Failed to activate component(s). Flow save failed with code OpenApiOperationParameterValidationFailed and message Input parameter item validation failed in workflow operation...** | [Resolve flow errors](#resolve-flow-errors). |
+| **Flow save failed with code OpenApiOperationParameterValidationFailed and message Input parameter item validation failed in workflow operation Create_a_new_record: The API operation 'CreateRecord' is missing required property item/msdyn_schedulemode.** | [Resolve flow errors](#resolve-flow-errors). |
 
 ### Resolve flow errors
 
