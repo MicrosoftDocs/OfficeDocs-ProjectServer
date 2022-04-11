@@ -261,8 +261,7 @@ Changes also provide a history of the execution of a project, a way for you to e
 
 1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
 1. Enter values in all the required fields (they're marked with asterisks).
-
-<!-- I need some guidance because I could really rabbit-hole here-->
+1.Add as much detail as you can, then save and close.
 
 ## Scenario: Status
 
