@@ -39,13 +39,27 @@ We encourage you to further customize Project for the web to better meet your sp
 1. Open Power BI Desktop.
 1. Select **File** > **Import**, then select the downloaded template.
 1. When prompted for the environment url, use the base url of your development environment. For example: `https://mydevenvironment.crm.dynamics.com`
-1. When you deploy the report, ensure that your team will have access to it. [Learn more about sharing in Power BI](/power-bi/collaborate-share/service-share-dashboards).
+1. Not the workspace where you save the report.
+1. To [ensure that your team will have access to the report, share it](/power-bi/collaborate-share/service-share-dashboards).
+
+     - On the [Power BI portal](https://app.powerbi.com/), in the navigation pane select **Workplace** and then select the workspace where you put the report.
+     - In the report's row select the three vertical dots to open the menu, and then select **Manage permissions**.
+         :::image type="content" source="media/customize-project-accelerator-sharing-choose-pbi-rpt-1.png" alt-text="Open the Power BI template report menu":::
+
+     - Under **Related content**, expand **Datasets**, and then select the report.
+         :::image type="content" source="media/customize-project-accelerator-sharing-choose-pbi-rpt-2.png" alt-text="{alt-text}":::
+
+     - In the **Grant people access** dialog, enter the email addresses of the Teams groups who need access, select the sharing options you want, and then select **Grant access**.
+         :::image type="content" source="media/customize-project-accelerator-sharing-options-pbi-rpt.png" alt-text="Sharing options for granting access to the Power BI report":::
+
+         > [!NOTE]
+         > You might want to repeat this process for several different groups, to control who can do what with the report in Project for the web.
 
 ## Create a managed solution for customizing Project for the web and the Accelerator
 
 To customize the Project Power App after deploying the Accelerator, create a new managed solution that contains the customizations, and then layer that solution over the Accelerator.
 
-Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update. 
+Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
 
 > [!TIP]
 > If you're a beginner to managed solutions, visit [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/) to prepare before your first try.
@@ -125,85 +139,66 @@ The Report menu currently points to a web resource file with instructions on how
 
     :::image type="content" source="media/add-embedded-report.png" alt-text="Add a Power BI embedded dashboard to your custom solution.":::
 
-1. Give the report a name and choose the workspace/report and save
-<!--I can't select a workspace - nothing happens, even though I successfully published the template to PowerBI.-->
-![Choose Power BI Report](images/choose_report.png)
+1. In the **New Power BI embedded Dashboard** dialog, enter a **Display Name**, then select a **Power BI workspace** and **Power BI report**, and then select **Save**.
+1. Add the *Project* site map to your custom solution.
 
-7.	If not already added, add the site map to the custom solution
-* Add existing -> more-> Site Map
-* Choose Project – msdyn_ProjectServiceCore 
-* Click add
-10.	Select the site map and click edit
-11.	Select the Reports option under Reporting
-* Select Type = Dashboard
-* Default Dashboard = choose the report from the drop down
-* Save and close
+     - On the command bar, select **Add existing** > **More** > **Site Map**
+     - Select the item with the **Name** *msdyn_ProjectServiceCore*, and then at the bottom of the dialog select **Add**.
 
-![Set Sitemap embedded report](images/new-embedded-report-site-map.png)
+1. Select the **Project** site map, and then on the command bar select **Edit**.
+1. Select **Reporting** > **Reports**.
 
-10.	Click Publish
-11.	Go back to the Project app and click Report
-12.	The report will now show up along other reports in the environment
+     - Set **Type** to **Dashboard**
+     - For **Default Dashboard**, select the Power BI report, and then on the command bar select **Save and close**.
 
-![Power BI reports in the Project Power App](images/powerbi-in-app-dashboard.png)
+1. Select **Publish**.
+1. Open Project for the web, and in the navigation pane select **Reports**
+1. The Power BI embedded dashboard now appears.
 
-#### Updating the report menu via Web resource (full frame)
+:::image type="content" source="media/powerbi-in-app-dashboard.png" alt-text="The Power BI re[ort for the Accelerator, displayed in Project for the web.":::
+
+### Update the report menu via Web resource (full frame)
 
 The Accelerator already contains a placeholder for the Power BI template. Once you've deployed the Accelerator and the Power BI template, follow these steps to have the Power BI report appear in the Accelerator.
 
 1. Once you've deployed the Power BI template, open the report in [PowerBI.com](https://www.powerbi.com).
-2. Press the file -> Embed Report -> Website or portal
+1. Select **File** > **Embed Report** > **Website or portal**.
+1. Copy the link labeled **Here's a link you can use to embed content** and keep it handy.
+1. Open the [Power Apps Portal](https://make.powerapps.com).
+1. Select the environment that contains the Accelerator.
+1. In the navigation pane, select **Solutions**, then select your custom managed solution, and the on the command bar select **Edit**.
+1. In the navigation pane, select **Objects**.
+1. On the command bar, select **New > More > Web resource**.
+1. Enter the following values:
+     - **Display Name** = *Accelerator Power BI report*
+     - **Name**: *Accelerator_report*
+     - **Type**: *Webpage HTML*
 
-![The website or portal menu option under the share button](images/share-powerbi-report.png)
+1. Create a new HTML file to upload with the following text, but change the value of **src** to the embedded string that you copied in step 3 of this procedure.
 
-3.	Copy the link in the top box ("Here's a link you can use to embed content") and keep it handy.
-
-![Embed link](images/reports-link-code.png)
-
-4.	Sign into [Power Apps](https://make.powerapps.com)
-5.	Select the environment containing the Accelerator
-6.	Select solutions -> the customized solution -> Edit
-7.	Select the Objects option
-8.	New -> more -> Web resource 
-9.	Set
-*	Display Name: Accelerator Power BI report
-* Name: Accelerator_report
-* Type: Webpage HTML
-
-
-
-10.	Create a new html file to upload with the follow text. Update the “REPLACE THIS” with the embedded string copied earlie
-
-```
-  <html>
-  <head>
-    </head>
-    <body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
+     ```html
+     <html>
+     <head>
+     </head>
+     <body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
       <iframe width="100%" height="100%" src="REPLACE THIS" frameborder="0" allowfullscreen="true"></iframe>
-    </body>
-  </html>
-```
+     </body>
+     </html>
+     ```
 
-11.	Press OK to save the changes and close the dialog.
-12.	If not already added, add the site map to the custom solution
-* Add existing -> more-> Site Map
-* Choose Project – msdyn_ProjectServiceCore 
-* Click add
-13.	Select the site map and click edit
-14.	Select the Reports option under Reporting
-* Select Type = Web Resource
-* URL = Accelerator Power BI report
+1. Select **OK**.
+1. If it's not already there, add the *Project* site map to your custom solution.
 
-![Set Sitemap web resource](images/set-report-web-resource-site-map.png)
+     - On the command bar, select **Add existing** > **More** > **Site Map**
+     - Select the item with the **Name** *msdyn_ProjectServiceCore*, and then at the bottom of the dialog select **Add**.
 
-* Save and close
-15.	Click Publish
-16.	Go back to the Project app and click Report
-17.	The report will now show up taking up the entire section
+1. On the command bar, select **Publish all Customizations**.
+1. Open Project for the web, and in the navigation pane, select **Reports**.
+1. The report now appears in Project for the web.
 
-![Power BI reports in the Project Power App](images/powerbi-in-app.png)
+:::image type="content" source="media/powerbi-in-app.png" alt-text="Power BI Project Accelerator report.":::
 
 ## Next steps
 
-- [Write how-to guides](contribute-how-to-write-howto.md)
-- [Links](links-how-to.md)
+- []()
+- []()
