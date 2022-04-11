@@ -1,6 +1,6 @@
 ---
 title: Create a solution to deploy the Power BI template for the Project for the web Accelerator
-description: analytics! visualize whirled peas 
+description: Deploy the Project Accelerator and the Power BI template into a development environment. Create and export a managed solution that integrates the Power BI template and your own customizations. Deploy your solution on top of your production Project for the web Accelerator
 author: v-stthomas
 ms.author: v-stthomas
 manager: deniseb
@@ -13,7 +13,7 @@ audience: admin
 
 # Create a managed solution to add the Power BI template to the Project for the web Accelerator
 
-The Project for the web Accelerator solution gives you a head start customizing Project for the web to support common project management scenarios. It's a managed solution, making it easy to deploy new versions as updates.
+The [Project for the web Accelerator solution](deploy-project-for-web-accelerator-power-bi-template.md) gives you a head start customizing Project for the web to support common project management scenarios. It's a managed solution, making it easy to deploy new versions as updates.
 
 We encourage you to further customize Project for the web to better meet your specific business needs, and we advise that you do so by creating your own solution to layer on top of the deployed Accelerator. One enhancement that's ready to go is the Power BI template for the Project for the web Accelerator. This article provides guidance for adding the Power BI template to your managed solution to deploy on top of the Accelerator.
 
@@ -79,7 +79,8 @@ Like the Project Power App, the Accelerator is a [managed solution](/power-platf
 
 1. Adjust the **Version** if you want, and then select **Create**. Your new solution opens.
 
-For additional options to create a custom solution, see [Create a solution](/powerapps/maker/data-platform/create-solution).
+> [!TIP]
+> For more options when you create a custom solution, go to [Create a solution](/powerapps/maker/data-platform/create-solution).
 
 ### Example customization: add an action to send email when a Project Request is approved
 
@@ -120,12 +121,11 @@ The cloud flow included with the *Project Requests* scenario is very simple: it 
 ## Modify the Project Accelerator – Reports menu to use the deployed template or any Power BI report
 
 > [!IMPORTANT]
-> You must first deploy the Power BI report to PowerBI.com
-> To preserve your ability to upgrade the Accelerator, [create a solution](/powerapps/maker/data-platform/create-solution) to contain your customizations.
+> You must first [deploy the Power BI report to PowerBI.com](#deploy-the-power-bi-template).
 
-The Report menu currently points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the Power BI report:
+When you deploy the Accelerator, the Report menu points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the Power BI report.
 
-### Updating the report menu via Power BI embedded report
+### Option 1: Add a dashboard with the Power BI embedded report
 
 1. Open the [Power Apps Portal](https://make.powerapps.com).
 1. Select the environment where you created your customized managed solution.
@@ -155,11 +155,11 @@ The Report menu currently points to a web resource file with instructions on how
 1. Open Project for the web, and in the navigation pane select **Reports**
 1. The Power BI embedded dashboard now appears.
 
-:::image type="content" source="media/powerbi-in-app-dashboard.png" alt-text="The Power BI re[ort for the Accelerator, displayed in Project for the web.":::
+    :::image type="content" source="media/powerbi-in-app-dashboard.png" alt-text="The Power BI report for the Accelerator, displayed in Project for the web.":::
 
-### Update the report menu via Web resource (full frame)
+### Option 2: Add a Web resource that embeds the Power BI report (full frame)
 
-The Accelerator already contains a placeholder for the Power BI template. Once you've deployed the Accelerator and the Power BI template, follow these steps to have the Power BI report appear in the Accelerator.
+The Accelerator includes a placeholder for the Power BI template. Once you've deployed the Accelerator and the Power BI template, follow these steps to have the Power BI report appear in the Accelerator.
 
 1. Once you've deployed the Power BI template, open the report in [PowerBI.com](https://www.powerbi.com).
 1. Select **File** > **Embed Report** > **Website or portal**.
@@ -170,11 +170,12 @@ The Accelerator already contains a placeholder for the Power BI template. Once y
 1. In the navigation pane, select **Objects**.
 1. On the command bar, select **New > More > Web resource**.
 1. Enter the following values:
+
      - **Display Name** = *Accelerator Power BI report*
      - **Name**: *Accelerator_report*
      - **Type**: *Webpage HTML*
 
-1. Create a new HTML file to upload with the following text, but change the value of **src** to the embedded string that you copied in step 3 of this procedure.
+1. Create a new HTML file to upload with the following text, but change the value of **src** to the powerbi.com link you copied in step 3 of this procedure.
 
      ```html
      <html>
@@ -196,9 +197,9 @@ The Accelerator already contains a placeholder for the Power BI template. Once y
 1. Open Project for the web, and in the navigation pane, select **Reports**.
 1. The report now appears in Project for the web.
 
-:::image type="content" source="media/powerbi-in-app.png" alt-text="Power BI Project Accelerator report.":::
+    :::image type="content" source="media/powerbi-in-app.png" alt-text="Power BI Project Accelerator report.":::
 
 ## Next steps
 
-- []()
-- []()
+- [Basic concepts for designers in the Power BI service](/power-bi/fundamentals/service-basic-concepts)
+- [Introduction to Power BI deployment pipelines](/power-bi/create-reports/deployment-pipelines-overview)
