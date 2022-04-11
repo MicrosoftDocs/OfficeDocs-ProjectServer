@@ -22,7 +22,7 @@ We encourage you to further customize Project for the web to better meet your sp
 >
 >  1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
 >  2. Download the Power BI template and deploy it to that development environment.
->  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template (along with any other customizations you might want.).
+>  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template (along with any other customizations you might want).
 >  4. Export the solution, and then import it into your production Project+Accelerator environment.
 
 ## Prerequisites
