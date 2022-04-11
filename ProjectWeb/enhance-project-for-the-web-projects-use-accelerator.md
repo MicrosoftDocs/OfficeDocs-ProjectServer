@@ -13,35 +13,30 @@ audience: end user
 
 # Enhance your projects with the Project for the web Accelerator
 
-Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds five project management scenarios&mdash;the Project for the web Accelerator. This article shows you how to use it to enhance your projects in Project for the web.
+Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds six project management scenarios&mdash;the Project for the web Accelerator. This article explains how to use it to enhance your projects in Project for the web.
+
+> [!NOTE]
+> This article is intended for people using Project for the web to work on projects. 
 
 ## Prerequisites
 
 - Your environment must have the Project for the web Accelerator solution deployed and enabled by your admin.
 - You'll need to belong to a group that has the security roles required for creating or editing projects in Project for the web.
 
-## Scenarios added by the Accelerator
+## Accelerator scenarios for extending overall project management
 
-💡 **Project Requests**. Create a list for project ideas that include a business case and expected impact. The included Power Automate flow creates a project when a request is set to *Approved*.
+💡 **Project Requests** Adds an idea incubator: You can capture ideas for potential new projects, and spend some time developing a business case for turning them into projects. Change the *State* to advance the request. When *State* is set to *Active* a flow automatically creates a new project with *Stage* set to *Create*.
 
-💼 **Programs**. Create a hierarchy of programs and projects see how work fits into the bigger picture.
-
-🔥 **Risks and Issues**. Manage the surprises that accompany every project. Create and assign risks and issues to minimize impacts to a project's schedule.
-
-🚧 **Changes**. Use change tracking processes to manage changes and help understand the history of a project.
-
-📝 **Status**. Centralize recording of project status to keep stakeholders up-to-date.
+💼 **Programs** Adds a level at the top of the hierarchy: You can add projects to a program to improve coordination of resources and efforts, and to create a bigger picture of your organizational initiatives.
 
 ## Scenario: Project Requests
 
-The Accelerator adds a *Project Request* table that your teams can use to propose projects, and a Power Automate cloud flow to create a project when a proposal is approved.
+The Accelerator uses a *Project Request* table that your teams can use to propose new projects, and a Power Automate cloud flow to create a project when a project request is approved.
 
 > [!NOTE]
 > Your admin must turn the cloud flow on so the approval of a request will create a new project. However, you can still add project ideas to the Project Request table. When the cloud flow is turned on, your ideas can be approved and become projects.
->
-> :::image type="content" source="media/p4w-accelerator-flow-is-on.png" alt-text="Check the command bar to see whether the flow is turned on":::
 
-### Propose a project
+### Add a project request
 
 1. In the navigation pane, select **Project Request**.
 1. On the command bar, select **New**.
@@ -50,31 +45,44 @@ The Accelerator adds a *Project Request* table that your teams can use to propos
 
 1. The proposal's *Request State* is *New*.
 
-  :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
+   :::image type="content" source="media/new-state.png" alt-text="A newly proposed Project Request":::
 
 1. Enter a value for **Name**, then provide as much additional information about the request as you can. The person who can approve proposals will use it to decide whether to approve this one.
 1. After you finish adding more data, on the command bar select **Save and Close**.
 
-  :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
+   :::image type="content" source="media/p4w-accelerator-new-project-request-form.png" alt-text="Project Request with plenty of decision-support data":::
 
-### Approve a project request
+### Review a project request
 
 1. In the navigation pane, select **Project Request**.
-1. Select the request, then select the arrow on the right edge of its record to open the form.
+1. Switch to the **New Project Requests** view.
 
-   :::image type="content" source="media/p4w-accelerator-open-request.png" alt-text="Select a new request and open it":::
+   :::image type="content" source="media/p4w-accelerator-review-new-project-request.png" alt-text="Use the view selector to display only new requests.":::
 
-1. Set **Request State** to *Approved* and save the record.
+1. Select the request, and then on the command bar select **Edit**.
 
-  :::image type="content" source="media/p4w-accelerator-approve-request.png" alt-text="Approve a Project Request to turn it into a Project":::
+   :::image type="content" source="media/p4w-accelerator-edit-project-request.png" alt-text="Select a project request and open it for editing.":::
 
-1. In a few moments, the project appears as a new record in *Project*.
+1. Set **Request State** to *In Review*, and then on the command bar select **Save**. The request stops appearing in the New Project Requests view, so others won't think it still needs reviewing.
 
-  :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
+   :::image type="content" source="media/p4w-accelerator-set-request-status-to-in-review.png" alt-text="Approve a Project Request to turn it into a Project":::
+
+1. Review the Project Request's details, and then act accordingly:
+
+    - To ask the requestor for more details, set **Request Status** back to *New*, and specify what details are missing by editing **Details**. Then on the command bar select **Assign**, assign it to the person listed in **Requested By**, and then select **Save and Close**.
+
+       :::image type="content" source="media/p4w-accelerator-send-back-project-request.png" alt-text="Send a project request back to get more details.":::
+
+    - To have someone else decide, select **Assign** on the command bar, choose the new reviewer, and then select **Save and Close**
+    - If you've got enough detail and can make the decision, set **Request Status** to *Approved* or *Rejected* per your decision, and then select **Save and Close**.
+
+1. If you approved the request, in a few moments, the project request appears as a new record in *Project* with *Stage* set to *Create*. You can sort projects by the value of *Stage* or even create a view that filters by that value.
+
+   :::image type="content" source="media/p4w-accelerator-approved-project.png" alt-text="The cloud flow creates a new Project from the approved Project Request":::
 
 ## Scenario: Programs
 
-The Accelerator adds a *Program* table that enables summary tracking of related projects. This creates a hierarchy so your organization can review ongoing work without opening each project to review the details. Various tabs on the Information form let your organization prioritize efforts on projects on the basis of such things as expected financial returns and current status.
+The Accelerator uses a *Program* table that enables summary tracking of related projects. You can thereby create a hierarchy for your organization to review ongoing related projects without opening each project to review the details. You can then prioritize efforts across projects on the basis of such things as expected financial returns and current status.
 
 :::image type="content" source="media/p4w-accelerator-programs.png" alt-text="The Active Programs view lists key fields for listed programs. 1, Set the checkmark at the left edge of the row to choose a program. 2, Select the arrow at the right edge to open the program. 3, Or, choose an action on the command bar to apply the action to the selected program.":::
 
@@ -90,10 +98,10 @@ The Accelerator adds a *Program* table that enables summary tracking of related 
 
 1. Open Project for the web.
 1. In the navigation pane, select **Program**.
-1. The default main form opens (Information) and displays the default view of programs (Active Programs). You might want to switch to a different view.
+1. The default main form opens (Information) and displays the default view of programs (Active Programs). You can switch to a different view if you aren't finding the program you want.
 
    > [!NOTE]
-   > Your admin can change both defaults, so your experience may differ somewhat. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
+   > Your admin can change both the default form and the default view, so your experience may differ somewhat. Most of the time, the Information form opens, and if the default view changes you can select the view that you want. It's best to see as many programs as possible so that you don't create duplicate or substantially similar programs.
 
 1. On the command bar, select **+ New**.
 
@@ -126,7 +134,7 @@ When you review a program, it might not display all the latest project informati
 
    :::image type="content" source="media/p4w-accelerator-refresh-program-projects.png" alt-text="Refresh the projects in a program.":::
 
-### Reporting
+### Program Reporting
 
 Each program you create has charts depicting various aspects of the program's status and value.
 
@@ -147,41 +155,129 @@ The Home Dashboard also has two charts that summarize your programs.
 > [!TIP]
 > If your admin has deployed the Power BI template for the Accelerator, in the navigation pane, select **Reports** to see what's available.
 
-## Scenario: Risks and Issues
+## Accelerator scenarios to track more details about each project
 
-For this scenario, the Accelerator adds two tables:
+Four Accelerator scenarios add depth&mdash;they provide deeper functionality within projects.
 
-- *Risk* lets you track risks associated with completing a project.
-- *Issue* lets you track issues that hinder the completion of a project.
+🔥 **Risks** Adds tracking for significant potential threats with financial implications. Periodically review these risks with the right stakeholders to develop mitigation and contingency plans, and decide when it's time to implement them.
 
-The Accelerator also creates relationships between these tables and the *Project* table, so that each becomes a lookup column. It adds them to the Information form as tabs where you can add and edit risks and issues for the open project.
+🐛 **Issues** Adds management of unexpected problems that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
 
-### Add or edit a risk or issue
+🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history how the project changed over time.
+
+📝 **Status** Adds detailed status information, and lets you create reports about a project to keep stakeholders up-to-date.
+
+### Project tabs with list views: Risks, Issues, Changes, and Status
+
+For each of these scenarios, the Accelerator adds a tab to the Project Information form, with a list view on the tab. There, you can add items that provide a focused perspective on project progress. For the **Risks**, **Issues**, and **Changes** tabs these work basically the same.
+
+:::image type="content" source="media/p4w-accelerator-depth-tabs.png" alt-text="Work on items directly in the list view.":::
+
+- The view selector lets you choose a different view that lists different items, such as *My Active Risks*.
+- The list displays key fields for each item, and lets you sort the listed items by field values.
+- The row of letters lets you filter the items using their names' first letter.
+- The list command bar offers commands for creating and working with listed items.
+
+The **Status** tab displays additional fields above the list view.
+
+:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
+
+#### Add an item in a tab's list view
+
+> [!NOTE]
+> To save you time reading, this procedure uses the **Changes** tab as an example, but it also works on the **Risks** and **Issues**, and **Status** tabs&mdash;the command text will reflect the type of item you add.
 
 1. Open the relevant project.
-1. Select the relevant tab:
+1. Select the **Changes** tab.
+1. On the view selector select **All Changes**.
 
-   - To flag an issue that is or could be blocking the project's progress, select **Issues**.
-   - To flag a risk that could result from the completion of a project, select **Risks**.
+    The list's command bar displays available commands. If the command you want isn't displayed, select the vertical dots at the right edge of the command bar to open a menu:
 
-1. A list of related risks or issues appears on the tab.
+    :::image type="content" source="media/p4w-accelerator-changes-tab.png" alt-text="The Changes tab with no changes listed and the list's command bar menu open.":::
 
-    On the list's command bar, you can do any of the following actions. If the command isn't displayed, select the vertical dots on the right edge of the command bar to see a menu:
-    - To create a new item, select **+ New Risk** or **+ New Issue**.
-    - To add an item that already exists (a common risk or issue), select **Add Existing Risk** or **Add Existing Issue**.
-    - You can select an existing risk or issue to open the record, but you can only edit the record if it's *State* is  *Active*. To select an item, select the left edge of its row in the list. The **Edit** command will appear on the command bar.
+    - To create a new item, select **+ New Change**.
+    - To add a change that already exists in another project, select **Add Existing Change**.
 
-   :::image type="content" source="media/p4w-accelerator-edit-risk.png" alt-text="Select a list item and then select Edit on the command bar.":::
+#### Edit an item in a list view
 
-1. Add details to the risk or issue. When you are done, on the command bar select **Save** or **Save and Close**.
+> [!NOTE]
+> To save you time reading, this procedure uses the **Changes** tab as an example, but it also works on the **Risks**, **Issues**, and **Status** tabs&mdash;the command text will reflect the type of item you edit.
+
+1. Open the project and select the **Changes** tab.
+1. Switch views if needed, and then select the item's row in the list.
+1. On the list's command bar, select **Edit**.
+1. If the item isn't Activated, the record will be read-only. To edit, select **Activate** on the command bar.
+
+    :::image type="content" source="media/p4w-accelerator-activate-change.png" alt-text="Activate an item to enable editing.":::
+
+## Scenario: Risks
+
+Risks can wreak havoc on a project's budget or schedule. That's why it's vital to identify significant risks early, track them, and develop mitigation and contingency plans. The Information form for Risks helps you do just that.
+
+:::image type="content" source="media/p4w-accelerator-risk-info-form.png" alt-text="The Information form for Risks.":::
+
+### Add a risk to a project
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+
+    - For **Impact**, you should perform some analysis to arrive at a defensible value. Don't just guess, because other fields use this value in calculations, and decision-makers use it to justify mitigation and contingency plans.
+    - By creating the risk, you are listed as **Owner**, but you can change that to someone who is a valid delegate.
+
+    :::image type="content" source="media/p4w-accelerator-new-risk-info-form.png" alt-text="{alt-text}":::
+
+1. Fill out as much additional information as you can support with data or documentation. Try to select the most appropriate value for **Category** or just leave it empty. Views might include **Category** as a means of filtering or sorting lists of risks.
+
+    :::image type="content" source="media/p4w-accelerator-risk-info-form-category.png" alt-text="Pick the best category or leave it blank":::
+
+    > [!TIP]
+    > If your projects are prone to a certain variety of risk, consider creating a risk "template": When you're done editing a risk, on the command bar select **Save** and then select **New**. A new risk opens with no value for **Project**. Add values for the required fields and any others you want in your "template", and then on the command bar select **Save and Close**. Your "template" risk will be available as an existing risk you can add to projects.
+
+## Scenario: Issues
+
+Sometimes things don't go as planned: a resource might suddenly become unavailable, a planned change to one thing breaks something else&mdash;issues pop-up. When an unpleasant surprise arrives, track it as an issue to minimize the impact to your project.
+
+> [!NOTE]
+> Risks and Issues may seem quite alike, but there are some key differences:
+>
+> - An issue has already happened, whereas a risk is a possibility.
+> - A risk involves some degree of financial threat, whereas any costs associated with an issue have either already been incurred or are insignificant.
+> - Risks are usually broader in scope than issues.
+
+### Add an issue to a project
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter a value for **Name**.
+1. By creating the risk, you are listed as **Owner**, but you can change that to someone who is a valid delegate.
+1. Although you can save an issue with just a name and an owner, you should enter a **Description** sufficient for suggesting the eventual **Resolution**.
+1. If you have suitable delegates, you can choose values for **AssignedTo** and **Due Date**, set **State** to **Active**, and then on the command bar select **Save and Close**.
+
+    :::image type="content" source="media/p4w-accelerator-activate-issue.png" alt-text="Set an issue's State to Active.":::
 
 ## Scenario: Changes
 
-The Accelerator adds a *Change* table, and creates a relationship between it and the *Project* table. It also adds a **Changes** tab to the *Project* table's Information form.
+During project execution, you might need to change course&mdash;perhaps a spark of inspiration hits (or maybe a grim realization). The Changes scenario provides an incubator for ideas within projects (somewhat like the Project Request scenario).
+
+Changes also provide a history of the execution of a project, a way for you to examine your project post-completion and learn how you might adjust your methods and practices.
+  
+### Propose a change to a project
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+1. Add as much detail as you can, then save and close.
 
 ## Scenario: Status
 
-The Accelerator adds a *Status* table, and creates a relationship between it and the *Project* table. It also adds a **Status** tab to the *Project* table's Information form.
+The Accelerator uses the *Status* table to add a **Status** tab to the *Project* table's Information form. Various indicators occupy the upper portion of the tab, and the lower portion contains a list view for Status Reports.
+
+:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="The Status tab has various project health indicators at the top, and a list view of Status Reports at the bottom.":::
+
+### Create a new status report
+
+1. Follow the steps to [create a new list view item](#add-an-item-in-a-tabs-list-view).
+1. Enter values in all the required fields (they're marked with asterisks).
+1. Much of the value of the report is its narrative quality, so you might want to complete it during several editing sessions. If so, on the command bar select **Save** if you plan to begin composing now, or **Save and Close** if you have a more immediate task at hand.
+1. When you have completed your report, choose a value for **Submitted To**, and then on the command bar select **Save and Close**.
 
 ## Next steps
 
