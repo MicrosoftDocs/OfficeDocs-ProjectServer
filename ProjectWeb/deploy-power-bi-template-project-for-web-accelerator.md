@@ -1,6 +1,6 @@
 ---
 title: Add the Power BI template to the Project Management Office Accelerator
-description: Deploy the Project Managment Accelerator and the Power BI template into a development environment. Create, export, and deploy a managed solution that integrates the Power BI template into the PMO Accelerator.
+description: Deploy the Project Management Accelerator and the Power BI template into a development environment. Create, export, and deploy a managed solution that integrates the Power BI template into the PMO Accelerator.
 author: v-stthomas
 ms.author: v-stthomas
 manager: deniseb
