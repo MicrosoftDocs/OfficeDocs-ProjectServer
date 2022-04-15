@@ -10,7 +10,7 @@
 ### [Office 365 user view access to Project for the web and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)
 ### [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)
 ### [Project for the web setup requirements for business units](project-for-the-web-setup-requirements-for-business-units.md)
-### [Customization Best Practices and Limitations for Project for the web](customize-pmo-accelerator-managed-solution.md)
+### [Customization Best Practices and Limitations for Project for the web](customize-project-best-practices-limitations.md)
 ### [Licenses for customizations of Project for the web](licensing-custom-solutions-layered-on-project-for-the-web.md)
 ### [Add a custom column to the Project Power App](add-custom-column-project-power-app.md)
 ### [Integrate Project for the web into your project management processes](move-to-project-for-the-web-from-project-web-app.md)
