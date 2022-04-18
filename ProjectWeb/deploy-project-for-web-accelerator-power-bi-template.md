@@ -1,5 +1,5 @@
 ---
-title: Deploy the Project for the web Accelerator
+title: Deploy the Project Management Office Accelerator
 description: Deploying the Accelerator to your Project for the web environment adds improved project management scenarios such as Project Requests, Changes, and Status.   
 author: v-stthomas
 ms.author: v-stthomas
@@ -11,26 +11,14 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Deploy the Project for the web Accelerator
+# Deploy the Project Management Office Accelerator
 
-Although people in your organization can start using Project for the web as soon as you subscribe to Microsoft 365, you'll probably want to customize the environment to meet your specific business needs. Save time with several common scenarios by deploying the Project for the web Accelerator.
+Although people in your organization can start using Project for the web as soon as you subscribe to Microsoft 365, you'll probably want to customize the environment to meet your specific business needs. Save time with several common scenarios by deploying the Project Management Office Accelerator (PMO Accelerator).
 
 ## Prerequisites
 
 - Admin rights in an environment with the [deployed Project for the web solution](/project-for-the-web/deploying-project).
 - Rights to create Power Automate flows using the [Common Data Service connector](/connectors/commondataserviceforapps/).
-
-## Scenarios added by the Accelerator
-
-💡 **Project Requests**. Create a list for project ideas that include a business case and expected impact. The included Power Automate flow creates a project when a request is set to *Approved*.
-
-💼 **Programs**. Create a hierarchy of programs and projects see how work fits into the bigger picture.
-
-🔥 **Risks and Issues**. Manage the surprises that accompany every project. Create and assign risks and issues to minimize impacts to a project's schedule.
-
-🚧 **Changes**. Use change tracking processes to help understand the history of a project.
-
-📝 **Status**. Centralize recording of project status to keep stakeholders up-to-date.
 
 ## Deploy the Accelerator
 
@@ -48,16 +36,7 @@ Although people in your organization can start using Project for the web as soon
 
 When deployment succeeds, the Project Power App will resemble this:
 
-:::image type="content" source="media/project-with-the-accelerator.png" alt-text="The Project Power App after the Project for the web Accelerator is deployed.":::
-
-## Licenses
-
-The Accelerator solution is distributed free of charge under the MIT license. However, using it with Project for the web requires licenses obtained from Microsoft.
-
-- Each person who manages projects with Project for the web and the Accelerator requires at least a **Project Plan 1** license. This applies to your project managers who also need to do such things as organize programs, track issues and risks, manage the business caseS and finances, or edit the custom columns such as corporate sponsor of the project.
-- Each person who only views projects without adding or changing any data or components requires a **Microsoft 365 license**.
-
-Review the [Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description) for comprehensive information about licensing Project.
+:::image type="content" source="media/project-with-the-accelerator.png" alt-text="The Project Power App after the PMO Accelerator is deployed.":::
 
 ## Use the Accelerator components without Project for the web
 
@@ -109,5 +88,5 @@ Microsoft fully supports the deployment and use of the Accelerator with Project 
 
 ## Next Steps
 
-- [Create a managed solution to add the Power BI template to the Project for the web Accelerator](deploy-power-bi-template-project-for-web-accelerator.md).
+- [Create a managed solution to add the Power BI template to the Project Management Office Accelerator](deploy-power-bi-template-project-for-web-accelerator.md).
 - [Learn more about scheduling modes](https://techcommunity.microsoft.com/t5/project-support-blog/schedule-modes-and-task-and-resource-usage-in-project-for-the/ba-p/2656738).

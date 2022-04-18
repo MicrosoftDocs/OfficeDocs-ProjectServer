@@ -1,6 +1,6 @@
 ---
-title: Enhance your projects with the Project for the web Accelerator
-description: The Project for the web Accelerator is a managed solution your admin can deploy to your Project environment. It adds five scenarios - Project Requests, Programs, Risks and Issues, Changes, and Status. Read this topic to learn how to use them.
+title: Enhance your projects with the Project Management Office Accelerator
+description: The Project Management Office Accelerator is a managed solution your admin can deploy to your Project environment. It adds six scenarios - Project Requests, Programs, Risks, Issues, Changes, and Status. Read this topic to learn how to use them.
 author: v-stthomas
 ms.author: v-stthomas
 manager: deniseb
@@ -11,16 +11,16 @@ ms.custom: template-how-to
 audience: end user
 ---
 
-# Enhance your projects with the Project for the web Accelerator
+# Enhance your projects with the Project Management Office Accelerator
 
-Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds six project management scenarios&mdash;the Project for the web Accelerator. This article explains how to use it to enhance your projects in Project for the web.
+Project for the web is convenient and easy-to-use. Because it's based on the Microsoft Power Platform, it's easy to customize using solutions. We've created a solution that adds six project management scenarios&mdash;the Project Management Office Accelerator (PMO Accelerator). This article explains how to use it to enhance your projects in Project for the web.
 
 > [!NOTE]
-> This article is intended for people using Project for the web to work on projects. 
+> This article is intended for people using Project for the web to work on projects.
 
 ## Prerequisites
 
-- Your environment must have the Project for the web Accelerator solution deployed and enabled by your admin.
+- Your environment must have the PMO Accelerator solution deployed and enabled by your admin.
 - You'll need to belong to a group that has the security roles required for creating or editing projects in Project for the web.
 
 ## Accelerator scenarios for extending overall project management
@@ -163,7 +163,7 @@ Four Accelerator scenarios add depth&mdash;they provide deeper functionality wit
 
 🐛 **Issues** Adds management of unexpected problems that pop-up. Create and assign them to quickly minimize any impacts to your project schedule.
 
-🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history how the project changed over time.
+🚧 **Changes** Adds change tracking processes to manage potential changes to a project and keep a history of how the project has changed over time.
 
 📝 **Status** Adds detailed status information, and lets you create reports about a project to keep stakeholders up-to-date.
 
@@ -180,7 +180,7 @@ For each of these scenarios, the Accelerator adds a tab to the Project Informati
 
 The **Status** tab displays additional fields above the list view.
 
-:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="Review status information about the list view. Work on items directly in the list view.":::
+:::image type="content" source="media/p4w-accelerator-status-tab-mt.png" alt-text="Review current project status information above the list view. Work on status reports using the list view.":::
 
 #### Add an item in a tab's list view
 

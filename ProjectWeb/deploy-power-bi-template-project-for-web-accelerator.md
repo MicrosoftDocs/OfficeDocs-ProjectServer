@@ -1,6 +1,6 @@
 ---
-title: Create a solution to deploy the Power BI template for the Project for the web Accelerator
-description: Deploy the Project Accelerator and the Power BI template into a development environment. Create and export a managed solution that integrates the Power BI template and your own customizations. Deploy your solution on top of your production Project for the web Accelerator
+title: Add the Power BI template to the Project Management Office Accelerator
+description: Deploy the Project Management Accelerator and the Power BI template into a development environment. Create, export, and deploy a managed solution that integrates the Power BI template into the PMO Accelerator.
 author: v-stthomas
 ms.author: v-stthomas
 manager: deniseb
@@ -11,23 +11,23 @@ ms.custom: template-how-to
 audience: admin
 ---
 
-# Create a managed solution to add the Power BI template to the Project for the web Accelerator
+# Add the Power BI template to the Project Management Office Accelerator
 
-The [Project for the web Accelerator solution](deploy-project-for-web-accelerator-power-bi-template.md) gives you a head start customizing Project for the web to support common project management scenarios. It's a managed solution, making it easy to deploy new versions as updates.
+The [Project Management Office Accelerator solution](deploy-project-for-web-accelerator-power-bi-template.md) gives you a head start customizing Project for the web to support common project management scenarios. It's a managed solution, making it easy to deploy new versions as updates.
 
-We encourage you to further customize Project for the web to better meet your specific business needs, and we advise that you do so by creating your own solution to layer on top of the deployed Accelerator. One enhancement that's ready to go is the Power BI template for the Project for the web Accelerator. This article provides guidance for adding the Power BI template to your managed solution to deploy on top of the Accelerator.
+We've prepared a Power BI template for the Project Management Office Accelerator (PMO Accelerator). To add the Power BI template, create a managed solution for it, then deploy that solution on top of the PMO Accelerator.
 
 > [!IMPORTANT]
 > The order of events in this process is critical:
 >
 >  1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
 >  2. Download the Power BI template and deploy it to that development environment.
->  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template (along with any other customizations you might want).
+>  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template.
 >  4. Export the solution, and then import it into your production Project+Accelerator environment.
 
 ## Prerequisites
 
-- Admin rights in a development environment [with the Project for the web Accelerator deployed](deploy-project-for-web-accelerator-power-bi-template.md)
+- Admin rights in a development environment [with the Project Management Office Accelerator deployed](deploy-project-for-web-accelerator-power-bi-template.md)
 - Power BI Desktop and a Power BI Pro account
 - Rights to use the Common Data Service connector
 - An understanding of [managed solution layers](/power-platform/alm/solution-layers-alm#layering-within-a-managed-solution)
@@ -55,16 +55,16 @@ We encourage you to further customize Project for the web to better meet your sp
          > [!NOTE]
          > You might want to repeat this process for several different groups to control who can do what with the report in Project for the web.
 
-## Create a managed solution for customizing Project for the web and the Accelerator
+## Create a managed solution for deploying the Power BI template
 
-To customize the Project Power App after deploying the Accelerator, create a new managed solution that contains the customizations, and then layer that solution over the Accelerator.
+Like the Project Power App, the PMO Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
 
-Like the Project Power App, the Accelerator is a [managed solution](/power-platform/alm/solution-concepts-alm) so that Microsoft can make future improvements and fixes, and so customers can deploy such changes as upgrades to their environment. Although you can customize the environment after you deploy the Accelerator, this might cause issues if you then try to deploy an update.
+To add the Power BI template, you should create a managed solution that contains the customizations required to integrate the template into the Project+Accelerator environment. 
 
 > [!TIP]
 > If you're a beginner to managed solutions, visit [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/) to prepare before your first try.
 
-1. Select or create a development environment with Project for the web and the Accelerator deployed.
+1. Select or create a development environment with Project for the web and the PMO Accelerator deployed.
 1. In the navigation pane of that environment, select **Solutions**, and then on the command bar select **+ New Solution**.
 
     :::image type="content" source="media/customize-project-accelerator-new-solution.png" alt-text="Start a new solution.":::
@@ -81,49 +81,12 @@ Like the Project Power App, the Accelerator is a [managed solution](/power-platf
 
 > [!TIP]
 > For more options when you create a custom solution, go to [Create a solution](/powerapps/maker/data-platform/create-solution).
-
-### Example customization: add an action to send email when a Project Request is approved
-
-The cloud flow included with the *Project Requests* scenario is very simple; it creates a project from a request when *Request State* is set to *Approved*. By adding an action to the cloud flow, you can make it also send an email notification.
-
-1. Open the [Power Apps Portal](https://make.powerapps.com) and select your development environment.
-1. In the list of solutions, select **Project for the Web Accelerator**.
-1. In the navigation pane, select **Cloud Flows**.
-1. Select **When the request state is updated to Approved** to open it.
-1. On the command bar, select **Edit**.
-1. Select **+ New step**.
-1. Under **Choose an operation**, enter *Out* and then select **Office 365 Outlook**.
-
-    :::image type="content" source="media/customize-project-accelerator-add-ol-connector.png" alt-text="Add the Outlook connector to your new flow step.":::
-
-1. Select fields inside the connector to add content. Power Apps offers suggestions depending on the field you select. For example, when you select the **Subject** field you see attributes you can add. When the flow runs, the value of the attribute appears in the generated email.
-
-    :::image type="content" source="media/customize-project-accelerator-ol-action-subject.png" alt-text="Power Apps suggesting attributes for the email Subject line.":::
-
-1. Your Outlook step should look something like this example:
-
-    :::image type="content" source="media/customize-project-accelerator-ol-action-ready.png" alt-text="Example Outlook step in a customized cloud flow.":::
-
-1. Save and close the flow.
-1. On the command bar, select **Publish all customizations**.
-
-### Disable the flow
-
-1. Open the [Power Apps Portal](https://make.powerapps.com).
-1. In the navigation pane, select **Solutions**, and then select **Project for the Web Accelerator**.
-1. In the navigation pane, select **Cloud Flows**.
-1. Select the **When the request state is updated to Approved** flow. Then, on the command bar select the ellipses (**...**) and then select **Turn Off**.
-
-    :::image type="content" source="media/customize-project-accelerator-turn-off-flow.png" alt-text="Turn off the flow":::
-
-1. On the command bar, select **Publish all customizations**.
-
-## Modify the Project Accelerator – Reports menu to use the deployed template or any Power BI report
+## Modify the PMO Accelerator – Reports menu to include the deployed Power BI template
 
 > [!IMPORTANT]
 > You must first [deploy the Power BI report to PowerBI.com](#deploy-the-power-bi-template).
 
-When you deploy the Accelerator, the Report menu points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the Power BI report.
+When you deploy the PMO Accelerator, the Reports menu points to a web resource file with instructions on how to get the Power BI Template with the Accelerator. Because the Accelerator is a managed solution, this web resource cannot be edited. There are two options to have the report bring up the report from the Power BI template.
 
 ### Option 1: Add a dashboard with the Power BI embedded report
 
