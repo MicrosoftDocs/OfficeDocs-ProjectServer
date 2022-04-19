@@ -169,7 +169,7 @@ Therefore, please follow along this guidance in order to add the Project Roadmap
 ```powershell
 $userName = "<your username>"
 $userPassword =  "<your userpassword>"
-$DlpDisplayName = "<your desired DLP Policy DisplayName"
+$DlpDisplayName = "<your desired Microsoft Purview DLP Policy DisplayName"
 
 # Connect to PowerApps
 Add-PowerAppsAccount -Username $userName -Password $userPassword
