@@ -41,4 +41,4 @@ For example, [the PMO Accelerator solution](enhance-project-for-the-web-projects
 ## Next steps
 
 - Review the [Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description) for comprehensive information about licensing Project.
-- [Links](links-how-to.md)
+- Consider subscribing to a [Developer plan](/power-apps/maker/developer-plan) so you can export your solutionsto easily deploy in other environments.
