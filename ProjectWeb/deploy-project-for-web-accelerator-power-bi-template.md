@@ -40,7 +40,7 @@ When deployment succeeds, the Project Power App will resemble this:
 
 ## Use the Accelerator components without Project for the web
 
-You may reuse the Accelerator components in your own applications, per the [LICENSE](/OfficeDev/Project-Accelerator/blob/main/LICENSE). Using the Accelerator with the Project Power App or using the Project for the web tables employed by the Accelerator is only permitted according the to terms of your Project plan and subscriptions.
+You may reuse the Accelerator components in your own applications, per the [LICENSE](/OfficeDev/Project-Accelerator/blob/main/LICENSE). Using the Accelerator with the Project Power App or using the Project for the web tables employed by the Accelerator is only permitted according to the terms of your Project plan and subscriptions.
 
 ## Resolve error messages that appear during deployment
 
