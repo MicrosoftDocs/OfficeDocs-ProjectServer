@@ -24,12 +24,11 @@ After you [deploy the PMO Accelerator](deploy-project-for-web-accelerator-power-
 
 ## Create a managed solution to layer over the PMO Accelerator
 
-> [!IMPORTANT]
-> The order of events in this process is critical:
->
->  1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
->  1. In that environment, create a managed solution that contains your customizations.
->  1. Export the solution, and then import it into your production Project+Accelerator environment.
+This process has three main steps:
+
+1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
+1. In that environment, create a managed solution that contains your customizations.
+1. Export the solution, and then import it into your production Project+Accelerator environment.
 
 ## Example customization: add an action to send email when a Project Request is approved
 

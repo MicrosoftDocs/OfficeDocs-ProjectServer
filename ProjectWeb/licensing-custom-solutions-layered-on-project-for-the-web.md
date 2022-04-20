@@ -17,12 +17,9 @@ When you create custom solutions starting with Project for the web, keep in mind
 
 - People who manage projects
 - People who view projects
-- Licenses of your custom solutions
+- People who are assigned tasks to complete
 
-## Prerequisites
-
-- The ability to purchase and assign license as need
-- A basic understanding of customizing Project for the web
+Read the [Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description) for comprehensive information about licensing Project.
 
 ## Project for the web licenses
 
@@ -40,5 +37,4 @@ For example, [the PMO Accelerator solution](enhance-project-for-the-web-projects
 
 ## Next steps
 
-- Review the [Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description) for comprehensive information about licensing Project.
 - Consider subscribing to a [Developer plan](/power-apps/maker/developer-plan) so you can export your solutionsto easily deploy in other environments.
