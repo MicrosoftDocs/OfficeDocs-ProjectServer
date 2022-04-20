@@ -22,7 +22,7 @@ Although people in your organization can start using Project for the web as soon
 
 ## Deploy the Accelerator
 
-1. Download the [Accelerator](/OfficeDev/Project-Accelerator/blob/main/README#heres-the-latest-version-of-the-accelerator) and save it locally. Don't unpack it&mdash;the import process uses the zipped file.
+1. Download the [Accelerator](https://aka.ms/latestPMOaccelerator) and save it locally. Don't unpack it&mdash;the import process uses the zipped file.
 1. Open the [Power Apps Portal](https://make.powerapps.com).
 1. Open the **Environment** menu and select your Project for the web environment.
 
