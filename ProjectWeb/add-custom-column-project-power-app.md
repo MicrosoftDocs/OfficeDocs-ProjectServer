@@ -1,5 +1,5 @@
 ---
-title: "Add a custom column to the Project Power App"
+title: Add a custom column to the Project Power App
 ms.author: v-stthomas
 author: v-stthomas
 manager: alexla
@@ -12,7 +12,7 @@ search.appverid:
 - PJO150
 - PJO160
 - MET150
-description: "Learn how to add a custom column in the Project Power App that can be used across all your projects."
+description: Learn how to add a custom column in the Project Power App that can be used across all your projects.
 ---
 
 # Add a custom column to the Project Power App
@@ -70,7 +70,7 @@ Anita Montero has determined that her business has grown complex enough to requi
 
 She opens the *Project* table and verifies it's not a Managed or a System table, so it's safe to change.
 
-:::image type="content" source="media/add-custom-column-project-power-app-04.png" alt-text="Make changes in your Development environment first, so you can ensure they work as expected before you deploy them in your Production environment. Make sure that a table isn’t a Managed or System table before you try to make arbitrary changes to it.":::
+:::image type="content" source="media/add-custom-column-project-power-app-04.png" alt-text="The Environment menu is just above the toolbar. Make changes in your Development environment first, so you can ensure they work as expected before you deploy them in your Production environment. Make sure that a table isn’t a Managed or System table before you try to make arbitrary changes to it.":::
 
 She adds the new column, names it *Budget*, and sets **Data type** to *Currency*.
 
