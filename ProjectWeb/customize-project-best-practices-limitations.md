@@ -40,6 +40,7 @@ Although you can as an admin create users and assign security roles in the Micro
 ### Examples of what is and isn't supported
 
 ✅ *Supported*: Customizing security roles so that users can't edit specific custom columns added to tables in the Project solution.
+
 ❌ *Not supported*: Customizing security roles so that users can edit projects, but not create new projects.
 
 ## Don't restrict access to existing Project entities using Dataverse security
