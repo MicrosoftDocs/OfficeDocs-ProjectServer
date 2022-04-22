@@ -49,7 +49,6 @@ You might be tempted to create restrictions on tables that are part of the Proje
 
 However, you might want to restrict access to new tables and columns that are part of your custom solution. Although it's best to use Teams Groups Security to control access to tables, column security for new columns is most easily done by setting a column property. In new columns, [Dataverse column security](/power-platform/admin/field-level-security) may be appropriate.
 
-
 ## Next Steps
 
 - [Upgrade or update a solution](/power-apps/maker/data-platform/update-solutions)

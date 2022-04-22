@@ -69,4 +69,4 @@ The cloud flow included with the *Project Requests* scenario is very simple; it 
 ## Next Steps
 
 - Learn more about [Solution layers](/power-apps/maker/data-platform/solution-layers).
-- Understand [application lifecycle management (ALM) with Micrfosoft Power Platform](/power-platform/alm/overview-alm)
+- Understand [application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/overview-alm)
