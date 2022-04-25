@@ -17,13 +17,12 @@ The [Project Management Office Accelerator solution](deploy-project-for-web-acce
 
 We've prepared a Power BI template for the Project Management Office Accelerator (PMO Accelerator). To add the Power BI template, create a managed solution for it, then deploy that solution on top of the PMO Accelerator.
 
-> [!IMPORTANT]
-> The order of events in this process is critical:
->
->  1. Select (or create) a development environment where you're an admin, and where Project for the web and the Accelerator solution are deployed&mdash;or deploy them, if they aren't there yet.
->  2. Download the Power BI template and deploy it to that development environment.
->  3. In that environment, create a managed solution that contains the steps to integrate the Power BI template.
->  4. Export the solution, and then import it into your production Project+Accelerator environment.
+The process has four broad steps:
+
+1. Open a development environment where you're an admin, with Project and the PMO Accelerator deployed already.
+1. Download the Power BI template and deploy it to that development environment.
+1. In that environment, create a managed solution that contains the steps to integrate the Power BI template.
+1. Export the solution, and then import it into your production Project+Accelerator environment.
 
 ## Prerequisites
 
@@ -64,8 +63,8 @@ To add the Power BI template, you should create a managed solution that contains
 > [!TIP]
 > If you're a beginner to managed solutions, visit [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/) to prepare before your first try.
 
-1. Select or create a development environment with Project for the web and the PMO Accelerator deployed.
-1. In the navigation pane of that environment, select **Solutions**, and then on the command bar select **+ New Solution**.
+1. Open your development environment with Project for the web and the PMO Accelerator deployed.
+1. In the navigation pane, select **Solutions**, and then on the command bar select **+ New Solution**.
 
     :::image type="content" source="media/customize-project-accelerator-new-solution.png" alt-text="Start a new solution.":::
 
@@ -81,6 +80,7 @@ To add the Power BI template, you should create a managed solution that contains
 
 > [!TIP]
 > For more options when you create a custom solution, go to [Create a solution](/powerapps/maker/data-platform/create-solution).
+
 ## Modify the PMO Accelerator – Reports menu to include the deployed Power BI template
 
 > [!IMPORTANT]
@@ -138,7 +138,7 @@ The Accelerator includes a placeholder for the Power BI template. Once you've de
      - **Name**: *Accelerator_report*
      - **Type**: *Webpage HTML*
 
-1. Create a new HTML file to upload with the following text, but change the value of **src** to the powerbi.com link you copied in step 3 of this procedure.
+1. Create a new HTML file to upload with the following text, but change the value of **src** to the powerbi.com link you copied in step 3 of this procedure. Give a short descriptive name, such as *PBI extra.html*
 
      ```html
      <html>
@@ -156,11 +156,20 @@ The Accelerator includes a placeholder for the Power BI template. Once you've de
      - On the command bar, select **Add existing** > **More** > **Site Map**.
      - Select the item with the **Name** *msdyn_ProjectServiceCore*, and then at the bottom of the dialog select **Add**.
 
+1. On the site map, under **Reporting** select **Reports** to open the control pane.
+
+     :::image type="content" source="media/select-reports-subarea-of-site-map.md" alt-text="Select the Reports subarea":::
+
+1. In the control pane, set Type to **Web Resource**, and then under URL, enter the name of the HTML file you created earlier in this process.
+1. At the top right corner of the Site Map, select **Save**, and then select **Publish**. Close the site map.
 1. On the command bar, select **Publish all Customizations**.
 1. Open Project for the web, and in the navigation pane, select **Reports**.
-1. The report now appears in Project for the web.
+1. The report now appears in Project for the web. Tp open it, on the navigation pane select **Reports > Report**.
 
     :::image type="content" source="media/powerbi-in-app.png" alt-text="Power BI Project Accelerator report.":::
+
+     > [NOTE]
+     > The template includes numerous reports&mdash; use the tabs along the bottom to switch between them.
 
 ## Next steps
 
