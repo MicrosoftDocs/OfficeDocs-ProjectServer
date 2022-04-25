@@ -158,7 +158,7 @@ The Accelerator includes a placeholder for the Power BI template. Once you've de
 
 1. On the site map, under **Reporting** select **Reports** to open the control pane.
 
-     :::image type="content" source="media/select-reports-subarea-of-site-map.md" alt-text="Select the Reports subarea":::
+     :::image type="content" source="media/select-reports-subarea-of-site-map.png" alt-text="Select the Reports subarea":::
 
 1. In the control pane, set Type to **Web Resource**, and then under URL, enter the name of the HTML file you created earlier in this process.
 1. At the top right corner of the Site Map, select **Save**, and then select **Publish**. Close the site map.
