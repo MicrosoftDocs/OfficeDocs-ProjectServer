@@ -52,4 +52,3 @@ However, you might want to restrict access to new tables and columns that are pa
 ## Next Steps
 
 - [Upgrade or update a solution](/power-apps/maker/data-platform/update-solutions)
-- [Licenses for customizations of Project for the web](licensing-custom-solutions-layered-on-project-for-the-web.md)
