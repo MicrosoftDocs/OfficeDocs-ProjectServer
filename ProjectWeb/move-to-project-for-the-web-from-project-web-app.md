@@ -79,9 +79,11 @@ The Project Power App stores data in Dataverse tables for three purposes.
   - *OperationSet*
   - *OperationSet Detail*
 
-## Logical flow
+## Logic
 
-Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in one table when a value in a row of another table changes.
+Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in the *Project* table when a value in a row of another table changes.
+
+### Add a record to the Project table using Power Automate
 
 1. In the navigation pane, select **Flows**.
 1. On the command bar, select **+ New flow**.
@@ -99,8 +101,7 @@ Power Automate provides logical flows for data in Project for the web. To automa
 
 For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
 
-> [!IMPORTANT]
-> The Dataverse connector cannot edit project data or create rows, except in the *project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
+However, the Dataverse connector can only edit data or create rows in the *Project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## UI components
 
