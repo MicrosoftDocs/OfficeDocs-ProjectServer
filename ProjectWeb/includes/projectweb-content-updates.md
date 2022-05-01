@@ -8,6 +8,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 4/28/2022 | [Add the Power BI template to the Project Management Office Accelerator](/project-for-the-web/deploy-power-bi-template-project-for-web-accelerator) | modified |
+| 4/28/2022 | [Add the Power BI template to the Project Management Office Accelerator](/project-for-the-web/deploy-power-bi-template-project-for-web-accelerator) | modified |
 
 
 ## Week of April 04, 2022
