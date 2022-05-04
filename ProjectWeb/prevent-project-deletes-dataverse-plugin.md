@@ -1,0 +1,165 @@
+---
+title: Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin
+description: Create and register a plug-in Visual Studio using a modified class library that interrupts attempts to delete records from the Project table in Project for the web. Add a group whose members can delete. 
+author: v-stthomas
+ms.author: v-stthomas
+ms.service: project-web
+manager: alexla
+ms.topic: how-to
+ms.date: 05/02/2022
+ms.custom: template-how-to
+---
+
+# Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin
+
+Project for the Web by design allows all licensed team members full access to the entire project. Anyone who can use Project for the web could delete rows from the Project table&mdash;i.e., delete projects.
+
+You can block deletion of rows from the Project table, [using a Dataverse plug-in](/OfficeDev/Project-Dataverse-Plugin-Sample#dataverse-plugin-to-block-project-deletion).
+
+Similarly, the user will not be able to delete a project in Project for the Web, and the same plug-in logic can also be used in Dynamics 365 Project Operations.
+
+You can modify the behavior of this plugin as you wish to grant the delete permission solely to the project owner, manager, an Admin, or otherwise. Furthermore, Dataverse plug-ins can be used to validate or modify any other operation that is performed on Dataverse Entities (Projects, Tasks, Teams, etc.) and their relationship to other Entities.
+
+## Prerequisites
+
+- Administrator level access to a Microsoft Dataverse environment
+- A model-driven app that includes the account and task tables
+     > [!TIP]
+     > For help building such an app, go to [Build your first model-driven app from scratch](/power-apps/maker/model-driven-apps/build-first-model-driven-app).
+
+- Visual Studio 2017 (or later version)
+- Knowledge of the Visual C# programming language
+- The [Plug-in Registration tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool)
+     > [!TIP]
+     > Go to [Download tools from NuGet](/power-apps/developer/data-platform/download-tools-nuget) for steps to use a PowerShell script to download the latest tools from NuGet.
+
+## Create a new Dataverse plug-in in Visual Studio
+
+1. Launch Visual Studio.
+1. Select **Create a new Project**.
+1. Choose the **Class Library (.NET Framework)** templates and select **Next**.
+
+     :::image type="content" source="media/csharp-dataverse-plugin-create.png" alt-text="Choose your class library template.":::
+
+1. Name your Project, choose the **.NET Framework 4.6.2**, and select **Create**.
+
+     :::image type="content" source="media/prevent-project-deletes-create-plugin-step-2.png" alt-text="Create your class library.":::
+
+1. Name the class in your project solution *ProjectBlockDeletePlugin.cs*. this will make it easier to read in code and understand its purpose.
+
+## Add a NuGet Package
+
+1. In the top toolbar, select **Tools > NuGetPackageManager > Manage NuGet Packages for Solutions**.
+1. On the **Browse** tab, search for *Microsoft.CrmSdk.CoreAssemblies*, and install the latest stable version for your project.
+
+     :::image type="content" source="media/prevent-project-deletes-create-plugin-manage-packages.png" alt-text="Install Microsoft.CrmSdk.CoreAssemblies.":::
+
+## Register your plug-in
+
+1. Open your class file (*ProjectBlockDeletePlugin.cs*), and paste in the following code:
+
+```csharp
+using System;
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using System.ServiceModel;
+using Microsoft.Xrm.Sdk.Messages;
+namespace PluginTest.Plugins
+{
+    public class ProjectBlockDeletePlugin : IPlugin
+    {
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            // Obtain the tracing service
+            ITracingService tracingService =
+            (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+
+            // Obtain the execution context from the service provider.  
+            IPluginExecutionContext context = (IPluginExecutionContext)
+                serviceProvider.GetService(typeof(IPluginExecutionContext));
+
+            // The InputParameters collection contains all the data passed in the message request.  
+            if (context.InputParameters.Contains("Target") &&
+                context.InputParameters["Target"] is EntityReference)
+            {
+                // Obtain the target entity from the input parameters.  
+                EntityReference projectEntityRef = context.InputParameters["Target"] as EntityReference;
+
+                // Obtain the organization service reference which you will need for  
+                // web service calls.  
+                IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+                IOrganizationService service = serviceFactory.CreateOrganizationService(context.InitiatingUserId);
+
+                try
+                {
+                    // TODO: Manually set which team has Delete privileges—see IMPORTANT note that follows this code block.
+                    Guid TeamWithDeletePrivilegeId = new Guid("0f96b130-c72c-ec11-b6e5-000d3a59eeac");
+
+                    // Create the queryExpression for the team entity query
+                    QueryExpression query = new QueryExpression("team");
+                    query.ColumnSet = new ColumnSet("teamid");
+
+                    // Create a Relationship collection query for the user <-> team relationship
+                    Relationship teamMembershipRelationship = new Relationship("teammembership_association");
+                    RelationshipQueryCollection relationshipCollectionQuery = new RelationshipQueryCollection();
+                    relationshipCollectionQuery.Add(teamMembershipRelationship, query);
+
+                    // Create a service RetrieveRequest with the system user - the user who launches the plugin - and all the teams the user is related to.
+                    RetrieveRequest request = new RetrieveRequest();
+                    request.RelatedEntitiesQuery = relationshipCollectionQuery;
+                    request.Target = new EntityReference("systemuser", context.InitiatingUserId);
+                    request.ColumnSet = new ColumnSet(true);
+
+                    // Execute the RetrieveRequest
+                    RetrieveResponse userWithTeamRelationships = (RetrieveResponse)service.Execute(request);
+
+                    // Loop through all teams that the user is related to find if they belong the team with delete permissions
+                    bool userCanDelete = false;
+                    foreach (Entity entity in userWithTeamRelationships.Entity.RelatedEntities[teamMembershipRelationship].Entities)
+                    {
+                        if ((Guid)entity.Attributes["teamid"] == TeamWithDeletePrivilegeId)
+                        {
+                            userCanDelete = true;
+                            break;
+                        };
+                    }
+
+                    // Throw an exception if the user doesn't have permission to delete - aborting the Delete Operation.
+                    if (!userCanDelete)
+                    {
+
+                        // Optional: retrieve the team name with delete priviledge for error message,
+                        string TeamWithDeletePrivilegeName = service.Retrieve("team", TeamWithDeletePrivilegeId, new ColumnSet("name")).Attributes["name"].ToString();
+
+                        throw new InvalidPluginExecutionException("You do not have permission to delete projects. Delete permission is only granted to members of the \"" + TeamWithDeletePrivilegeName + "\" team.");
+                    }
+
+                }
+
+                catch (FaultException<OrganizationServiceFault> ex)
+                {
+                    throw new InvalidPluginExecutionException("An error occurred in ProjectBlockDeletePlugin.", ex);
+                }
+
+                catch (Exception ex)
+                {
+                    tracingService.Trace("ProjectBlockDetelePlugin: {0}", ex.ToString());
+                    throw;
+                }
+            }
+        }
+    }
+}
+
+```
+
+> [!IMPORTANT]
+> Make sure that your class is public, and name it *ProjectBlockDetelePlugin.cs*.
+
+## Register your Dataverse plug-in
+
+## Test your new plug-in
+
+## Next steps
+
+- [Visit the official Dataverse Plug-in Documentation](/power-apps/developer/data-platform/plug-ins).
