@@ -28,7 +28,7 @@ This article helps you customize the Project Power App to meet the standards tha
 | Components | Project Web App | Project for the web |
 | :-- | :-- | :-- |
 |[Permissions and security](#permissions-and-security) | [SharePoint permissions or Project Online permissions](/projectonline/change-permission-management-in-project-online) | [Security roles](project-for-the-web-security-roles.md) |
-|[Data](#data-in-project-for-the-web) and [Logic](#logical-flow) | SharePoint lists and workflows | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) and Power Automate |
+|[Data](#data-in-project-for-the-web) and [Logic](#logic) | SharePoint lists and workflows | [Dataverse](/powerapps/maker/model-driven-apps/define-data-model-driven-app) and Power Automate |
 |[UI](#ui-components) and [Visualizations](#visualizations) | Project Detail Pages and [Options based on your plan/subscription](/projectonline/what-reporting-tools-can-i-use-with-project-data) | [Views, Forms](/powerapps/maker/model-driven-apps/model-driven-app-components#ui-components), [Charts, and Dashboards](/powerapps/maker/model-driven-apps/model-driven-app-components#visualizations) |
 
 > [!TIP]
@@ -79,9 +79,11 @@ The Project Power App stores data in Dataverse tables for three purposes.
   - *OperationSet*
   - *OperationSet Detail*
 
-## Logical flow
+## Logic
 
-Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in one table when a value in a row of another table changes.
+Power Automate provides logical flows for data in Project for the web. To automate the logical flow of Project data, use Power Automate with the Dataverse connector. For example, suppose you want a record created in the *Project* table when a value in a row of another table changes.
+
+### Add a record to the Project table using Power Automate
 
 1. In the navigation pane, select **Flows**.
 1. On the command bar, select **+ New flow**.
@@ -99,8 +101,7 @@ Power Automate provides logical flows for data in Project for the web. To automa
 
 For more information about using flows with Project data, see [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
 
-> [!IMPORTANT]
-> The Dataverse connector cannot edit project data or create rows, except in the *project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
+However, the Dataverse connector can only edit data or create rows in the *Project* table itself. To change any other data, you must use the [Project Scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## UI components
 
@@ -195,7 +196,7 @@ Dashboards contain other components to provide a role-specific big picture. For 
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-16.png" alt-text="Add components to a Classic dashboards":::
 
-1. Make any other changes you want. Then on the ribbon select **Save** and then **Close**.
+1. Make any other changes you want. Then, on the ribbon, select **Save** and then **Close**.
 
 ## Next steps
 
