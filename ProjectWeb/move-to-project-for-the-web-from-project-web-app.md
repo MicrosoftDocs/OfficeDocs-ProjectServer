@@ -196,7 +196,7 @@ Dashboards contain other components to provide a role-specific big picture. For 
 
    :::image type="content" source="media/move-to-project-for-the-web-from-project-web-app-16.png" alt-text="Add components to a Classic dashboards":::
 
-1. Make any other changes you want. Then on the ribbon select **Save** and then **Close**.
+1. Make any other changes you want. Then, on the ribbon, select **Save** and then **Close**.
 
 ## Next steps
 

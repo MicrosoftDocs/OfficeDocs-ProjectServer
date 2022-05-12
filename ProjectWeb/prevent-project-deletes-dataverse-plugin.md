@@ -12,7 +12,7 @@ ms.custom: template-how-to
 
 # Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin
 
-Project for the Web is collaborative by design and allows all licensed team members full access to the entire project. But sometimes, you want to keep some teammates from deleting projects. This article explains how to [use a Dataverse plug-in to block deletion of projects](/OfficeDev/Project-Dataverse-Plugin-Sample#dataverse-plugin-to-block-project-deletion), even in Dynamics 365 Project Operations.
+Project for the Web is collaborative by design and allows all licensed team members full access to the entire project. But sometimes, you want to keep some teammates from deleting projects. This article explains how to use [a Dataverse plug-in to block deletion of projects](https://github.com/OfficeDev/Project-Dataverse-Plugin-Sample), even in Dynamics 365 Project Operations.
 
 You can modify this plugin to grant the delete permission solely to the project owner, manager, an Admin, or otherwise. Furthermore, Dataverse plug-ins can be used to validate or modify any other operation that is performed on Dataverse Entities (Projects, Tasks, Teams, etc.) and their relationship to other entities.
 
@@ -41,7 +41,7 @@ You can modify this plugin to grant the delete permission solely to the project 
 
      :::image type="content" source="media/prevent-project-deletes-create-plugin-step-2.png" alt-text="Create your class library.":::
 
-1. Name the class in your project solution *ProjectBlockDeletePlugin.cs*. this will make it easier to read in code and understand its purpose.
+1. Name the class in your project solution *ProjectBlockDeletePlugin.cs*. This will make it easier to read in code and understand its purpose.
 
 ## Add a NuGet Package
 
@@ -55,10 +55,10 @@ You can modify this plugin to grant the delete permission solely to the project 
 > [!NOTE]
 >
 > - You’re creating a Pre-Validation plug-in. It runs when an operation (Delete) is called on the Dataverse Entity (Project).
-> - When someone tries to delete a project, the plug-in checks the GUID of the User who is trying to delete a project in Project for the Web. It then checks Dataverse to see whether the User belongs to a Teams group that is allowed to delete projects. If not, the plug-in cancels the Delete operation.
+> - When someone tries to delete a project, the plug-in checks the GUID of the user who is trying to delete a project in Project for the Web. It then checks Dataverse to see whether the user belongs to a Teams group that is allowed to delete projects. If not, the plug-in cancels the Delete operation.
 > - For more context and documentation on what you can do with Dataverse Plug-ins, please [visit the Official Dataverse Plug-In Documentation](/power-apps/developer/data-platform/plug-ins).
 
-1. Open your class file (*ProjectBlockDeletePlugin.cs*), and paste in the following code:
+1. Open your new class file (*ProjectBlockDeletePlugin.cs*), and paste in the following class code, but replace the GUID for the Team ID who gets delete privilege. You can find the GUID in PowerApps Data Explorer.
 
      ```csharp
       using System;
@@ -94,7 +94,7 @@ You can modify this plugin to grant the delete permission solely to the project 
 
                 try
                 {
-                    // TODO: Manually set which team has Delete privileges—see IMPORTANT note that follows this code block.
+                    // TODO: Manually set which team has Delete privileges
                     Guid TeamWithDeletePrivilegeId = new Guid("0f96b130-c72c-ec11-b6e5-000d3a59eeac");
 
                     // Create the queryExpression for the team entity query
@@ -130,7 +130,7 @@ You can modify this plugin to grant the delete permission solely to the project 
                     if (!userCanDelete)
                     {
 
-                        // Optional: retrieve the team name with delete priviledge for error message,
+                        // Optional: retrieve the team name with delete privilege for error message,
                         string TeamWithDeletePrivilegeName = service.Retrieve("team", TeamWithDeletePrivilegeId, new ColumnSet("name")).Attributes["name"].ToString();
 
                         throw new InvalidPluginExecutionException("You do not have permission to delete projects. Delete permission is only granted to members of the \"" + TeamWithDeletePrivilegeName + "\" team.");
@@ -156,12 +156,15 @@ You can modify this plugin to grant the delete permission solely to the project 
      ```
 
 > [!IMPORTANT]
-> Make sure that your class is public, and name it *ProjectBlockDeletePlugin.cs*.
+> Make sure that your class is public, and named *ProjectBlockDeletePlugin.cs*.
 
 ## Sign your assembly
 
-1. In Solution Explorer, on the context menu for your new Plug-in select **Properties**.
+1. In Solution Explorer, on the context menu for your new plug-in select **Properties**.
 1. On the **Signing** tab, select **Sign the assembly**, then choose **New…** from the dropdown options.
+
+      :::image type="content" source="media/prevent-project-deletes-sign-assembly-2.png" alt-text="{alt-text}":::
+
 1. Complete the **Create Strong Name Key** dialog.
 1. On your project's context menu, select **Build**.
 
@@ -176,13 +179,13 @@ You can modify this plugin to grant the delete permission solely to the project 
 
      :::image type="content" source="media/prevent-project-deletes-register-assembly.png" alt-text="Register your`new assembly":::
 
-1. Load the assembly from the .DLL file in your project’s Debug folder.
+1. Load the assembly from the .DLL file in your project’s **Debug** folder.
 1. Select **Register Selected Plugins**.
 1. In the list of Registered Plugins, select **Register New Step** from your plugin assembly’s context menu.
 
      :::image type="content" source="media/prevent-project-deletes-register-assembly-3.png" alt-text="Register an assembly step":::
 
-1. Register the Pre-Validation Step to make the Plug-in run when someone tries to run a Delete operation on an *msdyn_project* entity:
+1. Register the Pre-Validation Step to make the plug-in run when someone tries to run a Delete operation on an *msdyn_project* entity:
   
      :::image type="content" source="media/prevent-project-deletes-register-assembly-2.png" alt-text="Finish registration":::
 
