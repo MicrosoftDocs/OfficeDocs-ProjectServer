@@ -24,6 +24,7 @@
 ### [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
 ### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 ### [Handling data for Project](handling-data-for-project-for-the-web-and-roadmap.md)
+### [Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin](prevent-project-deletes-dataverse-plugin.md)
 ### [Remove Project for the web or Roadmap from Office 365](remove-roadmap-from-office-365.md)
 ## [Project Management Office Accelerator solution]()
 ### [Enhance your projects with the Project Management Office Accelerator](enhance-project-for-the-web-projects-use-accelerator.md)
