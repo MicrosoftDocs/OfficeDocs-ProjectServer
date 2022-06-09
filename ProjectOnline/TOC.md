@@ -100,3 +100,4 @@
 ### [Project Online and Project Server export data definitions](project-online-and-project-server-export-data-definitions.md)
 ## [License management]()
 ### [Renew your Project Online plans in a larger organization](renew-your-project-online-plans-in-a-larger-organization.md)
+# [Microsoft Project Online Feature Details](project-features-descriptions.md)
