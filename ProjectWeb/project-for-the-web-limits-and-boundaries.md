@@ -29,7 +29,7 @@ There are important limitations that you should know if you are using Project fo
 |Maximum total tasks for a project  <br/> |500  <br/> |
 |Maximum total duration for a project <br/> |3650 days (10 years)  <br/> |
 |Maximum total resources for a project  <br/> |150  <br/> |
-|Maximum total links (successor only) for a project  <br/> |600  <br/> |
+|Maximum total dependency links for a project  <br/> |600  <br/> |
 |Maximum total custom fields for a project <br/> |10 <br/> |
 
 
@@ -39,7 +39,7 @@ There are important limitations that you should know if you are using Project fo
 |**Field**|**Limit**|
 |:-----|:-----|:-----|
 |Maximum hierarchy level  <br/> |10 levels<br/> |
-|Maximum links (successor + predecessor)<br/> |20  <br/> |
+|Maximum dependency links (successor + predecessor)<br/> |20  <br/> |
 |Maximum duration of leaf task  <br/> |1250 days  <br/> |
 |Maximum duration of a summary task  <br/> |3650 days (10 years)  <br/> |
 |Maximum resources assigned to a task  <br/> |20 resources  <br/> |
