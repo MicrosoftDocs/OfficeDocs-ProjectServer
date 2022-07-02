@@ -7,6 +7,7 @@ ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
+ms.custom: intro-overview; intro-get-started
 search.appverid: 
 - PJO150
 - MET150
