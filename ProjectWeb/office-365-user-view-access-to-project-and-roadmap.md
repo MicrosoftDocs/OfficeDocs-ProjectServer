@@ -32,10 +32,6 @@ Office 365 view access applies to the following families of Office 365 suites an
 - Microsoft E3 and Office 365 E3
 - Microsoft E5 and Office 365 E5
 
-
-> [!Note] 
-> GCC access coming soon
-
 Within each subscription, there are two apps that can be seen from the Microsoft 365 Admin center.
 
 - Project for Office (Plan X)
