@@ -2,9 +2,9 @@
 
 
 
-## Week of June 06, 2022
+## Week of August 15, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/9/2022 | [Microsoft Project Online Feature Details](/ProjectOnline/project-features-descriptions) | added |
+| 8/20/2022 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |
