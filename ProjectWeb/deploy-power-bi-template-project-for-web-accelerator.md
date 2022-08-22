@@ -168,8 +168,8 @@ The Accelerator includes a placeholder for the Power BI template. Once you've de
 
     :::image type="content" source="media/powerbi-in-app.png" alt-text="Power BI Project Accelerator report.":::
 
-     > [NOTE]
-     > The template includes numerous reports&mdash; use the tabs along the bottom to switch between them.
+     > [!NOTE]
+     > The template includes numerous reports—use the tabs along the bottom to switch between them.
 
 ## Next steps
 
