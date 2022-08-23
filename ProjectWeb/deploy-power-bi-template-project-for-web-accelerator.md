@@ -34,7 +34,7 @@ The process has four broad steps:
 
 ## Deploy the Power BI template
 
-1. Download the [Power BI template](/OfficeDev/Project-Accelerator#heres-the-latest-version-of-the-power-bi-template-for-the-accelerator).
+1. Download the Power BI template at [https://aka.ms/ProjectReports](https://aka.ms/ProjectReports). (See [Extend the Power BI template for Project for the web](https://support.microsoft.com/office/extend-the-power-bi-template-for-project-for-the-web-23fb86a7-e1b2-45fc-b82b-8f64ae44c51c).)
 1. Open Power BI Desktop.
 1. Select **File** > **Import**, then select the downloaded template.
 1. When prompted for the environment url, use the base url of your development environment. For example: `https://mydevenvironment.crm.dynamics.com`
