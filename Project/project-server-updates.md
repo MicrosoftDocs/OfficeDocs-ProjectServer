@@ -1,5 +1,5 @@
 ---
-title: "Project Server Updates"
+title: Project Server Updates
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -12,8 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: c6fcdf1e-85c7-4f90-b6a0-3e82769fcf26
-
-description: "Find and manage updates for Project Server 2013 and Project Server 2010 in one place. Use the links on this page to get more information about updates and to download the updates themselves."
+description: Find and manage updates for Project Server 2013 and Project Server 2010 in one place. Use the links on this page to get more information about updates and to download the updates themselves.
 ---
 
 # Project Server Updates
@@ -85,7 +84,7 @@ Starting with the April 2015 release, all Office 2013 updates will only apply if
 |Project Server 2010  <br/> |[KB3114876](https://support.microsoft.com/kb/3114876) <br/> |March 2016  <br/> |
 |Project Server 2010  <br/> |[KB3114754](https://support.microsoft.com/kb/3114754) <br/> |February 2016  <br/> |
 |Project Server 2010  <br/> |[KB3114556](https://support.microsoft.com/kb/3114556) <br/> |January 2016  <br/> |
-|Project Server 2010  <br/> |[KB3114405](https://support.microsoft.com/kb/3114405) <br/> |December 2015  <br/> |
+|Project Server 2010  <br/> |[KB3114405](https://support.microsoft.com/topic/december-8-2015-cumulative-update-for-project-server-2013-kb3114341-ce9bc4eb-892e-a07b-748e-cbff4d3db4b5) <br/> |December 2015  <br/> |
 |Project Server 2010  <br/> |[KB3101530](https://support.microsoft.com/kb/3101530) <br/> |November 2015  <br/> |
 |Project Server 2010  <br/> |[KB3085598](https://support.microsoft.com/kb/3085598) <br/> |October 2015  <br/> |
 |Project Server 2010  <br/> |[KB3085517](https://support.microsoft.com/kb/3085517) <br/> |September 2015  <br/> |

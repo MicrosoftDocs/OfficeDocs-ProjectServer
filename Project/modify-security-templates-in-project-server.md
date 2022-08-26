@@ -1,5 +1,5 @@
 ---
-title: "Modify security templates in Project Server"
+title: Modify security templates in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: eaf98652-2205-4261-9b0e-82b1173a3bd7
-description: "Summary: Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings."
+description: Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings.
 ---
 
 # Modify security templates in Project Server

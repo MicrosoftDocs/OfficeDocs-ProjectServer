@@ -1,5 +1,5 @@
 ---
-title: "Delete a security template (Project Server permission mode)"
+title: Delete a security template (Project Server permission mode)
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cb63b6ca-2af4-4c80-bb61-17e3a9d76d34
-description: "Summary: Learn how to delete Project Web App security templates by using the Manage Templates page in Project Web App Settings."
+description: Learn how to delete Project Web App security templates by using the Manage Templates page in Project Web App Settings.
 ---
 
 # Delete a security template (Project Server permission mode)

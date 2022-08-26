@@ -1,5 +1,5 @@
 ---
-title: "Delete a category (Project Server permission mode)"
+title: Delete a category (Project Server permission mode)
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: ba624d09-892e-459b-abe6-50718e6520c9
-description: "Summary: Delete custom security categories by using the Manage Categories page in Project Web App Settings."
+description: Delete custom security categories by using the Manage Categories page in Project Web App Settings.
 ---
 
 # Delete a category (Project Server permission mode)

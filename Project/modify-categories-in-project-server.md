@@ -1,5 +1,5 @@
 ---
-title: "Modify categories in Project Server"
+title: Modify categories in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: d9c8a396-e2de-443c-8046-8e6bc20d087f
-description: "Summary: Edit security categories by using the Manage Categories page in Project Web App Settings."
+description: Edit security categories by using the Manage Categories page in Project Web App Settings.
 ---
 
 # Modify categories in Project Server

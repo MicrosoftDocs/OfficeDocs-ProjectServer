@@ -1,5 +1,5 @@
 ---
-title: "Deploy language packs in Project Server 2013"
+title: Deploy language packs in Project Server 2013
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: c2964c5e-a2a4-4113-b72a-0f2abc1871cf
-description: "Summary: Install and configure Project Server 2013 language packs so that users can select their preferred language for their PWA user interface."
+description: Install and configure Project Server 2013 language packs so that users can select their preferred language for their PWA user interface.
 ---
 
 # Deploy language packs in Project Server 2013
@@ -111,7 +111,7 @@ The following languages are supported by SharePoint Server 2013, but are not ava
     
 As an example, the SharePoint Server 2013 Thai language pack is not bundled with a Thai language pack for Project Server 2013, since it does not exist.
   
-For more information about SharePoint Server 2013 language packs, see [Install or uninstall language packs for SharePoint 2013](/SharePoint/install/install-or-uninstall-language-packs-0). 
+For more information about SharePoint Server 2013 language packs, see [Install or uninstall language packs for SharePoint](/sharepoint/install/install-uninstall-language-packs-2019). 
   
 ## Language Pack deployment scenarios
 <a name="dep"> </a>
@@ -312,4 +312,4 @@ If you no longer want to make a language available for a site, clear the languag
 ## See also
 <a name="fifth_section"> </a>
 
-[Install or uninstall language packs for SharePoint 2013](/SharePoint/install/install-or-uninstall-language-packs-0)
+[Install or uninstall language packs for SharePoint](/sharepoint/install/install-uninstall-language-packs-2019)

@@ -1,5 +1,5 @@
 ---
-title: "Create security categories in Project Server"
+title: Create security categories in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: cf1a1f91-83c7-4166-8e69-52e07a9ffeb5
-description: "Summary: Add custom security categories by using the Manage Categories page in Project Web App Settings."
+description: Add custom security categories by using the Manage Categories page in Project Web App Settings.
 ---
 
 # Create security categories in Project Server

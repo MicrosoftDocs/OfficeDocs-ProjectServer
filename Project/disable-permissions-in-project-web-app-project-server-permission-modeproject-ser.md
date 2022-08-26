@@ -1,5 +1,5 @@
 ---
-title: "Disable permissions in Project Web App (Project Server permission mode) (Project Server 2013)"
+title: Disable permissions in Project Web App (Project Server permission mode) (Project Server 2013)
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 4916dd91-cc55-4a08-a882-83ea0a166d66
-description: "Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done."
+description: Project Web App global and category permissions can be disabled, but this action should be examined carefully before it is done.
 ---
 
 # Disable permissions in Project Web App (Project Server permission mode) (Project Server 2013)

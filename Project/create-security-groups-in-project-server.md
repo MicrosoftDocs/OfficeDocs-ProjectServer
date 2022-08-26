@@ -1,5 +1,5 @@
 ---
-title: "Create security groups in Project Server"
+title: Create security groups in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f3aa46e3-c36e-4ea2-be2f-2269896d914c
-description: "Summary: Create custom security groups by using the Manage Groups page in Project Web App Settings."
+description: Create custom security groups by using the Manage Groups page in Project Web App Settings.
 ---
 
 # Create security groups in Project Server
