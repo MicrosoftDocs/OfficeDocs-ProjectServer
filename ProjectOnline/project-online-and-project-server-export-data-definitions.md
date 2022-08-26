@@ -2485,7 +2485,7 @@ AssignmentBaselineTimephasedDataset contains the properties that define the repo
 
 The export method defined in [Export user data from Project Online](export-user-data-from-project-online.md) will also create eight files for each project in which the user was a part from the Reporting schema. 
   
-Similarly, the queries for project-specific reporting data defined in [Export user data from Project Server](export-user-data-from-project-server.md) will provide you similar output. 
+Similarly, the queries for project-specific reporting data defined in [Export user data from Project Server](/project/export-user-data-from-project-server) will provide you similar output. 
   
 This data includes:
   
