@@ -98,7 +98,7 @@ Starting with the April 2015 release, all Office 2013 updates will only apply if
 |Project Server 2010  <br/> |[KB 2899587](https://support.microsoft.com/kb/2899587) <br/> |December 2014  <br/> |
 |Project Server 2010  <br/> |[KB 2899479](https://support.microsoft.com/kb/2899479) <br/> |November 2014  <br/> |
 |Project Server 2010  <br/> |[KB 2883006](https://support.microsoft.com/kb/2883006) <br/> |September 2014  <br/> |
-|Project Server 2010  <br/> |[KB 2883021](https://support.microsoft.com/kb/2883021) <br/> |August 2014  <br/> |
+|Project Server 2010  <br/> |KB 2883021 <br/> |August 2014  <br/> |
 |Project Server 2010  <br/> |[KB 2880974](https://support.microsoft.com/kb/2880974) <br/> |June 2014  <br/> |
 |Project Server 2010  <br/> |[KB 2863917](https://support.microsoft.com/kb/2863917) <br/> |February 2014  <br/> |
 |Project Server 2010  <br/> |[KB 2849972](https://support.microsoft.com/kb/2849972) <br/> |December 2013  <br/> |
