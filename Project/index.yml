@@ -49,7 +49,7 @@ additionalContent:
         # Card
         - title: Developers
           summary: Guidance for developing solutions for Project.
-          url: https://docs.microsoft.com/office/dev/add-ins/project/
+          url: /office/dev/add-ins/project/
         # Card
         - title: End users
           summary: Find help, training, and technical support for Project users on support.office.com.
