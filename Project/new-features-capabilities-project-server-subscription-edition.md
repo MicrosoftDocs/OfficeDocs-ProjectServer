@@ -25,7 +25,7 @@ This article provides a brief overview of new and significantly updated function
     
 - [Hardware and software requirements](new-features-capabilities-project-server-subscription-edition.md#Req)
     
-- [Upgrading to Project Server Subscription Edition Public Preview ](new-features-capabilities-project-server-subscription-edition.md#Upgra)
+- [Upgrading to Project Server Subscription Edition Public Preview](new-features-capabilities-project-server-subscription-edition.md#Upgra)
     
 - [Project Web App changes](new-features-capabilities-project-server-subscription-edition.md#PWAChanges)
     
@@ -159,4 +159,3 @@ context.ExecuteQuery();
 <a name="PWAChanges"> </a>
 
 [New and improved features in SharePoint Server Subscription Edition](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition)
-
