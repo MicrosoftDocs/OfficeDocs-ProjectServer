@@ -84,7 +84,7 @@ Beyond the data and custom field limits, there are a couple of other variables t
   
 ### Changing domains is not supported
 
-If you want to use your own domain, like contoso.com, instead of the default domain, like contoso.onmicrosoft.com, you need to [set up your domain](https://support.office.com/article/d6eed598-2060-4fbe-ad5c-d8263b69722f) *before*  adding users to Project Online. **Changing domains after you've added users is not supported.**
+If you want to use your own domain, like contoso.com, instead of the default domain, like contoso.onmicrosoft.com, you need to [set up your domain](/microsoft-365/admin/setup/add-domain) *before*  adding users to Project Online. **Changing domains after you've added users is not supported.**
 
 ### Changing User Principal Names
 

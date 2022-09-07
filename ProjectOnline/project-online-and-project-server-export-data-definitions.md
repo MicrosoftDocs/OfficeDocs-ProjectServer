@@ -21,7 +21,7 @@ description: "This technical reference article describes the data objects and pr
 
 # Project Online and Project Server export data definitions
 
-This technical reference article describes the data objects and properties contained in the output files you receive when using the user data export method described in [Export user data from Project Online](export-user-data-from-project-online.md) and in [Export user data from Project Server](/Project/export-user-data-from-project-server) . This article will include short descriptions of the objects and properties you will find in the output data. 
+This technical reference article describes the data objects and properties contained in the output files you receive when using the user data export method described in [Export user data from Project Online](export-user-data-from-project-online.md) and in [Export user data from Project Server](/project/export-user-data-from-project-server) . This article will include short descriptions of the objects and properties you will find in the output data. 
   
 We can group the user data output your receive from both Project Online and Project Server into the following:
   
@@ -69,7 +69,7 @@ All three of the ProjectList files will have the following properties for each p
 
 The export method defined in [Export user data from Project Online](export-user-data-from-project-online.md) creates the following feature-related .json files that checks for a specific user's data in features used in Project Online. If no data is found for the user in that feature, the corresponding .json file will be empty. 
   
-The export method defined in [Export user data from Project Server](https://support.office.com/article/c85c548f-4406-4663-8487-192ee065a803) queries for feature-related data through SQL scripts run against the Project Server databases. 
+The export method defined in [Export user data from Project Server](/project/export-user-data-from-project-server) queries for feature-related data through SQL scripts run against the Project Server databases. 
   
 The feature areas for both Project Online and Project Server include the following. Click on the feature name in the table to see brief definitions of the objects and properties you may see in the data you export data you receive about the user.
   
@@ -2485,7 +2485,7 @@ AssignmentBaselineTimephasedDataset contains the properties that define the repo
 
 The export method defined in [Export user data from Project Online](export-user-data-from-project-online.md) will also create eight files for each project in which the user was a part from the Reporting schema. 
   
-Similarly, the queries for project-specific reporting data defined in [Export user data from Project Server](https://support.office.com/article/c85c548f-4406-4663-8487-192ee065a803) will provide you similar output. 
+Similarly, the queries for project-specific reporting data defined in [Export user data from Project Server](/project/export-user-data-from-project-server) will provide you similar output. 
   
 This data includes:
   
