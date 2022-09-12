@@ -381,7 +381,7 @@ For a Project Web App instance that contains a large number of entities, such as
 
 -	**Avoid Custom Fields that are multi-value lookups.** Extra computation is required to process custom field values which are multi-value lookups.  These fields are not able to take advantage of several optimizations that have been implemented for more common customer scenarios. If multi value custom fields  have already been configured, improve the lookup speed and reliability by ensuring that none of those fields are specified in your filtered Odata query. 
 
--	**Querying entities by key or association.** When querying entities, refer to the metadata document at https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata.  Whenever possible query the entity in one of the following ways:
+-	**Querying entities by key or association.** When querying entities, refer to the metadata document at `https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata`.  Whenever possible query the entity in one of the following ways:
     
   - **Keys** 
   
