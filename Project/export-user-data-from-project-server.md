@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c85c548f-4406-4663-8487-192ee065a803
-description: Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:
+description: Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps
 ---
 
 # Export user data from Project Server
