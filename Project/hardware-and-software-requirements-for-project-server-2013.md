@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: bde05c8a-0312-4f46-ace9-ade6ba1edd3c
-description: Summary: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.
+description: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.
 ---
 
 # Hardware and software requirements for Project Server 2013
