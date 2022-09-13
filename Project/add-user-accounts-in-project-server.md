@@ -1,5 +1,5 @@
 ---
-title: "Add user accounts in Project Server"
+title: Add user accounts in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1fc96ddf-f44c-4b90-be39-ae4cdaa91af9
-description: "Summary: Add user accounts by using the Manage Users page in Project Web App Settings."
+description: Add user accounts by using the Manage Users page in Project Web App Settings.
 ---
 
 # Add user accounts in Project Server

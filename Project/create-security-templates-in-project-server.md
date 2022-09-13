@@ -1,5 +1,5 @@
 ---
-title: "Create security templates in Project Server"
+title: Create security templates in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: d10da3ff-4b2b-499a-8c2c-b990cc1fd167
-description: "Summary: Create Project Web App security templates by using the Manage Templates page in Project Web App Settings."
+description: Create Project Web App security templates by using the Manage Templates page in Project Web App Settings.
 ---
 
 # Create security templates in Project Server

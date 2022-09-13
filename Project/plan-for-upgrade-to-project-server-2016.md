@@ -1,5 +1,5 @@
 ---
-title: "Plan for upgrade to Project Server 2016"
+title: Plan for upgrade to Project Server 2016
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 9b863614-a41e-4ee4-89bb-7f4efea886b3
-description: "Summary: Learn about considerations you need to make in upgrading to Project Server 2016."
+description: Learn about considerations you need to make in upgrading to Project Server 2016.
 ---
 
 # Plan for upgrade to Project Server 2016
@@ -73,6 +73,6 @@ In the following example, Contoso is using Project Server 2013 and has three PWA
 
 | **PWA site**                         | **Project database** | **Content database** |
 |:-------------------------------------|:---------------------|:---------------------|
-| <https://contoso/sites/PWA_A>  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
-| <https://contoso/sites/PWA_B>  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
-| <https://contoso/sites/PWA_C>  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_A`  <br/> | ProjectDB-A  <br/>   | ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_B`  <br/> | ProjectDB-B  <br/>   | ContentDB-A  <br/>   |
+| `https://contoso/sites/PWA_C`  <br/> | ProjectDB-C  <br/>   | ContentDB-A  <br/>   |

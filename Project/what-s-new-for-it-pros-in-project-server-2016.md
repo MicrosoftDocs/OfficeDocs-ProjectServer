@@ -1,5 +1,5 @@
 ---
-title: "What's new for IT pros in Project Server 2016"
+title: What's new for IT pros in Project Server 2016
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: c400e683-d9a0-4865-8859-0f566292af17
-description: "Summary: Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
 ---
 
 # What's new for IT pros in Project Server 2016
@@ -144,7 +144,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 > If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](/SharePoint/install/hardware-and-software-requirements). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](/SharePoint/install/browser-support-planning-0). 
+> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](/SharePoint/install/hardware-and-software-requirements). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](/sharepoint/install/browser-support-planning-2016-2019). 
   
 ## Upgrading to Project Server 2016
 <a name="Upgra"> </a>

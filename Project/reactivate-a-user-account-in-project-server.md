@@ -1,5 +1,5 @@
 ---
-title: "Reactivate a user account in Project Server"
+title: Reactivate a user account in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c869cc96-a6c8-4131-8415-74b27dfa5efd
-description: "Summary: Reactivate deactivated user accounts by using the Manage Users page in Project Web App Settings."
+description: Reactivate deactivated user accounts by using the Manage Users page in Project Web App Settings.
 ---
 
 # Reactivate a user account in Project Server

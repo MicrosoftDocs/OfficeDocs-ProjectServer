@@ -1,5 +1,5 @@
 ---
-title: "Hardware and software requirements for Project Server 2013"
+title: Hardware and software requirements for Project Server 2013
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,8 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: bde05c8a-0312-4f46-ace9-ade6ba1edd3c
-
-description: "Summary: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013."
+description: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.
 ---
 
 # Hardware and software requirements for Project Server 2013
@@ -367,7 +366,7 @@ For Project Web App in Project Server 2013, you can use any of the following sup
 - Google Chrome (latest released version)
    
 > [!IMPORTANT]
-> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](/SharePoint/install/browser-support-planning-0). 
+> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](/sharepoint/install/browser-support-planning). 
   
 > [!NOTE]
 > Project Web App in Office 365 requires the same supported browsers. 

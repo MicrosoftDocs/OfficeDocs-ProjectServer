@@ -1,5 +1,5 @@
 ---
-title: "Software requirements for Project Server 2016"
+title: Software requirements for Project Server 2016
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 32d82f51-546a-42a3-ade5-54cc4dfdcb87
-description: "Summary: Learn about installation requirements for Project Server 2016."
+description: Learn about installation requirements for Project Server 2016.
 ---
 
 # Software requirements for Project Server 2016
@@ -76,4 +76,4 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements)
   
-[Plan browser support in SharePoint Server 2016](/SharePoint/install/browser-support-planning-0)
+[Plan browser support in SharePoint Server 2016](/sharepoint/install/browser-support-planning-2016-2019)
