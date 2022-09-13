@@ -1,5 +1,5 @@
 ---
-title: "Software requirements for Project Server Subscription Edition"
+title: Software requirements for Project Server Subscription Edition
 ms.author: v-jmathew
 author: serdars
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 32d82f51-546a-42a3-ade5-54cc4dfdcb87
-description: "Summary: Learn about installation requirements for Project Server Subscription Edition."
+description: Learn about installation requirements for Project Server Subscription Edition.
 ---
 
 # Software requirements for Project Server Subscription Edition
@@ -63,4 +63,4 @@ For charts to render correctly in your browser when using Portfolio Analysis in 
 
 [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016)
   
-[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-0)
+[Plan browser support in SharePoint Server 2019](/sharepoint/install/browser-support-planning-2016-2019)

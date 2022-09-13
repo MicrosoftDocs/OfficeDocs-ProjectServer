@@ -1,5 +1,5 @@
 ---
-title: "What's new for IT pros in Project Server Subscription Edition"
+title: What's new for IT pros in Project Server Subscription Edition
 ms.author: v-bshilpa
 author: Benny-54
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 
-description: "Summary: Learn about Project Server Subscription Edition. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: Learn about Project Server Subscription Edition. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
 ---
 
 # What's new for IT pros in Project Server Subscription Edition 
@@ -100,7 +100,7 @@ You can connect to Project Server Subscription Edition with not only Project Pro
   
 > [!NOTE]
 > For more information about the hardware and software requirements for SharePoint Server Subscription Edition, see [Hardware and software requirements for SharePoint Server Subscription Edition](/sharepoint/install/hardware-and-software-requirements-2019). 
-> For more information about supported browsers for SharePoint Server Subscription Edition, see [Plan browser support in SharePoint Server Subscription Edition](/sharepoint/install/browser-support-planning-0). 
+> For more information about supported browsers for SharePoint Server Subscription Edition, see [Plan browser support in SharePoint Server Subscription Edition](/sharepoint/install/browser-support-planning-2016-2019). 
   
 ## Upgrading to Project Server Subscription Edition 
 <a name="Upgra"> </a>

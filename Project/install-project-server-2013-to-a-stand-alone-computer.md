@@ -1,15 +1,14 @@
 ---
-title: "Install Project Server 2013 to a stand-alone computer"
+title: Install Project Server 2013 to a stand-alone computer
 ms.author: serdars
 author: serdars
 manager: serdars
-ms.date: 1/1/1900
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f5e0717d-e473-4371-9e94-994eb84f7913
-description: "Summary: Set up a simple Project Server 2013 installation for demonstration purposes."
+description: Summary - Set up a simple Project Server 2013 installation for demonstration purposes.
 ---
 
 # Install Project Server 2013 to a stand-alone computer
@@ -37,8 +36,8 @@ To install Project Server 2013 in stand-alone mode, you must first install Share
 5. After you complete the Microsoft SharePoint Products Preparation Tool, you must also install the following hotfixes:
     - [KB 2554876](https://go.microsoft.com/fwlink/p/?LinkId=254221)
     - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
-    - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
-    - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+    - KB 2759112
+    - KB 2765317
 
 Once the software prerequisites have been installed, restart the computer before installing SharePoint Server 2013.
 

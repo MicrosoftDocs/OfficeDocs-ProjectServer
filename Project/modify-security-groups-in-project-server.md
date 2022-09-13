@@ -1,5 +1,5 @@
 ---
-title: "Modify security groups in Project Server"
+title: Modify security groups in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 30267248-e652-4fba-bb36-5ecdb2981132
-description: "Summary: Change settings for security groups by using the Manage Groups page in Project Web App Settings."
+description: Change settings for security groups by using the Manage Groups page in Project Web App Settings.
 ---
 
 # Modify security groups in Project Server

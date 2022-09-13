@@ -1,5 +1,5 @@
 ---
-title: "Modify user accounts in Project Server"
+title: Modify user accounts in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 8d89e112-4522-477e-be5d-467af1eb1060
-description: "Summary: Edit user accounts by using the Manage Users page in Project Web App Settings."
+description: Edit user accounts by using the Manage Users page in Project Web App Settings.
 ---
 
 # Modify user accounts in Project Server

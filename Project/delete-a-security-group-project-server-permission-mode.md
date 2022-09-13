@@ -1,5 +1,5 @@
 ---
-title: "Delete a security group (Project Server permission mode)"
+title: Delete a security group (Project Server permission mode)
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 1ff8d75f-637e-4474-acdc-f57b6390f59d
-description: "Summary: Delete custom security groups by using the Manage Groups page in Project Web App Settings."
+description: Delete custom security groups by using the Manage Groups page in Project Web App Settings.
 ---
 
 # Delete a security group (Project Server permission mode)
