@@ -40,7 +40,7 @@ This article helps you customize the Project Power App to meet the standards tha
 ## Prerequisites
 
 - Ensure you have [appropriate licenses](/power-platform/admin/powerapps-flow-licensing-faq).
-- Understand [the basics of the Power Apps portal](/learn/paths/get-started-power-apps-portals).
+- Understand [the basics of the Power Apps portal](/training/paths/get-started-power-apps-portals).
 
 ## Permissions and security
 

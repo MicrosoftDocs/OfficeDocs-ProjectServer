@@ -148,7 +148,7 @@ context.Credentials = new NetworkCredential(userName, passWord);
 
 // Add RelatedItem Issue/Risk to a task. Add the target item (issue/risk/etc) url to the pwa_connected_site url to create doc url of related item you want to add.
 // For eg : Lists/Issues/1_.000 corresponds to the url for the first issue in Issues list.
-// See <https://docs.microsoft.com/previous-versions/office/sharepoint-server/jj169493(v=office.15)> for AddSingleLinkToUrl method details.
+// See <https://learn.microsoft.com/previous-versions/office/sharepoint-server/jj169493(v=office.15)> for AddSingleLinkToUrl method details.
 RelatedItemManager.AddSingleLinkToUrl(context,"Tasks", 1, "<pwa_connected_site_relative_url>/Lists/Issues/1_.000", true);
 
 // Execute the query to the server.
