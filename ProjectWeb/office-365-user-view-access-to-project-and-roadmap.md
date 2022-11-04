@@ -43,7 +43,7 @@ Office 365 limited edit access applies to the following families of Office 365 s
 - Microsoft E3 and Office 365 E3
 - Microsoft E5 and Office 365 E5
 
-## Subscription Project and Dataverse Apps  
+## Subscription for Project and Dataverse Apps  
 
 Within each subscription, there are two apps that can be seen from the Microsoft 365 admin center.
 
