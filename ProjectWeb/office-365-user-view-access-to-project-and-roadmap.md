@@ -36,12 +36,14 @@ Office 365 view access applies to the following families of Office 365 suites an
 
 ## Office 365 subscription with limited edit access
 
-Microsoft 365 and Office 365 users with E3 and E5 licenses can now mark a task as complete, or update the task progress or “% complete” of a task assigned to them in any project they're part of.
+Microsoft 365 and Office 365 users with E3 and E5 licenses can now mark a task as complete, or update the task progress or “% complete” of a task assigned to them in any project they have permissions to.
 
 Office 365 limited edit access applies to the following families of Office 365 suites and their education and GCC counterparts.
 
 - Microsoft E3 and Office 365 E3
 - Microsoft E5 and Office 365 E5
+
+## Subscription Project and Dataverse Apps  
 
 Within each subscription, there are two apps that can be seen from the Microsoft 365 admin center.
 
