@@ -37,7 +37,7 @@ The process has four broad steps:
 1. Download the Power BI template at [https://aka.ms/ProjectReports](https://aka.ms/ProjectReports). (See [Extend the Power BI template for Project for the web](https://support.microsoft.com/office/extend-the-power-bi-template-for-project-for-the-web-23fb86a7-e1b2-45fc-b82b-8f64ae44c51c).)
 1. Open Power BI Desktop.
 1. Select **File** > **Import**, then select the downloaded template.
-1. When prompted for the environment url, use the base url of your development environment. For example: `https://mydevenvironment.crm.dynamics.com`
+1. When prompted for the environment url, use the base url of your development environment. For example: `https://mydevenvironment.crm.dynamics.com` (Note: If this isn't the default environment then the Roadmap parts of the template will not work.  You could edit the template to support multiple environments)
 1. Note the workspace where you save the report.
 1. To [ensure that your team will have access to the report, share it](/power-bi/collaborate-share/service-share-dashboards).
 
