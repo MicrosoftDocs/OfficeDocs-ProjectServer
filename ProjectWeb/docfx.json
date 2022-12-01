@@ -47,7 +47,7 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Project for the web",
       "recommendations": true,
-      "feedback_system": "GitHub",
+      "feedback_system": "Standard",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
       "searchScope": ["Project on the Web"],
       "ms.service": "project-web",
