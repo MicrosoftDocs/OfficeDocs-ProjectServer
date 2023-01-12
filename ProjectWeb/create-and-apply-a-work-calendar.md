@@ -51,7 +51,7 @@ Both methods are done on the PowerApps Project Resources page in Dynamics 365. T
 1. On the Resources page, click the **Projects** menu on the bottom of the left pane, and then select **Settings**.
 2. On the Project Settings Parameters page, click **Calendar Templates**.
 3. On the **Active Work Hour Templates** page, click **New**.
-4. ON the New Work Templates page, give it a name.
+4. On the New Work Templates page, give it a name.
 5. In the Template Resource field, type the name of a resource to base the work hours on.
 6. Click **Save and Close**.
 7. Your new work hours template will display on the **Active Work Hour Templates** page.
@@ -62,7 +62,7 @@ Once you’ve created a work hours template, you can assign it to resources so t
 
 1. On the Resources page, select the resources that you want to apply set the calendar for. You can select more than one resource.
 2. Click **Set Calendar**.
-3. In the **Work Template** window, click in the **Work Template** box to see the work templates that are available, and then select the one you want to apply.
+3. In the **Work Hours Template** window, click in the **Work Hours Template** box to see the work templates that are available, and then select the one you want to apply.
 4. Click **Apply**.
 
 ## Apply a calendar to a project
