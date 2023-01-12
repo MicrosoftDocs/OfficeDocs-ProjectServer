@@ -35,7 +35,7 @@ There are two ways you can create a work hours template:
 Both methods are done on the PowerApps Project Resources page in Dynamics 365. To go there, do the following:
 1. While logged into Office 365, open a browser window and go to **https://make.powerapps.com**.
 2. On the PowerApps page, select **Apps**.
-3. On the Apps page, in the Org Apps tab, select **Project**.
+3. On the Apps page, in the Apps tab, select **Project**.
 4. On the Project page, in the left pane, select **Resources**.
  
 
