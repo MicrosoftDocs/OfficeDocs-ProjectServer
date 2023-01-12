@@ -75,15 +75,3 @@ You can also choose to apply a calendar directly to a project in Project for the
 
 > [!Note]
 > If you do not see the **Calendar** field in Project details, this means that there is only one calendar available to choose from (for example, the default work template), so there is no option to select a different one until a new one is created.
-
-
-
- 
-## See Also
-
-
-  
-  
-
-
-
