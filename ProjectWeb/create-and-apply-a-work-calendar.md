@@ -70,7 +70,8 @@ Once you’ve created a work hours template, you can assign it to resources so t
 You can also choose to apply a calendar directly to a project in Project for the web. All work hours done on tasks for the project will need to be done in the times and dates specified by the selected calendar.
 
 1. In your project, click the project name to see the Project details pane.
-2. In Project details, click the **Calendar** drop-down menu and select the calendar you want to apply to the project.
+2. In Project details, click the **Choose from template** drop-down menu under Calendar Settings and select the calendar you want to apply to the project.
+3. Click **Apply**.
 
 > [!Note]
 > If you do not see the **Calendar** field in Project details, this means that there is only one calendar available to choose from (for example, the default work template), so there is no option to select a different one until a new one is created.
