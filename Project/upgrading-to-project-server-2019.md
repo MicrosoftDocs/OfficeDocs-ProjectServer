@@ -46,7 +46,7 @@ Note the following requirements for upgrading to Project Server 2019:
 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
 
-    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps)
+    [!NOTE]If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin)
 
 
 - If you are migrating your Project Server 2016 Resource Plans to use as Resource Engagements in Project Server 2019:
@@ -105,7 +105,7 @@ You can use SQL Server Management Studio to copy and restore the databases.
 
 The third step in the upgrade process attaches and upgrades your SharePoint Server 2016 content database that contains your Project site data to your new Project Server 2019 farm. 
 
-You will need to run the [Mount -SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
+You will need to run the [Mount -SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase) PowerShell cmdlet in the SharePoint 2019 Management Shell in order to do this.
 
 1. Open the SharePoint 2019 Management Shell as an Administrator.
 
@@ -120,7 +120,7 @@ You will need to run the [Mount -SPContentDatabase](/powershell/module/sharepoin
 ### Test your content database
 <a name="test"> </a>
 
-The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/test-spcontentdatabase?view=sharepoint-ps) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 environment. This cmdlet will not update your data in anyway.
+The fourth step in the upgrade is to test your newly attached and upgraded content database. You will use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/test-spcontentdatabase) PowerShell cmdlet to test against the Web application you specified to verify all customizations referenced within the content database are also installed in the web application in the new SharePoint Server 2019 environment. This cmdlet will not update your data in anyway.
 
 1. Open the SharePoint 2019 Management Shell as an Administrator.
 
