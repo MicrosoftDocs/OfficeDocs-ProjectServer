@@ -9,6 +9,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f5e0717d-e473-4371-9e94-994eb84f7913
 description: Summary - Set up a simple Project Server 2013 installation for demonstration purposes.
+ms.date: 12/04/2017
 ---
 
 # Install Project Server 2013 to a stand-alone computer

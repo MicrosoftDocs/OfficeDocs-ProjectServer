@@ -8,7 +8,9 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 description: Learn how your organization can export a specific user's content from your Project Server 2019 environment.
+ms.date: 10/04/2018
 ---
+
 # Export user data from Project Server 2019
 
 > **Important!**: The process to export user data from Project Server 2019 is very different from the process used for Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to export user data from previous versions of Project Server, see [Export user data from Project Server](export-user-data-from-project-server.md).
