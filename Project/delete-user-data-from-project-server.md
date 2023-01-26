@@ -9,6 +9,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1ec9b8c4-0dfe-477d-b131-e446eef7f928
 description: Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010.
+ms.date: 04/26/2018
 ---
 
 # Delete user data from Project Server

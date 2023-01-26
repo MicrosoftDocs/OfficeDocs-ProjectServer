@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 5892547e-7c7d-4a7f-b4ea-22822df3acb1
 description: "Summary: Learn how to deploy Project Servers Subscription Edition, 2019, or 2016 Public Preview."
+ms.date: 12/04/2017
 ---
 
 # Deploy Project Servers Subscription Edition, 2019, or 2016

@@ -10,6 +10,7 @@ search.appverid:
 - MET150
 ms.localizationpriority: medium
 description: "Learn how certain Office 365 users can have view or limited edit access to Project for the web and Roadmap"
+ms.date: 04/10/2020
 ---
 
 # Office 365 User access to Project and Roadmap

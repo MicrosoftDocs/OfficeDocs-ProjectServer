@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 03e9ea52-f4a6-4709-b8c3-41acf4484251
 description: "Summary: Learn how to upgrade to Project Server 2019."
+ms.date: 07/10/2018
 ---
 
 # Upgrading to Project Server 2019

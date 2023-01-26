@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 54bd9a14-ede6-445e-9b44-a03798b6d1b0
 description: "Summary: Configure Project Servers Subscription Edition, 2019, or 2016 on a SharePoint Server farm."
+ms.date: 12/04/2017
 ---
 
 # Install and configure Project Servers Subscription Edition, 2019, or 2016
