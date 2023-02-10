@@ -28,7 +28,7 @@ There are important limitations that you should know if you are using Project fo
 |:-----|:-----|:-----|
 |Maximum total tasks for a project  <br/> |1000  <br/> |
 |Maximum total duration for a project <br/> |3650 days (10 years)  <br/> |
-|Maximum total resources for a project  <br/> |150  <br/> |
+|Maximum total resources for a project  <br/> |300  <br/> |
 |Maximum total links (successor only) for a project  <br/> |600  <br/> |
 |Maximum total custom fields for a project <br/> |10 <br/> |
 
