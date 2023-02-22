@@ -1,5 +1,5 @@
 ---
-title: "Delete user data from Project Server"
+title: Delete user data from Project Server
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -8,8 +8,8 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1ec9b8c4-0dfe-477d-b131-e446eef7f928
-
-description: "Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010."
+description: Learn how an Farm admin can delete a specific user's data from a Project Server environment. This information applies to Project Server 2016, Project Server 2013, and Project Server 2010.
+ms.date: 04/26/2018
 ---
 
 # Delete user data from Project Server
@@ -129,9 +129,9 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 | **URL**                      | **SiteID**                             | **Database**       |
 |:-----------------------------|:---------------------------------------|:-------------------|
-| <https://contoso/pwa1>  <br/> | 63ed0197-3647-4279-ed5e80855fc7  <br/> | WSS_Content  <br/> |
-| <https://contoso/pwa2>  <br/> | 67fd0727-5279-3321-ef4e90956fc8  <br/> | WSS_Content  <br/> |
-| <https://contoso/pwa3>  <br/> | 63ed0197-3647-4279-eg7e20233fg9  <br/> | WSS_Content  <br/> |
+| `https://contoso/pwa1`  <br/> | 63ed0197-3647-4279-ed5e80855fc7  <br/> | WSS_Content  <br/> |
+| `https://contoso/pwa2`  <br/> | 67fd0727-5279-3321-ef4e90956fc8  <br/> | WSS_Content  <br/> |
+| `https://contoso/pwa3`  <br/> | 63ed0197-3647-4279-eg7e20233fg9  <br/> | WSS_Content  <br/> |
 
 ### Find the Project Web App instances in a SharePoint Server 2010 farm
 

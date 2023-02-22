@@ -14,6 +14,7 @@ ms.custom:
 - Adm_ServiceDesc_top
 ms.assetid: 867f5cd6-c667-45f1-8d05-f19713098aca
 description: "Learn about the various features available in Project Online."
+ms.date: 06/06/2022
 ---
 
 # Microsoft Project Online Feature Details

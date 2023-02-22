@@ -1,5 +1,5 @@
 ---
-title: "Export user data from Project Server"
+title: Export user data from Project Server
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -8,8 +8,10 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c85c548f-4406-4663-8487-192ee065a803
-description: "Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps:"
+description: Your organization can export a specific user's content from your Project Server environment. To export this content, a Project Server farm administrator can follow these steps
+ms.date: 04/26/2018
 ---
+
 # Export user data from Project Server
 
 > **Important!**: This article describes how to export user data from Project Server 2016, Project Server 2013, or Project Server 2010. The process to export user data from Project Server 2019 is very different from the previous version, and is not contained in this article. To learn how to export user data from previous versions of Project Server 2019 Public Preview, see [Export user data in Project Server 2019 Public Preview](export-user-data-in-project-server-2019.md).
@@ -111,9 +113,9 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 
 | **URL**                      | **SiteID**                             | **Database**       | **DatabaseServer** |
 |:-----------------------------|:---------------------------------------|:-------------------|:-------------------|
-| <https://contoso/pwa1>  <br/> | 63ed0197-3647-4279-ed5e80855fc7  <br/> | WSS_Content  <br/> | SQL01  <br/>       |
-| <https://contoso/pwa2>  <br/> | 67fd0727-5279-3321-ef4e90956fc8  <br/> | WSS_Content  <br/> | SQL01  <br/>       |
-| <https://contoso/pwa3>  <br/> | 63ed0197-3647-4279-eg7e20233fg9  <br/> | WSS_Content  <br/> | SQL02  <br/>       |
+| `https://contoso/pwa1`  <br/> | 63ed0197-3647-4279-ed5e80855fc7  <br/> | WSS_Content  <br/> | SQL01  <br/>       |
+| `https://contoso/pwa2`  <br/> | 67fd0727-5279-3321-ef4e90956fc8  <br/> | WSS_Content  <br/> | SQL01  <br/>       |
+| `https://contoso/pwa3`  <br/> | 63ed0197-3647-4279-eg7e20233fg9  <br/> | WSS_Content  <br/> | SQL02  <br/>       |
 
 ### Find the Project Web App instances in a SharePoint Server 2010 farm
 

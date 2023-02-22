@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
 description: "Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
+ms.date: 12/04/2017
 ---
 
 # Deploy Project Web App with a new site collection (Project Server Subscription Edition, 2019, or 2016)

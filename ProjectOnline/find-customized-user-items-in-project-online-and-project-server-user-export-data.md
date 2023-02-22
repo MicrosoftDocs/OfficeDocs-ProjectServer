@@ -191,5 +191,5 @@ You can repeat this procedure on each project in which you want to search for yo
 
 [Export user data from Project Online](export-user-data-from-project-online.md)
   
-[Export user data from Project Server](https://support.office.com/article/c85c548f-4406-4663-8487-192ee065a803)
+[Export user data from Project Server](/project/export-user-data-from-project-server)
 

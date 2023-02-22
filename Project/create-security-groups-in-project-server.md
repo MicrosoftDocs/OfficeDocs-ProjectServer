@@ -1,5 +1,5 @@
 ---
-title: "Create security groups in Project Server"
+title: Create security groups in Project Server
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f3aa46e3-c36e-4ea2-be2f-2269896d914c
-description: "Summary: Create custom security groups by using the Manage Groups page in Project Web App Settings."
+description: Create custom security groups by using the Manage Groups page in Project Web App Settings.
 ---
 
 # Create security groups in Project Server
@@ -25,7 +25,7 @@ Seven default security groups are available in Project Web App in Project Server
 ## Before you begin
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:> [Plan browser support](/SharePoint/install/browser-support-planning)> [Accessibility for SharePoint Products](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:> [Plan browser support](/SharePoint/install/browser-support-planning)> [Accessibility for SharePoint Products](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
   
 Before you begin this operation, review the following information about prerequisites:
   

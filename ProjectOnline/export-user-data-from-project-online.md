@@ -342,6 +342,7 @@ After you run the ExportProjectUserContent PowerShell script successfully, you w
    
    > [!NOTE]
    > You can open the .mpp file with Project Professional 2019, Project Professional 2016, or the Project Online Desktop client. 
+   > Saving the exported .mpp files back to Project Online or Project Server is not supported.
   
    **- Eight .json files for the project from the reporting schema:**
     

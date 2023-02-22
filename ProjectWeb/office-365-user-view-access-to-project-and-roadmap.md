@@ -1,5 +1,5 @@
 ---
-title: "Office 365 User view access to Project for the web and Roadmap"
+title: "Office 365 User access to Project for the web and Roadmap"
 ms.author: serdars
 author: serdars
 manager: pamgreen
@@ -9,20 +9,23 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
-description: "Learn how certain Office 365 users can have view access to Project for the web and Roadmap"
+description: "Learn how certain Office 365 users can have view or limited edit access to Project for the web and Roadmap"
+ms.date: 04/10/2020
 ---
 
-# Office 365 User view access to Project and Roadmap
+# Office 365 User access to Project and Roadmap
 
-An appropriate Project Plan license is required for your Office 365 users to use [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) or [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a). However, users that are assigned certain Office 365 licenses are allowed to have view access to Project for the web and Roadmap. 
-This provision will allow them to have read-only access to projects and roadmaps that are shared with them, without needing to be assigned a Project Plan license.
+An appropriate Project Plan license is required for your Office 365 users to use [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) or [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a). However, users that are assigned certain Office 365 licenses are allowed to have view or limited edit access to Project for the web and Roadmap.
+This provision will allow them to have limited access to projects and roadmaps that are shared with them, without needing to be assigned a Project Plan license.
 
- If your users need to be able to edit or create projects or roadmaps, you will need to purchase the appropriate Project Plan license and assign it to the user.
+If your users need to be able to edit or create projects or roadmaps, you'll need to purchase the appropriate Project Plan license and assign it to the user.
 
 > [!Note] 
 > For more information about Project Plan subscriptions and understand what the capabilities of an Office 365 user are, see the [Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
 ## Office 365 subscription with view access
+
+Users with appropriate Office license added to the Office 365 group of the project.
 
 Office 365 view access applies to the following families of Office 365 suites and their education and GCC counterparts.
 
@@ -32,14 +35,25 @@ Office 365 view access applies to the following families of Office 365 suites an
 - Microsoft E3 and Office 365 E3
 - Microsoft E5 and Office 365 E5
 
-Within each subscription, there are two apps that can be seen from the Microsoft 365 Admin center.
+## Office 365 subscription with limited edit access
+
+Microsoft 365 and Office 365 users with E3 and E5 licenses can now mark a task as complete, or update the task progress or “% complete” of a task assigned to them in any project they have permissions to.
+
+Office 365 limited edit access applies to the following families of Office 365 suites and their education and GCC counterparts.
+
+- Microsoft E3 and Office 365 E3
+- Microsoft E5 and Office 365 E5
+
+## Subscription for Project and Dataverse Apps  
+
+Within each subscription, there are two apps that can be seen from the Microsoft 365 admin center.
 
 - Project for Office (Plan X)
 - Dataverse
 
 The "Plan" in the title of Project for Office comes from the family of suite the app is included in. Both apps (from the same subscription) must be assigned to the user to view Project for the web or Roadmap.
 
-#### Project for Office App
+### Project for Office App
 
 | Family Subscription | Admin center Display Name | ID | Name |
 | --- | --- | --- | --- |
@@ -55,7 +69,7 @@ The "Plan" in the title of Project for Office comes from the family of suite the
 > [!NOTE]
 > Microsoft 365 for business subscriptions include Project for Office (Plan E1), Project for Office (Plan E3) or Project for Office (Plan E5).
 
-#### Common Data Service App
+### Common Data Service App
 
 | Family Subscription | Admin center Display Name | ID | Name |
 | --- | --- | --- | --- |
@@ -68,7 +82,8 @@ The "Plan" in the title of Project for Office comes from the family of suite the
 | GCC E3 | Common Data Service | 06162da2-ebf9-4954-99a0-00fee96f95cc | DYN365\_CDS\_O365\_P2\_GCC |
 | GCC E5 | Common Data Service | a7d3fb37-b6df-4085-b509-50810d991a39 | DYN365\_CDS\_O365\_P3\_GCC |
 
-## See Also
+## See also
+
 [Remove Project from the Office 365 App Launcher](remove-project-from-the-office-365-app-launcher.md)  
 [Project architecture overview](project-architecture-overview.md)</br>
 [Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
