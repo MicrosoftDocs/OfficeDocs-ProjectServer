@@ -35,7 +35,7 @@ If you also want to export and view information on specific projects:
 
 - You need to be a tenant admin.
 - You need to have a Project Plan 1, Project Plan 3, or Project Plan 5 license.
-- You need the Project Online Desktop Client if you want to export your user’s projects.  If you don’t have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US).
+
 
 ## Methods for finding your user's data
 
@@ -166,31 +166,18 @@ To run the ExportProjectContent function:
     ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"
 
 
-2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
+2. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.
+
+    3a215ea2-c650-49db-8200-47bd4a7e2278_2023-02-13T21-29-13Z.json
+
 3. If you have multiple projects, run the script again for each project, using its corresponding ProjectID value.
 
-Both the .XML and .MPP files that are created will be prefixed with the project’s Project ID.  For example, if the Project ID value is dd065460-02b8-e911-a989-000d3a170e10, the file names for the exported data will be:
 
-- dd065460-02b8-e911-a989-000d3a170e10.XML
-- dd065460-02b8-e911-a989-000d3a170e10.MPP
-
-Note that you may receive multiple versions of your .MPP file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date.
+Note that you may receive multiple versions of your .json file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date.
 
 All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
 
-### View data contained in the project file (.MPP)
-
-Use Project Online Desktop Client to open and view the project file to find information that you might want to provide the user.
-
-Project Online Desktop client is available through either the Project Plan 3 and Project Plan 5 licenses. If you don't have a subscription, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US).
-
-> [!NOTE]
-> You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
-> You cannot export the .MPP file from Project for the web and import it into Project Online (PWA).
-
-### View data contained in the project XML file
-
-The XML file contains a number of properties pertaining to the specific project. You can see the [Project XML Interchange Schema Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the XML data contained in this file.
+4. The first section of each JSON file contains the data type and description of each field.
 
 ## See Also
 
