@@ -17,7 +17,7 @@ ms.date: 04/10/2020
 
 Applies to: Project for the web and Roadmap
 
-An appropriate Project subscription (Project Plan 1, Project Plan 3, or Project Plan 5) is required for your Microsoft 365 or Office 365 users to view a  [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a) or a [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) plan. Users assigned with certain Microsoft 365 or Office 365 subscriptions are allowed to have limited edit access to projects that are shared with them without needing to be assigned a Project subscription.
+An appropriate Project subscription (Project Plan 1, Project Plan 3, or Project Plan 5) is required for your Microsoft 365 or Office 365 users to view a [Roadmap](https://support.office.com/article/Video-Welcome-to-Roadmap-57764149-51b8-468f-a50d-9ea6a4fd835a) or a [Project for the web](https://go.microsoft.com/fwlink/?linkid=2108301) plan. Users assigned with certain Microsoft 365 or Office 365 subscriptions are allowed to have limited edit access to projects that are shared with them without needing to be assigned a Project subscription.
 
 If your Microsoft 365 or Office 365 user needs to edit or create projects or roadmaps, you'll need to purchase the appropriate Project subscription and assign it to the user.
 
