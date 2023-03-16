@@ -52,9 +52,9 @@ Within each subscription, there are two apps that can be seen from the Microsoft
 - Project for Office (Plan X)
 - Dataverse
 
-In the table below, the "Plan" in the title of "Project for Office" comes from the family of Microsoft 365/Office 365 suites that includes the “Project for Office” and “Dataverse” apps and directly applies to Project for the web and Roadmap. The “Project for Office (Plan X)” and “Dataverse” apps come with an appropriate Microsoft 365 or Office 365 subscription and provide the underpinnings to view and perform limited edits of plans built in Project for the web. These apps are not separate products and are only included within the Microsoft 365 or Office 365 subscriptions as outlined above in the Office 365 subscription with view access and Office 365 subscription with limited edit access sections.
+In the following table, the "Plan" in the title of "Project for Office" comes from the family of Microsoft 365 and Office 365 suites that includes the “Project for Office” and “Dataverse” apps and directly applies to Project for the web and Roadmap. The “Project for Office (Plan X)” and “Dataverse” apps come with an appropriate Microsoft 365 or Office 365 subscription and provide the underpinnings to view and perform limited edits of plans built in Project for the web. These apps are not separate products and are only included within the Microsoft 365 or Office 365 subscriptions as outlined previously in the Office 365 subscription with view access and Office 365 subscription with limited edit access sections.
 
-Additionally, both the Project for Office and Dataverse apps within the same subscription must be assigned to the user to 1. view or perform limited edits to plans built in Project for the web; or, 2. view a Roadmap.
+Additionally, both the Project for Office and Dataverse apps within the same subscription must be assigned to the user to view or perform limited edits to plans built in Project for the web or to view a Roadmap.
 
 
 ### Project for Office App
