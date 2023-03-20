@@ -29,6 +29,11 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
   
 |**Version**|**Release date**|**Update description**|
 |:-----|:-----|:-----|
+|1.0.61.61| March 17, 2023 | Features included in this release:|
+|  |  | **Schedule API Operation Set Details Limit Increase:** The Operation set detail limit has been increased from 100 to 200. For more information, see: https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview|
+|  |  | **Work Breakdown Structure Save Performance Improvements:** For larger or more complex work breakdown structures, we have provided significant performance gains in save execution to Dataverse. |
+|  |  | Items resolved in this version |
+|  |  | - Bug: When the work hour template does not have a calendar assigned, a meaningful error is displayed. |
 |1.0.7.94 | February 2, 2021 | Items resolved in this version:|
 |  |  | - Bug: Copy Project intermittently fails |
 |  |  | - Bug: Block installation on orgs of type (Teams) |
