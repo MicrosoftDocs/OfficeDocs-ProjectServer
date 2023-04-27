@@ -1,7 +1,7 @@
 ---
 title: "Frequently Asked Questions"
 ms.author: alexla
-author: alexla
+author: BeReasonable
 manager: hocull
 ms.date: 01/07/2021
 audience: admin

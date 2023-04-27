@@ -1,7 +1,7 @@
 ---
 title: "Project architecture overview"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 3/27/2020
 audience: admin

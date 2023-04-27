@@ -1,7 +1,7 @@
 ---
 title: "The project management system maturity model white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 11/19/2015
 audience: admin

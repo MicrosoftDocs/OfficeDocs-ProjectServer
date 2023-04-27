@@ -1,7 +1,7 @@
 ---
 title: "Best practices for creating phases and stages"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 2/17/2016
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Servers Subscription Edition, 2019, or 2016 Public Preview"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article

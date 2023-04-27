@@ -1,7 +1,7 @@
 ---
 title: "Project Online and Project Server export data definitions"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/3/2018
 audience: admin

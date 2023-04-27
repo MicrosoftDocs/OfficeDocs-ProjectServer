@@ -1,7 +1,7 @@
 ---
 title: Delete user data from Project Server
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article

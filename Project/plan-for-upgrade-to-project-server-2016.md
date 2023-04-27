@@ -1,7 +1,7 @@
 ---
 title: Plan for upgrade to Project Server 2016
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2016
 audience: ITPro

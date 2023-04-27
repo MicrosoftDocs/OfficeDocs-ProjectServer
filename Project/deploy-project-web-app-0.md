@@ -1,7 +1,7 @@
 ---
 title: "How to deploy Project Web App"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro

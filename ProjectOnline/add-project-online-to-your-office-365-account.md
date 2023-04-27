@@ -1,7 +1,7 @@
 ---
 title: "Add Project Online to your Office 365 account"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/30/2016
 audience: admin

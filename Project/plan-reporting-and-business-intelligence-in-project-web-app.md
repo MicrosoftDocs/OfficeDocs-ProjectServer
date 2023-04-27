@@ -1,7 +1,7 @@
 ---
 title: "Plan reporting and business intelligence in Project Web App"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro

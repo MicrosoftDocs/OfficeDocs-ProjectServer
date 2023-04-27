@@ -1,7 +1,7 @@
 ---
 title: What's new for IT pros in Project Server 2016
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/20/2016
 audience: ITPro

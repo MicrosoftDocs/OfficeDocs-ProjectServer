@@ -1,7 +1,7 @@
 ---
 title: "Create and apply a work calendar in Project for the web"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin

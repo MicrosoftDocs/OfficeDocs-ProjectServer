@@ -1,7 +1,7 @@
 ---
 title: "Roadmap's Portfolio Service solution version history"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 11/21/2019
 audience: admin

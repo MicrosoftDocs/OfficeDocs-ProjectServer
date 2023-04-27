@@ -1,7 +1,7 @@
 ---
 title: "Breaking Bad...News that is white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/30/2016
 audience: admin
