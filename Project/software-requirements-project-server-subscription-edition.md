@@ -1,7 +1,7 @@
 ---
 title: Software requirements for Project Server Subscription Edition
 ms.author: v-jmathew
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/18/2021
 audience: ITPro

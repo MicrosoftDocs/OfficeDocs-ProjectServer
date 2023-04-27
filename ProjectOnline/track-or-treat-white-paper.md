@@ -1,7 +1,7 @@
 ---
 title: "Track or Treat white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 11/6/2014
 audience: admin

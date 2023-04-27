@@ -1,7 +1,7 @@
 ---
 title: "Activate resource engagements in Project Online"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/11/2017
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Planning Project Server and Project Online for business decision makers"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2016
 audience: ITPro

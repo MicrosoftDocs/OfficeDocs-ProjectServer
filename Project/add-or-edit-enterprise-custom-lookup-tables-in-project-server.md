@@ -1,7 +1,7 @@
 ---
 title: "Add or edit enterprise custom lookup tables in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 9/6/2017
 audience: ITPro

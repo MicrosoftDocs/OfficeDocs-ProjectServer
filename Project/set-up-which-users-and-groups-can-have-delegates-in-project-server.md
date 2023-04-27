@@ -1,7 +1,7 @@
 ---
 title: "Set up which users and groups can have delegates in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro

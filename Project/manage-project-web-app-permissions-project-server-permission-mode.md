@@ -1,7 +1,7 @@
 ---
 title: "Manage Project Web App permissions (Project Server permission mode)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro

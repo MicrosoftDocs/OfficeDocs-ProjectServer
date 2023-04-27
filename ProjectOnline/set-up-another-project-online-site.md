@@ -1,7 +1,7 @@
 ---
 title: "Set up another Project Online site"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 2/16/2018
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Renew your Project Online plans in a larger organization"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 2/24/2017
 audience: admin

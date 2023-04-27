@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Data (Project Server settings)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 9/6/2017
 audience: ITPro

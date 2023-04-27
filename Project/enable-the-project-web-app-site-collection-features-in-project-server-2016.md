@@ -1,7 +1,7 @@
 ---
 title: "Enable the Project Web App site collection features in Project Servers Subscription Edition, 2019, or 2016"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Set up categories for timesheet rows"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/1/2017
 audience: admin

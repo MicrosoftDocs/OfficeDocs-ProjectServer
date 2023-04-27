@@ -1,7 +1,7 @@
 ---
 title: "Project Online Admin Documentation"
 ms.localizationpriority: medium
-author: serdars
+author: SerdarSoysal
 manager: samanro
 ms.service: project-online
 ms.tgt_pltfrm: na

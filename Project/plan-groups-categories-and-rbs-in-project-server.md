@@ -1,7 +1,7 @@
 ---
 title: "Plan groups, categories, and RBS in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/15/2017
 audience: ITPro

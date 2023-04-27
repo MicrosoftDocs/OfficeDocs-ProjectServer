@@ -1,7 +1,7 @@
 ---
 title: "Manage users, groups, and categories in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro

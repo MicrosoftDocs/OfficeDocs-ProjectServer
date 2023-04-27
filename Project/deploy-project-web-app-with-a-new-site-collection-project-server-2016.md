@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App with a new site collection"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article

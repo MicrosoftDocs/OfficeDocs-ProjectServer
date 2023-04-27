@@ -1,7 +1,7 @@
 ---
 title: "Office 365 User access to Project for the web and Roadmap"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: admin
 ms.topic: article

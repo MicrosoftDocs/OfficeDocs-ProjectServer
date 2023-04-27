@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Server 2013 to a server farm environment"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2017
 audience: ITPro
