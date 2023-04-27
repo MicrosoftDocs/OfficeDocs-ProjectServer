@@ -7,7 +7,7 @@ audience: End User
 ms.topic: reference
 f1_keywords:
 - 'microsoft-project-online-service-description'
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.custom:
 - Adm_ServiceDesc
