@@ -1,7 +1,7 @@
 ---
 title: "Find customized user items in Project Online and Project Server user export data"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/25/2018
 audience: admin

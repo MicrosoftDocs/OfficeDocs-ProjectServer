@@ -1,7 +1,7 @@
 ---
 title: "Export user data from Project Online"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/25/2018
 audience: admin

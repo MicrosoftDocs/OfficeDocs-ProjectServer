@@ -1,7 +1,7 @@
 ---
 title: "Remove Project from Microsoft 365"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: admin
 ms.topic: article

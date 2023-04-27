@@ -1,7 +1,7 @@
 ---
 title: Deactivate user accounts in Project Server
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/10/2017
 audience: ITPro

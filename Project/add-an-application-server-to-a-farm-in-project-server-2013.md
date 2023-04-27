@@ -1,7 +1,7 @@
 ---
 title: "Add an application server to a farm in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/21/2017
 audience: ITPro

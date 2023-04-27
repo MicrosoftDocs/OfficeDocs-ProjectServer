@@ -1,7 +1,7 @@
 ---
 title: "Maintain user data"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 4/25/2018
 audience: admin

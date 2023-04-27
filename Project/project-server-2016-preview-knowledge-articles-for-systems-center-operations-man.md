@@ -1,7 +1,7 @@
 ---
 title: "Project Server 2016 knowledge articles for Systems Center Operations Manager"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro

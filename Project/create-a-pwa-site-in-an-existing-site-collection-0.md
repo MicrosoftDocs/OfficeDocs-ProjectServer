@@ -1,7 +1,7 @@
 ---
 title: "Create a PWA site in an existing site collection"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro

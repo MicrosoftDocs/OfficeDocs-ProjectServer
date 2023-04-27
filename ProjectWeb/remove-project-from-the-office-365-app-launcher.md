@@ -1,7 +1,7 @@
 ---
 title: "Remove Project from the Office 365 App Launcher"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/19/2020
 audience: admin

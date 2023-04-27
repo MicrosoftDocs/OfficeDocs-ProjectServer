@@ -1,7 +1,7 @@
 ---
 title: "Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro

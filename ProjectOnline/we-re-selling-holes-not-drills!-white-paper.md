@@ -1,7 +1,7 @@
 ---
 title: "We're selling holes, not drills! white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 8/31/2015
 audience: admin

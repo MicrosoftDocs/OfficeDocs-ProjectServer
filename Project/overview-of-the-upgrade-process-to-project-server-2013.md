@@ -1,7 +1,7 @@
 ---
 title: "Overview of the upgrade process to Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/22/2017
 audience: ITPro

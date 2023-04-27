@@ -1,7 +1,7 @@
 ---
 title: "GPS assistance in roadmapping an EPM deployment white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/20/2015
 audience: admin

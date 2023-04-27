@@ -1,7 +1,7 @@
 ---
 title: "Deploying Project for the web"
 ms.author: alexla
-author: alexla
+author: BeReasonable
 manager: hocull
 ms.date: 08/24/2021
 audience: admin

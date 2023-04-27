@@ -1,7 +1,7 @@
 ---
 title: "Step 3 Set up shop in Project Online"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/30/2016
 audience: admin
