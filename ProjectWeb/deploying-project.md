@@ -100,9 +100,9 @@ The following enterprise applications should be enabled:
 |Application Name  |Application ID  |
 |---------|---------|
 |Dynamics Provision   |    39e6ea5b-4aa4-4df2-808b-b6b5fb8ada6f      |
-|Common Data Service    |      00000007-0000-0000-c000-000000000000    |
-|Microsoft Flow     |      7df0a125-d3be-4c96-aa54-591f83ff541c    |
-|Microsoft PowerApps    |  475226c6-020e-4fb2-8a90-7a972cbfc1d4        |
+|Dataverse    |      00000007-0000-0000-c000-000000000000    |
+|Microsoft Flow Service     |      7df0a125-d3be-4c96-aa54-591f83ff541c    |
+|PowerApps Service    |  475226c6-020e-4fb2-8a90-7a972cbfc1d4        |
 |Dynamics CRM Online Administration   |     637fcc9f-4a9b-4aaa-8713-a2a3cfda1505     |
 |Project Online   |     f53895d3-095d-408f-8e93-8f94b391404e     |
 
