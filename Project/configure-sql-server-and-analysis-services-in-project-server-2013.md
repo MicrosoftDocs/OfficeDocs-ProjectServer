@@ -1,7 +1,7 @@
 ---
-title: "Configure SQL Server and Analysis Services in Project Server 2013"
+title: "How to configure SQL Server and Analysis Services in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -13,7 +13,7 @@ ms.assetid: e059ba50-f789-4fd5-a6c4-342108c0c120
 description: "Summary: Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013."
 ---
 
-# Configure SQL Server and Analysis Services in Project Server 2013
+# How to configure SQL Server and Analysis Services in Project Server 2013
  
  **Summary:** Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013.
   
@@ -85,10 +85,7 @@ As a rule, create an additional TempDB file for each processor (core) in the com
 ## See also
 <a name="section4"> </a>
 
-#### 
-
 [Install SharePoint Server 2016 (Project Server 2016)](install-sharepoint-server-2016-project-server-2016.md)
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

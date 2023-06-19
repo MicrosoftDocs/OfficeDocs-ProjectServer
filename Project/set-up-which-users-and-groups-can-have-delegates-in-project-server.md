@@ -1,7 +1,7 @@
 ---
 title: "Set up which users and groups can have delegates in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro
@@ -35,8 +35,6 @@ Categories are used in Project Web App to determine which users or groups can ha
 6. Click **Save** to save the permissions on the server.
     
 ## See also
-
-#### 
 
 [Set up which users and groups can act as delegates in Project Server](set-up-which-users-and-groups-can-act-as-delegates-in-project-server.md)
 

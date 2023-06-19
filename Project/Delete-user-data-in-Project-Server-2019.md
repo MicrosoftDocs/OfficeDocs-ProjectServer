@@ -1,15 +1,16 @@
 ---
-title: "Delete user data from Project Server 2019 Public Preview"
+title: Delete user data from Project Server 2019 Public Preview
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
-
-description: "Learn how an Farm admin can delete a specific user's data from a Project Server 2019 Public Preview environment."
+description: Learn how an Farm admin can delete a specific user's data from a Project Server 2019 Public Preview environment.
+ms.date: 10/04/2018
 ---
+
 # Delete user data from Project Server 2019 Public Preview
 
 > **Important!**: The process to delete user data from Project Server 2019 Public Preview is very different from the process used for Project Server 2016, Project Server 2013, and Project Server 2010. To learn how to delete user data from previous versions of Project Server, see [Delete user data from Project Server](delete-user-data-from-project-server.md).
@@ -152,19 +153,19 @@ For example, running the cmdlet on our sample Contoso Project Server farm might 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="https://contoso/pwa1" class="uri">https://contoso/pwa1</a> </td>
+<td align="left">`https://contoso/pwa1`</td>
 <td align="left">63ed0197-3647-4279-ed5e80855fc7 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL01 </td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://contoso/pwa2" class="uri">https://contoso/pwa2</a> </td>
+<td align="left">`https://contoso/pwa2`</td>
 <td align="left">67fd0727-5279-3321-ef4e90956fc8 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL01 </td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://contoso/pwa3" class="uri">https://contoso/pwa3</a> </td>
+<td align="left">`https://contoso/pwa3`</td>
 <td align="left">63ed0197-3647-4279-eg7e20233fg9 </td>
 <td align="left">WSS_Content </td>
 <td align="left">SQL02 </td>
@@ -303,9 +304,9 @@ Note that you can specify the user either by claims account or Resource ID.
 Use the cmdlet the following way if you are specifying the user by Claims Account
 > *Invoke-SPProjectRedactUser  -Url \<PWASiteURL\> -ClaimsAccount \<ClaimsAccount\>*
 
-For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *https://contoso.sharepoint.com/sites/pwa* site, except for the user's display name.
+For example, the following remove all data for the user with the claim :0\#.w|*contoso/bob* throughout the *`https://contoso.sharepoint.com/sites/pwa`* site, except for the user's display name.
 
-> *Invoke-SPProjectRedactUser  -Url https://contoso.sharepoint.com/sites/pwa -ClaimsAccount “i:0\#.w|contoso\\evac”  
+> *Invoke-SPProjectRedactUser  -Url `https://contoso.sharepoint.com/sites/pwa` -ClaimsAccount “i:0\#.w|contoso\\evac”  
 > *
 
 When running this command, a message will display asking you to confirm if you want to proceed.
@@ -417,7 +418,7 @@ Project Server only keeps a single version of the following archived items:
 
 -   Enterprise Global
 
-Take a new [administrative backup](https://review.docs.microsoft.com/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
+Take a new [administrative backup](/Project/back-up-item-level-objects-through-administrative-backup-project-server-2013). This will overwrite the previous version with the version where the resource’s personal data has been redacted.
 
   
 

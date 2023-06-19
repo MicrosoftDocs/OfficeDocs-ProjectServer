@@ -1,7 +1,7 @@
 ---
 title: "Plan for performance and capacity in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
@@ -24,7 +24,7 @@ This section covers capacity planning for Project Server 2013
 
 The following articles about planning for performance and capacity for Project Server 2013 deployments are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md) <br/> |This chapter is about how to determine the hardware requirements for a single Project Server 2013 farm.  <br/> |
 ||[Capacity planning strategy for Project Server 2013](capacity-planning-strategy-for-project-server-2013.md) <br/> |Performance and capacity planning strategy is a vital part of planning a Project Server 2013 deployment.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: "Periodic tasks for Project Online administrators"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 9/8/2017
 audience: admin

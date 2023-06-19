@@ -1,7 +1,7 @@
 ---
 title: "Install SharePoint Server 2013 (Project Server 2013)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -33,7 +33,6 @@ When you have completed SharePoint Server 2013 deployment, proceed to [Install a
   
 ## See also
 
-#### 
 
 [Hardware and software requirements for Project Server 2013](hardware-and-software-requirements-for-project-server-2013.md)
 
@@ -44,4 +43,3 @@ When you have completed SharePoint Server 2013 deployment, proceed to [Install a
 [Installation and deployment for SharePoint 2013 IT Pros Resource Center](/SharePoint/install/installation-and-configuration-overview)
   
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
-####

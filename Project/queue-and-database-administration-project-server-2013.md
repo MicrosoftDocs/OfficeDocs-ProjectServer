@@ -1,7 +1,7 @@
 ---
 title: "Queue and Database Administration (Project Server 2013)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -24,7 +24,7 @@ The following articles on TechNet provide information about queue and database a
 
 The following articles about queue and database administration in Project Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Manage Queue Jobs (Project Server 2013)](manage-queue-jobs-project-server-2013.md) <br/> |Learn how to manage jobs submitted in Project Server 2013 through the Manage Queue Jobs settings.  <br/> |
 ||[Daily Schedule Backup (Project Server 2013)](daily-schedule-backup-project-server-2013.md) <br/> |Use the Daily Schedule Backup settings page in SharePoint Central Administration to schedule daily backups of Project Server 2013 objects.  <br/> |

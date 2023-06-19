@@ -1,11 +1,11 @@
 ---
 title: "Project Server 2016 architecture"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/31/2016
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
@@ -51,4 +51,3 @@ The front-end tier includes third-party applications, Project Professional, and 
   
 The Project Web App components of Project Server use the SharePoint Server 2016 configuration database for project site setup and the content database for all other information. There is no longer a separate Project Server database.
   
-

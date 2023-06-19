@@ -1,11 +1,11 @@
 ---
 title: "Plan reporting and business intelligence in Project Web App"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -88,4 +88,4 @@ In Project Online, Project Web App data for reporting is only available through 
   
 ## See also
 [Overview of Excel Services in SharePoint Server 2013](/SharePoint/administration/excel-services-overview)
-####
+

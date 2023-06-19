@@ -1,7 +1,7 @@
 ---
 title: "Default categories in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -93,7 +93,6 @@ Use the following legend for the table below.
 ## See also
 <a name="section2"> </a>
 
-#### 
 
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
   

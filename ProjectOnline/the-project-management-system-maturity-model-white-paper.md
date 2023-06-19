@@ -1,7 +1,7 @@
 ---
 title: "The project management system maturity model white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 11/19/2015
 audience: admin
@@ -43,9 +43,7 @@ In our experience, the natural evolution of use of a project management system c
   
 ![5 major areas of a project management system.](media/c6864a4c-2166-48f6-a0cd-f85ea27af7a1.jpg)
   
-> **1 - Planning**. We almost always see Planning as the first wave. Some organizations never get beyond this. They make a basic schedule, bronze the GANTT chart, and then mount it on the wall of the project team's office. People refer to the plaque from time to time nostalgically as they remember the fine state of their schedule just before the project started.
-    
-     While I'm being a bit cruel at those who are only using their expensive project management software to make a bar chart, there is certainly value from doing so. Creating an organized schedule tends to make the project participants think about how the work should be put together and is much more effective than doing nothing or just making a spreadsheet list. 
+> **1 - Planning**. We almost always see Planning as the first wave. Some organizations never get beyond this. They make a basic schedule, bronze the GANTT chart, and then mount it on the wall of the project team's office. People refer to the plaque from time to time nostalgically as they remember the fine state of their schedule just before the project started. <br /><br>  While I'm being a bit cruel at those who are only using their expensive project management software to make a bar chart, there is certainly value from doing so. Creating an organized schedule tends to make the project participants think about how the work should be put together and is much more effective than doing nothing or just making a spreadsheet list. 
     
 > **2 - Tracking**. Next in line in our experience is typically tracking. An organization which is a little more "mature" in the use of their project management system will not only plan, they'll track their schedules, advancing them on a regular basis with the progress to date and even look forward with projected schedules as the plans advance. For many organizations, stopping here is effective. They're planning in their project management system, and then they're working the plan by updating it regularly and even giving useful reports to management.
     

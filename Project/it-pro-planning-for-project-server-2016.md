@@ -1,7 +1,7 @@
 ---
 title: "IT Pro Planning for Project Server 2016"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -21,7 +21,7 @@ description: "Summary: Learn about deployment planning. Before you install Proje
   
 The following articles provide information about planning for Project Server deployment.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Determine project management requirements in Project Server](determine-project-management-requirements-in-project-server-2016.md) <br/> |It is important to determine the project management needs and requirements for your organization. Your configuration will vary according to the kind of work that your organization performs and whether you use Project Server for time tracking, collaboration, or portfolio management.  <br/> |
 ||[Determine the number and types of users that require access to Project Server](determine-the-number-and-types-of-users-that-require-access-to-project-server-20.md) <br/> |The number and types of users in your organization who use Project Server features have a direct effect on the scalability and performance needs of your organization.  <br/> |
@@ -29,7 +29,5 @@ The following articles provide information about planning for Project Server dep
 ||[Plan reporting and business intelligence in Project Web App](plan-reporting-and-business-intelligence-in-project-web-app.md) <br/> |This article describes the options available for creating custom reports of Project Web App data.  <br/> |
    
 ## See also
-
-#### 
 
 [Plan for SharePoint Server 2016](/SharePoint/getting-started)

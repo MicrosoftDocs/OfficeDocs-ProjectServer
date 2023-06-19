@@ -1,7 +1,7 @@
 ---
 title: "Project Server 2016 knowledge articles for Systems Center Operations Manager"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -147,8 +147,6 @@ Check standard connectivity on the faulty computers:
     
 ## See also
 <a name="ProjectApp2"> </a>
-
-#### 
 
 [Operations for Project Server 2016](operations-for-project-server-2016.md)
 

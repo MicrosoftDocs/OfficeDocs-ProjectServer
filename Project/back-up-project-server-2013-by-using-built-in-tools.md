@@ -1,7 +1,7 @@
 ---
 title: "Back up Project Server 2013 by using built-in tools"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -159,13 +159,13 @@ You can use Microsoft PowerShell to back up your Project Server 2013 farm manual
     
 3. At the prompt, type the following command:
     
-    **Backup-SPFarm -ShowTree -Directory** *<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *<Project Server Web Application Name>*
+    **Backup-SPFarm -ShowTree -Directory** *\<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *\<Project Server Web Application Name>*
     
 4. This allows you to determine the elements that you will backup, without actually performing the backup, thanks to the **-ShowTree** parameter. If your service application name is not unique, this should provide you with the full path to enter for **-Path** instead (if there are spaces, enclose the path with double quotation marks).
     
 5. Once you have identified the Project Server service application to back up, and confirmed with the **-ShowTree** command , you can remove the **-ShowTree** command to perform the backup.
     
-    **Backup-SPFarm -Directory** *<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *<Project Server Web Application Name>*
+    **Backup-SPFarm -Directory** *\<BackupShare>* **-BackupMethod** [ **full/incremental** ] -Path *\<Project Server Web Application Name>*
     
 6. Click **Enter**. If you add the **-Verbose** parameter, detailed information is provided about the backup status. If you do not, then a "successful" or error message appears at the end of the backup process.
     
@@ -176,7 +176,5 @@ For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/B
 > We recommend that you use Windows PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ## See also
-
-#### 
 
 [Restore Project Server 2013 by using built-in tools](restore-project-server-2013-by-using-built-in-tools.md)

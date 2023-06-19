@@ -1,7 +1,7 @@
 ---
-title: "Plan the client tier in Project Server 2013"
+title: Plan the client tier in Project Server 2013
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: dee8ae00-1de3-456b-8148-fe07d59e2871
-description: "Summary: Plan for Project Professional, task synchronization, and browser support in Project Server 2013."
+description: Plan for Project Professional, task synchronization, and browser support in Project Server 2013.
 ---
 
 # Plan the client tier in Project Server 2013
@@ -36,7 +36,7 @@ Users can also receive email reminder notifications for tasks that they are assi
   
 ## Browser support in Project Server 2013
 
-Project Server 2013 and Project Web App support the same browsers as SharePoint Server 2013. For information about which browsers are supported, see [Plan browser support (SharePoint 2013)](/SharePoint/install/browser-support-planning-0)
+Project Server 2013 and Project Web App support the same browsers as SharePoint Server 2013. For information about which browsers are supported, see [Plan browser support (SharePoint 2013)](/sharepoint/install/browser-support-planning)
   
 ## Third-party and line of business applications in a Project Server 2013 deployment
 
@@ -46,6 +46,5 @@ Project Server 2013 provides a complete Software Development Kit (SDK).
   
 ## See also
 
-#### 
 
 [Volume activation of Office 2013](/DeployOffice/vlactivation/plan-volume-activation-of-office)

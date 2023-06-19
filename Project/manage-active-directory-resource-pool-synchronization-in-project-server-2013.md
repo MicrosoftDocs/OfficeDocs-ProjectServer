@@ -1,7 +1,7 @@
 ---
 title: "Manage Active Directory Resource Pool synchronization in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/30/2017
 audience: ITPro
@@ -125,7 +125,7 @@ In Project Server 2013, scheduling synchronization of your enterprise resource p
     
 2. On the Monitoring page, in the Timer Job section, click Check job status.
     
-3. On the Timer Job Status page, find and then click **Project Web App: Synchronization of AD with the Enterprise Resource Pool job for <PWA site name>**. 
+3. On the Timer Job Status page, find and then click **Project Web App: Synchronization of AD with the Enterprise Resource Pool job for \<PWA site name>**. 
     
     For example: Project Web App: Synchronization of AD with the Enterprise Resource Pool job for https://contoso/pwa.
     
@@ -135,15 +135,15 @@ In Project Server 2013, scheduling synchronization of your enterprise resource p
     
    - **Hourly**: Allows you to specify an interval in which the job will randomly run — **Starting every hour between x minutes past the hour and no later than y minutes past the hour**.
     
-   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between <time of day> and no later than <time of day>**.
+   - **Daily**: Allows you to specify an interval in which the job will randomly run — **Starting every day between \<time of day> and no later than \<time of day>**.
     
-   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between <day of week and time of day> and no later than <day of week and time of day>**.
+   - **Weekly**: Allows you to specify in which the job will randomly run — **Starting every week between \<day of week and time of day> and no later than \<day of week and time of day>**.
     
    - **Monthly**: Provides two options:
     
-   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between <time of day and day of month> and no later than <time of day and day of month>**.
+   - Allows you to specify an interval in which the job will randomly run — **By date: starting every month between \<time of day and day of month> and no later than \<time of day and day of month>**.
     
-   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month <time of day, day of the week, and week of the month**. For example, "12:00 AM on the first Sunday".
+   - Allows you to specify an exact time of the month in which the timer job will run — **By day: starting every month \<time of day, day of the week, and week of the month**. For example, "12:00 AM on the first Sunday".
     
 5. Click **OK** to save your configuration changes.
     
@@ -180,7 +180,6 @@ For example, the Contoso.com domain has a two-way trust with Litware.com and Fab
 ## See also
 <a name="PP"> </a>
 
-#### 
 
 [Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md)
   

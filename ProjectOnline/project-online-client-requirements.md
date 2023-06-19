@@ -1,7 +1,7 @@
 ---
 title: "Project Online client requirements"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 1/17/2018
 audience: admin

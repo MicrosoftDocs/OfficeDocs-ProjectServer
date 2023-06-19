@@ -1,7 +1,7 @@
 ---
 title: "Planning Project Server and Project Online for technical decision makers"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2016
 audience: ITPro
@@ -82,7 +82,7 @@ Beyond this, you can combine cloud and on-premises BI solutions by copying your 
   
 The following table shows a high-level comparison of how on-premises and online BI services can be used with Project Server and Project Online.
   
-||**Project Server**|**Project Online**|
+|&nbsp;|**Project Server**|**Project Online**|
 |:-----|:-----|:-----|
 |Cloud BI  <br/> |Use Power BI Desktop to write reports by accessing Project Web App data in the content database or using the OData feed. These reports can be shared by publishing them to the cloud.  <br/> |Use Excel to access the Project Online OData feeds. Save reports for your users to your Project Online reporting library.  <br/> Optionally, use Power BI reports and data visualizations.  <br/> |
 |On-premises BI  <br/> |For corporate BI, use SQL Server Reporting Services or PerformancePoint Services to report directly on the reporting data in the content database or online analytical processing (OLAP) cubes. (Requires no more than one instance of Project Web App per content database.)  <br/> For self-service BI, use Excel to access the Project Server OData feeds or OLAP cubes.  <br/> |Use SQL Server Integration Services to [create a data warehouse on-premises or in Microsoft Azure](/previous-versions/office/project-odata/dn720853(v=office.15)). Use SQL Server Reporting Services or PerformancePoint Services to report from that.  <br/> |

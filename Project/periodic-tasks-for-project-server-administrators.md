@@ -1,7 +1,7 @@
 ---
 title: "Periodic tasks for Project Server administrators"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/16/2017
 audience: Admin

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Project Online workflows"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 1/3/2018
 audience: admin
@@ -265,7 +265,7 @@ Restarting a Project workflow will put it back to the start of the workflow. Use
 3. From the **Project** tab, click on **Options**, then **Restart Workflow**.
     
     > [!NOTE]
-    > The project needs to be checked-in before the workflow can be restarted. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](https://support.office.com/article/914852de-7b1d-43f4-8edd-8306d51bd22e). 
+    > The project needs to be checked-in before the workflow can be restarted. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](/project/check-in-enterprise-resources-in-project-server). 
   
 4. Click **OK**
     
@@ -280,7 +280,7 @@ Restarting a Project workflow will put it back to the start of the workflow. Use
 4. Select the set of projects that need to have their workflows restarted.
     
     > [!NOTE]
-    > Projects need to be checked-in for them to show up in the list. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](https://support.office.com/article/914852de-7b1d-43f4-8edd-8306d51bd22e). 
+    > Projects need to be checked-in for them to show up in the list. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](/project/check-in-enterprise-resources-in-project-server). 
   
 5. Select **Restart current workflow** for the selected projects. 
     
@@ -352,7 +352,7 @@ In some cases an error will be a result of a failed PWA queue job. ﻿PWA provid
 
  **Workflow Last Run Date is far in the past for an active project**
   
-The project may be checked out in another session and the workflow is unable to progress until the project is checked in. The admin may want to consider force checking in the project to allow the workflow to progress. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](https://support.office.com/article/914852de-7b1d-43f4-8edd-8306d51bd22e).
+The project may be checked out in another session and the workflow is unable to progress until the project is checked in. The admin may want to consider force checking in the project to allow the workflow to progress. For more information about checking in a project, please see [Manually check in projects and resources that are checked out by another user](/project/check-in-enterprise-resources-in-project-server).
   
 > [!NOTE]
 > Workflow Last Run Date is referred to Last Submitted Date in the Project Service OData and Project Service REST API. 

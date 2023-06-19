@@ -1,7 +1,7 @@
 ---
 title: "Transitioning projects from SharePoint to Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
@@ -434,7 +434,6 @@ The Project Web App site is now available at the URL that you specified.
 ## See also
 <a name="AddProjectWebAppSite"> </a>
 
-#### 
 
 [Create a PWA site in an existing site collection](create-a-pwa-site-in-an-existing-site-collection.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "Create delegations in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro
@@ -37,8 +37,6 @@ Creating a new delegation in Project Web App enables one user to work on behalf 
 7. Click **Save** to save the permissions on the server.
     
 ## See also
-
-#### 
 
 [Turn delegation on or off in Project Server](turn-delegation-on-or-off-in-project-server.md)
 

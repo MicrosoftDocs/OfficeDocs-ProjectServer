@@ -1,7 +1,7 @@
 ---
 title: "Restore Project Server 2013 by using built-in tools"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -177,18 +177,18 @@ You have to restore a backup of your SharePoint farm to a last known good config
     
 3. To do a restore, some information is needed. The first thing that you have to type is this:
     
-    **Get-SPBackupHistory -Directory** *<BackupShare>* **-ShowBackup**
+    **Get-SPBackupHistory -Directory** *\<BackupShare>* **-ShowBackup**
     
-    Where  *<BackupShare>* is the location of the backup. This enables you to see the GUID entry for the backup or backups at that location after you click the Enter key.
+    Where  *\<BackupShare>* is the location of the backup. This enables you to see the GUID entry for the backup or backups at that location after you click the Enter key.
     
     > [!NOTE]
     > If you have multiple backups in the same location and are unsure of which GUID might be the one that you want, browse to the backup folder location and open the folder of that backup, and then open the spbackup.xml file in Notepad. The GUID that you must have for the following step will be four lines down, contained in the  `<SPID> </SPID>` tags.
   
 4. After you identify the GUID of the backup that you want to restore, use the following command to restore to the SharePoint farm.
     
-    **Restore-SPFarm -Directory** <BackupShare> **-BackupID** <GUID> **-RestoreMethod** New
+    **Restore-SPFarm -Directory** \<BackupShare> **-BackupID** \<GUID> **-RestoreMethod** New
     
-    Where  *<BackupShare>* is the location of the backup and *<GUID>* is the GUID of the backup. The **RestoreMethod** refers to the fact that this is a new farm. A restore to the original farm for these components would require the **Overwrite** value. Click Enter to run.
+    Where  *\<BackupShare>* is the location of the backup and *\<GUID>* is the GUID of the backup. The **RestoreMethod** refers to the fact that this is a new farm. A restore to the original farm for these components would require the **Overwrite** value. Click Enter to run.
     
 5. You may be prompted whether you are sure you want to perform this action. Y is for **Yes** andA is **Yes to All**.
     
@@ -203,6 +203,5 @@ For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/
   
 ## See also
 
-#### 
 
 [Back up Project Server 2013 by using built-in tools](back-up-project-server-2013-by-using-built-in-tools.md)

@@ -1,7 +1,7 @@
 ---
 title: "Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -51,8 +51,6 @@ In order to add the resources as users in Project Server 2013 to give them Proje
 A benefit of this configuration is that any changes to Active Directory can be made in a single location, and will be reflected in both the Enterprise Resource Pool and in security group. For example, if the Team Member "User 1" gets married and her last name is updated in Active Directory, the change in user properties will be reflected in both the Enterprise Resource Pool and the Project User Account when both groups are synchronized with the Active Directory group. Another benefit is that it prevents confusion that can be associated if a user is in two or more active directory groups that are synchronized with the ERP. 
   
 ## See also
-
-#### 
 
 [Manage Active Directory Resource Pool synchronization in Project Server 2013](manage-active-directory-resource-pool-synchronization-in-project-server-2013.md)
   

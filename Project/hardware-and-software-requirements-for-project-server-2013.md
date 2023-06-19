@@ -1,7 +1,7 @@
 ---
-title: "Hardware and software requirements for Project Server 2013"
+title: Hardware and software requirements for Project Server 2013
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/14/2017
 audience: ITPro
@@ -10,8 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: bde05c8a-0312-4f46-ace9-ade6ba1edd3c
-
-description: "Summary: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013."
+description: Verify that your computer meets the hardware and software requirements that are listed in this article when you try to install Project Server 2013.
 ---
 
 # Hardware and software requirements for Project Server 2013
@@ -335,7 +334,7 @@ Project Professional 2013 has the following installation requirements:
   
 **Project Professional 2013 installation requirements**
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Computer and Processor  <br/> |1 GHz or faster x86/x64 processor with SSE2 instruction set  <br/> |
 |Memory  <br/> | 1 GB RAM (32-bit) <br/>  2 GB RAM (64-bit) <br/> |
@@ -367,7 +366,7 @@ For Project Web App in Project Server 2013, you can use any of the following sup
 - Google Chrome (latest released version)
    
 > [!IMPORTANT]
-> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](/SharePoint/install/browser-support-planning-0). 
+> Project Web App in Project Server 2013 supports the same web browsers that are supported for SharePoint Server 2013. For more information about supported browsers for SharePoint Server 2013, see [Plan browser support (SharePoint 2013)](/sharepoint/install/browser-support-planning). 
   
 > [!NOTE]
 > Project Web App in Office 365 requires the same supported browsers. 
@@ -380,6 +379,5 @@ You can install Project Server 2013 and SharePoint Server 2013 on the Azure plat
 ## See also
 <a name="section8"> </a>
 
-#### 
 
 [Support and licensing for Azure in SharePoint 2013](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)

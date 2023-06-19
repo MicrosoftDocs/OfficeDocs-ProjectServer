@@ -1,7 +1,7 @@
 ---
 title: "Task Mode Settings (Project Server 2013 settings)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -55,7 +55,6 @@ Manually scheduled tasks (also known as "User-Controlled Scheduling") were intro
     
 ## See also
 
-#### 
 
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 

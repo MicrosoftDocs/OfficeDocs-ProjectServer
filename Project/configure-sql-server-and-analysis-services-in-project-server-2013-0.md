@@ -1,7 +1,7 @@
 ---
 title: "Configure SQL Server and Analysis Services in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 3d90a60f-b4a4-4119-acd1-5925e54ce856
-description: "Summary: Configure SQL Server and SQL Server Analysis Services (SSAS) settings prior to installing Project Server 2013."
+description: "Summary: Configure SQL Server and SQL Server Analysis Services (SSAS) settings before you install Project Server 2013."
 ---
 
 # Configure SQL Server and Analysis Services in Project Server 2013
@@ -94,8 +94,6 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
   
 ## See also
 <a name="section4"> </a>
-
-#### 
 
 [Install SharePoint Server 2016 (Project Server 2016)](install-sharepoint-server-2016-project-server-2016.md)
 

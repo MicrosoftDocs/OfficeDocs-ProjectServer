@@ -1,33 +1,31 @@
 ---
 title: "Project Service Core solution version history"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/9/2019
 audience: admin
+ms.topic: article
 ms.service: project-web
 ms.localizationpriority: medium
 search.appverid:
 - PJO150
 - PJO160
 - MET150
-description: "See version history and release notes for the Project Service core solution."
+description: "See version history and release notes for the Project Service Core solution."
 ---
 
 # Project Service Core solution version history
-
-
   
 ## Introduction
 
-This article lists all of the updates that have been made to Project Service Core solution in Microsoft Dynamics 365 to date, along with other information pertinent to those updates. This solution is used by the Project for the Web application that is available in Microsoft Project. 
+This article lists all of the updates that have been made to Project Service Core solution in Microsoft Dynamics 365 to date, along with other information pertinent to those updates. This solution is used by the Project for the Web application that is available in Microsoft Project.
 
 ## Upgrade Information
-If you want to upgrade your solution within Dynamics 365 when a newer version is available, please see [KB #3192042](https://support.microsoft.com/help/3192042/how-to-upgrade-the-solutions-for-a-microsoft-dynamics-crm-portals-depl). 
 
+If you want to upgrade your solution within Dynamics 365 when a newer version is available, please see [KB #3192042](https://support.microsoft.com/help/3192042/how-to-upgrade-the-solutions-for-a-microsoft-dynamics-crm-portals-depl).
 
 ## Version history
-
   
 |**Version**|**Release date**|**Update description**|
 |:-----|:-----|:-----|

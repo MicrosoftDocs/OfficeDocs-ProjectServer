@@ -1,7 +1,7 @@
 ---
-title: "Modify security templates in Project Server"
+title: Modify security templates in Project Server
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro
@@ -10,7 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: eaf98652-2205-4261-9b0e-82b1173a3bd7
-description: "Summary: Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings."
+description: Edit Project Web App security templates by using the Manage Templates page in Project Web App Settings.
 ---
 
 # Modify security templates in Project Server
@@ -26,7 +26,7 @@ In Project Server permission mode, you can modify the permissions for any existi
 ## Before you begin
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:> [Plan browser support](/SharePoint/install/browser-support-planning)> [Accessibility for SharePoint Products](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:> [Plan browser support](/SharePoint/install/browser-support-planning)> [Accessibility for SharePoint Products](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
   
 Before you begin this operation, review the following information about prerequisites:
   

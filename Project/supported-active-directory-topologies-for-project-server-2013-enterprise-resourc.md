@@ -1,7 +1,7 @@
 ---
 title: "Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -103,7 +103,6 @@ All topologies not mentioned in this article as supported topologies are not sup
     
 ## See also
 
-#### 
 
 [Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013](best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md)
   

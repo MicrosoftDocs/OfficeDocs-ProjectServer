@@ -1,7 +1,7 @@
 ---
 title: "Turn delegation on or off in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/16/2014
 audience: ITPro
@@ -40,7 +40,6 @@ When user delegation is turned on, you can set permissions to control the specif
     
 ## See also
 
-#### 
 
 [Create delegations in Project Server](create-delegations-in-project-server.md)
 

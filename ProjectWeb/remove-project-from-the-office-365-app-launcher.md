@@ -1,7 +1,7 @@
 ---
 title: "Remove Project from the Office 365 App Launcher"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 6/19/2020
 audience: admin
@@ -17,7 +17,7 @@ description: "Learn how to remove the Project tile from the Office 365 App Launc
 # Remove Project from the Office 365 App Launcher
 
 
-If you have users with one of the [Office 365 User view access to Project and Roadmap](office-365-user-view-access-to-project-and-roadmap.md#office-365-user-view-access-to-project-and-roadmap), a Project tile will display in the Office 365 App Launcher.  
+If you have users with one of the [Office 365 User access to Project for the web and Roadmap](office-365-user-view-access-to-project-and-roadmap.md#office-365-user-access-to-project-for-the-web-and-roadmap), a Project tile will display in the Office 365 App Launcher.  
 
 ![Project tile.](media/applauncher.png)
 

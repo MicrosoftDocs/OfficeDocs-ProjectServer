@@ -1,7 +1,7 @@
 ---
 title: "Installation and deployment overview for Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -53,7 +53,5 @@ Once the initial Project Server 2013 configuration within SharePoint Server 2013
 The first step, prior to installation, is to make sure you have the needed permissions to accomplish the required tasks. For more information, see [Prepare for deployment](./prepare-for-a-deployment-of-project-server-2013.md).
   
 ## See also
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

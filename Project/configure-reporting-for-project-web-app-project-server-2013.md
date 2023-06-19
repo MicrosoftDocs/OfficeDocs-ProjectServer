@@ -1,7 +1,7 @@
 ---
-title: "Configure reporting for Project Web App (Project Server 2013)"
+title: Configure reporting for Project Web App (Project Server 2013)
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -10,8 +10,7 @@ ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 400e26f1-b21d-489a-8c6e-a1bc30e6e0c7
-
-description: "Summary: Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports."
+description: Configure reporting for Project Web App and configure Secure Store and Excel Services settings to enable the Project Web App sample reports.
 ---
 
 # Configure reporting for Project Web App (Project Server 2013)
@@ -96,7 +95,7 @@ Perform the following procedure on the computer where your Project Web App datab
   
 ### To add a login for the report authors group
 
-1. Click **Start**, **All Programs**, **Microsoft SQL Server** <version>, **SQL Server Management Studio**.
+1. Click **Start**, **All Programs**, **Microsoft SQL Server** \<version>, **SQL Server Management Studio**.
     
 2. Select the instance of the SQL Server database engine where your Project Server 2013 database resides, and then click **Connect**.
     
@@ -132,7 +131,7 @@ If you do not already have the SQL Server 2008 R2 Analysis Management Objects (A
 > [!NOTE]
 > Use the SQL Server 2008 R2 version of AMO regardless of which version of SQL Server you are using to host your databases. 
   
-Click to download the [SQL Server 2008 R2 Analysis Management Objects](https://go.microsoft.com/fwlink/p/?LinkID=188448) (https://go.microsoft.com/fwlink/?LinkID=188448).
+Click to download the [SQL Server 2008 R2 Analysis Management Objects](https://www.microsoft.com/download/details.aspx?id=44277).
   
 > [!NOTE]
 > After installing the AMO objects, restart the **Project Application Service** on each application server in the farm where it is running. This service is configured in the SharePoint Central Administration website in the **System Settings** section, **Manage services on server**. 
@@ -277,7 +276,5 @@ If you plan to use SQL Server Analysis Services OLAP cubes with Project Web App,
   
 ## See also
 <a name="PopulateADGroups"> </a>
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

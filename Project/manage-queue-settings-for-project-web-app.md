@@ -1,7 +1,7 @@
 ---
 title: "Manage Queue Settings for Project Web App"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro

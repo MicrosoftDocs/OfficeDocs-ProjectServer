@@ -1,7 +1,7 @@
 ---
 title: "Portfolio analysis business drivers"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/30/2017
 audience: ITPro

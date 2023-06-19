@@ -1,7 +1,7 @@
 ---
 title: "Supporting your Project Online adoption with a Project Management Office (PMO)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 1/24/2018
 audience: admin
@@ -14,7 +14,7 @@ search.appverid:
 - PJO160
 - MET150
 ms.assetid: 567b2415-5973-4e38-b796-dd20ebcb00c8
-description: 
+description: Supporting your Project Online adoption with a Project Management Office (PMO)
 ---
 
 # Supporting your Project Online adoption with a Project Management Office (PMO)
@@ -50,9 +50,8 @@ In larger companies, a PMO can consist of a department that deals with project m
     
 Still confused? Let's take a step back and use an example that people can relate to - how a head of household might take care of their own family:
   
-||||
+|**Need**  |**PMO**  |**Family**  |
 |:-----|:-----|:-----|
-|**Need** <br/> |**PMO** <br/> |**Family** <br/> |
 |![PMO - Information.](media/7b33c3a7-10be-4979-b4f4-2d326823aaf4.png)|The PMO helps to establish an efficient way to deliver information to project stakeholders through project status and health reports. This might involve researching reporting needs, moving required data to the system, and establishing workflows to ensure that the data required for recurring reports makes it to the system in time.  <br/> | The heads of the household will need information on how things are going:  <br/>  -Quarterly reports on children's studies.  <br/>  -Monthly bank statements to show the status of finances.  <br/>  -Yearly doctor visits to determine family member's health.  <br/> |
 |![PMO-Information about who is doing what.](media/400b46b5-4ca6-4fce-a366-2bc301936333.png)|The PMO creates processes to get the right data to the project management system to provide status at a project level to project managers. It also provides guidance and best practices for resource management.  <br/> | People in the family will need to know who's doing what. This can include:  <br/>  -Who will pick up children from school today, walk the dog in the evenings, cook dinner, etc.  <br/>  -If someone can't do their usual task, you need to know who is available to take their place.  <br/>  It helps to show everyone's work and school schedule, and availability, on a central family calendar. This way it is easy to know who can be scheduled for what.  <br/> |
 |![PMO - forums for collaboration.](media/401e2d33-939d-4653-8a5c-5ee5f34cd590.png)|The PMO helps to create project collaboration sites and customize them to best suit the needs of the site users.  <br/> | Family members will need a forum in which they can collaborate, such as:  <br/> -Posting important events on a wall calendar in the kitchen  <br/>  -Talking to each other daily at the dinner table.  <br/> |
@@ -97,9 +96,8 @@ Strong executive sponsorship can be helpful in addressing resistance users might
 
 Whether you are trying to establish a PMO in a large or small company, the following are responsibilities that need to be addressed by the roles in your PMO:
   
-|||
+|**Role**  |**Description**  |
 |:-----|:-----|
-|**Role** <br/> |**Description** <br/> |
 |Drive the Project Online adoption plan  <br/> |If you are in the process of implementing Project Online, the overall plan needs someone to drive it. Just like any project, the adoption plan needs an owner to ensure that the required tasks are staffed and completed.  <br/> |
 |Research project management needs  <br/> |This person will assess the project management requirements of your organization. This person will need to talk with users throughout the company and across departments to find out how they currently manage projects, what their requirements will be, and how these might be improved through the implementation of Project Online. These requirements will need to be expressed to the Project administrator so that they can be properly implemented into Project Online. This person must have good project management skills, but should also be someone who is a good communicator. It is quite possible that people in the company may be emotionally attached to the process you are trying to move them from, so this person will need to be able to deal with this by showing how the new system will make life easier for them.  <br/> |
 |Training, documentation, and support  <br/> |This person will need to assess the skill level of the users, and will be responsible for providing the training resources needed to use the product successfully. This might include creating role-based training for Project administrators, project managers, team leads, and team members. While most of your effort might be in putting together training for project managers or administrators, team leads and team members might find quick reference cards, cheat sheets, checklists or short tutorials to be the most effective. You will also need to find a way to provide in-house support for your users, and a method to escalate more complicated issues through the proper routes.  <br/> |
