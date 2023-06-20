@@ -19,38 +19,38 @@ description: "Learn how your organization can export a specific user's content f
 
 Page describes the output format and definition of JSON when using the ExportProjectContent tool.
 
-| Property name                            | Type       | Description                                         |
-| ---------------------------------------- | ---------- | --------------------------------------------------- |
-| /project                                 | JSONObject | Project level values                                |
-| /project/fields                          | JSONArray  | Definition of project level properties              |
-| /project/assignments                     | JSONArray  | List of assignments and their values                |
-| /project/assignments/fields              | JSONArray  | Definition of assignment properties                 |
-| /project/attachments                     | JSONArray  | List of attachments and their values                |
-| /project/attachments/fields              | JSONArray  | Definition of attachment properties                 |
-| /project/buckets                         | JSONArray  | List of buckets and their values                    |
-| /project/buckets/fields                  | JSONArray  | Definition of bucket properties                     |
-| /project/calendars                       | JSONArray  | List of calendar and their values                   |
-| /project/calendars/fields                | JSONArray  | Definition of calendar properties                   |
-| /project/checklistItems                  | JSONArray  | List of checklist items and their values            |
-| /project/checklistItems/fields           | JSONArray  | Definition of checklist item properties             |
-| /project/conditionalColoringRules        | JSONArray  | List of conditional coloring rules and their values |
-| /project/conditionalColoringRules/fields | JSONArray  | Definition of conditional coloring rule properties  |
-| /project/conversations                   | JSONArray  | List of conversation and their values               |
-| /project/conversations/fields            | JSONArray  | Definition of conversation properties               |
-| /project/labelassociations               | JSONArray  | List of label associations and their values         |
-| /project/labelassociations/fields        | JSONArray  | Definition of label association properties          |
-| /project/labels                          | JSONArray  | List of labels and their values                     |
-| /project/labels/fields                   | JSONArray  | Definition of label properties                      |
-| /project/links                           | JSONArray  | List of links and their values                      |
-| /project/links/fields                    | JSONArray  | Definition of link properties                       |
-| /project/resources                       | JSONArray  | List of resources and their values                  |
-| /project/resources/fields                | JSONArray  | Definition of resource properties                   |
-| /project/sprints                         | JSONArray  | List of sprints and their values                    |
-| /project/sprints/fields                  | JSONArray  | Definition of sprint properties                     |
-| /project/tasks                           | JSONArray  | List of tasks and their values                      |
-| /project/tasks/fields                    | JSONArray  | Definition of task properties                       |
-| /project/views/grid                      | JSONArray  | List of grid view properties                        |
-| /project/views/grid/fields               | JSONArray  | Definition of grid view and their values            |
+| Property name                                                                     | Type       | Description                                         |
+| --------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- |
+| /project                                                                          | JSONObject | Project level values                                |
+| [/project/fields](#project-level-properties)                                      | JSONArray  | Definition of project level properties              |
+| /project/assignments                                                              | JSONArray  | List of assignments and their values                |
+| [/project/assignments/fields](#assignment-properties)                             | JSONArray  | Definition of assignment properties                 |
+| /project/attachments                                                              | JSONArray  | List of attachments and their values                |
+| [/project/attachments/fields](#attachment-properties)                             | JSONArray  | Definition of attachment properties                 |
+| /project/buckets                                                                  | JSONArray  | List of buckets and their values                    |
+| [/project/buckets/fields](#bucket-properties)                                     | JSONArray  | Definition of bucket properties                     |
+| /project/calendars                                                                | JSONArray  | List of calendar and their values                   |
+| [/project/calendars/fields](#calendar-properties)                                 | JSONArray  | Definition of calendar properties                   |
+| /project/checklistItems                                                           | JSONArray  | List of checklist items and their values            |
+| [/project/checklistItems/fields](#checklist-properties)                           | JSONArray  | Definition of checklist item properties             |
+| /project/conditionalColoringRules                                                 | JSONArray  | List of conditional coloring rules and their values |
+| [/project/conditionalColoringRules/fields](#conditional-coloring-rule-properties) | JSONArray  | Definition of conditional coloring rule properties  |
+| /project/conversations                                                            | JSONArray  | List of conversation and their values               |
+| [/project/conversations/fields](#conversations-properties)                        | JSONArray  | Definition of conversation properties               |
+| /project/labelassociations                                                        | JSONArray  | List of label associations and their values         |
+| [/project/labelassociations/fields](#label-association-properties)                | JSONArray  | Definition of label association properties          |
+| /project/labels                                                                   | JSONArray  | List of labels and their values                     |
+| [/project/labels/fields](#label-properties)                                       | JSONArray  | Definition of label properties                      |
+| /project/links                                                                    | JSONArray  | List of links and their values                      |
+| [/project/links/fields](#links-properties)                                        | JSONArray  | Definition of link properties                       |
+| /project/resources                                                                | JSONArray  | List of resources and their values                  |
+| [/project/resources/fields](#resource-properties)                                 | JSONArray  | Definition of resource properties                   |
+| /project/sprints                                                                  | JSONArray  | List of sprints and their values                    |
+| [/project/sprints/fields](#sprint-properties)                                     | JSONArray  | Definition of sprint properties                     |
+| /project/tasks                                                                    | JSONArray  | List of tasks and their values                      |
+| [/project/tasks/fields](#task-properties)                                         | JSONArray  | Definition of task properties                       |
+| /project/views/grid                                                               | JSONArray  | List of grid view properties                        |
+| [/project/views/grid/fields](#view-properties)                                    | JSONArray  | Definition of grid view and their values            |
 
 ## Project Level Properties
 
