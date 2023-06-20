@@ -11,7 +11,7 @@ ms.service: project-web
 
 ms.localizationpriority: medium
 ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
-description: "Undertand the Project export file structure."
+description: "Understand the Project export file structure."
 
 ---
 
@@ -37,6 +37,10 @@ Page describes the output format and definition of JSON when using the ExportPro
 | [/project/conditionalColoringRules/fields](#conditional-coloring-rule-properties) | JSONArray  | Definition of conditional coloring rule properties  |
 | /project/conversations                                                            | JSONArray  | List of conversation and their values               |
 | [/project/conversations/fields](#conversations-properties)                        | JSONArray  | Definition of conversation properties               |
+| /project/goalAssociations                                                            | JSONArray  | List of goal asociations and their values              |
+| [/project/goalAssociations/fields](#goal-associations-properties)                        | JSONArray  | Definition of goal asociations          |
+| [/project/goals/fields](#goals-properties)                        | JSONArray  | Definition of goal properties               |
+| /project/goals                                                          | JSONArray  | List of goals and their values               |
 | /project/labelassociations                                                        | JSONArray  | List of label associations and their values         |
 | [/project/labelassociations/fields](#label-association-properties)                | JSONArray  | Definition of label association properties          |
 | /project/labels                                                                   | JSONArray  | List of labels and their values                     |
@@ -52,6 +56,9 @@ Page describes the output format and definition of JSON when using the ExportPro
 | /project/views/grid                                                               | JSONArray  | List of grid view properties                        |
 | [/project/views/grid/fields](#view-properties)                                    | JSONArray  | Definition of grid view and their values            |
 
+
+
+  ],
 ## Project Level Properties
 
 Reference /project/fields
@@ -68,7 +75,7 @@ Reference /project/fields
 | timezoneName             | string         | Project's timezone name.                                             |                    |
 | projectManagerResourceId | guid           | Dataverse Bookable Resource Id of the project manager.               |                    |
 | officeGroupId            | guid           | Azure Active Directory Microsoft 365 Group Id linked to the project. |                    |
-| projectState             | enum           | State of the project.                                                | Active,Inactive    |
+| projectState             | enum           | State of the project.                                                | Active, Inactive    |
 | projectManagerAadId      | guid           | Azure Active Directory user Id of the project manager.               |                    |
 | hasCustomCalendar        | bool           | Indicates if the project has a custom calendar.                      |                    |
 | defaultSprintCreated     | bool           | Has the default sprint been created.                                 |                    |
@@ -85,7 +92,7 @@ Reference /project/fields
 ## Assignment Properties
 
 Reference /project/assignments/fields.
-They are part of a task.
+They're part of a task record.
 
 | Property name        | Type     | Description                                                                                                                                                                                                                           |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -128,19 +135,19 @@ Example
 			}
 ```
 
-Segement X  
+Segment X  
 - Start = "start" + X offset in seconds  
 - Duration = duration of segment X in seconds  
-- Work = work of segement X in seconds
+- Work = work of segment X in seconds
 
 The contour starts on 2023-02-13T09:00:00Z  
 - Segment 1:  
 	- Start = 2022-12-08T09:00:00Z + 0 seconds -> 2022-12-08T09:00:00Z  
-	- Duration = 54000 seconds -> 900 Minutes -> 15 hours is the length of the segement  
+	- Duration = 54000 seconds -> 900 Minutes -> 15 hours is the length of the segment  
 	- Work = 27000 second -> 450 Minutes -> 7.5 hours fow of in the segment  
 - Segment 2:  
 	- Start = 2023-02-13T18:00:00Z + 54000 seconds (15 hours) -> 2022-12-09T00:00:00Z  
-	- Duration = 3600 seconds -> 60 Minutes -> 1 hours is the length of the segement  
+	- Duration = 3600 seconds -> 60 Minutes -> 1 hours is the length of the segment  
 	- Work = 1800 seconds -> 30 Minutes -> 0.5 hours of work in the segment
 
 ## Attachment Properties
@@ -208,6 +215,33 @@ Reference /project/conversations/fields
 | teamsChannelId      | string | Teams Channel Id containing the conversation. |
 | teamsConversationId | string | Teams Conversation Id.                        |
 
+## Goals Association Properties
+
+Reference /project/goalAssociations/fields
+
+| Property name       | Type   | Description                                   |
+| ------------------- | ------ | --------------------------------------------- |
+| taskId      | guid | Project Task Id. |
+| goalId      | guid | Project Goal Id. |
+| taskOrder      | string | Goal association order for ordering tasks |
+
+## Goals Properties
+
+Reference /project/goals/fields
+
+| Property name       | Type   | Description                                   |
+| ------------------- | ------ | --------------------------------------------- |
+| name      | string | The name of the project goal. |
+| color      | integer | Color index of the goal. |
+| priority      | integer | Priority of the goal. |
+| status      | integer | Status of the goal. |
+| startDate      | datetime | Start date of the goal.|
+| finishDate      | datetime | Finish date of the goal. |
+| notes      | HTML | Goal notes formatted in HTML. |
+| unformattednotes      | HTML | Goal notes with all HTML stripped out. |
+| order      | string | Goal order |
+
+
 ## Label Association Properties
 
 Reference /project/labelassociations/fields
@@ -251,7 +285,7 @@ Reference /project/resources/fields
 | bookableResourceId | guid   | Bookable Resource Id for this team member.                             |                                                                                                                             |
 | aadId              | guid   | Azure Active Directory user id of the Bookable Resource.               |                                                                                                                             |
 | generic            | bool   | Indicates that this is a generic resource.                             |                                                                                                                             |
-| type               | enum   | Bookable resource type.                                                | XrmUser, XrmContact, XrmAccount, XrmEquipment ,XrmGeneric, AadUser, AadUserTypeNull, AadUserTypeMember, XrmBookableResource |
+| type               | enum   | Bookable resource type.                                                | XrmUser, XrmContact, XrmAccount, XrmEquipment, XrmGeneric, AadUser, AadUserTypeNull, AadUserTypeMember, XrmBookableResource |
 | jobTitle           | string | Job title of the bookable resource.                                    |                                                                                                                             |
 | aadUserType        | enum   | If the bookable resource is an Azure Active Directory member or guest. | Member, Guest                                                                                                               |
 
@@ -276,7 +310,7 @@ Reference /project/tasks/fields
 | remainingWork               | double      | The total amount of non-overtime work scheduled to be performed by all resources assigned to a task.                                                                                                                                      |                                                                                                                                      |
 | name                        | string      | Name of the task.                                                                                                                                                                                                                         |                                                                                                                                      |
 | constraintType              | enum        | The constraint on the start or finish date of the task.                                                                                                                                                                                   | AsSoonAsPossible, AsLateAsPossible, MustStartOn, MustFinishOn, StartNoEarlierThan, StartNoLaterThan, FinishNoEarlierThan, FinishNoLaterThan |
-| constraintDate              | datetime    | Indicates the constrained start or finish date as defined in the task ConstraintType . Required unless the constraint type is set to As late as possible or As soon as possible.                                                          |                                                                                                                                      |
+| constraintDate              | datetime    | Indicates the constrained start or finish date as defined in the task ConstraintType. Required unless the constraint type is set to As late as possible or As soon as possible.                                                          |                                                                                                                                      |
 | critical                    | bool        | Indicates whether a task has room in the schedule to slip, or if it is on the critical path.                                                                                                                                              |                                                                                                                                      |
 | freeSlack                   | duration    | The actual amount of time that a task can be delayed without delaying any successor tasks. If a task has zero successor tasks, free slack is the amount of time a task can be delayed without delaying the entire project.                |                                                                                                                                      |
 | totalSlack                  | duration    | The amount of time a task can be delayed without delaying a project's finish date.                                                                                                                                                        |                                                                                                                                      |
