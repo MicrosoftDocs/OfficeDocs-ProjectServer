@@ -144,7 +144,7 @@ Work = 1800 seconds -> 30 Minutes -> 0.5 hours of work in the segment
 
 ## Attachment Properties
 
-Reference /project/attachments/fields).
+Reference /project/attachments/fields.
 
 | Property name | Type   | Description                                               | Enumeration Values                                                  |
 | ------------- | ------ | --------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -156,7 +156,7 @@ Reference /project/attachments/fields).
 
 ## Bucket Properties
 
-/project/buckets/fields
+Reference /project/buckets/fields
 
 | Property name | Type    | Description                         |
 | ------------- | ------- | ----------------------------------- |
@@ -361,7 +361,7 @@ Reference /project/tasks/fields
 
 ## View Properties
 
-/project/views/grid/fields
+Reference /project/views/grid/fields
 
 | Property name | Type    | Description                                         |
 | ------------- | ------- | --------------------------------------------------- |
