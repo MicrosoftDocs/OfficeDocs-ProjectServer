@@ -100,13 +100,13 @@ They are part of a task.
 | resume               | datetime | The date that the assignment was resumed.                                                                                                                                                                                             |
 | delay                | duration | The amount of time a resource is to wait after the task start date before starting work on an assignment in seconds.                                                                                                                  |
 | percentWorkComplete  | percent  | Current status of an assignment, expressed as the percentage of the assignment's work that has been completed.                                                                                                                        |
-| remainingWorkContour | contour  | Indicates how remaining work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure. |
-| actualWorkContour    | contour  | Indicates how actual work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure.    |
+| remainingWorkContour | [contour](#contour-structure)  | Indicates how remaining work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure. |
+| actualWorkContour    | [contour](#contour-structure)  | Indicates how actual work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure.    |
 | overallocated        | bool     | Indicates whether a resource is assigned to more work on a specific task than can be done within the resource's normal working capacity.                                                                                              |
 | stop                 | datetime | The date the assignment was stopped.                                                                                                                                                                                                  |
 | taskId               | guid     | Dataverse Project Task Id for this assignment.                                                                                                                                                                                        |
 | resourceId           | guid     | Dataverse Project Team Member Id.                                                                                                                                                                                                     |
-| totalWorkContour     | contour  | Indicates how total work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure.     |
+| totalWorkContour     | [contour](#contour-structure)  | Indicates how total work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. Please see for more information on Contour structure.     |
 
 ## Contour Structure
 
@@ -128,19 +128,19 @@ Example
 ```
 
 Segement X  
-Start = "start" + X offset in seconds  
-Duration = duration of segment X in seconds  
-Work = work of segement X in seconds
+- Start = "start" + X offset in seconds  
+- Duration = duration of segment X in seconds  
+- Work = work of segement X in seconds
 
 The contour starts on 2023-02-13T09:00:00Z  
-Segment 1:  
-Start = 2022-12-08T09:00:00Z + 0 seconds -> 2022-12-08T09:00:00Z  
-Duration = 54000 seconds -> 900 Minutes -> 15 hours is the length of the segement  
-Work = 27000 second -> 450 Minutes -> 7.5 hours fow of in the segment  
-Segment 2:  
-Start = 2023-02-13T18:00:00Z + 54000 seconds (15 hours) -> 2022-12-09T00:00:00Z  
-Duration = 3600 seconds -> 60 Minutes -> 1 hours is the length of the segement  
-Work = 1800 seconds -> 30 Minutes -> 0.5 hours of work in the segment
+- Segment 1:  
+	- Start = 2022-12-08T09:00:00Z + 0 seconds -> 2022-12-08T09:00:00Z  
+	- Duration = 54000 seconds -> 900 Minutes -> 15 hours is the length of the segement  
+	- Work = 27000 second -> 450 Minutes -> 7.5 hours fow of in the segment  
+- Segment 2:  
+	- Start = 2023-02-13T18:00:00Z + 54000 seconds (15 hours) -> 2022-12-09T00:00:00Z  
+	- Duration = 3600 seconds -> 60 Minutes -> 1 hours is the length of the segement  
+	- Work = 1800 seconds -> 30 Minutes -> 0.5 hours of work in the segment
 
 ## Attachment Properties
 
