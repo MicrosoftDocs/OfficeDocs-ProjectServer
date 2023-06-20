@@ -57,8 +57,6 @@ Page describes the output format and definition of JSON when using the ExportPro
 | [/project/views/grid/fields](#view-properties)                                    | JSONArray  | Definition of grid view and their values            |
 
 
-
-  ],
 ## Project Level Properties
 
 Reference /project/fields
