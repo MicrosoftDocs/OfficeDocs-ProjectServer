@@ -125,6 +125,7 @@ Example
             "offsets": [ 0, 54000 ],
             "durations": [ 54000, 3600 ],
             "work": [ 27000.0, 1800.0 ]
+			}
 ```
 
 Segement X  
