@@ -338,7 +338,7 @@ Reference /project/tasks/fields
 | custom        | bool      | true if it is custom field              |                                          |
 | name          | string    | name of the custom field                |                                          |
 | rollup        | enum      | Rollup type if type=double              | max,min,sum,average                      |
-| values        | JSONArray | Values for options if type=stringOption |                                          |
+| values        | JSONArray | Values for options if type=stringOption [Choice Type](#choice-type) |                                          |
 
 ### Custom Field Types
 
@@ -351,6 +351,8 @@ Reference /project/tasks/fields
 | Choice            | stringOption |
 
 ### Choice Type
+
+For Custom Fields of type 'stringOption'
 
 | Property name | Type    | Description                        |
 | ------------- | ------- | ---------------------------------- |
