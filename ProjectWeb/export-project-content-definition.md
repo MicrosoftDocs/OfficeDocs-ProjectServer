@@ -215,7 +215,7 @@ Reference /project/conversations/fields
 | teamsChannelId      | string | Teams Channel Id containing the conversation. |
 | teamsConversationId | string | Teams Conversation Id.                        |
 
-## Goals Association Properties
+## Goal Association Properties
 
 Reference /project/goalAssociations/fields
 
