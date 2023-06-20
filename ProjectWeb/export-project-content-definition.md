@@ -1,7 +1,7 @@
 ---
 
 title: "Export Content Definition"
-ms.author: nadinmerali
+ms.author: namerali
 author: nadinmerali
 manager: pamgreen
 ms.date: 2/17/2023
