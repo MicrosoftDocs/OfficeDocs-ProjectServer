@@ -367,10 +367,10 @@ Reference /project/tasks/fields
 | Property name | Type      | Description                                                              | Enumeration Values                       |
 | ------------- | --------- | ------------------------------------------------------------------------ | ---------------------------------------- |
 | id            | guid      | Unique Id for the task custom field.                                     |                                          |
-| type          | enum      | Type of Custom Field                                                     | stringOption,datetime,double,bool,string |
+| type          | enum      | Type of Custom Field                                                     | stringOption, datetime, double, bool, string |
 | custom        | bool      | true if it is custom field                                               |                                          |
 | name          | string    | name of the custom field                                                 |                                          |
-| rollup        | enum      | Rollup type if type=double                                               | max,min,sum,average                      |
+| rollup        | enum      | Rollup type if type=double                                               | max, min, sum, average                      |
 | values        | JSONArray | Values for options if type=stringOption. see [Choice Type](#choice-type) |                                          |
 
 ### Custom Field Types
