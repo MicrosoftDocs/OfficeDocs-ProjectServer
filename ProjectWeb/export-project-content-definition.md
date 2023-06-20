@@ -64,16 +64,16 @@ Reference /project/fields
 | ------------------------ | -------------- | -------------------------------------------------------------------- | ------------------ |
 | projectStart             | datetime       | The start date of the project.                                       |                    |
 | name                     | string         | Name of the project.                                                 |                    |
-| calendarId               | guid           | Dataverse Calendar Id used for the project.                          |                    |
+| calendarId               | guid           | Dataverse Calendar ID used for the project.                          |                    |
 | durationInDays           | double         | The duration of the project (days).                                  |                    |
-| projectManagerId         | guid           | Dataverse Project Team Member Id of the project manager.             |                    |
-| workTemplateId           | guid           | Dataverse Work Template Id used to create the project calendar.      |                    |
+| projectManagerId         | guid           | Dataverse Project Team Member ID of the project manager.             |                    |
+| workTemplateId           | guid           | Dataverse Work Template ID used to create the project calendar.      |                    |
 | timezoneOffset           | timezoneOffset | Project's timezone offset in +/-HH:MM:SS format.                     |                    |
 | timezoneName             | string         | Project's timezone name.                                             |                    |
-| projectManagerResourceId | guid           | Dataverse Bookable Resource Id of the project manager.               |                    |
-| officeGroupId            | guid           | Azure Active Directory Microsoft 365 Group Id linked to the project. |                    |
+| projectManagerResourceId | guid           | Dataverse Bookable Resource ID of the project manager.               |                    |
+| officeGroupId            | guid           | Azure Active Directory Microsoft 365 Group ID linked to the project. |                    |
 | projectState             | enum           | State of the project.                                                | Active, Inactive   |
-| projectManagerAadId      | guid           | Azure Active Directory user Id of the project manager.               |                    |
+| projectManagerAadId      | guid           | Azure Active Directory user ID of the project manager.               |                    |
 | hasCustomCalendar        | bool           | Indicates if the project has a custom calendar.                      |                    |
 | defaultSprintCreated     | bool           | Has the default sprint been created.                                 |                    |
 | ignoreResourceCalendars  | bool           | Scheduling uses the project calendar over resource calendars.        |                    |
@@ -91,25 +91,25 @@ Reference /project/fields
 Reference /project/assignments/fields.
 They're part of a task record.
 
-| Property name        | Type                          | Description                                                                                                                                                                                                                           |
-| -------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| units                | double                        | The number of units for which a resource is assigned to a task, expressed as a percentage, assuming a resource's MaxUnits value is 100%.                                                                                              |
-| work                 | double                        | The total amount of work scheduled to be performed by a resource on a task in seconds.                                                                                                                                                |
-| actualWork           | double                        | Amount of work that has already been done by a resource on a task in seconds.                                                                                                                                                         |
-| remainingWork        | double                        | The amount of time required by a resource assigned to a task to complete an assignment in seconds.                                                                                                                                    |
-| start                | datetime                      | The date and time that an assigned resource is scheduled to begin working on a task.                                                                                                                                                  |
-| finish               | datetime                      | The date and time this assignment is scheduled to be completed.                                                                                                                                                                       |
-| actualStart          | datetime                      | Date and time that an assignment actually began.                                                                                                                                                                                      |
-| actualFinish         | datetime                      | Date and time when an assignment was actually completed.                                                                                                                                                                              |
-| resume               | datetime                      | The date that the assignment was resumed.                                                                                                                                                                                             |
-| delay                | duration                      | The amount of time a resource is to wait after the task start date before starting work on an assignment in seconds.                                                                                                                  |
-| percentWorkComplete  | percent                       | Current status of an assignment, expressed as the percentage of the assignment's work that has been completed.                                                                                                                        |
+| Property name        | Type                          | Description                                                                                                                                                                                                                                          |
+| -------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| units                | double                        | The number of units for which a resource is assigned to a task, expressed as a percentage, assuming a resource's MaxUnits value is 100%.                                                                                                             |
+| work                 | double                        | The total amount of work scheduled to be performed by a resource on a task in seconds.                                                                                                                                                               |
+| actualWork           | double                        | Amount of work that has already been done by a resource on a task in seconds.                                                                                                                                                                        |
+| remainingWork        | double                        | The amount of time required by a resource assigned to a task to complete an assignment in seconds.                                                                                                                                                   |
+| start                | datetime                      | The date and time that an assigned resource is scheduled to begin working on a task.                                                                                                                                                                 |
+| finish               | datetime                      | The date and time this assignment is scheduled to be completed.                                                                                                                                                                                      |
+| actualStart          | datetime                      | Date and time that an assignment actually began.                                                                                                                                                                                                     |
+| actualFinish         | datetime                      | Date and time when an assignment was actually completed.                                                                                                                                                                                             |
+| resume               | datetime                      | The date that the assignment was resumed.                                                                                                                                                                                                            |
+| delay                | duration                      | The amount of time a resource is to wait after the task start date before starting work on an assignment in seconds.                                                                                                                                 |
+| percentWorkComplete  | percent                       | Current status of an assignment, expressed as the percentage of the assignment's work that has been completed.                                                                                                                                       |
 | remainingWorkContour | [contour](#contour-structure) | Indicates how remaining work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure. |
 | actualWorkContour    | [contour](#contour-structure) | Indicates how actual work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure.    |
-| overallocated        | bool                          | Indicates whether a resource is assigned to more work on a specific task than can be done within the resource's normal working capacity.                                                                                              |
-| stop                 | datetime                      | The date the assignment was stopped.                                                                                                                                                                                                  |
-| taskId               | guid                          | Dataverse Project Task Id for this assignment.                                                                                                                                                                                        |
-| resourceId           | guid                          | Dataverse Project Team Member Id.                                                                                                                                                                                                     |
+| overallocated        | bool                          | Indicates whether a resource is assigned to more work on a specific task than can be done within the resource's normal working capacity.                                                                                                             |
+| stop                 | datetime                      | The date the assignment was stopped.                                                                                                                                                                                                                 |
+| taskId               | guid                          | Dataverse Project Task ID for this assignment.                                                                                                                                                                                                       |
+| resourceId           | guid                          | Dataverse Project Team Member ID.                                                                                                                                                                                                                    |
 | totalWorkContour     | [contour](#contour-structure) | Indicates how total work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure.     |
 
 ## Contour Structure
@@ -143,7 +143,7 @@ The contour starts on 2023-02-13T09:00:00Z
 - Segment 1:
   - Start = 2022-12-08T09:00:00Z + 0 seconds -> 2022-12-08T09:00:00Z
   - Duration = 54000 seconds -> 900 Minutes -> 15 hours is the length of the segment
-  - Work = 27000 second -> 450 Minutes -> 7.5 hours fow of in the segment
+  - Work = 27000 seconds -> 450 Minutes -> 7.5 hours of work in the segment
 - Segment 2:
   - Start = 2023-02-13T18:00:00Z + 54000 seconds (15 hours) -> 2022-12-09T00:00:00Z
   - Duration = 3600 seconds -> 60 Minutes -> 1 hours is the length of the segment
@@ -155,7 +155,7 @@ Reference /project/attachments/fields.
 
 | Property name | Type   | Description                                               | Enumeration Values                                                         |
 | ------------- | ------ | --------------------------------------------------------- | -------------------------------------------------------------------------- |
-| taskId        | guid   | Dataverse Project Task Id.                                |                                                                            |
+| taskId        | guid   | Dataverse Project Task ID.                                |                                                                            |
 | name          | string | Alias for the attachment.                                 |                                                                            |
 | uri           | string | Location where attachment is stored.                      |                                                                            |
 | type          | enum   | Type of the link.                                         | Word, Excel, PowerPoint, OneNote, Project, Visio, Pdf, ExternalLink, Other |
@@ -179,7 +179,7 @@ Reference /project/calendar/fields
 | -------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | name           | string         | Name of the calendar.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | data           | calendarData   | Describes a calendar by defining the times when a resource can work. defaultWorkWeek has the default working times for each day of the week. overrideWorkWeeks is a collection of workweek definitions which override defaultWorkWeek along with when that override is effective. exceptions is an array of day level overrides along with when that exception is effective. exceptions take priority over overrideWorkWeeks, which take priority over defaultWorkWeek. |
-| baseCalendarId | guid           | Dataverse Calendar Id for the base calendar. Empty guid means there is no base calendar.                                                                                                                                                                                                                                                                                                                                                                                |
+| baseCalendarId | guid           | Dataverse Calendar ID for the base calendar. Empty guid means there's no base calendar.                                                                                                                                                                                                                                                                                                                                                                                 |
 | timezoneOffset | timezoneOffset | Offset of the timezone in +/-HH:MM:SS format.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | timezoneName   | string         | Name of the timezone.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
@@ -189,7 +189,7 @@ Reference /project/checklistItems/fields
 
 | Property name | Type   | Description                                               |
 | ------------- | ------ | --------------------------------------------------------- |
-| taskId        | guid   | Dataverse Project Task Id.                                |
+| taskId        | guid   | Dataverse Project Task ID.                                |
 | name          | string | Name of the checklist item.                               |
 | completed     | bool   | Indicates if the item is checked off.                     |
 | order         | double | Display order of the checklist item within the name task. |
@@ -211,8 +211,8 @@ Reference /project/conversations/fields
 
 | Property name       | Type   | Description                                   |
 | ------------------- | ------ | --------------------------------------------- |
-| teamsChannelId      | string | Teams Channel Id containing the conversation. |
-| teamsConversationId | string | Teams Conversation Id.                        |
+| teamsChannelId      | string | Teams Channel ID containing the conversation. |
+| teamsConversationId | string | Teams Conversation ID.                        |
 
 ## Goal Associations Properties
 
@@ -220,8 +220,8 @@ Reference /project/goalAssociations/fields
 
 | Property name | Type   | Description                               |
 | ------------- | ------ | ----------------------------------------- |
-| taskId        | guid   | Project Task Id.                          |
-| goalId        | guid   | Project Goal Id.                          |
+| taskId        | guid   | Project Task ID.                          |
+| goalId        | guid   | Project Goal ID.                          |
 | taskOrder     | string | Goal association order for ordering tasks |
 
 ## Goals Properties
@@ -246,8 +246,8 @@ Reference /project/labelassociations/fields
 
 | Property name | Type | Description                 |
 | ------------- | ---- | --------------------------- |
-| taskId        | guid | Dataverse Project Task Id.  |
-| labelId       | guid | Dataverse Project Label Id. |
+| taskId        | guid | Dataverse Project Task ID.  |
+| labelId       | guid | Dataverse Project Label ID. |
 
 ## Label Properties
 
@@ -267,8 +267,8 @@ Reference /project/links/fields
 | linkType      | enum     | The type of the dependency.                        | FinishToFinish, FinishToStart, StartToFinish, StartToStart |
 | delay         | duration | How long before the task should start.             |                                                            |
 | delayUnits    | enum     | The unit the delay is in.                          | Minutes, Hours, Days, Weeks, Months                        |
-| predecessorId | guid     | Dataverse Project Task Id of the predecessor task. |                                                            |
-| successorId   | guid     | Dataverse Project Task Id of the successor task.   |                                                            |
+| predecessorId | guid     | Dataverse Project Task ID of the predecessor task. |                                                            |
+| successorId   | guid     | Dataverse Project Task ID of the successor task.   |                                                            |
 | driver        | bool     | Indicates if the link drives the critical path.    |                                                            |
 
 ## Resource Properties
@@ -280,8 +280,8 @@ Reference /project/resources/fields
 | name               | string | Name of the team member.                                               |                                                                                                                             |
 | overallocated      | bool   | If the team member is overallocated on this project.                   |                                                                                                                             |
 | userPrincipalName  | string | Azure Active Directory User Principal Name for the user.               |                                                                                                                             |
-| bookableResourceId | guid   | Bookable Resource Id for this team member.                             |                                                                                                                             |
-| aadId              | guid   | Azure Active Directory user id of the Bookable Resource.               |                                                                                                                             |
+| bookableResourceId | guid   | Bookable Resource ID for this team member.                             |                                                                                                                             |
+| aadId              | guid   | Azure Active Directory user ID of the Bookable Resource.               |                                                                                                                             |
 | generic            | bool   | Indicates that this is a generic resource.                             |                                                                                                                             |
 | type               | enum   | Bookable resource type.                                                | XrmUser, XrmContact, XrmAccount, XrmEquipment, XrmGeneric, AadUser, AadUserTypeNull, AadUserTypeMember, XrmBookableResource |
 | jobTitle           | string | Job title of the bookable resource.                                    |                                                                                                                             |
@@ -344,12 +344,12 @@ Reference /project/tasks/fields
 | startSlack                  | duration    | Difference between earlyStart and lateStart dates.                                                                                                                                                                                        |                                                                                                                                             |
 | finishSlack                 | duration    | Difference between earlyFinish and lateFinish dates.                                                                                                                                                                                      |                                                                                                                                             |
 | order                       | double      | Order of the task represented as a double.                                                                                                                                                                                                |                                                                                                                                             |
-| parentId                    | guid        | Dataverse Project Task Id of the parent task.                                                                                                                                                                                             |                                                                                                                                             |
-| scheduleDrivers             | stringArray | Describes why a task is scheduled to start on it's start date. Can contain any of Actual, LevelingDelay, Constraint, Predecessor, ProjectStart, Calendar, Child, Parent, Deadline, Link.                                                  |                                                                                                                                             |
+| parentId                    | guid        | Dataverse Project Task ID of the parent task.                                                                                                                                                                                             |                                                                                                                                             |
+| scheduleDrivers             | stringArray | Describes why a task is scheduled to start on its start date. Can contain any of Actual, LevelingDelay, Constraint, Predecessor, ProjectStart, Calendar, Child, Parent, Deadline, Link.                                                   |                                                                                                                                             |
 | start                       | datetime    | Date and time that a task is scheduled to begin.                                                                                                                                                                                          |                                                                                                                                             |
 | finish                      | datetime    | The date and time that a task is scheduled to be completed.                                                                                                                                                                               |                                                                                                                                             |
 | duration                    | duration    | The total span of active working time.                                                                                                                                                                                                    |                                                                                                                                             |
-| bucketId                    | guid        | Dataverse Project Bucket Id the task is part of.                                                                                                                                                                                          |                                                                                                                                             |
+| bucketId                    | guid        | Dataverse Project Bucket ID the task is part of.                                                                                                                                                                                          |                                                                                                                                             |
 | bucketOrder                 | string      | The order of the task within the bucket.                                                                                                                                                                                                  |                                                                                                                                             |
 | sprintOrder                 | string      | The order of the task within the sprint.                                                                                                                                                                                                  |                                                                                                                                             |
 | notes                       | HTML        | Notes entered about a task formatted in HTML.                                                                                                                                                                                             |                                                                                                                                             |
@@ -359,19 +359,19 @@ Reference /project/tasks/fields
 | showChecklistOnCard         | bool        | Indicates if the checklist items will be shown on the card in the board view.                                                                                                                                                             |                                                                                                                                             |
 | priority                    | integer     | Indicates the level of importance assigned to a task, with 5 being standard priority; the lower the number, the more urgent the task.                                                                                                     |                                                                                                                                             |
 | sprintId                    | guid        | Property name of the sprint the task is assigned to.                                                                                                                                                                                      |                                                                                                                                             |
-| gridColor                   | gridColor   | Color indexes for each field on this task where a conditionalColoringRule has evaluated to true. See for the color index mapping.                                                                                                  |                                                                                                                                             |
-| [guid]                      | enum        | Task custom field definition. See [Task Custom Field Properties](#task-custom-field-properties) for definition.                                                                                                                                                                                   | stringOption, datetime, double, bool, string                                                                                                |
+| gridColor                   | gridColor   | Color indexes for each field on this task where a conditionalColoringRule has evaluated to true. See for the color index mapping.                                                                                                         |                                                                                                                                             |
+| [guid]                      | enum        | Task custom field definition. See [Task Custom Field Properties](#task-custom-field-properties) for definition.                                                                                                                           | stringOption, datetime, double, bool, string                                                                                                |
 
 ### Task Custom Field Properties
 
-| Property name | Type      | Description                                                              | Enumeration Values                       |
-| ------------- | --------- | ------------------------------------------------------------------------ | ---------------------------------------- |
-| id            | guid      | Unique Id for the task custom field.                                     |                                          |
+| Property name | Type      | Description                                                              | Enumeration Values                           |
+| ------------- | --------- | ------------------------------------------------------------------------ | -------------------------------------------- |
+| id            | guid      | Unique ID for the task custom field.                                     |                                              |
 | type          | enum      | Type of Custom Field                                                     | stringOption, datetime, double, bool, string |
-| custom        | bool      | true if it's a local custom field                                               |                                          |
-| name          | string    | name of the custom field                                                 |                                          |
-| rollup        | enum      | Rollup type if type=double                                               | max, min, sum, average                      |
-| values        | JSONArray | Values for options if type=stringOption. see [Choice Type](#choice-type) |                                          |
+| custom        | bool      | true if it's a local custom field                                        |                                              |
+| name          | string    | name of the custom field                                                 |                                              |
+| rollup        | enum      | Rollup type if type=double                                               | max, min, sum, average                       |
+| values        | JSONArray | Values for options if type=stringOption. see [Choice Type](#choice-type) |                                              |
 
 ### Custom Field Types
 
@@ -389,7 +389,7 @@ For Custom Fields of type 'stringOption'
 
 | Property name | Type    | Description                        |
 | ------------- | ------- | ---------------------------------- |
-| Id            | guid    | Unique Id for choice               |
+| ID            | guid    | Unique ID for choice               |
 | value         | string  | Display value of the choice        |
 | order         | double  | Display order of choices           |
 | color         | integer | Color index assigned to the value. |
