@@ -104,13 +104,13 @@ They're part of a task record.
 | resume               | datetime                      | The date that the assignment was resumed.                                                                                                                                                                                             |
 | delay                | duration                      | The amount of time a resource is to wait after the task start date before starting work on an assignment in seconds.                                                                                                                  |
 | percentWorkComplete  | percent                       | Current status of an assignment, expressed as the percentage of the assignment's work that has been completed.                                                                                                                        |
-| remainingWorkContour | [contour](#contour-structure) | Indicates how remaining work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. See for more information on Contour structure. |
-| actualWorkContour    | [contour](#contour-structure) | Indicates how actual work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. See for more information on Contour structure.    |
+| remainingWorkContour | [contour](#contour-structure) | Indicates how remaining work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure. |
+| actualWorkContour    | [contour](#contour-structure) | Indicates how actual work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure.    |
 | overallocated        | bool                          | Indicates whether a resource is assigned to more work on a specific task than can be done within the resource's normal working capacity.                                                                                              |
 | stop                 | datetime                      | The date the assignment was stopped.                                                                                                                                                                                                  |
 | taskId               | guid                          | Dataverse Project Task Id for this assignment.                                                                                                                                                                                        |
 | resourceId           | guid                          | Dataverse Project Team Member Id.                                                                                                                                                                                                     |
-| totalWorkContour     | [contour](#contour-structure) | Indicates how total work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. See for more information on Contour structure.     |
+| totalWorkContour     | [contour](#contour-structure) | Indicates how total work is to be distributed across the duration of the assignment. Represented as a start date and arrays of offset, duration, and work for each segment. For more information, see for more information on Contour structure.     |
 
 ## Contour Structure
 
@@ -368,7 +368,7 @@ Reference /project/tasks/fields
 | ------------- | --------- | ------------------------------------------------------------------------ | ---------------------------------------- |
 | id            | guid      | Unique Id for the task custom field.                                     |                                          |
 | type          | enum      | Type of Custom Field                                                     | stringOption, datetime, double, bool, string |
-| custom        | bool      | true if it is custom field                                               |                                          |
+| custom        | bool      | true if it's a local custom field                                               |                                          |
 | name          | string    | name of the custom field                                                 |                                          |
 | rollup        | enum      | Rollup type if type=double                                               | max, min, sum, average                      |
 | values        | JSONArray | Values for options if type=stringOption. see [Choice Type](#choice-type) |                                          |
