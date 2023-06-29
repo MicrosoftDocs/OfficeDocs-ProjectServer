@@ -249,7 +249,7 @@ Have you been counting the durations for each of the steps for the first phase? 
   
 ![Gantt chart showing the process over 58 weeks.](media/3c62e03d-863f-4631-8a80-c8b023075944.jpg)
   
-Now, every organization is different. There are many factors that affect the total duration of a project. The most significant of these is the extent to which existing enterprise project management processes are mature. Next is the size of the organization and its complexity. It is obviously simpler to deploy an EPM system into an organization that is all located in one building than it is for an organization that is spread across numerous divisions, offices, cities and even countries. 
+Now, every organization is different. There are many factors that affect the total duration of a project. The most significant of these is the extent to which existing enterprise project management processes are mature. Next is the size of the organization and its complexity. It is obviously simpler to deploy an EPM system into an organization that is all located in one building than it is for an organization that is spread across numerous divisions, offices, cities and even countries/regions. 
   
 In each deployment the schedule will look different and not always shorter. There is virtually always pressure to make a schedule that can be accomplished in days or even weeks, but it's vital that more than just the installation of EPM software be considered in order to deliver a successful deployment.
   
