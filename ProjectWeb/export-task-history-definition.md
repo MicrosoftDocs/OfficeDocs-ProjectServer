@@ -79,7 +79,7 @@ msxrm\_orgxxxyyyy.crm.dynamics.com\_ff69bc0e-3f66-41c3-b40c-aa3035517e38\_000000
 
 ### TaskEdited details
 
-TaskEdited represents direct property edits on a task and creates, deletes, and edits to any task child items (for example, check list Items, attachments, assignments, links, etc.).
+TaskEdited represents direct property edits on a task and creates, deletes, and edits to any task child items, for example, checklist items, attachments, assignments, links, and so on.
 
 #### Direct task field edits
 
