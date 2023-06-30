@@ -234,7 +234,7 @@ Example
 
 #### Edits to summary tasks
 
-Certain operations like deleting a task or indenting a task can generate multiple records if the edited task is a summary task since those edits also apply to the task's children. All dependent records will include the summary task as the sourceEdit.
+Certain operations, like deleting a task or indenting a task, can generate multiple records if the edited task is a summary task because those edits also apply to the task's children. All dependent records include the summary task as the sourceEdit.
 
 ### Record size
 
