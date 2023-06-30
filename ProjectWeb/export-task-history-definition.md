@@ -6,12 +6,13 @@ The type of history record is defined by the "Edit Type".
 
 | Syntax      | Description |
 | ----------- | ----------- |
-|TaskCreated|represents when the task is created.|
-|TaskEdited |represents when the task is edited.|
-|TaskDeleted |represents when the task is deleted.|
-| Undo | represents when a change has been undone.|
-| Redo | represents when a change has been redone.|
-|DependentEdit | represents when a task modified because of an change to another task|
+|[TaskCreated](#taskcreated-details)|represents when the task is created.|
+|[TaskEdited](#taskedited-details) |represents when the task is edited.|
+|[TaskDeleted](#taskdeleted-details) |represents when the task is deleted.|
+|[Undo](#undoredo-details) | represents when a change has been undone.|
+|[Redo](#undoredo-details) | represents when a change has been redone.|
+|[DependentEdit](#dependentedit-details) | represents when a task modified because of an change to another task|
+
 
 
 ## History Records
@@ -25,9 +26,9 @@ All history records share a common set of fields include:
 |XrmUserId | the Xrm User that made the change to the task.|
 |Timestamp | the datetime the history record was generated..|
 |Edit Type | the type of history record.|
-|Details | containing the history data.|
+|Details | containing the history data in a JSON format|
 
-The following will describe what the Details payload field contains depending on the type of history record and what was edited
+The following will describe what the Details payload field contains depending on the type of history record and what was edited.  For the descriptions of the columns within the Details, please review [Export Project Content Definition](export-project-content-definition.md.md)  
 
 ### TaskCreated details
 
@@ -39,7 +40,7 @@ Single property "name" which is the name of the task when it was deleted.
 
 Example:
 
-```
+```json
 {"name":"Pour concrete"}
 ```
 
@@ -49,7 +50,7 @@ A "revisions" property with an array value holding all the revision numbers that
 
 Example:
 
-```
+```json
 {"revisions":[11,12]}
 ```
 
@@ -68,14 +69,15 @@ TaskEdited represents direct property edits on a task as well as creates, delete
 The details have a "field" property with a JSON object value. That object has the changed property names as keys (there can be multiple task properties edited in a single user action), with an object as the value. That property object has a "previous" and "updated" keys with the values having the old and new values of the property.
 
 Example:
+
 ```json
 {
-  "fields": {
-    "name": {
-      "previous": "Pour concrete",
-      "updated": "Eat donuts"
-    }
-  }
+  "fields": {
+    "name": {
+      "previous": "Pour concrete",
+      "updated": "Eat donuts"
+    }
+  }
 }
 ```
 
