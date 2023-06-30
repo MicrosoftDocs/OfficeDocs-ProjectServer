@@ -53,10 +53,10 @@ Example:
 {"revisions":[11,12]}
 ```
 
-Will match to the history record with revision
+Will match to the history record with revision (note 00000000*11*)
 
 ```
-msxrm\_orgxxxyyyy.crm.dynamics.com\_ff69bc0e-3f66-41c3-b40c-aa3035517e38\_00000000*11*
+msxrm\_orgxxxyyyy.crm.dynamics.com\_ff69bc0e-3f66-41c3-b40c-aa3035517e38\_0000000011
 ```
 
 ### TaskEdited details
