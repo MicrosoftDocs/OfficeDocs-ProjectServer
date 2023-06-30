@@ -28,7 +28,7 @@ All history records share a common set of fields include:
 |Edit Type | the type of history record.|
 |Details | containing the history data in a JSON format|
 
-The following will describe what the Details payload field contains depending on the type of history record and what was edited.  For the descriptions of the columns within the Details, please review [Export Project Content Definition](export-project-content-definition.md.md)  
+The following will describe what the Details payload field contains depending on the type of history record and what was edited.  For the descriptions of the columns within the Details, please review [Export Project Content Definition](export-project-content-definition.md)  
 
 ### TaskCreated details
 
