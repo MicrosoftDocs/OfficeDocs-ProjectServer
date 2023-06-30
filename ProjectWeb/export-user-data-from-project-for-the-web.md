@@ -177,7 +177,7 @@ Note that you may receive multiple versions of your .json file, known as snapsho
 
 All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
 
-4. The first section of each JSON file contains the data type and description of each field.
+4. The field definitions are at [Export Content Definition](export-project-content-definition.md).
 
 ## See Also
 
@@ -186,3 +186,5 @@ All snapshots currently stored for the project are exported.  Snapshots can be p
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
 [Export user data from Project Online](/projectonline/export-user-data-from-project-online)
+
+[Export Content Definition](export-project-content-definition.md)
