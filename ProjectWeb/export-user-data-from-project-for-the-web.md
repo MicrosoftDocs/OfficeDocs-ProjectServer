@@ -171,9 +171,10 @@ To run the ExportProjectContent function:
 
       ![Screenshot of Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
 
-   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
+   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is 
+   `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
       
-`ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"`
+   `ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"`
 
 1. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.
 
