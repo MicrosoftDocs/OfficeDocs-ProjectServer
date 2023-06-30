@@ -24,7 +24,7 @@ All history records share a common set of fields include:
 |Project | the project the history is related to|
 |Project Task | the task the history is related to. It's blank if the task is deleted|
 |XrmUserId | the Xrm User that made the change to the task|
-|Timestamp | the date and time the the change was generated|
+|Timestamp | the date and time the change was generated|
 |Edit Type | the type of history record|
 |Details | containing the history data in a JSON format|
 
@@ -147,13 +147,13 @@ Example edit:
 
 #### Included properties for creates and deletes
 
-For simple task child elements (like check list Items, attachments) for creates and deletes, all properties required to render that item are included. Checklist items include the name and attachments include name, uri, and type.
+For simple task child elements (like check list Items, attachments) when being created and deleted, all properties required to render that item are included. Checklist items include the name and attachments include name, uri, and type.
 
 Any child elements which are a relationship between other entities include the ID of the other entity. For example, assignments include the resourceId and links include the predecessorId.
 
 ### DependentEdit details
 
-Dependent editrecords are generated for a task if a change to another task causes the current task to be modified. The history record includes the changes to the current task and a sourceEdit property indicating the changes to the source task that caused the current task to be modified.
+Dependent edit records are generated for a task if a change to another task causes the current task to be modified. The history record includes the changes to the current task and a sourceEdit property indicating the changes to the source task that caused the current task to be modified.
 
 Example: A link is added to another task (source) to the current task and the current task start date is moved out one day:
 
@@ -184,7 +184,7 @@ Example: A link is added to another task (source) to the current task and the cu
 
 #### Multiple source edits
 
-Bulk operations can change multiple tasks at once and can lead to multiple dependance changes. In that scenario, the tasks in the bulk operation are included in the sourceEdit with a CompoundEdit record type. Examples of these scenarios include deleting multiple tasks, linking multiple tasks, indenting multiple tasks. A CompoundEdit record includes the count of edits and the first three edits.
+Bulk operations can change multiple tasks at once and can lead to multiple dependant changes. In that scenario, the tasks in the bulk operation are included in the sourceEdit with a CompoundEdit record type. Examples of these scenarios include deleting multiple tasks, linking multiple tasks, indenting multiple tasks. A CompoundEdit record includes the count of edits and the first three edits.
 
 Example
 
@@ -217,7 +217,7 @@ Example
 
 #### Edits to summary tasks
 
-Certain operations like deleting a task or indenting a task can generate multiple records if the edited task is a summary task since those edits also apply to the task's children. All dependent records will only include the summary task as the sourceEdit.
+Certain operations like deleting a task or indenting a task can generate multiple records if the edited task is a summary task since those edits also apply to the task's children. All dependent records will include the summary task as the sourceEdit.
 
 ### Record size
 
