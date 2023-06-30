@@ -175,7 +175,7 @@ To run the ExportProjectContent function:
 
 Note that you may receive multiple versions of your .json file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date.
 
-All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
+All snapshots currently stored for the project are exported. Snapshots can be periodically cleared out depending on how active the project is.
 
 4. The field definitions are at [Export Content Definition](export-project-content-definition.md).
 
