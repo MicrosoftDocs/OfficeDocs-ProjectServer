@@ -155,7 +155,7 @@ To run the ExportProjectContent function:
 
    You’ll need to configure the following parameters when running the script:
 
-   |**Parameter**|**Description**|
+   |Parameter|Description|
    |:-----|:-----|
    |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
    |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
