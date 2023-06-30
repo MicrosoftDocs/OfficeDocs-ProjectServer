@@ -2,16 +2,16 @@
 
 This article describes the definition of the task history record that is stored in Dataverse in the Project History table. A task history record represents a change to a task.
 
-The type of history record is defined by the "Edit Type".
+"Edit Type" defines the type of history record.
 
 | Syntax      | Description |
 | ----------- | ----------- |
-|[TaskCreated](#taskcreated-details)|represents when the task is created.|
-|[TaskEdited](#taskedited-details) |represents when the task is edited.|
-|[TaskDeleted](#taskdeleted-details) |represents when the task is deleted.|
-|[Undo](#undoredo-details) | represents when a change has been undone.|
-|[Redo](#undoredo-details) | represents when a change has been redone.|
-|[DependentEdit](#dependentedit-details) | represents when a task modified because of an change to another task|
+|[TaskCreated](#taskcreated-details)|represents when the task is created|
+|[TaskEdited](#taskedited-details) |represents when the task is edited|
+|[TaskDeleted](#taskdeleted-details) |represents when the task is deleted|
+|[Undo](#undoredo-details) | represents when a change has been undone|
+|[Redo](#undoredo-details) | represents when a change has been redone|
+|[DependentEdit](#dependentedit-details) | represents when a task modified because of a change to another task|
 
 
 
@@ -21,22 +21,22 @@ All history records share a common set of fields include:
 
 | Field      | Description |
 | ----------- | ----------- |
-|Project | the project the history is related to.|
-|Project Task | the task the history is related to. It is blank if the task is deleted.|
-|XrmUserId | the Xrm User that made the change to the task.|
-|Timestamp | the datetime the history record was generated..|
-|Edit Type | the type of history record.|
+|Project | the project the history is related to|
+|Project Task | the task the history is related to. It's blank if the task is deleted|
+|XrmUserId | the Xrm User that made the change to the task|
+|Timestamp | the date and time the the change was generated|
+|Edit Type | the type of history record|
 |Details | containing the history data in a JSON format|
 
-The following will describe what the Details payload field contains depending on the type of history record and what was edited.  For the descriptions of the columns within the Details, please review [Export Project Content Definition](export-project-content-definition.md)  
+The following sections describe what the Details payload field contains depending on the type of history record and what was edited.  For the descriptions of the columns within the Details, review [Export Project Content Definition](export-project-content-definition.md)  
 
 ### TaskCreated details
 
-The record is created when the task is created. The payload will be empty.
+The record is created when the task is created. The payload is empty.
 
 ### TaskDeleted details
 
-Single property "name" which is the name of the task when it was deleted.
+Contains a single property "name", which is the name of the task when it was deleted.
 
 Example:
 
@@ -46,7 +46,7 @@ Example:
 
 ### Undo/Redo details
 
-A "revisions" property with an array value holding all the revision numbers that were undone or redone.  The revision that was undone/redone will be in the revision property
+A "revisions" property with an array value holding all the revision numbers that were undone or redone.  The number corresponds to the suffix in the revision property of the history record.
 
 Example:
 
@@ -54,7 +54,7 @@ Example:
 {"revisions":[11,12]}
 ```
 
-Will match to the history record with revision (note 00000000*11*)
+Which matches to the history record with revision record suffix (00000000*11*) in:
 
 ```
 msxrm\_orgxxxyyyy.crm.dynamics.com\_ff69bc0e-3f66-41c3-b40c-aa3035517e38\_0000000011
@@ -62,7 +62,7 @@ msxrm\_orgxxxyyyy.crm.dynamics.com\_ff69bc0e-3f66-41c3-b40c-aa3035517e38\_000000
 
 ### TaskEdited details
 
-TaskEdited represents direct property edits on a task as well as creates, deletes, and edits to any task child items (e.g. check list Items, attachments, assignments, links, etc.).
+TaskEdited represents direct property edits on a task and creates, deletes, and edits to any task child items (for example, check list Items, attachments, assignments, links, etc.).
 
 #### Direct task field edits
 
@@ -81,7 +81,7 @@ Example:
 }
 ```
 
-For large properties (e.g. notes assignment "totalWorkContour"), an empty JSON is emitted and not the previous/updated values.
+For large properties (for example notes assignment "totalWorkContour"), an empty JSON is emitted and not the previous/updated values.
 
 Example:
 
@@ -111,7 +111,7 @@ Example:
 ```
 #### Task child element edits
 
-These are similar to field edits but the key is the navigation property name and value is an array. The items in the array can be creates (has a "created":true property), deletes ("deleted":true property), or edits (no created or deleted, but list of edited properties). Created or deleted child elements have a set of minimum properties needed to render the item with values directly set on the property. Edits have the same format as field edits on the task with the previous and updated values.
+Child elements are similar to field edits but the key is the navigation property name and value is an array. The items in the array can be creates (has a "created":true property), deletes ("deleted":true property), or edits (no created or deleted, but list of edited properties). Created or deleted child elements have a set of minimum properties needed to render the item with values directly set on the property. Edits have the same format as field edits on the task with the previous and updated values.
 
 Example create:
 ```json
@@ -149,13 +149,13 @@ Example edit:
 
 For simple task child elements (like check list Items, attachments) for creates and deletes, all properties required to render that item are included. Checklist items include the name and attachments include name, uri, and type.
 
-Any child elements which are a relationship between other entities will include the id of the other entity. For example, assignments include the resourceId and links include the predecessorId.
+Any child elements which are a relationship between other entities include the ID of the other entity. For example, assignments include the resourceId and links include the predecessorId.
 
 ### DependentEdit details
 
-Dependent editrecords are generated for a task if a change to another task causes the current task to be modified. The history record will include the changes to the current task as well as a sourceEdit property indicating the changes to the source task that caused the current task to be modified.
+Dependent editrecords are generated for a task if a change to another task causes the current task to be modified. The history record includes the changes to the current task and a sourceEdit property indicating the changes to the source task that caused the current task to be modified.
 
-Example: When a link is added to another task (source) to the current task and the current task start date is moved out one day:
+Example: A link is added to another task (source) to the current task and the current task start date is moved out one day:
 
 ```json
 {
@@ -184,7 +184,7 @@ Example: When a link is added to another task (source) to the current task and t
 
 #### Multiple source edits
 
-Bulk operations can change multiple tasks at once and can lead to multiple dependance changes. In that scenario, the tasks in the bulk operation are included in the sourceEdit with a CompoundEdit record type. Examples of these scenarios include deleting multiple tasks, linking multiple tasks, indenting multiple tasks. A CompoundEdit record includes the count of edits and the first 3 edits.
+Bulk operations can change multiple tasks at once and can lead to multiple dependance changes. In that scenario, the tasks in the bulk operation are included in the sourceEdit with a CompoundEdit record type. Examples of these scenarios include deleting multiple tasks, linking multiple tasks, indenting multiple tasks. A CompoundEdit record includes the count of edits and the first three edits.
 
 Example
 
@@ -221,9 +221,9 @@ Certain operations like deleting a task or indenting a task can generate multipl
 
 ### Record size
 
-Details field has a maximum size of 1000 characters. If the initial change record exceeds 1000 characters, the history record will be trimmed down. All string changes will be limited to 100 characters and the number of changed fields will be limited to 6. A "truncated" property will indicate how many direct fields were not included. A "truncatedElements" property will indicate the number of child elements that were not written out.
+Details field has a maximum size of 1000 characters. If the initial change record exceeds 1000 characters, the history record is trimmed down. All string changes are limited to 100 characters and the number of changed fields are limited to 6. A "truncated" property indicates how many direct fields weren't included. A "truncatedElements" property indicates the number of child elements that weren't written out.
 
-If the size of the record with the above restrictions will still exceed 1000 characters, the entire record is not generated.
+If the size of the record with the above restrictions exceeds 1000 characters, the entire record is not generated.
 
 Example
 
