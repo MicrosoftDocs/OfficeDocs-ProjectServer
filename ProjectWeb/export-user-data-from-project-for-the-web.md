@@ -52,7 +52,7 @@ Project for the web user information that resides in Dataverse - such as roadmap
 
 When looking for a specific user's Project for the web data in Dynamics 365 Dataverse, it’s located in these five Dynamics 365 solutions:
 
-|**Name**|**Display Name**|
+|Name|Display Name|
 |:-----|:-----|
 |PortfolioService  <br/> |Portfolio Service  <br/> |
 |msdyn_ProjectServiceCore <br/> |Project <br/> |
@@ -65,43 +65,56 @@ You can look specifically at any of these Dynamics 365 solutions to get an idea 
 To view entities for a Dynamics 365 solution:
 
 1. In the Microsoft 365 Admin center, under **Admin centers**, select **Dynamics 365**.
-2. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+
+1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 
    ![Screenshot of Dataverse instance Open button.](media/CDSInstance.png) 
-3. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
-4. On the All Solutions page, select on the Display Name of the solution that you’re interested in.
+
+1. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
+
+1. On the All Solutions page, select the Display Name of the solution that you’re interested in.
 
     ![Dataverse solutions.](media/CDSsolutions.png) 
-5. On the solution information page, expand **Entities** to view them.
 
-    ![Dataverse solutions entities.](media/CDSSolutionEntities.png) 
-6. Under each entity, you can select specific objects to get more details about its properties.
-![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
+1. On the solution information page, expand **Entities** to view them.
+
+   ![Screenshot of Dataverse solutions entities.](media/CDSSolutionEntities.png)
+   
+1. Under each entity, you can select specific objects to get more details about its properties.
+
+   ![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
 
 ### Use Advanced Find to search for user data
 
 Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+
 2. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
+
 3. Select the **Advance Find** button.
 
-    ![Advanced Find button.](media/AdvancedFind.png)
+    ![Screenshot of the Advanced Find button.](media/AdvancedFind.png)
+
 4. In Advanced Find, in the **Look for** menu, select the objects that you want to search for, such as your user's projects or roadmaps.
 
     For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
 
     ![Advanced Find results menu.](media/AdvancedFindLookForRoadmap1.png)
+
 5. To begin building your query, select **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You’ll need the users Azure AD ID or account name.  
 
-    For example:
-    - To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
-    - To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
+   For example:
+   - To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
+   - To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
+     ![Create query in Advanced Find.](media/AdvancedFindBuildQueryRM.png)
 
-        ![Create query in Advanced Find.](media/AdvancedFindBuildQueryRM.png)
 6. When you’re done with selecting your search criteria, in the ribbon, select **Edit Columns**.
+
 7. On the Edit columns page, select **Add columns**, and then select the columns you want to include in the query.  When done, select **OK**.
+
 8. Select **Results** to run your query.
+
 9. After you receive your results, you can export them to Excel.  To do this, select **Export**, and then select **Static Worksheet**.  
 
 You can then review the results to determine what data you'd like to provide to the user.
@@ -115,9 +128,9 @@ If you need to look for more details that are contained in specific projects tha
 
 ### Get the Project IDs of the projects you’re interested in
 
-Before you run the script, you need to the Project IDs of the projects you’re interested in.
+Before you run the script, you need to get the Project IDs of the projects you’re interested in.
 
-Assuming you've used Advanced Find search to query for the user's projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it’s hidden by default. Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
+Assuming you've used Advanced Find search to query for the user's projects and have downloaded them to an Excel file, the Project ID column is the first column of the Excel spreadsheet, but it’s hidden by default. Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
 
 After you unhide the columns in the spreadsheet, look for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
@@ -138,46 +151,41 @@ To run the ExportProjectContent function:
 
 1. In Windows PowerShell, where you’ve imported the module, run the following cmdlet:
 
-    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(Dataverse instance name)"
+   `ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(Dataverse instance name)"`
 
+   You’ll need to configure the following parameters when running the script:
 
-    You’ll need to configure the following parameters when running the script:
+   |**Parameter**|**Description**|
+   |:-----|:-----|
+   |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
+   |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
+   |InstanceId   <br/> |The identifier of the Dynamics 365 instance you’re using. <br/> |
 
-    |**Parameter**|**Description**|
-    |:-----|:-----|
-    |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
-    |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
-    |InstanceId   <br/> |The identifier of the Dynamics 365 instance you’re using. <br/> |
+   To find your Instance ID:
 
-    To find your Instance ID:
+   1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 
-    a. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+      ![Screenshot of Open button for Dataverse instance.](media/CDSInstance.png) </br>
 
-   ![Screenshot of Open button for Dataverse instance.](media/CDSInstance.png) </br>
-    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
+   1. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
 
-    ![Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
+      ![Screenshot of Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
 
-    
+   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
+      
+`ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"`
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
+1. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.
 
+   > 3a215ea2-c650-49db-8200-47bd4a7e2278_2023-02-13T21-29-13Z.json
 
-    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"
+If you have multiple projects, run the script again for each project, using its corresponding ProjectID value.
 
-
-2. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.
-
-    3a215ea2-c650-49db-8200-47bd4a7e2278_2023-02-13T21-29-13Z.json
-
-3. If you have multiple projects, run the script again for each project, using its corresponding ProjectID value.
-
-
-Note that you may receive multiple versions of your .json file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date.
+Note that you may receive multiple versions of your .json file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken. The **current** version of the file is the one with the **earliest** timestamp, which would be the project creation date.
 
 All snapshots currently stored for the project are exported. Snapshots can be periodically cleared out depending on how active the project is.
 
-4. The field definitions are at [Export Content Definition](export-project-content-definition.md).
+The field definitions are at [Export Content Definition](export-project-content-definition.md).
 
 ## See Also
 
