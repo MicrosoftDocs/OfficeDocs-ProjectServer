@@ -1,3 +1,20 @@
+---
+
+title: "Task History Definition"
+ms.author: namerali
+author: nadinmerali
+manager: pamgreen
+ms.date: 6/30/2023
+audience: admin
+ms.topic: article
+ms.service: project-web
+
+ms.localizationpriority: medium
+ms.assetid: 27f3838d-3dbe-4b98-80dc-df55f851154d
+description: "Understand the Project task history in Dataverse."
+
+---
+
 # Task History Definition
 
 This article describes the definition of the task history record that is stored in Dataverse in the Project History table. A task history record represents a change to a task.
