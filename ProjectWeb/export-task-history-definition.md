@@ -8,7 +8,7 @@ The type of history record is defined by the "Edit Type".
 | ----------- | ----------- |
 |TaskCreated|represents when the task is created.|
 |TaskEdited |represents when the task is edited.|
-|TaskDeleted |represents when the task is deleted. |
+|TaskDeleted |represents when the task is deleted.|
 | Undo | represents when a change has been undone.|
 | Redo | represents when a change has been redone.|
 |DependentEdit | represents when a task modified because of an change to another task|
