@@ -22,6 +22,8 @@
 ### [Learn about Dataverse security roles in Project for the web](project-for-the-web-security-roles.md)
 ### [Access a project in Project for the web after its Office 365 group has been deleted](access-a-project-after-group-is-deleted.md)
 ### [Export user data from Project for the web](export-user-data-from-project-for-the-web.md)
+### [Export Content Definition](export-project-content-definition.md)
+### [Export Task History Definition](export-task-history-definition.md)
 ### [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 ### [Handling data for Project](handling-data-for-project-for-the-web-and-roadmap.md)
 ### [Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin](prevent-project-deletes-dataverse-plugin.md)
