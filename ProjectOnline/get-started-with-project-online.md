@@ -1,7 +1,7 @@
 ---
 title: "Get started with Project Online"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/22/2017
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Turn Project for the web or Roadmap on or off for users in your organization"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 1/15/2020
 audience: admin
@@ -169,7 +169,7 @@ Therefore, please follow along this guidance in order to add the Project Roadmap
 ```powershell
 $userName = "<your username>"
 $userPassword =  "<your userpassword>"
-$DlpDisplayName = "<your desired DLP Policy DisplayName"
+$DlpDisplayName = "<your desired Microsoft Purview DLP Policy DisplayName"
 
 # Connect to PowerApps
 Add-PowerAppsAccount -Username $userName -Password $userPassword

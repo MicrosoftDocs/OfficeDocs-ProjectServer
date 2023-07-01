@@ -1,7 +1,7 @@
 ---
 title: "Configure the Resource Center"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 2/25/2016
 audience: admin

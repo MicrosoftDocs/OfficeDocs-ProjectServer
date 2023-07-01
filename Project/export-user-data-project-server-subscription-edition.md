@@ -1,6 +1,6 @@
 ---
 title: "Export user data from Project Server Subscription Edition"
-ms.author: v-benzyd
+ms.author: serdars
 author: benzicald
 manager: serdars
 audience: ITPro
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 description: "Learn how your organization can export a specific user's content from your Project Server Subscription Edition environment."
+ms.date: 08/06/2021
 ---
 
 # Export user data from Project Server Subscription Edition

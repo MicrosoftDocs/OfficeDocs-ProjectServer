@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App Public Preview"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article
@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 7a5f4284-f7d2-445e-a197-8537285c21dc
 description: "Summary: Determine whether to deploy Project Web App to a new site collection or add it to an existing site collection."
+ms.date: 12/04/2017
 ---
 
 # Deploy Project Web App

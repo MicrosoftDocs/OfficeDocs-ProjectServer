@@ -1,7 +1,7 @@
 ---
 title: "The Project Online Implementation Cookbook: Principles for Success"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 03/19/2018
 audience: ITPro

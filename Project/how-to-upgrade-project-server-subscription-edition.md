@@ -1,6 +1,6 @@
 ---
 title: "Upgrading to Project Server Subscription Edition"
-ms.author: v-benzyd
+ms.author: serdars
 author: benzicald
 manager: serdars
 ms.date: 6/18/2021

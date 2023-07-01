@@ -1,7 +1,7 @@
 ---
 title: "Enable the Project Web App site collection features in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -83,8 +83,6 @@ If you want to add a Project Web App site to the site collection, see [Create a 
 
 ## See also
 <a name="EnableTheProjectWebAppSiteCollectionFeatures"> </a>
-
-#### 
 
 [New-SPProjectDatabase](/powershell/module/sharepoint-server/)
 

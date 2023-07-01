@@ -1,7 +1,7 @@
 ---
 title: "Operations for Project Server 2016"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/9/2017
 audience: ITPro

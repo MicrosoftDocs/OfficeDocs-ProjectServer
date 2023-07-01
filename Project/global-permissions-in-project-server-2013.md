@@ -1,7 +1,7 @@
 ---
 title: "Global permissions in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -111,8 +111,6 @@ The following are global permissions that were available in Project Server 2010 
 - Edit Status Report Responses
     
 ## See also
-
-#### 
 
 [Category permissions in Project Server 2013](category-permissions-in-project-server-2013.md)
   

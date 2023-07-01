@@ -1,7 +1,7 @@
 ---
 title: "Upgrade to Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/21/2017
 audience: ITPro
@@ -23,7 +23,7 @@ This series of articles describes the steps necessary upgrade to Project Server 
 ## TechNet articles about upgrading to Project Server 2013
 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[What's new for upgrade (Project Server 2013)](./what-s-new-in-project-server-2013-upgrade.md) <br/> |Learn about key changes and considerations when you upgrade to Project Server 2013.  <br/> |
 ||[Overview of the Project Server 2013 upgrade process](overview-of-the-upgrade-process-to-project-server-2013.md) <br/> |Before you plan to upgrade to Project Server 2013, you must have an understanding of the general steps required to upgrade.  <br/> |

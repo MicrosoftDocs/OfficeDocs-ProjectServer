@@ -1,7 +1,7 @@
 ---
 title: "Beat the Half-life (t 1/2) Governing Your PPM Solution, Post-Implementation white paper"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 1/4/2017
 audience: admin

@@ -1,7 +1,7 @@
 ---
 title: "Frequently Asked Questions"
 ms.author: alexla
-author: alexla
+author: BeReasonable
 manager: hocull
 ms.date: 01/07/2021
 audience: admin
@@ -17,7 +17,7 @@ description: "Frequently Asked Questions about Project for the Web."
 
 ### Does Project for the web include a way to record timesheets?
 
-No. If this is something that you need, let us know at the [Project for the web User Voice site](https://microsoftproject.uservoice.com/forums/914203-project-for-the-web)!
+No. If this is something that you need, let us know at the Project for the web User Voice site!
 
 ### Why is the Tasks tab in the Project Power App blank?
 
@@ -45,7 +45,7 @@ Yes! It’s a [model-driven Power App](/powerapps/maker/model-driven-apps/model-
 
 ### I need to use more than five custom tables with Project for the web, how can I do that? 
 
-Create a new Power App and add any tables you need into it. You can have all the core Project tables, views, and forms, as well as any additional custom tables that you need. Users of this new Power App will need at least a Project Plan 3 or Plan 5 license, as well as a license to PowerApps. If you intend to use tables from other applications, be sure to follow any licensing guidelines for those apps.
+Create a new Power App and add any tables you need into it. You can have all the core Project tables, views, and forms, as well as any additional custom tables that you need. Users of this new Power App will need at least a Project Plan 1, Plan 3, or Plan 5 license, as well as a license to PowerApps. If you intend to use tables from other applications, be sure to follow any licensing guidelines for those apps.
 
 ### How can I change the access rights for users of Project data in the Dataverse?
 
@@ -75,11 +75,11 @@ Project can be deployed to Dataverse environments that have the “Enable D365 A
 
 ### Can I build a standalone Power App and include Project tables in it?
 
-Yes, you can. All users of this Power App will need a Project Plan 3 license as well as a Power Apps license.
+Yes, you can. All users of this Power App will need a Project Plan 1 license or higher as well as a Power Apps license.
 
 ### Is Power BI included?
 
-The [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) is free to download. However, users will need a Project Plan 3 license as well as a Power BI license to build or view reports.
+The [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) is free to download. However, users will need a Project Plan 1 license or higher as well as a Power BI license to build reports.
 
 ### Can embedded canvas apps in model-driven apps be used with a Project Plan license?
 
@@ -98,4 +98,4 @@ You can use many of the tables in the Project Solution to customize the look and
 
 ### How many Dataverse environments can I provision with a Project license?
 
-The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+The number of environments you can provision depends on the number of licenses you have. At the minimum, you need one Project license to deploy Project in the Default Environment, and at least five Project licenses to deploy to Production environments. Additional environments can be provisioned depending upon the amount of Dataverse database storage you have. Details about the storage included with Project licenses are in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-web-service-description).

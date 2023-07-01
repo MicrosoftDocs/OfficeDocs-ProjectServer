@@ -1,7 +1,7 @@
 ---
 title: "Manage categories in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro

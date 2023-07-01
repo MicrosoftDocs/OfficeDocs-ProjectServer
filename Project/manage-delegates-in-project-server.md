@@ -1,7 +1,7 @@
 ---
 title: "Manage delegates in Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/27/2017
 audience: ITPro
@@ -31,8 +31,6 @@ Articles in this section include the following:
 - [Create delegations in Project Server](create-delegations-in-project-server.md)
     
 ## See also
-
-#### 
 
 [Delete user delegates in Project Server 2013](delete-user-delegates-in-project-server.md)
 

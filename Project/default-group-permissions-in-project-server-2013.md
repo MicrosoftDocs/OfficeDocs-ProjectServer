@@ -1,7 +1,7 @@
 ---
 title: "Default group permissions in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -118,8 +118,6 @@ The following table contains a list of the default global permissions for each o
    
 ## See also
 <a name="section2"> </a>
-
-#### 
 
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
   

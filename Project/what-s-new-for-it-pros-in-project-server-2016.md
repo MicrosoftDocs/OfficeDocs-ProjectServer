@@ -1,7 +1,7 @@
 ---
-title: "What's new for IT pros in Project Server 2016"
+title: What's new for IT pros in Project Server 2016
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 12/20/2016
 audience: ITPro
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: c400e683-d9a0-4865-8859-0f566292af17
-description: "Summary: Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: Learn about Project Server 2016. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
 ---
 
 # What's new for IT pros in Project Server 2016
@@ -76,7 +76,7 @@ Since Project Server 2013 and SharePoint Server 2013 were installed separately, 
   
 There is a special case in which the base installation language for SharePoint Server 2016 and Project Server 2016 do not match:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2016** <br/> |**Project Server 2016** <br/> |
 |Thai  <br/> |English  <br/> |
@@ -87,7 +87,7 @@ SharePoint Server 2016 language packs will also match languages for both Project
   
 Since Project Server 2016 does not provide a matching language for all available SharePoint Server 2016 language packs, an alternate language is provided. The following table lists SharePoint Server 2016 language packs in which an alternate Project Server 2016 language is provided.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2016 language pack** <br/> |**Project Server 2016 language** <br/> |
 |Azeri (Latin)  <br/> |English  <br/> |
@@ -120,7 +120,7 @@ Since Project Server 2016 does not provide a matching language for all available
 
 Since Project Server 2016 is now a service application in SharePoint Server 2016, the hardware, software, and browser requirements for Project Server 2016 will be the ones specified for SharePoint Server 2016. Some notable requirements for this version are:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2012 R2 <br/> |
 |**Supported Database Server** **:** <br/> | Microsoft SQL Server 2016 RTM <br/>  The 64-bit edition of Microsoft SQL Server 2014 with Service Pack 1(SP1) <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2016. <br/> |
@@ -130,7 +130,7 @@ Since Project Server 2016 is now a service application in SharePoint Server 2016
   
 You can connect to Project Server 2016 with not only Project Professional 2016 and the Project Online Desktop Client, but also with Project Professional 2013.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2016  <br/> | Project Professional 2016 <br/>  Project Online Desktop Client <br/>  Project Professional 2013 <br/> |
@@ -144,7 +144,7 @@ You can connect to Project Server 2016 with not only Project Professional 2016 a
 > If you are using Resource Engagements in Project Server 2016, the new Resource Plan view for Resource Engagements is not available in Project Professional 2013. You must use Project Professional 2016 or the Project Online Desktop Client to use the Resource Plan view. 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](/SharePoint/install/hardware-and-software-requirements). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](/SharePoint/install/browser-support-planning-0). 
+> For more information about the hardware and software requirements for SharePoint Server 2016, see [Hardware and software requirements for SharePoint Server 2016 Beta 2](/SharePoint/install/hardware-and-software-requirements). > For more information about supported browsers for SharePoint Server 2016, see [Plan browser support in SharePoint Server 2016 Beta 2](/sharepoint/install/browser-support-planning-2016-2019). 
   
 ## Upgrading to Project Server 2016
 <a name="Upgra"> </a>
@@ -178,7 +178,7 @@ Having your Project data contained within a single database makes for easier dat
 
 To help provide the best performance in Project Server 2016 reporting, there are limits to how many single-value custom fields, or each type, that get stored in the reporting schema:
   
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |**Project custom fields** <br/> |**Timesheet custom fields** <br/> |**Task and Resource custom fields, combined** <br/> |
 |450 text fields  <br/> |450 text fields  <br/> |450 text fields  <br/> |
@@ -211,6 +211,5 @@ In Project Server 2016, you can easily create a new project through the Get Star
 ## See also
 <a name="PWAChanges"> </a>
 
-#### 
 
 [New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)

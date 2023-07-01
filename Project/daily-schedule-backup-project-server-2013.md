@@ -1,7 +1,7 @@
 ---
 title: "Daily Schedule Backup (Project Server 2013)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -67,8 +67,6 @@ As noted in the procedure, the number of versions that are backed up for project
 > If you do not want to schedule a daily backup, and need to make an immediate backup of these Project Server 2013 items, see [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md). 
   
 ## See also
-
-#### 
 
 [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md)
   

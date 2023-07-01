@@ -2,27 +2,24 @@
 
 
 
-## Week of December 06, 2021
+## Week of September 12, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/9/2021 | [Plan reporting and business intelligence in Project Web App](/Project/plan-reporting-and-business-intelligence-in-project-web-app) | modified |
-| 12/9/2021 | [Plan the project life cycle in Project Web App](/Project/plan-the-project-life-cycle-in-project-web-app) | modified |
-| 12/9/2021 | [Project Server 2016 architecture](/Project/project-server-2016-architecture) | modified |
+| 9/13/2022 | [Delete user data from Project Server 2019 Public Preview](/Project/delete-user-data-in-project-server-2019) | modified |
+| 9/13/2022 | [Export user data from Project Server 2019](/Project/export-user-data-in-project-server-2019) | modified |
+| 9/13/2022 | [Delete user data from Project Server](/Project/delete-user-data-from-project-server) | modified |
+| 9/13/2022 | [Export user data from Project Server](/Project/export-user-data-from-project-server) | modified |
+| 9/13/2022 | [Install Project Server 2013 to a stand-alone computer](/Project/install-project-server-2013-to-a-stand-alone-computer) | modified |
+| 9/13/2022 | [Plan for upgrade to Project Server 2016](/Project/plan-for-upgrade-to-project-server-2016) | modified |
+| 9/13/2022 | [Plan for upgrade to Project Server 2019](/Project/plan-for-upgrade-to-project-server-2019) | modified |
+| 9/13/2022 | [Project Server Updates](/Project/project-server-updates) | modified |
 
 
-## Week of November 29, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/3/2021 | [Deploying Project for the web](/project-for-the-web/deploying-project) | modified |
-
-
-## Week of November 15, 2021
+## Week of August 15, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/16/2021 | [Project for the Web Security Roles](/project-for-the-web/project-for-the-web-security-roles) | modified |
+| 8/20/2022 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |

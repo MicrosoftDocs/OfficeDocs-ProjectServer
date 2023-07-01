@@ -1,7 +1,7 @@
 ---
 title: "Bulk Update Project Sites (Project Server 2013 settings)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/16/2014
 audience: ITPro
@@ -108,7 +108,5 @@ The **Project Site Permissions** setting allows you to synchronize permissions t
 7. Click **Save**.
     
 ## See also
-
-#### 
 
 [Operational Policies (Project Server 2013)](./project-server-2013-and-2016.md)

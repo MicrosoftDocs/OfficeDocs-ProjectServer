@@ -1,7 +1,7 @@
 ---
 title: "Add an application server to a farm in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/21/2017
 audience: ITPro
@@ -128,8 +128,6 @@ Once SharePoint Server 2013 and Project Server 2013 are installed on the compute
 10. When the wizard has finished, click **Finish**.
     
 ## See also
-
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)
 

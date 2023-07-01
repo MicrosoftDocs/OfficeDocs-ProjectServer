@@ -1,7 +1,7 @@
 ---
 title: "Tune Project Online performance"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2018
 audience: admin
@@ -14,7 +14,7 @@ search.appverid:
 - PJO150
 - PJO160
 ms.assetid: 12ba0ebd-c616-42e5-b9b6-cad570e8409c
-description: 
+description: How to tune Project Online performance
 ---
 
 # Tune Project Online performance
@@ -25,11 +25,8 @@ With the launch of Project Online a few years ago, organizations of all sizes ha
 Although one of the obvious benefits of using a cloud-based service is avoiding having to deal with deployment, setup, and hardware and software tuning, there are still some steps you can take to ensure your organization gets the best performance out of Project Online.
   
 Project Online offers many configuration and customization settings, but customizations can have a performance impact. This article highlights the performance impact and tradeoffs of some of the most common Project Online settings, so you can make informed decisions when it comes to customizing and configuring Project Online.
-  
-||
-|:-----|
-||
-|This article is part of the [Network planning and performance tuning for Office 365](/microsoft-365/enterprise/network-planning-and-performance) project. ||
+
+This article is part of the [Network planning and performance tuning for Office 365](/microsoft-365/enterprise/network-planning-and-performance) project.
    
 ## Office 365 and SharePoint Online best practices
 
@@ -384,7 +381,7 @@ For a Project Web App instance that contains a large number of entities, such as
 
 -	**Avoid Custom Fields that are multi-value lookups.** Extra computation is required to process custom field values which are multi-value lookups.  These fields are not able to take advantage of several optimizations that have been implemented for more common customer scenarios. If multi value custom fields  have already been configured, improve the lookup speed and reliability by ensuring that none of those fields are specified in your filtered Odata query. 
 
--	**Querying entities by key or association.** When querying entities, refer to the metadata document at https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata.  Whenever possible query the entity in one of the following ways:
+-	**Querying entities by key or association.** When querying entities, refer to the metadata document at `https://yourdomain.sharepoint.com/sites/PWA/_api/ProjectData/$metadata`.  Whenever possible query the entity in one of the following ways:
     
   - **Keys** 
   

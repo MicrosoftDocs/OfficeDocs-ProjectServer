@@ -1,7 +1,7 @@
 ---
 title: "Install and configure Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -162,6 +162,5 @@ The next step is to determine how you want to deploy Project Web App. Go to the 
   
 ## See also
 
-#### 
 
 [Project forums](https://social.technet.microsoft.com/Forums/en-US/category/project)

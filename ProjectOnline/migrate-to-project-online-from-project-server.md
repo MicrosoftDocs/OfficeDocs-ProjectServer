@@ -1,7 +1,7 @@
 ---
 title: "Migrate to Project Online from Project Server"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 4/24/2018
 audience: admin

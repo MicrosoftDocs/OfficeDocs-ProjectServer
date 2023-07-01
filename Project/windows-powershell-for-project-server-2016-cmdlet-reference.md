@@ -1,7 +1,7 @@
 ---
 title: "Microsoft PowerShell for Project Server cmdlet reference"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 2/16/2016
 audience: ITPro

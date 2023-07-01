@@ -1,7 +1,7 @@
 ---
 title: "Export user data from Project for the Web"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 10/29/2019
 audience: admin
@@ -35,7 +35,7 @@ If you also want to export and view information on specific projects:
 
 - You need to be a tenant admin.
 - You need to have a Project Plan 1, Project Plan 3, or Project Plan 5 license.
-- You need the Project Online Desktop Client if you want to export your user’s projects.  If you don’t have one available, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US).
+
 
 ## Methods for finding your user's data
 
@@ -52,7 +52,7 @@ Project for the web user information that resides in Dataverse - such as roadmap
 
 When looking for a specific user's Project for the web data in Dynamics 365 Dataverse, it’s located in these five Dynamics 365 solutions:
 
-|**Name**|**Display Name**|
+|Name|Display Name|
 |:-----|:-----|
 |PortfolioService  <br/> |Portfolio Service  <br/> |
 |msdyn_ProjectServiceCore <br/> |Project <br/> |
@@ -65,43 +65,56 @@ You can look specifically at any of these Dynamics 365 solutions to get an idea 
 To view entities for a Dynamics 365 solution:
 
 1. In the Microsoft 365 Admin center, under **Admin centers**, select **Dynamics 365**.
-2. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+
+1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 
    ![Screenshot of Dataverse instance Open button.](media/CDSInstance.png) 
-3. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
-4. On the All Solutions page, select on the Display Name of the solution that you’re interested in.
+
+1. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
+
+1. On the All Solutions page, select the Display Name of the solution that you’re interested in.
 
     ![Dataverse solutions.](media/CDSsolutions.png) 
-5. On the solution information page, expand **Entities** to view them.
 
-    ![Dataverse solutions entities.](media/CDSSolutionEntities.png) 
-6. Under each entity, you can select specific objects to get more details about its properties.
-![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
+1. On the solution information page, expand **Entities** to view them.
+
+   ![Screenshot of Dataverse solutions entities.](media/CDSSolutionEntities.png)
+   
+1. Under each entity, you can select specific objects to get more details about its properties.
+
+   ![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
 
 ### Use Advanced Find to search for user data
 
 Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search) to look for  Project for the web data for your user. Advanced Find will search across all solutions in your Dataverse instance. You can then download the results directly to an Excel spreadsheet and determine what to provide to your user.
 
 1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+
 2. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
+
 3. Select the **Advance Find** button.
 
-    ![Advanced Find button.](media/AdvancedFind.png)
+    ![Screenshot of the Advanced Find button.](media/AdvancedFind.png)
+
 4. In Advanced Find, in the **Look for** menu, select the objects that you want to search for, such as your user's projects or roadmaps.
 
     For example, if you want to view all roadmaps your user was a part of, select **Roadmaps**.
 
     ![Advanced Find results menu.](media/AdvancedFindLookForRoadmap1.png)
+
 5. To begin building your query, select **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You’ll need the users Azure AD ID or account name.  
 
-    For example:
-    - To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
-    - To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
+   For example:
+   - To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
+   - To find all roadmaps created by the user, select the Created By field, and then select Equals, and then enter the account name for the user.
+     ![Create query in Advanced Find.](media/AdvancedFindBuildQueryRM.png)
 
-        ![Create query in Advanced Find.](media/AdvancedFindBuildQueryRM.png)
 6. When you’re done with selecting your search criteria, in the ribbon, select **Edit Columns**.
+
 7. On the Edit columns page, select **Add columns**, and then select the columns you want to include in the query.  When done, select **OK**.
+
 8. Select **Results** to run your query.
+
 9. After you receive your results, you can export them to Excel.  To do this, select **Export**, and then select **Static Worksheet**.  
 
 You can then review the results to determine what data you'd like to provide to the user.
@@ -115,9 +128,9 @@ If you need to look for more details that are contained in specific projects tha
 
 ### Get the Project IDs of the projects you’re interested in
 
-Before you run the script, you need to the Project IDs of the projects you’re interested in.
+Before you run the script, you need to get the Project IDs of the projects you’re interested in.
 
-Assuming you've used Advanced Find search to query for the user's projects and have downloaded the them to an Excel file, the Project ID column is the first column in the Excel spreadsheet, but it’s hidden by default. Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
+Assuming you've used Advanced Find search to query for the user's projects and have downloaded them to an Excel file, the Project ID column is the first column of the Excel spreadsheet, but it’s hidden by default. Unhiding the first column can be a bit tricky, so if you need help, see [Unhide the first row or column in a worksheet](https://support.office.com/article/unhide-the-first-column-or-row-in-a-worksheet-d6b47608-80ee-4021-9b51-6a1f57269ec9#ID0EAABAAA=Windows).
 
 After you unhide the columns in the spreadsheet, look for the name of the project, and then look for the corresponding value in the Project column to find the Project ID for the project.
 
@@ -138,59 +151,42 @@ To run the ExportProjectContent function:
 
 1. In Windows PowerShell, where you’ve imported the module, run the following cmdlet:
 
-    ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(Dataverse instance name)"
+   `ExportProjectContent -ProjectId (ProjectID of the project) -OutputDirectory (Location to put files) -InstanceId "(Dataverse instance name)"`
 
+   You’ll need to configure the following parameters when running the script:
 
-    You’ll need to configure the following parameters when running the script:
+   |Parameter|Description|
+   |:-----|:-----|
+   |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
+   |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
+   |InstanceId   <br/> |The identifier of the Dynamics 365 instance you’re using. <br/> |
 
-    |**Parameter**|**Description**|
-    |:-----|:-----|
-    |ProjectId   <br/> |GUID of the project within Dataverse.  You learned how to find this in the previous section.   <br/> |
-    |OutputDirectory  <br/> |Location where the export files are put.   <br/> |
-    |InstanceId   <br/> |The identifier of the Dynamics 365 instance you’re using. <br/> |
+   To find your Instance ID:
 
-    To find your Instance ID:
+   1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 
-    a. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
+      ![Screenshot of Open button for Dataverse instance.](media/CDSInstance.png) </br>
 
-   ![Screenshot of Open button for Dataverse instance.](media/CDSInstance.png) </br>
-    b. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
+   1. On the PowerApps setting page, look at the first part of the URL to determine your Instance ID value. In the graphic below, the Instance ID value would be `https://orgde6d15d8.crm.dynamics.com`.
 
-    ![Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
+      ![Screenshot of Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
 
-    
+   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is 
+   `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
+      
+   `ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"`
 
-    As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
+1. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.
 
+   > 3a215ea2-c650-49db-8200-47bd4a7e2278_2023-02-13T21-29-13Z.json
 
-    ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"
+If you have multiple projects, run the script again for each project, using its corresponding ProjectID value.
 
+Note that you may receive multiple versions of your .json file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken. The **current** version of the file is the one with the **earliest** timestamp, which would be the project creation date.
 
-2. When the script completes, go to the OutputDirectory location you specified to find the .XML and .MPP files for the project.
-3. If you have multiple projects, run the script again for each project, using its corresponding ProjectID value.
+All snapshots currently stored for the project are exported. Snapshots can be periodically cleared out depending on how active the project is.
 
-Both the .XML and .MPP files that are created will be prefixed with the project’s Project ID.  For example, if the Project ID value is dd065460-02b8-e911-a989-000d3a170e10, the file names for the exported data will be:
-
-- dd065460-02b8-e911-a989-000d3a170e10.XML
-- dd065460-02b8-e911-a989-000d3a170e10.MPP
-
-Note that you may receive multiple versions of your .MPP file, known as snapshots. These are versions of your project file prior to changes being made to it. Snapshot files will include a timestamp to let you know when they were taken.  One thing to note is that the **current** version of the file is the one with the **earliest** timestamp - which would be the project creation date.
-
-All snapshots currently stored for the project are exported.  Snapshots can be periodically cleared out depending on how active the project is.
-
-### View data contained in the project file (.MPP)
-
-Use Project Online Desktop Client to open and view the project file to find information that you might want to provide the user.
-
-Project Online Desktop client is available through either the Project Plan 3 and Project Plan 5 licenses. If you don't have a subscription, you can [sign up for a trial](https://go.microsoft.com/fwlink/p/?LinkID=403844&culture=en-US&country=US).
-
-> [!NOTE]
-> You will only be able to view the project file.  You will not be able to edit the .MPP file in any way.
-> You cannot export the .MPP file from Project for the web and import it into Project Online (PWA).
-
-### View data contained in the project XML file
-
-The XML file contains a number of properties pertaining to the specific project. You can see the [Project XML Interchange Schema Reference](https://go.microsoft.com/fwlink/?linkid=872233) to understand the XML data contained in this file.
+The field definitions are at [Export Content Definition](export-project-content-definition.md).
 
 ## See Also
 
@@ -199,3 +195,5 @@ The XML file contains a number of properties pertaining to the specific project.
 [Delete user data from Project for the web](delete-user-data-from-project-for-the-web.md)
 
 [Export user data from Project Online](/projectonline/export-user-data-from-project-online)
+
+[Export Content Definition](export-project-content-definition.md)

@@ -1,7 +1,7 @@
 ---
 title: "Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/22/2017
 audience: ITPro
@@ -123,8 +123,6 @@ If you would like to provide feedback on this article, choose the **Yes** or **N
 ![This feedback tool appears at the end of each Project Server library article on TechNet.](images/technetFeedbackBox.png)
   
 ## See also
-
-#### 
 
 [Plan for upgrade to Project Server 2013](plan-for-upgrade-to-project-server-2013.md)
   

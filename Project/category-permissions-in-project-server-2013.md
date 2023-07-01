@@ -1,7 +1,7 @@
 ---
 title: "Category permissions in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -69,8 +69,6 @@ The table includes columns with the following information:
 > The "Create Object Link" permission is available in Project Server 2010, but is removed from Project Server 2013. 
   
 ## See also
-
-#### 
 
 [Global permissions in Project Server 2013](global-permissions-in-project-server-2013.md)
   

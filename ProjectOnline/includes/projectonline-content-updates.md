@@ -2,10 +2,9 @@
 
 
 
-## Week of May 10, 2021
+## Week of August 15, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/12/2021 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |
-| 5/13/2021 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |
+| 8/20/2022 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |

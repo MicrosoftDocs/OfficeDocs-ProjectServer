@@ -1,7 +1,7 @@
 ---
 title: "Project Site Provisioning Settings (Project Server 2013 settings)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -112,8 +112,6 @@ The **Site creation settings** lets you indicate whether you want to have Projec
     
     
 ## See also
-
-#### 
 
 [Manage connected SharePoint sites in Project Server 2013](manage-connected-sharepoint-sites-in-project-server-2013.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "Using task level assignments to define resource demand"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 9/24/2019
 audience: admin

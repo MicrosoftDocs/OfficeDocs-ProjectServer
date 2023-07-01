@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Web App with a new site collection"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article
@@ -12,6 +12,7 @@ ms.collection:
 - IT_ProjectAdmin_Top
 ms.assetid: 1619f4b5-af74-41ee-8051-7eb99511d084
 description: "Learn how to deploy an instance of Project Web App along with a Project Web App site in a new site collection."
+ms.date: 12/04/2017
 ---
 
 # Deploy Project Web App with a new site collection (Project Server Subscription Edition, 2019, or 2016)
@@ -44,13 +45,13 @@ After you have created the top-level web site, you must grant users access to th
 
 ### To set Read permissions on the top-level Web site
 
-1. Navigate to the root site (that is, https://<servername>).
+1. Navigate to the root site (that is, https://\<servername>).
 
 2. At the top of the page, click **Share**.
 
 3. On the Share dialog box, click **Show Options**.
 
-4. From the Select a group or permission level, choose **<site> Visitors [Read]**.
+4. From the Select a group or permission level, choose **\<site> Visitors [Read]**.
 
 5. In the **Enter names or email addresses** text box, typeEveryone.
 

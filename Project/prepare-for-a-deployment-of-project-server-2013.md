@@ -1,7 +1,7 @@
 ---
 title: "Prepare for a deployment of Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -41,8 +41,6 @@ Before deploying your farm, you must configure SQL Server and SQL Server Analysi
 To configure SQL Server and Analysis Services, follow the procedures in [Configure SQL Server and Analysis Services in Project Server 2013](configure-sql-server-and-analysis-services-in-project-server-2013-0.md).
   
 ## See also
-
-#### 
 
 [IT Pro Planning for Project Server](it-pro-planning-for-project-server-2016.md)
 

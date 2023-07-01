@@ -1,7 +1,7 @@
 ---
-title: "What's new for IT pros in Project Server 2019"
+title: What's new for IT pros in Project Server 2019
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: c400e683-d9a0-4865-8859-0f566292af17
-description: "Summary: Learn about Project Server 2019. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: Learn about Project Server 2019. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
 ---
 
 # What's new for IT pros in Project Server 2019 
@@ -105,7 +105,7 @@ You can connect to Project Server 2019 with not only Project Professional 2019 a
 
   
 > [!NOTE]
-> For more information about the hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019, see [Plan browser support in SharePoint Server 2019 ](/sharepoint/install/browser-support-planning-0). 
+> For more information about the hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019). > For more information about supported browsers for SharePoint Server 2019, see [Plan browser support in SharePoint Server 2019 ](/sharepoint/install/browser-support-planning-2016-2019). 
   
 ## Upgrading to Project Server 2019 
 <a name="Upgra"> </a>

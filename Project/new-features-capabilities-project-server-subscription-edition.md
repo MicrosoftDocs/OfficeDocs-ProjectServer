@@ -1,5 +1,5 @@
 ---
-title: "What's new for IT pros in Project Server Subscription Edition"
+title: What's new for IT pros in Project Server Subscription Edition
 ms.author: v-bshilpa
 author: Benny-54
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
 ms.assetid: 
-description: "Summary: Learn about Project Server Subscription Edition. Find information on the latest features and capabilities and get an overview of its new and updated functionality."
+description: Learn about Project Server Subscription Edition. Find information on the latest features and capabilities and get an overview of its new and updated functionality.
 ---
 
 # What's new for IT pros in Project Server Subscription Edition 
@@ -25,7 +25,7 @@ This article provides a brief overview of new and significantly updated function
     
 - [Hardware and software requirements](new-features-capabilities-project-server-subscription-edition.md#Req)
     
-- [Upgrading to Project Server Subscription Edition Public Preview ](new-features-capabilities-project-server-subscription-edition.md#Upgra)
+- [Upgrading to Project Server Subscription Edition Public Preview](new-features-capabilities-project-server-subscription-edition.md#Upgra)
     
 - [Project Web App changes](new-features-capabilities-project-server-subscription-edition.md#PWAChanges)
     
@@ -100,7 +100,7 @@ You can connect to Project Server Subscription Edition with not only Project Pro
   
 > [!NOTE]
 > For more information about the hardware and software requirements for SharePoint Server Subscription Edition, see [Hardware and software requirements for SharePoint Server Subscription Edition](/sharepoint/install/hardware-and-software-requirements-2019). 
-> For more information about supported browsers for SharePoint Server Subscription Edition, see [Plan browser support in SharePoint Server Subscription Edition](/sharepoint/install/browser-support-planning-0). 
+> For more information about supported browsers for SharePoint Server Subscription Edition, see [Plan browser support in SharePoint Server Subscription Edition](/sharepoint/install/browser-support-planning-2016-2019). 
   
 ## Upgrading to Project Server Subscription Edition 
 <a name="Upgra"> </a>
@@ -148,7 +148,7 @@ context.Credentials = new NetworkCredential(userName, passWord);
 
 // Add RelatedItem Issue/Risk to a task. Add the target item (issue/risk/etc) url to the pwa_connected_site url to create doc url of related item you want to add.
 // For eg : Lists/Issues/1_.000 corresponds to the url for the first issue in Issues list.
-// See <https://docs.microsoft.com/previous-versions/office/sharepoint-server/jj169493(v=office.15)> for AddSingleLinkToUrl method details.
+// See <https://learn.microsoft.com/previous-versions/office/sharepoint-server/jj169493(v=office.15)> for AddSingleLinkToUrl method details.
 RelatedItemManager.AddSingleLinkToUrl(context,"Tasks", 1, "<pwa_connected_site_relative_url>/Lists/Issues/1_.000", true);
 
 // Execute the query to the server.
@@ -159,4 +159,3 @@ context.ExecuteQuery();
 <a name="PWAChanges"> </a>
 
 [New and improved features in SharePoint Server Subscription Edition](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition)
-

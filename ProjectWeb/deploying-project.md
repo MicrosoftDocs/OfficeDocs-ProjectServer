@@ -1,7 +1,7 @@
 ---
 title: "Deploying Project for the web"
 ms.author: alexla
-author: alexla
+author: BeReasonable
 manager: hocull
 ms.date: 08/24/2021
 audience: admin
@@ -189,11 +189,11 @@ else
 If ($ProjectRequiredApps | ? {$_.AccountEnabled -eq $false}) 
 { 
 	Write-Host "Check#2: The following required AAD Enterprise App is disabled." 
-	Write-Host "Instructions on how to enable the required app via Azure Active Directory Admin Center are at: https://docs.microsoft.com/project-for-the-web/deploying-project" -ForegroundColor Red
+	Write-Host "Instructions on how to enable the required app via Azure Active Directory Admin Center are at: https://learn.microsoft.com/project-for-the-web/deploying-project" -ForegroundColor Red
 	Write-Host "If you prefer using Powershell, for each App in the list use the Powershell cmdlet ""Set-AzureADServicePrincipal"" to enable the app." -ForegroundColor Red
 	Write-Host "Example:`n" -ForegroundColor Red
 	Write-Host "    Set-AzureADServicePrincipal -ObjectId "“ObjectId GUID from below output."”-AccountEnabled `$true" -ForegroundColor Red
-	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
+	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://learn.microsoft.com/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
     $ProjectRequiredApps | Select DisplayName, AppID, ObjectID, AccountEnabled | ? {$_.AccountEnabled -eq $false} | ft
 } 
 Else 
@@ -210,7 +210,7 @@ If ($ProjectRequiredApps | ? {$_.AppRoleAssignmentRequired -eq $true})
 	Write-Host "This setting can only be modified via Powershell, for each App in the list use the Powershell cmdlet ""Set-AzureADServicePrincipal"" to change the AppRoleAssignmentRequired to False." -ForegroundColor Red
 	Write-Host "Example:`n" -ForegroundColor Red
 	Write-Host "    Set-AzureADServicePrincipal -ObjectId "“ObjectId GUID from below output."”-AppRoleAssignmentRequired `$false" -ForegroundColor Red
-	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
+	Write-Host "`nMore info on the cmdlet ""Set-AzureADServicePrincipal can be found"" at: https://learn.microsoft.com/powershell/module/azuread/set-azureadserviceprincipal" -ForegroundColor Red
 	$ProjectRequiredApps | Select DisplayName, AppID, ObjectID, AccountEnabled, AppRoleAssignmentRequired | ? {$_.AppRoleAssignmentRequired -eq $true} | ft -a
 } 
 Else 

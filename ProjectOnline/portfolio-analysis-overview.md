@@ -1,7 +1,7 @@
 ---
 title: "Portfolio analysis in the Microsoft Project Web Application"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 9/24/2019
 audience: admin

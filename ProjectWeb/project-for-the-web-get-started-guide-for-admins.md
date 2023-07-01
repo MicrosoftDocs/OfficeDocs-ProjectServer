@@ -1,12 +1,13 @@
 ---
 title: "Project for the web get started guide for administrators"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin
 ms.topic: article
 ms.service: project-web
+ms.custom: intro-overview; intro-get-started
 search.appverid: 
 - PJO150
 - MET150

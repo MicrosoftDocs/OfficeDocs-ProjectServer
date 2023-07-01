@@ -1,7 +1,7 @@
 ---
 title: "Optimize performance in Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/29/2017
 audience: ITPro
@@ -145,8 +145,6 @@ When you develop custom solutions that interact with the Project Server Programm
  The Project Server 2013 SDK and related articles make further recommendations about maintaining high performance when developing custom solutions.
     
 ## See also
-
-#### 
 
 [Overview of performance and capacity planning in Project Server 2013](overview-of-performance-and-capacity-planning-in-project-server-2013.md)
   

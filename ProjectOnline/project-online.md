@@ -1,7 +1,7 @@
 ---
 title: "Project Online Admin Documentation"
 ms.localizationpriority: medium
-author: serdars
+author: SerdarSoysal
 manager: samanro
 ms.service: project-online
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ description: "Project Online provides project management, work management, and p
 
 Learn how to plan for, implement, and maintain Project Online in your environment.
 
-|               |               |               |               |               |               |
+| &nbsp;  |  &nbsp; |  &nbsp;  |  &nbsp;  |  &nbsp;    |  &nbsp;   |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![a hand and arrow.](/office/media/icons/get-started-planner.png)  | [Get Started with Project Online](get-started-with-project-online.md) | ![a task list](/office/media/icons/tasks-planner.png)  | [Plan to Implement Project Online](supporting-your-project-online-adoption-with-a-project-management-office-pmo.md) | ![best practices ribbon](/office/media/icons/best-practices-planner.png)  | [Best Practices to Improve Performance](tune-project-online-performance.md) |
 | ![task list.](/office/media/icons/task-list-planning-project.png)  | [Project Online Software Limits and Boundaries](project-online-software-boundaries-and-limits.md) | ![a clock](/office/media/icons/clock-planner.png)  | [Set up Timesheets](set-up-timesheets.md) | ![settings gear](/office/media/icons/settings.png)  | [Configure Rollup of Timephased Reporting Data in Project Online](configure-rollup-of-timephased-reporting-data-in-project-online.md) |

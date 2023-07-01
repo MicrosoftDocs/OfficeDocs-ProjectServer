@@ -47,9 +47,8 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Project for the web",
       "recommendations": true,
-      "feedback_system": "GitHub",
+      "feedback_system": "Standard",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
-      "feedback_product_url": "https://microsoftproject.uservoice.com",
       "searchScope": ["Project on the Web"],
       "ms.service": "project-web",
       "contributors_to_exclude": [ 
@@ -59,7 +58,11 @@
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "v-dihans",
+        "AngelaMotherofDragons",
+        "dstrome",
+        "beccarobins"
       ]
     },
     "fileMetadata": {},

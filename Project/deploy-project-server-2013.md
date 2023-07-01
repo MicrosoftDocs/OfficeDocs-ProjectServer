@@ -1,7 +1,7 @@
 ---
 title: "Deploy Project Server 2013"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/15/2017
 audience: ITPro
@@ -25,7 +25,7 @@ Before you deploy Project Server 2013, we highly recommend that you review the a
 
 The following articles about deploying Project Server 2013 to a server farm environment are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks.](images/mod_icon_buildingblock_M.png)|[Installation and deployment overview for Project Server 2013](installation-and-deployment-overview-for-project-server-2013.md) <br/> |Learn about the steps involved in installing Project Server 2013 in a server farm environment.  <br/> |
 ||[Prepare for deployment](./prepare-for-a-deployment-of-project-server-2013.md) <br/> |Ensure that you have access to the necessary accounts and permissions to install Project Server 2013.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: "Set up how time and task progress are captured"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: pamgreen
 ms.date: 7/11/2017
 audience: admin

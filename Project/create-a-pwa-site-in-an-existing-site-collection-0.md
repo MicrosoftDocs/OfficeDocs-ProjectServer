@@ -1,7 +1,7 @@
 ---
 title: "Create a PWA site in an existing site collection"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
@@ -47,8 +47,6 @@ iisreset /noforce
 The Project Web App site is now available at the URL that you specified.
   
 ## See also
-
-#### 
 
 [New-SPWeb](/powershell/module/sharepoint-server/New-SPWeb)
   

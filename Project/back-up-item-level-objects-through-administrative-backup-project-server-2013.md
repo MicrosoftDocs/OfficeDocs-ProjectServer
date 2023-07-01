@@ -1,7 +1,7 @@
 ---
 title: "Back up item-level objects through Administrative Backup (Project Server 2013)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -61,8 +61,6 @@ When you backup projects for the first time, all projects are backed up. After t
 All Project Server 2013 items backed up through the Administrative Backup page can be restored through the Administrative Restore page. For more information about restoring backed up Project Server 2013 items, see [Restore item-level objects through Administrative Restore (Project Server 2013)](restore-item-level-objects-through-administrative-restore-project-server-2013.md).
   
 ## See also
-
-#### 
 
 [Restore item-level objects through Administrative Restore (Project Server 2013)](restore-item-level-objects-through-administrative-restore-project-server-2013.md)
   

@@ -1,7 +1,7 @@
 ---
 title: "Restore item-level objects through Administrative Restore (Project Server 2013)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -64,8 +64,6 @@ Use the procedure to restore the following project items:
 9. Any changes that were made between when the item was deleted and when the item was most recently backed up cannot be restored.
     
 ## See also
-
-#### 
 
 [Back up item-level objects through Administrative Backup (Project Server 2013)](back-up-item-level-objects-through-administrative-backup-project-server-2013.md)
   

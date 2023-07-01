@@ -1,7 +1,7 @@
 ---
 title: "Exchange Server Details (Project Server 2013 settings)"
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
@@ -47,7 +47,6 @@ Disabling the setting will disable Microsoft Exchange integration with Project S
     
 ## See also
 
-#### 
 
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 
