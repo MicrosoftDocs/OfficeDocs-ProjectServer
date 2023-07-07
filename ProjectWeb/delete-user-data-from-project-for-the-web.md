@@ -112,7 +112,7 @@ Users can delete all history records for a project by deleting the project.
 
 To selectively remove history records, perform the following steps.  
 
-1. Sign in to ![Power Apps](https://make.powerapps.com) and select the appropriate Dataverse environment. For most users, this will be the **default** environment. 
+1. Sign in to [Power Apps](https://make.powerapps.com) and select the appropriate Dataverse environment. For most users, this will be the **default** environment. 
 2. Navigate to **solutions > Project**. The **Name** property for this table is **msdyn_ProjectServiceCore_Patch**. 
 3. Locate and select the **Project History** table. 
 4. Click the **Edit** option for the table. 
