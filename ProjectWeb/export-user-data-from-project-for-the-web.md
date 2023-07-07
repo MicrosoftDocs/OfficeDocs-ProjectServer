@@ -188,6 +188,22 @@ All snapshots currently stored for the project are exported. Snapshots can be pe
 
 The field definitions are at [Export Content Definition](export-project-content-definition.md).
 
+## View and export Project History
+
+Open the **Advanced Find** tool. In the **Look for** menu, select the **Project History object**.
+
+If you want to filter on a particular project, choose **Select**, select the **Project** option from the drop down dialog, and then add the project for which you’d like to see Project History items.
+
+When you’re done with selecting your search criteria, in the ribbon, select **Edit Columns**.
+
+On the **Edit columns** page, select **Add columns**, and then select the columns you want to include in the query. When done, select **OK**.
+
+Select **Results** to run your query.
+
+After you receive your results, you can export them to Excel. To do this, select **Export**, and then select **Static Worksheet**.
+
+Use the [Power Apps portal](https://make.powerapps.com) to view the descriptions of the different fields that are stored with the Project History data. Open the **Project History** table within the **msdyn_ProjectServiceCore_Patch** solution. The **msdyn_project** field is a reference to the related project. **msdyn_projecttask** is a reference to the associated task (if applicable). The **msdyn_details** field is a JSON object that describes the details of the history record. More information on what is contained in msdyn_details can be found in the [Task History Definition](export-task-history-definition.md).
+
 ## See Also
 
 [Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search)
@@ -197,3 +213,5 @@ The field definitions are at [Export Content Definition](export-project-content-
 [Export user data from Project Online](/projectonline/export-user-data-from-project-online)
 
 [Export Content Definition](export-project-content-definition.md)
+
+[Task History Definition](export-task-history-definition.md)
