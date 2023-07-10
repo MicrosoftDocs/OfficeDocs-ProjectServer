@@ -2,6 +2,14 @@
 
 
 
+## Week of July 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/7/2023 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
+
+
 ## Week of June 26, 2023
 
 
