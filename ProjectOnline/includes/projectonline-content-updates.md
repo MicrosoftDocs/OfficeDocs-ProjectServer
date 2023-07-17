@@ -2,9 +2,9 @@
 
 
 
-## Week of August 15, 2022
+## Week of July 10, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/20/2022 | [Project Online and Project Server export data definitions](/ProjectOnline/project-online-and-project-server-export-data-definitions) | modified |
+| 7/14/2023 | [Get started with Project Online](/ProjectOnline/get-started-with-project-online) | modified |
