@@ -111,7 +111,7 @@ The techniques listed above are not the only ones that can help in the end-user 
 
 Prasanna Adavi (PMP, MCTS, MCITP, MCT) is a Senior Enterprise Project Management (EPM) Consultant and Trainer specializing in the Microsoft Project, Microsoft Project Server, and Microsoft SharePoint platforms. His main focus is to build and enable business solutions to help organizations achieve the best return on their investments. 
   
-He also has extensive experience in leading projects end-to-end in a wide spectrum of domains and verticals, including IT, ERP (SAP), Manufacturing, Application Development, Automotive and Creative Services. He is a regular presenter at various Project Server, EPM and SharePoint events across the country, and a regular contributor to the SharePoint and EPM Community. 
+He also has extensive experience in leading projects end-to-end in a wide spectrum of domains and verticals, including IT, ERP (SAP), Manufacturing, Application Development, Automotive and Creative Services. He is a regular presenter at various Project Server, EPM and SharePoint events across the country/regions, and a regular contributor to the SharePoint and EPM Community. 
   
 Prasanna is a regular blogger (https://www.prasannaadavi.com) and also runs a bi-weekly podcast (https://www.msprojectpodcast.com), mainly focusing on Microsoft Project and Project Server solutions. Prasanna is a Senior Consultant with EPMA (https://www.epmainc.com). 
   
