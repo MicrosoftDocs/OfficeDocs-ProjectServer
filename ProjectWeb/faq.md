@@ -51,6 +51,9 @@ Create a new Power App and add any tables you need into it. You can have all the
 
 The Project Team Member role is customizable and can be used to manage the access rights of users. Learn how to customize roles [here](/power-platform/admin/wp-security-cds#:~:text=Dataverse%20uses%20role%2Dbased%20security,Dataverse%20teams%20and%20business%20units.).
 
+### What is the owner property of a Project record in Dataverse? Why does it change when I share the project?
+The owner property of a Project record in Dataverse is the user who created the project. This property is used to determine which users can access the project. When a project is shared with a group, the ownership of the project changes. The group then becomes the new owner of the project.
+
 ### How can I use Power BI with Project for the web?
 
 You can use the [Project for the Web Power BI content pack](https://github.com/OfficeDev/Project-Power-BI-Templates/tree/master/Project%20for%20the%20Web) to create reports on Project for the Web data. Users will need the appropriate license to be able to view these reports. Refer to other guidance in this FAQ, as well as in the [Microsoft Project service description](/office365/servicedescriptions/project-online-service-description/project-online-service-description).
