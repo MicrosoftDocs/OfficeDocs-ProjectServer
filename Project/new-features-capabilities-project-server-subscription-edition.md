@@ -49,14 +49,14 @@ Since Project Server Subscription Edition does not provide a matching language f
   
 |**SharePoint Server Subscription Edition language pack** <br/> |**Project Server Subscription Edition language** <br/> |
 |:-----|:-----|
-|Azeri (Latin)  <br/> |English  <br/> |
+|Azerbaijani  <br/> |English  <br/> |
 |Basque  <br/> |Spanish  <br/> |
 |Bosnian  <br/> |English  <br/> |
 |Bulgarian  <br/> |English  <br/> |
 |Catalan  <br/> |Spanish  <br/> |
 |Croatian  <br/> |English  <br/> |
 |Estonian  <br/> |English  <br/> |
-|Gaelic Irish  <br/> |English  <br/> |
+|Gaelic  <br/> |English  <br/> |
 |Galician  <br/> |Spanish  <br/> |
 |Hindi  <br/> |English  <br/> |
 |Indonesian  <br/> |English  <br/> |
