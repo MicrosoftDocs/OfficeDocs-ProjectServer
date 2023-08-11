@@ -24,7 +24,7 @@ Creating a Project Web App site with a new site collection creates a Project Web
 > If your organization requires databases to be created manually by a database administrator, have your database administrator see [New-SPProjectDatabase](/powershell/module/sharepoint-server/) and create the Project Web App database before you proceed with the procedures in this article.
   
 ## Video demonstration
-> [!VIDEO //videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=e37c691c-1696-40b6-a6c9-30b51b3588eb&AutoPlayVideo=false&height=415&width=740]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/e37c691c-1696-40b6-a6c9-30b51b3588eb]
 
 This video shows the steps involved in creating a Project Web App site with a new site collection in a Project Server 2013 farm, as described in this article.
   
