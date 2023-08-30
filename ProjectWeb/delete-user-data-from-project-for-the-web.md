@@ -11,7 +11,7 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
-ms.custom: Adm_Project
+ms.custom: Adm_Project, has-azure-ad-ps-ref
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
 ---
 
