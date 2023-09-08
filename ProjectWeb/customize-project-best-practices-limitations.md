@@ -1,9 +1,9 @@
 ---
 title: Customization Best Practices and Limitations for Project for the web
 description: Customize Project for the web through managed solution layers using at least two environments. Use Teams Groups security roles, and avoid restricting access to the Project entities.  
-author: v-stthomas
-ms.author: v-stthomas
-manager: deniseb
+author: alexla
+ms.author: alexla
+manager: anavs
 ms.service: project-web
 ms.topic: how-to
 ms.date: 04/15/2022
