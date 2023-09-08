@@ -53,7 +53,7 @@ Since Project Server 2019 does not provide a matching language for all available
 |||
 |:-----|:-----|
 |**SharePoint Server 2019 language pack** <br/> |**Project Server 2019 language** <br/> |
-|Azeri (Latin)  <br/> |English  <br/> |
+|Azerbaijani  <br/> |English  <br/> |
 |Basque  <br/> |Spanish  <br/> |
 |Bosnian  <br/> |English  <br/> |
 |Bulgarian  <br/> |English  <br/> |
@@ -61,7 +61,7 @@ Since Project Server 2019 does not provide a matching language for all available
 |Croatian  <br/> |English  <br/> |
 |Dari  <br/> |English  <br/> |
 |Estonian  <br/> |English  <br/> |
-|Gaelic Irish  <br/> |English  <br/> |
+|Irish  <br/> |English  <br/> |
 |Galician  <br/> |Spanish  <br/> |
 |Hindi  <br/> |English  <br/> |
 |Indonesian  <br/> |English  <br/> |

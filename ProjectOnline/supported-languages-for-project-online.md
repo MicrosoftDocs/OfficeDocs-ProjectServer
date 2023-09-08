@@ -83,7 +83,7 @@ The following table lists SharePoint Online supported languages in which an alte
   
 |**SharePoint Online supported language in which Project Online does not support the same language**|**Project Online alternate language**|
 |:-----|:-----|
-|Azeri (Latin)  <br/> |English  <br/> |
+|Azerbaijani  <br/> |English  <br/> |
 |Basque  <br/> |Spanish  <br/> |
 |Bosnian  <br/> |English  <br/> |
 |Bulgarian  <br/> |English  <br/> |
@@ -91,7 +91,7 @@ The following table lists SharePoint Online supported languages in which an alte
 |Croatian  <br/> |English  <br/> |
 |Dari  <br/> |English  <br/> |
 |Estonian  <br/> |English  <br/> |
-|Gaelic Irish  <br/> |English  <br/> |
+|Gaelic  <br/> |English  <br/> |
 |Galician  <br/> |Spanish  <br/> |
 |Hindi  <br/> |English  <br/> |
 |Indonesian  <br/> |English  <br/> |

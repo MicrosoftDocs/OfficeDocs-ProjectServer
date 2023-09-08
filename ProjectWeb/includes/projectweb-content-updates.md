@@ -2,6 +2,23 @@
 
 
 
+## Week of July 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/14/2023 | [Overview of Universal Resource Scheduling in Project for the web](/project-for-the-web/overview-universal-resource-scheduling) | added |
+| 7/14/2023 | [Office 365 User access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
+
+
+## Week of July 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/7/2023 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
+
+
 ## Week of June 26, 2023
 
 

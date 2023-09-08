@@ -119,7 +119,7 @@ Project Management software could be represented by numerous categories. If we j
     
 It's easy to imagine a variety of tools, packages and techniques for managing any of these areas, and, depending on the particular situation, any one of these categories could produce the most significant improvement in project management or project management across the enterprise. 
   
-Let's say an organization has project communications challenges; perhaps its resources are spread across numerous time zones and countries and even companies. In that case, it would be easy to see how you could deploy Lync and SharePoint to make a huge improvement in communications. 
+Let's say an organization has project communications challenges; perhaps its resources are spread across numerous time zones and countries/regions and even companies. In that case, it would be easy to see how you could deploy Lync and SharePoint to make a huge improvement in communications. 
   
 If an organization deals with many sub-contractors on its project or if it has a large purchasing component in its project, then strong procurement management with a Dynamics ERP and SharePoint might make the biggest difference. 
   
