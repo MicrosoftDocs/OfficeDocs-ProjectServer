@@ -31,7 +31,7 @@ audience: admin
 ## General limitations
 
 - Except for creating a new project, creating records and editing fields in the project tables requires the [Project scheduling API](/dynamics365/project-operations/project-management/schedule-api-preview).
-- If you decide to duplicate and modify Project security roles, you'll need to update those roles whenever new features are released for the Project solution.
+- If you decide to duplicate and modify Project security roles, you'll need to update those roles whenever new features are released for the Project solution. For example, the Task History feature added new tables to the Project solution. Your custom security roles to have the same permissions to those tables as the Project security roles.
 
 ## Use Teams Group and roles to implement security and access
 
