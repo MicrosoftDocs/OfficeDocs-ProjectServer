@@ -123,7 +123,7 @@ You can then review the results to determine what data you'd like to provide to 
 
 If you need to look for more details that are contained in specific projects that the user was associated with, you can use the ExportProjectContent  PowerShell script to get more information on each project. With the script, you can get the following files for a specific project:
 
-- Project files (.MPP) for the project.
+- Project files (.MPP) for the project. Add the parameter **-mppexport $true** to the cmdlet to generate .mpp files of the project plans.
 - An XML file that contains project details and settings.
 
 ### Get the Project IDs of the projects you’re interested in
@@ -215,3 +215,4 @@ Use the [Power Apps portal](https://make.powerapps.com) to view the descriptions
 [Export Content Definition](export-project-content-definition.md)
 
 [Task History Definition](export-task-history-definition.md)
+
