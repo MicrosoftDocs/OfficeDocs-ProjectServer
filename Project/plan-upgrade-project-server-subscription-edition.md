@@ -1,6 +1,6 @@
 ---
 title: "Plan for upgrade to Project Server Subscription Edition"
-ms.author: v-bshilpa
+ms.author: serdars
 author: Benny-54
 manager: serdars
 ms.date: 6/17/2021

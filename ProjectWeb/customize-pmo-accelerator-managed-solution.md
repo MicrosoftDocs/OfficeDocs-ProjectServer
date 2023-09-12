@@ -2,7 +2,7 @@
 title: Customize the Project Management Office Accelerator
 description: The PMO Accelerator adds support for various scenarios to Project for the web. You can customize it  by creating a managed solution. Keeping your customizations in a separate solution lets you preserve the PMO Accelerator solution, so you can deploy updated versions as they are released.   
 author: v-stthomas
-ms.author: v-stthomas
+ms.author: serdars
 manager: deniseb
 ms.service: project-web
 ms.topic: how-to

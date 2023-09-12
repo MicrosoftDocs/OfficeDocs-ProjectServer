@@ -1,6 +1,6 @@
 ---
 title: "Delete user data from Project Server Subscription Edition"
-ms.author: v-bshilpa
+ms.author: serdars
 author: Benny-54
 manager: serdars
 audience: ITPro

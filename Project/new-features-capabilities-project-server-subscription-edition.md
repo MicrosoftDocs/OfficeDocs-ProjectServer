@@ -1,6 +1,6 @@
 ---
 title: What's new for IT pros in Project Server Subscription Edition
-ms.author: v-bshilpa
+ms.author: serdars
 author: Benny-54
 manager: serdars
 ms.date: 6/18/2021

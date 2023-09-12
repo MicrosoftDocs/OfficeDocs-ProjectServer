@@ -2,7 +2,7 @@
 title: Deploy the Project Management Office Accelerator
 description: Deploying the Accelerator to your Project for the web environment adds improved project management scenarios such as Project Requests, Changes, and Status.   
 author: v-stthomas
-ms.author: v-stthomas
+ms.author: serdars
 manager: deniseb
 ms.service: project-web
 ms.topic: how-to
