@@ -1,6 +1,6 @@
 ---
 title: "Overview of Universal Resource Scheduling in Project for the web"
-ms.author: v-smandalika
+ms.author: serdars
 author: v-smandalika
 manager: dansimp
 ms.date: 12/10/2021
