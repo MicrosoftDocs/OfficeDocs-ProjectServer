@@ -24,7 +24,7 @@ There are important limitations that you should know if you are using Project fo
 ## Project limitations
 
   
-|**Field**|**Limit**|
+| Field | Limit |
 |:-----|:-----|:-----|
 |Maximum total tasks for a project  <br/> |1000  <br/> |
 |Maximum total duration for a project <br/> |3650 days (10 years)  <br/> |
@@ -36,7 +36,7 @@ There are important limitations that you should know if you are using Project fo
 ## Task limitations
 
   
-|**Field**|**Limit**|
+| Field | Limit |
 |:-----|:-----|:-----|
 |Maximum hierarchy level  <br/> |10 levels<br/> |
 |Maximum links (successor + predecessor)<br/> |20  <br/> |
