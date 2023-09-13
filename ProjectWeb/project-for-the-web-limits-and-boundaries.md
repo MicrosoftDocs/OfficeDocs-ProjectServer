@@ -26,11 +26,11 @@ There are important limitations that you should know if you are using Project fo
   
 | Field | Limit |
 |:-----|:-----|:-----|
-|Maximum total tasks for a project  <br/> |1000  <br/> |
-|Maximum total duration for a project <br/> |3650 days (10 years)  <br/> |
-|Maximum total resources for a project  <br/> |300  <br/> |
-|Maximum total links (successor only) for a project  <br/> |600  <br/> |
-|Maximum total custom fields for a project <br/> |10 <br/> |
+|Maximum total tasks for a project |1000 |
+|Maximum total duration for a project |3650 days (10 years) |
+|Maximum total resources for a project |300 |
+|Maximum total links (successor only) for a project |600 |
+|Maximum total custom fields for a project |10 |
 
 
 ## Task limitations
@@ -38,9 +38,9 @@ There are important limitations that you should know if you are using Project fo
   
 | Field | Limit |
 |:-----|:-----|:-----|
-|Maximum hierarchy level  <br/> |10 levels<br/> |
-|Maximum links (successor + predecessor)<br/> |20  <br/> |
-|Maximum duration of leaf task  <br/> |1250 days  <br/> |
-|Maximum duration of a summary task  <br/> |3650 days (10 years)  <br/> |
-|Maximum resources assigned to a task  <br/> |20 resources  <br/> |
-|Supported date range for a task  <br/> |1/1/2000 - 12/31/2149  <br/> |
+|Maximum hierarchy level |10 levels |
+|Maximum links (successor + predecessor) |20 |
+|Maximum duration of leaf task |1250 days |
+|Maximum duration of a summary task |3650 days (10 years) |
+|Maximum resources assigned to a task |20 resources |
+|Supported date range for a task |1/1/2000 - 12/31/2149 |
