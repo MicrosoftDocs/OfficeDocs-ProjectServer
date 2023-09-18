@@ -2,35 +2,9 @@
 
 
 
-## Week of July 10, 2023
+## Week of September 11, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 7/14/2023 | [Overview of Universal Resource Scheduling in Project for the web](/project-for-the-web/overview-universal-resource-scheduling) | added |
-| 7/14/2023 | [Office 365 User access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
-
-
-## Week of July 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/7/2023 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/30/2023 | [Task History Definition](/project-for-the-web/export-task-history-definition) | added |
-| 6/30/2023 | [Export user data from Project for the Web](/project-for-the-web/export-user-data-from-project-for-the-web) | modified |
-
-
-## Week of June 19, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/22/2023 | [Export Content Definition](/project-for-the-web/export-project-content-definition) | added |
+| 9/13/2023 | [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries) | modified |
