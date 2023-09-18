@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 ms.localizationpriority: medium
-ms.custom: Adm_O365
+ms.custom: Adm_O365, has-azure-ad-ps-ref
 ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
