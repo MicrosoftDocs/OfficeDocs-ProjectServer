@@ -8,6 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-web
 ms.localizationpriority: medium
+ms.custom: has-azure-ad-ps-ref
 description: "Learn how to deploy Project for the web to both a default and non-default org."
 ---
 

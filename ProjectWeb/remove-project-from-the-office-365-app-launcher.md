@@ -11,6 +11,7 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
+ms.custom: has-azure-ad-ps-ref
 description: "Learn how to remove the Project tile from the Office 365 App Launcher for your users."
 ---
 

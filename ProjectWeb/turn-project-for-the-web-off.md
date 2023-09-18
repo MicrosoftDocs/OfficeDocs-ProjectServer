@@ -10,6 +10,7 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
+ms.custom: has-azure-ad-ps-ref
 description: "Learn how to turn Project for the web or Roadmap on or off for users in your organization."
 ---
 
@@ -222,6 +223,3 @@ To turn off Project Online:
 ## See Also
   
   
-
-
-
