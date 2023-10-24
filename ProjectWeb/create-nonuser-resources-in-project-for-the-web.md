@@ -18,10 +18,10 @@ description: "Learn how to add a non-user resource and make it available to assi
 
 Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/), and some aspects of resource setup for Project for the web is done in Dynamics 365, such as how to add resources that aren’t users in your organization (for example, contacts or equipment) and making them available to assign to tasks.
 
-While users in Azure Active Directory (Azure AD) are available to assign to project tasks in Project for the web, you need to manually add non-user resources.
+While users in Microsoft Entra ID are available to assign to project tasks in Project for the web, you need to manually add non-user resources.
 
 > [!Note]
-> Guest users accounts in AAD are not  supported to be available to directly assign  to tasks in Project for the web.
+> Guest users accounts in Microsoft Entra ID are not  supported to be available to directly assign  to tasks in Project for the web.
 
 ## Types of non-user resources
 
