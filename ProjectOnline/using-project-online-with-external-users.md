@@ -38,7 +38,7 @@ There are two options for sharing your Project Web App site in Project Online. Y
   
  **Pre-populating your directory**
   
-You can pre-populate your Office 365 directory with external users, such as by using [Azure Active Directory B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) or by adding users manually and changing the user type to Guest. There are several advantages to doing this: 
+You can pre-populate your Office 365 directory with external users, such as by using [Microsoft Entra B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) or by adding users manually and changing the user type to Guest. There are several advantages to doing this: 
   
 - When you configure sharing for your Project Web App site, you can choose the **Allow sharing only with the external users that already exist in your organizations's directory** option. This gives you a greater level of control over sharing the site by limiting the scope of who can be invited to the site. 
     

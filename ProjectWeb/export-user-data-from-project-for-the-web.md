@@ -28,7 +28,7 @@ Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-s
   
 You’ll need the following in order to look for data on a specific user through the Advanced Find search feature:
 
-- You need the Azure Active Directory Object ID (Azure AD ID) of the user. You can find it in the Azure Active Directory Admin Center.  
+- You need the Microsoft Entra Object ID (Microsoft Entra ID) of the user. You can find it in the Microsoft Entra Admin Center.  
 - You need to be a global admin in your Microsoft 365 tenant. You need this to access the Dynamics 365 Admin Center.  
 
 If you also want to export and view information on specific projects:
@@ -102,7 +102,7 @@ Use [Dynamics 365 Advanced Find search](/dynamics365/customer-engagement/basics/
 
     ![Advanced Find results menu.](media/AdvancedFindLookForRoadmap1.png)
 
-5. To begin building your query, select **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You’ll need the users Azure AD ID or account name.  
+5. To begin building your query, select **Select**, and then select the fields you need to start searching for projects or roadmaps your user was a part of. You’ll need the users Microsoft Entra ID or account name.  
 
    For example:
    - To find all roadmaps owned by the user, select the Owner field, and then select Equals, and then enter the account name for the user.
@@ -215,4 +215,3 @@ Use the [Power Apps portal](https://make.powerapps.com) to view the descriptions
 [Export Content Definition](export-project-content-definition.md)
 
 [Task History Definition](export-task-history-definition.md)
-

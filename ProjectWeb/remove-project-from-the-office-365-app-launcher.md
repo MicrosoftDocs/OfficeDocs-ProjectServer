@@ -62,7 +62,7 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
    Connect-AzureAd
    ```
 
-2. After connecting to Azure Active Directory, you can use the following to get a list of the Office 365 or Microsoft 365 licenses that have view access to Project for the web and Roadmap on your tenant.
+2. After connecting to Microsoft Entra ID, you can use the following to get a list of the Office 365 or Microsoft 365 licenses that have view access to Project for the web and Roadmap on your tenant.
 
     ```PowerShell
     
