@@ -37,8 +37,8 @@ Page describes the output format and definition of JSON when using the ExportPro
 | [/project/conditionalColoringRules/fields](#conditional-coloring-rule-properties) | JSONArray  | Definition of conditional coloring rule properties  |
 | /project/conversations                                                            | JSONArray  | List of conversation and their values               |
 | [/project/conversations/fields](#conversations-properties)                        | JSONArray  | Definition of conversation properties               |
-| /project/goalAssociations                                                         | JSONArray  | List of goal asociations and their values           |
-| [/project/goalAssociations/fields](#goal-associations-properties)                 | JSONArray  | Definition of goal asociations                      |
+| /project/goalAssociations                                                         | JSONArray  | List of goal associations and their values           |
+| [/project/goalAssociations/fields](#goal-associations-properties)                 | JSONArray  | Definition of goal associations                      |
 | /project/goals                                                                    | JSONArray  | List of goals and their values                      |
 | [/project/goals/fields](#goals-properties)                                        | JSONArray  | Definition of goal properties                       |
 | /project/labelassociations                                                        | JSONArray  | List of label associations and their values         |
