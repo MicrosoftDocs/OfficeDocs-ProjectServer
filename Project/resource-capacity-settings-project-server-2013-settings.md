@@ -53,7 +53,5 @@ Resource Capacity information will be processed daily at 1:00 AM by default.
   
 ## See also
 
-#### 
-
 [Additional Server Settings (Project Server 2013 settings)](additional-server-settings-project-server-2013-settings.md)
 
