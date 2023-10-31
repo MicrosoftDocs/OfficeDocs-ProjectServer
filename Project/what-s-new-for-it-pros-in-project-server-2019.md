@@ -83,7 +83,7 @@ Since Project Server 2019 does not provide a matching language for all available
 
 Since Project Server 2019 is now a service application in SharePoint Server 2019, the hardware, software, and browser requirements for Project Server 2019 will be the ones specified for SharePoint Server 2019. Some notable requirements for this version are:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server** **:** <br/> | Microsoft SQL Server 2016 Service Pack 1 (SP1) <br/>  Microsoft SQL Server 2017 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019 . <br/> |
@@ -92,7 +92,7 @@ Since Project Server 2019 is now a service application in SharePoint Server 2019
  **Project client compatibility**
 You can connect to Project Server 2019 with not only Project Professional 2019 and the Project Online Desktop Client, but also with Project Professional 2016. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2019  <br/> | Project Professional 2019  <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/> |
