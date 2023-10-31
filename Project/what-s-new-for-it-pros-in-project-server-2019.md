@@ -39,7 +39,7 @@ This article provides a brief overview of new and significantly updated function
   
 There is a special case in which the base installation language for SharePoint Server 2019 and Project Server 2019 do not match:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2019** <br/> |**Project Server 2019** <br/> |
 |Thai  <br/> |English  <br/> |
@@ -50,7 +50,7 @@ SharePoint Server 2019 language packs will also match languages for both Project
   
 Since Project Server 2019 does not provide a matching language for all available SharePoint Server 2019 language packs, an alternate language is provided. The following table lists SharePoint Server 2019 language packs in which an alternate Project Server 2019 language is provided.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2019 language pack** <br/> |**Project Server 2019 language** <br/> |
 |Azerbaijani  <br/> |English  <br/> |
@@ -148,7 +148,5 @@ In Project Server 2019, in addition to performance improvements as well as acces
   
 ## See also
 <a name="PWAChanges"> </a>
-
-#### 
 
 [New and improved features in SharePoint Server 2019 ](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)
