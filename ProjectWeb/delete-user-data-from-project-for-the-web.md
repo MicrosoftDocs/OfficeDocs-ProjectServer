@@ -11,13 +11,13 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
-ms.custom: Adm_Project, has-azure-ad-ps-ref
+ms.custom: Adm_Project, has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 description: "Learn how an Office 365 global administrator can delete a user's information from Project for the web."
 ---
 
 # Delete user data from Project for the web
 
-To delete user data from Project for the web, you need the user's Microsoft Entra Object ID. You can get this by checking the user's profile properties in Microsoft Entra ID or by using [Get-AzureADUser](/powershell/module/azuread/get-azureaduser).
+To delete user data from Project for the web, you need the user's Microsoft Entra Object ID. You can get this by checking the user's profile properties in Microsoft Entra ID or by using [Get-MgUser](/powershell/module/microsoft.graph.users/get-mguser).
 
 To find a user's Microsoft Entra Object ID in the Microsoft Entra Admin Center:
 
@@ -56,13 +56,13 @@ To find a user's Microsoft Entra Object ID in the Microsoft Entra Admin Center:
 
 From your Advanced Find search results, make note of the Office 365 Group Microsoft Entra ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
 
-To add yourself as a group owner, use [Add-AzureADGroupOwner](/powershell/module/azuread/add-azureadgroupowner):
+To add yourself as a group owner, use [New-MgGroupOwnerByRef](/powershell/module/microsoft.graph.groups/new-mggroupownerbyref):
 
-`Add-AzureADGroupOwner -ObjectId <GroupID> -RefObjectId <YourAADObjectID>`
+`New-MgGroupOwnerByRef -ObjectId <GroupID> -RefObjectId <YourAADObjectID>`
 
 For example,
 
-`Add-AzureADGroupOwner -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
+`New-MgGroupOwnerByRef -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
 
 Once you’re an owner for the groups, you can open the roadmaps from Project Home and make edits directly. Roadmap must be enabled to do this.)
 
