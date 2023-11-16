@@ -48,7 +48,7 @@ You can repeat this procedure for each user that you don't want to use Project f
 
 ### To remove the Project tile for multiple users
 
-If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this task through Microsoft Graph PowerShell instead of through the Microsoft 365 admin center. 
+If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this task through Windows PowerShell instead of through the Microsoft 365 admin center. 
 
 Make sure to use the latest [Azure Active Directory module](/office365/enterprise/powershell/connect-to-office-365-powershell).
 
@@ -56,7 +56,7 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
 > Again, note that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
 
 
-1. In Microsoft Graph PowerShell, type and enter the following to sign into your tenant.
+1. In Windows PowerShell, type and enter the following to sign into your tenant.
 
    ```PowerShell
    Connect-MgGraph
