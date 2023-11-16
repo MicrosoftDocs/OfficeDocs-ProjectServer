@@ -102,7 +102,7 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
     
     
     #Get any disabled service plans (apps) on the SKU assigned to the user
-    $existingDisabled =Get-MgUserLicenseDetail -ObjectId $user  | ? {$_.SkuPartNumber -eq  $skuPart } | Select-Object -ExpandProperty  ServicePlans |  ? {$_.ProvisioningStatus -eq 'Disabled' }
+    $existingDisabled =Get-MgUserLicenseDetail -UserId $user  | ? {$.SkuPartNumber -eq $skuPart } | Select-Object -ExpandProperty ServicePlans | ? {$.ProvisioningStatus -eq 'Disabled' }
     
     #Merge the lists together so we are maintaining disabled service plans (apps)
     $totalDisabledPlans = @($newPlansToDisable,$existingDisabled)
