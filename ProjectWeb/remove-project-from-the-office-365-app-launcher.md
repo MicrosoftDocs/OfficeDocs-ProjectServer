@@ -117,7 +117,7 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
     $licenses.AddLicenses = $license
     
     #Assign updated SKU
-    Set-MgUserLicense -ObjectId $user -AssignedLicenses $licenses
+    Set-MgUserLicense -UserId $user -AddLicenses $licenses
     
     ```
 
