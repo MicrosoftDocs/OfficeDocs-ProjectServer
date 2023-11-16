@@ -58,11 +58,11 @@ From your Advanced Find search results, make note of the Office 365 Group Micros
 
 To add yourself as a group owner, use [New-MgGroupOwnerByRef](/powershell/module/microsoft.graph.groups/new-mggroupownerbyref):
 
-`New-MgGroupOwnerByRef -ObjectId <GroupID> -RefObjectId <YourAADObjectID>`
+`New-MgGroupOwnerByRef -GroupId <String> -BodyParameter <IReferenceCreate>`
 
 For example,
 
-`New-MgGroupOwnerByRef -ObjectId "62438306-7c37-4638-a72d-0ee8d9217680" -RefObjectId "0a1068c0-dbb6-4537-9db3-b48f3e31dd76"`
+`New-MgGroupOwnerByRef -GroupId '1cb7317c-9c49-4dc8-a358-67ad8e95217c' -BodyParameter $newGroupOwner`
 
 Once you’re an owner for the groups, you can open the roadmaps from Project Home and make edits directly. Roadmap must be enabled to do this.)
 
