@@ -39,7 +39,7 @@ This article provides a brief overview of new and significantly updated function
   
 There is a special case in which the base installation language for SharePoint Server 2019 and Project Server 2019 do not match:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2019** <br/> |**Project Server 2019** <br/> |
 |Thai  <br/> |English  <br/> |
@@ -50,7 +50,7 @@ SharePoint Server 2019 language packs will also match languages for both Project
   
 Since Project Server 2019 does not provide a matching language for all available SharePoint Server 2019 language packs, an alternate language is provided. The following table lists SharePoint Server 2019 language packs in which an alternate Project Server 2019 language is provided.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**SharePoint Server 2019 language pack** <br/> |**Project Server 2019 language** <br/> |
 |Azerbaijani  <br/> |English  <br/> |
@@ -83,7 +83,7 @@ Since Project Server 2019 does not provide a matching language for all available
 
 Since Project Server 2019 is now a service application in SharePoint Server 2019, the hardware, software, and browser requirements for Project Server 2019 will be the ones specified for SharePoint Server 2019. Some notable requirements for this version are:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Supported Server Operating Systems** **:** <br/> | Windows Server 2016 Standard or Datacenter <br/>  Windows Server 2019 Standard or Datacenter <br/> |
 |**Supported Database Server** **:** <br/> | Microsoft SQL Server 2016 Service Pack 1 (SP1) <br/>  Microsoft SQL Server 2017 RTM <br/>  SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server 2019 . <br/> |
@@ -92,7 +92,7 @@ Since Project Server 2019 is now a service application in SharePoint Server 2019
  **Project client compatibility**
 You can connect to Project Server 2019 with not only Project Professional 2019 and the Project Online Desktop Client, but also with Project Professional 2016. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Version** <br/> |**Compatible with** <br/> |
 |Project Server 2019  <br/> | Project Professional 2019  <br/>Project Professional 2016 <br/>  Project Online Desktop Client <br/> |
@@ -148,7 +148,5 @@ In Project Server 2019, in addition to performance improvements as well as acces
   
 ## See also
 <a name="PWAChanges"> </a>
-
-#### 
 
 [New and improved features in SharePoint Server 2019 ](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019)

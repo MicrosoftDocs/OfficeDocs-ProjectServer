@@ -37,8 +37,8 @@ Page describes the output format and definition of JSON when using the ExportPro
 | [/project/conditionalColoringRules/fields](#conditional-coloring-rule-properties) | JSONArray  | Definition of conditional coloring rule properties  |
 | /project/conversations                                                            | JSONArray  | List of conversation and their values               |
 | [/project/conversations/fields](#conversations-properties)                        | JSONArray  | Definition of conversation properties               |
-| /project/goalAssociations                                                         | JSONArray  | List of goal asociations and their values           |
-| [/project/goalAssociations/fields](#goal-associations-properties)                 | JSONArray  | Definition of goal asociations                      |
+| /project/goalAssociations                                                         | JSONArray  | List of goal associations and their values           |
+| [/project/goalAssociations/fields](#goal-associations-properties)                 | JSONArray  | Definition of goal associations                      |
 | /project/goals                                                                    | JSONArray  | List of goals and their values                      |
 | [/project/goals/fields](#goals-properties)                                        | JSONArray  | Definition of goal properties                       |
 | /project/labelassociations                                                        | JSONArray  | List of label associations and their values         |
@@ -71,9 +71,9 @@ Reference /project/fields
 | timezoneOffset           | timezoneOffset | Project's timezone offset in +/-HH:MM:SS format.                     |                    |
 | timezoneName             | string         | Project's timezone name.                                             |                    |
 | projectManagerResourceId | guid           | Dataverse Bookable Resource ID of the project manager.               |                    |
-| officeGroupId            | guid           | Azure Active Directory Microsoft 365 Group ID linked to the project. |                    |
+| officeGroupId            | guid           | Microsoft Entra Microsoft 365 Group ID linked to the project. |                    |
 | projectState             | enum           | State of the project.                                                | Active, Inactive   |
-| projectManagerAadId      | guid           | Azure Active Directory user ID of the project manager.               |                    |
+| projectManagerAadId      | guid           | Microsoft Entra user ID of the project manager.               |                    |
 | hasCustomCalendar        | bool           | Indicates if the project has a custom calendar.                      |                    |
 | defaultSprintCreated     | bool           | Has the default sprint been created.                                 |                    |
 | ignoreResourceCalendars  | bool           | Scheduling uses the project calendar over resource calendars.        |                    |
@@ -279,13 +279,13 @@ Reference /project/resources/fields
 | ------------------ | ------ | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | name               | string | Name of the team member.                                               |                                                                                                                             |
 | overallocated      | bool   | If the team member is overallocated on this project.                   |                                                                                                                             |
-| userPrincipalName  | string | Azure Active Directory User Principal Name for the user.               |                                                                                                                             |
+| userPrincipalName  | string | Microsoft Entra user Principal Name for the user.               |                                                                                                                             |
 | bookableResourceId | guid   | Bookable Resource ID for this team member.                             |                                                                                                                             |
-| aadId              | guid   | Azure Active Directory user ID of the Bookable Resource.               |                                                                                                                             |
+| aadId              | guid   | Microsoft Entra user ID of the Bookable Resource.               |                                                                                                                             |
 | generic            | bool   | Indicates that this is a generic resource.                             |                                                                                                                             |
 | type               | enum   | Bookable resource type.                                                | XrmUser, XrmContact, XrmAccount, XrmEquipment, XrmGeneric, AadUser, AadUserTypeNull, AadUserTypeMember, XrmBookableResource |
 | jobTitle           | string | Job title of the bookable resource.                                    |                                                                                                                             |
-| aadUserType        | enum   | If the bookable resource is an Azure Active Directory member or guest. | Member, Guest                                                                                                               |
+| aadUserType        | enum   | If the bookable resource is a Microsoft Entra member or guest. | Member, Guest                                                                                                               |
 
 ## Sprint Properties
 
