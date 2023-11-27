@@ -40,11 +40,11 @@ For the procedures in this article, you'll need to run scripts that will require
   
 - The 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
     
-- The 64-bit version of the [Windows Azure Active Directory Module for Windows PowerShell (64-bit version)](/collaborate/connect-redirect?DownloadID=59185).
+- The 64-bit version of the [Windows Azure Active Directory module for Windows PowerShell (64-bit version)](/collaborate/connect-redirect?DownloadID=59185).
     
 For more information, see [Connect to Office 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
   
-After you complete your installation, open the Windows Azure Active Directory Module for Windows PowerShell on your desktop and type the following at the prompt:
+After you complete your installation, open the Windows Azure Active Directory module for Windows PowerShell on your desktop and type the following at the prompt:
   
 ```
 Connect-MsolService
@@ -61,7 +61,7 @@ We suggest using the [Manage your Office 365 Licenses](/samples/browse/?redirect
   
 Make sure to run  *Get-Help*  on the script to get more information about usage and examples. 
   
-After downloading the Manage-MSOLLicense.ps1 file that contains the script, open your Microsoft Azure Active Directory Module for Windows PowerShell, log in, and enter the following cmd to run the script:
+After downloading the Manage-MSOLLicense.ps1 file that contains the script, open your Microsoft Azure Active Directory module for Windows PowerShell, log in, and enter the following cmd to run the script:
   
 ```
 ./Manage-MSOLLicense.ps1 -IAgreeToTheDisclaimer -Report -Logfile .\MyReport.log

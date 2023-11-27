@@ -24,11 +24,13 @@ Project Common and Project User roles need to be assigned to each user to create
    * Roadmap user (Default Dataverse organization only)
 
 
-## Behavior with Microsoft Azure Active Directory (Azure AD) Groups
+<a name='behavior-with-microsoft-azure-active-directory-azure-ad-groups'></a>
 
-When a project is shared with an Azure AD Office Group, the Microsoft Project Application user will:
+## Behavior with Microsoft Entra groups
 
-1. Create a Team that is backed by the Azure AD Group (if a team with the Azure AD Group doesn’t already exist). The name of the team will be the same as the Azure AD Office Group when possible.
+When a project is shared with a Microsoft Entra Office Group, the Microsoft Project Application user will:
+
+1. Create a Team that is backed by the Microsoft Entra group (if a team with the Microsoft Entra group doesn’t already exist). The name of the team will be the same as the Microsoft Entra Office Group when possible.
 
 > [!Note] 
 > Changes to the name of the O365 group will not update the name of the Dataverse team.
@@ -45,10 +47,10 @@ When a project is shared with an Azure AD Office Group, the Microsoft Project Ap
 
 ## Project Common
 
-* Can be customized and used to support extensibility, see [Behavior with Microsoft Azure Active Directory (Azure AD) Groups](#behavior-with-microsoft-azure-active-directory-azure-ad-groups) to understand how this permission is assigned to Azure AD Groups.
+* Can be customized and used to support extensibility, see [Behavior with Microsoft Entra groups](#behavior-with-microsoft-azure-active-directory-azure-ad-groups) to understand how this permission is assigned to Microsoft Entra groups.
 * Default org: Users are automatically given this role.
 * Non-default: Administrators need to assign to users to support the creation of projects when the environment has been customized.
-* The Azure AD Office Group team created at the project-sharing stage is given this role so that members have enough permissions to log into and interact with the environment.
+* The Microsoft Entra Office Group team created at the project-sharing stage is given this role so that members have enough permissions to log into and interact with the environment.
 
 ## Portfolio User
 * Deprecated as of 0.8.7.59
@@ -62,7 +64,7 @@ When a project is shared with an Azure AD Office Group, the Microsoft Project Ap
 
 ## Project Team Member
 * Provides user-scoped permissions to read, update, and delete project and related entities.
-* The Azure AD Office Group team created at the project-sharing stage is given this role so that member can interact with the project.
+* The Microsoft Entra Office Group team created at the project-sharing stage is given this role so that member can interact with the project.
 * Users shouldn’t be assigned this role.
 
 ## Project User
@@ -79,4 +81,3 @@ When a project is shared with an Azure AD Office Group, the Microsoft Project Ap
 * Provides user-scoped permissions to create, read, update, and delete portfolio and related entities.
 * Exists in the default organization only
 * Users in the default organization are automatically given this role.
-
