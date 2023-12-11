@@ -53,7 +53,7 @@ This article describes how admins can do the following to address similar scenar
 An admin can turn Project for the web on or off for all users in their default environment through the Project settings page in the Microsoft 365 admin center.
 
 > [!Important]
-> Turning Project for the web on or off in admin center applies to only default environment. Manage ‎Project‎ on other environments from ‎Power Platform admin center‎.</br>
+> Turning Project for the web on or off in the admin center applies only to the default environment. Manage ‎Project‎ on other environments from ‎the Power Platform admin center‎.</br>
 
 > [!Important]
 > This setting is only available in the [new Microsoft 365 admin center](/microsoft-365/admin/microsoft-365-admin-center-preview). If you are using the classic admin center, you will need to switch to the new Microsoft 365 admin center to access this setting.</br>
