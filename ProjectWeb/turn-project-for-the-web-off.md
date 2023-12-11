@@ -43,7 +43,7 @@ An Office 365 admin may want to control user access to Project for the web or Ro
 
 This article describes how admins can do the following to address similar scenarios:
 
-- [Turn Project for the web on or off for all users](#turn-project-for-the-web-on-or-off-for-all-users-in-your-organization)
+- [Turn Project for the web on or off for all users](#turn-project-for-the-web-on-or-off-for-all-users-in-your-default-environment)
 - [Turn Project for the web on or off only for specific users](#turn-off-project-for-the-web-for-specific-users-in-your-organization)
 - [Turn the Roadmap feature on or off to all users](#turn-roadmap-on-or-off)
 - [Turn off Project Online to specific users](#turn-project-online-off)
