@@ -5,7 +5,7 @@ author: benzicald
 manager: serdars
 ms.date: 6/21/2021
 audience: ITPro
-ms.topic: hub-page
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:

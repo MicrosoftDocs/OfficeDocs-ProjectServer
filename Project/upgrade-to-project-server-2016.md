@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 3/11/2016
 audience: ITPro
-ms.topic: hub-page
+ms.topic: conceptual
 ms.prod: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
