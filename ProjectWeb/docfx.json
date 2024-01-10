@@ -48,8 +48,7 @@
       "titleSuffix": "Project for the web",
       "recommendations": true,
       "feedback_system": "Standard",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-ProjectServer",
-      "searchScope": ["Project on the Web"],
+            "searchScope": ["Project on the Web"],
       "ms.service": "project-web",
       "contributors_to_exclude": [ 
         "rjagiewich", 
@@ -62,7 +61,10 @@
         "v-dihans",
         "AngelaMotherofDragons",
         "dstrome",
-        "beccarobins"
+        "beccarobins",
+        "Stacyrch140",
+        "v-stsavell",
+        "American-Dipper"
       ]
     },
     "fileMetadata": {},
