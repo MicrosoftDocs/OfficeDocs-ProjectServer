@@ -50,7 +50,7 @@ You can repeat this procedure for each user that you don't want to use Project f
 
 If you need to remove the Project tile for a large number of users, it may be easier for an admin to do this task through Windows PowerShell instead of through the Microsoft 365 admin center. 
 
-Make sure to use the latest [Azure Active Directory module](/office365/enterprise/powershell/connect-to-office-365-powershell).
+Make sure to use the latest [Microsoft Graph PowerShell module](/powershell/microsoftgraph/installation).
 
 > [!Important] 
 > Again, note that removing the Project for Office service will not only remove the Project tile, but will also no longer allow the user to view Project for the web projects and roadmaps. 
@@ -87,38 +87,30 @@ Make sure to use the latest [Azure Active Directory module](/office365/enterpris
 3. You can use the following script to help you to disable the Project for Office service plan for specific users and their associated license. For each user, you will need to know the **$skuPart** value for their license (you can find this value in the results of step 2).
 
     ```PowerShell
-    #disable the plan for the user/sku combination
-    
-    $user = "<user>@tenant.onmicrosoft.com"  #user
-    $skuPart = "ENTERPRISEPREMIUM"   #sku to disable the plan on from the previous step
-    
-    $plansToDisableList = @("PROJECT_O365_F3","PROJECT_O365_P1","PROJECT_O365_P2","PROJECT_O365_P3")
-    
-    #Get the SKU details
-    $sku = Get-MgSubscribedSku | Where {$_.SkuPartNumber -eq  $skuPart}
-    
-    #Get a reference to the service plan we are disabling
-    $newPlansToDisable = $sku.ServicePlans | ? {$_.ServicePlanName -in $plansToDisableList}
-    
-    
-    #Get any disabled service plans (apps) on the SKU assigned to the user
-    $disabledPlans = $e5Sku.ServicePlans | Where ServicePlanName -in $plansToDisableList | Select -ExpandProperty ServicePlanId $addLicenses = @(@{SkuId = $e5Sku.SkuId DisabledPlans = $disabledPlans})
+      #disable the plan for the user/sku combination
+      
+      $user = "<user>@tenant.onmicrosoft.com"  #user
+      $skuPart = "ENTERPRISEPREMIUM"   #sku to disable the plan on from the previous step
+      
+      $plansToDisableList = @("PROJECT_O365_F3","PROJECT_O365_P1","PROJECT_O365_P2","PROJECT_O365_P3")
 
-    
-    #Merge the lists together so we are maintaining disabled service plans (apps)
-    $totalDisabledPlans = @($newPlansToDisable,$existingDisabled)
-    
-    #Create a license with the service plan (apps) disabled
-    $license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-    $license.SkuId = $sku.SkuId
-    $license.DisabledPlans = $totalDisabledPlans.ServicePlanId
-    
-    
-    $licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-    $licenses.AddLicenses = $license
-    
-    #Assign updated SKU
-    Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -RemoveLicenses @()
+      #Get the SKU details
+      $sku = Get-MgSubscribedSku | Where {$_.SkuPartNumber -eq  $skuPart}
+      
+      #Get a reference to the service plan we are disabling
+      $newPlansToDisable = $sku.ServicePlans | ? {$_.ServicePlanName -in $plansToDisableList}
+      
+      #Get any disabled service plans (apps) on the SKU assigned to the user
+      $disabledPlans = $sku.ServicePlans | Where ServicePlanName -in $plansToDisableList |Select -ExpandProperty ServicePlanId
+      
+      $addLicenses = @(
+      @{
+      SkuId = $sku.SkuId
+      DisabledPlans = $disabledPlans
+      }
+      )
+      
+      Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -RemoveLicenses @()
     ```
 
 ## See also
