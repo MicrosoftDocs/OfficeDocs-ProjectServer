@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 8f290faa-8b71-4b98-9621-72e14551b784
 description: "Summary: Manage users, groups, and categories in Project Server permission mode."

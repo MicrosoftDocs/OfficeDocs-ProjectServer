@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 60b48324-19f6-45cf-93be-c3e6c567ba97
 description: "Summary: How to use server settings in Project Web App to administer an installation of Project Server."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 03/19/2018
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 
 description: "Summary: Learn how to plan for implementing a project management system, such as Project Online."

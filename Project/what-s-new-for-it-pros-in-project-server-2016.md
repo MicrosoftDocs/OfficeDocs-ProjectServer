@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/20/2016
 audience: ITPro
 ms.topic: overview
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin

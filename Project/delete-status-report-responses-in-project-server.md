@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: b19544e4-0a6a-42f3-85f2-422597aef3fa
 description: "Summary: When a status report response is no longer needed, you can delete it from Project Web App."
