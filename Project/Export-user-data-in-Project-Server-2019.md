@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 description: Learn how your organization can export a specific user's content from your Project Server 2019 environment.
 ms.date: 10/04/2018

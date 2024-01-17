@@ -4,7 +4,7 @@ description: Project Server provides project management, work management, and po
 author: SerdarSoysal
 manager: samanro
 ms.assetid: 
-ms.prod: project-server-2016
+ms.service: project-server-2016
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article

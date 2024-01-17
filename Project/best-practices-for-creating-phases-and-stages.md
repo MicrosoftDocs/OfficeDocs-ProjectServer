@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: d144b49e-12f0-4e18-96c5-de59d9fafc04
 description: "Summary: Use these naming conventions for work management phases and stages to make administration easier."

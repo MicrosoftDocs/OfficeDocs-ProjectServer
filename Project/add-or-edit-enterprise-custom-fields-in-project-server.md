@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 19ad76d0-3d4f-41a3-a726-869c371e66ff
 description: "Summary: Use the New Custom Field page in Project Web App settings to specify the options for a custom field."

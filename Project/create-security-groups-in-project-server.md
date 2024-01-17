@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/22/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f3aa46e3-c36e-4ea2-be2f-2269896d914c
 description: Create custom security groups by using the Manage Groups page in Project Web App Settings.

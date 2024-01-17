@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f5829613-e2c5-45fd-b44f-9b89f7723a61
 description: "Summary Learn about using Project Server to create solutions for project management."
