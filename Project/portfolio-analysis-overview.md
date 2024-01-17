@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: ea26852e-db82-416e-bfab-0cf094826f4f
 description: "Summary: Learn what a portfolio analysis is and how to get started doing portfolio analyses in Project Web App."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/8/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1fc96ddf-f44c-4b90-be39-ae4cdaa91af9
 description: Add user accounts by using the Manage Users page in Project Web App Settings.

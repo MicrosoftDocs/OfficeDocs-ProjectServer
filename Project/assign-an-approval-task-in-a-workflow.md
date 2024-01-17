@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4735a010-84c3-44af-a2c7-c83bd0013cd9
 description: "Summary: Learn how to add an approval task to a Project Web App workflow."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/16/2017
 audience: Admin
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: IT_ProjectAdmin

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 2ab4a2f8-4f7f-4b03-9c73-01f1aa167a0d
 description: "Summary: You can delete enterprise objects from Project Web App when they are no longer needed."

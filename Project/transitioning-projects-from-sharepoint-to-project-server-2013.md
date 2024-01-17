@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: d24d3ade-4970-4407-a7d8-fb3931cd5651
 description: "Summary: Learn how to increase the Project Web App functionality level for a project as project management needs become more complex."

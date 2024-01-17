@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f9d14034-5e0b-415b-8eb7-fbfe3771869b
 description: "Summary: You can force the check-in of an enterprise custom field by using Project Web App Settings."
