@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_ProjectAdmin
 ms.assetid: 72e5adfd-2d41-4589-a3c0-1e2855b6db50

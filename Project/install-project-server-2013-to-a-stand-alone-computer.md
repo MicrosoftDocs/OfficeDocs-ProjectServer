@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f5e0717d-e473-4371-9e94-994eb84f7913
 description: Summary - Set up a simple Project Server 2013 installation for demonstration purposes.

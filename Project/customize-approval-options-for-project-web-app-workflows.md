@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 0cf2625c-858d-4f98-a77a-3e566cb63a22
 description: "Summary: Learn how to add additional approval options to a Project Web App workflow approval task."

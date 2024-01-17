@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 16ceaa65-1f0a-480f-b924-171e8b08ac2b
 description: "Summary: Use enterprise custom fields and lookup tables in Project Web App to customize Project Server data."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_OneDriveAdmin
 ms.assetid: 400e26f1-b21d-489a-8c6e-a1bc30e6e0c7

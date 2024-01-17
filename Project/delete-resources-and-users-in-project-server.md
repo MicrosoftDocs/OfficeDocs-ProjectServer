@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 08eea872-b4c5-4400-84a8-2dabfb6a30e5
 description: "Summary: When a resource or user is no longer needed, you can delete it from Project Web App."

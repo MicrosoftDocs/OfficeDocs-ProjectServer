@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: hub-page
-ms.prod: project-server-itpro
+ms.service: project-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
