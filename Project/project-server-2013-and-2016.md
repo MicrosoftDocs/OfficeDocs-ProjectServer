@@ -6,7 +6,6 @@ manager: samanro
 ms.assetid: 
 ms.service: project-server-2016
 ms.tgt_pltfrm: na
-ms.devlang: na
 ms.topic: article
 ms.date: 12/11/2017
 ms.author: serdars
