@@ -13,6 +13,7 @@
 ### [Customization Best Practices and Limitations for Project for the web](customize-project-best-practices-limitations.md)
 ### [Add a custom column to the Project Power App](add-custom-column-project-power-app.md)
 ### [Integrate Project for the web into your project management processes](move-to-project-for-the-web-from-project-web-app.md)
+### [Manage self-service purchases and organizational trails for Microsoft Project](manage-self-service-purchases-org-trials-for-msproject.md)
 ### [Frequently Asked Questions](faq.md)
 ## [Resource management]()
 ### [Create and apply a work calendar in Project for the web](create-and-apply-a-work-calendar.md)
