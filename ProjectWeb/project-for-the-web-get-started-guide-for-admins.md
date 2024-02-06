@@ -12,6 +12,7 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
+ms.collection: essentials-get-started
 description: "Resources for administrators who want to learn more about managing Project for the web."
 ---
 
