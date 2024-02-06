@@ -13,6 +13,7 @@ f1_keywords:
 ms.service: project-online
 ms.custom: intro-get-started
 ms.localizationpriority: medium
+ms.collection: essentials-get-started
 search.appverid:
 - MET150
 - PJO150
