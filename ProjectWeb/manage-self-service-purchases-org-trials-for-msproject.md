@@ -35,11 +35,11 @@ As an administrator, you can utilize the Microsoft 365 admin center to manage se
 
 Some of these actions may require you to have a specific administrator role to make changes. For a detailed view of roles and capabilities, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
-Understand what types of purchases and trials can be initiated by you or the users in your organization. The offerings vary by product. For more information, see [Product purchase and trial explanation](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#understand-purchases-and-trials).
+Understand what types of purchases and trials can be initiated by you or the users in your organization. The offerings vary by product. For more information, see [Product purchase and trial explanation](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#understand-purchases-and-trials).
 
 ## Enable or disable project trials
 
-You can enable or disable purchases or trials for users in your organization. For instructions on how to use this control, see [Enable or disable purchases and trials via PowerShell module](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide).
+You can enable or disable purchases or trials for users in your organization. For instructions on how to use this control, see [Enable or disable purchases and trials via PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide).
 
 If trials are enabled, users have the chance to try Microsoft Project and request a license. If trials are disabled, users won't be allowed to start a trial, but rather will be given the ability to request a license for Microsoft Project.
 
@@ -47,9 +47,9 @@ If trials are enabled, users have the chance to try Microsoft Project and reques
 
 There are a few ways to manage self-service license requests:
 
-1. Approve or deny a license request. For information on approving or denying a license request, see [Approve or Deny a license request](/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide).
-2. Use the option that would align the Microsoft Project-specific process for license request and approval with the prevailing one in your organization. If you would like to align with your organization’s license request and approval process, there's an option to display a message to your users that indicates the process they can follow. Through this message, your users are directed toward your organization’s preferred internal process. For the set-up process, see [Using your own request process](/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide).
-3. Lastly, if you don’t have the authority to approve the license requests, you can share the license-request details to the right point of contact (POC). For instructions regarding sharing the details with the POC, see [Sharing a license request by email](/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide).
+1. Approve or deny a license request. For information on approving or denying a license request, see [Approve or Deny a license request](/microsoft-365/commerce/licenses/manage-license-requests#approve-or-deny-a-license-request).
+2. Use the option that would align the Microsoft Project-specific process for license request and approval with the prevailing one in your organization. If you would like to align with your organization’s license request and approval process, there's an option to display a message to your users that indicates the process they can follow. Through this message, your users are directed toward your organization’s preferred internal process. For the set-up process, see [Using your own request process](/microsoft-365/commerce/licenses/manage-license-requests##use-your-own-request-process).
+3. Lastly, if you don’t have the authority to approve the license requests, you can share the license-request details to the right point of contact (POC). For instructions regarding sharing the details with the POC, see [Sharing a license request by email](/microsoft-365/commerce/licenses/manage-license-requests#share-a-license-request-by-email).
 
 ## Cancel a purchase or trial subscription
 
