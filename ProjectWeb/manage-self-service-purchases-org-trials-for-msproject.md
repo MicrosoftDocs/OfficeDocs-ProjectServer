@@ -55,4 +55,4 @@ There are a few ways to manage self-service license requests:
 
 An administrator can cancel a purchase or trial subscription for their users in the organization. The users will then lose access to certain features in Microsoft Project. The administrator, or the owners of the subscription, on canceling the subscription will receive an email that states that the subscription was canceled.
 
-For instructions on how to cancel a purchase or trial subscription, see [Cancel a purchase or trial subscription](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide).
+For instructions on how to cancel a purchase or trial subscription, see [Cancel a purchase or trial subscription](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#cancel-a-purchase-or-trial-subscription).
