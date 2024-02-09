@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_ProjectAdmin
 - IT_ProjectAdmin_Top
+- essentials-manage
 ms.assetid: 91c0c38a-51e1-4aaa-a675-a8d56cd5f08a
 description: "Summary: The following articles help you operate and maintain a Project Server deployment."
 ---
