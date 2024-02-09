@@ -11,6 +11,8 @@ search.appverid:
 - PJO150
 - MET150 
 ms.localizationpriority: medium
+ms.collection: essentials-manage
+
 description: "Learn about the various modes of scheduling in project operations."
 ---
 
