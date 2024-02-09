@@ -11,6 +11,7 @@ search.appverid:
 - PJO150
 - MET150
 ms.localizationpriority: medium
+ms.collection: essentials-manage
 description: "Learn how to create a work hours template and apply it to resources in Project for the web."
 ---
 

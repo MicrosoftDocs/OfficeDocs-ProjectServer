@@ -7,6 +7,7 @@ manager: anavs
 ms.service: project-web
 ms.topic: how-to
 ms.date: 04/15/2022
+ms.collection: essentials-manage
 ms.custom: template-how-to
 audience: admin
 ---
