@@ -2,6 +2,14 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/15/2024 | [Office 365 User access to Project for the web and Roadmap](/project-for-the-web/office-365-user-view-access-to-project-and-roadmap) | modified |
+
+
 ## Week of February 05, 2024
 
 
