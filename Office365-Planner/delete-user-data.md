@@ -17,6 +17,15 @@ description: "In order to ensure that a user is deleted from Microsoft Planner, 
 
 # Delete user data in Microsoft Planner
 
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (Planner web, Planner mobile, Power Platform Planner Connector, etc.)
+>
+> It does not apply to To Do lists and premium plans in the Planner app in Teams. Learn more about the Planner app in Teams here: [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-tasks-app)
+
 In order to ensure that a user is deleted from Microsoft Planner, you delete that user in the Microsoft 365 admin center. Once the user is deleted, their telemetry information is deleted in Microsoft Planner and their user name changed to "Former user." If you want to delete information other than user name and telemetry, you'll need to access the relevant plans and do this method manually.
 
 ## To delete a user from Planner
