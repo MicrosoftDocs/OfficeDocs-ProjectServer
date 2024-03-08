@@ -18,6 +18,15 @@ description: "If you're a tenant admin who has made a support request for your o
 
 # Enable your organization’s Planner tenant to be moved
 
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (Planner web, Planner mobile, Power Platform Planner Connector, etc.)
+>
+> It does not apply to To Do lists and premium plans in the Planner app in Teams. Learn more about the Planner app in Teams here: [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-tasks-app)
+
 If you're a tenant admin who has made a support request for your organization’s Planner tenancy to be moved into a new region, you must first authorize the move using PowerShell. 
 
 - [Prerequisites for making Planner changes in Windows PowerShell](#prerequisites-for-making-planner-changes-in-windows-powershell)
