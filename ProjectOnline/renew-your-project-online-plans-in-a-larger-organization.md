@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: project-online
 ms.localizationpriority: medium
-ms.custom: Adm_O365, has-azure-ad-ps-ref
+ms.custom: Adm_O365, has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ms.collection: M365-subscription-management
 search.appverid:
 - PJO150
@@ -43,6 +43,8 @@ For the procedures in this article, you'll need to run scripts that will require
 - The 64-bit version of the [Windows Azure Active Directory module for Windows PowerShell (64-bit version)](/collaborate/connect-redirect?DownloadID=59185).
     
 For more information, see [Connect to Office 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+
+[!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
   
 After you complete your installation, open the Windows Azure Active Directory module for Windows PowerShell on your desktop and type the following at the prompt:
   
