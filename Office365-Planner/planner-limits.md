@@ -17,7 +17,7 @@ ms.localization_priority: medium
 > This article applies to:
 >
 > - Basic plans in the Planner app in Teams
-> - All plans in other Planner endpoints (Planner web, Planner mobile, Power Platform Planner Connector, etc.)
+> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
 >
 > It does not apply to To Do lists and premium plans in the Planner app in Teams. Learn more about the Planner app in Teams here: [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-tasks-app)
 
