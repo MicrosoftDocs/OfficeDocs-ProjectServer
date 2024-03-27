@@ -27,7 +27,7 @@ If you want to upgrade your solution within Dynamics 365 when a newer version is
 
 ## Version history
 
-|**Version**|**Release date**|**Update description**|
+| Version | Release date | Update description |
 |:-----|:-----|:-----|
 |0.8.7.40  <br/> |October 2020  <br/> |Plugins added to support Url updates in ConnectionSettings entity to support SharePoint site rename and Microsoft 365 tenant rename.  <br/>Plugins and roles added to support Roadmap entities being owned by Microsoft 365 groups in the PowerApps Platform. |
 |0.8.6.0  <br/> |September 2019  <br/> |Allow changing Roadmap item types (From KeyDate to Phase or vice versa).  <br/> |
