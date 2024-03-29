@@ -35,16 +35,16 @@ Because the premium plan is no longer shared with the group, other users of the 
 
 1. To get started with downgrade first, open the details pane for the premium plan. Click on the title of the plan to open the pane. 
 
-![Image of the project title link that opens the project details pane.](media/downgrade-project-details.png)
+![Screenshot of the project title link that opens the project details pane.](media/downgrade-project-details.png)
 
 2. Scroll down to the bottom of the pane and click on the “Switch back to basic” link.
 
-![Image of Downgrade trigger link located in project details.](media/downgrade-trigger.png)
+![Screenshot of Downgrade trigger link located in project details.](media/downgrade-trigger.png)
 
 3. To begin the downgrade, press the “Downgrade plan for everyone” button in the dialog that pops up. 
 
-![Image of the downgrade trigger button in the downgrade dialog.](media/downgrade-begin-process.png)
+![Screenshot of the downgrade trigger button in the downgrade dialog.](media/downgrade-begin-process.png)
 
 The process can take a few minutes to complete. Once it is done, the user will be in the downgraded, basic plan. Both the premium plan and the basic plan will be visible in the “My Plans” view for the user who triggered the downgrade. 
 
-![Image of the My Plans link.](media/downgrade-my-plans.png)
+![Screenshot of the My Plans link in the left navigation of Planner.](media/downgrade-my-plans.png)
