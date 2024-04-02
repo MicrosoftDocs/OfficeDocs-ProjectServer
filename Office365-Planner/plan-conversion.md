@@ -22,7 +22,7 @@ Plans that have been created outside of Planner core application or have busines
 - Published Plans
 - Loop task list plans
 
-Any member of an eligible basic plan can convert it to a premium plan.  Premium plans that were converted can be downgraded back to basic plans.  Details about downgrading plans can be found **here**.
+Any member of an eligible basic plan can convert it to a premium plan.  Premium plans that were converted can be downgraded back to basic plans see [Downgrading a premium plan](plan-downgrade.md).
 
 Users with a Planner premium license can convert a basic plan to a premium plan.  In scenarios where an M365 user is viewing a basic eligible plan and starting a Planner premium trial, the basic plan will be converted into a premium plan.
 
