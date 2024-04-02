@@ -60,10 +60,12 @@ The process can take a few minutes to complete. Once it is done, the user and th
 
 Certainly! Here's a simple markdown table for you:
 
-| **Entry Point 1** | **Outcome 2** |
-|--------------|--------------|--------------|
-| Item 1       | Value 1      | Result 1     |
-| Item 2       | Value 2      | Result 2     |
-| Item 3       | Value 3      | Result 3     |
-
-Feel free to customize the content as needed! 😊
+| **Entry Point** | **Flow** |
+|--------------|--------------|
+| Planner in Teams       | Premium plans are rendered in-place.|
+| Planner Web | Users are redirected to the premium plan in Project for the web.|
+| Planner Mobile App | Users can still see all the tasks in the “Assigned to me view”. Drilling into a premium plan, users will be asked to open the premium plan in Project for the web.|
+| Planner in Teams Mobile | Users can still see all the tasks in the “Assigned to me view”. Drilling into a premium plan, users will be asked to open the premium plan in the Teams Desktop app. |
+| Basic plans added to Loop | Users will be asked to open the premium plan in Project for the web by following the provided link.|
+| Basic plans added SharePoint sites | Users will be asked to open the premium plan in Project for the web by following the provided link.|
+| Links directly to a basic plan or task within the plan | Users are redirected to the premium plan in Project for the web and to the specific task if specified. |
