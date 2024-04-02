@@ -18,7 +18,9 @@ There are several capabilities that are available in premium plans that do not e
 The following plans are eligible to be converted into premium plans:
 - Basic plans that are shared with a O365 group.
 - Basic plans which are not yet shared (coming soon)
+  
 Plans that have been created outside of Planner core application or have business rules cannot be converted.  Examples include:
+
 - Published Plans
 - Loop task list plans
 
@@ -49,6 +51,9 @@ Note: Premium users can convert basic plans into premium plans
 
 1. Open the basic plan in the new Planner Application.
 2.	Click on the …
+
+![Screenshot of conversion trigger.](media/convert-ellipsis.png)
+
 3.	Choose a premium view.
 4.	Click “Convert to premium for everyone”.
 5.	Once completed, everyone will be working on the premium plan. 
@@ -57,8 +62,7 @@ The process can take a few minutes to complete. Once it is done, the user and th
 
 ## Redirection to premium plans
 
-
-Certainly! Here's a simple markdown table for you:
+Here is a table indicating how Planner endpoints will function after a plan has been converted.
 
 | **Entry Point** | **Flow** |
 |--------------|--------------|
