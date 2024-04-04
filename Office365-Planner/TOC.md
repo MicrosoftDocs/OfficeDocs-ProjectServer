@@ -11,6 +11,8 @@
 ## [How to turn off the Planner component for your organization](disable-planner-component.md)
 ## [Disabling direct-push notifications for your organization](disabling-direct-push-planner-mobile-notifications.md)
 ## [Access Microsoft Planner Roster](access-planner-roster.md)
+## [Converting basic plans into premium plans](plan-conversion.md)
+## [Downgrading a premium plan](plan-downgrade.md)
 ## [Block a user from deleting tasks in Microsoft Planner they didn't create](block-non-owner-task-deletion.md)
 ## [Disallow container types for usage in container sharing](disallow-container-sharing-types.md)
 ## [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md)
