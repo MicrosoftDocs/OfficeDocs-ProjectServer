@@ -11,7 +11,7 @@ ms.localizationpriority: high
 description: "This article explains how to convert a basic plan into a premium plan in Microsoft Planner."
 ---
 
-# Converting basic plans to premium plans
+# Converting basic plans into premium plans
 
 There are several capabilities that are available in premium plans that do not exist in basic plans.  For example, premium users can create dependencies between tasks in a premium plan such that when one task is moved out (by any user), dependent tasks also move out.  More details on the differences between basic and premium plans can be found [here](https://support.microsoft.com/office/comparing-basic-vs-premium-plans-5e351170-4ed5-43dc-bf30-d6762f5a6968).
 
