@@ -47,12 +47,12 @@ Please review [Import a plan](https://prod.support.services.microsoft.com/office
 
 ## Converting to a premium plan
 
-Note: Premium users can convert basic plans into premium plans
+ [!NOTE] Premium users can convert basic plans into premium plans
 
 1. Open the basic plan in the new Planner Application.
-2.	Click on the …
-
-![Screenshot of conversion trigger.](media/convert-ellipsis.png)
+2.	Click on the … in the header.
+ 
+ ![Screenshot of conversion trigger.](media/convert-ellipsis.png)
 
 3.	Choose a premium view.
 4.	Click “Convert to premium for everyone”.
