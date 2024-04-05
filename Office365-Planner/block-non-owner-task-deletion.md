@@ -22,7 +22,7 @@ description: "This article shares information on how admins can block a user fro
 > - Basic plans in the Planner app in Teams
 > - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
 >
-> It does not apply to To Do lists and premium plans in the Planner app in Teams. Learn more about the Planner app in Teams here: [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-tasks-app)
+> It does not apply to To Do lists and premium plans in the Planner app in Teams. Learn more about the Planner app in Teams here: [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-planner-app)
 
 Tenant admins can block a specific user from deleting tasks in Microsoft Planner that they didn't create.
 
