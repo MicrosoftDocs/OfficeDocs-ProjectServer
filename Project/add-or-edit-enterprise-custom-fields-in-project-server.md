@@ -21,7 +21,7 @@ Use the following procedure to create a new enterprise custom field or edit an e
   
 ### To create or edit Enterprise Custom Fields
 
-1. On the Project Web App home page, on the **Settings** menu, click **Project Web App Settings**.
+1. On the Project Web App home page, on the **Settings** menu, click **Project Web App Settings**..
     
 2. On the Project Web App Server Settings page, click **Enterprise Custom fields and Lookup Tables**.
     
