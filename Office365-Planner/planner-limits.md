@@ -12,6 +12,15 @@ ms.localization_priority: medium
 ---
 # Microsoft Planner limits
 
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
+>
+> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
+
 This article describes the current limits that apply to Microsoft Planner.
 
 ## Plan limits
