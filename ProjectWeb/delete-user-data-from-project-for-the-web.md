@@ -123,7 +123,7 @@ To selectively remove history records, perform the following steps.
 4. Click the **Edit** option for the table. 
 5. Select the records you want to delete and click **Delete n records**
 
-## The impact of deleting a project on data copied to Planner and To Do
+## Impact of deleting a project on data copied to Planner and To Do
 Deleting a Project or the user's data would lead to deletion of the Project/User data from Assigned to me view of Planner and To Do as well. 
 
 ## See Also
