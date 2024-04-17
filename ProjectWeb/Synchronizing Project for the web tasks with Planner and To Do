@@ -6,7 +6,7 @@ How admins can control syncing of Project tasks with Planner and To Do
 
 An admin can enable or disable Project for the web task synchronization with Planner and To Do for all users in their organization through the Project settings page in the Microsoft 365 admin center. 
 
-Steps to Enable or Disable Project for the web Task Syncing: 
+Use the following steps to Enable or Disable Project for the web Task Syncing: 
 
 1. In the Microsoft 365 admin center, expand the navigation menu, select Settings, and then select Org Settings. 
 2. Select Project. 
