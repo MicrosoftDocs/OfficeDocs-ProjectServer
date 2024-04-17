@@ -5,6 +5,7 @@
 ### [Deploying Project for the web](deploying-project.md)
 ### [Scheduling modes](scheduling-modes.md)
 ### [Turn Project for the web or Roadmap on or off](turn-project-for-the-web-off.md)
+### [Synchronizing Project for the web tasks with Planner and To Do](synchronizing-project-for-the-web-tasks-with-planner-and-todo.md)
 ### [Project architecture overview](project-architecture-overview.md)
 ### [Project for the web limits and boundaries](project-for-the-web-limits-and-boundaries.md)
 ### [Office 365 user view access to Project for the web and Roadmap](office-365-user-view-access-to-project-and-roadmap.md)
