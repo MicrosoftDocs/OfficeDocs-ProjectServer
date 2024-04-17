@@ -10,7 +10,7 @@ Use the following steps to Enable or Disable Project for the web Task Syncing:
 
 1. In the Microsoft 365 admin center, expand the navigation menu, select **Settings**, and then select **Org Settings**. 
 2. Select Project. 
-3. On the Project settings page, select or deselect Turn on Assigned to me view syncing for your organization, and then select Save. 
+3. On the Project settings page, select or clear the checkbox **Turn on Assigned to me view syncing for your organization**, and then select **Save**. 
 
 
 
