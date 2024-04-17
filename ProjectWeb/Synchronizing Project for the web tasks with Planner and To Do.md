@@ -14,6 +14,4 @@ Use the following steps to Enable or Disable Project for the web Task Syncing:
 2. Select **Project**. 
 3. On the Project settings page, select or clear the checkbox **Turn on Assigned to me view syncing for your organization**, and then select **Save**. 
 
-
-
-Please note that Assigned to me view syncing (i.e. Project task syncing with Planner and To Do) can only be enabled if “Project for the web” has been enabled for the tenant. If the administrator decides to disable “Project for the web” for the tenant, Assigned to me view syncing will also be disabled and no new data will be copied to Planner and To Do. However, previously synchronized data will not be deleted until the Assigned to me view syncing is explicitly disabled for the tenant. 
+> In order for Project for the web task to synchronize with Planner and To Do tasks, Project for the web must be enabled for the tenant. If the administrator decides to disable it, tasks won't be synchronized and no new data will be copied to Planner and To Do. Note that previously stored data won't be deleted until the Assigned to me view syncing is explicitly disabled for the tenant. 
