@@ -1,4 +1,4 @@
-Synchronizing Project for the web tasks with Planner and To Do 
+# Synchronize Project for the web tasks with Planner and To Do 
 
 The Assigned to me view in Planner and To Do displays all Microsoft 365 tasks assigned to a user. By default, syncing of Project for the web tasks with Planner and To Do is enabled for all tenants. However, if your Project for the web and Planner are in two different data boundaries and you do not want Project for the web data to cross the data boundary, you can disable this feature for your tenant. This synchronization can only be enabled or disabled at the tenant level, not at the user level.  
 
