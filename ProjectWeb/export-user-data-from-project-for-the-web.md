@@ -17,7 +17,7 @@ description: "Learn how your organization can export a specific user's content f
 
 # Export user data from Project for the web
 
-This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user.The task data from Project for the web is synchronized with Planner to populate the user’s ‘Assigned to Me’ view in Planner. If you are solely interested in the project data, you can export it from Project for the web using the steps provided below. However, if you also wish to export the Planner-specific data associated with those project tasks, you can do so by exporting the data from the ‘Assigned to Me’ view in Planner.
+This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. The task data from Project for the web is synchronized with Planner to populate the user’s ‘Assigned to Me’ view in Planner. If you are solely interested in the project data, you can export it from Project for the web using the steps provided below. However, if you also wish to export the Planner-specific data associated with those project tasks, you can do so by exporting the data from the ‘Assigned to Me’ view in Planner.
 
 
 Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
@@ -193,7 +193,7 @@ The field definitions are at [Export Content Definition](export-project-content-
 
 Open the **Advanced Find** tool. In the **Look for** menu, select the **Project History object**.
 
-If you want to filter on a particular project, choose **Select**, select the **Project** option from the drop down dialog, and then add the project for which you’d like to see Project History items.
+If you want to filter on a particular project, choose **Select**, select the **Project** option from the drop-down dialog, and then add the project for which you’d like to see Project History items.
 
 When you’re done with selecting your search criteria, in the ribbon, select **Edit Columns**.
 
