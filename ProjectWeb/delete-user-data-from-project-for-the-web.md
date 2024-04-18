@@ -12,7 +12,7 @@ search.appverid:
 - MET150
 ms.localizationpriority: medium
 ms.custom: Adm_Project, has-azure-ad-ps-ref, azure-ad-ref-level-one-done
-description: "Learn how an Office 365 global administrator can delete a user's information from Project for the Web."
+description: "Learn how an Microsoft 365 global administrator can delete a user's information from Project for the Web."
 ---
 
 # Delete user data from the Project for the web
@@ -33,7 +33,7 @@ To find a user's Microsoft Entra Object ID in the Microsoft Entra Admin Center:
 3. On the PowerApps page, select the Settings icon in the menu bar and select **Advanced Settings**.
 4. On the **Dynamics 365 Settings Business Management** page, select the filter icon and then select **Advanced Find**.
 5. From the **Look for** menu, choose **Roadmaps** followed by **Edit Columns** and **Add Columns**.
-6. Choose the columns that you want to search on. Be sure to include **Office 365 Group Microsoft Entra ID**.
+6. Choose the columns that you want to search on. Be sure to include **Microsoft 365 Group Microsoft Entra ID**.
 
    |**Display name**|**Description**|
    |:---------------|:--------------|
@@ -42,7 +42,7 @@ To find a user's Microsoft Entra Object ID in the Microsoft Entra Admin Center:
    |Owner Microsoft Entra ID|ID of the user in Microsoft Entra who owns the roadmap.|
    |Parent Roadmap|ID of the parent roadmap.|
    |Creator Microsoft Entra ID|ID of the user in Microsoft Entra who created the roadmap.|
-   |Office 365 Group Microsoft Entra ID|ID of the roadmap's Office 365 group in Microsoft Entra ID.|
+   |Microsoft 365 Group Microsoft Entra ID|ID of the roadmap's Microsoft 365 group in Microsoft Entra ID.|
    |Roadmap|Unique identifier of a roadmap.|
    |Roadmap Type|The type of roadmap record.|
 
@@ -54,7 +54,7 @@ To find a user's Microsoft Entra Object ID in the Microsoft Entra Admin Center:
 
 ## To make changes to a user's roadmap
 
-From your Advanced Find search results, make note of the Office 365 Group Microsoft Entra ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
+From your Advanced Find search results, make note of the Microsoft 365 Group Microsoft Entra ID for any roadmap that you want to make changes to. You must join this group as an owner in order to make updates to the roadmap.
 
 To add yourself as a group owner, use [New-MgGroupOwnerByRef](/powershell/module/microsoft.graph.groups/new-mggroupownerbyref):
 
@@ -71,19 +71,19 @@ Where `08ff59a5-b31f-4f2f-bcdd-1dc373c88583` is the GroupId GUID value and `a948
 
 Once you’re an owner of the groups, you can open the roadmaps from Project Home and make edits directly. Roadmap must be enabled to do this.)
 
-### For roadmaps not associated with an Office 365 group
+### For roadmaps not associated with an Microsoft 365 group
 
-If your user's roadmap isn’t associated with an Office 365 group, and you want to be able to make edits to it, you need to add a group that you own to the roadmap.
+If your user's roadmap isn’t associated with an Microsoft 365 group, and you want to be able to make edits to it, you need to add a group that you own to the roadmap.
 
-This first requires you to create an Office 365 Group and get the Office 365 Group Microsoft Entra ID value for it. After you do this, perform the following steps:
+This first requires you to create an Microsoft 365 Group and get the Microsoft 365 Group Microsoft Entra ID value for it. After you do this, perform the following steps:
 
 1. In the Advanced Find search results, select the name of the roadmap to open it in Dynamics 365.
 2. In the Roadmap Information page in Dynamics 365, select the menu item with three dots, and in the menu select **Flow**, and then select **Form Editor**.
-3. In the **Form Editor**, select **Office 365 Group Microsoft Entra ID** from the Unused Fields list, and drag and drop it to the **General** section of the form, under Owner.
+3. In the **Form Editor**, select **Microsoft 365 Group Microsoft Entra ID** from the Unused Fields list, and drag and drop it to the **General** section of the form, under Owner.
 4. After filling in the information in **Form Editor**, select **Save** and then **Publish**.
-5. After the change is completed, you’ll see the Office 365 Group Microsoft Entra ID field displayed on the Roadmap Information page. Enter the Office 365 Group Microsoft Entra ID value of the group you own into the field box.
+5. After the change is completed, you’ll see the Microsoft 365 Group Microsoft Entra ID field displayed on the Roadmap Information page. Enter the Microsoft 365 Group Microsoft Entra ID value of the group you own into the field box.
 
-You’re now the owner of the Office 365 Group for the roadmap and can edit it.
+You’re now the owner of the Microsoft 365 Group for the roadmap and can edit it.
 
 ## To find a user's projects
 
@@ -122,6 +122,9 @@ To selectively remove history records, perform the following steps.
 3. Locate and select the **Project History** table. 
 4. Click the **Edit** option for the table. 
 5. Select the records you want to delete and click **Delete n records**
+
+## Impact of deleting a project on data copied to Planner and To Do
+Deleting a Project or the user's data would lead to deletion of the Project/User data from Assigned to me view of Planner and To Do as well. 
 
 ## See Also
 
