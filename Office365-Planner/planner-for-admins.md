@@ -2,13 +2,13 @@
 title: "Microsoft Planner for admins"
 f1.keywords:
 - CSH
-ms.author: ryany
-author: efrene
-manager: pamgreen
-ms.date: 08/14/2019
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 ms.collection: essentials-manage
 search.appverid:

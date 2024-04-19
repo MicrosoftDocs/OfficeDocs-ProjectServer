@@ -2,13 +2,13 @@
 title: "Disallow container types for usage in container sharing"
 f1.keywords:
 - NOCSH
-ms.author : farzaddaei
-author: farzaddaei
-manager: mikemoin
-ms.date: 12/18/2022
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 search.appverid:
 - MET150

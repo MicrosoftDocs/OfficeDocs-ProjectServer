@@ -1,13 +1,13 @@
 ---
 title: "How to turn off the Planner component for your organization"
 description: "Learn what the Planner component is and how to turn off for specific users, groups, or your organization in Microsoft apps that support Loop."
-ms.author: dahopkin
-author: dahopkin
-manager: hoyort
-ms.date: 06/05/2023
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localization_priority: medium
 ---
 

@@ -2,14 +2,14 @@
 title: Disabling direct-push notifications for your organization
 f1.keywords:
 - NOCSH
-ms.author: wirawlin
-author: WiRawlinWork
-manager: arshishk
-ms.date: 03/08/2021
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: Overview
 layout: LandingPage
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 search.appverid:
 - MET150

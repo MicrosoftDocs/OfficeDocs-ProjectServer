@@ -2,14 +2,14 @@
 title: "Enable your organization’s Planner tenant to be moved"
 f1.keywords:
 - NOCSH
-ms.author: ryany
-author: efrene
-manager: pamgreen
-ms.date: 08/25/2020
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: Overview
 layout: LandingPage
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 search.appverid:
 - MET150

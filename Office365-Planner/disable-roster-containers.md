@@ -2,13 +2,13 @@
 title: "Disable the creation of Roster containers in your organization's Planner tenant"
 f1.keywords:
 - NOCSH
-ms.author: nisteidl
-author: nisteidl
-manager: arshishk
-ms.date: 01/05/2021
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 search.appverid:
 - MET150

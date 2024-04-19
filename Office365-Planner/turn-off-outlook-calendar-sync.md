@@ -2,13 +2,13 @@
 title: "Turn off Outlook calendar sync in Planner for your organization"
 f1.keywords:
 - NOCSH
-ms.author: ryany
-author: efrene
-manager: pamgreen
-ms.date: 08/14/2019
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 search.appverid:
 - MET150

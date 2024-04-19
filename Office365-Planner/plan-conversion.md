@@ -1,12 +1,12 @@
 ---
 title: "Plan Conversion"
-ms.author: namerali
-author: NadinMerali
-manager: dellerderick
-ms.date: 03/29/2024
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin,user
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
 ms.localizationpriority: high
 description: "This article explains how to convert a basic plan into a premium plan in Microsoft Planner."
 ---
