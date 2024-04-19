@@ -1,13 +1,14 @@
 ---
 title: "Block a user from deleting tasks in Microsoft Planner they didn't create"
 f1.keywords:
-ms.author: ryany
-author: danfi
-manager: danfi
-ms.date: 02/23/2021
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 description: "This article shares information on how admins can block a user from deleting tasks the user didn't create"
