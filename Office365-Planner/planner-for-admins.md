@@ -9,6 +9,7 @@ ms.date: 04/19/2024
 audience: Admin
 ms.topic: overview
 ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: high
 ms.collection: essentials-manage
 search.appverid:

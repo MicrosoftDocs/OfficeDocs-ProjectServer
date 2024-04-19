@@ -10,6 +10,7 @@ audience: Admin
 ms.topic: Overview
 layout: LandingPage
 ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150

@@ -10,6 +10,7 @@ ms.reviewer: ryany
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: medium
 search.appverid:
 - MET150
