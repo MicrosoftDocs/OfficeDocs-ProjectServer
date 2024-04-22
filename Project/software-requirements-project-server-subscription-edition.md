@@ -31,7 +31,7 @@ Since Project Server Subscription Edition is part of the SharePoint Server Subsc
 
 Some of the key software requirements for SharePoint Server Subscription Edition are:
 
-|**Software**|**Software requirements**|
+| Software | Software requirements |
 |:-----|:-----|
 |**Supported Server Operating Systems:**  <br/> | Windows Server 2019 Standard or Datacenter <br/> Windows Server 2022 Standard or Datacenter <br/> |
 |**Supported Database Server:**  <br/> |A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 150. This includes SQL Server 2019 Cumulative Update 5 (CU5) or later, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 150. For more information about database compatibility levels, see Compatibility Certification and ALTER DATABASE (Transact-SQL) Compatibility Level.<br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. <br/> |
@@ -44,7 +44,7 @@ Some of the key software requirements for SharePoint Server Subscription Edition
 
 You can connect to Project Server Subscription Edition with not only Project Professional 2021 and the Project Online Desktop Client, but also with Project Professional 2019.
 
-|**Version**|**Compatible with**|
+| Version | Compatible with |
 |:-----|:-----|
 |Project Server Subscription Edition<br/> |Project Professional 2021 <br/> Project Professional 2019 <br/>  Project Online Desktop Client <br/> <br/> |
     
