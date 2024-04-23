@@ -2,13 +2,14 @@
 title: "Turn off Outlook calendar sync in Planner for your organization"
 f1.keywords:
 - NOCSH
-ms.author: ryany
-author: efrene
-manager: pamgreen
-ms.date: 08/14/2019
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150
@@ -16,6 +17,15 @@ description: "If you're a global admin and you want to turn off calendar sync in
 ---
 
 # Turn off Outlook calendar sync in Planner for your organization
+
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
+>
+> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
 
 If you're a global admin and you want to turn off calendar sync in Microsoft Planner, you can use Windows PowerShell. Planner is automatically turned on for all organizations that have Planner as part of their subscription.
 

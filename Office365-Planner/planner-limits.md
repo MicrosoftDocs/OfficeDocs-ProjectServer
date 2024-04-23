@@ -1,16 +1,26 @@
 ---
 title: "Microsoft Planner limits"
 description: Learn about limits that apply to Microsoft Planner.
-ms.author: Anavs
-author: alekyaj
-manager: Anavs, ArshishK
-ms.date: 08/25/2021
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localization_priority: medium
 ---
 # Microsoft Planner limits
+
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
+>
+> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
 
 This article describes the current limits that apply to Microsoft Planner.
 

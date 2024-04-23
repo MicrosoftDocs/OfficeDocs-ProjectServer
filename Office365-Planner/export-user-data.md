@@ -2,13 +2,14 @@
 title: "Export user data from Microsoft Planner"
 f1.keywords:
 - NOCSH
-ms.author: ryany
-author: efrene
-manager: pamgreen
-ms.date: 8/14/2019
+ms.author: v-mscharlock
+author: mscharlo
+manager: jtremper
+ms.date: 04/19/2024
 audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150
@@ -16,6 +17,15 @@ description: "This article describes how a global admin can export data for a sp
 ---
 
 # Export user data from Microsoft Planner
+
+> [!IMPORTANT]
+>
+> This article applies to:
+>
+> - Basic plans in the Planner app in Teams
+> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
+>
+> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
 
 This article describes how a global admin can export data for a specific user from Microsoft Planner. The exported data includes data about the user contained in Planner, and also data contained in plans that the user was a part of. The exporting process is done through Windows PowerShell.
 
