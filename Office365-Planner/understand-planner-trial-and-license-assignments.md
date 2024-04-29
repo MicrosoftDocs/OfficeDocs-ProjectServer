@@ -5,7 +5,7 @@ author: mscharlo
 ms.author: v-mscharlock 
 manager: jtremper
 ms.service: office-perpetual-itpro
-ms.subservice: planner git commi
+ms.subservice: planner
 ms.topic: how-to 
 ms.date: 04/30/2024
 ms.localization_priority: medium
