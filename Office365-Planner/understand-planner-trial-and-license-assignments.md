@@ -28,13 +28,13 @@ During the trial period, users can explore the full range of functionalities off
 
 As an administrator, you can manage license assignments within your organization. You have options to manage the incoming license requests following the 30-day trial, including:
 
-- **Process individual license requests**: When a user requests a license, you receive a notification in the Microsoft 365 Admin Center (MAC). You can accept or deny these requests individually using the **Licenses** tab located under **Billing**. Within the **Requests** tab, you can see all the submitted requests, and assign the licenses one at a time or in-bulk.
+- **Process individual license requests**: When a user requests a license, you receive a notification in the Microsoft 365 Admin Center (MAC). You can accept or deny these requests individually using the **Licenses** tab located under **Billing**. Within the **Requests** tab, you can see all the submitted requests, and assign the licenses one at a time or in bulk.
 
-(TODO SCREENSHOT)
+:::image type="content" source="media/project-license-requests.png" alt-text="Screenshot of a list of license requests that can be processed individually or in bulk.":::
 
-- **Select the license to assign**: Select a request and then choose from an available license via the drop-down menu under **Select a product**. You can see the number of available licenses, so you can manage these requests by plan.  
-
-(TODO SCREENSHOT)
+- **Select the license to assign**: Select a request and then choose from an available license via the drop-down menu under **Select a product**. You can see the number of available licenses, so you can manage these requests by plan.
+  
+:::image type="content" source="media/project-plan-3-license-approval.png" alt-text="Screenshot of a selected individual request for a license and the request information pane.":::
 
 ## More controls for the administrator
 
