@@ -42,12 +42,12 @@ As an administrator, you can manage license assignments within your organization
 
 - **Enable or disable license requests**: Within the MAC, you can enable or disable the option for people in your organization to request a license. This gives you control over who can access the trial and when.
 
-- **Self-service purchases**: Users can opt to purchase a license independently. While you can't assign or unassign licenses for these purchases, [you can take over the subscription](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
+- **Self-service purchases**: Users can opt to purchase a license independently. While you can't assign or unassign licenses for these purchases, [you can take over the subscription](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
 
 ## Other resources
 
-[Add users and assign licenses in Microsoft 365 - Microsoft 365 admin | Microsoft Learn](https://learn.microsoft.com/microsoft-365/admin/add-users/add-users)
+[Add users and assign licenses in Microsoft 365 - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/add-users/add-users)
 
-[Remove Microsoft 365 licenses from user accounts with PowerShell - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/microsoft-365/enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell)
+[Remove Microsoft 365 licenses from user accounts with PowerShell - Microsoft 365 Enterprise | Microsoft Learn](/microsoft-365/enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell)
 
-[Project for the web get started guide for administrators - Project for the web | Microsoft Learn](https://learn.microsoft.com/project-for-the-web/project-for-the-web-get-started-guide-for-admins)
+[Project for the web get started guide for administrators - Project for the web | Microsoft Learn](/project-for-the-web/project-for-the-web-get-started-guide-for-admins)
