@@ -16,7 +16,7 @@ audience: Admin
 
 Within your organization's account, your users may have a Microsoft 365 E3 or E5 license that provides them with access to [Microsoft Planner](https://www.microsoft.com/microsoft-365/business/task-management-software). These users can access Planner either through the web (https://tasks.microsoft.com), or through [the newly updated application in Microsoft Teams called Planner](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.planner?source=app-details-dialog). As users explore the benefits of Planner, they might discover that they want more advanced work management capabilities. Signing up for a trial allows users to experience Planner's premium features for 30 days.
 
->![NOTE]
+>![IMPORTANT]
 > We are in the midst of rolling Copilot in Planner (preview) out to your organization. After we have fully rolled out, if your organization does not have premium Project licenses, you can start free 30-day trials for your users and assist users who have requested a premium license for the Planner app in Teams.
 
 ## 30-day trial of premium features
