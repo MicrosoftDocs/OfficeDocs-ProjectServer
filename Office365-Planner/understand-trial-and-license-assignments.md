@@ -1,6 +1,6 @@
 ---
 title: "Understanding Trials and License Assignments for Administrators"
-description: "Learn how to administer 30-day trials and licenses of Planner to your users."
+description: "Learn about 30-day user trials of Planner and how to assign licenses."
 author: mscharlo 
 ms.author: v-mscharlock 
 manager: jtremper
@@ -12,7 +12,7 @@ ms.localization_priority: medium
 audience: Admin
 ---
 
-# Control user-requested trials and licenses for Planner
+# Understanding Trials and License Assignments for Administrators
 
 Within your tenant, your employees may have a Microsoft 365 E3 or E5 license that provides them access to Microsoft Planner. As of April 2024, these users can access Planner either through the web (https://tasks.microsoft.com), or through [the newly updated application in Microsoft Teams called Planner](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.planner?source=app-details-dialog).  
 
