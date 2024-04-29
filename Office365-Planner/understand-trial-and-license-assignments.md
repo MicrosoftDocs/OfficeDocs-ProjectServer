@@ -42,7 +42,7 @@ As an administrator, you can manage license assignments within your organization
 
 - **Enable or disable license requests**: Within the MAC, you can enable or disable the option for people in your organization to request a license. This gives you control over who can access the trial and when.
 
-- **Self-service purchases**: Users can opt to purchase a license independently. While you can't assign or unassign licenses for these purchases, [you can take over the subscription](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
+- **Self-service purchases**: Users can opt to purchase a license independently. While you can't assign or unassign licenses for these purchases, [you can take over the subscription](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription&preserve-view=true) and manage it accordingly.
 
 ## Other resources
 
