@@ -1,5 +1,5 @@
 ---
-title: "Control user-requested trials and licenses for Planner"
+title: "Understanding Trials and License Assignments for Administrators"
 description: "Learn how to administer 30-day trials and licenses of Planner to your users."
 author: mscharlo 
 ms.author: v-mscharlock 
@@ -11,58 +11,43 @@ ms.date: 04/30/2024
 ms.localization_priority: medium
 audience: Admin
 ---
-MICHELLE TODO: This still has (picture) in it
 
 # Control user-requested trials and licenses for Planner
-Planner allows users to request trials of the Project Plan 3 capabilities free for 30 days and request licenses for this plan from Microsoft 365 administrators.  
 
-As an admin, you can use the Microsoft Admin Center (MAC) to enable or disable the ability for users to opt in to a trial and request a license after the trial. You can also control whether a self-service purchase option is available to users after they complete the trial.  
+Within your tenant, your employees may have a Microsoft 365 E3 or E5 license that provides them access to Microsoft Planner. As of April 2024, these users can access Planner either through the web (https://tasks.microsoft.com), or through [the newly updated application in Microsoft Teams called Planner](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.planner?source=app-details-dialog).  
 
-> [!NOTE]
-> [Want to know more about Planner?](https://support.microsoft.com/planner) Planner is included in most Microsoft 365 Enterprise level licenses and unites To Do, Project, and Copilot into Teams as a lightweight solution for project management. [See this Planner FAQ about recent updates](https://cdn.techcommunity.microsoft.com/assets/Planner/Microsoft_Planner_FAQ_April_2024.pdf).
+As people in your organization explore the benefits of Planner, including the ability to organize their individual and collaborate tasks and plans, they may discover that they want more advanced work management capabilities. Signing up for a trial allows users to experience Planner's premium features for 30 days.
 
-## Control access to 30-day trials
+## 30-day trial of premium features
 
-As an admin there are several ways to grant access to trials and deny them.  
+When users follow the prompts to enable a 30-day trial, they are provided access to all the features and functionality in a license for Project Plan 3. This includes task history, advanced dependencies, custom calendars, timeline (Gantt) view, sprints, custom fields, team workload, managing goals, and Copilot. Once the trial starts, users can access these features within the Planner app in Teams, or with Project for the Web (https://project.microsoft.com).
 
-## Process Planner trial requests individually
+During the trial period, users can explore the full range of functionalities offered by the plan, receiving insights into how it can benefit their workflow and project management tasks. At the end of the 30-day trial period, the user can send a request to their tenant administrator for a premium license.
 
-When users request a trial of Planner, you receive a notification in the Microsoft Admin Center. You can either [accept or deny these individually](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#assign-licenses-by-using-the-licenses-page) using the **Licenses** tab in the menu.  
+## Administrator approval of a license request
 
-(Picture)
+As an administrator, you can manage license assignments within your organization. You have options to manage the incoming license requests following the 30-day trial, including:
 
-Or you can opt to assign Planner licenses you already have through your Microsoft 365 subscription to users. Assigning a license gives users access to the product right away and eliminates the step accepting their post-trial request for a license. [You can assign 25 licenses per organization for 30-day trials as needed through the Microsoft Admin Center using these instructions](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#assign-licenses-by-using-the-licenses-page).  
+- **Process individual license requests**: When a user requests a license, you receive a notification in the Microsoft 365 Admin Center (MAC). You can accept or deny these requests individually using the **Licenses** tab located under **Billing**. Within the **Requests** tab, you can see all the submitted requests, and assign the licenses one at a time or in-bulk.
 
-## Process Planner trial requests in bulk  
+(TODO SCREENSHOT)
 
-You can administer trials to users in bulk using [PowerShell commands](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell) or [by group membership in Microsoft Entra ID](https://learn.microsoft.com/entra/identity/users/licensing-groups-assign).  
+- **Select the license to assign**: Select a request and then choose from an available license via the drop-down menu under **Select a product**. You can see the number of available licenses, so you can manage these requests by plan.  
 
-## Determine your organization's product usage
+(TODO SCREENSHOT)
 
-After accepting a user’s request for a trial, you can view information on product usage that may help you assign licenses to users that most need them. Within the Microsoft 365 Admin Center, you can monitor metrics like active users and project and task activity.
+## Additional controls for the administrator
 
-(Picture)
+- **Monitor product usage**: After a user starts a trial, you can track product usage metrics within the MAC to determine which users may benefit most from a permanent license.
 
-## Process post-trial requests for Planner
+- **Enable or disable license requests**: Within the MAC, you can enable or disable the option for people in your organization to request a license. This gives you control over who can access the trial and when.
 
-After initiating the trial, a user can request a license for Planner. This license request shows up as a request for Project Plan 3, as this plan is what users are offered in the trial period.
+- **Self-service purchases**: Users may opt to purchase a license independently. While you cannot assign or unassign licenses for these purchases, [you can take over the subscription](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
 
->[!TIP]
-> Learn more about the [overall changes to Planner and Project product and plan names](https://techcommunity.microsoft.com/t5/planner-blog/the-new-planner-in-teams-is-now-in-public-preview/ba-p/4072525).  
+## Additional resources
 
-You can control the subscription requests individually using these steps:  
+[Add users and assign licenses in Microsoft 365 - Microsoft 365 admin | Microsoft Learn](https://learn.microsoft.com/microsoft-365/admin/add-users/add-users)
 
-1. Navigate to **Licenses** within the Microsoft 365 Admin Center.  
+[Remove Microsoft 365 licenses from user accounts with PowerShell - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/microsoft-365/enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell)
 
-2. Within the **Licenses** tab, select **Requests**. You'll see a list of user-requested licenses by name and username.  
-
-3. After selecting the requests you want to update, you'll be prompted to enter information about what Project Plan licenses you can grant. You can also approve and deny license requests, and send messages to the users to update them on the status of their request.
-
->[!NOTE]
-> It is also possible to use your own license assignment process and this option can be found under the **Licenses** tab, then select **Requests**.  
-
-## Enable or disable self-service purchases
-
-Sometimes users decide they need a license for Planner and opt to purchase this license themselves, outside of your organizational subscription to Microsoft 365.  
-
-As an admin, you can't assign or unassign licenses for a self-service purchase subscription bought by a user in your organization. You can [take over a purchase or trial subscription, and then assign or unassign licenses](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription).
+[Project for the web get started guide for administrators - Project for the web | Microsoft Learn](https://learn.microsoft.com/project-for-the-web/project-for-the-web-get-started-guide-for-admins)
