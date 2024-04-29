@@ -14,15 +14,15 @@ audience: Admin
 
 # Understanding Trials and License Assignments for Administrators
 
-Within your tenant, your employees may have a Microsoft 365 E3 or E5 license that provides them access to Microsoft Planner. As of April 2024, these users can access Planner either through the web (https://tasks.microsoft.com), or through [the newly updated application in Microsoft Teams called Planner](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.planner?source=app-details-dialog).  
+Within your organization's account, your users may have a Microsoft 365 E3 or E5 license that provides them with access to Microsoft Planner. As of April 2024, these users can access Planner either through the web (https://tasks.microsoft.com), or through [the newly updated application in Microsoft Teams called Planner](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.planner?source=app-details-dialog).  
 
-As people in your organization explore the benefits of Planner, including the ability to organize their individual and collaborate tasks and plans, they may discover that they want more advanced work management capabilities. Signing up for a trial allows users to experience Planner's premium features for 30 days.
+As users explore the benefits of Planner, they might discover that they want more advanced work management capabilities. Signing up for a trial allows users to experience Planner's premium features for 30 days.
 
 ## 30-day trial of premium features
 
-When users follow the prompts to enable a 30-day trial, they are provided access to all the features and functionality in a license for Project Plan 3. This includes task history, advanced dependencies, custom calendars, timeline (Gantt) view, sprints, custom fields, team workload, managing goals, and Copilot. Once the trial starts, users can access these features within the Planner app in Teams, or with Project for the Web (https://project.microsoft.com).
+When users follow the prompts to enable a 30-day trial, they're provided access to all the features and functionality in a license for Project Plan 3. Project Plan 3 includes task history, advanced dependencies, custom calendars, timeline (Gantt) view, sprints, custom fields, team workload, managing goals, and Copilot. Once the trial starts, users can access these features within the Planner app in Teams, or with Project for the Web (https://project.microsoft.com).
 
-During the trial period, users can explore the full range of functionalities offered by the plan, receiving insights into how it can benefit their workflow and project management tasks. At the end of the 30-day trial period, the user can send a request to their tenant administrator for a premium license.
+During the trial period, users can explore the full range of functionalities offered by the plan, receiving insights into how it can benefit their workflow and project management tasks. At the end of the 30-day trial period, the user can send a request to their Microsoft 365 administrator for a premium license.
 
 ## Administrator approval of a license request
 
@@ -36,15 +36,15 @@ As an administrator, you can manage license assignments within your organization
 
 (TODO SCREENSHOT)
 
-## Additional controls for the administrator
+## More controls for the administrator
 
-- **Monitor product usage**: After a user starts a trial, you can track product usage metrics within the MAC to determine which users may benefit most from a permanent license.
+- **Monitor product usage**: After a user starts a trial, you can track product usage metrics within the MAC to determine which users can benefit most from a permanent license.
 
 - **Enable or disable license requests**: Within the MAC, you can enable or disable the option for people in your organization to request a license. This gives you control over who can access the trial and when.
 
-- **Self-service purchases**: Users may opt to purchase a license independently. While you cannot assign or unassign licenses for these purchases, [you can take over the subscription](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
+- **Self-service purchases**: Users can opt to purchase a license independently. While you can't assign or unassign licenses for these purchases, [you can take over the subscription](https://learn.microsoft.com/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide#take-over-a-self-service-purchase-or-trial-subscription) and manage it accordingly.
 
-## Additional resources
+## Other resources
 
 [Add users and assign licenses in Microsoft 365 - Microsoft 365 admin | Microsoft Learn](https://learn.microsoft.com/microsoft-365/admin/add-users/add-users)
 
