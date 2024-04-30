@@ -1,5 +1,5 @@
 ---
-title: "Understand Planner trials and license assignments for sdministrators"
+title: "Understand Planner trials and license assignments for administrators"
 description: "Learn about 30-day user trials of Planner and how to assign licenses."
 author: mscharlo 
 ms.author: v-mscharlock 
@@ -20,8 +20,8 @@ Within your organization's account, your users may have a Microsoft 365 E3 or E5
 
 When users follow the prompts to enable a 30-day trial, they're provided access to all the features and functionality in a license for Project Plan 3. Project Plan 3 includes task history, advanced dependencies, custom calendars, timeline (Gantt) view, sprints, custom fields, team workload, managing goal. Once the trial starts, users can access these features within the Planner app in Teams, or with Project for the Web (https://project.microsoft.com).
 
-> [!IMPORTANT]
-> Copilot in Planner (preview) has begun to roll out. Once your organization receives this product update, you will be able to experience the available Copilot functionality with your Project Plan 3 or Plan 5 license, or within a 30-day trial.
+>![IMPORTANT]
+> Copilot in the Planner app in Teams (preview) is beginning to roll out. When your organization receives this product update, your users can use this Copilot functionality in their 30-day trial or with your organization's license of Project Plan 3 or Plan 5.
 
 
 During the trial period, users can explore the full range of functionalities offered by the plan, receiving insights into how it can benefit their workflow and project management tasks. At the end of the 30-day trial period, the user can send a request to their Microsoft 365 administrator for a premium license.
