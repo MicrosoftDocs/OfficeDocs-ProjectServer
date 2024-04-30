@@ -29,3 +29,5 @@ Use the following steps to Enable or Disable Project for the web Task Syncing:
 
 > [!NOTE]
 > In order for Project for the web task to synchronize with Planner and To Do tasks, Project for the web must be enabled for the tenant. If the administrator decides to disable it, tasks won't be synchronized and no new data will be copied to Planner and To Do. Note that previously stored data won't be deleted until the Assigned to me view syncing is explicitly disabled for the tenant. 
+
+Data copied to Planner and To Do as part of Project for the web task synchronization would be encrypted with Microsoft-managed key (MMK), hence any tenant that plans to change to customer-managed encryption key (CMK) in future, would need to turn off the task synchronization following the steps listed above, else data getting copied to Planner would continue to be encrypted with MMK.
