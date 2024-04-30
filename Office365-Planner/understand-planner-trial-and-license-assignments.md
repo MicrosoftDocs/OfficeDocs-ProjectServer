@@ -20,7 +20,7 @@ Within your organization's account, your users may have a Microsoft 365 E3 or E5
 
 When users follow the prompts to enable a 30-day trial, they're provided access to all the features and functionality in a license for Project Plan 3. Project Plan 3 includes task history, advanced dependencies, custom calendars, timeline (Gantt) view, sprints, custom fields, team workload, managing goal. Once the trial starts, users can access these features within the Planner app in Teams, or with Project for the Web (https://project.microsoft.com).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > Copilot in Planner (preview) has begun to roll out. Once your organization receives this product update, you will be able to experience the available Copilot functionality with your Project Plan 3 or Plan 5 license, or within a 30-day trial.
 
 
