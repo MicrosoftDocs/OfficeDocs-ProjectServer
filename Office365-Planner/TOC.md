@@ -1,5 +1,6 @@
 # [Admin home](index.yml)
 ## [Microsoft Planner for admins](planner-for-admins.md)
+## [Understand Planner trial and license assignments](understand-planner-trial-and-license-assignments.md)
 ## [Microsoft Planner limits](planner-limits.md)
 ## [Turn off Outlook calendar sync in Planner for your organization](turn-off-outlook-calendar-sync.md)
 ## [Delete user data in Microsoft Planner](delete-user-data.md)
