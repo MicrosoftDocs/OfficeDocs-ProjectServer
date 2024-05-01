@@ -51,6 +51,8 @@ If you need to delete Project for the web data (for example, you need to delete 
 
 Similarly, an admin can also [manually delete Project Online data](/projectonline/delete-user-data-from-project-online) (for example, user data or user identifying data) if needed.
 
+For Project for the web trial subscriptions, your trial instances will not be deleted until you have no active subscriptions that depend on the Microsoft Dataverse.
+
 ## Turn off Project for the web
 
 An admin can choose to either [turn off Project for the web to your organization](/project-for-the-web/turn-project-for-the-web-off#turn-project-for-the-web-on-or-off-for-all-users-in-your-organization) or choose to [turn off Project for the web to specific users in their organization](/project-for-the-web/turn-project-for-the-web-off#turn-off-project-for-the-web-for-specific-users-in-your-organization). 
