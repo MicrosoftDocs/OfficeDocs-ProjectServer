@@ -4,7 +4,7 @@ description: "Learn what the Planner component is and how to turn off for specif
 ms.author: v-mscharlock
 author: mscharlo
 manager: jtremper
-ms.date: 04/19/2024
+ms.date: 06/05/2023
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
