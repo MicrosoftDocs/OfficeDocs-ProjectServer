@@ -3,7 +3,7 @@ title: "Plan Downgrade"
 ms.author: v-mscharlock
 author: mscharlo
 manager: jtremper
-ms.date: 04/19/2024
+ms.date: 03/29/2024
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
