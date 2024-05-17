@@ -1,6 +1,7 @@
 ---
 title: "Microsoft Planner support in Microsoft Purview"
 ms.author: alexla
+author: bereasonable
 manager: anavs
 ms.date: 05/07/2024
 audience: Admin
