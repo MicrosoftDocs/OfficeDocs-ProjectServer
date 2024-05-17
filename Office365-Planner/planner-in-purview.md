@@ -35,6 +35,9 @@ A hold is a way to preserve content that is relevant to a case and prevents data
 
  When a hold is applied, the task will not be deleted and is copied to the Preservation Hold Library of the SharePoint site. To validate that the hold is working, you can try to delete a Planner task that matches the hold conditions and then run a new collection and add it to the review set.The compound path of the task in the review set should include ``PreservationHoldLibrary`` in the path.
 
+ > [!NOTE]
+ > Attachments on tasks are stored in SharePoint and comments are stored in Exchange. To apply holds to this content, Exchange and SharePoint locations need to be included as   part of the hold.
+
 ### Creating a collection
 
 Collections in eDiscovery help you quickly scope a search for content across email, documents, and other content in Microsoft 365. Click *New Collection* and provide a name and description for the collection. Select from custodial data sources or choose any additional locations not set up as custodial or non-custodial data sources for the case. To filter for Planner tasks, use the KQL query to filter ``ItemClass = “IPM.File.Tasks”``.
