@@ -18,7 +18,7 @@ description: "This article shares information about how IT Admins and Compliance
 > [!NOTE]
 > Purview support for Planner is in public preview. This article will be updated as new features are added. Also, the features covered in this article are only available in tenants created *before* October 2022. If you have a tenant that was created after October 2022, you will not have access to these features.
 
-This documentation is focused on considerations unique to Planner. For general usage of Microsoft Purview, consult the resources available here, [Microsoft Purview | Microsoft Learn](https://learn.microsoft.com/purview/).
+This documentation is focused on considerations unique to Planner. For general usage of Microsoft Purview, consult the resources available here, [Microsoft Purview | Microsoft Learn](/purview/).
 
 ## Data and capabilities available in Microsoft Purview
 
