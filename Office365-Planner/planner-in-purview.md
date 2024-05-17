@@ -32,16 +32,16 @@ Unsupported: Personal (roster) plans, plans in Loop components, premium plans (f
 
 ### Applying a hold
 
-A hold is a way to preserve content that is relevant to a case and prevents data from being deleted or modified in the tenant. End users of Planner will not be aware that a hold is placed on their tasks and plans. To apply a hold in Microsoft Purview eDiscovery, go to the *Holds* tab of the case and click *New hold*. Select the locations where you want to apply the hold. You can select from Exchange mailboxes, SharePoint sites, OneDrive accounts, Teams messages, and Planner plans. For Planner data, select the SharePoint site associated with the plan and check the box for *Planner tasks*. Review the summary of the hold and click Create this hold to apply it to the selected locations and content.
+A hold is a way to preserve content that is relevant to a case and prevents data from being deleted or modified in the tenant. End users of Planner won't be aware that a hold is placed on their tasks and plans. To apply a hold in Microsoft Purview eDiscovery, go to the *Holds* tab of the case and select *New hold*. Select the locations where you want to apply the hold. You can select from Exchange mailboxes, SharePoint sites, OneDrive accounts, Teams messages, and Planner plans. For Planner data, select the SharePoint site associated with the plan and check the box for *Planner tasks*. Review the summary of the hold and select Create this hold to apply it to the selected locations and content.
 
- When a hold is applied, the task will not be deleted and is copied to the Preservation Hold Library of the SharePoint site. To validate that the hold is working, you can try to delete a Planner task that matches the hold conditions and then run a new collection and add it to the review set.The compound path of the task in the review set should include ``PreservationHoldLibrary`` in the path.
+ When a hold is applied, the task won't be deleted and is copied to the Preservation Hold Library of the SharePoint site. To validate that the hold is working, you can try to delete a Planner task that matches the hold conditions and then run a new collection and add it to the review set. The compound path of the task in the review set should include ``PreservationHoldLibrary`` in the path.
 
  > [!NOTE]
  > Attachments on tasks are stored in SharePoint and comments are stored in Exchange. To apply holds to this content, Exchange and SharePoint locations need to be included as   part of the hold.
 
 ### Creating a collection
 
-Collections in eDiscovery help you quickly scope a search for content across email, documents, and other content in Microsoft 365. Click *New Collection* and provide a name and description for the collection. Select from custodial data sources or choose any additional locations not set up as custodial or non-custodial data sources for the case. To filter for Planner tasks, use the KQL query to filter ``ItemClass = “IPM.File.Tasks”``.
+Collections in eDiscovery help you quickly scope a search for content across email, documents, and other content in Microsoft 365. Select *New Collection* and provide a name and description for the collection. Select from custodial data sources or choose any additional locations not set up as custodial or noncustodial data sources for the case. To filter for Planner tasks, use the KQL query to filter ``ItemClass = “IPM.File.Tasks”``.
 
 > [!NOTE]
 > Do not use the *Tasks* item type in the Query Builder. This will only return tasks created in Outlook. This type does *not* include tasks created in Planner.
@@ -56,8 +56,8 @@ Once the collection settings are reviewed and submitted, the collection will be 
 
 ### Exporting data
 
-To export data from the review set, select export, give the export a name, and then click *export*.
+To export data from the review set, select export, give the export a name, and then select *export*.
 
 ![Screenshot of the task being exported in Purview.](media/purview-exporting-data.png)
 
-Exit the review set, click the *export* tab within the case and monitor the export job. After the export job is finished, click *download*. In the downloaded file, the basic rendering should be json files and the content should be the same as the source tab you see in the review set. If rich rendering and the ``exportModel`` settings are configured as ``exportModel: "Meta"``, then the files should export as the file extension you set in export model. Otherwise it will export as plain text with json.
+Exit the review set, select the *export* tab within the case and monitor the export job. After the export job is finished, select *download*. In the downloaded file, the basic rendering should be json files and the content should be the same as the source tab you see in the review set. If rich rendering and the ``exportModel`` settings are configured as ``exportModel: "Meta"``, then the files should export as the file extension you set in export model. Otherwise it will export as plain text with json.
