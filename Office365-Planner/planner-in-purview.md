@@ -46,18 +46,18 @@ Collections in eDiscovery help you quickly scope a search for content across ema
 > [!NOTE]
 > Do not use the *Tasks* item type in the Query Builder. This will only return tasks created in Outlook. This type does *not* include tasks created in Planner.
 
- ![Screenshot of the wrong task type selected in the Purview query builder.](media/purview-wrong-tasks-type.png)
+ :::image type="content" alt-text="Screenshot of the wrong task type selected in the Purview query builder." source="media/purview-wrong-tasks-type.png":::
 
 ### Committing to a Review Set
 
 Once the collection settings are reviewed and submitted, the collection will be added to a review set as a draft collection. You should be able to see a collection estimate and a preview of the collected items so you can validate the size and scope of the results before committing to a review set. Once a review set is created, Planner Tasks will appear as *Documents*. The source view of the document is designed to mimic the formatting of Planner Tasks. All data for the task is visible in the *Metadata* tab.
 
-![Screenshot of the task being rendered in Purview.](media/purview-rich-task-render.png)
+:::image type="content" alt-text="Screenshot of the task being rendered in Purview." source="media/purview-rich-task-render.png":::
 
 ### Exporting data
 
 To export data from the review set, select export, give the export a name, and then select *export*.
 
-![Screenshot of the task being exported in Purview.](media/purview-exporting-data.png)
+:::image type="content" alt-text="Screenshot of the task being exported in Purview." source="media/purview-exporting-data.png":::
 
 Exit the review set, select the *export* tab within the case and monitor the export job. After the export job is finished, select *download*. In the downloaded file, the basic rendering should be json files and the content should be the same as the source tab you see in the review set. If rich rendering and the ``exportModel`` settings are configured as ``exportModel: "Meta"``, then the files should export as the file extension you set in export model. Otherwise it will export as plain text with json.
