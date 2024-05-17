@@ -45,8 +45,8 @@ Collections in eDiscovery help you quickly scope a search for content across ema
 
 > [!NOTE]
 > Do not use the *Tasks* item type in the Query Builder. This will only return tasks created in Outlook. This type does *not* include tasks created in Planner.
-
- :::image type="content" alt-text="Screenshot of the wrong task type selected in the Purview query builder." source="media/purview-wrong-tasks-type.png":::
+>
+> :::image type="content" alt-text="Screenshot of the wrong task type selected in the Purview query builder." source="media/purview-wrong-tasks-type.png":::
 
 ### Committing to a Review Set
 
