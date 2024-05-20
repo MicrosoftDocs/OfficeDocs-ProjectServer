@@ -52,7 +52,7 @@ Collections in eDiscovery help you quickly scope a search for content across ema
 
 Once the collection settings are reviewed and submitted, the collection will be added to a review set as a draft collection. You should be able to see a collection estimate and a preview of the collected items so you can validate the size and scope of the results before committing to a review set. Once a review set is created, Planner Tasks will appear as *Documents*. The source view of the document is designed to mimic the formatting of Planner Tasks. All data for the task is visible in the *Metadata* tab.
 
-:::image type="content" alt-text="Screenshot of the task being rendered in Purview." source="media/purview-rich-task-render.png":::
+:::image type="content" alt-text="Screenshot of the task being rendered in Purview." source="media/purview-rich-task-render.png" lightbox="media/purview-rich-task-render.png":::
 
 ### Exporting data
 
