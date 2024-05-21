@@ -17,3 +17,4 @@
 ## [Block a user from deleting tasks in Microsoft Planner they didn't create](block-non-owner-task-deletion.md)
 ## [Disallow container types for usage in container sharing](disallow-container-sharing-types.md)
 ## [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md)
+## [Microsoft Planner support in Microsoft Purview](planner-in-purview.md)
