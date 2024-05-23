@@ -8,7 +8,6 @@ manager: jtremper
 ms.date: 01/05/2021
 audience: Admin
 ms.topic: Overview
-layout: LandingPage
 ms.service: office-perpetual-itpro
 ms.subservice: planner
 ms.localizationpriority: high
