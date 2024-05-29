@@ -5,7 +5,7 @@ author: v-smandalika
 manager: dansimp
 ms.date: 09/08/2021
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: project-web
 search.appverid: 
 - PJO150
