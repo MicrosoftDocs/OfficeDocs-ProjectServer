@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: samanro 
 ms.service: project-server-2016
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/11/2017
 ms.author: serdars
 ms.collection: essentials-navigation
