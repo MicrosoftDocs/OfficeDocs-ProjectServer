@@ -44,7 +44,7 @@ description: "This article is the first in a series that will help you get start
 - Balancing broad resource needs
 - *(If you're looking for a hosted version of Project Server, this is it!)*
    
- **Project Online is NOT a web-based version of Project Professional.** Project Online is an entirely separate service that offers full portfolio and project management tools on the web. It includes Project Web App, and can, depending on your subscription, also include Project Online Desktop Client, which is a subscription version of Project Professional.
+ **Project Online is NOT a web-based version of Project Professional**, but an entirely separate service that offers full portfolio and project management tools on the web. It includes Project Web App, and can, depending on your subscription, also include Project Online Desktop Client, which is a subscription version of Project Professional.
 
 ## Manage your subscription
 
