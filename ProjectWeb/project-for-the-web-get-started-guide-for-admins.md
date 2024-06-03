@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin
-ms.topic: article
+ms.topic: get-started
 ms.service: project-web
 ms.custom: intro-overview; intro-get-started
 search.appverid: 
