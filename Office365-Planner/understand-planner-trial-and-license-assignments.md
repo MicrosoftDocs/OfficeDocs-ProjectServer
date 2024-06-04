@@ -1,8 +1,8 @@
 ---
 title: "Understand Planner trials and license assignments for administrators"
 description: "Learn about 30-day user trials of Planner and how to assign licenses."
-author: mscharlo 
-ms.author: v-mscharlock 
+author: jenzamora 
+ms.author: jenz 
 manager: jtremper
 ms.service: office-perpetual-itpro
 ms.subservice: planner
