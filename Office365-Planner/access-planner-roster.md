@@ -2,8 +2,8 @@
 title: "Access Microsoft Planner Roster"
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 06/17/2021
 ms.reviewer: ryany

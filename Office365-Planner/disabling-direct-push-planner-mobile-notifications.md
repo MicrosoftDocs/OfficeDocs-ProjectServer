@@ -2,8 +2,8 @@
 title: Disabling direct-push notifications for your organization
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 03/08/2021
 audience: Admin

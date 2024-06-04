@@ -2,8 +2,8 @@
 title: "Delete user data in Microsoft Planner"
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 08/14/2019
 audience: Admin
