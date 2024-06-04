@@ -2,8 +2,8 @@
 title: "Microsoft Planner for admins"
 f1.keywords:
 - CSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 08/14/2019
 audience: Admin

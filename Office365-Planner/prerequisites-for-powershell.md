@@ -2,12 +2,12 @@
 title: "Prerequisites for making Planner changes in Windows PowerShell"
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 01/05/2021
 audience: Admin
-ms.topic: Overview
+ms.topic: overview
 ms.service: office-perpetual-itpro
 ms.subservice: planner
 ms.localizationpriority: high
