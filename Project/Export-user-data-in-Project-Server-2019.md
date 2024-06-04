@@ -1,6 +1,6 @@
 ---
 title: Export user data from Project Server 2019
-ms.author: serdars
+ms.author: jenz
 author: SerdarSoysal
 manager: pamgreen
 audience: ITPro
@@ -203,7 +203,7 @@ Next, you will need to run the** ExportProjectUserContent** PowerShell script 
 
     1.  Add yourself as a site collection admin to the PWA Site for which you are running the script.
 
-    2.  If you are in Project permission mode, be assigned **Manage Users and Groups** and the **Access Project Server Reporting Service** permissions on the Project Server instance. If you are in SharePoint permission mode, be in the Global admin or SharePoint admin role.
+    2.  If you are in Project permission mode, be assigned **Manage Users and Groups** and the **Access Project Server Reporting Service** permissions on the Project Server instance. If you are in SharePoint permission mode, be in the SharePoint admin role.
 
 ### Run the ExportProjectUserContent script
 

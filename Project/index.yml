@@ -11,8 +11,8 @@ metadata:
   ms.service: project-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   audience: ITPro
-  author: mscharlo #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-mscharlock #Required; microsoft alias of author; optional team alias.
+  author: jenzamora #Required; your GitHub user alias, with correct capitalization.
+  ms.author: jenz #Required; microsoft alias of author; optional team alias.
   ms.date: 04/22/2024 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
   ms.collection: essentials-navigation

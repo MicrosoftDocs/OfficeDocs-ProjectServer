@@ -27,9 +27,9 @@ You might know exactly what happened to get the Project Online administrator acc
   
 While logged on as the Project Online administrator, you may have:
   
-- **Removed everyone from the Administrators group** in Project Online, including the default administrator Active Directory group, and then saved changes. 
+- **Removed everyone from the Administrators group** in Project Online, including the default administrator Active Directory group, and then saved changes.
     
-- **Set up Active Directory sync to control who has access** to Project Online, without being a member of the selected Active Directory group. 
+- **Set up Active Directory sync to control who has access** to Project Online, without being a member of the selected Active Directory group.
     
 - **Synchronized an Active Directory group in the Resource Center** while your account was already listed as a resource. When the synchronization occurred, your Project Online administrator account was made inactive as it was not part of the Active Directory group. 
     
@@ -37,9 +37,9 @@ These are just a few examples of things that may have happened. Your situation m
   
 ## Step 2: Find your site collection administrator
 
-Your organization may have a global (tenant) administrator for all of Office 365, a SharePoint Online administrator, a site collection administrator, and a Project Online administrator. One person may be filling all of those roles, or you may have multiple people filling each one. To figure out who your Project Online site collection administrator is, you'll need to try to identify someone in either the global administrator or SharePoint Online administrator roles. Then, that person can look into who is managing the specific site collection for Project Online.
+Your organization may have a SharePoint Online administrator, a site collection administrator, and a Project Online administrator. One person may be filling all of those roles, or you may have multiple people filling each one. To figure out who your Project Online site collection administrator is, you'll need to try to identify someone in the SharePoint Online administrator roles. Then, that person can look into who is managing the specific site collection for Project Online.
   
- **If you're having trouble reaching your site collection administrator, or if that person isn't sure how to help you regain access to Project Online,** the global administrator or SharePoint Online administrator can also [Manage site collection administrators](https://support.office.com/article/9a7e46f9-3fc4-4297-955a-82cb292a5be0) for your Project Online site. As a site collection administrator, you will have all administrative permissions in Project Online, and you can try to resolve the lockout yourself. 
+ **If you're having trouble reaching your site collection administrator, or if that person isn't sure how to help you regain access to Project Online,** the SharePoint Online administrator can also [Manage site collection administrators](https://support.office.com/article/9a7e46f9-3fc4-4297-955a-82cb292a5be0) for your Project Online site. As a site collection administrator, you will have all administrative permissions in Project Online, and you can try to resolve the lockout yourself.
   
 ## Step 3: Help the site collection administrator get you back in
 
@@ -47,6 +47,5 @@ Once you've found the right person to help you, explain what you think happened 
   
 If Active Directory changes will resolve the lockout, the site collection administrator won't need a Project Online license. However, in some cases, logging onto Project Online is required for fixing the issue, and the site collection administrator will need to be assigned a Project Online license. It's possible that he or she already has one. If not, have the site collection administrator select his or her account on the [Active Users page](https://go.microsoft.com/fwlink/?LinkId=529438) in the Microsoft 365 admin center, and then choose **Edit** under **Assigned license** on the right side of the window to select a Project Online license. 
   
- **Don't have enough licenses?** If your organization already has all licenses assigned, the site collection administrator can remove the license from the locked-out Project Online administrator account, and then assign that license to themselves temporarily. You'll need to pass the license back and forth to test access, so be sure it gets assigned back to the Project Online administrator once access has been successfully restored. 
+ **Don't have enough licenses?** If your organization already has all licenses assigned, the site collection administrator can remove the license from the locked-out Project Online administrator account, and then assign that license to themselves temporarily. You'll need to pass the license back and forth to test access, so be sure it gets assigned back to the Project Online administrator once access has been successfully restored.
   
-
