@@ -2,8 +2,8 @@
 title: "Disallow container types for usage in container sharing"
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 12/18/2022
 audience: Admin

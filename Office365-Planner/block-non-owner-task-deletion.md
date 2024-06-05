@@ -1,8 +1,8 @@
 ---
 title: "Block a user from deleting tasks in Microsoft Planner they didn't create"
 f1.keywords:
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 02/23/2021
 audience: Admin

@@ -2,8 +2,8 @@
 title: "Track message center tasks in Planner - Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: v-mscharlock
-author: mscharlo
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 05/13/2020
 audience: Admin
