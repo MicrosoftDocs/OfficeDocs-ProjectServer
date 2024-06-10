@@ -14,6 +14,7 @@ metadata:
   manager: pamgreen
   audience: Admin
   ms.service: o365-administration
+  ms.subservice: planner
   ms.localizationpriority: high
   ms.collection: essentials-navigation
   search.appverid:
