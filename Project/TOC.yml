@@ -1,0 +1,541 @@
+Items:
+- name: Project Servers Subscription Edition, 2019, 2016, and 2013
+  href: project-server-2013-and-2016.md
+  items:
+  - name: Explore
+    href: explore-project-server-2016.md
+    items:
+    - name: What's new for IT pros in Project Server Subscription Edition
+      href: new-features-capabilities-project-server-subscription-edition.md
+    - name: What's new for IT pros in Project Server 2019
+      href: what-s-new-for-it-pros-in-project-server-2019.md
+    - name: What's new for IT pros in Project Server 2016
+      href: what-s-new-for-it-pros-in-project-server-2016.md
+    - name: What's new for IT pros in Project Server 2013
+      href: what-s-new-for-it-pros-in-project-server-2013.md
+    - name: What's deprecated or removed in Project Server Subscription Edition
+      href: deprecated-removed-features-project-server-subscription-edition.md
+    - name: What's deprecated or removed in Project Server 2016
+      href: what-s-deprecated-or-removed-in-project-server-2016.md
+  - name: Plan
+    href: plan-for-project-server-2016.md
+    items:
+    - name: Software requirements for Project Server Subscription Edition
+      href: software-requirements-project-server-subscription-edition.md
+    - name: Software requirements for Project Server 2019
+      href: software-requirements-for-project-server-2019.md
+    - name: Software requirements for Project Server 2016
+      href: software-requirements-for-project-server-2016.md
+    - name: Hardware and software requirements for Project Server 2013
+      href: hardware-and-software-requirements-for-project-server-2013.md
+    - name: BDM guidance for Project Server and Project Online
+      href: planning-project-server-and-project-online-for-business-decision-makers.md
+    - name: TDM guidance for Project Server and Project Online
+      href: planning-project-server-and-project-online-for-technical-decision-makers.md
+    - name: Plan user access
+      href: plan-user-access-in-project-server.md
+      items:
+      - name: Plan SharePoint groups
+        href: plan-sharepoint-groups-in-project-server.md
+      - name: Plan groups, categories, and RBS
+        href: plan-groups-categories-and-rbs-in-project-server.md
+    - name: Plan for deployment
+      href: it-pro-planning-for-project-server-2016.md
+      items:
+      - name: Determine project management requirements
+        href: determine-project-management-requirements-in-project-server-2016.md
+      - name: Determine the number and types of users
+        href: determine-the-number-and-types-of-users-that-require-access-to-project-server-20.md
+      - name: Plan the project life cycle
+        href: plan-the-project-life-cycle-in-project-web-app.md
+      - name: Plan reporting and business intelligence
+        href: plan-reporting-and-business-intelligence-in-project-web-app.md
+    - name: Plan for performance and capacity in Project Server 2013
+      href: plan-for-performance-and-capacity-in-project-server-2013.md
+      items:
+      - name: Overview of performance and capacity planning in Project Server 2013
+        href: overview-of-performance-and-capacity-planning-in-project-server-2013.md
+      - name: Capacity planning strategy for Project Server 2013
+        href: capacity-planning-strategy-for-project-server-2013.md
+      - name: How datasets affect performance and capacity in Project Server 2013
+        href: how-datasets-affect-performance-and-capacity-in-project-server-2013.md
+      - name: Performance and capacity hardware recommendations for Project Server 2013
+        href: performance-and-capacity-hardware-recommendations-for-project-server-2013.md
+        items:
+        - name: Small dataset hardware recommendations for Project Server 2013
+          href: small-dataset-hardware-recommendations-for-project-server-2013.md
+        - name: Medium dataset hardware recommendations for Project Server 2013
+          href: medium-dataset-hardware-recommendations-for-project-server-2013.md
+        - name: Large dataset hardware recommendations for Project Server 2013
+          href: large-dataset-hardware-recommendations-for-project-server-2013.md
+      - name: Scaled-up and scaled-out topologies in Project Server 2013
+        href: scaled-up-and-scaled-out-topologies-in-project-server-2013.md
+      - name: Optimize performance in Project Server 2013
+        href: optimize-performance-in-project-server-2013.md
+      - name: Performance counters in Project Server 2013
+        href: performance-counters-in-project-server-2013.md
+      - name: Performance troubleshooting in Project Server 2013
+        href: performance-troubleshooting-in-project-server-2013.md
+      - name: Project Server 2013 Performance Lab (white paper)
+        href: project-server-2013-performance-lab-white-paper.md
+    - name: Plan EPM Solution architecture
+      href: plan-epm-solution-architecture-in-project-server-2013.md
+      items:
+      - name: Plan the client tier
+        href: plan-the-client-tier-in-project-server-2013.md
+      - name: Plan the application tier
+        href: plan-the-application-tier-in-project-server-2013.md
+      - name: Plan the database tier
+        href: plan-the-database-tier-in-project-server-2013.md
+    - name: Plan for administrative and service accounts
+      href: plan-for-administrative-and-service-accounts-in-project-server-2013-beta-2.md
+    - name: Project Server Subscription Edition architecture
+      href: project-server-subscription-edition-architecture.md
+    - name: Project Server 2019 architecture
+      href: project-server-2019-architecture.md
+    - name: Project Server 2016 architecture
+      href: project-server-2016-architecture.md
+  - name: Install and configure
+    href: install-and-configure-for-project-server-2016.md
+    items:
+    - name: Deploy Project Servers Subscription Edition, 2019 or 2016
+      href: deploy-project-server-2016.md
+      items:
+      - name: Install and configure Project Servers Subscription Edition, 2019 or 2016
+        href: install-and-configure-project-server-2016.md
+      - name: Deploy Project Web App
+        href: deploy-project-web-app.md
+        items:
+        - name: Deploy Project Web App with a new site collection (Project Server Subscription Edition, 2019, or 2016)
+          href: deploy-project-web-app-with-a-new-site-collection-project-server-2016.md
+        - name: Deploy Project Web App in an existing site collection (Project Server Subscription Edition, 2019, or 2016)
+          href: deploy-project-web-app-in-an-existing-site-collection-project-server-2016.md
+          items:
+          - name: Enable the Project Web App site collection features in Project Server Subscription Edition, 2019, or 2016
+            href: enable-the-project-web-app-site-collection-features-in-project-server-2016.md
+          - name: Create a PWA site in an existing site collection
+            href: create-a-pwa-site-in-an-existing-site-collection.md
+      - name: Configure OLAP cubes for Project Web App
+        href: configure-olap-cubes-for-project-web-app.md
+    - name: Deploy Project Server 2013
+      href: deploy-project-server-2013.md
+      items:
+      - name: Install Project Server 2013 to a stand-alone computer
+        href: install-project-server-2013-to-a-stand-alone-computer.md
+      - name: Deploy Project Server 2013 to a server farm environment
+        href: deploy-project-server-2013-to-a-server-farm-environment.md
+        items:
+        - name: Overview of the deployment process
+          href: installation-and-deployment-overview-for-project-server-2013.md
+        - name: Prepare for a deployment of Project Server 2013
+          href: prepare-for-a-deployment-of-project-server-2013.md
+        - name: Configure SQL Server and Analysis Services in Project Server 2013
+          href: configure-sql-server-and-analysis-services-in-project-server-2013.md
+        - name: Install SharePoint Server 2013 (Project Server 2013)
+          href: install-sharepoint-server-2013-project-server-2013.md
+        - name: Install and configure Project Server 2013
+          href: install-and-configure-project-server-2013.md
+        - name: Deploy Project Web App
+          href: deploy-project-web-app-0.md
+          items:
+          - name: Deploy Project Web App with a new site collection (Project Server 2013)
+            href: deploy-project-web-app-with-a-new-site-collection-project-server-2013.md
+          - name: Deploy Project Web App in an existing site collection (Project Server 2013)
+            href: deploy-project-web-app-in-an-existing-site-collection-project-server-2013.md
+            items:
+            - name: Enable the Project Web App site collection features in Project Server 2013
+              href: enable-the-project-web-app-site-collection-features-in-project-server-2013.md
+            - name: Create a PWA site in an existing site collection
+              href: create-a-pwa-site-in-an-existing-site-collection-0.md
+        - name: Configure reporting for Project Web App (Project Server 2013)
+          href: configure-reporting-for-project-web-app-project-server-2013.md
+          items:
+          - name: Configure OLAP cubes for Project Web App
+            href: configure-olap-cubes-for-project-web-app-0.md
+        - name: Configure SQL Server and Analysis Services
+          href: configure-sql-server-and-analysis-services-in-project-server-2013-0.md
+        - name: Add an application server to a farm in Project Server 2013
+          href: add-an-application-server-to-a-farm-in-project-server-2013.md
+      - name: Deploy language packs in Project Server 2013
+        href: deploy-language-packs-in-project-server-2013.md
+    - name: Upgrade to Project Server Subscription Edition
+      href: upgrade-project-server-subscription-edition.md
+      items:
+      - name: Overview of the upgrade process
+        href: overview-project-server-subscription-edition-upgrade-process.md
+      - name: Plan for upgrade
+        href: plan-upgrade-project-server-subscription-edition.md
+      - name: Upgrading to Project Server Subscription Edition
+        href: how-to-upgrade-project-server-subscription-edition.md
+    - name: Upgrade to Project Server 2019
+      href: upgrade-to-project-server-2019.md
+      items:
+      - name: Overview of the upgrade process
+        href: overview-of-the-project-server-2019-upgrade-process.md
+      - name: Plan for upgrade
+        href: plan-for-upgrade-to-project-server-2019.md
+      - name: Upgrading to Project Server 2019
+        href: upgrading-to-project-server-2019.md
+    - name: Upgrade to Project Server 2016
+      href: upgrade-to-project-server-2016.md
+      items:
+      - name: Overview of the upgrade process
+        href: overview-of-the-project-server-2016-upgrade-process.md
+      - name: Plan for upgrade
+        href: plan-for-upgrade-to-project-server-2016.md
+      - name: Upgrading to Project Server 2016
+        href: upgrading-to-project-server-2016.md
+    - name: Upgrade to Project Server 2013
+      href: upgrade-to-project-server-2013.md
+      items:
+      - name: What's new in Project Server 2013 upgrade
+        href: what-s-new-in-project-server-2013-upgrade.md
+      - name: Overview of the upgrade process to Project Server 2013
+        href: overview-of-the-upgrade-process-to-project-server-2013.md
+      - name: Plan for upgrade to Project Server 2013
+        href: plan-for-upgrade-to-project-server-2013.md
+      - name: Prepare your environment for an upgrade to Project Server 2013
+        href: prepare-your-environment-for-an-upgrade-to-project-server-2013.md
+      - name: Create backup copies of your Project Server 2010 farm databases for upgrade to Project Server 2013
+        href: create-backup-copies-of-your-project-server-2010-farm-databases-for-upgrade-to-p.md
+      - name: Restore your Project Server 2010 farm databases for upgrade (Project Server 2013)
+        href: restore-your-project-server-2010-farm-databases-for-upgrade-project-server-2013.md
+      - name: Upgrade your databases and Project Web App site collections (Project Server 2013)
+        href: upgrade-your-databases-and-project-web-app-site-collections-project-server-2013.md
+      - name: Post-upgrade tasks (Project Server 2013)
+        href: post-upgrade-tasks-project-server-2013.md
+  - name: Operate and maintain
+    href: operations-for-project-server-2016.md
+    items:
+    - name: OLAP database management
+      href: olap-database-management-in-project-web-app.md
+      items:
+      - name: Create an OLAP cube
+        href: create-olap-cubes-in-project-server-2016.md
+      - name: Configure an OLAP cube
+        href: configure-an-olap-cube-in-project-server-2016.md
+      - name: Copy an OLAP cube
+        href: copy-olap-cubes-in-project-server-2016.md
+      - name: Delete an OLAP cube
+        href: delete-olap-cubes-in-project-server-2016.md
+      - name: Build an OLAP cube
+        href: build-olap-cubes-in-project-server-2016.md
+    - name: Project Server 2013 backup and restore
+      href: project-server-2013-backup-and-restore.md
+      items:
+      - name: Back up Project Server 2013 by using built-in tools
+        href: back-up-project-server-2013-by-using-built-in-tools.md
+      - name: Restore Project Server 2013 by using built-in tools
+        href: restore-project-server-2013-by-using-built-in-tools.md
+    - name: Queue and Database Administration (Project Server 2013)
+      href: queue-and-database-administration-project-server-2013.md
+      items:
+      - name: Manage Queue Jobs
+        href: manage-queue-jobs-project-server-2013.md
+      - name: Daily Schedule Backup
+        href: daily-schedule-backup-project-server-2013.md
+      - name: Administrative Backup
+        href: back-up-item-level-objects-through-administrative-backup-project-server-2013.md
+      - name: Administrative Restore
+        href: restore-item-level-objects-through-administrative-restore-project-server-2013.md
+    - name: Periodic tasks for Project Server administrators
+      href: periodic-tasks-for-project-server-administrators.md
+    - name: Exchange Server calendar OOF integration with Project Server 2013
+      href: exchange-server-calendar-oof-integration-with-project-server-2013.md
+  - name: Use
+    href: use-project-server.md
+    items:
+    - name: Project Server 2013 Administrator's Guide
+      href: project-server-2013-administrator-s-guide.md
+    - name: Security
+      href: manage-users-groups-and-categories-in-project-server-2013.md
+      items:
+      - name: Manage users
+        href: manage-users-in-project-server.md
+        items:
+        - name: Add a user account
+          href: add-user-accounts-in-project-server.md
+        - name: Modify a user account
+          href: modify-user-accounts-in-project-server.md
+        - name: Deactivate a user account
+          href: deactivate-user-accounts-in-project-server.md
+        - name: Reactivate a user account
+          href: reactivate-a-user-account-in-project-server.md
+      - name: Manage security groups
+        href: manage-security-groups-in-project-server.md
+        items:
+        - name: Create a security group
+          href: create-security-groups-in-project-server.md
+        - name: Modify a security group
+          href: modify-security-groups-in-project-server.md
+        - name: Delete a security group
+          href: delete-a-security-group-project-server-permission-mode.md
+      - name: Manage categories
+        href: manage-categories-in-project-server.md
+        items:
+        - name: Create a category
+          href: create-security-categories-in-project-server.md
+        - name: Modify a category
+          href: modify-categories-in-project-server.md
+        - name: Delete a category
+          href: delete-a-category-project-server-permission-mode.md
+      - name: Manage security templates
+        href: manage-security-templates-in-project-server.md
+        items:
+        - name: Create a security template
+          href: create-security-templates-in-project-server.md
+        - name: Modify a security template
+          href: modify-security-templates-in-project-server.md
+        - name: Delete a security template
+          href: delete-a-security-template-project-server-permission-mode.md
+      - name: Manage Project Web App permissions
+        href: manage-project-web-app-permissions-project-server-permission-mode.md
+        items:
+        - name: Disable a Project Web App permission
+          href: disable-permissions-in-project-web-app-project-server-permission-modeproject-ser.md
+      - name: Manage delegates
+        href: manage-delegates-in-project-server.md
+        items:
+        - name: Turn delegation on or off
+          href: turn-delegation-on-or-off-in-project-server.md
+        - name: Set up who can act as a delegate
+          href: set-up-which-users-and-groups-can-act-as-delegates-in-project-server.md
+        - name: Set up who can have delegates assigned to them
+          href: set-up-which-users-and-groups-can-have-delegates-in-project-server.md
+        - name: Create a new delegation
+          href: create-delegations-in-project-server.md
+      - name: Manage security group synchronization with Active Directory in Project Server
+        href: manage-security-group-synchronization-with-active-directory-in-project-server.md
+    - name: Enterprise Custom Fields and Lookup Tables
+      href: enterprise-custom-fields-and-lookup-tables-in-project-web-app.md
+      items:
+      - name: Add or edit an Enterprise Custom Field
+        href: add-or-edit-enterprise-custom-fields-in-project-server.md
+      - name: Add or edit an Enterprise Custom Lookup Table
+        href: add-or-edit-enterprise-custom-lookup-tables-in-project-server.md
+    - name: Database administration
+      href: database-administration-in-project-server.md
+      items:
+      - name: Delete enterprise objects
+        href: delete-enterprise-objects-in-project-server.md
+        items:
+        - name: Delete projects
+          href: delete-projects-in-project-server.md
+        - name: Delete resources and users
+          href: delete-resources-and-users-in-project-server.md
+        - name: Delete status report responses
+          href: delete-status-report-responses-in-project-server.md
+        - name: Delete timesheets
+          href: delete-timesheets-in-project-server.md
+        - name: Delete user delegates
+          href: delete-user-delegates-in-project-server.md
+      - name: Force check-in enterprise objects
+        href: force-check-in-enterprise-objects-in-project-server.md
+        items:
+        - name: Check-in enterprise projects
+          href: check-in-enterprise-projects-in-project-server.md
+        - name: Check-in enterprise resources
+          href: check-in-enterprise-resources-in-project-server.md
+        - name: Check-in enterprise custom fields
+          href: check-in-enterprise-custom-fields-in-project-server.md
+        - name: Check-in enterprise calendars
+          href: check-in-enterprise-calendars-in-project-server.md
+        - name: Check-in lookup tables for enterprise custom fields
+          href: check-in-lookup-tables-for-enterprise-custom-fields-in-project-server.md
+        - name: Check-in resource plans
+          href: check-in-resource-plans-in-project-server.md
+    - name: Operational Policies in Project Server 2013
+      href: operational-policies-in-project-server-2013.md
+      items:
+      - name: Alerts and Reminders (Project Server 2013 settings)
+        href: alerts-and-reminders-project-server-2013-settings.md
+      - name: Active Directory Resource Pool Synchronization for Project Server 2013
+        href: active-directory-resource-pool-synchronization-for-project-server-2013.md
+        items:
+        - name: Manage Active Directory Resource Pool synchronization in Project Server 2013
+          href: manage-active-directory-resource-pool-synchronization-in-project-server-2013.md
+        - name: Supported Active Directory topologies for Project Server 2013 Enterprise Resource Pool synchronization
+          href: supported-active-directory-topologies-for-project-server-2013-enterprise-resourc.md
+        - name: Best practices to configure Active Directory groups for Enterprise Resource Pool synchronization in Project Server 2013
+          href: best-practices-to-configure-active-directory-groups-for-enterprise-resource-pool.md
+      - name: Connected SharePoint Sites
+        href: manage-connected-sharepoint-sites-in-project-server-2013.md
+      - name: Additional Server Settings
+        href: additional-server-settings-project-server-2013-settings.md
+        items:
+        - name: Project Professional Versions
+          href: project-professional-versionsproject-server-2013-settings.md
+        - name: Enterprise Settings
+          href: enterprise-settings-project-server-2013-settings.md
+        - name: Currency Settings
+          href: currency-settings-project-server-2013-settings.md
+        - name: Resource Capacity Settings
+          href: resource-capacity-settings-project-server-2013-settings.md
+        - name: Resource Plan Work Day
+          href: resource-plan-work-day-project-server-2013-settings.md
+        - name: Exchange Server Details
+          href: exchange-server-details-project-server-2013-settings.md
+        - name: Task Mode Settings
+          href: task-mode-settings-project-server-2013-settings.md
+      - name: Server Side Event Handlers
+        href: server-side-event-handlers-project-server-2013-settings.md
+      - name: Project Site Provisioning Settings
+        href: project-site-provisioning-settings-project-server-2013-settings.md
+      - name: Bulk Update Project Sites
+        href: bulk-update-project-sites-project-server-2013-settings.md
+      - name: Manage Queue Settings for Project Web App
+        href: manage-queue-settings-for-project-web-app.md
+    - name: Add SharePoint task list data to Project Server 2013
+      href: add-sharepoint-task-list-data-to-project-server-2013.md
+  - name: Technical reference
+    href: technical-reference-for-project-server-2016.md
+    items:
+    - name: Project Server cmdlets
+      href: windows-powershell-for-project-server-2016-cmdlet-reference.md
+      items:
+      - name: Disable-ProjectServerLicense
+        href: /powershell/module/sharepoint-server/disable-projectserverlicense?view=sharepoint-ps
+      - name: Disable-SPProjectActiveDirectoryEnterpriseResourcePoolSync
+        href: /powershell/module/sharepoint-server/disable-spprojectactivedirectoryenterpriseresourcepoolsync?view=sharepoint-ps
+      - name: Disable-SPProjectEmailNotification
+        href: /powershell/module/sharepoint-server/disable-spprojectemailnotification?view=sharepoint-ps
+      - name: Disable-SPProjectEnterpriseProjectTaskSync
+        href: /powershell/module/sharepoint-server/disable-spprojectenterpriseprojecttasksync?view=sharepoint-ps
+      - name: Enable-ProjectServerLicense
+        href: /powershell/module/sharepoint-server/enable-projectserverlicense?view=sharepoint-ps
+      - name: Enable-SPProjectActiveDirectoryEnterpriseResourcePoolSync
+        href: /powershell/module/sharepoint-server/enable-spprojectactivedirectoryenterpriseresourcepoolsync?view=sharepoint-ps
+      - name: Enable-SPProjectEmailNotification
+        href: /powershell/module/sharepoint-server/enable-spprojectemailnotification?view=sharepoint-ps
+      - name: Enable-SPProjectEnterpriseProjectTaskSync
+        href: /powershell/module/sharepoint-server/enable-spprojectenterpriseprojecttasksync?view=sharepoint-ps
+      - name: Get-SPProjectEventServiceSettings
+        href: /powershell/module/sharepoint-server/enable-spprojectenterpriseprojecttasksync?view=sharepoint-ps
+      - name: Get-ProjectServerLicense
+        href: /powershell/module/sharepoint-server/get-projectserverlicense?view=sharepoint-ps
+      - name: Get-SPProjectDatabaseUsage
+        href: /powershell/module/sharepoint-server/get-spprojectdatabaseusage?view=sharepoint-ps
+      - name: Get-SPProjectEnterpriseProjectTaskSync
+        href: /powershell/module/sharepoint-server/get-spprojectenterpriseprojecttasksync?view=sharepoint-ps
+      - name: Get-SPProjectIsEmailNotificationEnabled
+        href: /powershell/module/sharepoint-server/get-spprojectisemailnotificationenabled?view=sharepoint-ps
+      - name: Get-SPProjectOdataConfiguration
+        href: /powershell/module/sharepoint-server/get-spprojectodataconfiguration?view=sharepoint-ps
+      - name: Get-SPProjectPCSSettings
+        href: /powershell/module/sharepoint-server/get-spprojectodataconfiguration?view=sharepoint-ps
+      - name: Get-SPProjectPermissionMode
+        href: /powershell/module/sharepoint-server/get-spprojectpermissionmode?view=sharepoint-ps
+      - name: Get-SPProjectQueueSettings
+        href: /powershell/module/sharepoint-server/get-spprojectqueuesettings?view=sharepoint-ps
+      - name: Get-SPProjectWebInstance
+        href: /powershell/module/sharepoint-server/get-spprojectwebinstance?view=sharepoint-ps
+      - name: Invoke-SPProjectActiveDirectoryEnterpriseResourcePoolSync
+        href: /powershell/module/sharepoint-server/invoke-spprojectactivedirectoryenterpriseresourcepoolsync?view=sharepoint-ps
+      - name: Invoke-SPProjectActiveDirectoryGroupSync
+        href: /powershell/module/sharepoint-server/invoke-spprojectactivedirectorygroupsync?view=sharepoint-ps
+      - name: Migrate-SPProjectDatabase
+        href: /powershell/module/sharepoint-server/migrate-spprojectdatabase?view=sharepoint-ps
+      - name: Migrate-SPProjectResourcePlans
+        href: /powershell/module/sharepoint-server/migrate-spprojectresourceplans?view=sharepoint-ps
+      - name: New-SPProjectServiceApplication
+        href: /powershell/module/sharepoint-server/new-spprojectserviceapplication?view=sharepoint-ps
+      - name: New-SPProjectServiceApplicationProxy
+        href: /powershell/module/sharepoint-server/new-spprojectserviceapplicationproxy?view=sharepoint-ps
+      - name: Pause-SPProjectWebInstance
+        href: /powershell/module/sharepoint-server/pause-spprojectwebinstance?view=sharepoint-ps
+      - name: Repair-SPProjectWebInstance
+        href: /powershell/module/sharepoint-server/repair-spprojectwebinstance?view=sharepoint-ps
+      - name: Reset-SPProjectEventServiceSettings
+        href: /powershell/module/sharepoint-server/reset-spprojecteventservicesettings?view=sharepoint-ps
+      - name: Reset-SPProjectPCSSettings
+        href: /powershell/module/sharepoint-server/reset-spprojectpcssettings?view=sharepoint-ps
+      - name: Reset-SPProjectQueueSettings
+        href: /powershell/module/sharepoint-server/reset-spprojectqueuesettings?view=sharepoint-ps
+      - name: Resume-SPProjectWebInstance
+        href: /powershell/module/sharepoint-server/resume-spprojectwebinstance?view=sharepoint-ps
+      - name: Set-SPProjectEventServiceSettings
+        href: /powershell/module/sharepoint-server/set-spprojecteventservicesettings?view=sharepoint-ps
+      - name: Set-SPProjectOdataConfiguration
+        href: /powershell/module/sharepoint-server/set-spprojectodataconfiguration?view=sharepoint-ps
+      - name: Set-SPProjectPCSSettings
+        href: /powershell/module/sharepoint-server/set-spprojectpcssettings?view=sharepoint-ps
+      - name: Set-SPProjectPermissionMode
+        href: /powershell/module/sharepoint-server/set-spprojectpermissionmode?view=sharepoint-ps
+      - name: Set-SPProjectQueueSettings
+        href: /powershell/module/sharepoint-server/set-spprojectqueuesettings?view=sharepoint-ps
+      - name: Set-SPProjectServiceApplication
+        href: /powershell/module/sharepoint-server/set-spprojectserviceapplication?view=sharepoint-ps
+      - name: Set-SPProjectUserSync
+        href: /powershell/module/sharepoint-server/set-spprojectusersync?view=sharepoint-ps
+      - name: Set-SPProjectUserSyncDisabledSyncThreshold
+        href: /powershell/module/sharepoint-server/set-spprojectusersyncdisabledsyncthreshold?view=sharepoint-ps
+      - name: Set-SPProjectUserSyncFullSyncThreshold
+        href: /powershell/module/sharepoint-server/set-spprojectusersyncfullsyncthreshold?view=sharepoint-ps
+      - name: Set-SPProjectUserSyncOffPeakSyncThreshold
+        href: /powershell/module/sharepoint-server/set-spprojectusersyncoffpeaksyncthreshold?view=sharepoint-ps
+      - name: Sync-SPProjectPermissions
+        href: /powershell/module/sharepoint-server/sync-spprojectpermissions?view=sharepoint-ps
+      - name: Test-SPProjectServiceApplication
+        href: /powershell/module/sharepoint-server/test-spprojectserviceapplication?view=sharepoint-ps
+      - name: Test-SPProjectWebInstance
+        href: /powershell/module/sharepoint-server/sync-spprojectpermissions?view=sharepoint-ps
+    - name: Global permissions in Project Server 2013
+      href: global-permissions-in-project-server-2013.md
+    - name: Category permissions in Project Server 2013
+      href: category-permissions-in-project-server-2013.md
+    - name: Default categories in Project Server 2013
+      href: default-categories-in-project-server-2013.md
+    - name: Default group permissions in Project Server 2013
+      href: default-group-permissions-in-project-server-2013.md
+    - name: SharePoint Permissions Mode default permissions for Project Server 2013 SharePoint groups
+      href: sharepoint-permissions-mode-default-permissions-for-project-server-2013-sharepoi.md
+    - name: Project Server knowledge articles
+      href: project-server-2016-preview-knowledge-articles-for-systems-center-operations-man.md
+    - name: Maintain user information
+      items:
+      - name: Export user data from Project Server Subscription Edition
+        href: export-user-data-project-server-subscription-edition.md
+      - name: Delete user data from Project Server Subscription Edition
+        href: delete-user-data-project-server-subscription-edition.md
+      - name: Export user data from Project Server 2019
+        href: export-user-data-in-project-server-2019.md
+      - name: Delete user data from Project Server 2019
+        href: delete-user-data-in-project-server-2019.md
+      - name: Export user data from Project Server
+        href: export-user-data-from-project-server.md
+      - name: Delete user data from Project Server
+        href: delete-user-data-from-project-server.md
+  - name: Scenarios and solutions
+    href: scenarios-and-solutions-for-project-server.md
+    items:
+    - name: Transitioning projects from SharePoint to Project Server 2013
+      href: transitioning-projects-from-sharepoint-to-project-server-2013.md
+    - name: Using workflow for demand management in Project Server
+      href: using-workflow-for-demand-management-in-project-server.md
+      items:
+      - name: Best practices for creating phases and stages
+        href: best-practices-for-creating-phases-and-stages.md
+      - name: Create a sample Project Web App workflow
+        href: create-a-sample-project-web-app-workflow.md
+        items:
+        - name: Have a workflow wait for a Project Web App event
+          href: have-a-workflow-wait-for-a-project-web-app-event.md
+        - name: Set the stage status in a Project Web App workflow
+          href: set-the-stage-status-in-a-project-web-app-workflow.md
+        - name: Add a custom field to a project detail page
+          href: add-a-custom-field-to-a-project-detail-page.md
+        - name: Assign an approval task in a workflow
+          href: assign-an-approval-task-in-a-workflow.md
+        - name: Customize approval options for Project Web App workflows
+          href: customize-approval-options-for-project-web-app-workflows.md
+    - name: Portfolio analysis overview
+      href: portfolio-analysis-overview.md
+      items:
+      - name: Portfolio analysis business drivers
+        href: portfolio-analysis-business-drivers.md
+      - name: Portfolio analysis driver prioritization
+        href: portfolio-analysis-driver-prioritization.md
+      - name: Analyzing portfolios
+        href: analyzing-portfolios.md
+    - name: The Project Online Implementation Cookbook—Principles for Success
+      href: project-online-implementation-cookbook.md

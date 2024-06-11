@@ -1,0 +1,209 @@
+Items:
+- name: Project Online
+  href: project-online.md
+  items:
+  - name: Get started with Project Online
+    href: get-started-with-project-online.md
+    items:
+    - name: Step 1—Sign up for Project Online
+      href: step-1-sign-up-for-project-online.md
+    - name: Step 2—Add people to Project Online
+      href: step-2-add-people-to-project-online.md
+    - name: Step 3—Set up shop in Project Online
+      href: step-3-set-up-shop-in-project-online.md
+    - name: Add Project Online to your Office 365 account
+      href: add-project-online-to-your-office-365-account.md
+    - name: Add Project Online to a site collection
+      href: add-project-online-to-a-site-collection.md
+    - name: Migrate to Project Online from Project Server
+      href: migrate-to-project-online-from-project-server.md
+    - name: Connect to Project Online with the Project Online Desktop Client
+      href: connect-to-project-online-with-the-project-online-desktop-client.md
+    - name: Set up another Project Online site
+      href: set-up-another-project-online-site.md
+    - name: Delete a Project Web App site
+      href: delete-a-project-web-app-site.md
+    - name: Turn on notifications in Project Web App
+      href: turn-on-notifications-in-project-web-app.md
+    - name: Periodic tasks for Project Online administrators
+      href: periodic-tasks-for-project-online-administrators.md
+    - name: Create unique Project IDs for my projects in Project Online
+      href: create-unique-project-ids-for-my-projects-in-project-online.md
+    - name: Supported languages for Project Online
+      href: supported-languages-for-project-online.md
+    - name: Project Online client requirements
+      href: project-online-client-requirements.md
+    - name: Configure Office 365 Project Portfolio Dashboard
+      href: configure-office-365-project-portfolio-dashboard.md
+  - name: Timesheets
+    items:
+    - name: Set up timesheets
+      href: set-up-timesheets.md
+    - name: Set up categories for timesheet rows
+      href: set-up-categories-for-timesheet-rows.md
+    - name: Configure time and task progress
+      href: configure-time-and-task-progress.md
+    - name: Customize timesheets and task progress for your organization
+      href: customize-timesheets-and-task-progress-for-your-organization.md
+    - name: Set up time and task progress approval
+      href: set-up-time-and-task-progress-approval.md
+    - name: Set up policies for capturing time and task progress
+      href: set-up-policies-for-capturing-time-and-task-progress.md
+    - name: Set up your fiscal year
+      href: set-up-your-fiscal-year.md
+    - name: Set up vacation, sick leave, and other non-project work categories
+      href: set-up-vacation-sick-leave-and-other-non-project-work-categories.md
+    - name: Set up how time and task progress are captured
+      href: set-up-how-time-and-task-progress-are-captured.md
+  - name: Reporting
+    items:
+    - name: Grant reporting access in Project Online
+      href: grant-reporting-access-in-project-online.md
+    - name: What reporting tools can I use with project data?
+      href: what-reporting-tools-can-i-use-with-project-data.md
+    - name: Configure rollup of timephased reporting data in Project Online
+      href: configure-rollup-of-timephased-reporting-data-in-project-online.md
+  - name: Resources
+    items:
+    - name: Configure the Resource Center
+      href: configure-the-resource-center.md
+    - name: Activate resource engagements in Project Online
+      href: activate-resource-engagements-in-project-online.md
+    - name: FAQ—Resource engagements are replacing the old resource plans
+      href: faq-resource-engagements-are-replacing-the-old-resource-plans.md
+  - name: Workflows
+    items:
+    - name: Using workflow for demand management in Project Online
+      href: using-workflow-for-demand-management-in-project-online.md
+    - name: Troubleshoot Project Online workflows
+      href: troubleshoot-project-online-workflows.md
+    - name: Best practices for creating phases and stages
+      href: best-practices-for-creating-phases-and-stages.md
+  - name: Security
+    items:
+    - name: Change permission management in Project Online
+      href: change-permission-management-in-project-online.md
+    - name: Plan SharePoint groups in Project Online
+      href: plan-sharepoint-groups-in-project-online.md
+    - name: Using Project Online with external users
+      href: using-project-online-with-external-users.md
+    - name: Understanding identity management in Project Online
+      href: understanding-identity-management-in-project-online.md
+    - name: What should I do if my Project Online administrator gets locked out?
+      href: what-should-i-do-if-my-project-online-administrator-gets-locked-out.md
+  - name: Performance
+    items:
+    - name: Tune Project Online performance
+      href: tune-project-online-performance.md
+    - name: Project Online—software boundaries and limits
+      href: project-online-software-boundaries-and-limits.md
+    - name: Best practices to improve Resource Engagements performance
+      href: best-practices-to-improve-resource-engagements-performance.md
+  - name: Portfolio analysis
+    items:
+    - name: Portfolio analysis in the Microsoft Project Web Application
+      href: portfolio-analysis-overview.md
+    - name: Defining portfolio analysis business drivers
+      href: portfolio-analysis-business-drivers.md
+    - name: Prioritizing portfolio analysis business drivers
+      href: portfolio-analysis-driver-prioritization.md
+    - name: Creating a new portfolio analysis
+      href: creating-a-portfolio-analysis.md
+    - name: Resource analysis in the Microsoft Project Web Application
+      href: resource-analysis-overview.md
+    - name: Establishing the resource pool
+      href: establishing-the-resource-pool.md
+    - name: Using task level assignments to define resource demand
+      href: establishing-the-demand-project-demand-profile.md
+    - name: Using resource engagements to define resource demand
+      href: establishing-the-demand-profile-engagements.md
+    - name: Defining project portfolio dependencies
+      href: define-project-dependencies.md
+    - name: Prioritizing the portfolio with custom fields
+      href: prioritizing-the-portfolio-with-custom-fields.md
+    - name: Modeling cost scenarios in portfolio analysis
+      href: perform-cost-optimization.md
+    - name: Modeling resource scenarios in portfolio analysis
+      href: perform-resource-optimization.md
+    - name: Comparing multiple portfolio analysis scenarios
+      href: comparing-portfolio-scenarios.md
+    - name: Committing the selected portfolio scenario
+      href: committing-the-scenario.md
+    - name: Configuring workflow to support portfolio analysis
+      href: configuring-workflow-and-portfolio-analysis.md
+  - name: Project Management Office
+    items:
+    - name: Supporting your Project Online adoption with a Project Management Office (PMO)
+      href: supporting-your-project-online-adoption-with-a-project-management-office-pmo.md
+    - name: Project Online implementation cookbook
+      href: /project/project-online-implementation-cookbook
+    - name: Enterprise system best practices
+      href: enterprise-system-best-practices-white-paper.md
+    - name: The project management system maturity model
+      href: the-project-management-system-maturity-model-white-paper.md
+    - name: EPM—Centralized or decentralized?
+      href: epm-centralized-or-decentralizedwhite-paper.md
+    - name: Dashboard directions
+      href: dashboard-directions-white-paper.md
+    - name: Creating an EPM Deployment Plan
+      href: creating-an-epm-deployment-plan-white-paper.md
+    - name: The challenges of selecting enterprise software
+      href: the-challenges-of-selecting-enterprise-software-white-paper.md
+    - name: The Seven Deadly Sins of Project Schedules
+      href: the-seven-deadly-sins-of-project-schedules-white-paper.md
+    - name: 7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation
+      href: 7-ways-to-sustain-adoption-of-your-ppm-solution-post-implementation-white-paper.md
+    - name: Cancelling a project without cancelling your career
+      href: cancelling-a-project-without-cancelling-your-career-white-paper.md
+    - name: We're selling holes, not drills!
+      href: we-re-selling-holes-not-drills!-white-paper.md
+    - name: The Bat phone
+      href: the-bat-phone-white-paper.md
+    - name: Balancing the matrix
+      href: balancing-the-matrix-white-paper.md
+    - name: Charging Ahead on Charge Codes
+      href: charging-ahead-on-charge-codes-white-paper.md
+    - name: Being a solutions buyer
+      href: being-a-solutions-buyer-white-paper.md
+    - name: Track or Treat
+      href: track-or-treat-white-paper.md
+    - name: Beat the Half-life (t 1/2)—Governing Your PPM Solution, Post-Implementation
+      href: beat-the-half-life-t-1-2governing-your-ppm-solution-post-implementation-white-pa.md
+    - name: They say they want a resolution
+      href: they-say-they-want-a-resolution-white-paper.md
+    - name: Breaking Bad...News that is
+      href: breaking-badnews-that-is-white-paper.md
+    - name: The executive connection
+      href: the-executive-connection-white-paper.md
+    - name: Is there a pilot on board?
+      href: is-there-a-pilot-on-boardwhite-paper.md
+    - name: Would you like some EPM with that?
+      href: would-you-like-some-epm-with-thatwhite-paper.md
+    - name: Are we there yet?
+      href: are-we-there-yetwhite-paper.md
+    - name: GPS assistance in roadmapping an EPM deployment
+      href: gps-assistance-in-roadmapping-an-epm-deployment-white-paper.md
+    - name: Top-down or bottom-up
+      href: top-down-or-bottom-up-white-paper.md
+    - name: Aligning projects with strategic drivers
+      href: aligning-projects-with-strategic-drivers-white-paper.md
+    - name: A phased approach to deploying enterprise project management
+      href: a-phased-approach-to-deploying-enterprise-project-management-white-paper.md
+    - name: Resource management
+      href: resource-management-white-paper.md
+  - name: Maintain user data
+    items:
+    - name: Delete user data from Project Online
+      href: delete-user-data-from-project-online.md
+    - name: Export user data from Project Online
+      href: export-user-data-from-project-online.md
+    - name: Find customized user items in Project Online and Project Server user export data
+      href: find-customized-user-items-in-project-online-and-project-server-user-export-data.md
+    - name: Project Online and Project Server export data definitions
+      href: project-online-and-project-server-export-data-definitions.md
+  - name: License management
+    items:
+    - name: Renew your Project Online plans in a larger organization
+      href: renew-your-project-online-plans-in-a-larger-organization.md
+- name: Microsoft Project Online Feature Details
+  href: project-features-descriptions.md
