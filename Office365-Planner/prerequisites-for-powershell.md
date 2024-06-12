@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 01/05/2021
+ms.date: 06/12/2024
 audience: Admin
 ms.topic: overview
 ms.service: office-perpetual-itpro
@@ -30,7 +30,7 @@ If you're new to Windows PowerShell, see [Getting started with Windows PowerShel
 > [!NOTE]
 > By downloading this package, you agree to the enclosed license and terms.
 
-Download the [Planner Tenant Admin PowerShell file](https://download.microsoft.com/download/5/9/0/590552d6-d8d0-4e12-9c55-21738e2c8143/planner-tenant-admin.zip). Unzip it to a location you can access from PowerShell.
+Download the [Planner Tenant Admin PowerShell file](https://download.microsoft.com/download/0/7/5/07576f1c-b366-4a89-9297-f2ebc3df397c/PlannerTenantAdmin.zip). Unzip it to a location you can access from PowerShell.
 ## Unblock your files
 
 You'll need to "unblock" two of the files you downloaded in the Planner Tenant Admin PowerShell package in order to user them in PowerShell. This is because by default, executing scripts downloaded from the Internet isn't allowed. The files you need to unblock are:
