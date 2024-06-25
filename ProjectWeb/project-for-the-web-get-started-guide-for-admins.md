@@ -20,11 +20,11 @@ description: "Resources for administrators who want to learn more about managing
 
 Project for the web is a new service that is now available to Office 365 users.  You can make it available to your users through the following licenses:
 
-- Project Plan P1
-- Project Plan P3 (previously called Project Online Professional)
-- Project Plan P5 (previously called Project Online Premium)
+- Planner Plan 1
+- Project Plan 3 (previously called Project Online Professional)
+- Project Plan 5 (previously called Project Online Premium)
 
-If your users are currently using Project Online Professional or Project Online Premium licenses, Project for the web is available to them now. 
+If your users are currently using Project Online Professional or Project Online Premium licenses, Project for the web is available to them now.  Licenses that whose name contains "without Project Client" or "Project Online with Project for Office 365" do not include access to Project for the web. Users may still be able to access Project for the web via an [Office 365 License](office-365-user-view-access-to-project-and-roadmap.md).
 
 This article provides administrators with information to help them better understand and manage the service. 
 
