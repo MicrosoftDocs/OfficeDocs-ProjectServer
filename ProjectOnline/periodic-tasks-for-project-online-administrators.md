@@ -36,13 +36,13 @@ Project Online administrators should perform the following periodic checks to th
 |Clear any overly long delegation sessions in Server Settings | Delete Enterprise Objects | User Delegation.  <br/> |
 |Maintain a valid enterprise resource pool by checking for users who haven't logged in for 60 days and find out why. For example, they may have left the company, are unaware of PWA, or could have been added mistakenly when someone else needed access.  <br/> |
 |Check the ADMINISTRATORS group for admins that should be removed.  <br/> |
-|Check with Office 365 Global admin for news on upcoming features or updates.  <br/> |
+|Check for news on upcoming features or updates.  <br/> |
    
 |**Monthly**|
 |:-----|
 |Provide timesheet training to new users.  <br/> |
 |Provide project manager training to new project managers.  <br/> |
-|Check with Office 365 Global admin on license usage. For example, use data to follow up with users on licenses that are not being used.  <br/> |
+|Check on license usage. For example, use data to follow up with users on licenses that are not being used.  <br/> |
    
 |**Quarterly**|
 |:-----|

@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: pamgreen
 ms.date: 10/28/2019
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: project-web
 search.appverid: 
 - PJO150
