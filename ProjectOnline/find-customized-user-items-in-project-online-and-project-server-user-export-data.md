@@ -69,7 +69,7 @@ For Project Server, you will need to save the specific project file to XML forma
     
 6. In the **More Views** window, in the Views list, select the view you are looking for, and then click **Apply**. 
     
-    ![More Filters.](media/ec762973-a15d-4c92-b6d3-3b5d91413b04.png)
+    ![Screenshot shows where you select More Views.](media/ec762973-a15d-4c92-b6d3-3b5d91413b04.png)
   
 7. The selected view will display. Take a screenshot of the view and save it.
     
@@ -100,7 +100,7 @@ You can repeat this procedure on each project in which you want to search for yo
     
 6. In the ** More Filters ** menu, select the filter you are looking for, and then click ** Edit **. 
     
-    ![More Filters.](media/00d14151-8459-444c-bbb0-2909611a64f9.png)
+    ![Screenshot shows where you select More Filters.](media/00d14151-8459-444c-bbb0-2909611a64f9.png)
   
 7. The filter definition for the selected filter will display. You can take a screenshot of the filter definition and save it.
     
