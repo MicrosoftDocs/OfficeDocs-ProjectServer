@@ -35,7 +35,7 @@ These features may be combined to create specific scenarios. For example, one sc
 
 This article will teach you how to interpret and use the **Analyze Cost** screen in PWA to create these scenarios.
 
-![Analyze Cost option in toolbar.](media/11-image1.png)
+![Screenshot shows the Analyze Cost option in the toolbar.](media/11-image1.png)
 
 This screen is split into three components:
 
@@ -99,7 +99,7 @@ Forcing projects in or out of a scenario often results in a sub-optimal project 
 
 You may also review the portfolio on a scatter chart.
 
-![Analyze Cost option in toolbar.](media/11-image8.png)
+![Screenshot shows Analyze Cost and Scatter Chart options selected in toolbar.](media/11-image8.png)
 
 The scatter chart shows all projects by their total cost and total delivered value.
 

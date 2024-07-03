@@ -69,7 +69,7 @@ We have one more thing to do before we close off the destination process and tha
   
 The next thing we need for directions is a point of origin and we manage that through an inventory of where the organization is now in relation to the goals we've chosen.
   
-![Map showing the route from Seattle to Montreal.](media/0292caf2-ccdc-4970-9865-0d5a4de55347.jpg)
+![Sample map showing the route from Seattle to Montreal.](media/0292caf2-ccdc-4970-9865-0d5a4de55347.jpg)
   
 We look at existing personnel. Are they trained in project management for their particular roles? Do we have sufficient personnel with sufficient experience to accomplish the goals that have been set? Remember that we have to look at multiple measures here because different people will have a different role in the eventual enterprise project management process. It makes no sense to train every employee to be a project scheduler if, in fact, they'll never be responsible to create schedules. By default, we think of four roles: Administrator, Project Manager, Individual Resource, and Executive. If timesheets are involved, we think also of Supervisors as fifth role. Of course, depending on what destination we've defined in our original envisioning process, the roles may be quite different. That changes the skills inventory process profoundly, which is why we always start by defining the destination before thinking about the point of origin.
   
