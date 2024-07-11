@@ -142,7 +142,7 @@ GET https://CONTOSO.sharepoint.com/teams/project/PWA/_api/projectserver/projectw
 ```
 
 > [!NOTE]
-> For more information about developing against Project Online, please visit the [Project Dev Center](https://go.microsoft.com/fwlink/?linkid=863964). 
+> For more information about developing against Project Online, please visit the [Project Dev Center](https://developer.microsoft.com/en-us/project). 
   
 ## Reviewing the errors
 <a name="reverrors"> </a>
@@ -212,7 +212,7 @@ The following errors may happen with a Project workflow:
    
 If your error is not listed or you want further details about the error you are getting, see the section [How to get the detailed error message for a SharePoint Workflow](troubleshoot-project-online-workflows.md#detailederror).
   
-If you find any other errors that are not listed above, please let us know. There are two ways to contact us, either through our [User Voice forum](https://go.microsoft.com/fwlink/?linkid=863965) or by contacting Microsoft support. Please provide us with the following details. 
+If you find other areas not listed above, let us know by selecting the feedback link at the top of this page. Please provide the following details: 
   
 - Project Name
     
