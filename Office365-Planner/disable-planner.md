@@ -4,7 +4,8 @@ description: "Learn how to turn off Planner for your organization in Microsoft a
 author:      danlucuiPlanner
 manager:     bribha
 ms.author:   danlucui
-ms.service:  # Add the ms.service or ms.prod value
+ms.service: office-perpetual-itpro
+ms.subservice: planner
 ms.topic:    article
 ms.date:     07/11/2024
 ---
@@ -39,10 +40,9 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
    Set-PlannerConfiguration -IsPlannerAllowed $true
    ```
    
-    
-   
-   > [!NOTE]
-   > You'll need to sign in using your Microsoft Entra credentials.
+>  [!NOTE]
+>  You'll need to sign in using your Microsoft Entra credentials.
+
 2. To verify your settings, run:
 
    ```PowerShell
