@@ -36,6 +36,7 @@ To control which users have Planner licenses, follow the instructions in [How to
 
 
 To turn off Planner for your organization, see [How to turn off Planner for your organization](disable-planner.md)
+
 To turn off just the Planner Loop component, see [How to turn off the Planner component for your organization](disable-planner-component.md).
 
 > [!NOTE]
