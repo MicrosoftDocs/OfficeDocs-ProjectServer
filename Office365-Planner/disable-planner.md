@@ -2,6 +2,7 @@
 title:       "How to turn off the Planner for your organization"
 description: "Learn how to turn off Planner for your organization in Microsoft apps that support Planner."
 author:      danlucuiPlanner
+manager:     bribha
 ms.author:   danlucui
 ms.service:  # Add the ms.service or ms.prod value
 ms.topic:    article
