@@ -40,8 +40,8 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
    Set-PlannerConfiguration -IsPlannerAllowed $true
    ```
    
->  [!NOTE]
->  You'll need to sign in using your Microsoft Entra credentials.
+   > [!NOTE]
+   > You'll need to sign in using your Microsoft Entra credentials.
 
 2. To verify your settings, run:
 
