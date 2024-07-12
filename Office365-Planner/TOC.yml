@@ -40,5 +40,5 @@ Items:
     href: prerequisites-for-powershell.md
   - name: Microsoft Planner support in Microsoft Purview
     href: planner-in-purview.md
-  - name: How to disable planner please change me
+  - name: How to turn off Planner for your organization
     href: disable-planner.md
