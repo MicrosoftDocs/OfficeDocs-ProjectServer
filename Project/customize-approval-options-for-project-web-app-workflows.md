@@ -1,8 +1,8 @@
 ---
 title: "Customize approval options for Project Web App workflows"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article

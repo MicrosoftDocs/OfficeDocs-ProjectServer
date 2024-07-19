@@ -1,8 +1,8 @@
 ---
 title: "Access a project in Project for the web after its Office 365 group has been deleted"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/28/2019
 audience: admin
 ms.topic: article

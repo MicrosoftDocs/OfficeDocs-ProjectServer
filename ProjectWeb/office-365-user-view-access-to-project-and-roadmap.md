@@ -1,8 +1,8 @@
 ---
 title: "Office 365 User access to Project for the web and Roadmap"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 audience: admin
 ms.topic: article
 search.appverid: 

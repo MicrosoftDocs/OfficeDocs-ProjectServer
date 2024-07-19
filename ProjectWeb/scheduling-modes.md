@@ -1,6 +1,6 @@
 ---
 title: "Scheduling modes"
-ms.author: serdars
+ms.author: jenz
 author: v-smandalika
 manager: dansimp
 ms.date: 09/08/2021

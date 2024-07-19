@@ -1,8 +1,8 @@
 ---
 title: "Export user data from Project Server Subscription Edition"
-ms.author: serdars
+ms.author: jenz
 author: benzicald
-manager: serdars
+manager: jtremper
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro

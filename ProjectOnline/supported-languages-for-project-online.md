@@ -1,8 +1,8 @@
 ---
 title: "Supported languages for Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/1/2016
 audience: admin
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "Project architecture overview"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/27/2020
 audience: admin
 ms.topic: article

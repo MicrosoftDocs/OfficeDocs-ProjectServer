@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Server 2016 (Project Server 2016)"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 12/20/2016
 audience: ITPro
 ms.topic: conceptual

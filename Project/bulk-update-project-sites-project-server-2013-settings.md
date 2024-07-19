@@ -1,8 +1,8 @@
 ---
 title: "Bulk Update Project Sites (Project Server 2013 settings)"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/16/2014
 audience: ITPro
 ms.topic: article

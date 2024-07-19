@@ -1,8 +1,8 @@
 ---
 title: "Customize timesheets and task progress for your organization"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 7/11/2017
 audience: admin
 ms.topic: article

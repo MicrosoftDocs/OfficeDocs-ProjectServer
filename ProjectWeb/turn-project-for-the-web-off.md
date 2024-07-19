@@ -1,8 +1,8 @@
 ---
 title: "Turn Project for the web or Roadmap on or off for users in your organization"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 1/15/2020
 audience: admin
 ms.topic: article

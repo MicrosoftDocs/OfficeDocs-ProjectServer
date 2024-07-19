@@ -1,8 +1,8 @@
 ---
 title: "Tune Project Online performance"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/28/2018
 audience: admin
 ms.topic: article

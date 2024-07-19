@@ -2,7 +2,7 @@
 title: "Get started with Project Online"
 ms.author: jenz
 author: jenzamora
-manager: pamgreen
+manager: jtremper
 ms.date: 05/30/2024
 audience: admin
 ms.topic: overview

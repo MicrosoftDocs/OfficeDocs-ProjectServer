@@ -3,7 +3,7 @@
 title: "Export Content Definition"
 ms.author: namerali
 author: nadinmerali
-manager: pamgreen
+manager: jtremper
 ms.date: 2/17/2023
 audience: admin
 ms.topic: article

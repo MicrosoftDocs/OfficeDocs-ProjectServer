@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Server 2013 (Project Server 2013)"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/20/2017
 audience: ITPro
 ms.topic: article

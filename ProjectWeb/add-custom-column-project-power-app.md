@@ -1,6 +1,6 @@
 ---
 title: Add a custom column to the Project Power App
-ms.author: serdars
+ms.author: jenz
 author: v-stthomas
 manager: alexla
 ms.date: 3/15/2022

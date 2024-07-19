@@ -1,8 +1,8 @@
 ---
 title: "Enterprise custom fields and lookup tables in Project Web App"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article

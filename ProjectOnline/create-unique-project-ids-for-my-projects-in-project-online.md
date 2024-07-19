@@ -1,8 +1,8 @@
 ---
 title: "Create unique Project IDs for my projects in Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 2/9/2018
 audience: admin
 ms.topic: article

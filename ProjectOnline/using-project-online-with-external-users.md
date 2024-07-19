@@ -1,8 +1,8 @@
 ---
 title: "Using Project Online with external users"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 1/5/2018
 audience: admin
 ms.topic: article

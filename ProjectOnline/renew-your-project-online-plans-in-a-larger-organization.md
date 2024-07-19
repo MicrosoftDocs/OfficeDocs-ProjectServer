@@ -1,8 +1,8 @@
 ---
 title: "Renew your Project Online plans in a larger organization"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 2/24/2017
 audience: admin
 ms.topic: article

@@ -3,7 +3,7 @@
 title: "Task History Definition"
 ms.author: namerali
 author: nadinmerali
-manager: pamgreen
+manager: jtremper
 ms.date: 6/30/2023
 audience: admin
 ms.topic: article

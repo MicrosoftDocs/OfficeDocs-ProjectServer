@@ -1,8 +1,8 @@
 ---
 title: "Track or Treat white paper"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/6/2014
 audience: admin
 ms.topic: overview

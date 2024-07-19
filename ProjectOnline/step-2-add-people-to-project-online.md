@@ -1,8 +1,8 @@
 ---
 title: "Step 2 Add people to Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 12/14/2017
 audience: admin
 ms.topic: overview
