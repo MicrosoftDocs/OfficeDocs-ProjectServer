@@ -3,7 +3,7 @@ title: Enhance your projects with the Project Management Office Accelerator
 description: The Project Management Office Accelerator is a managed solution your admin can deploy to your Project environment. It adds six scenarios - Project Requests, Programs, Risks, Issues, Changes, and Status. Read this topic to learn how to use them.
 author: v-stthomas
 ms.author: jenz
-manager: deniseb
+manager: jtremper
 ms.service: project-web
 ms.topic: how-to 
 ms.date: 04/01/2022
