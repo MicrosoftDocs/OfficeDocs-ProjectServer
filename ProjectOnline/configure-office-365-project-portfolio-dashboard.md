@@ -1,8 +1,8 @@
 ---
 title: "Configure Office 365 Project Portfolio Dashboard"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/9/2018
 audience: admin
 ms.topic: article

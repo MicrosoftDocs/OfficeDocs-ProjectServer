@@ -1,8 +1,8 @@
 ---
 title: "Install and configure Project Servers Subscription Edition, 2019, or 2016"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro

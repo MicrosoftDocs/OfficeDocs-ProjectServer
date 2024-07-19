@@ -1,8 +1,8 @@
 ---
 title: Add a custom column to the Project Power App
-ms.author: serdars
-author: v-stthomas
-manager: alexla
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/15/2022
 audience: admin
 ms.service: project-web

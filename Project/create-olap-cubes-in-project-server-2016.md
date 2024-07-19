@@ -1,8 +1,8 @@
 ---
 title: "Create OLAP cubes in Project Server 2016"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "Project Server Subscription Edition architecture"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/15/2018
 audience: ITPro
 ms.topic: article

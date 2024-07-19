@@ -1,8 +1,8 @@
 ---
 title: Project Server Updates
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/14/2017
 audience: ITPro
 ms.topic: overview

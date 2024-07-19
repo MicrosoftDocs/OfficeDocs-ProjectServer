@@ -1,8 +1,8 @@
 ---
 title: "Upgrading to Project Server 2016"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 4/21/2017
 audience: ITPro
 ms.topic: article

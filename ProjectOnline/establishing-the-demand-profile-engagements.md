@@ -1,8 +1,8 @@
 ---
 title: "Using resource engagements to define resource demand"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/24/2019
 audience: admin
 ms.topic: article

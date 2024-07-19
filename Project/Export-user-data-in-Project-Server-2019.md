@@ -1,8 +1,8 @@
 ---
 title: Export user data from Project Server 2019
 ms.author: jenz
-author: SerdarSoysal
-manager: pamgreen
+author: jenzamora
+manager: jtremper
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro

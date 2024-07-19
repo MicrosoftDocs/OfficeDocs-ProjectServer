@@ -1,8 +1,8 @@
 ---
 title: "Connect to Project Online with the Project Online Desktop Client"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 5/21/2019
 audience: admin
 ms.topic: article

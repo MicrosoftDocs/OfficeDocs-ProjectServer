@@ -1,8 +1,8 @@
 ---
 title: "Upgrading to Project Server Subscription Edition"
-ms.author: serdars
-author: benzicald
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 6/18/2021
 audience: ITPro
 ms.topic: article

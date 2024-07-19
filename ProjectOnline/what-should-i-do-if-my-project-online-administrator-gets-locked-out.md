@@ -1,8 +1,8 @@
 ---
 title: "What should I do if my Project Online administrator gets locked out?"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 7/11/2017
 audience: admin
 ms.topic: troubleshooting

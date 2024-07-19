@@ -1,8 +1,8 @@
 ---
 title: "Deploying Project for the web"
-ms.author: alexla
-author: BeReasonable
-manager: hocull
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 08/24/2021
 audience: admin
 ms.topic: article

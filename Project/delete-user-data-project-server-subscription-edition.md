@@ -1,8 +1,8 @@
 ---
 title: "Delete user data from Project Server Subscription Edition"
-ms.author: serdars
-author: Benny-54
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro

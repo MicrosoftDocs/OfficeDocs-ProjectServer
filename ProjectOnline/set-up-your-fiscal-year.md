@@ -1,8 +1,8 @@
 ---
 title: "Set up your fiscal year"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 6/1/2017
 audience: admin
 ms.topic: article

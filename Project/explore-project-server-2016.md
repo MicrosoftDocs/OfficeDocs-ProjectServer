@@ -1,8 +1,8 @@
 ---
 title: "Explore Project Server 2016"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 1/19/2016
 audience: ITPro
 ms.topic: conceptual

@@ -1,8 +1,8 @@
 ---
 title: Plan user access in Project Server
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 8/1/2017
 audience: ITPro
 ms.topic: conceptual

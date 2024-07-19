@@ -1,8 +1,8 @@
 ---
 title: "Project Online client requirements"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 1/17/2018
 audience: admin
 ms.topic: conceptual

@@ -1,8 +1,8 @@
 ---
 title: "OLAP database management in Project Web App"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: overview

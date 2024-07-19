@@ -1,8 +1,8 @@
 ---
 title: "Overview of the Project Server Subscription Edition upgrade process"
-ms.author: serdars
-author: Benny-54
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 6/17/2021
 audience: ITPro
 ms.topic: article

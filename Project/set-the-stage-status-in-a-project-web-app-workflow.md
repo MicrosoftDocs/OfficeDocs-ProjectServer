@@ -1,8 +1,8 @@
 ---
 title: "Set the stage status in a Project Web App workflow"
-ms.author: kenwith
-author: kenwith
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 8/30/2017
 audience: ITPro
 ms.topic: article

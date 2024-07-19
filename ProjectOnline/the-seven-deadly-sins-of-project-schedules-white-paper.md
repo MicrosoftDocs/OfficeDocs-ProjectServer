@@ -1,8 +1,8 @@
 ---
 title: "The Seven Deadly Sins of Project Schedules white paper"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 7/18/2014
 audience: admin
 ms.topic: overview
