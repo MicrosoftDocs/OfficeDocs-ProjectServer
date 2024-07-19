@@ -1,6 +1,6 @@
 ---
 title: "Deploying Project for the web"
-ms.author: jenzamora
+ms.author: jenz
 author: jenzamora
 manager: jtremper
 ms.date: 08/24/2021

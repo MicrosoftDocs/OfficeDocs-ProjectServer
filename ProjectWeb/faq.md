@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-ms.author: jenzamora
+ms.author: jenz
 author: jenzamora
 manager: jtremper
 ms.date: 01/07/2021
