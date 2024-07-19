@@ -1,8 +1,8 @@
 ---
 title: "Frequently Asked Questions"
 ms.author: jenzamora
-author: BeReasonable
-manager: hocull
+author: jenzamora
+manager: jtremper
 ms.date: 01/07/2021
 audience: admin
 ms.topic: article

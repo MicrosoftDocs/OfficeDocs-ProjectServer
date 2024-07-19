@@ -2,7 +2,7 @@
 title: "Project for the Web Security Roles"
 ms.author: jenz
 author: jenzamora
-manager: hocull
+manager: jtremper
 ms.date: 01/07/2021
 audience: admin
 ms.topic: article
