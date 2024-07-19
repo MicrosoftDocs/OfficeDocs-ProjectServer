@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-smandalika
 author: v-smandalika
-manager: dansimp
+manager: jtremper
 ms.date: 11/28/2023
 audience: Admin
 ms.topic: article

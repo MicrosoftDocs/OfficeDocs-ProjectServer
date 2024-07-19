@@ -4,7 +4,7 @@ description: Create and register a plug-in Visual Studio using a modified class 
 author: v-stthomas
 ms.author: jenz
 ms.service: project-web
-manager: alexla
+manager: jtremper
 ms.topic: how-to
 ms.date: 05/02/2022
 ms.custom: template-how-to

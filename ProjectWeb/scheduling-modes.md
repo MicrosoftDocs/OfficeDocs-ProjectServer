@@ -2,7 +2,7 @@
 title: "Scheduling modes"
 ms.author: jenz
 author: v-smandalika
-manager: dansimp
+manager: jtremper
 ms.date: 09/08/2021
 audience: admin
 ms.topic: how-to

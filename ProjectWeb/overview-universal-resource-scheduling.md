@@ -2,7 +2,7 @@
 title: "Overview of Universal Resource Scheduling in Project for the web"
 ms.author: jenz
 author: v-smandalika
-manager: dansimp
+manager: jtremper
 ms.date: 12/10/2021
 audience: admin
 ms.topic: article
