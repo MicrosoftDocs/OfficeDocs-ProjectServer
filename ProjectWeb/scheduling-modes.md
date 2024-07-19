@@ -1,8 +1,8 @@
 ---
 title: "Scheduling modes"
-ms.author: serdars
-author: v-smandalika
-manager: dansimp
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 09/08/2021
 audience: admin
 ms.topic: how-to

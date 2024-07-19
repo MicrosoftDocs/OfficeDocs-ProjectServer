@@ -1,8 +1,8 @@
 ---
 title: "Project for the Web admin help"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 10/28/2019
 audience: Admin
 ms.topic: article

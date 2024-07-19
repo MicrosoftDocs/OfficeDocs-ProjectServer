@@ -1,8 +1,8 @@
 ---
 title: Install Project Server 2013 to a stand-alone computer
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro

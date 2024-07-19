@@ -1,8 +1,8 @@
 ---
 title: "Plan for upgrade to Project Server Subscription Edition"
-ms.author: serdars
-author: Benny-54
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 6/17/2021
 audience: ITPro
 ms.topic: article

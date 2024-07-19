@@ -1,8 +1,8 @@
 ---
 title: "Delete user data from Project for the web"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/22/2023
 audience: admin
 ms.topic: article

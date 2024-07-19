@@ -1,8 +1,8 @@
 ---
 title: "Project Server 2013 backup and restore"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 12/1/2017
 audience: ITPro
 ms.topic: article

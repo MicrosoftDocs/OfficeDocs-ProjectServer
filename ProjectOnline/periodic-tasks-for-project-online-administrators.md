@@ -1,8 +1,8 @@
 ---
 title: "Periodic tasks for Project Online administrators"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/8/2017
 audience: admin
 ms.topic: conceptual

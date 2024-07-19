@@ -1,8 +1,8 @@
 ---
 title: "Understanding identity management in Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 5/29/2015
 audience: admin
 ms.topic: overview

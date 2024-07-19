@@ -1,10 +1,10 @@
 ---
 title: Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin
 description: Create and register a plug-in Visual Studio using a modified class library that interrupts attempts to delete records from the Project table in Project for the web. Add a group whose members can delete. 
-author: v-stthomas
-ms.author: serdars
+author: jenzamora
+ms.author: jenz
 ms.service: project-web
-manager: alexla
+manager: jtremper
 ms.topic: how-to
 ms.date: 05/02/2022
 ms.custom: template-how-to

@@ -1,8 +1,8 @@
 ---
 title: "Grant reporting access in Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 2/25/2016
 audience: admin
 ms.topic: article

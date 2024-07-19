@@ -1,8 +1,8 @@
 ---
 title: "Handling data for Project"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 12/5/2019
 audience: admin
 ms.topic: article

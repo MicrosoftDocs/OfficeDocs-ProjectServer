@@ -1,8 +1,8 @@
 ---
 title: "Project Service Core solution version history"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 12/9/2019
 audience: admin
 ms.topic: article

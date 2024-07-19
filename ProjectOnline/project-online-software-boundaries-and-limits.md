@@ -1,8 +1,8 @@
 ---
 title: "Project Online software boundaries and limits"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 6/15/2018
 audience: admin
 ms.topic: conceptual

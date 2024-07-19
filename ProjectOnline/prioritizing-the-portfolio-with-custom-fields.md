@@ -1,8 +1,8 @@
 ---
 title: "Prioritizing the portfolio with custom fields"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/24/2019
 audience: admin
 ms.topic: article

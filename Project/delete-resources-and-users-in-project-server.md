@@ -1,8 +1,8 @@
 ---
 title: "Delete resources and users in Project Server"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 9/6/2017
 audience: ITPro
 ms.topic: article

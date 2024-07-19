@@ -1,8 +1,8 @@
 ---
 title: Create security categories in Project Server
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 11/27/2017
 audience: ITPro
 ms.topic: article

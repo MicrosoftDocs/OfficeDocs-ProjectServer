@@ -1,9 +1,9 @@
 ---
 title: Licenses for customizations of Project for the web
 description: Custom solutions built on Project for the web require licenses when used with the Project solution. Your custom solution itself should also have some kind of license, but you might want to make it as freely-available as possible to encourage others to build on your work.  
-author: v-stthomas
-ms.author: serdars
-manager: deniseb
+author: jenzamora
+ms.author: jenz
+manager: jtremper
 ms.service: project-web
 ms.topic: how-to
 ms.date: 04/15/2022

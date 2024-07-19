@@ -1,8 +1,8 @@
 ---
 title: "Project Server 2016 architecture"
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 8/31/2016
 audience: ITPro
 ms.topic: conceptual

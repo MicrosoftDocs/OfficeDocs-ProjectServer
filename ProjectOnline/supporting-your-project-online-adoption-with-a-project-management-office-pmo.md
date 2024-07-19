@@ -1,8 +1,8 @@
 ---
 title: "Supporting your Project Online adoption with a Project Management Office (PMO)"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 1/24/2018
 audience: admin
 ms.topic: conceptual

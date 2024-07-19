@@ -1,8 +1,8 @@
 ---
 title: "Delete user data from Project Online"
-ms.author: serdars
-author: SerdarSoysal
-manager: pamgreen
+ms.author: jenz
+author: jenzamora
+manager: jtremper
 ms.date: 5/25/2018
 audience: admin
 ms.topic: article
