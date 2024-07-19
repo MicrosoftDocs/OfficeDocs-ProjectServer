@@ -1,7 +1,7 @@
 ---
 title: "Scheduling modes"
 ms.author: jenz
-author: v-smandalika
+author: jenzamora
 manager: jtremper
 ms.date: 09/08/2021
 audience: admin

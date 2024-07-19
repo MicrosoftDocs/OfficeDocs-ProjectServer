@@ -1,8 +1,8 @@
 ---
 
 title: "Task History Definition"
-ms.author: namerali
-author: nadinmerali
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 6/30/2023
 audience: admin

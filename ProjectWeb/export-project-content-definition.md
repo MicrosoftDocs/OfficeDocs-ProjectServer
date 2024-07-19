@@ -1,8 +1,8 @@
 ---
 
 title: "Export Content Definition"
-ms.author: namerali
-author: nadinmerali
+ms.author: jenz
+author: jenzamora
 manager: jtremper
 ms.date: 2/17/2023
 audience: admin

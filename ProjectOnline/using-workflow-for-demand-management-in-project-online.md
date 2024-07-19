@@ -1,7 +1,7 @@
 ---
 title: "Using workflow for demand management in Project Online"
-ms.author: kenwith
-author: kenwith
+ms.author: jenzamora
+author: jenzamora
 manager: jtremper
 ms.date: 2/17/2016
 audience: admin

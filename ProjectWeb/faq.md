@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-ms.author: alexla
+ms.author: jenzamora
 author: BeReasonable
 manager: hocull
 ms.date: 01/07/2021

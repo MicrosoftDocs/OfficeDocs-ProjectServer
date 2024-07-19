@@ -1,7 +1,7 @@
 ---
 title: Integrate Project for the web into your project management processes  
 description: Learn how Project for the web differs from Project Web App. Decide which projects can use default Project for the web features, and how to customize the Project Power App to conform Project. Deploy the Project for the web Accelerator and Power BI template to get a head start with pre-built customizations.
-author: v-stthomas
+author: jenzamora
 ms.author: jenz
 manager: jtremper
 ms.service: project-web

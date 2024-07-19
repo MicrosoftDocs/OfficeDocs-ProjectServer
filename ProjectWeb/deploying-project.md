@@ -1,6 +1,6 @@
 ---
 title: "Deploying Project for the web"
-ms.author: alexla
+ms.author: jenzamora
 author: BeReasonable
 manager: hocull
 ms.date: 08/24/2021

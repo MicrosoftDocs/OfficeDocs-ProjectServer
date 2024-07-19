@@ -2,8 +2,8 @@
 title: "Manage self-service purchases and organizational trials for Microsoft Project"
 f1.keywords:
 - NOCSH
-ms.author: v-smandalika
-author: v-smandalika
+ms.author: jenzamora
+author: jenzamora
 manager: jtremper
 ms.date: 11/28/2023
 audience: Admin

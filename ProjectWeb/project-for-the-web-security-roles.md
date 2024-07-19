@@ -1,7 +1,7 @@
 ---
 title: "Project for the Web Security Roles"
-ms.author: namerali
-author: NadinMerali
+ms.author: jenz
+author: jenzamora
 manager: hocull
 ms.date: 01/07/2021
 audience: admin
