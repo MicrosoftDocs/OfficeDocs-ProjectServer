@@ -24,7 +24,7 @@ In Dynamics 365, you can create more [business units](/power-platform/admin/crea
 ## To apply the Project User role to a business unit
 
 > [!NOTE]
-> You must be a Global Admin to do this.
+> A database administrator in Dataverse can perform this task.
 
 1. In the Dynamics 365 Administration Center, for your default instance, click **Open**.
 2. On the PowerApps Settings Apps page, click **Project**.
