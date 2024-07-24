@@ -43,9 +43,7 @@ Do the following to unblock *plannertenantadmin.psm1*:
 
     ![unblock-files.](media/unblock-files.png) 
    
-4. Select **OK**.
-
-5. Repeat these steps for the remaining two files.
+1. Select **OK**.
 
 ## Load the Planner Tenant Admin PowerShell module
 
