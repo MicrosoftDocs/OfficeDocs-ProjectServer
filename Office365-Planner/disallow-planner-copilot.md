@@ -3,14 +3,14 @@
 # For more information, see https://review.learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata?branch=main
 # For valid values of ms.service, ms.prod, and ms.topic, see https://review.learn.microsoft.com/en-us/help/platform/metadata-taxonomies?branch=main
 
-title:       # Add a title for the browser tab
-description: # Add a meaningful description for search results
+title: Disallow Planner Copilot for your organization
+description: This document walks you through the process of disallowing the Planner Copilot feature for your organization through our PowerShell suite
 author:      jevaudri # GitHub alias
 ms.author:   jevaudri # Microsoft alias
-ms.service:  # Add the ms.service or ms.prod value
-# ms.prod:   # To use ms.prod, uncomment it and delete ms.service
-ms.topic:    # Add the ms.topic value
+ms.service: office-perpetual-itpro
+ms.topic: how-to
 ms.date:     07/23/2024
+ms.subservice: planner
 ---
 
 # Disallow Planner Copilot for your organization
