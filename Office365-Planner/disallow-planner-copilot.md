@@ -16,7 +16,7 @@ ms.localizationpriority: high
 ms.reviewer: jevaudri
 ---
 
-# Disallow Planner Copilot for your organization
+# Disallow Copilot in Planner for your organization
 
 ## Overview
 
