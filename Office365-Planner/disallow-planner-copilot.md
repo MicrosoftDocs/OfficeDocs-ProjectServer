@@ -3,8 +3,8 @@
 # For more information, see https://review.learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata?branch=main
 # For valid values of ms.service, ms.prod, and ms.topic, see https://review.learn.microsoft.com/en-us/help/platform/metadata-taxonomies?branch=main
 
-title: Disallow Planner Copilot for your organization
-description: This document walks you through the process of disallowing the Planner Copilot feature for your organization through our PowerShell suite
+title: Disallow Copilot in Planner for your organization
+description: This document walks you through the process of disallowing the Copilot in Planner feature for your organization through our PowerShell suite
 author: jenzamora
 ms.author: jenz
 ms.service: office-perpetual-itpro
