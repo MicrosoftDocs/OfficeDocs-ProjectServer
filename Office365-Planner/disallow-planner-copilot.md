@@ -5,12 +5,15 @@
 
 title: Disallow Planner Copilot for your organization
 description: This document walks you through the process of disallowing the Planner Copilot feature for your organization through our PowerShell suite
-author:      jevaudri # GitHub alias
-ms.author:   jevaudri # Microsoft alias
+author: jenzamora
+ms.author: jenz
 ms.service: office-perpetual-itpro
 ms.topic: how-to
 ms.date:     07/25/2024
 ms.subservice: planner
+manager: jtremper
+ms.localizationpriority: high
+ms.reviewer: jevaudri
 ---
 
 # Disallow Planner Copilot for your organization
