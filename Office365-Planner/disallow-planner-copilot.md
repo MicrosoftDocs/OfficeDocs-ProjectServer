@@ -27,15 +27,14 @@ Copilot in Planner provides an in-app natural language chat experience that will
 Choosing to turn off this feature will hide this functionality from customers in the adjusted organization.
 
 > [!NOTE]
-> If the Copilot in Planner feature needs to be turned off for a tenant that has Planner Plan 1, Project Plan 3 or Project Plan 5 but doesn't have Planner (included with M365), please open a request with support to have it turned off for your organization.
-
+> If Copilot in Planner needs to be turned off for a tenant that has Planner Plan 1, Project Plan 3 or Project Plan 5 but doesn't have Planner (included with M365), please open a request with support to have it turned off for your organization.
 > [!NOTE]
 > The effect is not instantaneous. It takes up to an hour after running the command to change the setting.
 ## Prerequisites for making Planner changes in Windows PowerShell
 
 Follow the steps in [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md) to make Planner changes in Windows PowerShell.
 
-## Turn off the Copilot in Planner feature
+## Turn off Copilot in Planner
 
 1. Open PowerShell and run the following command to turn off the Copilot in Planner feature:
 
