@@ -30,29 +30,24 @@ If you're new to Windows PowerShell, see [Getting started with Windows PowerShel
 > [!NOTE]
 > By downloading this package, you agree to the enclosed license and terms.
 
-Download the [Planner Tenant Admin PowerShell file](https://download.microsoft.com/download/0/7/5/07576f1c-b366-4a89-9297-f2ebc3df397c/planner-tenant-admin.zip). Unzip it to a location you can access from PowerShell.
+Download the [Planner Tenant Admin PowerShell file](https://download.microsoft.com/download/d/3/e/d3e7ade9-56c3-4f7b-b3e2-03ffdab2c964/tenant-admin-scripts.zip). Unzip it to a location you can access from PowerShell.
 ## Unblock your files
 
-You'll need to "unblock" two of the files you downloaded in the Planner Tenant Admin PowerShell package in order to user them in PowerShell. This is because by default, executing scripts downloaded from the Internet isn't allowed. The files you need to unblock are:
+You'll need to "unblock" one of the files you downloaded in the Planner Tenant Admin PowerShell package in order to use them in PowerShell. This is because by default, executing scripts downloaded from the Internet isn't allowed. The file you need to unblock is *plannertenantadmin.psm1*.
 
-- plannertenantadmin.psm1
-- microsoft.identity.client.dll
-
-Do the following to unblock these files:
+Do the following to unblock *plannertenantadmin.psm1*:
 
 1. In File Explorer, go to the location in which you unzipped your files.
-2. Right-click on one of the unzipped files noted above, and select Properties.
-3. On the General tab, select **Unblock**.
+1. Right-click on *plannertenantadmin.psm1* and select **Properties**.
+1. On the General tab, select **Unblock**.
 
     ![unblock-files.](media/unblock-files.png) 
-
-4. Select **OK**.
-
-5. Repeat these steps for the remaining two files.
+   
+1. Select **OK**.
 
 ## Load the Planner Tenant Admin PowerShell module
 
-After unblocking your files, do the following to load the Planner Tenant Admin PowerShell module:
+After unblocking your *plannertenantadmin.psm1*, do the following to load the Planner Tenant Admin PowerShell module:
 
 1. Start Windows PowerShell. In PowerShell, type the following to enable running scripts downloaded from the internet for this session only. It might prompt you to confirm by typing "Y."
 

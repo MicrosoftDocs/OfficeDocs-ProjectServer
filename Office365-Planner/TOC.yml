@@ -42,3 +42,5 @@ Items:
     href: planner-in-purview.md
   - name: How to turn off Planner for your organization
     href: disable-planner.md
+  - name: Turn off Copilot in Planner for your organization
+    href: turn-off-copilot-planner.md
