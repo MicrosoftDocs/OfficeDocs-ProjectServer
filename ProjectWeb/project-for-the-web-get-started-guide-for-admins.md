@@ -37,7 +37,7 @@ The follow can be helpful to you if you’re an admin who wants to learn more ab
 - [Project for the web and Project Online](https://go.microsoft.com/fwlink/?linkid=2108305)
 - [Project for the web and Project Online desktop client](https://go.microsoft.com/fwlink/?linkid=2108306)
 - [Deploying Project for the web](deploying-project.md)
-- [Customizing Project for the web](https://go.microsoft.com/fwlink/?linkid=2108401)
+- [Customization best practices and limitations for Project for the web](customize-project-best-practices-limitations.md)
 - [Microsoft Project Service Description](/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
 ## Turn off Project for the web for specific users
