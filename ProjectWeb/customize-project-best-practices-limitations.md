@@ -28,6 +28,7 @@ audience: admin
 
 - Always create a managed solution that contains your customizations, so you can layer them on top of the Project solution.
 - Use the [Power Apps portal](https://make.powerapps.com/) to make easy changes. If you find you need to do something and can't find a way in the Power Apps portal, use the [Power Apps solution explorer](/powerapps/maker/data-platform/create-edit-field-solution-explorer), which provides more advanced options.
+- To avoid errors during importing your solutions, ensure your solution does not attempt to modify locked properties within the Project solution
 
 ## General limitations
 
