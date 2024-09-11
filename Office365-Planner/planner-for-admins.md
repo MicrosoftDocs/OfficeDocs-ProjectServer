@@ -40,7 +40,7 @@ To turn off Planner for your organization, see [How to turn off Planner for your
 To turn off just the Planner Loop component, see [How to turn off the Planner component for your organization](disable-planner-component.md).
 
 > [!NOTE]
-> Removing a user's Planner license only prevents them from navigating to Planner using the Planner tile. Users in your organization without licenses to Planner can still create and modify plans at the direct Planner URL: tasks.</span>office.</span>com. You can remove users' ability to create plans at tasks.office.com (see [How do I manage who can create a plan?](#how-do-i-manage-who-can-create-a-plan)), but you can't remove their ability to see and modify existing plans at tasks.</span>office.</span>com at this time.
+> Removing a user's Planner license only prevents them from navigating to Planner using the Planner tile. Users in your organization without licenses to Planner can still create and modify plans at the direct Planner URL: planner.</span>cloud.</span>microsoft. You can remove users' ability to create plans at planner.cloud.microsoft (see [How do I manage who can create a plan?](#how-do-i-manage-who-can-create-a-plan)), but you can't remove their ability to see and modify existing plans at planner.</span>cloud.</span>microsoft at this time.
 
 ## How do I manage who can create a plan?
 
@@ -54,7 +54,7 @@ Admins can control who can create a Group by using Azure AD PowerShell. Follow t
 > [!IMPORTANT]
 >
 > - Disabling group creation for your organization will affect users of other Microsoft services that need group creation, such as Exchange Online. Make sure to account for all people in your organization that need the ability to create groups when you configure this setting.
-> - Controlling who can create Microsoft 365 Groups only prevents users from creating new plans. They will still be able to see and modify existing plans at tasks.</span>office.</span>com.
+> - Controlling who can create Microsoft 365 Groups only prevents users from creating new plans. They will still be able to see and modify existing plans at planner.</span>cloud.</span>microsoft.
 
 ## How do I change the domain that Planner email notifications come from?
 
