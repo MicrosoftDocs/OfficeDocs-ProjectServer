@@ -8,7 +8,7 @@ ms.service: office-perpetual-itpro
 ms.subservice: planner
 ms.topic: how-to 
 ms.date: 04/30/2024
-ms.localization_priority: medium
+ms.localizationpriority: medium
 audience: Admin
 ---
 
