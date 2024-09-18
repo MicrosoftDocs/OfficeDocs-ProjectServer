@@ -16,46 +16,42 @@ ms.localizationpriority: high
 ms.reviewer: jevaudri
 ---
 
-# Turn off Copilot in Planner for your organization
+# Turn off Microsoft 365 Copilot in Planner for your organization
 
 ## Overview
 
-Because Planner has enabled a Copilot experience, we're adding the ability for tenant administrators to turn this feature off for their tenants.
-
-Copilot in Planner provides an in-app natural language chat experience that will allow users to request updates to their Plan as well as summaries and insights from the Plan content.
-
-Choosing to turn off this feature will hide this functionality from customers in the adjusted organization.
+Microsoft 365 Copilot in Planner offers an in-app natural language chat experience, allowing your users to request updates to their Plans and receive summaries and insights from the Plan content. As an admin, you can turn Microsoft 365 Copilot in Planner on or off. When you turn off Microsoft 365 Copilot in Planner, the functionality is hidden from your users.
 
 > [!NOTE]
-> If Copilot in Planner needs to be turned off for a tenant that has Planner Plan 1, Project Plan 3 or Project Plan 5 but doesn't have Planner (included with M365), please open a request with support to have it turned off for your organization.
-> [!NOTE]
-> The effect is not instantaneous. It takes up to an hour after running the command to change the setting.
-## Prerequisites for making Planner changes in Windows PowerShell
+> If Microsoft 365 Copilot in Planner needs to be turned off for a tenant that has Planner Plan 1, Project Plan 3 or Project Plan 5 but doesn't have Planner (included with M365), open a request with support to have it turned off for your organization. 
+## Prerequisites
 
 Follow the steps in [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md) to make Planner changes in Windows PowerShell.
 
-## Turn off Copilot in Planner
 
-1. Open PowerShell and run the following command to turn off the Copilot in Planner feature:
+## Turn off Microsoft 365 Copilot in Planner
 
-      ```PowerShell
+> [!NOTE]
+> It might take up to an hour to reflect the policy changes.
+
+1. Sign in to PowerShell using your Microsoft Entra credentials and use a local PowerShell window (not Azure Cloud Shell).
+
+1. Open PowerShell and run the following command to turn off Microsoft 365 Copilot in Planner:
+
+   ```PowerShell 
    Set-PlannerConfiguration -AllowPlannerCopilot $false
    ```
    
-      Likewise, if you want to re-allow the feature, run the below command:
-
-      ```PowerShell
+   To turn on Microsoft 365 Copilot in Planner, run the following command:
+   
+   ```PowerShell
    Set-PlannerConfiguration -AllowPlannerCopilot $true
    ```
    
-> [!NOTE]
-> You'll need to sign in using your Microsoft Entra credentials and use a local PowerShell window (not Azure Cloud Shell).
+1. To verify your settings, run the following command:
 
-2. To verify your settings, run:
-
-   ```PowerShell
+      ```PowerShell
    Get-PlannerConfiguration
    ```
 
-   The AllowPlannerCopilot value returned by this command indicates whether the Copilot in Planner experience is allowed to be enabled for your organization.
-   
+The value for **`-AllowPlannerCopilot`**  returned by the 'Get-PlannerConfiguration' command indicates whether Microsoft 365 Copilot in Planner can be turned on for your organization.
