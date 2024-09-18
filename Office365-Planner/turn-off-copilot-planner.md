@@ -54,4 +54,4 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
    Get-PlannerConfiguration
    ```
 
-The value for **`-AllowPlannerCopilot`**  returned by the 'Get-PlannerConfiguration' command indicates whether Microsoft 365 Copilot in Planner can be turned on for your organization.
+The value for **`-AllowPlannerCopilot`**  returned by the 'Get-PlannerConfiguration' command shows whether Microsoft 365 Copilot in Planner can be turned on for your organization.
