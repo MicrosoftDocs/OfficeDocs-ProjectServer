@@ -1,5 +1,5 @@
 ---
-title: "Understand Planner trials and license assignments for administrators"
+title: "Understand Planner trials and license assignments"
 description: "Learn about 30-day user trials of Planner and how to assign licenses."
 author: jenzamora 
 ms.author: jenz 
