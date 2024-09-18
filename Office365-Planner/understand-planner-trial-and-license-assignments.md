@@ -22,6 +22,7 @@ When your users follow the prompts to enable a 30-day trial, they're provided ac
 
 > [!IMPORTANT]
 > Microsoft 365 Copilot in Planner (preview) is beginning to roll out. When your organization receives this product update, your users can use this Copilot functionality in their 30-day trial or with your organization's license of Project Plan 3 or Plan 5.
+
 During the trial period, your users can explore all the functionalities offered by the plan and gain insights into how it can benefit their workflow and project management tasks. At the end of the 30-day trial, they can request a premium license from their Microsoft 365 administrator.
 
 ## Approve license requests
