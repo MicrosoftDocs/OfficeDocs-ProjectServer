@@ -137,30 +137,14 @@ Items:
       href: supporting-your-project-online-adoption-with-a-project-management-office-pmo.md
     - name: Project Online implementation cookbook
       href: /project/project-online-implementation-cookbook
-    - name: Enterprise system best practices
-      href: enterprise-system-best-practices-white-paper.md
-    - name: The project management system maturity model
-      href: the-project-management-system-maturity-model-white-paper.md
-    - name: EPM—Centralized or decentralized?
-      href: epm-centralized-or-decentralizedwhite-paper.md
-    - name: Dashboard directions
-      href: dashboard-directions-white-paper.md
-    - name: Creating an EPM Deployment Plan
-      href: creating-an-epm-deployment-plan-white-paper.md
     - name: The challenges of selecting enterprise software
       href: the-challenges-of-selecting-enterprise-software-white-paper.md
-    - name: The Seven Deadly Sins of Project Schedules
-      href: the-seven-deadly-sins-of-project-schedules-white-paper.md
     - name: 7 Ways to Sustain Adoption of your PPM Solution, Post-Implementation
       href: 7-ways-to-sustain-adoption-of-your-ppm-solution-post-implementation-white-paper.md
     - name: Cancelling a project without cancelling your career
       href: cancelling-a-project-without-cancelling-your-career-white-paper.md
     - name: We're selling holes, not drills!
       href: we-re-selling-holes-not-drills!-white-paper.md
-    - name: The Bat phone
-      href: the-bat-phone-white-paper.md
-    - name: Balancing the matrix
-      href: balancing-the-matrix-white-paper.md
     - name: Charging Ahead on Charge Codes
       href: charging-ahead-on-charge-codes-white-paper.md
     - name: Being a solutions buyer
@@ -183,14 +167,6 @@ Items:
       href: are-we-there-yetwhite-paper.md
     - name: GPS assistance in roadmapping an EPM deployment
       href: gps-assistance-in-roadmapping-an-epm-deployment-white-paper.md
-    - name: Top-down or bottom-up
-      href: top-down-or-bottom-up-white-paper.md
-    - name: Aligning projects with strategic drivers
-      href: aligning-projects-with-strategic-drivers-white-paper.md
-    - name: A phased approach to deploying enterprise project management
-      href: a-phased-approach-to-deploying-enterprise-project-management-white-paper.md
-    - name: Resource management
-      href: resource-management-white-paper.md
   - name: Maintain user data
     items:
     - name: Delete user data from Project Online
