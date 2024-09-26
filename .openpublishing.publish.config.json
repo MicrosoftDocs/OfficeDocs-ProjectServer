@@ -1,6 +1,18 @@
 {
   "docsets_to_publish": [
     {
+      "docset_name": "Office365-Planner",
+      "build_source_folder": "Planner",
+      "build_output_subfolder": "Office365-Planner",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs"
+    },
+    {
       "docset_name": "OfficeDocs-ProjectOnline",
       "build_source_folder": "ProjectOnline",
       "build_output_subfolder": "OfficeDocs-ProjectOnline",
