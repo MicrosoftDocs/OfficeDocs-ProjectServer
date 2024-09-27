@@ -23,13 +23,13 @@ This article describes periodic checks Project Online admins should perform to m
   
 Project Online administrators should perform the following periodic checks to their environment as an important part of their job:
   
-|**Daily**|
+| Daily |
 |:-----|
 |Check the queue for  *Failed and Blocking*  jobs. |
 |Review the errors related to  *Failed and Blocking*  jobs to troubleshoot. |
 |Cancel  *Failed and Blocking*  jobs. |
    
-|**Weekly**|
+| Weekly |
 |:-----|
 |Check Active Directory synchronization jobs to ensure they were successful. |
 |Update Resource Breakdown Structure (RBS) values for new users. Newly synched users won't have an RBS.  <br/>  NOTE: This may be the job of the PMO.           |
@@ -38,19 +38,19 @@ Project Online administrators should perform the following periodic checks to th
 |Check the ADMINISTRATORS group for admins that should be removed. |
 |Check for news on upcoming features or updates. |
    
-|**Monthly**|
+| Monthly |
 |:-----|
 |Provide timesheet training to new users. |
 |Provide project manager training to new project managers. |
 |Check on license usage. For example, use data to follow up with users on licenses that are not being used. |
    
-|**Quarterly**|
+| Quarterly |
 |:-----|
 |Close timesheet periods for the previous quarter plus one or some similar period. For example, if you are in Q4, close the timesheet reporting periods for Q2. The interval will be based on business or reporting needs. |
 |Check with the project manager first, then close tasks to updates on projects that are complete or mostly compete or that have older tasks. |
 |Delete timesheets from the past. Again, this will be defined by a policy that is based on business needs for reporting timesheet data. |
    
-|**Yearly**|
+| Yearly |
 |:-----|
 |Create fiscal periods for the next calendar year. |
 |Create timesheet periods for the next calendar year. The prefix might equal "Week.", starting at 1, and the suffix might be the calendar year, such as ".2016". Week 1's period will show as "Week.1.2016". |
