@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
 ms.subservice: planner
-ms.localization_priority: medium
+ms.localizationpriority: medium
 ---
 # Microsoft Planner limits
 
