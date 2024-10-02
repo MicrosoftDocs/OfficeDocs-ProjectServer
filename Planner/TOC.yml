@@ -28,6 +28,8 @@ Items:
     href: disabling-direct-push-planner-mobile-notifications.md
   - name: Access Microsoft Planner Roster
     href: access-planner-roster.md
+  - name: Disable the conversion of basic plans by users into premium plans 
+    href: allow-data-flow-to-dataverse.md
   - name: Converting basic plans into premium plans
     href: plan-conversion.md
   - name: Downgrading a premium plan
