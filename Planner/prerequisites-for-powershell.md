@@ -22,7 +22,7 @@ This procedure walks you through downloading the files needed to run Planner adm
 
 If you're new to Windows PowerShell, see [Getting started with Windows PowerShell](/powershell/scripting/learn/ps101/01-getting-started).
 
-## Pr Planner Tenant Admin PowerShell Dependencies
+## Planner Tenant Admin PowerShell Dependencies
 
 1. Verify Installation: Check if the MSAL.PS module is installed by running the following command in PowerShell:
    ```PowerShell
