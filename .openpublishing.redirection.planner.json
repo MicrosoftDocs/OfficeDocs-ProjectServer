@@ -1,0 +1,109 @@
+{
+  "redirections": [
+    {
+      "source_path": "Planner_redirection/access-planner-roster.md",
+      "redirect_url": "/planner/access-planner-roster",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/block-non-owner-task-deletion.md",
+      "redirect_url": "/planner/block-non-owner-task-deletion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/delete-user-data.md",
+      "redirect_url": "/planner/delete-user-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/disable-planner-component.md",
+      "redirect_url": "/planner/disable-planner-component",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/disable-planner.md",
+      "redirect_url": "/planner/disable-planner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/disable-roster-containers.md",
+      "redirect_url": "/planner/disable-roster-containers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/disabling-direct-push-planner-mobile-notifications.md",
+      "redirect_url": "/planner/disabling-direct-push-planner-mobile-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/disallow-container-sharing-types.md",
+      "redirect_url": "/planner/disallow-container-sharing-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/enable-organization-planner-tenant-move.md",
+      "redirect_url": "/planner/enable-organization-planner-tenant-move",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/export-user-data.md",
+      "redirect_url": "/planner/export-user-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/index.yml",
+      "redirect_url": "/planner/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/plan-conversion.md",
+      "redirect_url": "/planner/plan-conversion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/plan-downgrade.md",
+      "redirect_url": "/planner/plan-downgrade",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/planner-for-admins.md",
+      "redirect_url": "/planner/planner-for-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/planner-in-purview.md",
+      "redirect_url": "/planner/planner-in-purview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/planner-limits.md",
+      "redirect_url": "/planner/planner-limits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/prerequisites-for-powershell.md",
+      "redirect_url": "/planner/prerequisites-for-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/track-message-center-tasks-planner.md",
+      "redirect_url": "/planner/track-message-center-tasks-planner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/turn-off-copilot-planner.md",
+      "redirect_url": "/planner/turn-off-copilot-planner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/turn-off-outlook-calendar-sync.md",
+      "redirect_url": "/planner/turn-off-outlook-calendar-sync",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Planner_redirection/understand-planner-trial-and-license-assignments.md",
+      "redirect_url": "/planner/understand-planner-trial-and-license-assignments",
+      "redirect_document_id": false
+    }
+  ]
+}
