@@ -1,2 +1,2 @@
 > [!NOTE]
-> Microsoft Project for the web will soon become Microsoft Planner, which is currently rolling out to customers. To learn more about setting up the new Planner for your org, see [Microsoft Planner for admins](../../Planner/planner-for-admins.md).
+> Microsoft Project for the web will soon become Microsoft Planner, which is currently rolling out to customers. To learn more about setting up the new Planner for your organization, see [Microsoft Planner for admins](../../Planner/planner-for-admins.md).
