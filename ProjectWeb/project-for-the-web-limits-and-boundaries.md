@@ -26,12 +26,13 @@ There are important limitations that you should know if you are using Project fo
   
 | Field | Limit |
 |:-----|:-----|:-----|
-|Maximum total tasks for a project |1000 |
+|Maximum total tasks for a project |1500<sup>1</sup> |
 |Maximum total duration for a project |3650 days (10 years) |
 |Maximum total resources for a project |300 |
 |Maximum total links (successor only) for a project |600 |
 |Maximum total custom fields for a project |10 |
 
+<sup>1</sup> Project for the web supports a maximum of 1000 tasks per project during conversion from basic plan to a project.
 
 ## Task limitations
 
