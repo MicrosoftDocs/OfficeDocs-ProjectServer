@@ -2,7 +2,7 @@ Items:
 - name: Admin home
   href: index.yml
   items:
-  - name: Microsoft Planner for admins
+  - name: Welcome to Planner
     href: planner-for-admins.md
     -name: Licensing
     items:
