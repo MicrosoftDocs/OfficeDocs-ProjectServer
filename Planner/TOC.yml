@@ -60,6 +60,8 @@ Items:
       href: planner-limits.md
     - name: Prerequisites for making Planner changes in Windows PowerShell
       href: prerequisites-for-powershell.md
+  - name: Project documentation for admins
+    href: /learn.microsoft.com/project
   
   
   
