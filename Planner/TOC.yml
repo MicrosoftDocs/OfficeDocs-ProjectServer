@@ -2,9 +2,11 @@ Items:
 - name: Admin home
   href: index.yml
   items:
-  - name: Welcome to Planner
+  - name: Overview
     href: planner-for-admins.md
     -name: Licensing
+    items:
+  - name: Licensing
     items:
     - name: Understand Planner trial and license assignments
       href: understand-planner-trial-and-license-assignments.md
