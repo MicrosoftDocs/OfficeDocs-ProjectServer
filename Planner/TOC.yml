@@ -12,7 +12,7 @@ Items:
       href: understand-planner-trial-and-license-assignments.md
     - name: How to use Office 365 PowerShell to manage Microsoft Planner licenses
       href: /microsoft-365/troubleshoot/licensing/how-to-use-office-365-powershell-to-manage-microsoft-planner-licenses
-  - name: Manage capabilities for your organization
+  - name: Manage capabilities for your org
     items:
     - name: Block a user from deleting tasks in Microsoft Planner they didn't create
       href: block-non-owner-task-deletion.md 
