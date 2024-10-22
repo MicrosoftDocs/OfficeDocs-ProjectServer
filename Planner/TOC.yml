@@ -1,48 +1,65 @@
 Items:
-- name: Admin home
+- name: Welcome to Microsoft Planner
   href: index.yml
   items:
-  - name: Microsoft Planner for admins
+  - name: Overview
     href: planner-for-admins.md
-  - name: Understand Planner trial and license assignments
-    href: understand-planner-trial-and-license-assignments.md
-  - name: Microsoft Planner limits
-    href: planner-limits.md
-  - name: Turn off Outlook calendar sync in Planner for your organization
-    href: turn-off-outlook-calendar-sync.md
-  - name: Delete user data in Microsoft Planner
-    href: delete-user-data.md
-  - name: Export user data from Microsoft Planner
-    href: export-user-data.md
-  - name: How to use Office 365 PowerShell to manage Microsoft Planner licenses
-    href: /office365/troubleshoot/administration/how-to-use-office-365-powershell-to-manage-microsoft-planner-licenses
-  - name: Track your message center tasks in Planner
-    href: track-message-center-tasks-planner.md
-  - name: Enable your organization's Planner tenant to be moved
-    href: enable-organization-planner-tenant-move.md
-  - name: Disable creation of Roster containers in Microsoft Planner
-    href: disable-roster-containers.md
-  - name: How to turn off the Planner component for your organization
-    href: disable-planner-component.md
-  - name: Disabling direct-push notifications for your organization
-    href: disabling-direct-push-planner-mobile-notifications.md
-  - name: Access Microsoft Planner Roster
-    href: access-planner-roster.md
-  - name: Disable the conversion of basic plans by users into premium plans 
-    href: allow-data-flow-to-dataverse.md
-  - name: Converting basic plans into premium plans
-    href: plan-conversion.md
-  - name: Downgrading a premium plan
-    href: plan-downgrade.md
-  - name: Block a user from deleting tasks in Microsoft Planner they didn't create
-    href: block-non-owner-task-deletion.md
-  - name: Disallow container types for usage in container sharing
-    href: disallow-container-sharing-types.md
-  - name: Prerequisites for making Planner changes in Windows PowerShell
-    href: prerequisites-for-powershell.md
-  - name: Microsoft Planner support in Microsoft Purview
-    href: planner-in-purview.md
-  - name: How to turn off Planner for your organization
-    href: disable-planner.md
-  - name: Turn off Copilot in Planner for your organization
-    href: turn-off-copilot-planner.md
+    -name: Licensing
+    items:
+  - name: Licensing
+    items:
+    - name: Understand Planner trial and license assignments
+      href: understand-planner-trial-and-license-assignments.md
+    - name: How to use Office 365 PowerShell to manage Microsoft Planner licenses
+      href: /microsoft-365/troubleshoot/licensing/how-to-use-office-365-powershell-to-manage-microsoft-planner-licenses
+  - name: Set up and manage Planner
+    items:
+    - name: Block a user from deleting tasks in Microsoft Planner they didn't create
+      href: block-non-owner-task-deletion.md 
+    - name: Disable the conversion of basic plans by users into premium plans 
+      href: allow-data-flow-to-dataverse.md
+    - name: Disable creation of Roster containers in Microsoft Planner
+      href: disable-roster-containers.md
+    - name: Enable your organization's Planner tenant to be moved
+      href: enable-organization-planner-tenant-move.md
+    - name: How to turn off Planner for your organization
+      href: disable-planner.md
+    - name: How to turn off the Planner component for your organization
+      href: disable-planner-component.md
+    - name: Microsoft Planner support in Microsoft Purview
+      href: planner-in-purview.md
+    - name: Turn off Copilot in Planner for your organization
+      href: turn-off-copilot-planner.md
+    - name: Turn off Outlook calendar sync in Planner for your organization
+      href: turn-off-outlook-calendar-sync.md
+  - name: Plans
+    items:
+    - name: Converting basic plans into premium plans
+      href: plan-conversion.md
+    - name: Downgrading a premium plan
+      href: plan-downgrade.md
+  - name: Notifications
+    items:
+    - name: Disabling direct-push notifications for your organization
+      href: disabling-direct-push-planner-mobile-notifications.md
+    - name: Track your message center tasks in Planner
+      href: track-message-center-tasks-planner.md
+  - name: Data management
+    items:
+    - name: Export user data from Microsoft Planner
+      href: export-user-data.md
+    - name: Delete user data in Microsoft Planner
+      href: delete-user-data.md
+    - name: Disallow container types for usage in container sharing
+      href: disallow-container-sharing-types.md
+    - name: Access Microsoft Planner Roster
+      href: access-planner-roster.md
+  - name: Reference
+    items:
+    - name: Microsoft Planner limits
+      href: planner-limits.md
+    - name: Prerequisites for making Planner changes in Windows PowerShell
+      href: prerequisites-for-powershell.md
+  - name: Project documentation for admins
+    href: /project/
+  
